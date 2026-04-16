@@ -1,0 +1,37 @@
+{
+  "slug": "brea-movers",
+  "parentSlug": null,
+  "title": "Brea's #1 Movers from $115/Hour | We Handle It All",
+  "metaDescription": "Your trusted Brea movers for local & interstate moves. We guarantee expert service and careful handling of all your items. Get a free quote!",
+  "canonicalUrl": "/brea-movers",
+  "heroTitle": "Brea Movers",
+  "heroSubtitle": "Your trusted Brea moving service for local and interstate moves, expert service guaranteed.",
+  "heroImage": "/images/cities/67115eebff11abf6fca736d3_Brea.webp",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "Trusted & Insured Moving Company in Brea, CA",
+      "content": "Our Brea movers are well trained, and therefore, highly skilled to move belongings in and out of the buildings without damaging the walls, doors, doorways, and floors. We have expert moving crews, competent at handling both heavy and fragile items, ensuring they get to your new location in the original condition. We invite you to join hundreds of satisfied customers who experienced our services. Request a free quote and take the first step to a blissful moving experience.Our Brea movers are well trained, and therefore, highly skilled to move belongings in and out of the buildings without damaging the walls, doors, doorways, and floors. We have expert moving crews, competent at handling both heavy and fragile items, ensuring they get to your new location in the original condition. We invite you to join hundreds of satisfied customers who experienced our services. Request a free quote and take the first step to a blissful moving experience.Our company has full-service movers who are constantly trained to achieve the highest level of proficiency in all types of moving: local, long-distance, or commercial. Our movers and packers in Brea use the quality supplies and materials to pack your belongings for all our moves. Save your time and enjoy an extremely pleasant move with us.Our company has full-service movers who are constantly trained to achieve the highest level of proficiency in all types of moving: local, long-distance, or commercial. Our movers and packers in Brea use the quality supplies and materials to pack your belongings for all our moves. Save your time and enjoy an extremely pleasant move with us.",
+      "image": "/images/cities/645ab1d97922878e7c5bf0ac_oc-img-1.webp"
+    },
+    {
+      "type": "content",
+      "title": "Office Movers in Brea, CA",
+      "content": "Our office movers in Brea deliver top-level commercial moving services. We’ll cope with any office furniture, professional equipment, and even medical practice. Due to a professional approach to all stages of your office move, we help you not to lose excitement and inspiration from your new office in the overwhelming packing, lifting, and unpacking process.Our office movers in Brea deliver top-level commercial moving services. We’ll cope with any office furniture, professional equipment, and even medical practice. Due to a professional approach to all stages of your office move, we help you not to lose excitement and inspiration from your new office in the overwhelming packing, lifting, and unpacking process.",
+      "image": "/images/cities/66f3e4d58621612f58b199d6_team.webp"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

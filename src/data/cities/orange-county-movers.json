@@ -1,0 +1,37 @@
+{
+  "slug": "orange-county-movers",
+  "parentSlug": null,
+  "title": "Trusted 4.9-star Orange County movers (from $119/hr)",
+  "metaDescription": "Let our trusted Orange County movers turn your moving day into a smooth, stress-free experience you’ll actually enjoy. Get your free quote now!",
+  "canonicalUrl": "/orange-county-movers",
+  "heroTitle": "Licensed Movers in Orange County",
+  "heroSubtitle": "OC’s go-to movers from $119/hr Fully insured and hassle-free",
+  "heroImage": "/images/cities/6974c9dfe6f7b5a73cadd3bd_Orange County Movers.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "SOS Moving — Top Rated Movers in Orange County",
+      "content": "Why Orange County residents choose SOS Moving:Local OC Experts: Fully licensed & insured (USDOT 3398018), with deep knowledge of OC's diverse neighborhoods.Proven Reputation: 2,300+ happy customers with top ratings on Google (4.9★) & Yelp (4.8★).Upfront Pricing: Fair rates from $119/hour with no surprises. A 3- or 4-hour minimum applies to all moves based on your zip code.Why Orange County residents choose SOS Moving:Professional packing for all fragile & bulky itemsCustom crating for TVs, artwork, and valuablesCareful disassembly and reassembly of furniture",
+      "image": "/images/cities/689629e99e5fc676160f458e_movers-loading.jpg"
+    },
+    {
+      "type": "content",
+      "title": "Office Movers in Orange County, CA",
+      "content": "Our teams are trained to handle the specific assets that keep your business running. We securely transport everything from critical IT server racks and confidential client files to the specialized equipment found in medical and dental offices. Our meticulous approach at every stage—from packing to setup—is designed to protect your assets and get your team back to full productivity with minimal delay.Our teams are trained to handle the specific assets that keep your business running. We securely transport everything from critical IT server racks and confidential client files to the specialized equipment found in medical and dental offices. Our meticulous approach at every stage—from packing to setup—is designed to protect your assets and get your team back to full productivity with minimal delay.",
+      "image": "/images/cities/689f96a06e323e403297008c_MoversInTruck.webp"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "upland-movers",
+  "parentSlug": null,
+  "title": "4.9-Star Movers Upland You Can Count On (From $119/Hr.)",
+  "metaDescription": "Let our friendly Upland movers take the stress off your shoulders. We’ll handle the hard part — you just enjoy the move. Get your free quote now!",
+  "canonicalUrl": "/upland-movers",
+  "heroTitle": "Movers Upland",
+  "heroSubtitle": "Trust Upland movers: smooth, safe, zero stress — your move, our care, nothing less.",
+  "heroImage": "/images/cities/6896290ffd1426cf0a1ca81f_movers mobile.webp",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "SOS Moving — Premier Movers in Upland, CA",
+      "content": "Why choose SOS Moving?Licensed & insured Upland moversCareful with valuables & specialty items5-star reviews from happy clientsWhy choose SOS Moving?Professional packing for fragile and bulky itemsCustom crating and labelingFurniture disassembly and reassembly",
+      "image": "/images/cities/672cd64510201d9860cc8f21_Upland.webp"
+    },
+    {
+      "type": "content",
+      "title": "Office Moversin Upland, CA",
+      "content": "Our office movers in Upland deliver top-level commercial moving services. We’ll cope with any office furniture, professional equipment, and even medical practice. Due to a professional approach to all stages of your office move, we help you not to lose excitement and inspiration from your new office in the overwhelming packing, lifting, and unpacking process.Our office movers in Upland deliver top-level commercial moving services. We’ll cope with any office furniture, professional equipment, and even medical practice. Due to a professional approach to all stages of your office move, we help you not to lose excitement and inspiration from your new office in the overwhelming packing, lifting, and unpacking process.",
+      "image": "/images/cities/685be3193348ad42bd41f913_office.webp"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

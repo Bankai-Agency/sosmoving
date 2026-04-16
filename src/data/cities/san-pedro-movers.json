@@ -1,0 +1,37 @@
+{
+  "slug": "san-pedro-movers",
+  "parentSlug": null,
+  "title": "San Pedro's 4.9-Star Affordable Movers (From $119/Hr.)",
+  "metaDescription": "Zero drama. Zero stress. Just trusted San Pedro movers who get it done. We've got the move—you've got the sunshine. Get your quote!",
+  "canonicalUrl": "/san-pedro-movers",
+  "heroTitle": "Licensed Movers in San Pedro, CA",
+  "heroSubtitle": "Dedicated local crew: $119/hr Clear pricing — bonded & insured.",
+  "heroImage": "/images/cities/69a814404427d92a4c3337a4_San Pedro Movers.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "SOS Moving — Expert Local Movers in San Pedro, CA",
+      "content": "Why choose SOS Moving?San Pedro Specialists: Fully equipped and trained to navigate steep driveways, tight corners, and historic properties safely.Licensed & insured professionals: (USDOT 3398018, MC 1153871) 2,300+ happy customers with 4.9★ Google and 4.8★ Yelp reviews.Upfront pricing: Fair rates from $119/hr (3-4 hr minimum based on zip code). Zero hidden fees, no surprises.Why choose SOS Moving?What we deliver:Pro-Grade Packing: Secure wrapping for everyday items and delicate heirlooms.Custom Crating: Purpose-built protection for your most valuable pieces.Complete Furniture Care: Safe disassembly, transport, and expert reassembly.What we deliver:",
+      "image": "/images/cities/69a81c371cf91bd9f9bcc5ca_movers go.avif"
+    },
+    {
+      "type": "content",
+      "title": "Anchored Office Moving Solutions for San Pedro",
+      "content": "Our office movers in San Pedro deliver top-level commercial moving services. We’ll cope with any office furniture, professional equipment, and even medical practice. Due to a professional approach to all stages of your office move, we help you not to lose excitement and inspiration from your new office in the overwhelming packing, lifting, and unpacking process.Our office movers in San Pedro deliver top-level commercial moving services. We’ll cope with any office furniture, professional equipment, and even medical practice. Due to a professional approach to all stages of your office move, we help you not to lose excitement and inspiration from your new office in the overwhelming packing, lifting, and unpacking process.",
+      "image": "/images/cities/68c02d2d57cad0d9a6630473_office_movers_new.webp"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

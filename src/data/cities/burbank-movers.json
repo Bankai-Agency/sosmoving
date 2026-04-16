@@ -1,0 +1,37 @@
+{
+  "slug": "burbank-movers",
+  "parentSlug": "los-angeles-movers",
+  "title": "Top-Rated Burbank Movers $119/hr | Licensed & Insured",
+  "metaDescription": "Professional moving service with zero hidden fees. 1,500+ 5-star reviews. We handle packing and heavy lifting safely. Get a quote!",
+  "canonicalUrl": "/los-angeles-movers/burbank-movers",
+  "heroTitle": "Top-Rated Burbank Movers",
+  "heroSubtitle": "Burbank moving from $119/hr Licensed, insured, no hidden fees",
+  "heroImage": "/images/cities/69a823e4ce766958b1c8b0eb_Movers in Burbank.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "SOS Moving — Burbank's Premier Moving Company",
+      "content": "Why choose SOS Moving?Licensed & insured movers Burbank (USDOT 3398018, MC 1153871)2,300+ happy customers — 4.9★ Google, 4.8★ Yelp reviewsFair pricing from $119/hour — 3–4 hour minimum based on zip codeWhy choose SOS Moving?Secure fragile and oversized items with premium materialsCreate custom crates and organize with clear labelingExpertly disassemble, wrap, and reassemble all furniture",
+      "image": "/images/cities/689629e99e5fc676160f458e_movers-loading.jpg"
+    },
+    {
+      "type": "content",
+      "title": "After-Hours Heroes for Burbank Offices",
+      "content": "Our office movers in Burbank deliver top-level commercial moving services. We’ll cope with any office furniture, professional equipment, and even medical practice. Due to a professional approach to all stages of your office move, we help you not to lose excitement and inspiration from your new office in the overwhelming packing, lifting, and unpacking process.Our office movers in Burbank deliver top-level commercial moving services. We’ll cope with any office furniture, professional equipment, and even medical practice. Due to a professional approach to all stages of your office move, we help you not to lose excitement and inspiration from your new office in the overwhelming packing, lifting, and unpacking process.",
+      "image": "/images/cities/689f96a06e323e403297008c_MoversInTruck.webp"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

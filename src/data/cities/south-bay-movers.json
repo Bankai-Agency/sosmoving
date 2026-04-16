@@ -1,0 +1,37 @@
+{
+  "slug": "south-bay-movers",
+  "parentSlug": null,
+  "title": "4.9-Star South Bay Movers You Can Count On (From $119/Hr)",
+  "metaDescription": "Let our trusted South Bay movers turn your moving day into a smooth, stress-free experience you’ll actually enjoy. Get your free quote now!",
+  "canonicalUrl": "/south-bay-movers",
+  "heroTitle": "Top-RatedSouth Bay Movers",
+  "heroSubtitle": "Coastal LA's crew — from $119/hr Safe handling with no hidden fees",
+  "heroImage": "/images/cities/69c04d6248444632a7951307_South Bay Movers.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "SOS Moving — Trusted Movers South Bay",
+      "content": "Why choose SOS Moving?Licensed & insured South Bay movers (USDOT 3398018, MC 1153871)2,300+ happy customers — 4.9★ Google, 4.8★ Yelp reviewsUpfront Pricing: from $119/hr, no hidden fees. 3–4 hour minimum based on zip code.Why choose SOS Moving?Our Standards:Custom Crating: Secure wooden crates for artwork and fragile heirlooms.Premium Wrapping: Heavy-duty blankets and shrink wrap for all furniture.Full-Service Prep: Expert disassembly, detailed labeling, and exact reassembly.Our Standards:",
+      "image": "/images/cities/689629e99e5fc676160f458e_movers-loading.jpg"
+    },
+    {
+      "type": "content",
+      "title": "Zero-Downtime Commercial Moves",
+      "content": "Business-Class Execution:Tech & Server Security: Specialized, secure transport for delicate workstations, IT infrastructure, and professional equipment.After-Hours Availability: Weekend and evening scheduling options to ensure absolutely zero interruption to your workflow.Workspace Assembly: Expert dismantling and precise floor-plan reassembly of office cubicles and conference rooms.Business-Class Execution:",
+      "image": "/images/cities/69be87015661b38937206989_Office Movers.avif"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

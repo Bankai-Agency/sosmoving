@@ -1,0 +1,37 @@
+{
+  "slug": "beverly-hills-movers",
+  "parentSlug": null,
+  "title": "Top Rated Beverly Hills Movers from $119/Hr. | We Can Handle Any Move",
+  "metaDescription": "Premier Beverly Hills movers for luxury homes. We offer expert, discreet service for a seamless and worry-free move. Get a complimentary quote!",
+  "canonicalUrl": "/beverly-hills-movers",
+  "heroTitle": "Top-Rated Moversin Beverly Hills",
+  "heroSubtitle": "Full-service moving from $119/hr Safe handling and clear pricing",
+  "heroImage": "/images/cities/69c288487b81aa32c9df2d55_Movers Beverly Hills.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "SOS Moving: Beverly Hills Relocation Experts",
+      "content": "Why Residents Choose SOS Moving:Fully Licensed: (USDOT 3398018 / CAL-T) Insured protection for your peace of mind.Specialty Care: Safe transport for pianos, fragile items, and heavy furniture.Clear Rates: From $119/hr by zip code. No hidden fees, 3-4 hour minimum.Why Residents Choose SOS Moving:Our Packing Standards:Pro-Grade Supplies: We use high-quality materials to secure fragile items and everyday belongings.Full-Service Prep: Complete packing, safe transport, and organized unpacking at your new home.Trained Crews: Background-checked professionals experienced in local and long-distance packing.Our Packing Standards:",
+      "image": "/images/cities/68da42b26e3e580d444c98b0_movers and packers los angeles.avif"
+    },
+    {
+      "type": "content",
+      "title": "SOS Moving: Office Movers in Beverly Hills",
+      "content": "Our Commercial Standards:Minimized Downtime: Fast, organized execution designed to get your business operations back online quickly.Pro Equipment Handling: Secure packing and transport for IT infrastructure, office furniture, and sensitive medical practice equipment.Building Compliance (COI): We provide all necessary Certificates of Insurance and coordinate directly with commercial property managers.Our Commercial Standards:",
+      "image": "/images/cities/689f96a06e323e403297008c_MoversInTruck.webp"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

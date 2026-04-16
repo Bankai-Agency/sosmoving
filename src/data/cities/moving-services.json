@@ -1,0 +1,23 @@
+{
+  "slug": "moving-services",
+  "parentSlug": null,
+  "title": "#1 Moving Services | We Deliver Peace of Mind - SOS Moving & Storage",
+  "metaDescription": "Our moving company has the expertise & experience to deliver peace of mind through our safe & sound services. Get your free quote today!",
+  "canonicalUrl": "/moving-services",
+  "heroTitle": "#1 Moving Services",
+  "heroSubtitle": "Hear directly from the clients we've helped move. Their stories are the best proof of our promise for a simple, stress-free experience.",
+  "heroImage": "/images/cities/65845c0deaee898abb8db494_bg-poster-00001.jpg",
+  "phone": "(909) 443-0004",
+  "sections": [],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "video-reviews",
+    "why-sos",
+    "services-grid",
+    "locations-slider",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

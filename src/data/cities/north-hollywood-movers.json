@@ -1,0 +1,37 @@
+{
+  "slug": "north-hollywood-movers",
+  "parentSlug": null,
+  "title": "4.9-Star Trusted North Hollywood Movers (From $119/hr)",
+  "metaDescription": "Let our North Hollywood movers make your moving day easy and worry-free. Get a free quote!",
+  "canonicalUrl": "/north-hollywood-movers",
+  "heroTitle": "Licensed Movers North Hollywood",
+  "heroSubtitle": "NoHo’s local moving crew: $119/hr Clear pricing & careful handling",
+  "heroImage": "/images/cities/69a85c7615b9d81ac682023b_Movers North Hollywood.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "SOS Moving — Expert Movers in North Hollywood",
+      "content": "Why choose SOS Moving?Valley Specialists: We effortlessly navigate busy corridors like Lankershim Blvd, tight apartment parking, and complex residential moves.Licensed & insured professionals: (USDOT 3398018, MC 1153871) 2,300+ happy customers with 4.9★ Google and 4.8★ Yelp reviews.Upfront pricing: Fair rates from $119/hr (3-4 hr minimum based on zip code). Zero hidden fees, no surprises.Why choose SOS Moving?What we deliver:Pro-Grade Protection: Secure wrapping for fragile and bulky items to ensure they stay safe during transit across the busy LA area.Custom Crating & Labeling: Purpose-built crates for your most valuable pieces and smart, room-by-room labeling.Complete Furniture Care: Safe disassembly, heavy-duty blanketing, and perfect reassembly at your new destination.What we deliver:",
+      "image": "/images/cities/69a81c371cf91bd9f9bcc5ca_movers go.avif"
+    },
+    {
+      "type": "content",
+      "title": "Efficient Office Moving Solutions In North Hollywood",
+      "content": "Our Commercial Promise:Minimal Downtime: Strategic planning and efficient execution to get your office up and running fast.Specialized Handling: Secure transport for IT infrastructure, delicate equipment, and professional gear across the Valley.Turnkey Set-up: Complete office furniture disassembly and flawless reassembly at your new location.Our Commercial Promise:",
+      "image": "/images/cities/68c02d2d57cad0d9a6630473_office_movers_new.webp"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

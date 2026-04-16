@@ -1,0 +1,37 @@
+{
+  "slug": "hollywoodland-movers",
+  "parentSlug": null,
+  "title": "4.9-Star Hollywoodland Movers You Can Trust (From $115/hr)",
+  "metaDescription": "Trusted by Hollywoodland neighbors — we move families with care and precision. Get your free estimate!",
+  "canonicalUrl": "/hollywoodland-movers",
+  "heroTitle": "Hollywoodland Movers",
+  "heroSubtitle": "Trusted by Hollywoodland neighbors — we treat your family's move like our own.",
+  "heroImage": "/images/cities/68fb7f8feac280bc73aaa571_Hollywoodland-Movers.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "Hollywoodland's Top-Rated Moving Company",
+      "content": "Why Hollywoodland neighbors trust SOS MovingCalifornia licensed & insured (USDOT 3398018, MC 1153871)2,300+ successful moves— 4.9★ Google, 4.8★ Yelp reviewsHonest pricing from $119/hr — zero hidden fees, everWhy Hollywoodland neighbors trust SOS MovingPack everything from glass to grand pianosCustom crates. Clear labels. Zero stressWe take apart, protect, and put it all back together",
+      "image": "/images/cities/68d1989e5efd3009de913969_los angeles movers loading.avif"
+    },
+    {
+      "type": "content",
+      "title": "Professional Office Movers in Hollywoodland",
+      "content": "Our Hollywoodland office movers handle any commercial relocation — standard furniture, specialized equipment, medical practices, creative studios. We manage every stage professionally, so you can focus on your business vision while we execute the move flawlessly.Our Hollywoodland office movers handle any commercial relocation — standard furniture, specialized equipment, medical practices, creative studios. We manage every stage professionally, so you can focus on your business vision while we execute the move flawlessly.",
+      "image": "/images/cities/68d19a76584c1ba598413064_Office Movers LA.avif"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

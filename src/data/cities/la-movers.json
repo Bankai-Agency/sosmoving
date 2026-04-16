@@ -1,0 +1,37 @@
+{
+  "slug": "la-movers",
+  "parentSlug": null,
+  "title": "4.9-Star Los Angeles Movers From $119/hr",
+  "metaDescription": "Choose our 4.9-star Los Angeles movers for a truly stress-free move. Our professional team handles every detail so you can relax. Get your free estimate!",
+  "canonicalUrl": "/la-movers",
+  "heroTitle": "Top-RatedLos Angeles Movers",
+  "heroSubtitle": "LA’s go-to movers from $119/hr Careful handling — no hidden fees",
+  "heroImage": "/images/cities/69c525b6d1fdcca43f5a9508_Movers Los Angeles.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "SOS Moving — LA's Most Trusted Moving Company",
+      "content": "Why choose SOS Moving?State-Verified Protection: Fully licensed and insured (USDOT 3398018, MC 1153871) to guarantee your peace of mind.5-Star Track Record: 2,300+ successful relocations backed by 4.9★ Google and 4.8★ Yelp reviews.Transparent Hourly Rates: Honest pricing from $119/hr based on your zip code. Zero hidden fees and a clear 3- to 4-hour minimum.Why choose SOS Moving?Pro-Grade Packing: Heavy-duty wrapping for fragile and bulky items.Custom Crating: Tailored wood crates and detailed box labeling.Furniture Care: Safe disassembly, blanket protection, and reassembly.",
+      "image": "/images/cities/68d1989e5efd3009de913969_los angeles movers loading.avif"
+    },
+    {
+      "type": "content",
+      "title": "Office Movers in Los Angeles, CA",
+      "content": "Our Commercial Standards:Minimized Downtime: Fast, organized execution designed to get your business operations back online without delays.Pro Equipment Handling: Secure packing and transport for IT infrastructure, office furniture, and specialized medical equipment.Building Compliance (COI): We provide all necessary Certificates of Insurance and coordinate directly with commercial property managrs.Our Commercial Standards:",
+      "image": "/images/cities/69cacb7c4a985a9c2918f705_Commercial Movers2.avif"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "pasadena-movers",
+  "parentSlug": "los-angeles-movers",
+  "title": "4.9-Rated Movers Pasadena | Honest Pricing: $119/hr",
+  "metaDescription": "Stop stressing over logistics. Our movers Pasadena guarantee a flawless, fully insured move with transparent rates. Get a fast quote!",
+  "canonicalUrl": "/los-angeles-movers/pasadena-movers",
+  "heroTitle": "Top-Rated Pasadena Movers",
+  "heroSubtitle": "Serving Pasadena from $119/hr No hidden fees, fully insured",
+  "heroImage": "/images/cities/69c698dd9bc916ed41a3ea6a_Movers Pasadena.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "SOS Moving — Expert Movers Pasadena",
+      "content": "Why Choose Us?White-Glove Care: Specialized handling for delicate antiques and high-value items.Fair $119/hr Pricing: Zero hidden fees. A 3- or 4-hour minimum applies by zip code.Fully Licensed: USDOT 3398018, CAL-T 0192140. Backed by 5-star reviews.Why Choose Us?Our Packing Standards:Premium Protection: Double-walled boxes, thick moving blankets, and custom wrapping.Precision Crating: Custom-built wooden crates for antiques, fine art, and sculptures.Full-Service Prep: Careful furniture disassembly, secure padding, and exact reassembly.Our Packing Standards:",
+      "image": "/images/cities/689629e99e5fc676160f458e_movers-loading.jpg"
+    },
+    {
+      "type": "content",
+      "title": "Seamless Corporate Transitions",
+      "content": "Our Commercial Logistics:Zero Downtime: After-hours and weekend scheduling. Your team leaves on Friday and starts working on Monday.Tech & Medical Safe: Secure packing and transport for IT infrastructure, servers, and sensitive medical equipment.Complete Setup: Full disassembly, careful transit, and exact floor-plan reassembly of all workstations.Our Commercial Logistics:",
+      "image": "/images/cities/66f3e4d58621612f58b199d6_team.webp"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

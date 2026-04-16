@@ -1,0 +1,37 @@
+{
+  "slug": "el-segundo-movers",
+  "parentSlug": null,
+  "title": "4.9-Star El Segundo Movers You Can Trust (from $119/hr)",
+  "metaDescription": "El Segundo’s trusted moving experts — seamless service end to end. Get a free quote!",
+  "canonicalUrl": "/el-segundo-movers",
+  "heroTitle": "Movers El Segundo",
+  "heroSubtitle": "Your trusted El Segundo moving experts — serving the city end to end.",
+  "heroImage": "/images/cities/692bed23b0a7a66a769c47a0_Movers El Segundo.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "SOS Moving — El Segundo's Most Trusted Movers",
+      "content": "Why choose SOS Moving?Insured El Segundo movers (USDOT 3398018, MC 1153871)2,300+ happy customers — 4.9★ Google, 4.8★ Yelp reviewsFair pricing from $119/hour — no hidden fees, no surprisesWhy choose SOS Moving?Pack fragile and bulky items with pro‑grade materialsBuild custom crates and label every boxDisassemble, protect, and reassemble furniture",
+      "image": "/images/cities/68da42b26e3e580d444c98b0_movers and packers los angeles.avif"
+    },
+    {
+      "type": "content",
+      "title": "Commercial Moversin El Segundo",
+      "content": "Our El Segundo office movers provide top-notch commercial moving services. We handle office furniture, professional equipment, and even medical practices. With our help, you can stay excited about your new office while we take care of packing, lifting, and unpacking.Our El Segundo office movers provide top-notch commercial moving services. We handle office furniture, professional equipment, and even medical practices. With our help, you can stay excited about your new office while we take care of packing, lifting, and unpacking.",
+      "image": "/images/cities/689f96a06e323e403297008c_MoversInTruck.webp"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

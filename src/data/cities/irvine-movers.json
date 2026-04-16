@@ -1,0 +1,37 @@
+{
+  "slug": "irvine-movers",
+  "parentSlug": null,
+  "title": "Irvine's 4.9-star movers making moving easy (from $119/hr)",
+  "metaDescription": "Trusted partners for moves in Irvine's master-planned villages, from Northwood to UCI. Get your moving quote!",
+  "canonicalUrl": "/irvine-movers",
+  "heroTitle": "Top-Rated Movers in Irvine",
+  "heroSubtitle": "OC's moving crew from $119/hr Safe, fully insured & dependable",
+  "heroImage": "/images/cities/69a9ef910ebdd280dff7a903_movers irvine.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "Trusted & Insured Moving Company in Irvine, CA",
+      "content": "Why choose SOS Moving?✓ HOA & Building Experts: (USDOT 3398018, MC 1153871)✓ 2,300+ happy customers — 4.9★ Google, 4.8★ Yelp reviews✓ Upfront Irvine Rates: Fair rates from $119/hour with no hidden fees. 3 or 4-hour minimum based on your zip code.Why choose SOS Moving?✓ HOA & Building Experts: (USDOT 3398018, MC 1153871)✓ 2,300+ happy customers — 4.9★ Google, 4.8★ Yelp reviews✓ Upfront Irvine Rates: Fair rates from $119/hour with no hidden fees. 3 or 4-hour minimum based on your zip code.✓ Pack fragile and bulky items with pro-grade materials✓ Build custom crates and label every box✓ Disassemble, protect, and reassemble furniture✓ Pack fragile and bulky items with pro-grade materials✓ Build custom crates and label every box✓ Disassemble, protect, and reassemble furniture",
+      "image": "/images/cities/689629e99e5fc676160f458e_movers-loading.jpg"
+    },
+    {
+      "type": "content",
+      "title": "Irvine’s Top-Rated Office Moving Experts",
+      "content": "Why choose SOS Moving?✓ Building & COI Compliance: Fully insured and experienced with Class A buildings. COIs provided when required.✓ Careful Handling of Office Equipment: Secure packing and transport for IT equipment, monitors, and office furniture.✓ Upfront Commercial Rates: Transparent hourly rates starting at $119/hr. No hidden commercial fees.Why choose SOS Moving?✓ Building & COI Compliance: Fully insured and experienced with Class A buildings. COIs provided when required.✓ Careful Handling of Office Equipment: Secure packing and transport for IT equipment, monitors, and office furniture.✓ Upfront Commercial Rates: Transparent hourly rates starting at $119/hr. No hidden commercial fees.",
+      "image": "/images/cities/685be3193348ad42bd41f913_office.webp"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

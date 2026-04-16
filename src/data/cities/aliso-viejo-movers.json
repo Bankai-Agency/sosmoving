@@ -1,0 +1,37 @@
+{
+  "slug": "aliso-viejo-movers",
+  "parentSlug": null,
+  "title": "4.9-star Aliso Viejo movers you can count on — from $119/hr",
+  "metaDescription": "Trusted movers Aliso Viejo residents rely on for stress-free moves — seamless service, zero worries. Get your free moving quote!",
+  "canonicalUrl": "/aliso-viejo-movers",
+  "heroTitle": "Licensed Movers in Aliso Viejo, CA",
+  "heroSubtitle": "Aliso’s moving team from $119/hr Careful handling — no hidden fees",
+  "heroImage": "/images/cities/69a7e1026f77847e6643b966_movers santa ana.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "SOS Moving — Top Rated Movers in Aliso Viejo, CA",
+      "content": "Why choose SOS Moving?Licensed & insured movers Aliso Viejo (USDOT 3398018, MC 1153871)2,300+ happy customers — 4.9★ Google, 4.8★ Yelp reviewsFair pricing from $119/hour — 3–4 hour minimum based on zip codeWhy choose SOS Moving?What we do:Pro-Grade Protection: We wrap and secure fragile, bulky, and valuable items using premium materials.Custom Crating & Labeling: Purpose-built crates for sensitive items and smart, room-by-room labeling for an easy unpacking experience.Complete Furniture Care: Full disassembly, heavy-duty blanket wrapping, and perfect reassembly at your new home.What we do:",
+      "image": "/images/cities/68d1991555561197918121ea_movers and packers.avif"
+    },
+    {
+      "type": "content",
+      "title": "Office Moversin Aliso Viejo, CA",
+      "content": "Our Commercial Services:Minimal Downtime: Strategic planning and efficient execution designed to keep your business running smoothly without costly delays.Specialized Handling: Expert packing and secure transport for delicate IT infrastructure, professional equipment, and sensitive medical gear.Turnkey Solutions: Complete office furniture disassembly, secure transport, and flawless reassembly so you are ready to work on day one.Our Commercial Services:",
+      "image": "/images/cities/689f96a06e323e403297008c_MoversInTruck.webp"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

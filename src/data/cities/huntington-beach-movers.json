@@ -1,0 +1,37 @@
+{
+  "slug": "huntington-beach-movers",
+  "parentSlug": null,
+  "title": "4.9-Star Movers Huntington Beach (from $119/hr)",
+  "metaDescription": "Top-rated HB movers. No hidden fees & careful handling. Get your quote!  Get a free quote!",
+  "canonicalUrl": "/huntington-beach-movers",
+  "heroTitle": "Top-Rated Movers Huntington Beach",
+  "heroSubtitle": "HB’s go-to moving team: $119/hr No hidden fees & careful handling",
+  "heroImage": "/images/cities/69c927605f0796b92ec1833e_HB Movers.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "SOS Moving — Trusted Movers in Huntington Beach, CA",
+      "content": "Why choose SOS Moving?Licensed & insured HB movers (USDOT 3398018, MC 1153871)2,300+ happy customers — 4.9★ Google, 4.8★ Yelp reviewsHonest Pricing: Fair rates from $119/hour (with a standard 3-4 hour minimum depending on your zip code) — zero hidden fees, no surprises.Why choose SOS Moving?Pro-Grade Protection: We wrap and secure fragile, bulky, and valuable items using premium materials.Custom Crating: Purpose-built wooden crates for fine art, large mirrors, and sensitive electronics.Complete Furniture Care: Full disassembly, heavy-duty blanket wrapping, and perfect reassembly at your new home.",
+      "image": "/images/cities/69a6b52ae1d991bada8c4b17_Huntington-Beach-Movers.avif"
+    },
+    {
+      "type": "content",
+      "title": "Office Movers in Huntington Beach, CA",
+      "content": "Our office movers in Huntington Beach deliver top-level commercial moving services. We’ll cope with any office furniture, professional equipment, and even medical practice. Due to a professional approach to all stages of your office move, we help you not to lose excitement and inspiration from your new office in the overwhelming packing, lifting, and unpacking process.Our office movers in Huntington Beach deliver top-level commercial moving services. We’ll cope with any office furniture, professional equipment, and even medical practice. Due to a professional approach to all stages of your office move, we help you not to lose excitement and inspiration from your new office in the overwhelming packing, lifting, and unpacking process.",
+      "image": "/images/cities/685be3193348ad42bd41f913_office.webp"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "malibu-movers",
+  "parentSlug": null,
+  "title": "4.9-Star Malibu Movers That Rock Your Move (from $119/hr)",
+  "metaDescription": "Trust Malibu movers who get coastal living — white-glove care for your beach or canyon home, zero worries. Get your quote!",
+  "canonicalUrl": "/malibu-movers",
+  "heroTitle": "Malibu Movers",
+  "heroSubtitle": "Trust our Malibu movers for premium coastal service — beach to canyon,every move handled with expert care.",
+  "heroImage": "/images/cities/690753f4de78471ac916961a_Malibu-Movers.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "Top Rated Moving Company in Malibu, CA",
+      "content": "Why choose SOS Moving?Licensed & insured Malibu movers (USDOT 3398018, MC 1153871)2,300+ happy customers — 4.9★ Google, 4.8★ Yelp reviewsFair pricing from $119/hour — no hidden fees, no surprisesWhy choose SOS Moving?Our Malibu team specializes in local, long-distance, and commercial moves. We use premium packing materials to protect your belongings and train our movers continuously to ensure every job is done right. Sit back and enjoy a stress-free move.Our Malibu team specializes in local, long-distance, and commercial moves. We use premium packing materials to protect your belongings and train our movers continuously to ensure every job is done right. Sit back and enjoy a stress-free move.",
+      "image": "/images/cities/66f2cc3e8461f1b63c313a99_movers.webp"
+    },
+    {
+      "type": "content",
+      "title": "Office Movers in Malibu",
+      "content": "Our Malibu commercial movers handle office furniture, specialized equipment, and medical practice relocations with precision. We manage every stage — packing, transport, and setup — so you can focus on your business, not the logistics.Our Malibu commercial movers handle office furniture, specialized equipment, and medical practice relocations with precision. We manage every stage — packing, transport, and setup — so you can focus on your business, not the logistics.",
+      "image": "/images/cities/68d19a76584c1ba598413064_Office Movers LA.avif"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "redondo-beach-movers",
+  "parentSlug": null,
+  "title": "Trusted 4.9-Star Redondo Beach Movers (from $119/hr)",
+  "metaDescription": "Make moving day feel effortless with our top-rated Redondo Beach movers. Relax — we’ve got every detail covered. Get your quote today!",
+  "canonicalUrl": "/redondo-beach-movers",
+  "heroTitle": "Redondo Beach Top-Rated Movers",
+  "heroSubtitle": "Seamless moves — beach to hills, your local team's got you covered.",
+  "heroImage": "/images/cities/69bfd5aebcc3d56a65dc1aab_Movers Redondo Beach.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "SOS Moving - Premier movers in Redondo Beach",
+      "content": "Why Choose Us?Fully Licensed: USDOT 3398018, CAL-T 0192140, MC 1153871.Upfront Pricing: From $119/hr, zero surprises. A 3-4 hour minimum applies by zip code.Expert Care: Professional protection of valuables, antiques, and specialty items.Why Choose Us?What's Included?Custom Protection: Pro-grade wrapping and custom crates for fragile items.Full-Service Care: Safe disassembly, secure transit, and precise reassembly.Smart Organization: Detailed box labeling for a zero-friction unpacking experience.What's Included?",
+      "image": "/images/cities/68738b62b97b679f636eb182_movers_sos.webp"
+    },
+    {
+      "type": "content",
+      "title": "Zero-Downtime Office Relocations",
+      "content": "Business-Class Service:IT & Equipment: Secure transport for delicate office tech, servers, and professional equipment.Flexible Scheduling: Weekend and after-hours moves available to minimize workflow interruptions.Logistics Pro: Expert disassembly and precise reassembly of all office furniture and cubicles.Business-Class Service:",
+      "image": "/images/cities/69be87015661b38937206989_Office Movers.avif"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "chatsworth-movers",
+  "parentSlug": null,
+  "title": "Chatsworth's #1 Movers from $115/Hour | We Handle It All",
+  "metaDescription": "Our hardworking Chatsworth movers strive to make your moving day easy and worry-free, offering a range of services to assist you. Get a free quote!",
+  "canonicalUrl": "/chatsworth-movers",
+  "heroTitle": "Movers Chatsworth",
+  "heroSubtitle": "Let our Chatsworth movers make your moving day easy and worry-free.",
+  "heroImage": "/images/cities/66f4805b0ab646ba34e4c274_Chatsworth.webp",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "Trusted Moving Company in Chatsworth, CA",
+      "content": "You can easily look up licensing on DOT website to be totally confident about your future move with our company. Whether you have sports equipment, antique piano, fragile items, oddly-shaped furniture, or even medical practice, our professional movers are ready to help you.You can easily look up licensing on DOT website to be totally confident about your future move with our company. Whether you have sports equipment, antique piano, fragile items, oddly-shaped furniture, or even medical practice, our professional movers are ready to help you.Our company has full-service movers who are constantly trained to achieve the highest level of proficiency in all types of moving: local, long-distance, or commercial. Our movers and packers in Chatsworth use the quality supplies and materials to pack your belongings for all our moves. Save your time and enjoy an extremely pleasant move with us.Our company has full-service movers who are constantly trained to achieve the highest level of proficiency in all types of moving: local, long-distance, or commercial. Our movers and packers in Chatsworth use the quality supplies and materials to pack your belongings for all our moves. Save your time and enjoy an extremely pleasant move with us.",
+      "image": "/images/cities/66f3e4d58621612f58b199d6_team.webp"
+    },
+    {
+      "type": "content",
+      "title": "Office Movers in Chatsworth, CA",
+      "content": "Our office movers in Chatsworth deliver top-level commercial moving services. We’ll cope with any office furniture, professional equipment, and even medical practice. Due to a professional approach to all stages of your office move, we help you not to lose excitement and inspiration from your new office in the overwhelming packing, lifting, and unpacking process.Our office movers in Chatsworth deliver top-level commercial moving services. We’ll cope with any office furniture, professional equipment, and even medical practice. Due to a professional approach to all stages of your office move, we help you not to lose excitement and inspiration from your new office in the overwhelming packing, lifting, and unpacking process.",
+      "image": "/images/cities/673b19061859a4aad07f4eca_team3.webp"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

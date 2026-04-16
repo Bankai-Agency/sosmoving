@@ -1,0 +1,37 @@
+{
+  "slug": "studio-city-movers",
+  "parentSlug": null,
+  "title": "Trusted 4.9-Star Studio City Movers (From $119/hr)",
+  "metaDescription": "Let us handle the move. You handle the sunshine. No drama, no stress — just  Studio City movers who get it!",
+  "canonicalUrl": "/studio-city-movers",
+  "heroTitle": "Top-Rated Studio City Movers",
+  "heroSubtitle": "SC’s go-to experts from $119/hr Stress-free moving, fast booking.",
+  "heroImage": "/images/cities/69be96b25488358c49e57df9_Movers Studio City.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "SOS Moving — Stress-Free Transition to Studio City",
+      "content": "Why choose SOS Moving?Licensed & insured Studio City movers (USDOT 3398018, MC 1153871)2,300+ happy customers — 4.9★ Google, 4.8★ Yelp reviewsUpfront Pricing: From $119/hr, zero surprises. A 3-4 hour minimum applies by zip code.Why choose SOS Moving?What's Included?Custom Protection: Pro-grade wrapping and custom crates for fragile items.Furniture Care: Professional disassembly, protection, and reassembly.Smart Labeling: Every box labeled for a zero-friction unpacking experience.What's Included?",
+      "image": "/images/cities/689629e99e5fc676160f458e_movers-loading.jpg"
+    },
+    {
+      "type": "content",
+      "title": "Zero-Downtime Office Relocations in SC",
+      "content": "Business-Class Service:IT & Equipment: Secure transport for servers, computers, and delicate office tech.Flexible Hours: Weekend and after-hours moves available to avoid work interruptions.Logistics Pro: Expert disassembly and reassembly of all office furniture.Business-Class Service:",
+      "image": "/images/cities/66f3e4d58621612f58b199d6_team.webp"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

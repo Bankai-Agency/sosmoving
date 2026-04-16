@@ -1,0 +1,37 @@
+{
+  "slug": "movers-garden-grove",
+  "parentSlug": null,
+  "title": "Trusted 4.9-star movers Garden Grove (from $119/hr)",
+  "metaDescription": "No drama, no stress. Just trusted Garden Grove Movers who get it. Let us handle the move, you handle the sunshine. Get a free quote!",
+  "canonicalUrl": "/movers-garden-grove",
+  "heroTitle": "Top-Rated Movers in Garden Grove",
+  "heroSubtitle": "Garden Grove moves done right — $119/hr with clear, honest pricing",
+  "heroImage": "/images/cities/69d38019a2b6a4ead2e8c051_Movers Garden Grove.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "SOS Moving — Trusted Movers in Garden Grove",
+      "content": "✔ Local Moving Experts: (USDOT 3398018, MC 1153871) with experience across Garden Grove neighborhoods.✔ Proven Track Record: 2,300+ Reviews (4.9★ Google, 4.8★ Yelp).✔ Honest Rates $119/hr. No hidden fees. 3-hour minimum. Just honest work.✔ Secure packing for fragile and bulky items using pro-grade materials.✔ Custom crating and clear labeling for easy unpacking.✔ Careful disassembly, protection, and reassembly of furniture.",
+      "image": "/images/cities/689629e99e5fc676160f458e_movers-loading.jpg"
+    },
+    {
+      "type": "content",
+      "title": "Professional Office Movers Serving Garden Grove",
+      "content": "✔ After-Hours & Weekend Moves: We work around your schedule to reduce disruption during business hours.✔ IT & Equipment Coordination: Careful disconnect, transport, and reconnection of computers and server equipment.✔ Organized Office Setup: Furniture assembly and placement based on your floor plan, so teams can settle in quickly.",
+      "image": "/images/cities/689f96a06e323e403297008c_MoversInTruck.webp"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

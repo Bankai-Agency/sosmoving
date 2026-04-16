@@ -1,0 +1,37 @@
+{
+  "slug": "movers-hollywood",
+  "parentSlug": null,
+  "title": "4.9 Star Rated Hollywood Movers ($119/hr) | We Handle It All",
+  "metaDescription": "Your trusted Hollywood movers for local & interstate moves. We offer expert, discreet service for apartments, studios, and hillside homes. Get a free quote!",
+  "canonicalUrl": "/movers-hollywood",
+  "heroTitle": "Hollywood Movers",
+  "heroSubtitle": "Your trusted local pros: $119/hr Clear, upfront pricing with absolutely zero hidden fees.",
+  "heroImage": "/images/cities/6978a629f13c9a5652d31e8f_Hollywood Movers.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "SOS Moving — Hollywood's Stress-Free Moving Pros",
+      "content": "Why Hollywood residents choose SOS Moving:✓ Licensed & Insured Professionals: Fully licensed and insured movers (USDOT 3398018, MC 1153871) experienced in Hollywood’s unique access, parking, and building requirements.✓ Proven Local Reputation: 2,300+ happy customers with top ratings on Google (4.9★) and Yelp (4.8★).✓ Clear, Upfront Rates: Straightforward pricing from $119/hr with no surprises. A simple 3-hour minimum ensures a focused, professional crew dedicated to your move.‍Why Hollywood residents choose SOS Moving:✓ Licensed & Insured Professionals: Fully licensed and insured movers (USDOT 3398018, MC 1153871) experienced in Hollywood’s unique access, parking, and building requirements.✓ Proven Local Reputation: 2,300+ happy customers with top ratings on Google (4.9★) and Yelp (4.8★).✓ Clear, Upfront Rates: Straightforward pricing from $119/hr with no surprises. A simple 3-hour minimum ensures a focused, professional crew dedicated to your move.‍✔ White-glove handling for art & wardrobe✔ Custom crating for fragile electronics✔ Furniture disassembly & reassembly✔ White-glove handling for art & wardrobe✔ Custom crating for fragile electronics✔ Furniture disassembly & reassembly",
+      "image": "/images/cities/6978ad226e7a2f4557daab53_truck-loading mini.avif"
+    },
+    {
+      "type": "content",
+      "title": "Seamless Office Relocation in Hollywood",
+      "content": "From disassembly of cubicles to packing high-tech electronics, we bring the manpower and expertise to handle it all. We treat your office equipment with the same care as our own, ensuring zero damage and a streamlined setup at your new Hollywood location.From disassembly of cubicles to packing high-tech electronics, we bring the manpower and expertise to handle it all. We treat your office equipment with the same care as our own, ensuring zero damage and a streamlined setup at your new Hollywood location.",
+      "image": "/images/cities/66f3e4d58621612f58b199d6_team.webp"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

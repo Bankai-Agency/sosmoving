@@ -1,0 +1,37 @@
+{
+  "slug": "santa-monica-movers",
+  "parentSlug": "los-angeles-movers",
+  "title": "Trusted 4.9-Star Movers Santa Monica (From $119/hr)",
+  "metaDescription": "Your Santa Monica moving experts — locally owned, locally loved. Get your moving quote!",
+  "canonicalUrl": "/los-angeles-movers/santa-monica-movers",
+  "heroTitle": "Licensed Movers in Santa Monica",
+  "heroSubtitle": "Your SaMo move from $119/hr Upfront pricing — fully insured",
+  "heroImage": "/images/cities/69a968a151a9a196260e52e2_Movers Santa Monica.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "SOS Moving — Top Rated Movers in Santa Monica",
+      "content": "Why choose SOS Moving?Coastal Expertise: Specially trained to navigate SaMo's tight parking zones, narrow streets, and strict HOA building guidelines.Proven Authority: (USDOT 3398018) Backed by 2,300+ successful moves and stellar 4.9★ Google / 4.8★ Yelp reviews.Honest $119/hr Pricing: Zero hidden fees. Minimum 3 or 4 hours based on your zip code.Why choose SOS Moving?Our Packing Expertise:Complete Protection: Double-walled boxes, thick moving blankets, and custom wrapping for delicate items.Custom Crating: Precision-built wooden crates designed specifically for your artwork, large mirrors, and sculptures.Full-Service Prep: Careful disassembly, protective padding, and exact floor-plan reassembly of all furniture.Our Packing Expertise:",
+      "image": "/images/cities/689629e99e5fc676160f458e_movers-loading.jpg"
+    },
+    {
+      "type": "content",
+      "title": "Office Movers in Santa Monica",
+      "content": "Our office movers in Santa Monica deliver top-level commercial moving services. We’ll cope with any office furniture, professional equipment, and even medical practice. Due to a professional approach to all stages of your office move, we help you not to lose excitement and inspiration from your new office in the overwhelming packing, lifting, and unpacking process.Our office movers in Santa Monica deliver top-level commercial moving services. We’ll cope with any office furniture, professional equipment, and even medical practice. Due to a professional approach to all stages of your office move, we help you not to lose excitement and inspiration from your new office in the overwhelming packing, lifting, and unpacking process.",
+      "image": "/images/cities/685be3193348ad42bd41f913_office.webp"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

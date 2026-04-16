@@ -1,0 +1,34 @@
+{
+  "slug": "long-distance-movers",
+  "title": "Long-Distance Movers | Cross-Country Movers - SOS Moving Company",
+  "metaDescription": "Hire the highly-rated long-distance movers near you for a blissful cross-country moving experience. Get your free quote today!",
+  "canonicalUrl": "/services/long-distance-movers",
+  "heroTitle": "Long Distance Moving — No Hidden Fees. Same Crew",
+  "heroSubtitle": "Your LA long-distance move: one dedicated truck, one trusted crew, zero stress guaranteed.",
+  "heroImage": "",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "Your Advantages with SOS Moving",
+      "content": "",
+      "image": "/images/services/68b874c78fd1088d88247c49_fe45f267f25e16a1404e283371acaec71c0fa1d4.webp"
+    },
+    {
+      "type": "content",
+      "title": "What’s Included in Your Flat-Rate Quote?",
+      "content": "",
+      "image": "/images/services/68b874c78fd1088d88247c52_2c001680a84e96db52359c91d03c14034b7ad173.webp"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "service-content",
+    "services-grid",
+    "why-sos",
+    "reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

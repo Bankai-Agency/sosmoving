@@ -1,0 +1,37 @@
+{
+  "slug": "los-angeles-movers",
+  "parentSlug": null,
+  "title": "4.9★ Los Angeles Movers | All-Inclusive from $119/hr — SOS Moving",
+  "metaDescription": "Top-rated Los Angeles movers — 4.9★ on Google. Local & interstate moves from $119/hr. All packing materials included. No hidden fees. Call 909-443-0004!",
+  "canonicalUrl": "/los-angeles-movers",
+  "heroTitle": "Los Angeles Movers — Trusted Moving Company in LA",
+  "heroSubtitle": "Your trusted Los Angeles moving service for local and interstate moves, expert service guaranteed.",
+  "heroImage": "/images/cities/6664cbcba00b1c9bb48c5c8f_la.webp",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "Reliable Movers in Los Angeles You Can Count On",
+      "content": "",
+      "image": "/images/cities/645ab1d97922874ff25bf0ad_la-movers-img.webp"
+    },
+    {
+      "type": "content",
+      "title": "Our Moving Rates",
+      "content": "",
+      "image": "/images/cities/645ab1d97922873a235beffc_gallery-img-6.webp"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

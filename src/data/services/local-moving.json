@@ -1,0 +1,34 @@
+{
+  "slug": "local-moving",
+  "title": "Local Movers in Los Angeles from $119/hr | 4.9★ — SOS Moving",
+  "metaDescription": "Professional local moving services across LA County. White-glove care, transparent pricing, and same-day availability — starting at $119/hour.",
+  "canonicalUrl": "/services/local-moving",
+  "heroTitle": "Local Movers in Los Angeles You Can Trust",
+  "heroSubtitle": "We offer a wide range of services, providing all the required resources to deliver a blissful relocation experience.",
+  "heroImage": "/images/services/69955418ca0289a0edb2b84e_Local Moving Hero Img.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "Your Advantages with SOS Moving",
+      "content": "",
+      "image": "/images/services/68dbe8b60066fb859e3c55d2_Office Movers in Manhattan Beach.avif"
+    },
+    {
+      "type": "content",
+      "title": "Ready for a Faster, Safer Move?",
+      "content": "",
+      "image": ""
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "service-content",
+    "services-grid",
+    "why-sos",
+    "reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

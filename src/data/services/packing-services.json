@@ -1,0 +1,28 @@
+{
+  "slug": "packing-services",
+  "title": "Top-Rated Packing & Moving Services in Los Angeles",
+  "metaDescription": "Stress-free packing and moving with transparent pricing. Safe handling of your fragile items, fully insured, and no hidden fees. Get your free quote today!",
+  "canonicalUrl": "/services/packing-services",
+  "heroTitle": "Los Angeles Packing and Moving Services",
+  "heroSubtitle": "Safe handling of your belongings — fully insured, no hidden fees",
+  "heroImage": "/images/services/69ce1ae531d4c71b7e3cb895_Packers and Movers.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "Your Easiest Move Starts With LA Movers & Packers You Can Trust",
+      "content": "Why choose SOS Moving?All materials included — boxes, bubble wrap and blankets.Full or partial packing by insured pros.Pre‑packed before the truck arrives — smoother moving day.10,557 successful moves since 2020 - 4.9★ Google - 4.8★ YelpWhy choose SOS Moving?",
+      "image": "/images/services/68da42b26e3e580d444c98b0_movers and packers los angeles.avif"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "service-content",
+    "services-grid",
+    "why-sos",
+    "reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

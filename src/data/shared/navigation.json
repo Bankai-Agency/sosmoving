@@ -1,0 +1,58 @@
+{
+  "services": [
+    {
+      "label": "All Services",
+      "href": "/services"
+    },
+    {
+      "label": "Apartment Movers",
+      "href": "/services/apartment-movers"
+    },
+    {
+      "label": "Commercial Movers",
+      "href": "/services/commercial-movers"
+    },
+    {
+      "label": "Long-Distance Movers",
+      "href": "/services/long-distance-movers"
+    },
+    {
+      "label": "Packing Services",
+      "href": "/services/packing-services"
+    },
+    {
+      "label": "White Glove Movers",
+      "href": "/services/white-glove-movers"
+    },
+    {
+      "label": "Storage",
+      "href": "/services/storage"
+    },
+    {
+      "label": "Local Movers",
+      "href": "/services/local-moving"
+    }
+  ],
+  "locations": [
+    {
+      "label": "Los Angeles Movers",
+      "href": "/los-angeles-movers"
+    },
+    {
+      "label": "Orange County Movers",
+      "href": "/orange-county-movers"
+    },
+    {
+      "label": "Portland Movers",
+      "href": "/portland-movers"
+    },
+    {
+      "label": "Seattle Movers",
+      "href": "/seattle-movers"
+    },
+    {
+      "label": "Denver Movers",
+      "href": "/denver-movers"
+    }
+  ]
+}

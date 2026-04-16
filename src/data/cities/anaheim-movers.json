@@ -1,0 +1,37 @@
+{
+  "slug": "anaheim-movers",
+  "parentSlug": null,
+  "title": "4.9-star movers Anaheim you can count on (from $119/hr)",
+  "metaDescription": "Let our trusted Anaheim movers turn your moving day into a smooth, stress-free experience you’ll actually enjoy. Get your free quote now!",
+  "canonicalUrl": "/anaheim-movers",
+  "heroTitle": "Top-RatedAnaheim Movers",
+  "heroSubtitle": "Serving Anaheim from $119/hr Careful, insured — no hidden fees",
+  "heroImage": "/images/cities/69caf3813ad2de7069dd6bf3_Movers Anaheim.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "SOS Moving — Trusted Movers in Anaheim, CA",
+      "content": "Why choose SOS Moving in Anaheim:Fully Insured & Licensed: (USDOT 3398018) Complete property protection guaranteed.Proven Authority: 2,300+ moves with 4.9★ Google / 4.8★ Yelp reviews.Upfront Pricing: From $119/hr, zero hidden fees (3 or 4-hour minimum based on zip code).Why choose SOS Moving in Anaheim:Our VIP Packing Services:Premium Materials: We protect fragile items using double-walled boxes, thick moving blankets, and specialized padding.Custom Crating: Secure transport for high-value art, antiques, and large TVs with precision-built wooden crates.Complete Assembly: Rapid furniture disassembly at load-out and exact reassembly in your new space.Our VIP Packing Services:",
+      "image": "/images/cities/689629e99e5fc676160f458e_movers-loading.jpg"
+    },
+    {
+      "type": "content",
+      "title": "Office Moversin Anaheim, CA",
+      "content": "Our Commercial Advantage:Zero Downtime: Flexible after-hours and weekend scheduling to keep your business fully operational.Sensitive Assets: Precision handling of IT servers, confidential files, and specialized medical/dental equipment.Efficient Setup: Streamlined logistics to get your team back to work without disrupting your workflow.Our Commercial Advantage:",
+      "image": "/images/cities/69cacb7c4a985a9c2918f705_Commercial Movers2.avif"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

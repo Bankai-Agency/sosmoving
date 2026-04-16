@@ -1,0 +1,37 @@
+{
+  "slug": "torrance-movers",
+  "parentSlug": null,
+  "title": "Torrance Movers $119/hr | Top Rated 4.9 | SOS Moving",
+  "metaDescription": "Reliable movers in Torrance starting at $119/hr. Over 1,000+ 5-star reviews. Licensed, insured, and efficient. Get your free moving quote in 3 minutes!",
+  "canonicalUrl": "/torrance-movers",
+  "heroTitle": "Your Trusted Torrance Movers",
+  "heroSubtitle": "South Bay's moving crew — beach to hills, we've got you covered.",
+  "heroImage": "/images/cities/69be6e5976090dfd1faf182b_Movers Torrance.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "SOS Moving — Top Rated Movers in Torrance, CA",
+      "content": "Why choose SOS Moving?Fully Licensed: USDOT 3398018, CAL-T 0192140, MC 1153871.Proven Trust: 2,300+ happy customers (4.9★ Google, 4.8★ Yelp).Upfront Pricing: Fair rates from $119/hr. 3-4 hour minimum applies based on location.Why choose SOS Moving?What's Included?Custom Protection: Expert wrapping and custom crates for fragile items.Full-Service Care: Safe disassembly, careful packing, and reassembly.Smart Organization: Detailed labeling for a zero-friction unpacking experience.What's Included?",
+      "image": "/images/cities/6978a2f775e50c87cc3f46a0_loading-movers.avif"
+    },
+    {
+      "type": "content",
+      "title": "Expert Commercial Movers in Torrance, CA",
+      "content": "Your Business, Moved Smarter:Logistics & Planning: Professional packing, secure transport, and organized unpacking for a smooth transition.IT & Furniture: Safe disassembly and reassembly of cubicles, complex desks, and delicate server equipment.Flexible Scheduling: After-hours and weekend moves available to keep your business running without interruption.Your Business, Moved Smarter:",
+      "image": "/images/cities/69be87015661b38937206989_Office Movers.avif"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

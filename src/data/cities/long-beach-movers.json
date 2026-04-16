@@ -1,0 +1,37 @@
+{
+  "slug": "long-beach-movers",
+  "parentSlug": null,
+  "title": "Trusted 4.9-Star Long Beach Movers (From $119/Hr)",
+  "metaDescription": "Let our trusted Long Beach movers turn your moving day into a smooth, stress-free experience you’ll actually enjoy. Get your free quote now!",
+  "canonicalUrl": "/long-beach-movers",
+  "heroTitle": "Long Beach Movers",
+  "heroSubtitle": "Making moves magical from Belmont Shore to Bixby Knolls & beyond!",
+  "heroImage": "/images/cities/68bd2728bdad68f1ceea1231_Movers-and-Truck-4_11zon.webp",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "SOS Moving — Top Rated Movers in Long Beach, CA",
+      "content": "Why choose SOS Moving?Local & Licensed: Insured Long Beach movers(USDOT 3398018, MC 1153871)Top-Rated: 2,300+ happy customers with 4.9★ on Google & 4.8★ on Yelp.Clear Pricing: Fair rates from $119/hour with no hidden fees.Why choose SOS Moving?Pack fragile and bulky items with pro‑grade materialsBuild custom crates and label every boxDisassemble, protect, and reassemble furniture",
+      "image": "/images/cities/689629e99e5fc676160f458e_movers-loading.jpg"
+    },
+    {
+      "type": "content",
+      "title": "Office Movers in Long Beach, CA",
+      "content": "Our teams are trained to handle all commercial assets, including sensitive IT equipment, confidential records, and medical machinery. We offer weekend and after-hours scheduling to ensure a seamless transition for your business.Our teams are trained to handle all commercial assets, including sensitive IT equipment, confidential records, and medical machinery. We offer weekend and after-hours scheduling to ensure a seamless transition for your business.",
+      "image": "/images/cities/68c02d2d57cad0d9a6630473_office_movers_new.webp"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "manhattan-beach-movers",
+  "parentSlug": null,
+  "title": "4.9-rated Manhattan Beach movers (from $119/hr)",
+  "metaDescription": "Trusted by Manhattan Beach neighbors — from downtown to the Hill Section we move. Free quote now!",
+  "canonicalUrl": "/manhattan-beach-movers",
+  "heroTitle": "Top-Rated Movers Manhattan Beach",
+  "heroSubtitle": "MB’s go-to crew from $119/hr Sand Section to the Hill Section",
+  "heroImage": "/images/cities/69c128b5d93c64cf5029af7e_Movers Manhattan Beach.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "SOS Moving: Manhattan Beach Relocation Experts",
+      "content": "Why Manhattan Beach residents choose SOS Moving:Local Logistics Experts: (USDOT 3398018) We know the local streets & strict parking codes.2,300+ Happy Customers: Top-rated on Google (4.9★) & Yelp (4.8★).Transparent MB Rates: Honest $119/hr with zero hidden fees. Simple 3-4 hour minimum depending on your zip code.Why Manhattan Beach residents choose SOS Moving:Our Packing Standards:Maximum Protection: Pro-grade materials to secure fragile and delicate items.Organized Process: Custom boxing and exact labeling so unpacking is effortless.Full-Service Prep: Careful furniture disassembly, secure wrapping, and exact reassembly.Our Packing Standards:",
+      "image": "/images/cities/69be87015661b38937206989_Office Movers.avif"
+    },
+    {
+      "type": "content",
+      "title": "Manhattan Beach Business Relocation",
+      "content": "Our Commercial Standards:Efficient Office Setup: Expert handling of furniture, IT equipment, and files.Minimized Downtime: Fast, organized execution to get your team back to work.Professional Crew: Background-checked movers trained for sensitive environments.Our Commercial Standards:",
+      "image": "/images/cities/68dbe8b60066fb859e3c55d2_Office Movers in Manhattan Beach.avif"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "reviews",
+    "service-content",
+    "locations-slider",
+    "services-grid",
+    "why-sos",
+    "video-reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}

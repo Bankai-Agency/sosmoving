@@ -1,0 +1,28 @@
+{
+  "slug": "commercial-movers",
+  "title": "Commercial Moving Company | Office Movers - SOS Moving & Storage",
+  "metaDescription": "Our commercial movers will deliver a stress-free office relocation & minimize business downtime. Request your free quote now!",
+  "canonicalUrl": "/services/commercial-movers",
+  "heroTitle": "Top-Rated Commercial Movers",
+  "heroSubtitle": "Transparent pricing, fully insured crews — no delays or downtime",
+  "heroImage": "/images/services/69cac080dd26735dd5b67326_Commercial Movers.avif",
+  "phone": "(909) 443-0004",
+  "sections": [
+    {
+      "type": "content",
+      "title": "Licensed & Insured Commercial Moving Company",
+      "content": "Why businesses choose us:All-Inclusive Tools: We bring shrink wrap, blankets, and equipment to handle complex office moves..Building Protection: Walls, doors, and floors stay protected throughout the move.Licensed & Insured: (USDOT 3398018) Fully compliant for smooth approvals and claims.Why businesses choose us:Our Commercial Promise:✓ Fully Equipped Fleet: Our well-maintained trucks arrive stocked with heavy-duty dollies, lift gates, and tools for any assembly needs. ✓ Total Property Protection: We protect your old and new offices by padding elevator cabs, covering floors, and wrapping door frames to prevent damage.✓ Constant Communication: Dedicated updates throughout the move so you never have to guess where your assets are.Our Commercial Promise:",
+      "image": "/images/services/697b46dc2ce55793e59008ce_Commercial Moving.avif"
+    }
+  ],
+  "sectionOrder": [
+    "services-hero",
+    "service-content",
+    "services-grid",
+    "why-sos",
+    "reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": []
+}
