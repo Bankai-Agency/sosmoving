@@ -29,23 +29,37 @@ export default function ScriptLoader() {
   useEffect(() => {
     async function init() {
       try {
+        // ── Step 0: Load page config (wf-page ID + correct bundle) ──
+        const [pageRes, bundleRes] = await Promise.all([
+          fetch('/wf-page-map.json'),
+          fetch('/wf-bundle-map.json'),
+        ]);
+        const pageMap: Record<string, string> = await pageRes.json();
+        const bundleMap: Record<string, string> = await bundleRes.json();
+        const path = window.location.pathname.replace(/\/$/, '') || '/';
+
+        // Set data-wf-page BEFORE loading Webflow JS (IX2 reads it on init)
+        const wfPageId = pageMap[path];
+        if (wfPageId) {
+          document.documentElement.setAttribute('data-wf-page', wfPageId);
+        }
+
         // ── Step 1: jQuery (everything depends on it) ──
         await loadScript('https://code.jquery.com/jquery-3.7.1.min.js');
 
-        // ── Step 2: Webflow chunk files (must load before main bundles) ──
+        // ── Step 2: Webflow chunk files (must load before main bundle) ──
+        // Common chunks used by all pages
         await loadScript('/webflow.schunk.f2efb3c5440a81cf.js');
         await loadScript('/webflow.schunk.81d31091c363b462.js');
-        // Extra chunks used by some pages (homepage, gallery, free-estimate)
-        await loadScript('/webflow.schunk.f919141e3448519b.js');
-        await loadScript('/webflow.schunk.9dfb96661114d3db.js');
 
-        // ── Step 3: ALL Webflow main bundles ──
-        // Different pages use different bundles. Loading all is safe —
-        // webpack chunk system only initializes modules once.
-        await loadScript('/webflow.987c289e.df925483dbcdb1a9.js');
-        await loadScript('/webflow.8ef64be1.fc9d6e2e8b58a7f8.js');
-        await loadScript('/webflow.4c1b5164.e6782c011d2684fd.js');
-        await loadScript('/webflow.cf90aa9a.d07593ecc8d89ceb.js');
+        // ── Step 3: Page-specific Webflow main bundle ──
+        const bundle = bundleMap[path] || 'webflow.8ef64be1.fc9d6e2e8b58a7f8.js';
+        // Homepage + gallery need extra chunks
+        if (bundle === 'webflow.987c289e.df925483dbcdb1a9.js') {
+          await loadScript('/webflow.schunk.f919141e3448519b.js');
+          await loadScript('/webflow.schunk.9dfb96661114d3db.js');
+        }
+        await loadScript('/' + bundle);
 
         // ── Step 4: GSAP + plugins ──
         await loadScript('https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js');
