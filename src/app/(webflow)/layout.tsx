@@ -49,17 +49,14 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://r2.vidzflow.com" />
 
         <link href="/webflow.css" rel="stylesheet" type="text/css" />
-
-        {/* Preload only the most-used font variant (Lato 400 regular). The
-            400-italic and 700 files grow in on-demand via @font-face in
-            globals.css — no need to preload all three. 23KB, crossOrigin
-            required for font preloads per HTML spec. */}
-        <link rel="preload" as="font" type="font/woff2" href="/fonts/lato-400.woff2" crossOrigin="anonymous" />
-
-        {/* Lato: self-hosted in public/fonts/ via @font-face in globals.css.
-            Previously loaded from fonts.googleapis.com (extra RTT) + 10 Lato
-            variants (of which 7 unused). Now 3 WOFF2 files, ~72KB, same-origin.
-            No more render-blocking external stylesheet, no preconnect needed. */}
+        <link href="https://fonts.googleapis.com" rel="preconnect" />
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossOrigin="anonymous" />
+        {/* Lato: reduced from 10 variants to 3 (400, 400italic, 700).
+            Previously webflow.css called font-weight 500/600/800 which weren't
+            loaded anyway — browser was already falling back to 400/700.
+            Only site-wide impact: font-weight:300 in .w-lightbox-backdrop (Webflow
+            lightbox overlay) now renders as 400. Saves ~250KB on initial load. */}
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,400italic,700&display=swap" rel="stylesheet" />
       </head>
       <body>
         <SharedHtmlBlock name="exit-popup" />
