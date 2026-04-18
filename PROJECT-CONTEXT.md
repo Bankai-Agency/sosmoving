@@ -1,438 +1,245 @@
-# SOS Moving - Project Context for AI Sessions
+# SOS Moving — Project Context for AI Sessions
 
-> **Read this file FIRST before doing anything.** It contains the full context of the project, what was done, what's broken, and what needs to happen next.
-
----
-
-## TL;DR
-
-We're cloning https://www.sosmovingla.net/ (a Webflow site, 551 pages) into Next.js. The project now runs **two parallel stacks**:
-
-1. **Webflow legacy stack** (`src/app/(webflow)/`) — pixel-perfect 1:1 clone of the original site. Each page extracts the original `<body>` HTML and renders it via `dangerouslySetInnerHTML` with the original Webflow CSS + jQuery/Slick/GSAP. 537 static pages.
-2. **New-design stack** (`src/app/(new-design)/`) — modern React 19 + Tailwind 4 + framer-motion + Three.js + Lenis. Currently hosts only `/mainpage2` (an alternative homepage). This is the target stack for the future full migration (see `CLAUDE.md`).
-
-**Current status:** Phase 1 (1:1 Webflow clone) and Phase 2 (componentize shared blocks) are complete. Prod build outputs **907 static pages + `/mainpage2`** in ~1.5s.
-
-- ✅ Phase 1 (commit `c2e71ce`): jQuery pinned to 3.5.1, `%2520` double-encode fix, image audit
-- ✅ mainpage2 integration (commit `7979d27`): new-design route group, Tailwind 4, framer-motion, Three.js, Lenis, Manrope fonts, 30+ components under `src/components/mainpage2/`
-- ✅ Phase 2 (commit `f281700`): navbar / footer / exit-popup extracted to `src/data/shared/*.html` and rendered once via `SharedHtmlBlock`, eliminating 537× duplication across `public/pages/*.html` (saved 13.21 MB); latent Webflow `../..//images/` protocol-relative bug fixed in 534 files; 924 missing responsive image variants regenerated with sharp
-
-Sliders, accordions, FAQ, tabs, dropdowns, chatbot, exit popup, touchbar animation, and photo scroll all work. Page-specific Webflow IX2 hover/scroll animations still have reduced functionality in places — CSS workarounds applied where parity matters (e.g. about-company photo scroll).
+> **Read this file FIRST before doing anything.** It is the single source of truth for current state, history, open decisions, and workflow rules. Last updated mid-session as Dmitriy prepared to `/clear` — use this to pick up where we left off.
 
 ---
 
-## The Owner
+## TL;DR — state on `main` right now
 
-- **Dmitriy** - wants a 1:1 clone of the original Webflow site, with a gradual path to a modern stack
-- Deploys to Vercel from GitHub: https://github.com/Bankai-Agency/sosmovingDIMA
-- Branch: `main`
-- **CRITICAL**: He rejected a Tailwind CSS rewrite for the legacy clone. The Webflow stack must keep the original Webflow CSS, not a redesign. "Мне нужен результат 1 в 1"
-- The new-design stack (`/mainpage2`) is a **separate track** — it does NOT replace the legacy clone yet. Full migration plan is in `CLAUDE.md`.
+Cloning https://www.sosmovingla.net/ (original Webflow site) into Next.js. Live at https://sosmoving-2.vercel.app/ (Vercel auto-deploys `main`). Repo: https://github.com/Bankai-Agency/sosmovingDIMA.
+
+**Stacks (4 route groups):**
+
+| Group | Purpose | Pages |
+|---|---|---:|
+| `(webflow)/` | Pixel-perfect legacy clone — HTML via `dangerouslySetInnerHTML` + original `webflow.css` + jQuery/Slick/GSAP | ~920 |
+| `(new-design)/` | Target React stack — Tailwind 4, framer-motion, Lenis. Hosts `/mainpage2` only. | 1 |
+| `(admin)/` | CRM admin panel. Auth.js + Neon Postgres + BlockNote. **Built by Dmitriy in parallel** on `feat/admin-cms` branch. Not on `main` yet. | — |
+| `(dev)/` | Dev-only component galleries `/dev/*`. NOT production. **Currently only local on `feat/admin-cms`** — not on `main` yet. | — |
+
+**Page count on `main`:** ~939 static pages after adding 18 orphan routes (see commit `9ea9236`). Desktop PageSpeed **97**, mobile **~81** after perf work. Vercel deploys from `main`.
+
+**Dmitriy works in a separate Claude Code session on `feat/admin-cms`** branch locally. That branch is never pushed — it contains his CRM work + some of my redesign WIP. I cherry-pick my commits to `main` when safe; I do NOT push his admin work.
 
 ---
 
-## Architecture
-
-### Route Groups (Next.js App Router)
-
-All routes live under one of two route groups. Route groups (folders wrapped in parentheses) do NOT add to the URL path — they only organize files and allow a separate root layout per group.
+## Commit history on `main` (most recent first)
 
 ```
-src/app/
-├── (webflow)/              # legacy 1:1 clone — 537 pages
-│   ├── layout.tsx          # loads webflow.css, ScriptLoader, SharedHtmlBlock (navbar/footer/exit-popup)
-│   ├── page.tsx            # homepage (/)
-│   ├── (cities)/[citySlug]/page.tsx
-│   ├── services/[slug]/page.tsx
-│   ├── blog/[slug]/page.tsx
-│   ├── about-us/...
-│   ├── book-online/
-│   ├── free-estimate/
-│   ├── category/
-│   ├── globals.css         # Webflow responsive font-size + CSS scroll keyframes
-│   └── sitemap.ts
-└── (new-design)/           # modern stack — /mainpage2 only (for now)
-    ├── layout.tsx          # loads Manrope fonts, new globals, SmoothScroll (Lenis), SchemaOrg
-    ├── globals.css         # Tailwind 4 + new-design tokens
-    └── mainpage2/
-        └── page.tsx
+9ea9236  fix: add missing routes for 18 orphan HTML pages (13 movers-* + 5 statics)
+fbb810e  fix: add missing page.tsx routes for 3 about-us subpages
+8b9bd56  content: apply site-edits.md bug fixes + content updates + meta descriptions
+f94aebc  Revert "perf: self-host Lato fonts"   ← fixed regression
+4263c71  perf: self-host Lato fonts (self-reverted — CLS regression)
+c32bb1d  perf: defer vidzflow hero iframe via server-rendered facade  ← mobile LCP 10s → 3s
+7bb96f5  perf: preload Webflow scripts + jQuery, dns-prefetch CDN origins
+3771999  perf: slim Lato fonts from 10 to 3 variants + display:swap
+e6b67c3  Add Claude Code tooling: Stop hook + parity-reviewer agent
+3f1d021  Cleanup: remove dead QuoteForm + Globe, drop 14 unused deps
+fd31741  Cleanup: remove 17 unused files, add nested city route (by Dmitriy)
+6764dc3  docs: add COMPONENTS-AND-PAGES.md (by Dmitriy)
+67183a8  Phase 2.5: Componentize all content sections via SectionRenderer (by Dmitriy)
+f281700  Phase 2: Componentize shared blocks + fix relative paths
+7979d27  Add /mainpage2 with new design stack
+c2e71ce  Phase 1: jQuery pin 3.5.1, %2520 fix, image audit
 ```
 
-### How Legacy (Webflow) Pages Work
+---
 
-Every legacy page follows the same pattern:
+## What was done this session (chronological)
 
-1. Original HTML was extracted from `_legacy/` (551 Webflow HTML files, git-ignored) using `scripts/extract-pages-html.mjs`
-2. The `<body>` content of each page was saved as a standalone HTML file in `public/pages/`
-3. Asset paths were rewritten: `assets/cdn/...` → `/assets/cdn/...` (absolute paths)
-4. **Phase 2:** navbar, footer, and exit-popup markup was stripped from all 537 HTML files and moved to `src/data/shared/*.html` — these now come from `SharedHtmlBlock` in the layout, not from the page HTML
-5. Each Next.js route in `(webflow)/` reads the corresponding trimmed HTML file and renders it via `dangerouslySetInnerHTML`
+### 1. Infrastructure
+- **Stop hook** auto-updates `SESSION-LOG.md` after every assistant response (gitignored). Script: `scripts/update-session-log.mjs`. Config: `.claude/settings.json`.
+- **`parity-reviewer` subagent** at `.claude/agents/parity-reviewer.md` — invoked before declaring any change "done". Has caught real bugs (crossOrigin mismatch on jQuery preload that would fetch jQuery twice; CLS regression from self-host fonts without size-adjust).
 
-### File: `src/lib/page-renderer.ts`
-```typescript
-import { readFileSync, existsSync } from 'fs';
-import { join } from 'path';
-const PAGES_DIR = join(process.cwd(), 'public/pages');
+### 2. Cleanup (commit `3f1d021`)
+- Deleted `src/components/forms/QuoteForm.tsx`, `src/components/mainpage2/ui/Globe.tsx` (0 imports).
+- `npm uninstall`: 14 packages — `three`, `@types/three`, `topojson-client`, `@types/topojson-client`, `world-atlas`, `embla-carousel-react`, `react-markdown`, `rehype-raw`, `rehype-slug`, `remark-gfm`, `react-hook-form`, `@hookform/resolvers`, `react-imask`, `zod`. All verified 0 imports.
 
-export function getPageHTML(slug: string): string | null {
-  const filePath = join(PAGES_DIR, `${slug}.html`);
-  if (existsSync(filePath)) return readFileSync(filePath, 'utf-8');
-  return null;
-}
+### 3. Performance journey — mobile Lighthouse score `62 → 81`
+1. **Lato fonts 10→3 variants** (`3771999`): removed unused weights 100/300/900/italic — cut 250KB on initial load. Browser was already falling back for missing 500/600/800, so no visual regression.
+2. **Preload hints** (`7bb96f5`): added `<link rel="preload">` for jQuery, 2 common Webflow chunks, and homepage-specific bundle. `dns-prefetch` for cdnjs/jsdelivr. Critical: **no `crossOrigin`** on jQuery preload because `ScriptLoader.tsx` creates the `<script>` without `crossorigin` — mismatch = double fetch.
+3. **Vidzflow facade** (`c32bb1d`): **the big win**. Hero on `/` embeds a 9MB 1080p music video via `<iframe>`. At parse time, `src/lib/page-sections.ts` swaps every `<iframe src="vidzflow.com">` for `<div class="vidzflow-facade" data-src=...>`. `public/custom-scripts.js` hydrates the real iframe on `window.load + requestIdleCallback`. LCP **10.2s → 3.2s**. See both files.
+4. **Self-host Lato attempt** (`4263c71`) → **reverted** (`f94aebc`). Caused CLS 0.003 → 0.069 because I forgot `size-adjust`/`ascent-override`. Vercel `cache-control: max-age=0` on `/public/fonts/` also didn't help. Correct approach = `next/font/google` (auto fallback metrics). Currently prod is back on Google Fonts Lato external stylesheet.
 
-export function getNestedPageHTML(parent: string, child: string): string | null {
-  return getPageHTML(`${parent}__${child}`);
-}
-```
+**Open issue:** 43 responsive image variants (`-p-500.webp` etc) missing. Browser falls back to base. Fix: `node scripts/generate-responsive-images.mjs`. Low priority.
 
-### Page naming convention in `public/pages/`
-- `index.html` - homepage
-- `beverly-hills-movers.html` - city page
-- `services__apartment-movers.html` - service page (double underscore = nested route)
-- `blog__how-to-pack-books.html` - blog post
-- `about-us__faq.html` - about subpage
-- Total: **537 HTML files**
+### 4. Site-edits from `/Users/dmitriy/Downloads/site-edits.md` (commit `8b9bd56` + `fbb810e`)
+Dmitriy provided a 28-item edit list. Applied 23 of 28 (skipped parts 3 navigation additions and navigation links pointing to pages he didn't want created):
+- **Bug fixes** 1.1–1.4: Alex Park → Alex Zack, 2020 → 2019, 14 trucks → fleet of 40, PortlandOffice → Portland Office
+- **Content** 2.1–2.4: new Who We Are block on `/about-us`, Org Structure on `/meet-our-team`, 3 new sections on `/services` (Institutional, Education, Specialty — CTAs link to `/free-estimate`), simpler `/book-online` subtitle
+- **Meta descriptions** 1.2d + 1.5 (all except b/d/f): `export const metadata` added to 5 static `page.tsx` + `generateMetadata` with `CITY_META` record on `(cities)/[citySlug]/page.tsx` for beverly-hills / orange-county / portland / denver
 
-### Next.js Routes
+### 5. Orphan route fixes (commits `fbb810e` + `9ea9236`)
+Audit found 18 HTML files in `public/pages/` without route handlers. They worked in prod via Next's `dynamicParams=true` fallback, but served dynamic SSR not static. Fixed:
+- **`(cities)/[citySlug]/page.tsx`** filter loosened from `f.includes('-movers')` to `f.includes('-movers') || f.startsWith('movers-')` — catches 13 `movers-{city}.html` files.
+- Added `page.tsx` for `/moving-services`, `/book-online`, `/about-us/video-reviews`, `/about-us/influencer-program`, `/about-us/careers`, `/about-us/apartment-partnership`, `/confirmation-page-refer-friends-get-cash`, `/sitemap`.
+- Page count jumped **921 → 939** static pages.
 
-| Route | File | HTML Source |
+### 6. Full-site audit (3 parallel agents, all green)
+- **Smoke test** (133 sampled URLs across every page type): **200 × 133**. Zero 404s, zero 5xx.
+- **Structural audit**: 28/29 section types in the Section registry; 0 empty/malformed pages. Sole "unknown" is `__noclass__` — trailing empty `<div class="">` on 18 Oregon pages (harmless via `SharedSection`).
+- **"106 missing images" was a false positive** — files exist with decoded names (Cyrillic, spaces, parens); HTML references them URL-encoded. Browser decodes automatically. Confirmed with `curl` → `200 OK` on all samples.
+
+### 7. Component variants + page archetypes (detailed in `COMPONENTS-AND-PAGES.md` + agent report)
+- **Hero has 13 variants** (not 12 as originally thought). Biggest: `services-hero-section is-blog-article-hero is-without-bg-image` (395 pages, blog posts + faq).
+- **95% of site = 2 archetypes**: Blog Post (394 pages) + City Landing (114 pages).
+- **29 one-off pages** (`index`, `moving-services`, `services`, `about-us/*`, `services/*`, edge cases).
+- **Bleed-through bug**: `with-rating mobile aliso-viejo` class on 5 city heroes (copy-paste from template). Worth normalizing in redesign.
+- **Degenerate structure**: `services/long-distance-movers` and `services/local-moving` have only 1 top-level div — Webflow wrapped everything in a single container. Needs custom rendering.
+
+### 8. Redesign step 1 (local only on `feat/admin-cms`)
+- **Commit `f9ccfb6`**: swap Lato → Inter Variable via `next/font/google` in `(webflow)/layout.tsx`. `globals.css` has `body, body * { font-family: var(--font-inter), ... !important; }` to override `font-family: Lato` in `webflow.css`. **Not yet on `main`.**
+- **Dev gallery** (uncommitted, on `feat/admin-cms` stash `claude-session-wip-before-context-update`):
+  - `src/app/(dev)/layout.tsx` — separate route group, no navbar/footer
+  - `src/app/(dev)/dev/page.tsx` — landing with list of 23 component types
+  - `src/app/(dev)/dev/[type]/page.tsx` — dynamic route, shows every variant of a type on one scroll
+  - `src/lib/dev-gallery.ts` — utility that scans all 537 HTML files and groups sections by full className
+  - `src/components/dev/VariantHeader.tsx` — yellow sticky bar above each variant
+
+### 9. Typography research
+Collected typography shapes from two reference sites Dmitriy considered for the redesign:
+- **thegoatmovers.net** — Geist Variable. Scale: 40/96 H1, 32/64 H2, 28/42 H3, body 16/20. Tracking **proportional -3%**. Weight 700 headings, 400 body.
+- **make-b.studio** — Neue Montreal Medium (paid). Tracking **constant -0.6px**. Weight 500 default. Line-heights tighter (1.2 on body).
+
+**Dmitriy chose goatmovers style.** Not yet applied — next step is: switch Inter → Geist + add typography overrides in `(webflow)/globals.css` following the goatmovers scale.
+
+---
+
+## Current state by branch
+
+### `main` (prod — https://sosmoving-2.vercel.app/)
+- Latest: `9ea9236` + **an incoming docs update** (this commit)
+- Font: Google Fonts Lato (400/400italic/700) via external `<link>` in layout — NO Inter yet
+- 939 static pages after orphan fixes
+- Site fully functional, all smoke tests green
+- Perf: desktop 97, mobile ~81 (last measured)
+
+### `feat/admin-cms` (Dmitriy's local only — never pushed)
+Contains on top of `main`:
+- Dmitriy's CRM work: `feat(admin)` commits (Auth.js Phase 1/2, image uploads Phase 3, theme provider, etc.)
+- My redesign step 1: `f9ccfb6` Inter Variable swap (`(webflow)/layout.tsx` + `globals.css`)
+- **Uncommitted stash** `claude-session-wip-before-context-update`:
+  - Dev gallery files (`src/app/(dev)/**`, `src/lib/dev-gallery.ts`, `src/components/dev/VariantHeader.tsx`)
+  - Untracked: `public/images/blog/596e27781129.png` (his upload)
+- **His uncommitted CRM WIP** was stashed here too — safe to `git stash pop` when returning to this branch
+
+---
+
+## Workflow rules (important — read)
+
+1. **Push to `main` only when Dmitriy explicitly says so.** He wants **hourly push discipline**. Accumulate commits locally first. Never push without a "go".
+2. **`main` is the only branch on origin.** `feat/admin-cms` is Dmitriy's local workspace — don't try to push it or merge it in.
+3. **I work on `main` when possible.** When forced to `feat/admin-cms` (e.g. Dmitriy has untracked files that block `git checkout main`), commit there locally and cherry-pick the hash to `main` when it's safe.
+4. **`git stash push -u` with a `claude-` prefix** before branch switches to protect Dmitriy's uncommitted work. Always stash pop after returning.
+5. **Never `git add -A`, never `--no-verify`, never `--force`, never amend.** Per `CLAUDE.md`.
+6. **`sos-moving` repo is OFF LIMITS** — that's the external reference. Ours is `sosmovingDIMA`.
+7. **Parity-reviewer before "done":** any change to `(webflow)/`, `public/pages/`, `webflow.css`, or `ScriptLoader.tsx` must go through the agent. It catches bugs a static read wouldn't.
+8. **`public/fonts/` Vercel cache is bad** — if self-hosting fonts manually, `cache-control: max-age=0`. Use `next/font/google` which handles this + auto size-adjust.
+
+---
+
+## Immediate next steps (pick up here after `/clear`)
+
+1. **Apply goatmovers typography scale** on `(webflow)/` stack:
+   - Replace `Inter` with `Geist` in `(webflow)/layout.tsx` (`import { Geist } from "next/font/google"`, rename variable `--font-inter` → `--font-geist`).
+   - Extend `(webflow)/globals.css` with typography overrides (see table below). Target selectors: `.services-hero-h1`, `.hero-h1`, `.section-h2`, `.section-h2-2`, `.bottom-cta-h2`, `.why-s-h3`, `h3`, body.
+   - All overrides use `letter-spacing: -0.03em` (= -3%), `font-weight: 700` for H1/H2, `600` for H3.
+   - Do it on `main` (after `git stash pop` of dev-gallery WIP, test, commit, push).
+
+2. **Unstash dev gallery and cherry-pick to `main`** after Dmitriy gives the OK. Files are ready and ran fine at `http://localhost:3000/dev`.
+
+3. **Continue redesign per Dmitriy's plan** — after typography, next is likely color scheme / spacing / button styles. Ask him for direction.
+
+### goatmovers scale to apply (confirmed by Dmitriy)
+
+| Role | Mobile | Desktop (≥1024px) | Weight | Letter-spacing | Line-height |
+|---|---|---|---|---|---|
+| **Display H1** (hero) | 40px | 96px | 700 | -3% (=-0.03em) | 1 |
+| **H2** | 32px | 64px | 700 | -4% on desktop, -3% on mobile | 1.2 |
+| **H3** | 28px | 42px | 600 | -3% | 1.2 |
+| **Body XL** (lead) | 18px | 20px | 400 | -3% | 1.4 |
+| **Body** | 16px | 20px | 400 | -3% | 1.4 |
+| **Caption** | 12px | 12px | 500 | -3% or +2.5% for caps | 1.2 |
+| **Button** | 14px | 16px | 600 | -3% | 1.2 |
+
+Tracking formula: `letter-spacing = -0.03em` (proportional) everywhere; override to `-0.04em` on display-size H2 if needed for visual balance.
+
+---
+
+## Dev gallery (ready to ship when unstashed)
+
+23 component types at `/dev/<type>`. URLs:
+`/dev`, `/dev/hero`, `/dev/service-content`, `/dev/faq`, `/dev/latest-news`, `/dev/section-reviews`, `/dev/reviews-section`, `/dev/why-sos`, `/dev/services-grid`, `/dev/bottom-cta`, `/dev/locations-office`, `/dev/locations-slider`, `/dev/local-white-content`, `/dev/about-company`, `/dev/services-areas`, `/dev/contact`, `/dev/team`, `/dev/job`, `/dev/gallery-photo`, `/dev/blog-listing`, `/dev/milestones`, `/dev/touchbar`, `/dev/hero-form`, `/dev/delivery`.
+
+Each page renders every unique className variant of that section type (grouped by full class string, sorted by usage count) with a yellow sticky header showing the variant index, total, className, page count, and sample source page.
+
+---
+
+## Key files quick ref
+
+| File | Purpose |
+|---|---|
+| `CLAUDE.md` | Hard project rules — read first after this file |
+| `COMPONENTS-AND-PAGES.md` | Full inventory of component variants + page archetypes (updated this session) |
+| `SESSION-LOG.md` | Auto-generated every Stop-hook tick; gitignored; snapshot of current state |
+| `src/app/(webflow)/layout.tsx` | Legacy root layout (webflow.css, ScriptLoader, SharedHtmlBlock) |
+| `src/app/(webflow)/globals.css` | Responsive font-size cascade + CSS overrides + Inter body override (on `feat/admin-cms` only) |
+| `src/app/(webflow)/(cities)/[citySlug]/page.tsx` | Dynamic city route — has `generateMetadata` with `CITY_META` |
+| `src/lib/page-sections.ts` | HTML → section array parser. **Also has vidzflow iframe → facade swap.** |
+| `src/components/ScriptLoader.tsx` | Client component — loads jQuery → Webflow → GSAP → plugins |
+| `public/pages/*.html` | 537 Webflow HTML files — the rendering targets |
+| `public/webflow.css` | 154KB minified Webflow CSS. Source of Lato font-family refs. |
+| `public/custom-scripts.js` | Chatbot, exit popup, touchbar GSAP, **vidzflow facade hydration** |
+| `public/wf-bundle-map.json` | URL → Webflow main bundle filename (for ScriptLoader) |
+| `scripts/generate-responsive-images.mjs` | Regenerates `-p-500/800/1080/1600` WebP/AVIF variants |
+| `scripts/update-session-log.mjs` | Stop-hook script — filesystem-only, <100ms |
+| `.claude/agents/parity-reviewer.md` | Subagent for verifying changes before commit |
+| `.claude/settings.json` | Project Claude Code config (Stop hook) |
+
+---
+
+## Known bugs / tech debt
+
+1. **`with-rating mobile aliso-viejo`** bleed-through class on 5 city heroes — content-specific token pulled into a shared template. Cosmetic.
+2. **`services/long-distance-movers` + `services/local-moving`** — only 1 top-level div each. Webflow wrapped everything in one container. Custom render required in redesign.
+3. **`seattle-movers` missing `service-content-section #2`** — doesn't match City Landing archetype exactly. Unclear if bug or intentional.
+4. **43 missing responsive image variants** (`-p-NNN.webp`). Run `scripts/generate-responsive-images.mjs` to regen.
+5. **Pre-existing typecheck errors** (don't touch per Dmitriy):
+   - `next.config.ts:8` — `eslint` config key deprecated
+   - `src/lib/page-sections.ts:26, :48` — cheerio API drift
+   - `public/webflow.schunk.*.js` — 7 minified vendor file lint noise
+   - `src/components/mainpage2/ui/Animate.tsx:213` — `prefer-const`
+6. **`src/data/blog/interstate-movers-state-to-state-legal-requirements.md`** — has a `САМОПРОВЕРКА:` Russian draft marker in published content (parity-reviewer flagged it). Worth deleting.
+
+---
+
+## Two reference sites we studied
+
+| | **thegoatmovers.net** | **make-b.studio** |
 |---|---|---|
-| `/` | `src/app/(webflow)/page.tsx` | `public/pages/index.html` |
-| `/beverly-hills-movers` | `src/app/(webflow)/(cities)/[citySlug]/page.tsx` | `public/pages/beverly-hills-movers.html` |
-| `/services/apartment-movers` | `src/app/(webflow)/services/[slug]/page.tsx` | `public/pages/services__apartment-movers.html` |
-| `/blog/how-to-pack` | `src/app/(webflow)/blog/[slug]/page.tsx` | `public/pages/blog__how-to-pack.html` |
-| `/about-us/faq` | `src/app/(webflow)/about-us/faq/page.tsx` | `public/pages/about-us__faq.html` |
-| `/free-estimate` | `src/app/(webflow)/free-estimate/page.tsx` | `public/pages/free-estimate.html` |
-| `/mainpage2` | `src/app/(new-design)/mainpage2/page.tsx` | React components under `src/components/mainpage2/` |
+| Stack | Next.js (Tailwind-ish) | Framer |
+| Font | Geist Variable (free) | Neue Montreal Medium (paid) |
+| Tracking | **Proportional -3%** | Constant -0.6px |
+| Body weight | 400 | **500** |
+| H1 mobile / desktop | 40/96 | 40/74 |
+| Feel | Airbnb/Stripe bold | Linear/Framer subtle |
 
-Dynamic routes use `generateStaticParams()` to read `public/pages/` directory and generate all static pages at build time.
-
----
-
-## Shared Components (Phase 2)
-
-Before Phase 2, every one of the 537 `public/pages/*.html` files contained a full copy of the same navbar, footer, and exit-popup — ~25KB of duplicated markup per page (~13 MB wasted).
-
-### `src/components/shared/SharedHtmlBlock.tsx`
-Server Component that reads a file from `src/data/shared/*.html` at build time and renders it via `dangerouslySetInnerHTML`. Used by `(webflow)/layout.tsx` to render the navbar, footer, and exit-popup exactly once, on every legacy route.
-
-### `src/data/shared/`
-Single source of truth for shared Webflow markup and a few structured fallbacks:
-
-| File | Purpose |
-|---|---|
-| `navbar.html` | Top navigation + dropdown menus |
-| `footer.html` | Site footer with links |
-| `exit-popup.html` | Exit-intent modal |
-| `callback-widget.html` | Floating callback CTA |
-| `company.json` | Company info (phone, address) for future React migration |
-| `navigation.json` | Nav structure for future React migration |
-| `categories.json`, `faq.json`, `reviews.json` | Structured content for future React migration |
-
-### Migration scripts added in Phase 2
-
-| Script | Purpose |
-|---|---|
-| `scripts/extract-shared-blocks.mjs` | Extracts navbar / footer / exit-popup from `public/pages/index.html` (which already uses absolute paths) and writes them to `src/data/shared/` |
-| `scripts/strip-shared-blocks.mjs` | Removes those three blocks from every `public/pages/*.html` so they're rendered only once from the layout |
-| `scripts/fix-relative-paths.mjs` | Normalizes latent Webflow `../..//images/...` (protocol-relative, 404-prone) paths to absolute `/images/...` in 534 files |
-
-Re-run this trio if the base HTML is re-extracted from `_legacy/`.
+**Dmitriy picked goatmovers.** Direction = Geist + proportional tracking + bold headings.
 
 ---
 
-## CSS Setup
-
-### Webflow legacy stack
-
-#### `public/webflow.css`
-The original Webflow CSS file (154KB). Loaded via `<link>` in `(webflow)/layout.tsx`. This is the ONLY CSS that styles the legacy clone (besides `(webflow)/globals.css` overrides).
-
-#### `src/app/(webflow)/globals.css`
-Contains inline styles from the original `<style>` tags:
-- Responsive `font-size` rules (the original uses `rem` units based on root font size)
-- Rating wrapper widths
-- Review text truncation
-- Misc overrides
-- **CSS infinite scroll animation** for the about-company photo grid (`scrollUp` / `scrollDown` keyframes)
-
-**Important:** The original site uses `rem` units everywhere with a responsive root `font-size`:
-- Desktop: `html { font-size: 20px; }`
-- 1440px: `html { font-size: 1.4285vw; }`
-- 991px: `html { font-size: 1.65vw; }`
-- 767px: `html { font-size: 15px; }`
-- 468px: `html { font-size: 3.1578vw; }`
-
-### New-design stack
-
-#### `src/app/(new-design)/globals.css`
-Tailwind 4 entry + new-design tokens. Completely independent from `webflow.css`. Manrope font (variable weights) loaded from `public/mainpage2/fonts/`.
-
----
-
-## JavaScript - SOLVED (mostly, legacy stack)
-
-### ScriptLoader (`src/components/ScriptLoader.tsx`)
-
-A client-side React component that loads all scripts in the correct sequential order using `useEffect` + dynamic `<script>` injection. Used ONLY by the `(webflow)` layout.
-
-**Loading order:**
-```
-Step 0: Fetch /wf-page-map.json + /wf-bundle-map.json
-        Set data-wf-page on <html> for IX2 animations
-Step 1: jQuery 3.5.1 (await) — pinned to match the original site
-Step 2: 2 common Webflow chunk files (await sequentially)
-Step 3: Page-specific Webflow main bundle (await, determined by wf-bundle-map.json)
-Step 4: GSAP + ScrollTrigger + ScrollToPlugin (await)
-Step 5: Extra CSS (slick, datepicker, select2, custom style.css)
-Step 6: jQuery plugins in parallel (Slick, Masonry, scrolldisable, InputMask, Datepicker, Select2)
-Step 7: Custom script.js from jsdelivr CDN (await)
-Step 8: custom-scripts.js (await)
-```
-
-### `public/wf-page-map.json`
-Maps 550 URL paths to their `data-wf-page` IDs (extracted from `_legacy/` HTML files). Used by ScriptLoader to set `data-wf-page` attribute on `<html>` before Webflow JS loads.
-
-### `public/wf-bundle-map.json`
-Maps 550 URL paths to their correct Webflow main JS bundle filename. ScriptLoader loads only the needed bundle per page.
-
-### Different Webflow bundles per page type
-
-| Bundle | Pages |
-|---|---|
-| `webflow.987c289e.df925483dbcdb1a9.js` | Homepage, Gallery (2 pages) |
-| `webflow.8ef64be1.fc9d6e2e8b58a7f8.js` | ~545 city/service/blog/about pages |
-| `webflow.4c1b5164.e6782c011d2684fd.js` | Book Online, Free Estimate (2 pages) |
-| `webflow.cf90aa9a.d07593ecc8d89ceb.js` | Moving Services (1 page) |
-
-### `public/custom-scripts.js`
-
-Cleaned-up version containing only runtime logic (no duplicate script loaders):
-
-1. **Chatbot loader** - Loads Chatbase on desktop, excludes certain pages
-2. **Passive event listeners** - For INP optimization
-3. **Exit popup** - Shows on mouse leave (desktop) or after 45s (mobile)
-4. **Form validation** - Validates required fields
-5. **Touchbar + Navbar animation** - GSAP scroll animation with safety check for GSAP availability
-
-### IX2 status
-
-Since Phase 1 pinned jQuery to **3.5.1** (matching the original site), the old `t is not a function` error from the 3.7.1 mismatch no longer fires. Most built-in Webflow components work. Some complex page-specific IX2 hover/scroll animations still need verification across routes. CSS workarounds (`@keyframes scrollUp` / `scrollDown`) remain for the about-company photo scroll as a bonus — they also act as a safety net if IX2 regresses.
-
----
-
-## What's in `public/`
-
-```
-public/
-├── assets/
-│   └── cdn/
-│       └── 645ab1d97922876b775bef4f/
-│           ├── css/sosmovingla.webflow.shared.7488016f9.min.css
-│           ├── js/  (Webflow JS files)
-│           └── [2500+ images: .avif, .webp, .png, .svg, .jpg]
-├── images/                (downloaded from Webflow CDN)
-│   ├── general/           (hero, company photos, service icons, video thumbnails, location backgrounds)
-│   ├── blog/              (blog post thumbnails + responsive variants)
-│   ├── cities/            (city hero backgrounds + responsive variants)
-│   ├── services/          (service page hero images)
-│   └── team/              (team avatars)
-├── mainpage2/             (NEW — assets for new-design stack)
-│   ├── data/
-│   ├── fonts/             (Manrope variable fonts)
-│   ├── images/
-│   └── videos/
-├── pages/                 (537 extracted HTML files — trimmed of navbar/footer/exit-popup in Phase 2)
-├── webflow.css            (154KB - main stylesheet for legacy stack)
-├── webflow.*.js           (4 main bundles + 4 chunk files)
-├── custom-scripts.js      (cleaned-up inline scripts)
-├── wf-page-map.json       (550 URL → data-wf-page ID mappings)
-├── wf-bundle-map.json     (550 URL → Webflow bundle filename mappings)
-└── favicon/
-```
-
-### `src/data/shared/` (NEW — single source of truth for shared Webflow blocks)
-See the **Shared Components** section above.
-
-### `_legacy/` directory (git-ignored)
-Contains the original 551 HTML pages downloaded from Webflow. Each is a full HTML file (with `<html>`, `<head>`, `<body>`). Used as source for extraction scripts. NOT deployed.
-
----
-
-## Extraction & Build Scripts
-
-### Legacy extraction
-- `scripts/extract-pages-html.mjs` — Extracts `<body>` content from each `_legacy/` HTML file, rewrites asset paths to absolute, and saves to `public/pages/`.
-- `scripts/extract-all.mjs` — Extracts structured data (cities JSON, services JSON, blog Markdown, reviews, FAQ) for the future component-based approach. Not currently used.
-- `scripts/extract-sections.mjs` — Helper for extracting specific page sections. Investigation only, not in build pipeline.
-
-### Phase 2 shared-block pipeline
-- `scripts/extract-shared-blocks.mjs` — Pulls navbar / footer / exit-popup from `index.html` into `src/data/shared/`.
-- `scripts/strip-shared-blocks.mjs` — Removes those blocks from all 537 `public/pages/*.html` files (saved 13.21 MB).
-- `scripts/fix-relative-paths.mjs` — Normalizes `../..//images/...` to `/images/...` across 534 files (fixes latent Webflow protocol-relative 404 bug).
-
-### Image tooling
-- `scripts/generate-responsive-images.mjs` — Scans every `public/pages/*.html` for `src=` and `srcset=` references to `/images/...`, detects Webflow's `-p-500/800/1080/1600.{webp|jpg|png|avif}` variant pattern, and — when a referenced variant is missing but its base file exists — regenerates the variant using `sharp` (quality 82 for webp/jpeg, 60 for avif). Phase 2 run generated **924** missing variants.
-- `scripts/audit-images.mjs` — Audits coverage of referenced images across all extracted pages.
-
----
-
-## What's Working (verified in browser)
-
-- ✅ Hero section with video background
-- ✅ Google + Yelp review badges (logos load correctly)
-- ✅ About company photo scroll animation (CSS infinite scroll)
-- ✅ Video reviews slider with thumbnails + play buttons
-- ✅ Text reviews slider
-- ✅ Gallery slider with navigation arrows
-- ✅ Latest News slider
-- ✅ Locations slider
-- ✅ FAQ accordion (closed by default)
-- ✅ Service Areas accordion (closed by default)
-- ✅ Services grid — "SOS Moving Services" section on the homepage. The Apartment Movers / Commercial / Packing / White Glove / Storage / Movers visuals are icons in the grid, referenced from `public/images/general/`.
-- ✅ "Why SOS Moving" section
-- ✅ Footer with all links (now rendered once via `SharedHtmlBlock`)
-- ✅ Navbar with dropdowns (now rendered once via `SharedHtmlBlock`)
-- ✅ Exit popup (now rendered once via `SharedHtmlBlock`; triggers on mouse leave or timeout)
-- ✅ Chatbot (loads on desktop after delay)
-- ✅ Touchbar + Navbar scroll animation (GSAP)
-- ✅ `/mainpage2` — alternative homepage on the new-design stack (Tailwind 4 + framer-motion + Three.js + Lenis smooth scroll)
-- ✅ Prod build: 907 static pages + `/mainpage2`, build time ~1.5s
-
-## Remaining Issues
-
-1. **IX2 hover/scroll animations** — After pinning jQuery 3.5.1 most IX2 works, but page-specific animations still need broad verification across city/service/blog routes. CSS workarounds remain where parity is critical.
-2. **Forms untested end-to-end** — Select2, Datepicker, InputMask load but haven't been tested with form submission.
-3. **Mobile untested** — No mobile testing done yet.
-4. **Blog/city/service pages untested** — Only homepage and `/mainpage2` verified so far.
-5. **Image coverage** — Phase 2 regenerated 924 variants. Pages that reference images whose BASE file is absent still need to be audited (the generator only fills variants when a base exists).
-
----
-
-## Git History
-
-```
-f281700 Phase 2: Componentize shared blocks + fix relative paths     <- LATEST
-7979d27 Add /mainpage2 with new design stack (Tailwind 4 + motion + Three.js)
-c2e71ce Phase 1 polish: jQuery 3.5.1, fix %2520 double-encode, image audit
-d8c6ed1 Add responsive image generator script + 14 blog variants
-b2cac41 docs: update PROJECT-CONTEXT with current state
-fe50c51 Download 505 missing images from Webflow CDN
-c7fdb0d Update PROJECT-CONTEXT.md with latest progress
-83861f2 Add data-wf-page per route + CSS photo scroll animation
-a0cd92c Fix JS loading order with ScriptLoader + download missing images
-935ddd5 Add PROJECT-CONTEXT.md with full project state and WIP script fixes
-```
-
----
-
-## Vercel Deployment
-
-- **Repo**: https://github.com/Bankai-Agency/sosmovingDIMA
-- **Prod**: https://sosmoving-2.vercel.app/
-- **Branch**: `main`
-- **Framework preset**: Next.js (was changed from auto-detect which incorrectly chose "Static")
-- The `_legacy/` folder is excluded via `.vercelignore`
-
----
-
-## Future Plans
-
-See `CLAUDE.md` for the authoritative two-stack long-term migration plan. Short version:
-
-### Phase 3 (next)
-Continue componentizing shared blocks on the legacy stack:
-- **Hero** master component — extract the homepage / city / service hero shapes
-- **BottomCta** master component — the recurring "Get a free estimate" CTA block
-- **MultiStepForm** master component — the quote / book-online form
-- **ArticleContent** master component — blog post body
-
-These would be Server Components reading structured data (JSON / Markdown) while still emitting Webflow-class markup for visual parity.
-
-### Eventual full migration off the Webflow stack
-Once master components exist on the legacy side, the path is:
-1. Keep `(new-design)` as the target stack (Tailwind 4, React 19, framer-motion, Three.js, Lenis)
-2. Port page templates one at a time: simple pages first (`about-us`, `free-estimate`), then `cities`, `services`, finally `blog`
-3. Migrate content out of HTML into typed JSON / Markdown
-4. When every page is on the new stack → delete `(webflow)/` route group, `webflow.css`, jQuery / Slick / GSAP, `ScriptLoader`, `public/pages/*.html`, `wf-*.json`
-
-**Do NOT start the full migration without an explicit request from Dmitriy.** (See `CLAUDE.md`.)
-
----
-
-## Key Files Quick Reference
-
-| File | Purpose |
-|---|---|
-| `CLAUDE.md` | Hard project rules + long-term migration plan. Read first. |
-| `src/app/(webflow)/layout.tsx` | Legacy root layout — loads Webflow CSS, ScriptLoader, SharedHtmlBlock × 3 |
-| `src/app/(webflow)/globals.css` | Responsive font-size + Webflow overrides + photo scroll animation |
-| `src/app/(new-design)/layout.tsx` | New-design root layout — Manrope fonts, Lenis, SchemaOrg |
-| `src/app/(new-design)/globals.css` | Tailwind 4 + new-design tokens |
-| `src/components/ScriptLoader.tsx` | Client component — loads all JS in correct order (legacy only) |
-| `src/components/shared/SharedHtmlBlock.tsx` | Server Component — renders `src/data/shared/*.html` once in the layout |
-| `src/components/mainpage2/` | 30+ React components for the new-design homepage |
-| `src/lib/page-renderer.ts` | Reads HTML from `public/pages/` |
-| `src/types/global.d.ts` | TypeScript types for global window objects (gsap, jQuery, etc.) |
-| `src/data/shared/*.html` | Single source of truth for navbar / footer / exit-popup / callback-widget |
-| `public/webflow.css` | Original Webflow CSS (154KB) |
-| `public/custom-scripts.js` | Chatbot, exit popup, form validation, touchbar animation |
-| `public/wf-page-map.json` | 550 URL path → data-wf-page ID mappings |
-| `public/wf-bundle-map.json` | 550 URL path → Webflow bundle filename mappings |
-| `public/pages/*.html` | 537 extracted page HTML files (trimmed of shared blocks in Phase 2) |
-| `public/mainpage2/` | Assets (fonts, images, videos, data) for the new-design stack |
-| `public/webflow.*.js` | 8 Webflow JS files (4 bundles + 4 chunks) |
-| `_legacy/` | Original HTML files (git-ignored, local only) |
-| `scripts/extract-pages-html.mjs` | Extraction script |
-| `scripts/extract-shared-blocks.mjs` | Phase 2 — pulls navbar/footer/exit-popup out of index.html |
-| `scripts/strip-shared-blocks.mjs` | Phase 2 — removes shared blocks from all 537 page files |
-| `scripts/fix-relative-paths.mjs` | Phase 2 — normalizes `../..//images/...` to `/images/...` |
-| `scripts/generate-responsive-images.mjs` | Generates missing `-p-500/800/1080/1600` variants via `sharp` |
-| `scripts/audit-images.mjs` | Audits image coverage across extracted pages |
-
----
-
-## IMMEDIATE NEXT STEPS
-
-### Step 1: Test other page types
-- Open a city page (e.g. `/beverly-hills-movers`) and verify all sections work after Phase 2
-- Open a service page (e.g. `/services/apartment-movers`)
-- Open a blog post
-- Open `/free-estimate` and test the form
-- Confirm shared navbar/footer/exit-popup render correctly from `SharedHtmlBlock` on each route type
-
-### Step 2: Verify IX2 across routes
-- jQuery 3.5.1 is now pinned. Spot-check city / service / blog pages for hover and scroll-triggered animations.
-- If regressions appear, extend the CSS workaround pattern from `globals.css`.
-
-### Step 3: Phase 3 — master components (see Future Plans)
-- Start with `Hero`, then `BottomCta`, `MultiStepForm`, `ArticleContent`.
-
-### Step 4: Mobile testing
-- Test responsive behavior on mobile viewports for both stacks.
-
-### Step 5: Full Vercel verification
-- Verify all 907 routes work on production deploy
-- Check Lighthouse scores for both `/` (legacy) and `/mainpage2` (new)
-
----
-
-## Dependencies in `package.json`
-
-### Active on the new-design stack (`/mainpage2`)
-- `tailwindcss` (v4) — styling
-- `framer-motion` (aka `motion`) — animation
-- `three` — 3D / WebGL effects
-- `lenis` — smooth scroll
-- `next/font` with Manrope
-
-### Active on the legacy stack
-- Original Webflow CSS + vendored jQuery 3.5.1 + Slick + GSAP (loaded via `ScriptLoader`, not as npm deps in the bundle)
-
-### Installed but not yet wired into the legacy stack
-- `embla-carousel-react` — future replacement for Slick
-- `gray-matter`, `react-markdown`, `rehype-*`, `remark-*` — future blog rendering
-- `react-hook-form`, `zod`, `react-imask` — future form handling
-- `cheerio` — used in extraction scripts only
-
-These will become primary once Phase 3 and the full migration (per `CLAUDE.md`) begin.
+## For the next session (after `/clear`)
+
+Read order:
+1. This file (`PROJECT-CONTEXT.md`)
+2. `CLAUDE.md` (hard rules — Russian)
+3. `COMPONENTS-AND-PAGES.md` (variants inventory)
+4. `SESSION-LOG.md` (auto-generated snapshot)
+
+Then start with:
+- `git log --oneline -5` on `main` to see latest
+- `git branch --show-current` to know where you are
+- `git stash list` — if there's `claude-session-wip-before-context-update`, it's the dev gallery + some of Dmitriy's admin WIP from the previous session. Unstash carefully on `feat/admin-cms` only, not on `main`.
+
+**Dmitriy's immediate ask:** apply goatmovers typography scale. See "Immediate next steps" above.
