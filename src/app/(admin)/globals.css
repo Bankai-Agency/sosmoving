@@ -1,84 +1,162 @@
 @import "tailwindcss";
+@plugin "tailwindcss-animate";
 
 /* ================================================================
- * ENOT design tokens (see Figma: «⚡️ ENOT — Личный кабинет»).
- * Scoped to the (admin) route group — does NOT affect (webflow)
- * or (new-design) stacks. Each route group has its own globals.css
- * and its own root layout.
+ * Admin design system — canonical shadcn/ui tokens (neutral palette).
+ *
+ * Scoped to the (admin) route group only. The (webflow) and (new-design)
+ * groups keep their own globals.css; none of this leaks across.
+ *
+ * Dark is the default. The `.dark` selector class is toggled on <html>
+ * by next-themes based on user preference (from the ThemeToggle) or the
+ * system pref on first visit.
  * ============================================================== */
 
+@custom-variant dark (&:is(.dark *));
+
 @theme inline {
-  /* Surfaces */
-  --color-app: #f6f6f7;         /* main content background */
-  --color-surface: #ffffff;     /* cards, inputs, modals */
-  --color-dark: #0d1019;        /* sidebar, primary button, headers */
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
 
-  /* Brand */
-  --color-brand: #ffdf54;
+  --color-sidebar: hsl(var(--sidebar));
+  --color-sidebar-foreground: hsl(var(--sidebar-foreground));
+  --color-sidebar-primary: hsl(var(--sidebar-primary));
+  --color-sidebar-primary-foreground: hsl(var(--sidebar-primary-foreground));
+  --color-sidebar-accent: hsl(var(--sidebar-accent));
+  --color-sidebar-accent-foreground: hsl(var(--sidebar-accent-foreground));
+  --color-sidebar-border: hsl(var(--sidebar-border));
+  --color-sidebar-ring: hsl(var(--sidebar-ring));
 
-  /* Status */
-  --color-positive: #6bc685;
-  --color-positive-soft: #ecfbf0;
-  --color-warning: #ffce47;
-  --color-warning-soft: #fff5da;
-  --color-negative: #f44b5f;
-  --color-negative-soft: #ffe9ec;
-  --color-link: #4487e5;
-  --color-link-soft: #f4f8fe;
+  /* Semantic statuses (non-canonical; used by status badges + integration dots). */
+  --color-positive: hsl(var(--positive));
+  --color-positive-foreground: hsl(var(--positive-foreground));
+  --color-warning: hsl(var(--warning));
+  --color-warning-foreground: hsl(var(--warning-foreground));
 
-  /* Chart gradient palette (from Figma: Purple / Blue / Orange) */
-  --color-chart-purple: #7438fe;
-  --color-chart-blue: #3787fe;
-  --color-chart-orange: #fe7f38;
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
 
-  /* Radii (Figma cards use 20) */
-  --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 16px;
-  --radius-xl: 20px;
-
-  /* Font — Inter, loaded via next/font in layout.tsx */
   --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
 }
 
+/* ---- LIGHT (default when .dark class is absent) ---- */
+:root {
+  --background: 0 0% 100%;
+  --foreground: 0 0% 3.9%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 3.9%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 3.9%;
+  --primary: 0 0% 9%;
+  --primary-foreground: 0 0% 98%;
+  --secondary: 0 0% 96.1%;
+  --secondary-foreground: 0 0% 9%;
+  --muted: 0 0% 96.1%;
+  --muted-foreground: 0 0% 45.1%;
+  --accent: 0 0% 96.1%;
+  --accent-foreground: 0 0% 9%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 0 0% 89.8%;
+  --input: 0 0% 89.8%;
+  --ring: 0 0% 3.9%;
+
+  --sidebar: 0 0% 98%;
+  --sidebar-foreground: 240 5.3% 26.1%;
+  --sidebar-primary: 240 5.9% 10%;
+  --sidebar-primary-foreground: 0 0% 98%;
+  --sidebar-accent: 240 4.8% 95.9%;
+  --sidebar-accent-foreground: 240 5.9% 10%;
+  --sidebar-border: 220 13% 91%;
+  --sidebar-ring: 217.2 91.2% 59.8%;
+
+  --positive: 142 71% 45%;
+  --positive-foreground: 0 0% 98%;
+  --warning: 38 92% 50%;
+  --warning-foreground: 0 0% 9%;
+
+  --radius: 0.625rem;
+}
+
+/* ---- DARK (default for the admin) — applied when html has class="dark" ---- */
+.dark {
+  --background: 0 0% 3.9%;
+  --foreground: 0 0% 98%;
+  --card: 240 5.9% 6%;
+  --card-foreground: 0 0% 98%;
+  --popover: 240 5.9% 6%;
+  --popover-foreground: 0 0% 98%;
+  --primary: 0 0% 98%;
+  --primary-foreground: 0 0% 9%;
+  --secondary: 0 0% 14.9%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 0 0% 14.9%;
+  --muted-foreground: 0 0% 63.9%;
+  --accent: 0 0% 14.9%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 0 0% 14.9%;
+  --input: 0 0% 14.9%;
+  --ring: 0 0% 83.1%;
+
+  --sidebar: 240 5.9% 10%;
+  --sidebar-foreground: 240 4.8% 95.9%;
+  --sidebar-primary: 224.3 76.3% 48%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 240 3.7% 15.9%;
+  --sidebar-accent-foreground: 240 4.8% 95.9%;
+  --sidebar-border: 240 3.7% 15.9%;
+  --sidebar-ring: 217.2 91.2% 59.8%;
+
+  --positive: 142 71% 45%;
+  --positive-foreground: 0 0% 98%;
+  --warning: 38 92% 50%;
+  --warning-foreground: 0 0% 9%;
+}
+
 /* ================================================================
- * Base resets (scoped by this layout's <html> only)
+ * Base styles — apply to everything under the admin route group.
  * ============================================================== */
-html {
-  background: var(--color-app);
+
+html[data-admin="true"] {
+  font-size: 16px !important;   /* override Webflow's responsive rem-root */
 }
 
 body {
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
   font-family: var(--font-sans);
-  color: var(--color-dark);
-  background: var(--color-app);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
-/* Typography scale from Figma — helper classes for headings */
-.h1 { font-size: 44px; line-height: 44px; letter-spacing: -0.98px; font-weight: 600; }
-.h2 { font-size: 36px; line-height: 36px; letter-spacing: -0.98px; font-weight: 600; }
-.h3 { font-size: 30px; line-height: 34px; letter-spacing: -0.64px; font-weight: 600; }
-.h4 { font-size: 25px; line-height: 28px; letter-spacing: -0.50px; font-weight: 600; }
-.h5 { font-size: 20px; line-height: 24px; letter-spacing: -0.33px; font-weight: 600; }
-.h6 { font-size: 17px; line-height: 22px; letter-spacing: -0.22px; font-weight: 600; }
-.p1 { font-size: 17px; line-height: 22px; letter-spacing: -0.22px; }
-.p2 { font-size: 15px; line-height: 20px; letter-spacing: -0.13px; }
-.caption { font-size: 13px; line-height: 16px; letter-spacing: -0.04px; }
-.caption-sm { font-size: 12px; line-height: 14px; letter-spacing: -0.04px; }
-
-/* Mobile typography — overrides when viewport < 768px */
-@media (max-width: 767px) {
-  .h1 { font-size: 36px; line-height: 36px; }
-  .h2 { font-size: 28px; line-height: 28px; }
-  .h3 { font-size: 28px; line-height: 32px; }
-  .h4 { font-size: 22px; line-height: 24px; }
-  .h5 { font-size: 18px; line-height: 22px; }
-  .h6 { font-size: 16px; line-height: 22px; }
-}
-
-/* Hide webflow's global font-size overrides if they leak */
-html[data-admin="true"] {
-  font-size: 16px !important;
-}
+/* Legacy typography helpers — kept for markup still referencing them. */
+.h1 { font-size: 2.25rem; line-height: 1.1; letter-spacing: -0.02em; font-weight: 700; }
+.h2 { font-size: 1.875rem; line-height: 1.15; letter-spacing: -0.02em; font-weight: 600; }
+.h3 { font-size: 1.5rem; line-height: 1.25; letter-spacing: -0.02em; font-weight: 600; }
+.h4 { font-size: 1.25rem; line-height: 1.3; letter-spacing: -0.01em; font-weight: 600; }
+.h5 { font-size: 1.125rem; line-height: 1.4; font-weight: 600; }
+.h6 { font-size: 1rem;     line-height: 1.5; font-weight: 600; }
+.p1 { font-size: 1rem;     line-height: 1.5; }
+.p2 { font-size: 0.875rem; line-height: 1.5; }
+.caption { font-size: 0.75rem; line-height: 1.35; }
+.caption-sm { font-size: 0.6875rem; line-height: 1.3; }

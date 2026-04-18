@@ -2,60 +2,55 @@
 
 import { useActionState } from "react";
 import { changePassword } from "@/app/(admin)/admin/settings/actions";
+import { Button } from "./ui/button";
+import { Input } from "./ui/input";
+import { Label } from "./ui/label";
+import { Alert, AlertDescription } from "./ui/alert";
 
 export function PasswordForm() {
   const [state, formAction, pending] = useActionState(changePassword, {});
 
   return (
     <form action={formAction} className="flex flex-col gap-4">
-      <Field name="current" label="Текущий пароль" disabled={pending} />
-      <Field name="next" label="Новый пароль" disabled={pending} />
-      <Field name="repeat" label="Повторить новый" disabled={pending} />
+      <Field name="current" label="Текущий пароль" autoComplete="current-password" disabled={pending} />
+      <Field name="next" label="Новый пароль" autoComplete="new-password" disabled={pending} />
+      <Field name="repeat" label="Повторить новый" autoComplete="new-password" disabled={pending} />
 
       {state.error && (
-        <div className="rounded-md border border-negative/32 bg-negative-soft px-3 py-2">
-          <p className="caption font-semibold text-negative">{state.error}</p>
-        </div>
+        <Alert variant="destructive">
+          <AlertDescription>{state.error}</AlertDescription>
+        </Alert>
       )}
       {state.ok && (
-        <div className="rounded-md border border-positive/32 bg-positive-soft px-3 py-2">
-          <p className="caption font-semibold text-positive">{state.ok}</p>
-        </div>
+        <Alert variant="positive">
+          <AlertDescription>{state.ok}</AlertDescription>
+        </Alert>
       )}
 
       <div className="flex justify-end">
-        <button
-          type="submit"
-          disabled={pending}
-          className="h-10 rounded-md bg-dark px-4 text-[15px] font-semibold text-white transition-colors hover:bg-dark/90 disabled:opacity-50"
-        >
+        <Button type="submit" disabled={pending}>
           {pending ? "Сохраняем…" : "Сменить пароль"}
-        </button>
+        </Button>
       </div>
     </form>
   );
 }
 
 function Field({
-  label,
   name,
+  label,
+  autoComplete,
   disabled,
 }: {
-  label: string;
   name: string;
+  label: string;
+  autoComplete: string;
   disabled?: boolean;
 }) {
   return (
-    <label className="flex flex-col gap-2">
-      <span className="caption text-dark/56">{label}</span>
-      <input
-        name={name}
-        type="password"
-        autoComplete={name === "current" ? "current-password" : "new-password"}
-        required
-        disabled={disabled}
-        className="h-11 rounded-md border border-dark/12 bg-surface px-4 text-[15px] outline-none focus:border-dark disabled:opacity-50"
-      />
-    </label>
+    <div className="flex flex-col gap-2">
+      <Label htmlFor={name}>{label}</Label>
+      <Input id={name} name={name} type="password" autoComplete={autoComplete} required disabled={disabled} />
+    </div>
   );
 }

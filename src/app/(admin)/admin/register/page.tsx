@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { Logo } from "@/components/admin/Logo";
 import { RegisterForm } from "@/components/admin/RegisterForm";
+import { Button } from "@/components/admin/ui/button";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/admin/ui/card";
 import { inspectInvite } from "@/lib/admin/users";
 
 export const metadata = { title: "Регистрация" };
@@ -17,36 +19,37 @@ export default async function RegisterPage({
   const invite = token ? await inspectInvite(token) : { valid: false, reason: "missing" as const };
 
   return (
-    <div className="flex min-h-dvh items-center justify-center bg-app px-6 py-12">
-      <div className="w-full max-w-[440px] rounded-xl bg-surface p-8 sm:p-10">
-        <div className="mb-8 [&_span]:!text-dark [&_span_span]:!text-dark/56">
-          <Logo />
-        </div>
-
-        {invite.valid ? (
-          <>
-            <h1 className="h3 mb-2 text-dark">Приглашение в админку</h1>
-            <p className="p2 mb-8 text-dark/56">
-              {invite.label ? `Для: ${invite.label}. ` : ""}
-              Придумай логин и пароль — после создания тебя залогинит автоматически.
-            </p>
+    <div className="flex min-h-dvh items-center justify-center bg-muted/40 px-6 py-12">
+      <Card className="w-full max-w-[440px]">
+        <CardHeader>
+          <div className="mb-6">
+            <Logo />
+          </div>
+          {invite.valid ? (
+            <>
+              <CardTitle className="text-2xl">Приглашение в админку</CardTitle>
+              <CardDescription>
+                {invite.label ? `Для: ${invite.label}. ` : ""}
+                Придумай логин и пароль — после создания тебя залогинит автоматически.
+              </CardDescription>
+            </>
+          ) : (
+            <>
+              <CardTitle className="text-2xl">Приглашение не активно</CardTitle>
+              <CardDescription>{reasonText(invite.reason)}</CardDescription>
+            </>
+          )}
+        </CardHeader>
+        <CardContent>
+          {invite.valid ? (
             <RegisterForm token={token} />
-          </>
-        ) : (
-          <>
-            <h1 className="h3 mb-2 text-dark">Приглашение не активно</h1>
-            <p className="p2 mb-6 text-dark/56">
-              {reasonText(invite.reason)}
-            </p>
-            <Link
-              href="/admin/login"
-              className="inline-flex h-11 items-center rounded-md border border-dark/12 bg-surface px-4 text-[15px] font-semibold text-dark transition-colors hover:bg-dark/6"
-            >
-              ← Ко входу
-            </Link>
-          </>
-        )}
-      </div>
+          ) : (
+            <Button asChild variant="outline">
+              <Link href="/admin/login">← Ко входу</Link>
+            </Button>
+          )}
+        </CardContent>
+      </Card>
     </div>
   );
 }

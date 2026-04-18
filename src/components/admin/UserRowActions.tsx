@@ -1,10 +1,12 @@
 "use client";
 
 import { useActionState } from "react";
+import { Trash2, KeyRound } from "lucide-react";
 import {
   deleteUserAction,
   resetPasswordAction,
 } from "@/app/(admin)/admin/users/actions";
+import { Button } from "./ui/button";
 
 type Props = {
   id: string;
@@ -12,38 +14,33 @@ type Props = {
   isOwner: boolean;
 };
 
-/**
- * Per-row actions in the users table: reset password + delete. Split out
- * into a client component so we can use useActionState for the reset
- * (which returns a one-shot temporary password to display) and a confirm()
- * dialog on delete.
- */
 export function UserRowActions({ id, isSelf, isOwner }: Props) {
   const [resetState, resetAction, resetPending] = useActionState(resetPasswordAction, {});
-
-  // Owner cannot be deleted, and you can't delete yourself. Either disables the delete button.
   const deleteDisabled = isSelf || isOwner;
 
   return (
     <div className="flex items-center justify-end gap-2">
       <form action={resetAction}>
         <input type="hidden" name="id" value={id} />
-        <button
+        <Button
           type="submit"
+          variant="outline"
+          size="sm"
           disabled={resetPending}
-          className="caption rounded-md border border-dark/12 px-3 py-1.5 text-dark/56 transition-colors hover:border-dark/32 hover:text-dark disabled:opacity-50"
+          title="Сгенерировать временный пароль"
         >
-          {resetPending ? "…" : "Сбросить пароль"}
-        </button>
+          <KeyRound className="h-3.5 w-3.5" />
+          {resetPending ? "…" : "Сбросить"}
+        </Button>
       </form>
 
       {resetState.ok && (
-        <span className="caption max-w-[220px] rounded-md bg-warning-soft px-2 py-1 font-mono text-dark">
+        <span className="max-w-[220px] rounded-md bg-warning/15 px-2 py-1 font-mono text-xs text-foreground">
           {resetState.ok}
         </span>
       )}
       {resetState.error && (
-        <span className="caption rounded-md bg-negative-soft px-2 py-1 text-negative">
+        <span className="rounded-md bg-destructive/15 px-2 py-1 text-xs text-destructive">
           {resetState.error}
         </span>
       )}
@@ -55,14 +52,16 @@ export function UserRowActions({ id, isSelf, isOwner }: Props) {
         }}
       >
         <input type="hidden" name="id" value={id} />
-        <button
+        <Button
           type="submit"
+          variant="destructive"
+          size="sm"
           disabled={deleteDisabled}
           title={isSelf ? "Нельзя удалить самого себя" : isOwner ? "Нельзя удалить владельца" : ""}
-          className="caption rounded-md border border-negative/32 bg-negative-soft px-3 py-1.5 font-semibold text-negative transition-colors hover:bg-negative hover:text-white disabled:cursor-not-allowed disabled:opacity-40"
         >
+          <Trash2 className="h-3.5 w-3.5" />
           Удалить
-        </button>
+        </Button>
       </form>
     </div>
   );

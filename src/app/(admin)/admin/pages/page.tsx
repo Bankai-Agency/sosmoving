@@ -1,25 +1,24 @@
 import { AdminShell } from "@/components/admin/AdminShell";
 import { TopBar } from "@/components/admin/TopBar";
 import { PagesTable } from "@/components/admin/PagesTable";
+import { Badge } from "@/components/admin/ui/badge";
 import { listPages } from "@/lib/admin/pages";
 
 export const metadata = { title: "Страницы сайта" };
-export const dynamic = "force-dynamic"; // mtimes change with deploys
+export const dynamic = "force-dynamic";
 
 export default function PagesHealthPage() {
   const rows = listPages();
 
   return (
     <AdminShell>
-      <TopBar title="Страницы сайта" actions={<span className="caption text-dark/56">Всего: {rows.length}</span>} />
-      <div className="flex-1 p-6">
-        {/* Coming soon widgets — these tell the user what additional columns
-            will appear once the respective integrations are wired. */}
-        <div className="mb-4 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
-          <ComingCard title="Core Web Vitals" hint="Vercel Speed Insights API → LCP/INP/CLS per page" />
-          <ComingCard title="SEO coverage" hint="Search Console API → indexed? impressions? position?" />
-          <ComingCard title="Lighthouse" hint="GitHub Action → performance / SEO / a11y score" />
-          <ComingCard title="Broken links/images" hint="Cron crawler → 404-checker per page" />
+      <TopBar title="Страницы сайта" actions={<span className="text-xs text-muted-foreground">Всего: {rows.length}</span>} />
+      <div className="flex-1 space-y-4 p-6">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
+          <ComingCard title="Core Web Vitals" hint="Vercel Speed Insights → LCP/INP/CLS" />
+          <ComingCard title="SEO coverage" hint="Search Console → indexed / clicks / position" />
+          <ComingCard title="Lighthouse" hint="GitHub Action → perf / SEO / a11y score" />
+          <ComingCard title="Broken links" hint="Cron crawler → 404-checker" />
         </div>
 
         <PagesTable rows={rows} />
@@ -30,14 +29,12 @@ export default function PagesHealthPage() {
 
 function ComingCard({ title, hint }: { title: string; hint: string }) {
   return (
-    <div className="rounded-xl border border-dashed border-dark/12 bg-surface p-4">
+    <div className="rounded-xl border border-dashed bg-card p-4">
       <div className="flex items-center justify-between">
-        <h4 className="p2 font-semibold text-dark">{title}</h4>
-        <span className="caption rounded-full bg-warning-soft px-2 py-0.5 font-semibold text-dark">
-          план
-        </span>
+        <h4 className="text-sm font-medium">{title}</h4>
+        <Badge variant="warning">план</Badge>
       </div>
-      <p className="caption mt-1 text-dark/56">{hint}</p>
+      <p className="mt-1 text-xs text-muted-foreground">{hint}</p>
     </div>
   );
 }

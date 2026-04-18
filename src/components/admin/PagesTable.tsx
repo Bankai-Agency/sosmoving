@@ -2,8 +2,14 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
+import { ExternalLink } from "lucide-react";
 import type { PageRow, PageType } from "@/lib/admin/page-types";
 import { pageTypeLabel } from "@/lib/admin/page-types";
+import { Input } from "./ui/input";
+import { Badge } from "./ui/badge";
+import { Button } from "./ui/button";
+import { Card } from "./ui/card";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "./ui/table";
 
 type Props = { rows: PageRow[] };
 
@@ -25,9 +31,8 @@ const TYPE_ORDER: PageType[] = [
 
 /**
  * Client-side table with type filter + free-text search. 907 rows rendered
- * as a single flat list — React handles this fine without virtualization
- * for a page that exists to be browsed manually. If we ever approach
- * ~5000+ rows we can swap to react-virtual.
+ * as a single flat list — React handles this fine without virtualization.
+ * If we ever cross ~5000 rows we can swap to react-virtual.
  */
 export function PagesTable({ rows }: Props) {
   const [typeFilter, setTypeFilter] = useState<PageType | "all">("all");
@@ -55,19 +60,18 @@ export function PagesTable({ rows }: Props) {
     <div className="flex flex-col gap-4">
       {/* Controls */}
       <div className="flex flex-wrap items-center gap-3">
-        <div className="flex-1 min-w-[240px]">
-          <input
+        <div className="min-w-[240px] flex-1">
+          <Input
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Поиск по slug / URL"
-            className="h-10 w-full rounded-md border border-dark/12 bg-surface px-3 text-[15px] outline-none focus:border-dark"
           />
         </div>
         <select
           value={typeFilter}
           onChange={(e) => setTypeFilter(e.target.value as PageType | "all")}
-          className="h-10 rounded-md border border-dark/12 bg-surface px-3 text-[15px] outline-none focus:border-dark"
+          className="h-9 rounded-md border border-input bg-background px-3 text-sm shadow-sm focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
         >
           <option value="all">Все типы ({rows.length})</option>
           {TYPE_ORDER.map((t) => {
@@ -80,57 +84,56 @@ export function PagesTable({ rows }: Props) {
             );
           })}
         </select>
-        <span className="caption text-dark/56">
+        <span className="text-xs text-muted-foreground">
           показано {Math.min(limit, filtered.length)} из {filtered.length}
         </span>
       </div>
 
       {/* Table */}
-      <div className="overflow-hidden rounded-xl bg-surface">
-        <table className="w-full">
-          <thead>
-            <tr className="border-b border-dark/6 bg-dark/6">
-              <th className="caption px-4 py-3 text-left font-semibold text-dark/56">Тип</th>
-              <th className="caption px-4 py-3 text-left font-semibold text-dark/56">URL</th>
-              <th className="caption px-4 py-3 text-right font-semibold text-dark/56">Размер</th>
-              <th className="caption px-4 py-3 text-right font-semibold text-dark/56">Обновлено</th>
-            </tr>
-          </thead>
-          <tbody>
+      <Card className="overflow-hidden">
+        <Table>
+          <TableHeader>
+            <TableRow>
+              <TableHead>Тип</TableHead>
+              <TableHead>URL</TableHead>
+              <TableHead className="text-right">Размер</TableHead>
+              <TableHead className="text-right">Обновлено</TableHead>
+            </TableRow>
+          </TableHeader>
+          <TableBody>
             {visible.map((r) => (
-              <tr key={r.slug} className="border-b border-dark/6 last:border-0 hover:bg-dark/6">
-                <td className="px-4 py-3">
-                  <span className="caption rounded-full bg-dark/6 px-2.5 py-1 font-semibold text-dark/56">
-                    {pageTypeLabel(r.type)}
-                  </span>
-                </td>
-                <td className="px-4 py-3">
-                  <Link href={r.url} target="_blank" className="p2 font-mono text-dark hover:text-link">
+              <TableRow key={r.slug}>
+                <TableCell>
+                  <Badge variant="secondary">{pageTypeLabel(r.type)}</Badge>
+                </TableCell>
+                <TableCell>
+                  <Link
+                    href={r.url}
+                    target="_blank"
+                    className="inline-flex items-center gap-1.5 font-mono text-sm hover:underline"
+                  >
                     {r.url}
+                    <ExternalLink className="h-3 w-3 text-muted-foreground" />
                   </Link>
-                </td>
-                <td className="caption whitespace-nowrap px-4 py-3 text-right text-dark/56">
+                </TableCell>
+                <TableCell className="whitespace-nowrap text-right text-xs text-muted-foreground">
                   {(r.bytes / 1024).toFixed(1)} KB
-                </td>
-                <td className="caption whitespace-nowrap px-4 py-3 text-right text-dark/56">
+                </TableCell>
+                <TableCell className="whitespace-nowrap text-right text-xs text-muted-foreground">
                   {r.mtime.toLocaleDateString("ru-RU", { day: "numeric", month: "short", year: "numeric" })}
-                </td>
-              </tr>
+                </TableCell>
+              </TableRow>
             ))}
-          </tbody>
-        </table>
+          </TableBody>
+        </Table>
         {visible.length < filtered.length && (
-          <div className="border-t border-dark/6 p-3 text-center">
-            <button
-              type="button"
-              onClick={() => setLimit((l) => l + 200)}
-              className="caption rounded-md border border-dark/12 px-3 py-1.5 text-dark hover:bg-dark/6"
-            >
+          <div className="border-t p-3 text-center">
+            <Button variant="outline" size="sm" onClick={() => setLimit((l) => l + 200)}>
               Показать ещё 200
-            </button>
+            </Button>
           </div>
         )}
-      </div>
+      </Card>
     </div>
   );
 }

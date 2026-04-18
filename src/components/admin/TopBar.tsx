@@ -2,14 +2,13 @@ import type { ReactNode } from "react";
 
 type Props = {
   title: string;
-  /** Optional trailing content (buttons, filters, etc.) */
   actions?: ReactNode;
 };
 
 export function TopBar({ title, actions }: Props) {
   return (
-    <header className="flex h-16 items-center justify-between border-b border-dark/6 bg-surface px-6">
-      <h1 className="h6">{title}</h1>
+    <header className="sticky top-0 z-20 flex h-14 items-center justify-between border-b bg-background/80 px-6 backdrop-blur">
+      <h1 className="text-base font-semibold tracking-tight">{title}</h1>
       <div className="flex items-center gap-3">{actions}</div>
     </header>
   );

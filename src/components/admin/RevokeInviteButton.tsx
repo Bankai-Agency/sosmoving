@@ -1,6 +1,7 @@
 "use client";
 
 import { revokeInviteAction } from "@/app/(admin)/admin/users/actions";
+import { Button } from "./ui/button";
 
 export function RevokeInviteButton({ id }: { id: string }) {
   return (
@@ -11,12 +12,9 @@ export function RevokeInviteButton({ id }: { id: string }) {
       }}
     >
       <input type="hidden" name="id" value={id} />
-      <button
-        type="submit"
-        className="caption rounded-md border border-dark/12 px-3 py-1.5 text-dark/56 transition-colors hover:border-negative/32 hover:bg-negative-soft hover:text-negative"
-      >
+      <Button type="submit" variant="ghost" size="sm" className="text-muted-foreground hover:text-destructive">
         Отозвать
-      </button>
+      </Button>
     </form>
   );
 }

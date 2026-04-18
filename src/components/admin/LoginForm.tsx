@@ -2,51 +2,51 @@
 
 import { useActionState } from "react";
 import { login } from "@/app/(admin)/admin/login/actions";
+import { Button } from "./ui/button";
+import { Input } from "./ui/input";
+import { Label } from "./ui/label";
+import { Alert, AlertDescription } from "./ui/alert";
 
 export function LoginForm() {
   const [error, formAction, pending] = useActionState(login, undefined);
 
   return (
-    <form action={formAction} className="flex flex-col gap-4">
-      <label className="flex flex-col gap-2">
-        <span className="caption text-dark/56">Логин</span>
-        <input
+    <form action={formAction} className="flex flex-col gap-5">
+      <div className="flex flex-col gap-2">
+        <Label htmlFor="username">Логин</Label>
+        <Input
+          id="username"
           name="username"
           type="text"
           autoComplete="username"
           required
           disabled={pending}
-          className="h-12 rounded-md border border-dark/12 bg-surface px-4 text-[15px] leading-5 outline-none placeholder:text-dark/32 focus:border-dark disabled:opacity-50"
           placeholder="your-login"
         />
-      </label>
+      </div>
 
-      <label className="flex flex-col gap-2">
-        <span className="caption text-dark/56">Пароль</span>
-        <input
+      <div className="flex flex-col gap-2">
+        <Label htmlFor="password">Пароль</Label>
+        <Input
+          id="password"
           name="password"
           type="password"
           autoComplete="current-password"
           required
           disabled={pending}
-          className="h-12 rounded-md border border-dark/12 bg-surface px-4 text-[15px] leading-5 outline-none placeholder:text-dark/32 focus:border-dark disabled:opacity-50"
           placeholder="••••••••"
         />
-      </label>
+      </div>
 
       {error && (
-        <div className="rounded-md border border-negative/32 bg-negative-soft px-4 py-3">
-          <p className="caption font-semibold text-negative">{error}</p>
-        </div>
+        <Alert variant="destructive">
+          <AlertDescription>{error}</AlertDescription>
+        </Alert>
       )}
 
-      <button
-        type="submit"
-        disabled={pending}
-        className="mt-4 h-12 rounded-md bg-dark px-4 text-[15px] font-semibold text-white transition-colors hover:bg-dark/90 disabled:opacity-50"
-      >
+      <Button type="submit" disabled={pending} size="lg" className="w-full">
         {pending ? "Входим…" : "Продолжить"}
-      </button>
+      </Button>
     </form>
   );
 }

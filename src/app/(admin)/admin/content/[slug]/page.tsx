@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ArrowLeft, ExternalLink, Eye } from "lucide-react";
 import { AdminShell } from "@/components/admin/AdminShell";
 import { TopBar } from "@/components/admin/TopBar";
 import { StatusBadge } from "@/components/admin/StatusBadge";
 import { EditorForm } from "@/components/admin/EditorForm";
 import { DeletePostButton } from "@/components/admin/DeletePostButton";
+import { Button } from "@/components/admin/ui/button";
 import { readPost, isPublic } from "@/lib/admin/content-store";
 import { publishNow, unpublish } from "../actions";
 
@@ -34,50 +36,42 @@ export default async function EditPostPage({ params }: { params: Promise<Params>
       <TopBar
         title={fm.title || slug}
         actions={
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
             <StatusBadge status={status} />
-            <Link
-              href="/admin/content"
-              className="caption rounded-md border border-dark/12 px-3 py-2 text-dark hover:bg-dark/6"
-            >
-              ← К списку
-            </Link>
-            <Link
-              href={`/admin/content/${slug}/preview`}
-              target="_blank"
-              className="caption rounded-md border border-dark/12 px-3 py-2 text-dark hover:bg-dark/6"
-            >
-              Превью ↗
-            </Link>
-            {publiclyVisible && (
-              <Link
-                href={`/blog/${slug}`}
-                target="_blank"
-                className="caption rounded-md border border-dark/12 px-3 py-2 text-dark hover:bg-dark/6"
-              >
-                Открыть на сайте ↗
+            <Button asChild variant="outline" size="sm">
+              <Link href="/admin/content">
+                <ArrowLeft className="h-3.5 w-3.5" />
+                К списку
               </Link>
+            </Button>
+            <Button asChild variant="outline" size="sm">
+              <Link href={`/preview/blog/${slug}`} target="_blank">
+                <Eye className="h-3.5 w-3.5" />
+                Превью как на сайте
+              </Link>
+            </Button>
+            {publiclyVisible && (
+              <Button asChild variant="outline" size="sm">
+                <Link href={`/blog/${slug}`} target="_blank">
+                  <ExternalLink className="h-3.5 w-3.5" />
+                  На сайте
+                </Link>
+              </Button>
             )}
             {status !== "published" && (
               <form action={publishNow}>
                 <input type="hidden" name="slug" value={slug} />
-                <button
-                  type="submit"
-                  className="h-10 rounded-md bg-positive px-4 text-[15px] font-semibold text-white transition-colors hover:brightness-95"
-                >
+                <Button type="submit" size="sm" className="bg-positive text-positive-foreground hover:bg-positive/90">
                   Опубликовать сейчас
-                </button>
+                </Button>
               </form>
             )}
             {status === "published" && (
               <form action={unpublish}>
                 <input type="hidden" name="slug" value={slug} />
-                <button
-                  type="submit"
-                  className="h-10 rounded-md border border-dark/12 bg-surface px-4 text-[15px] font-semibold text-dark transition-colors hover:bg-dark/6"
-                >
+                <Button type="submit" variant="outline" size="sm">
                   Снять с публикации
-                </button>
+                </Button>
               </form>
             )}
             <DeletePostButton slug={slug} />

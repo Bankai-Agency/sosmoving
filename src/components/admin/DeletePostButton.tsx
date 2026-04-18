@@ -1,12 +1,9 @@
 "use client";
 
+import { Trash2 } from "lucide-react";
 import { removePost } from "@/app/(admin)/admin/content/actions";
+import { Button } from "./ui/button";
 
-/**
- * Small client component around the delete server action so we can hook
- * `onSubmit` for a native confirm() dialog. Server components can't carry
- * event handlers, hence the separate client wrapper.
- */
 export function DeletePostButton({ slug }: { slug: string }) {
   return (
     <form
@@ -16,12 +13,10 @@ export function DeletePostButton({ slug }: { slug: string }) {
       }}
     >
       <input type="hidden" name="slug" value={slug} />
-      <button
-        type="submit"
-        className="h-10 rounded-md border border-negative/32 bg-negative-soft px-4 text-[15px] font-semibold text-negative transition-colors hover:bg-negative hover:text-white"
-      >
+      <Button type="submit" variant="destructive" size="sm">
+        <Trash2 className="h-3.5 w-3.5" />
         Удалить
-      </button>
+      </Button>
     </form>
   );
 }

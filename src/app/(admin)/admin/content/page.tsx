@@ -1,10 +1,15 @@
 import Link from "next/link";
+import { Plus } from "lucide-react";
 import { AdminShell } from "@/components/admin/AdminShell";
 import { TopBar } from "@/components/admin/TopBar";
 import { StatusBadge } from "@/components/admin/StatusBadge";
+import { Button } from "@/components/admin/ui/button";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/admin/ui/card";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/admin/ui/table";
 import { getAllPosts } from "@/lib/admin/stats";
 
 export const metadata = { title: "Контент" };
+export const dynamic = "force-dynamic";
 
 export default function ContentPage() {
   const posts = getAllPosts();
@@ -17,58 +22,60 @@ export default function ContentPage() {
       <TopBar
         title="Контент"
         actions={
-          <Link
-            href="/admin/content/new"
-            className="inline-flex h-10 items-center rounded-md bg-dark px-4 text-[15px] font-semibold text-white transition-colors hover:bg-dark/90"
-          >
-            + Новая статья
-          </Link>
+          <Button asChild size="sm">
+            <Link href="/admin/content/new">
+              <Plus className="h-4 w-4" />
+              Новая статья
+            </Link>
+          </Button>
         }
       />
-      <div className="flex-1 p-6">
-        {/* Stat strip */}
-        <div className="mb-4 grid grid-cols-3 gap-4">
+      <div className="flex-1 space-y-4 p-6">
+        <div className="grid grid-cols-3 gap-4">
           <Stat label="Опубликовано" value={published} />
           <Stat label="Черновики" value={drafts} />
           <Stat label="Запланировано" value={scheduled} />
         </div>
 
-        {/* Table */}
-        <div className="overflow-hidden rounded-xl bg-surface">
-          <table className="w-full">
-            <thead>
-              <tr className="border-b border-dark/6 bg-dark/6">
-                <th className="caption px-4 py-3 text-left font-semibold text-dark/56">Статья</th>
-                <th className="caption px-4 py-3 text-left font-semibold text-dark/56">Статус</th>
-                <th className="caption px-4 py-3 text-left font-semibold text-dark/56">Категория</th>
-                <th className="caption px-4 py-3 text-left font-semibold text-dark/56">Опубликовано</th>
-                <th className="caption px-4 py-3 text-left font-semibold text-dark/56">Обновлено</th>
-              </tr>
-            </thead>
-            <tbody>
+        <Card className="overflow-hidden">
+          <Table>
+            <TableHeader>
+              <TableRow>
+                <TableHead>Статья</TableHead>
+                <TableHead>Статус</TableHead>
+                <TableHead>Категория</TableHead>
+                <TableHead>Опубликовано</TableHead>
+                <TableHead>Обновлено</TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
               {posts.slice(0, 50).map((p) => (
-                <tr key={p.slug} className="border-b border-dark/6 last:border-0 hover:bg-dark/6">
-                  <td className="max-w-[400px] px-4 py-3">
-                    <Link href={`/admin/content/${p.slug}`} className="p2 truncate font-semibold text-dark hover:text-link">
+                <TableRow key={p.slug}>
+                  <TableCell className="max-w-[400px]">
+                    <Link href={`/admin/content/${p.slug}`} className="block truncate font-medium hover:underline">
                       {p.title}
                     </Link>
-                  </td>
-                  <td className="px-4 py-3"><StatusBadge status={p.status} /></td>
-                  <td className="px-4 py-3 caption max-w-[220px] truncate text-dark/56">{p.category}</td>
-                  <td className="px-4 py-3 caption whitespace-nowrap text-dark/56">{p.publishDate || "—"}</td>
-                  <td className="px-4 py-3 caption whitespace-nowrap text-dark/56">{p.lastUpdated || "—"}</td>
-                </tr>
+                  </TableCell>
+                  <TableCell>
+                    <StatusBadge status={p.status} />
+                  </TableCell>
+                  <TableCell className="max-w-[220px] truncate text-xs text-muted-foreground">{p.category}</TableCell>
+                  <TableCell className="whitespace-nowrap text-xs text-muted-foreground">
+                    {p.publishDate || "—"}
+                  </TableCell>
+                  <TableCell className="whitespace-nowrap text-xs text-muted-foreground">
+                    {p.lastUpdated || "—"}
+                  </TableCell>
+                </TableRow>
               ))}
-            </tbody>
-          </table>
+            </TableBody>
+          </Table>
           {posts.length > 50 && (
-            <div className="border-t border-dark/6 p-3 text-center">
-              <span className="caption text-dark/56">
-                Показано 50 из {posts.length}. Пагинация и поиск — в следующем шаге.
-              </span>
+            <div className="border-t p-3 text-center text-xs text-muted-foreground">
+              Показано 50 из {posts.length}. Пагинация и поиск — в следующем шаге.
             </div>
           )}
-        </div>
+        </Card>
       </div>
     </AdminShell>
   );
@@ -76,9 +83,12 @@ export default function ContentPage() {
 
 function Stat({ label, value }: { label: string; value: number }) {
   return (
-    <div className="rounded-xl bg-surface p-4">
-      <div className="caption text-dark/56">{label}</div>
-      <div className="mt-1 h4 text-dark">{value}</div>
-    </div>
+    <Card>
+      <CardHeader className="pb-2">
+        <CardDescription>{label}</CardDescription>
+        <CardTitle className="text-2xl">{value}</CardTitle>
+      </CardHeader>
+      <CardContent />
+    </Card>
   );
 }

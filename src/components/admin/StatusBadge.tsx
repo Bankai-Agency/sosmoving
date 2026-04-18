@@ -1,10 +1,6 @@
-type Status = "published" | "draft" | "scheduled";
+import { Badge } from "./ui/badge";
 
-const styles: Record<Status, string> = {
-  published: "bg-positive-soft text-positive",
-  draft: "bg-dark/6 text-dark/56",
-  scheduled: "bg-warning-soft text-dark",
-};
+type Status = "published" | "draft" | "scheduled";
 
 const labels: Record<Status, string> = {
   published: "Опубликовано",
@@ -14,10 +10,8 @@ const labels: Record<Status, string> = {
 
 export function StatusBadge({ status }: { status: Status }) {
   return (
-    <span
-      className={`inline-flex h-6 items-center rounded-full px-2.5 text-[12px] font-semibold leading-none ${styles[status]}`}
-    >
+    <Badge variant={status === "published" ? "positive" : status === "scheduled" ? "warning" : "secondary"}>
       {labels[status]}
-    </span>
+    </Badge>
   );
 }

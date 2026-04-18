@@ -66,6 +66,7 @@ export const { auth, handlers, signIn, signOut } = NextAuth({
     authorized({ auth: session, request }) {
       const { pathname } = request.nextUrl;
       const onAdminArea = pathname.startsWith("/admin");
+      const onPreview = pathname.startsWith("/preview");
       const onLogin = pathname === "/admin/login";
       const onRegister = pathname.startsWith("/admin/register");
       const onChangePassword = pathname.startsWith("/admin/change-password");
@@ -75,19 +76,24 @@ export const { auth, handlers, signIn, signOut } = NextAuth({
         (session?.user as { mustChangePassword?: boolean } | undefined)?.mustChangePassword,
       );
 
+      // Preview routes: editors only. Anon → bounce to login with a next-hop.
+      if (onPreview) {
+        if (!isLoggedIn) return false;
+        // mustChangePassword users are allowed into preview — rotating their
+        // password isn't the right friction for "look at your draft". If that
+        // feels wrong later, flip to redirecting to /admin/change-password here.
+        return true;
+      }
+
       if (!onAdminArea) return true; // matcher limits us to /admin/* anyway
 
       if (isLoggedIn && (onLogin || onRegister)) {
         return Response.redirect(new URL("/admin/dashboard", request.nextUrl));
       }
       if (!isLoggedIn && !(onLogin || onRegister)) {
-        // Auth.js will redirect to /admin/login automatically.
         return false;
       }
 
-      // If the user still has the seed password (or an admin reset the flag),
-      // force them onto the change-password screen until they rotate it.
-      // Logout is always allowed so people never get stuck.
       if (isLoggedIn && mustChange && !onChangePassword && !onLogout) {
         return Response.redirect(new URL("/admin/change-password", request.nextUrl));
       }
