@@ -20,7 +20,14 @@ const CITY_META: Record<string, string> = {
 export async function generateStaticParams() {
   const dir = join(process.cwd(), 'public/pages');
   return readdirSync(dir)
-    .filter(f => f.endsWith('.html') && f.includes('-movers') && !f.includes('__'))
+    .filter(f =>
+      f.endsWith('.html') &&
+      !f.includes('__') &&
+      // Two naming conventions for city pages:
+      //   {city}-movers.html  (e.g. beverly-hills-movers.html) — 97 pages
+      //   movers-{city}.html  (e.g. movers-hollywood.html)     — 13 pages
+      (f.includes('-movers') || f.startsWith('movers-'))
+    )
     .map(f => ({ citySlug: f.replace('.html', '') }));
 }
 
