@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+/* ================================================================
+ * ENOT design tokens (see Figma: «⚡️ ENOT — Личный кабинет»).
+ * Scoped to the (admin) route group — does NOT affect (webflow)
+ * or (new-design) stacks. Each route group has its own globals.css
+ * and its own root layout.
+ * ============================================================== */
+
+@theme inline {
+  /* Surfaces */
+  --color-app: #f6f6f7;         /* main content background */
+  --color-surface: #ffffff;     /* cards, inputs, modals */
+  --color-dark: #0d1019;        /* sidebar, primary button, headers */
+
+  /* Brand */
+  --color-brand: #ffdf54;
+
+  /* Status */
+  --color-positive: #6bc685;
+  --color-positive-soft: #ecfbf0;
+  --color-warning: #ffce47;
+  --color-warning-soft: #fff5da;
+  --color-negative: #f44b5f;
+  --color-negative-soft: #ffe9ec;
+  --color-link: #4487e5;
+  --color-link-soft: #f4f8fe;
+
+  /* Chart gradient palette (from Figma: Purple / Blue / Orange) */
+  --color-chart-purple: #7438fe;
+  --color-chart-blue: #3787fe;
+  --color-chart-orange: #fe7f38;
+
+  /* Radii (Figma cards use 20) */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+
+  /* Font — Inter, loaded via next/font in layout.tsx */
+  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+}
+
+/* ================================================================
+ * Base resets (scoped by this layout's <html> only)
+ * ============================================================== */
+html {
+  background: var(--color-app);
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-dark);
+  background: var(--color-app);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Typography scale from Figma — helper classes for headings */
+.h1 { font-size: 44px; line-height: 44px; letter-spacing: -0.98px; font-weight: 600; }
+.h2 { font-size: 36px; line-height: 36px; letter-spacing: -0.98px; font-weight: 600; }
+.h3 { font-size: 30px; line-height: 34px; letter-spacing: -0.64px; font-weight: 600; }
+.h4 { font-size: 25px; line-height: 28px; letter-spacing: -0.50px; font-weight: 600; }
+.h5 { font-size: 20px; line-height: 24px; letter-spacing: -0.33px; font-weight: 600; }
+.h6 { font-size: 17px; line-height: 22px; letter-spacing: -0.22px; font-weight: 600; }
+.p1 { font-size: 17px; line-height: 22px; letter-spacing: -0.22px; }
+.p2 { font-size: 15px; line-height: 20px; letter-spacing: -0.13px; }
+.caption { font-size: 13px; line-height: 16px; letter-spacing: -0.04px; }
+.caption-sm { font-size: 12px; line-height: 14px; letter-spacing: -0.04px; }
+
+/* Mobile typography — overrides when viewport < 768px */
+@media (max-width: 767px) {
+  .h1 { font-size: 36px; line-height: 36px; }
+  .h2 { font-size: 28px; line-height: 28px; }
+  .h3 { font-size: 28px; line-height: 32px; }
+  .h4 { font-size: 22px; line-height: 24px; }
+  .h5 { font-size: 18px; line-height: 22px; }
+  .h6 { font-size: 16px; line-height: 22px; }
+}
+
+/* Hide webflow's global font-size overrides if they leak */
+html[data-admin="true"] {
+  font-size: 16px !important;
+}
