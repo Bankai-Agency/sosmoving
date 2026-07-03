@@ -2,3 +2,4 @@ _legacy/
 scripts/
 *.py
 download_report.json
+_exports/
