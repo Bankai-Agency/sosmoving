@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68ecfb068d845dc96058eb5b_student-moving-services-lo
 publishDate: "October 9, 2025"
 lastUpdated: "October 9, 2025"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287d3795bf31a_jon-tyson-0rd-uBuds-g-unsp
 publishDate: "June 2, 2021"
 lastUpdated: "June 2, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

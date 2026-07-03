@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69cf92bfaccde3571ef55b3b_dallas-to-los-angeles-movi
 publishDate: "April 3, 2026"
 lastUpdated: "April 3, 2026"
 category: "long-distance"
+categories: ["long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

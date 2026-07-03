@@ -6,6 +6,7 @@ featuredImage: "/images/blog/695f77a37b8ef3fd361e7089_las-vegas-to-los-angeles-m
 publishDate: "January 6, 2026"
 lastUpdated: "January 6, 2026"
 category: "long-distance"
+categories: ["long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

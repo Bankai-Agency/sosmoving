@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922873dfe5bf420_man-couple-love-people-456
 publishDate: "November 10, 2020"
 lastUpdated: "November 10, 2020"
 category: "after-the-move"
+categories: ["after-the-move", "los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

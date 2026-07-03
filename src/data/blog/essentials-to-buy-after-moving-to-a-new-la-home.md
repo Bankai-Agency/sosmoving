@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922872ebe5bf3be_minh-pham-OtXADkUh3-I-unsp
 publishDate: "March 1, 2021"
 lastUpdated: "March 1, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

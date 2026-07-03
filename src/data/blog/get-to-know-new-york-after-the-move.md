@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228730b35bf2fe_emily-xie-GFeWwTSY2_g-unsp
 publishDate: "June 23, 2021"
 lastUpdated: "June 23, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

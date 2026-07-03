@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68e3e00d37a3911dd4e04244_weekend-moving-los-angeles
 publishDate: "October 4, 2025"
 lastUpdated: "October 4, 2025"
 category: "moving-day-preparation"
+categories: ["moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

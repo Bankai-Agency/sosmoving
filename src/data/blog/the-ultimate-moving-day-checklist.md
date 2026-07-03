@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68bb0f81ebbdb1b952f499cf_the-ultimate-moving-day-ch
 publishDate: "September 3, 2025"
 lastUpdated: "September 3, 2025"
 category: "moving-day-preparation"
+categories: ["moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

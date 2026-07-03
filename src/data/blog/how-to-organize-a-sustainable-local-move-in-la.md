@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228771bf5bf263_pexels-pixabay-237325-1.jp
 publishDate: "September 21, 2021"
 lastUpdated: "September 21, 2021"
 category: "local-moving-tips"
+categories: ["local-moving-tips", "move-sustainably"]
 readTime: ""
 author:
   name: "SOS Moving"

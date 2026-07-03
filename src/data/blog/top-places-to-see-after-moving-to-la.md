@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922875e9e5bf278_griffith-observatory-38976
 publishDate: "September 12, 2021"
 lastUpdated: "September 12, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "top-places-to-live"]
 readTime: ""
 author:
   name: "SOS Moving"

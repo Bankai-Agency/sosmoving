@@ -6,6 +6,7 @@ featuredImage: "/images/blog/6995a1f35124d142b587f114_moving-insurance-vs-homeow
 publishDate: "February 18, 2026"
 lastUpdated: "February 18, 2026"
 category: "moving-day-preparation"
+categories: ["moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

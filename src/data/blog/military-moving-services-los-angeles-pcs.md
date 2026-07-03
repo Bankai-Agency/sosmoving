@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69060dad6bca5b1b80aad90b_military-moving-services-l
 publishDate: "October 30, 2025"
 lastUpdated: "October 30, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

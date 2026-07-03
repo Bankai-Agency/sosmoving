@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287b6f75bf3fc_woman-typing-on-laptop-whi
 publishDate: "November 18, 2020"
 lastUpdated: "November 18, 2020"
 category: "general"
+categories: ["general", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

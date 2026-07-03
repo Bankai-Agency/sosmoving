@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287c1825bf205_what-to-know-before-moving
 publishDate: "October 3, 2022"
 lastUpdated: "October 3, 2022"
 category: "los-angeles"
+categories: ["los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

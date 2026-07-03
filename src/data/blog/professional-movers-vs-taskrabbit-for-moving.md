@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69ce3bb9485e75c83aea3653_professional-movers-vs-tas
 publishDate: "April 1, 2026"
 lastUpdated: "April 1, 2026"
 category: "moving-day-preparation"
+categories: ["moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

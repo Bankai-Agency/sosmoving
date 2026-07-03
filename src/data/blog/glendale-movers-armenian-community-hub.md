@@ -6,6 +6,7 @@ featuredImage: "/images/blog/696e1879c5ec8007e40b010f_glendale-movers-armenian-c
 publishDate: "January 30, 2026"
 lastUpdated: "January 30, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69aff0d4c2939d283246d495_moving-box-labels-system-t
 publishDate: "March 11, 2026"
 lastUpdated: "March 11, 2026"
 category: "packing-tips"
+categories: ["packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

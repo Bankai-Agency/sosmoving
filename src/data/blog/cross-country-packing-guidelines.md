@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287b6f75bf3fc_woman-typing-on-laptop-whi
 publishDate: "January 26, 2021"
 lastUpdated: "January 26, 2021"
 category: "long-distance"
+categories: ["long-distance", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

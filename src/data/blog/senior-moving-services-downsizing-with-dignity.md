@@ -6,6 +6,7 @@ featuredImage: "/images/blog/696e171dba554ce343ade52c_senior-moving-services-dow
 publishDate: "January 28, 2026"
 lastUpdated: "January 28, 2026"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

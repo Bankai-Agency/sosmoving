@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922871e465bf42a_jens-kreuter-ngMtsE5r9eI-u
 publishDate: "December 30, 2020"
 lastUpdated: "December 30, 2020"
 category: "after-the-move"
+categories: ["after-the-move", "los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

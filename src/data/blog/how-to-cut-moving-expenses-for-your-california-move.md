@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922872e6c5bf371_josh-appel-NeTPASr-bmQ-uns
 publishDate: "April 11, 2021"
 lastUpdated: "April 11, 2021"
 category: "long-distance"
+categories: ["long-distance", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

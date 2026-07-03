@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228718195bf3ef_pexels-loe-moshkovska-7222
 publishDate: "January 30, 2021"
 lastUpdated: "January 30, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "general"]
 readTime: ""
 author:
   name: "SOS Moving"

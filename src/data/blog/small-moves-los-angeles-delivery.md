@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69060e6ea05e41e391386bcb_small-moves-los-angeles-de
 publishDate: "October 31, 2025"
 lastUpdated: "October 31, 2025"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

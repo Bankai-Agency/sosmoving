@@ -6,6 +6,7 @@ featuredImage: "/images/blog/696e16152164476ab04452b7_moving-quotes-how-to-compa
 publishDate: "January 27, 2026"
 lastUpdated: "January 27, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

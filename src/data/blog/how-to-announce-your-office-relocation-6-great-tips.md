@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922871ba15bf210_how-to-announce-your-offic
 publishDate: "May 23, 2022"
 lastUpdated: "May 23, 2022"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

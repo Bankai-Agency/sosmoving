@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228707005bf347_hiveboxx-deX-KChuboY-unspl
 publishDate: "May 2, 2021"
 lastUpdated: "May 2, 2021"
 category: "general"
+categories: ["general", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69c65516f2e1e32d4a00b98c_eco-friendly-moving-boxes-
 publishDate: "March 12, 2026"
 lastUpdated: "March 12, 2026"
 category: "packing-tips"
+categories: ["packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

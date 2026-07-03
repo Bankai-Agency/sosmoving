@@ -6,6 +6,7 @@ featuredImage: "/images/blog/690c90929456018387b0ae21_moving-insurance-los-angel
 publishDate: "November 5, 2025"
 lastUpdated: "November 5, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

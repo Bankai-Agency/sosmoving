@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228752295bf42f_savings-2789137_1280-1.jpg
 publishDate: "December 31, 2020"
 lastUpdated: "December 31, 2020"
 category: "general"
+categories: ["general", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

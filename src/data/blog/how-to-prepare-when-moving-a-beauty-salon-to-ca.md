@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287cd175bf2c2_beauty-salon-4043096_640.j
 publishDate: "July 21, 2021"
 lastUpdated: "July 21, 2021"
 category: "long-distance"
+categories: ["long-distance", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

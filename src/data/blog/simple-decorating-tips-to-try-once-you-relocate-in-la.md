@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228736c65bf409_nathan-dumlao-xxzeV1aiSY8-
 publishDate: "January 19, 2021"
 lastUpdated: "January 19, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

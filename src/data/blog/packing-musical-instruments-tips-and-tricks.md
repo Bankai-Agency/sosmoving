@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228713c85bf403_pexels-ylanite-koppens-697
 publishDate: "January 22, 2021"
 lastUpdated: "January 22, 2021"
 category: "general"
+categories: ["general", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

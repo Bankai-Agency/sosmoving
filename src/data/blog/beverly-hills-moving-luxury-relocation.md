@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69528554ed740cbb9f9a7883_beverly-hills-moving-luxur
 publishDate: "December 22, 2025"
 lastUpdated: "December 22, 2025"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

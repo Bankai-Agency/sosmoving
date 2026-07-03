@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68e6939629152fe6a915434e_same-day-movers-los-angele
 publishDate: "October 7, 2025"
 lastUpdated: "October 7, 2025"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

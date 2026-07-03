@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69b933e2cc5dff4326899097_austin-to-los-angeles-relo
 publishDate: "March 18, 2026"
 lastUpdated: "March 18, 2026"
 category: "long-distance"
+categories: ["long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

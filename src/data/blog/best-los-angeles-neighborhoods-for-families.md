@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68d2da686f28ea9adf7e23e7_best-los-angeles-neighborh
 publishDate: "September 21, 2025"
 lastUpdated: "September 21, 2025"
 category: "los-angeles"
+categories: ["los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

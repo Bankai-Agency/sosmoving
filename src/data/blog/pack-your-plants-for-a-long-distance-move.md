@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287be305bf48d_pexels-cottonbro-4503261.j
 publishDate: "October 2, 2020"
 lastUpdated: "October 2, 2020"
 category: "long-distance"
+categories: ["long-distance", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

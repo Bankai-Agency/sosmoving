@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68dab3f45f29f0f3e2b17a9d_moving-insurance-valuation
 publishDate: "September 25, 2025"
 lastUpdated: "September 25, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

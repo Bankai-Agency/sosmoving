@@ -6,6 +6,7 @@ featuredImage: "/images/blog/6911c36b9606289f93b507a2_moving-boxes-los-angeles-c
 publishDate: "November 7, 2025"
 lastUpdated: "November 7, 2025"
 category: "moving-day-preparation"
+categories: ["moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287269e5bf2e1_kam-idris-kyt0PkBSCNQ-unsp
 publishDate: "June 30, 2021"
 lastUpdated: "June 30, 2021"
 category: "general"
+categories: ["general", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

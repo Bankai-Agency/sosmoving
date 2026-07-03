@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68dabc544f19daf69e4fc882_agoura-hills-movers-guide-
 publishDate: "September 29, 2025"
 lastUpdated: "September 29, 2025"
 category: "los-angeles"
+categories: ["los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922875d125bf272_mitchell-hollander-8b1cWDy
 publishDate: "September 4, 2021"
 lastUpdated: "September 4, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "top-places-to-live"]
 readTime: ""
 author:
   name: "SOS Moving"

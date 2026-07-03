@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287ac595bf378_pexels-karolina-grabowska-
 publishDate: "April 7, 2021"
 lastUpdated: "April 7, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

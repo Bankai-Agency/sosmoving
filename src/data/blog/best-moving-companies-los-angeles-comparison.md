@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68e3dd0ddd09f0da5eca8451_best-moving-companies-los-
 publishDate: "October 1, 2025"
 lastUpdated: "October 1, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

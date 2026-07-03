@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68dab8fbb5499fe8fe9d31d5_lancaster-movers-complete-
 publishDate: "September 28, 2025"
 lastUpdated: "September 28, 2025"
 category: "los-angeles"
+categories: ["los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

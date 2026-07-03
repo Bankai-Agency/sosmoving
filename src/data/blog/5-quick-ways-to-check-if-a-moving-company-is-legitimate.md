@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287759c5bf21e_check-if-moving-company-is
 publishDate: "April 4, 2022"
 lastUpdated: "April 4, 2022"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

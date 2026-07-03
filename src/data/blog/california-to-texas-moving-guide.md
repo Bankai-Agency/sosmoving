@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68dab82769b8a948ed76378b_california-to-texas-moving
 publishDate: "September 27, 2025"
 lastUpdated: "September 27, 2025"
 category: "long-distance"
+categories: ["long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

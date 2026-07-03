@@ -6,6 +6,7 @@ featuredImage: "/images/blog/6952928588864d7f5a050530_cross-country-moving-compa
 publishDate: "December 31, 2025"
 lastUpdated: "December 31, 2025"
 category: "long-distance"
+categories: ["long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

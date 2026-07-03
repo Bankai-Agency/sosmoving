@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228775565bf1fa_how-to-move-a-piano-the-ri
 publishDate: "January 24, 2023"
 lastUpdated: "January 24, 2023"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

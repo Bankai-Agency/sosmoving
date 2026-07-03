@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922872e0a5bf2ba_pexels-pixabay-263209-e162
 publishDate: "July 24, 2021"
 lastUpdated: "July 24, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

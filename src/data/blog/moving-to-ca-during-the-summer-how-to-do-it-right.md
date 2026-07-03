@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287df405bf2b2_matthew-hamilton-3RlGBpFeo
 publishDate: "August 3, 2021"
 lastUpdated: "August 3, 2021"
 category: "long-distance"
+categories: ["long-distance", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

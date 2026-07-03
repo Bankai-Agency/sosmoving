@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287704f5bf297_christina-wocintechchat-co
 publishDate: "August 15, 2021"
 lastUpdated: "August 15, 2021"
 category: "local-moving-tips"
+categories: ["local-moving-tips", "los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

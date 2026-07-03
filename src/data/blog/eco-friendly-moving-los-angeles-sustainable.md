@@ -6,6 +6,7 @@ featuredImage: "/images/blog/691b138fdac7c1876b505a67_eco-friendly-moving-los-an
 publishDate: "November 14, 2025"
 lastUpdated: "November 14, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

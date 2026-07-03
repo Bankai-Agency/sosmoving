@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228712a55bf451_pexels-photo-5025638-e1605
 publishDate: "November 21, 2020"
 lastUpdated: "November 21, 2020"
 category: "general"
+categories: ["general", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

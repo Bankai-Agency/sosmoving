@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287a3755bf29a_F.jpg"
 publishDate: "August 18, 2021"
 lastUpdated: "August 18, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

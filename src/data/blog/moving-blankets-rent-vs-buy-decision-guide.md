@@ -6,6 +6,7 @@ featuredImage: "/images/blog/696e137e88bf1f79a1eee3b3_moving-blankets-rent-vs-bu
 publishDate: "January 24, 2026"
 lastUpdated: "January 24, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

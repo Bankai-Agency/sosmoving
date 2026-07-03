@@ -6,6 +6,7 @@ featuredImage: "/images/blog/6921921e4d79f862476d0bfc_storage-units-near-me-vs-p
 publishDate: "November 19, 2025"
 lastUpdated: "November 19, 2025"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

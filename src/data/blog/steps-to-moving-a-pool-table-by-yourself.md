@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228733655bf18d_steps-to-moving-a-pool-tab
 publishDate: "November 28, 2022"
 lastUpdated: "November 28, 2022"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

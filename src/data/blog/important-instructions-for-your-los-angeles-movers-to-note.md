@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228787485bf3ad_krakenimages-376KN_ISplE-u
 publishDate: "March 6, 2021"
 lastUpdated: "March 6, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

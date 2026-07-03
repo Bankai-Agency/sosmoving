@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228705fe5bf213_how-to-move-to-los-angeles
 publishDate: "May 9, 2022"
 lastUpdated: "May 9, 2022"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

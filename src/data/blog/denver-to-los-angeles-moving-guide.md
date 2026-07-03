@@ -6,6 +6,7 @@ featuredImage: "/images/blog/6996fa7d694257a98149b53d_denver-to-los-angeles-movi
 publishDate: "February 19, 2026"
 lastUpdated: "February 19, 2026"
 category: "long-distance"
+categories: ["long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

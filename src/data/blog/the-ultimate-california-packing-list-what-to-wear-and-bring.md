@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922876eac5bf39b_list-3205464_640-1.jpg"
 publishDate: "March 12, 2021"
 lastUpdated: "March 12, 2021"
 category: "long-distance"
+categories: ["long-distance", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

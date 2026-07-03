@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69219452eec8eb7516e7ad52_movers-near-me-how-to-choo
 publishDate: "November 21, 2025"
 lastUpdated: "November 21, 2025"
 category: "general"
+categories: ["general", "local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69525919f5351c4fa6bbf829_summer-moving-tips-beat-th
 publishDate: "December 12, 2025"
 lastUpdated: "December 12, 2025"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69652bf7ef33d5af0e568342_best-moving-companies-in-l
 publishDate: "January 12, 2026"
 lastUpdated: "January 12, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

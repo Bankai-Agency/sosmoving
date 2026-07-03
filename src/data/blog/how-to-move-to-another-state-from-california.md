@@ -6,6 +6,7 @@ featuredImage: "/images/blog/695e169034173375113dc3cb_how-to-move-to-another-sta
 publishDate: "January 3, 2026"
 lastUpdated: "January 3, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

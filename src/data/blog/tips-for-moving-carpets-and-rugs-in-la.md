@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922872c865bf3a5_rug-main-1.jpg"
 publishDate: "March 16, 2021"
 lastUpdated: "March 16, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

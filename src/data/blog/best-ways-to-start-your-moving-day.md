@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287adce5bf2e9_pexels-mart-production-741
 publishDate: "June 27, 2021"
 lastUpdated: "June 27, 2021"
 category: "general"
+categories: ["general", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

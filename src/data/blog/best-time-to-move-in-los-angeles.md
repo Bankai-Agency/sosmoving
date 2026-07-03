@@ -6,6 +6,7 @@ featuredImage: "/images/blog/692d6f28e49814496a5a64a6_best-time-to-move-in-los-a
 publishDate: "November 29, 2025"
 lastUpdated: "November 29, 2025"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

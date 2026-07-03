@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69528de9a163290e59ac9296_moving-permits-in-los-ange
 publishDate: "December 27, 2025"
 lastUpdated: "December 27, 2025"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

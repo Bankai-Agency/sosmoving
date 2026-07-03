@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69cf934979bcb45e2eab02f7_retirement-moving-to-small
 publishDate: "April 4, 2026"
 lastUpdated: "April 4, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68bb1280428ae5b17c70b04c_how-to-choose-a-moving-com
 publishDate: "September 2, 2025"
 lastUpdated: "September 2, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

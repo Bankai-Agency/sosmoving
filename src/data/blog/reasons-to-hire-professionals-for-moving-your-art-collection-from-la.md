@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228706055bf380_dan-burton-k8Y_BqUjzxQ-uns
 publishDate: "April 9, 2021"
 lastUpdated: "April 9, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/692d69f53dc9101e1605d380_how-much-do-movers-cost-lo
 publishDate: "November 23, 2025"
 lastUpdated: "November 23, 2025"
 category: "general"
+categories: ["local-moving-tips", "general"]
 readTime: ""
 author:
   name: "SOS Moving"

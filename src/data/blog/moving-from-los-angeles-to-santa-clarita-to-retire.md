@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228701025bf246_christian-bowen-Cc10IJDoj7
 publishDate: "October 5, 2021"
 lastUpdated: "October 5, 2021"
 category: "local-moving-tips"
+categories: ["local-moving-tips", "los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

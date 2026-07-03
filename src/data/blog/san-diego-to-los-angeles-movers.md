@@ -6,6 +6,7 @@ featuredImage: "/images/blog/6952885af72810b6c6a665dc_san-diego-to-los-angeles-m
 publishDate: "December 24, 2025"
 lastUpdated: "December 24, 2025"
 category: "long-distance"
+categories: ["long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

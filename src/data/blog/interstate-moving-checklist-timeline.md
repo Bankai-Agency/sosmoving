@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68d2d938a28ebe67c57cddb4_interstate-moving-checklis
 publishDate: "September 23, 2025"
 lastUpdated: "September 23, 2025"
 category: "long-distance"
+categories: ["long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

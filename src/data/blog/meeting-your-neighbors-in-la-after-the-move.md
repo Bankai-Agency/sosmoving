@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287f7085bf44e_dillon-shook-u7i7rGNfuNA-u
 publishDate: "November 28, 2020"
 lastUpdated: "November 28, 2020"
 category: "after-the-move"
+categories: ["after-the-move", "los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

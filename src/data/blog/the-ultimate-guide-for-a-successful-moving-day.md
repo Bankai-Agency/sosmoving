@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922870a535bf485_pexels-la-miko-3616688-1-1
 publishDate: "September 28, 2020"
 lastUpdated: "September 28, 2020"
 category: "general"
+categories: ["general", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

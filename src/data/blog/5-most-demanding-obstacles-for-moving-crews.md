@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922872d765bf3c8_pexels-tima-miroshnichenko
 publishDate: "February 28, 2021"
 lastUpdated: "February 28, 2021"
 category: "general"
+categories: ["general", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

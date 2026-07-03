@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922873e975bf418_pexels-olia-danilevich-508
 publishDate: "January 16, 2021"
 lastUpdated: "January 16, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

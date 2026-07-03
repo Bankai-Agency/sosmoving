@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69b9333a2e3fb675b72871a9_plastic-bins-vs-cardboard-
 publishDate: "March 17, 2026"
 lastUpdated: "March 17, 2026"
 category: "moving-day-preparation"
+categories: ["moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

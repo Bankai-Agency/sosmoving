@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228754005bf411_pexels-miguel-a-padrinan-3
 publishDate: "January 14, 2021"
 lastUpdated: "January 14, 2021"
 category: "general"
+categories: ["general", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

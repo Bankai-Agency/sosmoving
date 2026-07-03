@@ -6,6 +6,7 @@ featuredImage: "/images/blog/6969ef206c18a676385ab391_phoenix-to-los-angeles-rel
 publishDate: "January 19, 2026"
 lastUpdated: "January 19, 2026"
 category: "long-distance"
+categories: ["long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

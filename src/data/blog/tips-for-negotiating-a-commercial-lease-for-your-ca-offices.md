@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922877eba5bf2f2_jeremy-bishop-KthnAO0Nlpw-
 publishDate: "June 2, 2021"
 lastUpdated: "June 2, 2021"
 category: "general"
+categories: ["general", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

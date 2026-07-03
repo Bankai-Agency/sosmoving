@@ -6,6 +6,7 @@ featuredImage: "/images/blog/692d6cfcddf0d04be62aa389_downtown-los-angeles-movin
 publishDate: "November 26, 2025"
 lastUpdated: "November 26, 2025"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

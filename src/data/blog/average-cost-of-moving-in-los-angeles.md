@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228770075bf203_cost-of-moving-in-los-ange
 publishDate: "October 3, 2022"
 lastUpdated: "October 3, 2022"
 category: "los-angeles"
+categories: ["los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

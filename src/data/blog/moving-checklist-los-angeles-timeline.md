@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69060f10c796eab55d6cdb96_moving-checklist-los-angel
 publishDate: "November 1, 2025"
 lastUpdated: "November 1, 2025"
 category: "moving-day-preparation"
+categories: ["moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/699c97afc0c49092d0f18fd0_marina-del-rey-moving-wate
 publishDate: "February 23, 2026"
 lastUpdated: "February 23, 2026"
 category: "los-angeles"
+categories: ["los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

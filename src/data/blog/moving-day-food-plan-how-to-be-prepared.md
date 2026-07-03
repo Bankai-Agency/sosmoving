@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922879bf65bf3ce_pexels-mikhail-nilov-66139
 publishDate: "February 20, 2021"
 lastUpdated: "February 20, 2021"
 category: "general"
+categories: ["general", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228764965bf3b5_pexels-vecislavas-popa-157
 publishDate: "March 3, 2021"
 lastUpdated: "March 3, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "general"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228718905bf316_F-3-1.jpg"
 publishDate: "June 4, 2021"
 lastUpdated: "June 4, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

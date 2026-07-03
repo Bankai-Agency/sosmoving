@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287a3485bf2bf_chuttersnap-JUO3MGEHTrQ-un
 publishDate: "July 20, 2021"
 lastUpdated: "July 20, 2021"
 category: "general"
+categories: ["general", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

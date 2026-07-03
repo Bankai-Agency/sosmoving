@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69344e37b053778bf73cc216_moving-boxes-near-me-free-
 publishDate: "December 3, 2025"
 lastUpdated: "December 3, 2025"
 category: "general"
+categories: ["general", "local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

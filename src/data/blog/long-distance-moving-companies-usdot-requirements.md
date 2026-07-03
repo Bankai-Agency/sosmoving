@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69344f89c9ec48264e93abfe_long-distance-moving-compa
 publishDate: "December 5, 2025"
 lastUpdated: "December 5, 2025"
 category: "long-distance"
+categories: ["long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

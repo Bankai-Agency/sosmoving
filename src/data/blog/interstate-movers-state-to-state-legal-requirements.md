@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69660f0717f354bdd5d708a3_interstate-movers-state-to
 publishDate: "January 13, 2026"
 lastUpdated: "January 13, 2026"
 category: "long-distance"
+categories: ["long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

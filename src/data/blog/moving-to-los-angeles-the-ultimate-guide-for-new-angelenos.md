@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68c2edcadfccd0c191b20e2a_moving-to-los-angeles-the-
 publishDate: "September 11, 2025"
 lastUpdated: "September 11, 2025"
 category: "los-angeles"
+categories: ["los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

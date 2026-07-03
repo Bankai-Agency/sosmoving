@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922871da15bf345_mika-baumeister-u29d3Qwbz5
 publishDate: "May 15, 2021"
 lastUpdated: "May 15, 2021"
 category: "move-sustainably"
+categories: ["move-sustainably", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/690c9022a2c4eaefc8b552ab_how-much-to-tip-movers-los
 publishDate: "November 4, 2025"
 lastUpdated: "November 4, 2025"
 category: "moving-day-preparation"
+categories: ["moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68d2dc256176b718913a8255_professional-packing-servi
 publishDate: "September 19, 2025"
 lastUpdated: "September 19, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

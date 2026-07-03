@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228781785bf2d9_harmen-jelle-van-mourik-0y
 publishDate: "July 10, 2021"
 lastUpdated: "July 10, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "general"]
 readTime: ""
 author:
   name: "SOS Moving"

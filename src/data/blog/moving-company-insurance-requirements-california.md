@@ -6,6 +6,7 @@ featuredImage: "/images/blog/696e15122d9fc7b455245a69_moving-company-insurance-r
 publishDate: "January 25, 2026"
 lastUpdated: "January 25, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/690c8e95d13b93a238137e67_moving-tips-los-angeles-pr
 publishDate: "November 2, 2025"
 lastUpdated: "November 2, 2025"
 category: "moving-day-preparation"
+categories: ["moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

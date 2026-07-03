@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287d6ff5bf438_checklist-4279387_1920-e16
 publishDate: "December 26, 2020"
 lastUpdated: "December 26, 2020"
 category: "long-distance"
+categories: ["long-distance", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228746f35bf46f_rizki-ramadhan-1ZdE_X5Hz3c
 publishDate: "October 16, 2020"
 lastUpdated: "October 16, 2020"
 category: "after-the-move"
+categories: ["after-the-move", "move-sustainably"]
 readTime: ""
 author:
   name: "SOS Moving"

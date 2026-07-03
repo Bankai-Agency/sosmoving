@@ -6,6 +6,7 @@ featuredImage: "/images/blog/692d6e76702da60e9679c15a_nyc-to-la-moving-cross-cou
 publishDate: "November 28, 2025"
 lastUpdated: "November 28, 2025"
 category: "long-distance"
+categories: ["long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

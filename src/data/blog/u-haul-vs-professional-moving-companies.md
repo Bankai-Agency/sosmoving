@@ -6,6 +6,7 @@ featuredImage: "/images/blog/6952525071326b3449ed3f0c_freepik__professional-movi
 publishDate: "December 10, 2025"
 lastUpdated: "December 10, 2025"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

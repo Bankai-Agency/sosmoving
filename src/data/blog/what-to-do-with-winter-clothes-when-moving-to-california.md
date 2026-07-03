@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228775355bf368_pexels-alexander-kovalev-1
 publishDate: "April 17, 2021"
 lastUpdated: "April 17, 2021"
 category: "long-distance"
+categories: ["long-distance", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

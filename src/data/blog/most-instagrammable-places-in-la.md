@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287af5e5bf252_F-2.jpg"
 publishDate: "September 25, 2021"
 lastUpdated: "September 25, 2021"
 category: "general"
+categories: ["general", "los-angeles", "top-places-to-live"]
 readTime: ""
 author:
   name: "SOS Moving"

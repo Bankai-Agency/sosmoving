@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69652b441c00418e9ea8f4c3_packing-boxes-strategy-for
 publishDate: "January 11, 2026"
 lastUpdated: "January 11, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

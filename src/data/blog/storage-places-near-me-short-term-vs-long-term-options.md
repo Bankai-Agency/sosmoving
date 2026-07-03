@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69621d57376b9a7be12200b7_storage-places-near-me-sho
 publishDate: "January 10, 2026"
 lastUpdated: "January 10, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

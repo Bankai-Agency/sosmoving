@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68ff6005751dc92551613bd4_moving-to-silver-lake-los-
 publishDate: "October 15, 2025"
 lastUpdated: "October 15, 2025"
 category: "los-angeles"
+categories: ["los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

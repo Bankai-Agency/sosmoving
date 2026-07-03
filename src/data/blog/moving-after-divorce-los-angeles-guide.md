@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68e3e1c899f485f330246ae9_moving-after-divorce-los-a
 publishDate: "October 6, 2025"
 lastUpdated: "October 6, 2025"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

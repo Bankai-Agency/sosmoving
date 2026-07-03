@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922872db75bf208_tips-you-need-to-keep-in-m
 publishDate: "June 6, 2022"
 lastUpdated: "June 6, 2022"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

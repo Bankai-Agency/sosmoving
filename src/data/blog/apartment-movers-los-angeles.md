@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68ff676bda1e6698d4d1b77c_apartment-movers-los-angel
 publishDate: "October 24, 2025"
 lastUpdated: "October 24, 2025"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

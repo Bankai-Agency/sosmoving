@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69cd4557d7076909e19e1470_how-to-pack-books-without-
 publishDate: "March 31, 2026"
 lastUpdated: "March 31, 2026"
 category: "packing-tips"
+categories: ["packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

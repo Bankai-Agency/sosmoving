@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228700b55bf3fd_pexels-zen-chung-5745218-e
 publishDate: "January 23, 2021"
 lastUpdated: "January 23, 2021"
 category: "long-distance"
+categories: ["long-distance", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

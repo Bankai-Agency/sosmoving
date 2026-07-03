@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228735505bf232_how-much-do-you-tip-movers
 publishDate: "March 14, 2022"
 lastUpdated: "March 14, 2022"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

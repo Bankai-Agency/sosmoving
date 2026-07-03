@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922877c8d5bf2e0_ludovic-charlet-i3HqNIDArq
 publishDate: "July 3, 2021"
 lastUpdated: "July 3, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

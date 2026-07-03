@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69528340c721b97cffaf3a15_how-to-get-rid-of-old-matt
 publishDate: "December 21, 2025"
 lastUpdated: "December 21, 2025"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

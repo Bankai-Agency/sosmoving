@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287d1935bf26b_F.jpg"
 publishDate: "September 14, 2021"
 lastUpdated: "September 14, 2021"
 category: "general"
+categories: ["general", "local-moving-tips", "los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

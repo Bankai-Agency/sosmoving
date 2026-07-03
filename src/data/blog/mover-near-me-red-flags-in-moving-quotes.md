@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69344ede83e244a8750203d4_mover-near-me-red-flags-in
 publishDate: "December 4, 2025"
 lastUpdated: "December 4, 2025"
 category: "general"
+categories: ["local-moving-tips", "general"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228711e15bf440_pexels-photo-3626214-1-1.j
 publishDate: "December 22, 2020"
 lastUpdated: "December 22, 2020"
 category: "after-the-move"
+categories: ["after-the-move", "los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

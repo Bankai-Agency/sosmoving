@@ -6,6 +6,7 @@ featuredImage: "/images/blog/695e17f9fad07eb16886b39a_santa-monica-moving-beach-
 publishDate: "January 4, 2026"
 lastUpdated: "January 4, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

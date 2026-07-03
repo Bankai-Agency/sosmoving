@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228773875bf41d_man-couple-love-people-456
 publishDate: "January 7, 2021"
 lastUpdated: "January 7, 2021"
 category: "general"
+categories: ["general", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

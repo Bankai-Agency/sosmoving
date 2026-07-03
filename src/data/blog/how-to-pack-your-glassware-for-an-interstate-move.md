@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922876b725bf434_pexels-photo-1148450-1.jpe
 publishDate: "December 27, 2020"
 lastUpdated: "December 27, 2020"
 category: "after-the-move"
+categories: ["after-the-move", "long-distance", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

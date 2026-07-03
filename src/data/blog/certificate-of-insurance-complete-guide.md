@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922875ec95bf1fd_all-you-need-to-know-about
 publishDate: "November 7, 2022"
 lastUpdated: "November 7, 2022"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68befc043b7169754182d6d1_how-to-have-an-eco-friendl
 publishDate: "September 8, 2025"
 lastUpdated: "September 8, 2025"
 category: "move-sustainably"
+categories: ["move-sustainably"]
 readTime: ""
 author:
   name: "SOS Moving"

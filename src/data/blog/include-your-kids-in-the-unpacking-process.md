@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922873c375bf3a0_Featured-1-1.jpg"
 publishDate: "March 17, 2021"
 lastUpdated: "March 17, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "general"]
 readTime: ""
 author:
   name: "SOS Moving"

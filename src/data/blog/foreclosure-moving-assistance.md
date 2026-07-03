@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69528ca053721610d0412b4e_foreclosure-moving-assista
 publishDate: "December 26, 2025"
 lastUpdated: "December 26, 2025"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

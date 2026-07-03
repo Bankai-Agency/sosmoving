@@ -6,6 +6,7 @@ featuredImage: "/images/blog/695f764ba6bf5c9a8afac491_pods-vs-moving-companies-p
 publishDate: "January 5, 2026"
 lastUpdated: "January 5, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

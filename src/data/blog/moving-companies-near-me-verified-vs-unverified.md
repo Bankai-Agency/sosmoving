@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69527799bb4f1de23b3a84cb_moving-companies-near-me-v
 publishDate: "December 17, 2025"
 lastUpdated: "December 17, 2025"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287bbea5bf2a1_sina-saadatmand-gB9hryu1q4
 publishDate: "August 10, 2021"
 lastUpdated: "August 10, 2021"
 category: "long-distance"
+categories: ["long-distance", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

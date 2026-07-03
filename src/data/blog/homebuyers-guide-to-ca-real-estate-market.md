@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228731b15bf265_pexels-roberto-nickson-252
 publishDate: "September 1, 2021"
 lastUpdated: "September 1, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

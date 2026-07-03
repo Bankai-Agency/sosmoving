@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69527c565274ffb6de3d62ca_cross-country-movers-coast
 publishDate: "December 18, 2025"
 lastUpdated: "December 18, 2025"
 category: "long-distance"
+categories: ["long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68d2db830cd42b219a68b511_best-time-of-year-to-move-
 publishDate: "September 20, 2025"
 lastUpdated: "September 20, 2025"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69c660950c497c84e09a2118_moving-company-deposit-sca
 publishDate: "March 15, 2026"
 lastUpdated: "March 15, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

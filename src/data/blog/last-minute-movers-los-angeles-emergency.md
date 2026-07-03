@@ -6,6 +6,7 @@ featuredImage: "/images/blog/691b11e252125c36245616aa_last-minute-movers-los-ang
 publishDate: "November 12, 2025"
 lastUpdated: "November 12, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

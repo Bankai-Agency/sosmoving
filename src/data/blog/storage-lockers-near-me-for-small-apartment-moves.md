@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69afebfe129672be8d7302ed_storage-lockers-near-me-fo
 publishDate: "March 11, 2026"
 lastUpdated: "March 11, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

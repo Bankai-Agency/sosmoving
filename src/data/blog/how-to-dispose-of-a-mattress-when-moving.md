@@ -6,6 +6,7 @@ featuredImage: "/images/blog/692d6b384596439c9a01ad08_how-to-dispose-of-a-mattre
 publishDate: "November 25, 2025"
 lastUpdated: "November 25, 2025"
 category: "general"
+categories: ["general", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

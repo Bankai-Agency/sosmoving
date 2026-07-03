@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228725b25bf48c_james-harris-kKNFL7ggDoM-u
 publishDate: "September 25, 2020"
 lastUpdated: "September 25, 2020"
 category: "general"
+categories: ["general", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

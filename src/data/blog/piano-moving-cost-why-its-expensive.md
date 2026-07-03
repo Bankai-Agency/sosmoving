@@ -6,6 +6,7 @@ featuredImage: "/images/blog/6945330bac2306a80a71d62f_piano-moving-cost-why-its-
 publishDate: "December 7, 2025"
 lastUpdated: "December 7, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

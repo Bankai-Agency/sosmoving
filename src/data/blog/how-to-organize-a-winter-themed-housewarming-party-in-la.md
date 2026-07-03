@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228732f55bf3ed_pexels-thanakorn-phanthura
 publishDate: "February 8, 2021"
 lastUpdated: "February 8, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

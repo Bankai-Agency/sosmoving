@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68c429da4eeb3258148c4620_best-cities-to-live-in-cal
 publishDate: "September 12, 2025"
 lastUpdated: "September 12, 2025"
 category: "packing-tips"
+categories: ["packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228790765bf2a2_beverly-2008767_1280.jpg"
 publishDate: "August 11, 2021"
 lastUpdated: "August 11, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "top-places-to-live"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69c6572f7861aa3a09419070_two-men-and-a-truck-altern
 publishDate: "March 13, 2026"
 lastUpdated: "March 13, 2026"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

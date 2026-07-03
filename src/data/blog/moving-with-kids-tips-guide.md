@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68c8166165eb10a405e7dcfb_moving-with-kids-tips-guid
 publishDate: "September 17, 2025"
 lastUpdated: "September 17, 2025"
 category: "moving-day-preparation"
+categories: ["moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

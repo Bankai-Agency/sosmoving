@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287e6555bf2f8_pexels-suzy-hazelwood-1226
 publishDate: "June 29, 2021"
 lastUpdated: "June 29, 2021"
 category: "general"
+categories: ["general", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

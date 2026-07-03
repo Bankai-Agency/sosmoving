@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228757645bf30f_erol-ahmed-9XiN0r2NWSM-uns
 publishDate: "June 7, 2021"
 lastUpdated: "June 7, 2021"
 category: "long-distance"
+categories: ["long-distance", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

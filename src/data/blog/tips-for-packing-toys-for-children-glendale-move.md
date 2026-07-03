@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287e92d5bf31e_shirota-yuri-p0hDztR46cw-u
 publishDate: "June 1, 2021"
 lastUpdated: "June 1, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

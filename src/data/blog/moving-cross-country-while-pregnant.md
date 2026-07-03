@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922873dfe5bf420_man-couple-love-people-456
 publishDate: "December 15, 2020"
 lastUpdated: "December 15, 2020"
 category: "long-distance"
+categories: ["long-distance", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

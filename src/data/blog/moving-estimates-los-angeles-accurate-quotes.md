@@ -6,6 +6,7 @@ featuredImage: "/images/blog/690c924f374a8caa568269ee_moving-estimates-los-angel
 publishDate: "November 6, 2025"
 lastUpdated: "November 6, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

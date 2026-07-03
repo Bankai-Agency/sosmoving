@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228796ec5bf3b3_pexels-veeterzy-1412235-1.
 publishDate: "March 5, 2021"
 lastUpdated: "March 5, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

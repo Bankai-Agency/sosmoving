@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68ff656c1fc280004643d8c1_last-minute-movers-los-ang
 publishDate: "October 22, 2025"
 lastUpdated: "October 22, 2025"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

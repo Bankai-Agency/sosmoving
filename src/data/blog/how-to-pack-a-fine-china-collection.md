@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922876cee5bf27a_jannet-serhan-snHXvw1C690-
 publishDate: "August 29, 2021"
 lastUpdated: "August 29, 2021"
 category: "general"
+categories: ["general", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922872ea35bf26f_julian-myles-2YGrbLlbz6Y-u
 publishDate: "September 18, 2021"
 lastUpdated: "September 18, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "general", "long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

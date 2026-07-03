@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68bb0e1e8ffd9ebc5f4c70f6_how-to-pack-fragile-items-
 publishDate: "September 4, 2025"
 lastUpdated: "September 4, 2025"
 category: "packing-tips"
+categories: ["packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

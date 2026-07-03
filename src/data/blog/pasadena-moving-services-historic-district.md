@@ -6,6 +6,7 @@ featuredImage: "/images/blog/6968ceace0128ad53c8eb81d_pasadena-moving-services-h
 publishDate: "January 17, 2026"
 lastUpdated: "January 17, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

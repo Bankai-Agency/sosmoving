@@ -6,6 +6,7 @@ featuredImage: "/images/blog/696e11f81ee5e5b50dbfbc90_flood-damage-moving-help.p
 publishDate: "January 21, 2026"
 lastUpdated: "January 21, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

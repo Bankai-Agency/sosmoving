@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287890b5bf47b_neonbrand-JW6r_0CPYec-unsp
 publishDate: "October 8, 2020"
 lastUpdated: "October 8, 2020"
 category: "general"
+categories: ["general", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

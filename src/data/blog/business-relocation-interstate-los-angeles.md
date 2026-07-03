@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68ff5fafbda78e382383232c_business-relocation-inters
 publishDate: "October 14, 2025"
 lastUpdated: "October 14, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

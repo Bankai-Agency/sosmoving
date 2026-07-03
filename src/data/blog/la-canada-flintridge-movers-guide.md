@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68dbe6c27c608d144335c31b_la-canada-flintridge-mover
 publishDate: "September 30, 2025"
 lastUpdated: "September 30, 2025"
 category: "los-angeles"
+categories: ["los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

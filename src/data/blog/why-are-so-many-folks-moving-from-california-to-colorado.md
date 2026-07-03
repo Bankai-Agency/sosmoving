@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228762985bf35c_kait-herzog-6vWD_xnzPuU-un
 publishDate: "April 27, 2021"
 lastUpdated: "April 27, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

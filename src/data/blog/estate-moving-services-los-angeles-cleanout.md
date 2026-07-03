@@ -6,6 +6,7 @@ featuredImage: "/images/blog/691b14c846ca7286a08d7a9a_estate-moving-services-los
 publishDate: "November 16, 2025"
 lastUpdated: "November 16, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

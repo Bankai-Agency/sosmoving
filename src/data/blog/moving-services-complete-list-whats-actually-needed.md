@@ -6,6 +6,7 @@ featuredImage: "/images/blog/6981d0f5da00668ba1551cfb_moving-services-complete-l
 publishDate: "February 6, 2026"
 lastUpdated: "February 6, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

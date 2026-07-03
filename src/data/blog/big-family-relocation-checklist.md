@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922876cb15bf2de_tyler-nix-V3dHmb1MOXM-unsp
 publishDate: "July 6, 2021"
 lastUpdated: "July 6, 2021"
 category: "general"
+categories: ["general", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

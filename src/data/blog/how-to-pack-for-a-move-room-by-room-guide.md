@@ -6,6 +6,7 @@ featuredImage: "/images/blog/696e17b1be75912e088e30c8_how-to-pack-for-a-move-roo
 publishDate: "January 29, 2026"
 lastUpdated: "January 29, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

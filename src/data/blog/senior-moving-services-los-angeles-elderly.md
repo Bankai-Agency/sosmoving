@@ -6,6 +6,7 @@ featuredImage: "/images/blog/691b12829a673bb27b9fad52_senior-moving-services-los
 publishDate: "November 13, 2025"
 lastUpdated: "November 13, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

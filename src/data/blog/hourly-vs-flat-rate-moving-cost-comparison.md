@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69b06f7c52fef5ac6491ba0a_hourly-vs-flat-rate-moving
 publishDate: "March 14, 2026"
 lastUpdated: "March 14, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

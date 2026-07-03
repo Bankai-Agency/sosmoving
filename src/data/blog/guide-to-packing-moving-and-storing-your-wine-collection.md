@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287082a5bef9c_blog-post-3.jpg"
 publishDate: "January 26, 2023"
 lastUpdated: "January 26, 2023"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

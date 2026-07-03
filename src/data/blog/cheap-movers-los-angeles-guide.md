@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68ff62f221076a29d95ed94f_cheap-movers-los-angeles-g
 publishDate: "October 19, 2025"
 lastUpdated: "October 19, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

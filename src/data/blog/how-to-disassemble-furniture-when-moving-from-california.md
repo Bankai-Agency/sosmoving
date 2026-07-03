@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922871fb45bf458_phillip-goldsberry-fZuleEf
 publishDate: "October 30, 2020"
 lastUpdated: "October 30, 2020"
 category: "long-distance"
+categories: ["long-distance", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

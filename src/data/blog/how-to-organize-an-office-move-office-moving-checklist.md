@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228725d45bf21d_office-moving-checklist.jp
 publishDate: "April 25, 2022"
 lastUpdated: "April 25, 2022"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

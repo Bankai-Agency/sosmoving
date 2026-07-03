@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287684e5bf331_F-1-1.jpg"
 publishDate: "May 22, 2021"
 lastUpdated: "May 22, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

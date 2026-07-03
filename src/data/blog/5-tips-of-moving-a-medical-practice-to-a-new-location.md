@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228717235bf212_5-tips-of-moving-a-medical
 publishDate: "May 16, 2022"
 lastUpdated: "May 16, 2022"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

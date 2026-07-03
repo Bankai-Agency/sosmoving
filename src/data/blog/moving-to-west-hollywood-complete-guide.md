@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68d2dccc0cd42b219a690f5d_moving-to-west-hollywood-c
 publishDate: "September 18, 2025"
 lastUpdated: "September 18, 2025"
 category: "los-angeles"
+categories: ["los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

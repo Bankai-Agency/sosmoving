@@ -6,6 +6,7 @@ featuredImage: "/images/blog/699d5fdac8fbf20defcc9113_new-year-moving-january-be
 publishDate: "February 24, 2026"
 lastUpdated: "February 24, 2026"
 category: "moving-day-preparation"
+categories: ["moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/6980d0e58adbe25d566d856e_earthquake-recovery-moving
 publishDate: "February 3, 2026"
 lastUpdated: "February 3, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

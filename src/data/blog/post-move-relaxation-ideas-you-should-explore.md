@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287a5335bf3e5_pexels-ketut-subiyanto-424
 publishDate: "February 2, 2021"
 lastUpdated: "February 2, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "general"]
 readTime: ""
 author:
   name: "SOS Moving"

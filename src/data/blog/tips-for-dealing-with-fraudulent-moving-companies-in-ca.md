@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228718535bf406_pexels-anna-tarazevich-569
 publishDate: "January 20, 2021"
 lastUpdated: "January 20, 2021"
 category: "general"
+categories: ["general", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

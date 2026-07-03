@@ -6,6 +6,7 @@ featuredImage: "/images/blog/695281340b2f8edf1291d5e6_apartment-movers-high-rise
 publishDate: "December 20, 2025"
 lastUpdated: "December 20, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

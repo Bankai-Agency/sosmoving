@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228750ca5bf2d2_pexels-rodnae-productions-
 publishDate: "July 11, 2021"
 lastUpdated: "July 11, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

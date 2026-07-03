@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287ded45bf289_olenka-kotyk-9TUkYXQKXec-u
 publishDate: "August 24, 2021"
 lastUpdated: "August 24, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "top-places-to-live"]
 readTime: ""
 author:
   name: "SOS Moving"

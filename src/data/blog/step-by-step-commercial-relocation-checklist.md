@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287d0625bf492_pexels-fauxels-3183197-sca
 publishDate: "September 22, 2020"
 lastUpdated: "September 22, 2020"
 category: "moving-day-preparation"
+categories: ["moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

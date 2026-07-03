@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68ecfeb7d1044c30b2622558_moving-to-inglewood-los-an
 publishDate: "October 12, 2025"
 lastUpdated: "October 12, 2025"
 category: "los-angeles"
+categories: ["los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

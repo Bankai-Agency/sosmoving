@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287201f5bf2c9_delbert-pagayona-46v8clmNj
 publishDate: "July 13, 2021"
 lastUpdated: "July 13, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

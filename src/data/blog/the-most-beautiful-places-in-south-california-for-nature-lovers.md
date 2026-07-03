@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228762e35bf260_gustavo-zambelli-3fpAmmQ-W
 publishDate: "September 22, 2021"
 lastUpdated: "September 22, 2021"
 category: "general"
+categories: ["general", "local-moving-tips", "long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69b937a9ae16f8172af3f1be_job-relocation-moving-serv
 publishDate: "March 20, 2026"
 lastUpdated: "March 20, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

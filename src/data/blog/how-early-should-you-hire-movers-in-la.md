@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228725ef5bf3e6_Featured-3.jpg"
 publishDate: "February 3, 2021"
 lastUpdated: "February 3, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

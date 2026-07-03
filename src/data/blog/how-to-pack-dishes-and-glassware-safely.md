@@ -6,6 +6,7 @@ featuredImage: "/images/blog/6998850fdec4f71fed12cdd8_how-to-pack-dishes-and-gla
 publishDate: "February 20, 2026"
 lastUpdated: "February 20, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68d2d8222d692dfef9ecc0ed_how-to-unpack-after-moving
 publishDate: "September 24, 2025"
 lastUpdated: "September 24, 2025"
 category: "after-the-move"
+categories: ["after-the-move"]
 readTime: ""
 author:
   name: "SOS Moving"

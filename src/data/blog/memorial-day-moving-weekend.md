@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69771a20fd53ccad9bdc168f_memorial-day-moving-weeken
 publishDate: "February 2, 2026"
 lastUpdated: "February 2, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

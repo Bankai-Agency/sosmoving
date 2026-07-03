@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287c64f5bf37a_sterling-davis-4iXagiKXn3Y
 publishDate: "April 4, 2021"
 lastUpdated: "April 4, 2021"
 category: "long-distance"
+categories: ["long-distance", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

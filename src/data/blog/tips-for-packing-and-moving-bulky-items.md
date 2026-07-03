@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287df6c5bf30a_pexels-cottonbro-5650529-1
 publishDate: "June 13, 2021"
 lastUpdated: "June 13, 2021"
 category: "general"
+categories: ["general", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

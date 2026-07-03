@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287d4f45bf3e1_pexels-ava-motive-1236678-
 publishDate: "February 5, 2021"
 lastUpdated: "February 5, 2021"
 category: "general"
+categories: ["general", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

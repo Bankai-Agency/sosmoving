@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228721e25bf344_boots-5028821_1280-1.jpg"
 publishDate: "May 7, 2021"
 lastUpdated: "May 7, 2021"
 category: "general"
+categories: ["general", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

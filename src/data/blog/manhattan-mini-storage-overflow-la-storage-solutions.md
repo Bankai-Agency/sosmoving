@@ -6,6 +6,7 @@ featuredImage: "/images/blog/695270d223db3b5abc75a88d_manhattan-mini-storage-ove
 publishDate: "December 15, 2025"
 lastUpdated: "December 15, 2025"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

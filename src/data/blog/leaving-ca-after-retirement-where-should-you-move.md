@@ -6,6 +6,7 @@ featuredImage: ""
 publishDate: "July 4, 2021"
 lastUpdated: "July 4, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

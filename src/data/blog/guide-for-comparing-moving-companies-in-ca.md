@@ -6,6 +6,7 @@ featuredImage: ""
 publishDate: "February 17, 2021"
 lastUpdated: "February 17, 2021"
 category: "long-distance"
+categories: ["long-distance", "los-angeles", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

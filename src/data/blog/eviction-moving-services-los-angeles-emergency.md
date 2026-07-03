@@ -6,6 +6,7 @@ featuredImage: "/images/blog/691b155a0553b0797b8a1da3_eviction-moving-services-l
 publishDate: "November 17, 2025"
 lastUpdated: "November 17, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

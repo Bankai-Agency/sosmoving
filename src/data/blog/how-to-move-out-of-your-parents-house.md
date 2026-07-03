@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287f0265bf130_how-to-move-out-of-your-pa
 publishDate: "December 19, 2022"
 lastUpdated: "December 19, 2022"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

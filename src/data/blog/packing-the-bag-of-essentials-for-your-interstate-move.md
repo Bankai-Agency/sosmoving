@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922870ef05bf27e_pexels-vinta-supply-co-_-n
 publishDate: "August 28, 2021"
 lastUpdated: "August 28, 2021"
 category: "long-distance"
+categories: ["long-distance", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

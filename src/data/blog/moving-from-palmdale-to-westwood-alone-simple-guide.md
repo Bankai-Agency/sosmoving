@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228770205bf255_pexels-elina-sazonova-2705
 publishDate: "August 21, 2021"
 lastUpdated: "August 21, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "top-places-to-live"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287467f5bf21b_how-much-do-movers-cost-in
 publishDate: "April 18, 2022"
 lastUpdated: "April 18, 2022"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

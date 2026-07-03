@@ -6,6 +6,7 @@ featuredImage: "/images/blog/695d1baa1a4c1f79ca1155bd_office-movers-minimizing-b
 publishDate: "January 2, 2026"
 lastUpdated: "January 2, 2026"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

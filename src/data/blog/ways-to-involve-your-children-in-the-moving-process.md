@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228719bb5bf437_geature-mom-and-dauther-1.
 publishDate: "December 29, 2020"
 lastUpdated: "December 29, 2020"
 category: "general"
+categories: ["general", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

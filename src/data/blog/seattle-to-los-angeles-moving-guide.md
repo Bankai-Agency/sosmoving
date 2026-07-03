@@ -6,6 +6,7 @@ featuredImage: "/images/blog/697718999b53bdf7db0fff73_seattle-to-los-angeles-mov
 publishDate: "February 1, 2026"
 lastUpdated: "February 1, 2026"
 category: "long-distance"
+categories: ["long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

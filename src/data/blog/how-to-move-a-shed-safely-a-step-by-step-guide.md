@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287833a5bf166_how-to-move-shed-safely.jp
 publishDate: "January 26, 2023"
 lastUpdated: "January 26, 2023"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

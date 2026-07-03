@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922877a865bf3e9_alex-mecl-18gIbWGdbNk-unsp
 publishDate: "February 6, 2021"
 lastUpdated: "February 6, 2021"
 category: "move-sustainably"
+categories: ["move-sustainably", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

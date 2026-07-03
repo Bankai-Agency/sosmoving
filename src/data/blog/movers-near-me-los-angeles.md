@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68ff644d173671f42a60a6e8_movers-near-me-los-angeles
 publishDate: "October 20, 2025"
 lastUpdated: "October 20, 2025"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

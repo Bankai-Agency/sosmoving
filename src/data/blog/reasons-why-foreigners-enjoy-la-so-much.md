@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287a4f45bf2c0_nick-sarvari-1AkOwS-5vPM-u
 publishDate: "July 25, 2021"
 lastUpdated: "July 25, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

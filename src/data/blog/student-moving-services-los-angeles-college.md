@@ -6,6 +6,7 @@ featuredImage: "/images/blog/691b14328daa0c1b421b47ef_student-moving-services-lo
 publishDate: "November 15, 2025"
 lastUpdated: "November 15, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

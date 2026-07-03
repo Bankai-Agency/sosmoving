@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69344db518e072724197a708_cheap-storage-units-near-m
 publishDate: "December 2, 2025"
 lastUpdated: "December 2, 2025"
 category: "general"
+categories: ["general", "local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

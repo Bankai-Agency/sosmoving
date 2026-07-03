@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287d3a45bf2e3_F-3.jpg"
 publishDate: "July 7, 2021"
 lastUpdated: "July 7, 2021"
 category: "general"
+categories: ["general", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

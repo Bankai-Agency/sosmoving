@@ -6,6 +6,7 @@ featuredImage: "/images/blog/6960bb787080a291c58be5c9_fire-evacuation-moving-ser
 publishDate: "January 8, 2026"
 lastUpdated: "January 8, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

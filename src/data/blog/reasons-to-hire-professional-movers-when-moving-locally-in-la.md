@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228794ba5bf2ae_izayah-ramos-cR05i3WgRlQ-u
 publishDate: "August 7, 2021"
 lastUpdated: "August 7, 2021"
 category: "local-moving-tips"
+categories: ["local-moving-tips", "los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

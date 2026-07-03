@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287b32f5bf21c_how-long-in-advance-to-boo
 publishDate: "May 2, 2022"
 lastUpdated: "May 2, 2022"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228748b65bf3b2_pet-main-1.jpg"
 publishDate: "March 7, 2021"
 lastUpdated: "March 7, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

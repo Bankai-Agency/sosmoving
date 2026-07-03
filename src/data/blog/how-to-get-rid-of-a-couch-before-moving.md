@@ -6,6 +6,7 @@ featuredImage: "/images/blog/694533bef3f6ab98ec1265a6_how-to-get-rid-of-a-couch-
 publishDate: "December 8, 2025"
 lastUpdated: "December 8, 2025"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

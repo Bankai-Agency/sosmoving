@@ -6,6 +6,7 @@ featuredImage: "/images/blog/692194de0e6c6c565e9d7926_long-distance-movers-inter
 publishDate: "November 22, 2025"
 lastUpdated: "November 22, 2025"
 category: "general"
+categories: ["long-distance", "general"]
 readTime: ""
 author:
   name: "SOS Moving"

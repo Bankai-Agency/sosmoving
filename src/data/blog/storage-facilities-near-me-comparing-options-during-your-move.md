@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69528ef064d80285e2767394_storage-facilities-near-me
 publishDate: "December 28, 2025"
 lastUpdated: "December 28, 2025"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

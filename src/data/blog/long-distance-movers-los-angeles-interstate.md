@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68ff683197d9c65fa21f31f4_long-distance-movers-los-a
 publishDate: "October 25, 2025"
 lastUpdated: "October 25, 2025"
 category: "long-distance"
+categories: ["long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/6911c73dae6c034acebe4183_commercial-movers-los-ange
 publishDate: "November 10, 2025"
 lastUpdated: "November 10, 2025"
 category: "business-relocation"
+categories: ["business-relocation"]
 readTime: ""
 author:
   name: "SOS Moving"

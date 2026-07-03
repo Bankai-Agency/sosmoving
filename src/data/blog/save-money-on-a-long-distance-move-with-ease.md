@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287af0b5bf44c_pexels-alexander-mils-2068
 publishDate: "December 1, 2020"
 lastUpdated: "December 1, 2020"
 category: "long-distance"
+categories: ["long-distance", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/696752c3b0d316d5370ee440_commercial-movers-weekend-
 publishDate: "January 15, 2026"
 lastUpdated: "January 15, 2026"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

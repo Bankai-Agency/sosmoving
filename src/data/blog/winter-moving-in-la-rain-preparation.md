@@ -6,6 +6,7 @@ featuredImage: "/images/blog/6952892fdfe460db808e8044_winter-moving-in-la-rain-p
 publishDate: "December 25, 2025"
 lastUpdated: "December 25, 2025"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

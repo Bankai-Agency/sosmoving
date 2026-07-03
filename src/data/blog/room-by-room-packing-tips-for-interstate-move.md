@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287c94e5bf28c_bermix-studio-AqO414rIwZc-
 publishDate: "August 19, 2021"
 lastUpdated: "August 19, 2021"
 category: "long-distance"
+categories: ["long-distance", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

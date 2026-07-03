@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68d2d9d0b13b0428fe54ab07_what-to-do-with-moving-box
 publishDate: "September 22, 2025"
 lastUpdated: "September 22, 2025"
 category: "move-sustainably"
+categories: ["move-sustainably"]
 readTime: ""
 author:
   name: "SOS Moving"

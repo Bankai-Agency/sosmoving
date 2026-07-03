@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69527d9b1fec64274b6a6759_hidden-moving-costs-nobody
 publishDate: "December 19, 2025"
 lastUpdated: "December 19, 2025"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

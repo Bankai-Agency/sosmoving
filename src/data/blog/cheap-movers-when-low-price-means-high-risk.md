@@ -6,6 +6,7 @@ featuredImage: "/images/blog/695d16657a8775b791247343_cheap-movers-when-low-pric
 publishDate: "January 1, 2026"
 lastUpdated: "January 1, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

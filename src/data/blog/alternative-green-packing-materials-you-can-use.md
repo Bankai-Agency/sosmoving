@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287b9715bf396_pexels-brotin-biswas-51854
 publishDate: "March 20, 2021"
 lastUpdated: "March 20, 2021"
 category: "move-sustainably"
+categories: ["move-sustainably", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

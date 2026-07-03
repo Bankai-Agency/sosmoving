@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228735935bf43a_father-christmas-1149928_1
 publishDate: "December 23, 2020"
 lastUpdated: "December 23, 2020"
 category: "long-distance"
+categories: ["long-distance", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69219371ce17890b34c0878d_moving-boxes-complete-guid
 publishDate: "November 20, 2025"
 lastUpdated: "November 20, 2025"
 category: "packing-tips"
+categories: ["packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

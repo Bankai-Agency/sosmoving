@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287db9a5bf38a_Featured-2-3.jpg"
 publishDate: "April 2, 2021"
 lastUpdated: "April 2, 2021"
 category: "general"
+categories: ["general", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

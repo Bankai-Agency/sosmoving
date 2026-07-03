@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69675395329acbafddd17a2b_how-to-move-a-pool-table-y
 publishDate: "January 16, 2026"
 lastUpdated: "January 16, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

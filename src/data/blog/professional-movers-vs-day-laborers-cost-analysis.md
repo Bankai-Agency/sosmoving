@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69aff23ceb261d140e5ac747_professional-movers-vs-day
 publishDate: "March 12, 2026"
 lastUpdated: "March 12, 2026"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

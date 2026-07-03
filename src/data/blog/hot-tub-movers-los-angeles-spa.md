@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69060d3307c1b8e6e714d06a_hot-tub-movers-los-angeles
 publishDate: "October 29, 2025"
 lastUpdated: "October 29, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

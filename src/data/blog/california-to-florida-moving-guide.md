@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68ecff6696924bc375e3db05_california-to-florida-movi
 publishDate: "October 13, 2025"
 lastUpdated: "October 13, 2025"
 category: "long-distance"
+categories: ["long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

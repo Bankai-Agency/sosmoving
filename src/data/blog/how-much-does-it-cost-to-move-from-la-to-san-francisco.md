@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228751cf5bf211_moving-from-la-to-sf.jpg"
 publishDate: "May 30, 2022"
 lastUpdated: "May 30, 2022"
 category: "long-distance"
+categories: ["long-distance", "los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

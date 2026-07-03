@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69c65c98595d6be58040fc93_la-to-portland-moving-tax-
 publishDate: "March 14, 2026"
 lastUpdated: "March 14, 2026"
 category: "long-distance"
+categories: ["long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

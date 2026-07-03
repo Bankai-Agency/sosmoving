@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922877c855bf2ca_andreas-kruck-l8ypMiU1Hio-
 publishDate: "July 14, 2021"
 lastUpdated: "July 14, 2021"
 category: "long-distance"
+categories: ["long-distance", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

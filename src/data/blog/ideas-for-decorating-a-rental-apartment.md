@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228797f15bf428_basket-1846135_1280.jpg"
 publishDate: "January 3, 2021"
 lastUpdated: "January 3, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "general"]
 readTime: ""
 author:
   name: "SOS Moving"

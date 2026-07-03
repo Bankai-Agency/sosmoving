@@ -6,6 +6,7 @@ featuredImage: "/images/blog/698f5d0d9001feef165ec593_wardrobe-boxes-are-they-wo
 publishDate: "February 13, 2026"
 lastUpdated: "February 13, 2026"
 category: "packing-tips"
+categories: ["packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

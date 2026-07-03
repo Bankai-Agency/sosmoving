@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69b932dd979a3bfb8c383d73_manhattan-beach-moving-fam
 publishDate: "March 16, 2026"
 lastUpdated: "March 16, 2026"
 category: "los-angeles"
+categories: ["los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

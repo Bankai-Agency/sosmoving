@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69cd45e34c235ceafeeac9e4_hermosa-beach-movers-beach
 publishDate: "April 1, 2026"
 lastUpdated: "April 1, 2026"
 category: "los-angeles"
+categories: ["los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

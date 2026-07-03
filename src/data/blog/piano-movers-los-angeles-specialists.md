@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68ff6959e6754210810d53ac_piano-movers-los-angeles-s
 publishDate: "October 27, 2025"
 lastUpdated: "October 27, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

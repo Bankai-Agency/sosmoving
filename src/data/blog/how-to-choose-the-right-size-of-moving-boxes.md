@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287b91b5bf44f_brandable-box-8mCsyImZRGY-
 publishDate: "November 13, 2020"
 lastUpdated: "November 13, 2020"
 category: "general"
+categories: ["general", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

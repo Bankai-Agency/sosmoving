@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287b1975bf395_pexels-cottonbro-4569879-1
 publishDate: "March 23, 2021"
 lastUpdated: "March 23, 2021"
 category: "long-distance"
+categories: ["long-distance", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

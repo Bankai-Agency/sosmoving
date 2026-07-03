@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68ff689832efe2e47fbd8279_storage-and-moving-service
 publishDate: "October 26, 2025"
 lastUpdated: "October 26, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922874c1f5bf46c_feature-2.jpg"
 publishDate: "October 20, 2020"
 lastUpdated: "October 20, 2020"
 category: "general"
+categories: ["general", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

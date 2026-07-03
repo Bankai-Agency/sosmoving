@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228763285bf310_r-architecture-TRCJ-87Yoh0
 publishDate: "June 15, 2021"
 lastUpdated: "June 15, 2021"
 category: "after-the-move"
+categories: ["general", "after-the-move"]
 readTime: ""
 author:
   name: "SOS Moving"

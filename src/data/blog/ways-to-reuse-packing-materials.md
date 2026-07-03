@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228710725bf365_zachary-kadolph-6oYfeooUrC
 publishDate: "April 23, 2021"
 lastUpdated: "April 23, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "move-sustainably"]
 readTime: ""
 author:
   name: "SOS Moving"

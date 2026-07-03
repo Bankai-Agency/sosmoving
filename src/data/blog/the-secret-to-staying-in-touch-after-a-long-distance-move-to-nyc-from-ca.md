@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287f0145bf32f_dollar-gill-TWXkrawQ3zc-un
 publishDate: "May 19, 2021"
 lastUpdated: "May 19, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

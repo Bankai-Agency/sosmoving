@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228755935bf457_jonathan-crews-miEunFiMuWc
 publishDate: "November 3, 2020"
 lastUpdated: "November 3, 2020"
 category: "general"
+categories: ["general", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

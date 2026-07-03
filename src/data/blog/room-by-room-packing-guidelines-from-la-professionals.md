@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228706b15bf482_bench-accounting-MGaFENpDC
 publishDate: "October 5, 2020"
 lastUpdated: "October 5, 2020"
 category: "los-angeles"
+categories: ["los-angeles", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

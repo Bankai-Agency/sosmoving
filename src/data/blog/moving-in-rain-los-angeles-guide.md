@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68e3e0fc5777b728366afa62_moving-in-rain-los-angeles
 publishDate: "October 5, 2025"
 lastUpdated: "October 5, 2025"
 category: "moving-day-preparation"
+categories: ["moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

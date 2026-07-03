@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287c1825bf205_what-to-know-before-moving
 publishDate: "October 2, 2021"
 lastUpdated: "October 2, 2021"
 category: "local-moving-tips"
+categories: ["local-moving-tips", "long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

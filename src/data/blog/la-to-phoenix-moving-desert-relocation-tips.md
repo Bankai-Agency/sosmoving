@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69aff4fec895228ea11f02e2_la-to-phoenix-moving-deser
 publishDate: "March 13, 2026"
 lastUpdated: "March 13, 2026"
 category: "long-distance"
+categories: ["long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/6981d04f64f66a4450736cf5_where-to-get-free-moving-b
 publishDate: "February 5, 2026"
 lastUpdated: "February 5, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

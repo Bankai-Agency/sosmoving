@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922871b175bf352_pexels-samer-daboul-120999
 publishDate: "May 1, 2021"
 lastUpdated: "May 1, 2021"
 category: "long-distance"
+categories: ["long-distance", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228763c25bf22a_red-flags-to-watch-out-whe
 publishDate: "March 21, 2022"
 lastUpdated: "March 21, 2022"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

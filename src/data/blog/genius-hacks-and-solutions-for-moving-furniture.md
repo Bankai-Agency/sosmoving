@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922871fb45bf458_phillip-goldsberry-fZuleEf
 publishDate: "November 24, 2020"
 lastUpdated: "November 24, 2020"
 category: "general"
+categories: ["general", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

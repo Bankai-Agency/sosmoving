@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922875bcf5bf34d_Feature-1.jpg"
 publishDate: "May 5, 2021"
 lastUpdated: "May 5, 2021"
 category: "long-distance"
+categories: ["long-distance", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

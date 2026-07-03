@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69523dd1d462cfffbb36fa30_hollywood-movers-entertain
 publishDate: "December 9, 2025"
 lastUpdated: "December 9, 2025"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

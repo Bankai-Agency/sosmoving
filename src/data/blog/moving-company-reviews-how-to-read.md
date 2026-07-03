@@ -6,6 +6,7 @@ featuredImage: "/images/blog/692d706259fb682ff61745a2_moving-company-reviews-how
 publishDate: "December 1, 2025"
 lastUpdated: "December 1, 2025"
 category: "general"
+categories: ["local-moving-tips", "general"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228751be5bf1f5_complete-guide-to-charity-
 publishDate: "November 14, 2022"
 lastUpdated: "November 14, 2022"
 category: "move-sustainably"
+categories: ["move-sustainably"]
 readTime: ""
 author:
   name: "SOS Moving"

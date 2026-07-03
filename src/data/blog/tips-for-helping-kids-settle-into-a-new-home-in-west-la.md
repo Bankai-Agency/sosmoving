@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922876c315bf446_pexels-ketut-subiyanto-447
 publishDate: "December 10, 2020"
 lastUpdated: "December 10, 2020"
 category: "after-the-move"
+categories: ["after-the-move", "los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

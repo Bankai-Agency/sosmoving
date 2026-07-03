@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287b9195bf3b0_measuring-tape-2202258_128
 publishDate: "March 8, 2021"
 lastUpdated: "March 8, 2021"
 category: "general"
+categories: ["general", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

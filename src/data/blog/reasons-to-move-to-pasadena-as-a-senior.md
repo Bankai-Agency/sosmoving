@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228702425bf39f_bennett-tobias-9oSKLeR9EQo
 publishDate: "March 19, 2021"
 lastUpdated: "March 19, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

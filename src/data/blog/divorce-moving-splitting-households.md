@@ -6,6 +6,7 @@ featuredImage: "/images/blog/699eb954502c4fb3720b5b98_divorce-moving-splitting-h
 publishDate: "February 25, 2026"
 lastUpdated: "February 25, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

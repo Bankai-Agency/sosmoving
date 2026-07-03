@@ -6,6 +6,7 @@ featuredImage: "/images/blog/692d6d9f3a8b98e2457785cc_moving-truck-rental-vs-pro
 publishDate: "November 27, 2025"
 lastUpdated: "November 27, 2025"
 category: "general"
+categories: ["general", "local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

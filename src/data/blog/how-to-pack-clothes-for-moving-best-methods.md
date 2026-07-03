@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69b92eb94cf1b563911b0131_how-to-pack-clothes-for-mo
 publishDate: "March 16, 2026"
 lastUpdated: "March 16, 2026"
 category: "packing-tips"
+categories: ["packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

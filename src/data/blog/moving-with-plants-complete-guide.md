@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68e3df5a10c459395c62035d_moving-with-plants-complet
 publishDate: "October 3, 2025"
 lastUpdated: "October 3, 2025"
 category: "packing-tips"
+categories: ["packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

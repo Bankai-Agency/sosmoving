@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228775815bf388_kendall-henderson-Pj6TgpS_
 publishDate: "March 31, 2021"
 lastUpdated: "March 31, 2021"
 category: "general"
+categories: ["general", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

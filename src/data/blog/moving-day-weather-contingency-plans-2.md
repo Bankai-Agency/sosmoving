@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69afea7c0c360f0e06b47a80_moving-day-weather-conting
 publishDate: "March 9, 2026"
 lastUpdated: "March 9, 2026"
 category: "moving-day-preparation"
+categories: ["moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

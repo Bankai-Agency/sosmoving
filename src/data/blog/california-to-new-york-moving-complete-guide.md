@@ -6,6 +6,7 @@ featuredImage: "/images/blog/696e1588e86eb85d77bb9ac0_california-to-new-york-mov
 publishDate: "January 26, 2026"
 lastUpdated: "January 26, 2026"
 category: "long-distance"
+categories: ["long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

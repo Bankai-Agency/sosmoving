@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68c8148fe86f10eb85be1b7e_moving-mistakes-to-avoid-i
 publishDate: "September 15, 2025"
 lastUpdated: "September 15, 2025"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

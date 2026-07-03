@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69b934636ab0688c695a6ec7_tax-season-moving-april-co
 publishDate: "March 19, 2026"
 lastUpdated: "March 19, 2026"
 category: "moving-day-preparation"
+categories: ["moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

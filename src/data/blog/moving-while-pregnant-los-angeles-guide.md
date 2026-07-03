@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68ff6124517edf9a8537fc39_moving-while-pregnant-los-
 publishDate: "October 18, 2025"
 lastUpdated: "October 18, 2025"
 category: "moving-day-preparation"
+categories: ["moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

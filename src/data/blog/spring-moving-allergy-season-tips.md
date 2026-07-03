@@ -6,6 +6,7 @@ featuredImage: "/images/blog/6960ba1612dd5d1d33d90d9f_spring-moving-allergy-seas
 publishDate: "January 7, 2026"
 lastUpdated: "January 7, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

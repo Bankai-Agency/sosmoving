@@ -65,7 +65,10 @@ export function getBlogPosts({
       const { data, content } = matter(raw);
 
       if (!isPublicPost(data)) continue;
-      if (category && data.category !== category) continue;
+      // Posts carry multiple categories (Webflow parity); `category` alone
+      // is the primary one shown on the card badge.
+      const cats: string[] = data.categories ?? [data.category];
+      if (category && !cats.includes(category)) continue;
 
       allCards.push({
         slug: file.replace('.md', ''),

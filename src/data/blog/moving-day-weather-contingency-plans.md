@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69526c35101e496079c62f96_moving-day-weather-conting
 publishDate: "December 14, 2025"
 lastUpdated: "December 14, 2025"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

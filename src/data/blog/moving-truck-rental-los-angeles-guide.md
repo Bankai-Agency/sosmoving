@@ -6,6 +6,7 @@ featuredImage: "/images/blog/6911c658c262a1429552e54e_moving-truck-rental-los-an
 publishDate: "November 9, 2025"
 lastUpdated: "November 9, 2025"
 category: "moving-day-preparation"
+categories: ["moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

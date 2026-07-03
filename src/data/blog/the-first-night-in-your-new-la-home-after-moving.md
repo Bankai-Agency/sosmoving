@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228770205bf255_pexels-elina-sazonova-2705
 publishDate: "September 26, 2021"
 lastUpdated: "September 26, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "general", "los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228708cd5bf29b_pexels-trinity-kubassek-22
 publishDate: "August 16, 2021"
 lastUpdated: "August 16, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "top-places-to-live"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922873e405bf35b_pexels-karolina-grabowska-
 publishDate: "April 21, 2021"
 lastUpdated: "April 21, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

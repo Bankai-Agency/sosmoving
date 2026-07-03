@@ -6,6 +6,7 @@ featuredImage: "/images/blog/6911c4731ac956c663517fe0_moving-labor-los-angeles-l
 publishDate: "November 8, 2025"
 lastUpdated: "November 8, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

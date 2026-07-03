@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68ff64daf03ddc4fefd50b17_furniture-movers-los-angel
 publishDate: "October 21, 2025"
 lastUpdated: "October 21, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

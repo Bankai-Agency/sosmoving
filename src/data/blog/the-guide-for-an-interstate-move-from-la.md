@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228776415bf447_pexels-andrea-piacquadio-3
 publishDate: "December 17, 2020"
 lastUpdated: "December 17, 2020"
 category: "long-distance"
+categories: ["long-distance", "los-angeles", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

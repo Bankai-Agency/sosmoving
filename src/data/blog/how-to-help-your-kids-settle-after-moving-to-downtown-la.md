@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922872e835bf31d_pexels-roberto-nickson-252
 publishDate: "August 31, 2021"
 lastUpdated: "August 31, 2021"
 category: "after-the-move"
+categories: ["after-the-move", "general", "los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

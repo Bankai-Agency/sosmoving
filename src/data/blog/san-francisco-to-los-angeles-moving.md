@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69525763486e9092fc6c0d44_san-francisco-to-los-angel
 publishDate: "December 11, 2025"
 lastUpdated: "December 11, 2025"
 category: "long-distance"
+categories: ["long-distance"]
 readTime: ""
 author:
   name: "SOS Moving"

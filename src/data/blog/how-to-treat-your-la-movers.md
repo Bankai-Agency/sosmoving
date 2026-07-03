@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287595d5bf36c_robinson-greig-HrnAxAUwle8
 publishDate: "April 6, 2021"
 lastUpdated: "April 6, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

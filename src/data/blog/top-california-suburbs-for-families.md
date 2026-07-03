@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287c58d5bf323_elijah-ekdahl-Aop1VRaCWzg-
 publishDate: "May 25, 2021"
 lastUpdated: "May 25, 2021"
 category: "long-distance"
+categories: ["long-distance", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

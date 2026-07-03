@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922871ee35bf362_matthew-bennett-78hTqvjYMS
 publishDate: "April 18, 2021"
 lastUpdated: "April 18, 2021"
 category: "long-distance"
+categories: ["long-distance", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

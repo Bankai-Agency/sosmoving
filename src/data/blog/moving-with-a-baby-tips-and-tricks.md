@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922870a9a5bf466_ignacio-campo-tC9boyqy_40-
 publishDate: "October 23, 2020"
 lastUpdated: "October 23, 2020"
 category: "general"
+categories: ["general", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/696e193f886f91ff9ea0fd92_broker-vs-carrier-moving-c
 publishDate: "January 31, 2026"
 lastUpdated: "January 31, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

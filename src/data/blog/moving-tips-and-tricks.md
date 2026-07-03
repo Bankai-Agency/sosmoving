@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228748215bf491_Moving_tips_and_tricks_mai
 publishDate: "September 15, 2020"
 lastUpdated: "September 15, 2020"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

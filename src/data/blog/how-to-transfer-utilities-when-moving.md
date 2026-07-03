@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922876fec5bf444_cable-1868352_1280-1.jpg"
 publishDate: "December 12, 2020"
 lastUpdated: "December 12, 2020"
 category: "general"
+categories: ["general", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

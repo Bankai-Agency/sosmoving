@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287acae5bf262_F-1.jpg"
 publishDate: "September 19, 2021"
 lastUpdated: "September 19, 2021"
 category: "general"
+categories: ["general", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

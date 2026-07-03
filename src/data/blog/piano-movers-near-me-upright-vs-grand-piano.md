@@ -6,6 +6,7 @@ featuredImage: "/images/blog/692d6a98dea7ae957dc4a346_piano-movers-near-me-uprig
 publishDate: "November 24, 2025"
 lastUpdated: "November 24, 2025"
 category: "general"
+categories: ["general", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287619a5bf3cf_pexels-vlada-karpovich-405
 publishDate: "February 24, 2021"
 lastUpdated: "February 24, 2021"
 category: "long-distance"
+categories: ["long-distance", "los-angeles", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

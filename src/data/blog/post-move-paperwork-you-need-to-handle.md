@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287cf3f5bf47c_pexels-roman-koval-3059855
 publishDate: "October 12, 2020"
 lastUpdated: "October 12, 2020"
 category: "after-the-move"
+categories: ["after-the-move", "general"]
 readTime: ""
 author:
   name: "SOS Moving"

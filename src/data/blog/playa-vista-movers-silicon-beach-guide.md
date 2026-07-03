@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68dab60ed34fcbed366fcade_playa-vista-movers-silicon
 publishDate: "September 26, 2025"
 lastUpdated: "September 26, 2025"
 category: "los-angeles"
+categories: ["los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

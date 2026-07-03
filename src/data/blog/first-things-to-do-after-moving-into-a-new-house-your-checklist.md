@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68bb106e6510ce132548aae7_first-things-to-do-after-m
 publishDate: "September 3, 2025"
 lastUpdated: "September 3, 2025"
 category: "after-the-move"
+categories: ["after-the-move"]
 readTime: ""
 author:
   name: "SOS Moving"

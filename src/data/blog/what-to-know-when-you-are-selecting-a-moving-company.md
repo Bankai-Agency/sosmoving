@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d979228709365bf48b_labor_large-1.jpg"
 publishDate: "September 16, 2020"
 lastUpdated: "September 16, 2020"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

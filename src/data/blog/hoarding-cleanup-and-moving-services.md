@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69cd2a4858c8ae6781db3a3d_hoarding-cleanup-and-movin
 publishDate: "March 30, 2026"
 lastUpdated: "March 30, 2026"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

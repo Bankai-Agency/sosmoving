@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69060c5f1b2f49553ab85c57_pool-table-movers-los-ange
 publishDate: "October 28, 2025"
 lastUpdated: "October 28, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

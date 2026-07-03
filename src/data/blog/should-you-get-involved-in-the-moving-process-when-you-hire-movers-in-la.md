@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287ca7d5bf384_erda-estremera-sxNt9g77PE0
 publishDate: "March 30, 2021"
 lastUpdated: "March 30, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

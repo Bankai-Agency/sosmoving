@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287a5735bf253_pexels-rodnae-productions-
 publishDate: "September 28, 2021"
 lastUpdated: "September 28, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

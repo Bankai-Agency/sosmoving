@@ -6,6 +6,7 @@ featuredImage: "/images/blog/6921854fa13129a7e874e27a_moving-and-storage-los-ang
 publishDate: "November 18, 2025"
 lastUpdated: "November 18, 2025"
 category: "packing-tips"
+categories: ["packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68ecfcd15cca0c98a18c9b0e_moving-to-koreatown-los-an
 publishDate: "October 10, 2025"
 lastUpdated: "October 10, 2025"
 category: "los-angeles"
+categories: ["los-angeles"]
 readTime: ""
 author:
   name: "SOS Moving"

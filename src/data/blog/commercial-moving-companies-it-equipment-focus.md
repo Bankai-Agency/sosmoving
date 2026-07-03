@@ -6,6 +6,7 @@ featuredImage: "/images/blog/69b070a4153a7756c8a3b823_commercial-moving-companie
 publishDate: "March 14, 2026"
 lastUpdated: "March 14, 2026"
 category: "business-relocation"
+categories: ["business-relocation"]
 readTime: ""
 author:
   name: "SOS Moving"

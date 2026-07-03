@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287617a5bf364_FEatured-2-2.jpg"
 publishDate: "April 24, 2021"
 lastUpdated: "April 24, 2021"
 category: "move-sustainably"
+categories: ["move-sustainably", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/696e12a9c2d4d4ab46bc66e7_future-of-moving-industry-
 publishDate: "January 22, 2026"
 lastUpdated: "January 22, 2026"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68e694ba8c00fb3290b5623f_office-moving-services-los
 publishDate: "October 8, 2025"
 lastUpdated: "October 8, 2025"
 category: "moving-professionals"
+categories: ["moving-professionals"]
 readTime: ""
 author:
   name: "SOS Moving"

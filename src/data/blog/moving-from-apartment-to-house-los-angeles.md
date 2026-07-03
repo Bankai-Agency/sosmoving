@@ -6,6 +6,7 @@ featuredImage: "/images/blog/68ff605d2c4ec2cb939e5ad6_moving-from-apartment-to-h
 publishDate: "October 16, 2025"
 lastUpdated: "October 16, 2025"
 category: "local-moving-tips"
+categories: ["local-moving-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922870a565bf237_how-to-choose-reputable-mo
 publishDate: "March 7, 2022"
 lastUpdated: "March 7, 2022"
 category: "general"
+categories: ["general"]
 readTime: ""
 author:
   name: "SOS Moving"

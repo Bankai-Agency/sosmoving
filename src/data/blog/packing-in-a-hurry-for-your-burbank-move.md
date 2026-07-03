@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d9792287dca55bf343_malvestida-magazine-FfbVFL
 publishDate: "May 13, 2021"
 lastUpdated: "May 13, 2021"
 category: "los-angeles"
+categories: ["los-angeles", "packing-tips"]
 readTime: ""
 author:
   name: "SOS Moving"

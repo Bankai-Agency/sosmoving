@@ -6,6 +6,7 @@ featuredImage: "/images/blog/645ab1d97922871d545bf421_pexels-daria-shevtsova-125
 publishDate: "January 2, 2021"
 lastUpdated: "January 2, 2021"
 category: "general"
+categories: ["general", "moving-day-preparation"]
 readTime: ""
 author:
   name: "SOS Moving"
