@@ -1,0 +1,112 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Institutional & Government Relocation Services",
+  "description": "Structured logistics support for regulated environments — compliant, coordinated, and professionally managed. SOS Moving provides relocation services for government programs, institutional clients, assisted living, healthcare, and education sectors.",
+  "url": "/services/institutional-government-services",
+  "inLanguage": "en",
+  "mainEntity": {
+    "@type": "Service",
+    "name": "Institutional & Government Relocation Services",
+    "description": "Structured logistics support for regulated environments — compliant, coordinated, and professionally managed. SOS Moving provides relocation services for government programs, institutional clients, assisted living, healthcare, and education sectors.",
+    "provider": {
+      "@type": "MovingCompany",
+      "name": "SOS Moving & Storage",
+      "url": "/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/661fb80f63df1e16fb9dced9_Sos-logo-min.avif"
+      },
+      "telephone": "+19094430004",
+      "email": "info@sosmovingla.net",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "5530 Jillson Street",
+        "addressLocality": "Los Angeles",
+        "addressRegion": "CA",
+        "postalCode": "90040",
+        "addressCountry": "US"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "bestRating": "5",
+        "reviewCount": "900"
+      },
+      "openingHours": "Mo-Su 08:00-18:00"
+    },
+    "serviceType": "Institutional and Government Relocation Services",
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Los Angeles"
+      },
+      {
+        "@type": "State",
+        "name": "California"
+      }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Institutional & Government Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Government-Supported Housing Programs",
+            "description": "Relocation services for households participating in government-assisted housing programs, ensuring compliance with program requirements and timelines."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Low-Income Household Relocation Assistance",
+            "description": "Support for low-income household relocations with structured service delivery, transparent pricing, and coordination with program administrators and case managers."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Public Sector Logistics Coordination",
+            "description": "Logistics planning and execution services for public sector entities requiring coordinated moves, asset transfers, and facility transitions."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Institutional Service Contracts",
+            "description": "Contract-based relocation engagements that require defined timelines, documentation, and adherence to client-specific operational requirements."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Assisted Living & Healthcare Relocation",
+            "description": "Specialized relocation services for assisted living communities, senior housing facilities, medical offices, and healthcare equipment transport."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Education — Schools & Universities",
+            "description": "Campus relocations, school district facility moves, library and laboratory transport, and dormitory furnishing coordination for K-12 and higher education institutions."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Commercial & Corporate Clients",
+            "description": "Office relocations, warehouse transfers, retail space transitions, and multi-site commercial moves with minimal operational downtime."
+          }
+        }
+      ]
+    }
+  }
+}

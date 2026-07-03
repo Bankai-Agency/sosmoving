@@ -1,0 +1,130 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "SOS Moving",
+  "image": "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/661fb80f63df1e16fb9dced9_Sos-logo-min.avif",
+  "url": "/los-angeles-movers",
+  "telephone": "+19094430004",
+  "email": "info@sosmovingla.net",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "5530 Jillson Street",
+    "addressLocality": "Los Angeles",
+    "addressRegion": "CA",
+    "postalCode": "90040",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 34.001102,
+    "longitude": -118.160027
+  },
+  "openingHours": "Mo-Su",
+  "priceRange": "$119/hr",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "1007",
+    "bestRating": "5"
+  },
+  "sameAs": [
+    "https://www.yelp.com/biz/sos-moving-los-angeles-4",
+    "https://www.google.com/maps/place/SOS+Moving/@34.001102,-118.160027,17z/data=!4m8!3m7!1s0x80c2c73054a25063:0xd9931e90628a9b15!8m2!3d34.001102!4d-118.160027!9m1!1b1!16s%2Fg%2F11j8_ff8nd?entry=ttu&g_ep=EgoyMDI1MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+    "https://www.trustpilot.com/review/sosmovingla.net",
+    "https://www.homeadvisor.com/rated.sosmovinglanet.97010293.html",
+    "https://www.bbb.org/us/ca/los-angeles/profile/moving-services/sos-moving-llc-1216-1285189"
+  ],
+  "description": "Top-rated Los Angeles movers — 4.9★ on Google. Local & interstate moves from $119/hr. All packing materials included. No hidden fees.",
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Los Angeles"
+    },
+    {
+      "@type": "City",
+      "name": "Burbank"
+    },
+    {
+      "@type": "City",
+      "name": "Calabasas"
+    },
+    {
+      "@type": "City",
+      "name": "Glendale"
+    },
+    {
+      "@type": "City",
+      "name": "Pasadena"
+    },
+    {
+      "@type": "City",
+      "name": "Santa Monica"
+    },
+    {
+      "@type": "City",
+      "name": "West Hollywood"
+    }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Moving Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Apartment Movers",
+          "url": "/services/apartment-movers"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Commercial Movers",
+          "url": "/services/commercial-movers"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Long-Distance Movers",
+          "url": "/services/long-distance-movers"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Packing Services",
+          "url": "/services/packing-services"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "White Glove Movers",
+          "url": "/services/white-glove-movers"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Storage",
+          "url": "/services/storage"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Local Movers",
+          "url": "/services/local-moving"
+        }
+      }
+    ]
+  }
+}

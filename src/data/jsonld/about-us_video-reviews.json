@@ -1,0 +1,226 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Video Reviews — Real Customer Moving Stories",
+  "description": "Watch real video testimonials from SOS Moving customers in Los Angeles. See why we're rated 4.9★ on Google. Professional movers you can trust.",
+  "url": "/about-us/video-reviews",
+  "inLanguage": "en",
+  "about": {
+    "@type": "Organization",
+    "name": "SOS Moving LA",
+    "url": "https://sosmovingla.net",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/661fb80f63df1e16fb9dced9_Sos-logo-min.avif"
+    },
+    "telephone": "+19094430004",
+    "email": "info@sosmovingla.net",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "5530 Jillson Street",
+      "addressLocality": "Los Angeles",
+      "addressRegion": "CA",
+      "postalCode": "90040",
+      "addressCountry": "US"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "1007",
+      "bestRating": "5"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Jamon Pulliam"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "I recently used SOS Moving Company for my move from Ontario to Chino Hills, and Armando and Nelson exceeded all expectations. These guys work incredibly efficiently - they moved everything so quickly that I was amazed.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Kelsey Fawley"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "I had an incredible experience with SOS Moving Company during my move from Los Angeles to the Bay Area. Damian was the driver and his crew was absolutely spectacular—professional, efficient, and incredibly careful with all of my belongings. I was especially worried about transporting my plants (since some companies won't even take them), but every single one made it safely, and I'm so grateful for that extra care. They made what could've been a stressful process feel seamless. I'll absolutely be using SOS again for my next move—no question!",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Nicole Lai"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "We had a great experience with SOS Moving. Armando and Andres packed up our entire home and garage in Long Beach, drove everything up to San Mateo County, and handled the unpacking too. They helped set up furniture, lay out rugs, and were super friendly, professional, and right on time. They were also very patient and understanding while I figured out the layout for some of our rooms. I really appreciated getting their ETA updates while they were on the road as well. I highly recommend using SOS Moving — and if you can, ask for Armando and Andres!",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Vish Saheb"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Super efficient and professional, our movers are Buchu, Sandro and Denis. the team arrive at 7 am and drive our stuff from LA to the bay on the same day. They also helped us set up and unpacked super smoothly. Would highly recommend if you're moving on the west coast (the team even help us set up the TV)!",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Suhaila Meera"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "We used SOS moving to move us from Northern California to Southern California. Needless to say it was a stressful transition for us. SOS moving gave us the most competitive quote from several other moving companies. On the day of the move SOS crew arrived on time. They worked calmly and patiently carefully loading all our stuff in the 26 feet truck and were done in less than 3 hours. They drove to LA same day and arrived next day to unload everything. The unloading was smooth as well. Buchu and Denis 5 stars for your awesome service!",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Malia F."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Had a great experience moving from Portland, OR to Chicago, IL with Damian and SOS! Damian was a great communicator, and moved our things safely and smoothly. He stuck to our agreed upon timeline and fee — no surprises here. We'd definitely use SOS again!",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Yelp"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Rita G."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "My team and I were DREADING our office move today; SOS Moving completely turned our day around! From start to finish, the process was seamless and surprisingly quick. The team showed up right on time; they worked efficiently and handled everything with care. What really stood out was how friendly, professional, and helpful the movers were. Ilbert went above and beyond to make sure things went smoothly. He was communicative, positive, and clearly experienced. A big thank you to his team: Fredy, Juan, Denis, Alim, and Alikhan. We genuinely couldn't have asked for a better moving experience. Huge thanks to SOS Moving for taking the stress out of our move; we're so grateful we chose them!",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Yelp"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Julie M."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Phenomenal experience! Ilbert was so efficient and professional. This company was punctual, quick and made my senior dad's move so much easier than expected. I never expected moving to be this good of a been experience and so reasonably priced!",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Yelp"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Al N."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "My office used SOS moving today and I was so impressed picking up files from storage. They were 10 minutes early to the warehouse 40 miles away, took time to wrap the pallets of boxes so nothing fell off, and worked hard and fast in the heat. Then they had a long drive to my office and because of a small elevator took dozens of trips bringing in boxes to the file room. Other people were working in their offices and Ilbert and Alex worked so professionally and quietly that everyone kept their office doors open and weren't interrupted. The price was great and they were so nice - I would use them professionally and for a personal move without hesitation.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Yelp"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Nikki P."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "When I was looking for movers, there were many options and mixed reviews. I chose SOS Moving because they had great reviews and people seemed happy with their service. On my moving day, their truck broke down on the way to my place. Yerdos, Aslo, and Artem were able to get it working and also arranged for a new truck to be sent over to move us out and into our new place. They were efficient and packed the truck well. They also took great care not to damage my home or belongings. I would highly recommend their moving service and will use SOS Moving again in the future. Thanks!",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Yelp"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Nikki P."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "I just used SOS moving for a move and they were GREAT. Ilbert, Freddy, Juan, and Denis were so fast, professional, courteous, and easy to work with. They answered all of my questions and were super helpful. My items were in various stages of packed before they arrived--some were fully packed and some were not packed at all. They packed everything for me that I hadn't yet and moved everything. They also handled all my delicate items well too and super bubble wrapped my monitor so that it was safe when transporting. They also moved weird items like plants and my bicycle with no issues. Next time I have to move I will 100% use them again and I'd recommend them to anyone.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Yelp"
+        }
+      }
+    ],
+    "sameAs": [
+      "https://www.yelp.com/biz/sos-moving-los-angeles-4",
+      "https://www.google.com/maps/place/SOS+Moving/@34.001102,-118.160027,17z/data=!4m8!3m7!1s0x80c2c73054a25063:0xd9931e90628a9b15!8m2!3d34.001102!4d-118.160027!9m1!1b1!16s%2Fg%2F11j8_ff8nd?entry=ttu&g_ep=EgoyMDI1MDkwMi4wIKXMDSoASAFQAw%3D%3D"
+    ]
+  }
+}

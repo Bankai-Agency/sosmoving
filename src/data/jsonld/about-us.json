@@ -1,0 +1,143 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "About SOS Moving & Storage",
+  "url": "/about-us",
+  "inLanguage": "en",
+  "description": "Learn about SOS Moving Company, a professional, licensed, and insured moving company founded in Los Angeles in 2020 and expanded to San Francisco in 2021.",
+  "about": {
+    "@type": "Organization",
+    "@id": "https://sosmovingla.net/#organization",
+    "name": "SOS Moving & Storage",
+    "alternateName": "SOS Moving Company",
+    "foundingDate": "2020-01-01",
+    "description": "Professional, licensed, and insured moving company delivering peace of mind through safe and stress-free relocation services.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "5530 Jillson Street",
+      "addressLocality": "Los Angeles",
+      "addressRegion": "CA",
+      "postalCode": "90040",
+      "addressCountry": "US"
+    },
+    "telephone": "+19094430004",
+    "email": "info@sosmovingla.net",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/645ab1d97922876e435bf06c_logo-sos.png"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/645ab1d97922875dfc5befe5_about-us-2.webp"
+      },
+      {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/645ab1d9792287780b5befe4_about-us-1.webp"
+      },
+      {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/645ab1d97922871a025befe9_about-us-5.webp"
+      }
+    ],
+    "openingHours": "Mo-Su 08:00-18:00",
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Los Angeles",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+      },
+      {
+        "@type": "City",
+        "name": "San Francisco",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+      },
+      {
+        "@type": "City",
+        "name": "Orange County",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+      },
+      {
+        "@type": "City",
+        "name": "Calabasas",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+      },
+      {
+        "@type": "City",
+        "name": "Portland",
+        "addressRegion": "OR",
+        "addressCountry": "US"
+      },
+      {
+        "@type": "City",
+        "name": "Seattle",
+        "addressRegion": "WA",
+        "addressCountry": "US"
+      },
+      {
+        "@type": "City",
+        "name": "Denver",
+        "addressRegion": "CO",
+        "addressCountry": "US"
+      }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Moving and Storage Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Apartment Movers",
+            "url": "/services/apartment-movers"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Commercial Movers",
+            "url": "/services/commercial-movers"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Long-Distance Movers",
+            "url": "/services/long-distance-movers"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Packing Services",
+            "url": "/services/packing-services"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "White Glove Movers",
+            "url": "/services/white-glove-movers"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Storage Services",
+            "url": "/services/storage"
+          }
+        }
+      ]
+    }
+  }
+}

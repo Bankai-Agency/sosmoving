@@ -1,0 +1,133 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "Meet Our Team",
+  "url": "/about-us/meet-our-team",
+  "inLanguage": "en",
+  "description": "Meet the SOS Moving team — licensed professionals led by CEO Alex Park. Experienced movers, coordinators & managers serving Los Angeles and San Francisco.",
+  "about": {
+    "@type": "Organization",
+    "@id": "https://schema.org/#Organization",
+    "name": "SOS Moving Company",
+    "description": "Professional, licensed, and insured moving company with highly skilled movers delivering peace of mind through moving and storage services in Los Angeles and San Francisco.",
+    "url": "/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/661fb80f63df1e16fb9dced9_Sos-logo-min.avif"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/645ab1d97922875dfc5befe5_about-us-2.webp"
+      },
+      {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/645e5c7a800b689c7515e77f_about-img-c1.webp"
+      },
+      {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/645e5c7b7d368b588433f80d_about-img-c2.webp"
+      },
+      {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/645ab1d9792287780b5befe4_about-us-1.webp"
+      }
+    ],
+    "telephone": "+1-909-443-0004",
+    "email": "info@sosmovingla.net",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "5530 Jillson Street",
+      "addressLocality": "Los Angeles",
+      "addressRegion": "CA",
+      "postalCode": "90040",
+      "addressCountry": "US"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "1007",
+      "bestRating": "5"
+    },
+    "member": [
+      {
+        "@type": "Person",
+        "name": "Alex Park",
+        "jobTitle": "CEO & Founder",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://cdn.prod.website-files.com/645ab1d97922878b6f5bef7f/647af3242ac1af6cccd5e78d_member-5.jpg"
+        },
+        "description": "Alex Park founded SOS Moving in 2022 with a clear mission: make every move in Los Angeles stress-free, transparent, and professional. Over the past four years he has personally overseen thousands of local and long-distance relocations across Southern California."
+      },
+      {
+        "@type": "Person",
+        "name": "Andy",
+        "jobTitle": "General Manager",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://cdn.prod.website-files.com/645ab1d97922878b6f5bef7f/647af3bf06f6498943513806_member-6.jpg"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Rayna",
+        "jobTitle": "Sales Manager",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://cdn.prod.website-files.com/645ab1d97922878b6f5bef7f/647af38dbb3d6fefb9fa5892_member-3.jpg"
+        },
+        "description": "As a salesperson at SOS Moving, I take pride in helping customers during their relocation and showcasing our exceptional services. My emphasis is on delivering outstanding experiences through customized solutions, clear communication, and professionalism."
+      },
+      {
+        "@type": "Person",
+        "name": "Sarah",
+        "jobTitle": "Customer Relations Manager",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://cdn.prod.website-files.com/645ab1d97922878b6f5bef7f/647af3a59990bad20470afea_member-4.jpg"
+        },
+        "description": "Sarah manages the customer experience at SOS Moving, helping families and businesses navigate every step of their relocation. She is the go-to expert on moving insurance, cost comparisons, and finding the right storage solution for your situation."
+      },
+      {
+        "@type": "Person",
+        "name": "Jacob",
+        "jobTitle": "Long Distance Moving Coordinator",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://cdn.prod.website-files.com/645ab1d97922878b6f5bef7f/68dac54accf0d46460658b54_Jacob-team-photo-1.jpg"
+        },
+        "description": "Jacob coordinates every long-distance and interstate relocation at SOS Moving, planning routes from California to Oregon, Washington, Colorado, Texas, and beyond. He understands USDOT regulations, state-to-state logistics, and the details that keep your belongings safe over hundreds or thousands of miles."
+      },
+      {
+        "@type": "Person",
+        "name": "Alex",
+        "jobTitle": "Fleet Manager",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://cdn.prod.website-files.com/645ab1d97922878b6f5bef7f/647af370d1e08695682c2b72_member-9.jpg"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Amir",
+        "jobTitle": "Senior Move Foreman",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://cdn.prod.website-files.com/645ab1d97922878b6f5bef7f/647af450a66d73e370723f0d_member-2.jpg"
+        },
+        "description": "Amir leads SOS Moving crews across every neighborhood in Los Angeles — from downtown high-rises to Malibu beachfront homes. As Senior Move Foreman, he specializes in handling heavy and fragile items including pianos, pool tables, antiques, and gym equipment."
+      },
+      {
+        "@type": "Person",
+        "name": "William",
+        "jobTitle": "Operations Manager",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://cdn.prod.website-files.com/645ab1d97922878b6f5bef7f/68dac54f096b6f062f88d3ac_William-team-photo-2.jpg"
+        },
+        "description": "William manages day-to-day operations at SOS Moving — from crew scheduling and truck routing to packing strategies for complex relocations. He has coordinated thousands of local moves across Los Angeles, handling everything from studio apartments to five-bedroom houses."
+      }
+    ]
+  }
+}

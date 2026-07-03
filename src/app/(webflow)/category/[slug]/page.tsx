@@ -5,10 +5,26 @@ import { BlogCard } from '@/components/blog/BlogCard';
 import { Pagination } from '@/components/blog/Pagination';
 import { getBlogPosts } from '@/lib/data/blog';
 import { getCategories } from '@/lib/data/shared';
+import { metaForPath } from '@/lib/seo-meta';
 
 export async function generateStaticParams() {
   const categories = getCategories();
   return categories.map((cat) => ({ slug: cat }));
+}
+
+// Display names that naive word-capitalization gets wrong
+// ("After The Move", "Long Distance", "Top Places To Live").
+const CATEGORY_TITLES: Record<string, string> = {
+  'after-the-move': 'After the Move',
+  'long-distance': 'Long-Distance',
+  'top-places-to-live': 'Top Places to Live',
+};
+
+function categoryTitle(slug: string): string {
+  return (
+    CATEGORY_TITLES[slug] ??
+    slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())
+  );
 }
 
 export async function generateMetadata({
@@ -17,10 +33,14 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const title = slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+  const title = categoryTitle(slug);
+  // Pre-migration meta wins when the category existed on the old site;
+  // the generated title/description only covers categories added since.
+  const meta = metaForPath(`/category/${slug}`);
   return {
     title: `${title} — Blog`,
     description: `Articles about ${title.toLowerCase()} from SOS Moving & Storage.`,
+    ...Object.fromEntries(Object.entries(meta).filter(([, v]) => v !== undefined)),
   };
 }
 
@@ -36,7 +56,7 @@ export default async function CategoryPage({
   const page = Number(pageParam) || 1;
   const { posts, totalPages } = getBlogPosts({ page, limit: 12, category: slug });
 
-  const title = slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+  const title = categoryTitle(slug);
 
   return (
     <>

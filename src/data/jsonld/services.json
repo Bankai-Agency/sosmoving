@@ -1,0 +1,139 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Moving Services in Los Angeles",
+  "description": "Full range of moving services in LA: local, long-distance, commercial, packing, storage & white-glove. Licensed & insured, from $119/hr.",
+  "url": "/services",
+  "inLanguage": "en",
+  "about": {
+    "@type": "Service",
+    "name": "Moving Services in Los Angeles",
+    "description": "Full range of moving services in LA: local, long-distance, commercial, packing, storage & white-glove. Licensed & insured, from $119/hr.",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "SOS Moving",
+      "telephone": "909-443-0004",
+      "email": "info@sosmovingla.net",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "5530 Jillson Street",
+        "addressLocality": "Los Angeles",
+        "addressRegion": "CA",
+        "postalCode": "90040",
+        "addressCountry": "US"
+      },
+      "openingHours": "Mo-Su 08:00-18:00"
+    },
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Los Angeles"
+      },
+      {
+        "@type": "City",
+        "name": "Orange County"
+      },
+      {
+        "@type": "City",
+        "name": "Calabasas"
+      },
+      {
+        "@type": "City",
+        "name": "Portland"
+      },
+      {
+        "@type": "City",
+        "name": "Seattle"
+      },
+      {
+        "@type": "City",
+        "name": "Denver"
+      }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Moving Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Apartment Movers",
+            "description": "Professional apartment movers who will make your relocation blissful with top-notch customer service.",
+            "url": "/services/apartment-movers"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Commercial Movers",
+            "description": "Focus on running your business while our commercial movers take care of your business relocation.",
+            "url": "/services/commercial-movers"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Long-Distance Movers",
+            "url": "/services/long-distance-movers"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Packing Services",
+            "description": "Ease the burden of relocation by leveraging our expertise at delivering exceptional packing services with superb customer care.",
+            "url": "/services/packing-services"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "White Glove Movers",
+            "description": "Leverage the experience and expertise of our white glove movers to handle the safe relocation of your high-end belongings to your new place.",
+            "url": "/services/white-glove-movers"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Storage Services",
+            "description": "Get access to secure moving and storage services that we offer to help you have a blissful relocation experience.",
+            "url": "/services/storage"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Institutional & Government Services",
+            "description": "SOS Moving provides structured logistics support for institutional and government-related programs, including relocation and coordination services for regulated environments.",
+            "url": "/services/institutional-government-services"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Education Services",
+            "description": "We support educational institutions with coordinated relocation services designed to minimize disruption and maintain operational continuity.",
+            "url": "/services/institutional-government-services"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Specialty & Complex Moves",
+            "description": "For projects that require advanced planning, coordination, and specialized equipment beyond standard residential or commercial moves."
+          }
+        }
+      ]
+    }
+  }
+}

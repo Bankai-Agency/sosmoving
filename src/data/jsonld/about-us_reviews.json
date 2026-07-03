@@ -1,0 +1,225 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "SOS Moving Reviews | 4.9★ Google Rating — Customer Testimonials",
+  "description": "Read 4.9★ rated customer reviews for SOS Moving & Storage in Los Angeles. Hundreds of verified Google reviews from real clients. See why LA trusts us!",
+  "url": "/about-us/reviews",
+  "inLanguage": "en",
+  "about": {
+    "@type": "Organization",
+    "name": "SOS Moving & Storage",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "bestRating": "5",
+      "reviewCount": "15"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Landon L."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "I am very glad that I went with SOS Moving company! The three guys who moved my stuff were incredibly friendly and hard working. Moved fast but also took care of all my belongings, making sure to double check what was fragile and what wasn't. There were many heavy things like books and records and they moved them very efficiently up flights of stairs. Couldn't recommend enough!"
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Jason L."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Buchu and team were absolutely fantastic. They arrived right on time, carefully packed all of our stuff, and unloaded it at our new place all in under 8 hours. They were great communicators, rebuilt all our furniture perfectly, and were incredibly friendly. We couldn't be happier with their services and will definitely use them for our next move!"
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Janine K."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Jose and his crew were so awesome and so quick. They were really helpful, friendly and explained everything. I really appreciate their hard work. They packed up everything for me too! Thx guys."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Sara B."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "had a great experience with these movers. they were very professional and timely. would recommend!"
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "A L."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Jose's crew was the best. Using them again!!!"
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Deborah H. H."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "SOS Moving did a wonderful job moving my business! It took three trips—in the pouring rain, over two days—but they were on time and communication was just about immediate. When we couldn't finish the move on the first day, SOS Moving made it possible to finish the job the following morning. (Much appreciated!) All the furniture was professionally wrapped before going on the truck, and all of the movers were friendly and accommodating! THANKS Pasha, Darhan, Azamat, Marat T., and Marat S.!"
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "tori K."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "11/10!! Thank you Tim, huge help n great energy! Dori too!! Made the experience seamless"
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Kate C."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "They were so amazing and helpful. Cant recommend enough!"
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Jason & T."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "SOS' team called 20 min before arrival, showed up on time and ready to work. They were thorough, efficient and took care with our items to ensure safety in transit. Every member of Ivan's team were courteous, respectful and eager to do a good job. He and I even discovered we both once worked for the same east coast based moving company in our past. Not eager to move again but will hire SOS on the next home adventure."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "wenyon J."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "best movers of all time! Ramazan and Nurbol were incredible. Very fast, efficient, careful, and all-around perfect. I used them twice bow and will be using them again when I move next"
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Zeke W."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Had an excellent experience & would continue to use the services of Jose & Bennie."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Michelle O."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "My move went very smoothly thanks to SOS Moving."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "John W."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Excellent movers - would highly recommend. By far the most professional, clean, fast, and friendly movers around. Very happy with their service!"
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Lauren S."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Great experience. From the initial phone call for a quote through the move, everyone was very thorough and professional.I've used many moving companies and there is usually one man that slacks a bit more than the others. This was not the case . All the men worked as a team from beginning to end. All very very courteous and respectful. I highly recommend this company."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Denise C."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "While a bit on the high side of hourly rates, these guys were awesome and I really appreciated them coming on New Year's eve. Punctional, thoughtful, careful, professional"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "5530 Jillson Street",
+      "addressLocality": "Los Angeles",
+      "addressRegion": "CA",
+      "postalCode": "90040",
+      "addressCountry": "US"
+    },
+    "telephone": "+19094430004",
+    "email": "info@sosmovingla.net"
+  }
+}

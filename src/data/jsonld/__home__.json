@@ -1,0 +1,199 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MovingCompany",
+  "name": "SOS Moving & Storage",
+  "description": "Licensed and insured moving company providing outstanding local, commercial, and long-distance moves in Los Angeles, Seattle, and Portland with highly skilled movers and top-quality equipment.",
+  "url": "https://sosmovingla.net",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/661fb80f63df1e16fb9dced9_Sos-logo-min.avif"
+  },
+  "image": [
+    {
+      "@type": "ImageObject",
+      "url": "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/645ab1d97922876aaf5bef8b_company-img-1.webp"
+    },
+    {
+      "@type": "ImageObject",
+      "url": "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/645ab1d9792287bc985bef88_company-img-4.webp"
+    }
+  ],
+  "telephone": "+19094430004",
+  "email": "info@sosmovingla.net",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "5530 Jillson Street",
+    "addressLocality": "Los Angeles",
+    "addressRegion": "CA",
+    "postalCode": "90040",
+    "addressCountry": "US"
+  },
+  "openingHours": "Mo-Su 08:00-18:00",
+  "priceRange": "$$",
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Los Angeles"
+    },
+    {
+      "@type": "City",
+      "name": "Portland"
+    },
+    {
+      "@type": "City",
+      "name": "Seattle"
+    },
+    {
+      "@type": "City",
+      "name": "Denver"
+    },
+    {
+      "@type": "State",
+      "name": "California"
+    },
+    {
+      "@type": "State",
+      "name": "Oregon"
+    },
+    {
+      "@type": "State",
+      "name": "Washington"
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "2500",
+    "bestRating": "5"
+  },
+  "sameAs": [
+    "https://www.yelp.com/biz/sos-moving-los-angeles-4",
+    "https://www.google.com/maps/place/SOS+Moving/@34.001102,-118.160027,17z/data=!4m8!3m7!1s0x80c2c73054a25063:0xd9931e90628a9b15!8m2!3d34.001102!4d-118.160027!9m1!1b1!16s%2Fg%2F11j8_ff8nd",
+    "https://www.youtube.com/watch?v=QG0FZXbvAUg&ab_channel=AlekSandar",
+    "https://www.trustpilot.com/review/sosmovingla.net",
+    "https://www.homeadvisor.com/rated.sosmovinglanet.97010293.html",
+    "https://www.bbb.org/us/ca/los-angeles/profile/moving-services/sos-moving-llc-1216-1285189"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Moving Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Apartment Movers",
+          "url": "/services/apartment-movers"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Commercial Movers",
+          "url": "/services/commercial-movers"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Long-Distance Movers",
+          "url": "/services/long-distance-movers"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Packing Services",
+          "url": "/services/packing-services"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "White Glove Movers",
+          "url": "/services/white-glove-movers"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Storage Services",
+          "url": "/services/storage"
+        }
+      }
+    ]
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Jamon Pulliam"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "I recently used SOS Moving Company for my move from Ontario to Chino Hills, and Armando and Nelson exceeded all expectations. These guys work incredibly efficiently - they moved everything so quickly that I was amazed."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Kelsey Fawley"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "I had an incredible experience with SOS Moving Company during my move from Los Angeles to the Bay Area. Damian was the driver and his crew was absolutely spectacular—professional, efficient, and incredibly careful with all of my belongings."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Nicole Lai"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "We had a great experience with SOS Moving. Armando and Andres packed up our entire home and garage in Long Beach, drove everything up to San Mateo County, and handled the unpacking too. They helped set up furniture, lay out rugs, and were super friendly, professional, and right on time."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Vish Saheb"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "Super efficient and professional, our movers are Buchu, Sandro and Denis. the team arrive at 7 am and drive our stuff from LA to the bay on the same day. They also helped us set up and unpacked super smoothly."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Suhaila Meera"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "We used SOS moving to move us from Northern California to Southern California. SOS moving gave us the most competitive quote from several other moving companies. Buchu and Denis 5 stars for your awesome service!"
+    }
+  ],
+  "inLanguage": "en"
+}
