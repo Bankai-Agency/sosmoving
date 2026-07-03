@@ -11,8 +11,8 @@ import seoMeta from '@/data/seo-meta.json';
  * per sitemap URL with the exact title/description/canonical/OG/Twitter/
  * robots values each page ranked with. Every (webflow) route resolves its
  * metadata through metaForPath() so the server HTML carries the same head
- * the old site had. See scripts/broken-links-map.csv and the fix brief for
- * the rest of the migration spec.
+ * the old site had. See src/data/broken-links-map*.csv and the fix brief
+ * for the rest of the migration spec.
  */
 
 type SeoEntry = {

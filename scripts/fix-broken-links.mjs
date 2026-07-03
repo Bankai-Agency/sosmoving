@@ -1,6 +1,6 @@
 // Rewrites broken internal links in public/pages/*.html and
-// src/data/shared/*.html using scripts/broken-links-map.csv (from the SEO
-// migration fix brief) plus scripts/broken-links-map-extra.csv (mappings
+// src/data/shared/*.html using src/data/broken-links-map.csv (from the SEO
+// migration fix brief) plus src/data/broken-links-map-extra.csv (mappings
 // found by a follow-up full-link sweep: /resources/* → /blog/*, plus city
 // links pointing at the wrong nesting in both directions).
 // Rows with an empty correct_url ("unknown" kind) are skipped — those
@@ -14,7 +14,7 @@ import { join } from 'node:path';
 const ROOT = new URL('..', import.meta.url).pathname;
 const HTML_DIRS = [join(ROOT, 'public/pages'), join(ROOT, 'src/data/shared')];
 
-const map = ['scripts/broken-links-map.csv', 'scripts/broken-links-map-extra.csv']
+const map = ['src/data/broken-links-map.csv', 'src/data/broken-links-map-extra.csv']
   .flatMap((f) =>
     readFileSync(join(ROOT, f), 'utf8')
       .replace(/^﻿/, '')

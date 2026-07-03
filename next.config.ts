@@ -8,7 +8,7 @@ import { join } from "path";
 // at the source; these redirects catch anything external that picked the
 // wrong URLs up while they were live.
 function brokenLinkRedirects() {
-  return ["scripts/broken-links-map.csv", "scripts/broken-links-map-extra.csv"]
+  return ["src/data/broken-links-map.csv", "src/data/broken-links-map-extra.csv"]
     .flatMap((f) =>
       readFileSync(join(__dirname, f), "utf8")
         .replace(/^﻿/, "")
