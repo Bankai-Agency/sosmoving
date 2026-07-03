@@ -1,7 +1,9 @@
 import { notFound } from 'next/navigation';
 import { readdirSync, existsSync } from 'fs';
 import { join } from 'path';
+import type { Metadata } from 'next';
 import { renderPage } from '@/lib/render-page';
+import { metaForPath } from '@/lib/seo-meta';
 
 /**
  * Nested city route: /los-angeles-movers/burbank-movers, /los-angeles-movers/calabasas-movers, etc.
@@ -20,6 +22,15 @@ export async function generateStaticParams() {
       const [parent, child] = f.replace('.html', '').split('__');
       return { citySlug: parent, subCitySlug: child };
     });
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ citySlug: string; subCitySlug: string }>;
+}): Promise<Metadata> {
+  const { citySlug, subCitySlug } = await params;
+  return metaForPath(`/${citySlug}/${subCitySlug}`);
 }
 
 export default async function NestedCityPage({

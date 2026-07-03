@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import ScriptLoader from "@/components/ScriptLoader";
 import { SharedHtmlBlock } from "@/components/shared/SharedHtmlBlock";
@@ -23,7 +24,25 @@ export const metadata: Metadata = {
   description:
     "SOS Moving \u2014 4.9\u2605 rated LA moving company. Local & long-distance moves from $119/hr. Free blankets, shrink wrap & wardrobe boxes included.",
   metadataBase: new URL("https://www.sosmovingla.net"),
+  verification: {
+    google: "6mIWXOA5HThwKZik5GESXAvERIKj8EXjIuaYNQXKna0",
+  },
+  // Same icon assets the old Webflow site served (src/app/favicon.ico
+  // additionally covers the bare /favicon.ico request).
+  icons: {
+    icon: {
+      url: "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/645ab1d97922870d825befad_favicon.svg",
+      type: "image/svg+xml",
+    },
+    apple:
+      "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/645ab1d9792287d5fd5befbd_apple-touch.svg",
+  },
 };
+
+// Google Tag Manager container (GA4 is wired inside it). Same container the
+// old Webflow site used — keeps analytics history continuous across the
+// migration. Form-submit events must reach dataLayer (verified in GTM debug).
+const GTM_ID = "GTM-5QSS53C9";
 
 export default function RootLayout({
   children,
@@ -71,6 +90,21 @@ export default function RootLayout({
             preload + self-host automatically, no manual <link> tags needed. */}
       </head>
       <body>
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
+        <Script id="gtm" strategy="afterInteractive">
+          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','${GTM_ID}');`}
+        </Script>
         <SharedHtmlBlock name="exit-popup" />
         <SharedHtmlBlock name="navbar" />
         {children}

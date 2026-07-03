@@ -1,0 +1,193 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "url": "/about-us/faq",
+  "name": "Frequently Asked Questions About Moving in Los Angeles",
+  "description": "Browse our frequently asked questions for answers to the most common moving questions.",
+  "inLanguage": "en",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What items can you not move?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Per California regulations and our company policy, we cannot transport hazardous materials, flammable liquids, explosives, perishable food, live plants across state lines, or any items prohibited by the Department of Transportation. For local moves within California, we can transport most household items including plants. If you have a specific item you are unsure about, call us at 909-443-0004 and we will let you know."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are you insured?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we are insured through Baker International."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you work in the rain?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we work in the rain. We provide unlimited shrink wrap to wrap and protect your belonging. Please note moving under the rain might cause delays and the entire job might take longer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Double Driving Time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "State of California double drive time law. We will only double your commute time if over 10 miles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer hauling/disposal services of unwanted furniture?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unfortunately, we don't haul away unwanted furniture. There are two options: we can either set it on the curbside for you or deliver to any donation center per your request. You'll be charged for that time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the payment methods, and are there any cancellation fees?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We are booked up in advance most of the time. If you changed your plans and need to cancel your reservation, please let us know as soon as possible as it is a first come first serve basis. The payment is done only once we complete your move. We accept cash, cashier check, Zelle, or credit card (Visa and MasterCard only). Unfortunately, we don't accept personal checks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When do I need to get a parking permit and how do I get it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can obtain parking permits through www.movingpermits.com."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you provide a certificate of General Liability Insurance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Proof of insurance can be provided for no additional charge upon request. Adding your location/HOA or property management as additionally insured is easy – Let us know and we will need the additional insured name and physical address."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I book a move with SOS Moving and Storage Company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can book online or call us at 909-443-0004."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "My move date changed. What should I do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Contact our office as soon as you can if your move dates have changed. We can process any changes to your plan and discuss updates. Keep in mind that your hourly rate may change depending on the dates you selected."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I leave items inside the dressers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We recommend removing all the contents from the furniture for safety reasons. Sometimes we can make an exception, but we leave it up to the Foreman on-site to decide."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does SOS move appliances?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our movers are all professionals, but not certified technicians. We do not take any liability when disconnecting the appliances are involved with water or gas connections. We can still do it, but you will have to be present at the end to inspect for liability reasons."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the recommended truck sizes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "1 Bedroom – 18 ft, 2 Bedroom – 22 or 24 ft, 3 Bedroom & Upwards – 26 ft. 26 ft truck is officially the biggest truck allowed on a residential street. Our truck requires at least 40 ft space to park and release the ramp."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long will my move take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every move is unique and it's hard to anticipate the total number of hours and give you a blind estimate. Length of the move depends on a lot of conditions, such as a walking distance to the truck, narrow stairways and doorways, amount of stuff you have and how prepared you are, is there any specific packing and wrapping for fragile items required, stairs, small elevator, traffic situation, etc. We recommend packing as much as you can to cut down the time and save money in total. Once our moving professionals arrive at your place and take a walk through to determine loading conditions, the number of items you have, and based on how prepared you are they will be able to give you an idea of how long it might take to complete your move."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you move plants?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we can move plants. Movers will do their best to strap them down in our truck, however, we are not responsible for any damages."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will you have boxes in a truck if I ran out of my own?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we'll have extra boxes in the truck for you. Prices are $4 per Small box, $5 per Medium, and $6 per Large."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much is the Packing Service?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We don't have any specific charge for Packing Service itself. Packing Services are included in your hourly rate and the price is a matter of time it takes to complete your move."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you dispose of used packing supplies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes we'll dispose of all packing supplies that our company provided."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you take down TV off the wall?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, movers will take down your TV. However, we won't be able to mount it back at the new location since we are not licensed to drill."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide wardrobe boxes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the truck will be fully equipped with all necessary moving supplies including wardrobe boxes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you disassemble furniture?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our movers can disassemble and reassemble furniture. They will have all the necessary tools."
+      }
+    }
+  ],
+  "about": {
+    "@type": "Organization",
+    "name": "SOS Moving",
+    "url": "https://www.sosmovingla.net",
+    "telephone": "909-443-0004",
+    "email": "info@sosmovingla.net",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "5530 Jillson Street",
+      "addressLocality": "Los Angeles",
+      "addressRegion": "CA",
+      "postalCode": "90040",
+      "addressCountry": "US"
+    }
+  }
+}

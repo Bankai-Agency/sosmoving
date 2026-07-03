@@ -1,0 +1,147 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "SOS Moving - Eastvale Movers",
+  "url": "/eastvale-movers",
+  "inLanguage": "en",
+  "description": "Licensed and insured Eastvale moving company providing local, long-distance, commercial, and packing services. 4.9-star rated movers with professional service from $119/hr.",
+  "image": "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/689f96a06e323e403297008c_MoversInTruck.webp",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/661fb80f63df1e16fb9dced9_Sos-logo-min.avif"
+  },
+  "telephone": "+19094430004",
+  "email": "info@sosmovingla.net",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "5530 Jillson Street",
+    "addressLocality": "Los Angeles",
+    "addressRegion": "CA",
+    "postalCode": "90040",
+    "addressCountry": "US"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Eastvale",
+    "containedInPlace": {
+      "@type": "State",
+      "name": "California"
+    }
+  },
+  "priceRange": "From $119/Hr.",
+  "openingHours": "Mo-Su 08:00-18:00",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "437",
+    "bestRating": "5"
+  },
+  "sameAs": [
+    "https://www.yelp.com/biz/sos-moving-los-angeles-4",
+    "https://www.google.com/maps/place/SOS+Moving/@34.001102,-118.160027,17z/data=!4m8!3m7!1s0x80c2c73054a25063:0xd9931e90628a9b15!8m2!3d34.001102!4d-118.160027!9m1!1b1!16s%2Fg%2F11j8_ff8nd?entry=ttu&g_ep=EgoyMDI1MDkwMi4wIKXMDSoASAFQAw%3D%3D"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Moving Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Local Moving Services",
+          "description": "Professional local movers in Eastvale for residential and apartment moves"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Long-Distance Moving",
+          "description": "Licensed and insured long-distance movers for interstate and cross-country relocations"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Commercial Moving",
+          "description": "Office movers in Eastvale for business relocations and commercial moves"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Packing Services",
+          "description": "Expert packing and unpacking services with quality materials and custom crating"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Storage Services",
+          "description": "Secure storage solutions for short-term and long-term needs"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "White Glove Moving",
+          "description": "Premium moving service with extra care for specialty and valuable items"
+        }
+      }
+    ]
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Jamon Pulliam"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "I recently used SOS Moving Company for my move from Ontario to Chino Hills, and Armando and Nelson exceeded all expectations. These guys work incredibly efficiently - they moved everything so quickly that I was amazed.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Google"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Kelsey Fawley"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "I had an incredible experience with SOS Moving Company during my move from Los Angeles to the Bay Area. Damian was the driver and his crew was absolutely spectacular—professional, efficient, and incredibly careful with all of my belongings.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Google"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Nicole Lai"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "We had a great experience with SOS Moving. Armando and Andres packed up our entire home and garage in Long Beach, drove everything up to San Mateo County, and handled the unpacking too. They helped set up furniture, lay out rugs, and were super friendly, professional, and right on time.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Google"
+      }
+    }
+  ]
+}

@@ -1,6 +1,34 @@
 import type { NextConfig } from "next";
+import { readFileSync } from "fs";
+import { join } from "path";
+
+// 301s for URLs the scraped pages used to link before the hrefs were fixed
+// (blog posts without the /blog/ prefix, nested city pages by their flat
+// slug — see scripts/fix-broken-links.mjs). The links themselves are fixed
+// at the source; these redirects catch anything external that picked the
+// wrong URLs up while they were live.
+function brokenLinkRedirects() {
+  return ["scripts/broken-links-map.csv", "scripts/broken-links-map-extra.csv"]
+    .flatMap((f) =>
+      readFileSync(join(__dirname, f), "utf8")
+        .replace(/^﻿/, "")
+        .split(/\r?\n/)
+        .slice(1)
+        .filter(Boolean),
+    )
+    .map((line) => line.split(","))
+    .filter(([wrong, correct]) => wrong && correct)
+    .map(([wrong, correct]) => ({
+      source: wrong,
+      destination: correct,
+      permanent: true,
+    }));
+}
 
 const nextConfig: NextConfig = {
+  async redirects() {
+    return brokenLinkRedirects();
+  },
   images: {
     unoptimized: true,
   },

@@ -3,6 +3,7 @@ import { readdirSync, existsSync } from 'fs';
 import { join } from 'path';
 import type { Metadata } from 'next';
 import { renderPage } from '@/lib/render-page';
+import { metaForPath, JsonLd } from '@/lib/seo-meta';
 
 // Per-city meta descriptions. Only cities with custom copy are listed —
 // anything not here falls back to the site-wide default from (webflow)/layout.tsx.
@@ -36,12 +37,17 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const { citySlug } = await params;
   const description = CITY_META[citySlug];
-  return description ? { description } : {};
+  return metaForPath(`/${citySlug}`, description ? { description } : {});
 }
 
 export default async function CityPage({ params }: { params: Promise<{ citySlug: string }> }) {
   const { citySlug } = await params;
   const pagesDir = join(process.cwd(), 'public/pages');
   if (!existsSync(join(pagesDir, `${citySlug}.html`))) notFound();
-  return renderPage(citySlug);
+  return (
+    <>
+      <JsonLd path={`/${citySlug}`} />
+      {renderPage(citySlug)}
+    </>
+  );
 }

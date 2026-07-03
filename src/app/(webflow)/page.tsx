@@ -1,8 +1,12 @@
 import { renderPage } from '@/lib/render-page';
+import { metaForPath, JsonLd } from '@/lib/seo-meta';
+
+export const metadata = metaForPath('/');
 
 export default function HomePage() {
   return (
     <>
+      <JsonLd path="/" />
       {/* Homepage-specific Webflow main bundle (plus 2 extra chunks it needs).
           Layout.tsx preloads jQuery + common chunks; this preloads the rest so
           the whole Webflow script chain is fetched in parallel with HTML parse

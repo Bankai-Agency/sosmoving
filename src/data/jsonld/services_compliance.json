@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Compliance & Operational Standards",
+  "description": "SOS Moving compliance standards — regulatory adherence, structured service protocols, audit-ready processes, and CPUC-licensed operations across California.",
+  "url": "/services/compliance",
+  "inLanguage": "en",
+  "about": {
+    "@type": "Organization",
+    "@id": "https://schema.org/#Organization",
+    "name": "SOS Moving & Storage",
+    "url": "https://www.sosmovingla.net",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/661fb80f63df1e16fb9dced9_Sos-logo-min.avif"
+    },
+    "telephone": "+19094430004",
+    "email": "info@sosmovingla.net",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "5530 Jillson Street",
+      "addressLocality": "Los Angeles",
+      "addressRegion": "CA",
+      "postalCode": "90040",
+      "addressCountry": "US"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.85",
+      "bestRating": "5",
+      "reviewCount": "2400"
+    },
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "USDOT",
+        "value": "3398018"
+      },
+      {
+        "@type": "PropertyValue",
+        "propertyID": "MC",
+        "value": "1153871"
+      },
+      {
+        "@type": "PropertyValue",
+        "propertyID": "CAL-T",
+        "value": "0192140"
+      }
+    ],
+    "sameAs": [
+      "https://www.yelp.com/biz/sos-moving-los-angeles-4",
+      "https://www.google.com/maps/place/SOS+Moving/@34.001102,-118.160027,17z/data=!4m8!3m7!1s0x80c2c73054a25063:0xd9931e90628a9b15!8m2!3d34.001102!4d-118.160027!9m1!1b1!16s%2Fg%2F11j8_ff8nd"
+    ]
+  }
+}

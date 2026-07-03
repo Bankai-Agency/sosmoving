@@ -1,7 +1,18 @@
 import { notFound } from 'next/navigation';
 import { readdirSync, existsSync } from 'fs';
 import { join } from 'path';
+import type { Metadata } from 'next';
 import { renderPage } from '@/lib/render-page';
+import { metaForPath } from '@/lib/seo-meta';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  return metaForPath(`/careers/${slug}`);
+}
 
 export async function generateStaticParams() {
   const dir = join(process.cwd(), 'public/pages');

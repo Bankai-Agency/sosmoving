@@ -20,6 +20,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/about-us/reviews`, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${baseUrl}/about-us/gallery`, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${baseUrl}/free-estimate`, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/about-us/apartment-partnership`, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${baseUrl}/about-us/careers`, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${baseUrl}/about-us/company-policy`, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${baseUrl}/about-us/influencer-program`, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${baseUrl}/about-us/meet-our-team`, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${baseUrl}/about-us/referral`, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${baseUrl}/about-us/video-reviews`, changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${baseUrl}/book-online`, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/confirmation-page-refer-friends-get-cash`, changeFrequency: 'yearly', priority: 0.3 },
+    { url: `${baseUrl}/sitemap`, changeFrequency: 'monthly', priority: 0.3 },
   ];
 
   // City pages
