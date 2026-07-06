@@ -29,6 +29,24 @@ const nextConfig: NextConfig = {
   async redirects() {
     return brokenLinkRedirects();
   },
+  async headers() {
+    return [
+      {
+        // Content-hashed Webflow bundles — safe to cache forever. Default
+        // Vercel policy for public/ is max-age=0 + revalidate on every load.
+        source: "/webflow.:hash*.js",
+        headers: [
+          { key: "Cache-Control", value: "public, max-age=31536000, immutable" },
+        ],
+      },
+      {
+        source: "/fonts/:file*",
+        headers: [
+          { key: "Cache-Control", value: "public, max-age=2592000" },
+        ],
+      },
+    ];
+  },
   images: {
     unoptimized: true,
   },
