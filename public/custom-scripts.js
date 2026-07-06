@@ -298,12 +298,12 @@ if (document.getElementById("exit-popup")) {
 // ========================================
 
 // ── Lead dual-write / takeover ──
-// Webflow forms still ajax-post to webflow.com (feeds the e-mail
-// notifications + CRM integration configured inside Webflow). In 'dual'
-// mode every submission is ALSO beaconed to our /api/lead so nothing is
-// lost when the Webflow subscription is cancelled. Switch LEAD_MODE to
-// 'takeover' to cut Webflow out: we preventDefault, post to /api/lead and
-// redirect to the form's data-redirect ourselves.
+// Primary lead path: script.js (jsDelivr) intercepts .request-api forms
+// and POSTs them to MoveBoard CRM (api.sosmovingla.net). In 'dual' mode
+// every submission is ALSO beaconed to our /api/lead as a redundant
+// backup trail. 'takeover' mode BYPASSES the CRM (we preventDefault, post
+// to /api/lead, redirect ourselves) — emergency use only, e.g. if the
+// MoveBoard API is down.
 (function() {
   var LEAD_MODE = 'dual'; // 'dual' | 'takeover'
   var ENDPOINT = '/api/lead';

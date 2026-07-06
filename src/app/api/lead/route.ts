@@ -4,14 +4,14 @@ export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
 /**
- * Own lead intake — the safety net for the Webflow cutover.
+ * Own lead intake — a redundant backup of the primary CRM path.
  *
- * The cloned pages still submit through webflow.js to webflow.com's form
- * API (which feeds the existing email notifications + CRM integration
- * configured inside Webflow). custom-scripts.js additionally beacons every
- * submission here ("dual write"), so the moment the Webflow subscription
- * is cancelled no lead is lost. Flip LEAD_MODE in custom-scripts.js to
- * 'takeover' to cut Webflow out entirely.
+ * Primary path: script.js (jsDelivr, gh/Evgeny2723/sos-moving) intercepts
+ * .request-api forms and POSTs them to MoveBoard CRM at
+ * api.sosmovingla.net/server/parser/get_lead_parsing — independent of
+ * Webflow. custom-scripts.js additionally beacons every submission here
+ * ("dual write") so an outage of the MoveBoard API leaves an e-mail/webhook
+ * trail. LEAD_MODE='takeover' would BYPASS the CRM — only for emergencies.
  *
  * Env:
  *   RESEND_API_KEY   — Resend key; without it e-mail step is skipped

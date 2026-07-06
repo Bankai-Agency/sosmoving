@@ -93,7 +93,11 @@ export default function ScriptLoader() {
         ]);
 
         // ── Step 7: Custom main script from jsdelivr ──
-        await loadScript('https://cdn.jsdelivr.net/gh/Evgeny2723/sos-moving@0ad49c3/script.js');
+        // Handles .request-api form submission → MoveBoard CRM
+        // (POST api.sosmovingla.net/server/parser/get_lead_parsing).
+        // @adaf8ac matches the live old site: adds phone validation and
+        // the privacy-policy checkbox check (is-policy).
+        await loadScript('https://cdn.jsdelivr.net/gh/Evgeny2723/sos-moving@adaf8ac/script.js');
 
         // ── Step 8: Custom scripts (exit popup, touchbar, form validation) ──
         await loadScript('/custom-scripts.js');
