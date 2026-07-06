@@ -57,9 +57,20 @@ export default function ScriptLoader() {
 
         // ── Step 3: Page-specific Webflow main bundle ──
         const bundle = bundleMap[path] || 'webflow.8ef64be1.fc9d6e2e8b58a7f8.js';
-        // Homepage needs an extra chunk
-        if (bundle === 'webflow.987c289e.df925483dbcdb1a9.js') {
-          await loadScript('/webflow.schunk.f919141e3448519b.js');
+        // Extra chunks each main bundle needs BEFORE it runs — taken from
+        // the live site's <script> lists per page type. Missing chunks fail
+        // silently but break bundle modules (e.g. navbar hover dropdowns
+        // were dead on /free-estimate while 9dfb9666 wasn't loaded).
+        const extraChunks: Record<string, string[]> = {
+          'webflow.987c289e.df925483dbcdb1a9.js': ['/webflow.schunk.f919141e3448519b.js'],
+          'webflow.4c1b5164.e6782c011d2684fd.js': ['/webflow.schunk.9dfb96661114d3db.js'],
+          'webflow.cf90aa9a.d07593ecc8d89ceb.js': [
+            '/webflow.schunk.9dfb96661114d3db.js',
+            '/webflow.schunk.f919141e3448519b.js',
+          ],
+        };
+        for (const chunk of extraChunks[bundle] ?? []) {
+          await loadScript(chunk);
         }
         await loadScript('/' + bundle);
 
