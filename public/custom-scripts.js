@@ -365,3 +365,45 @@ if (document.getElementById("exit-popup")) {
     track(payload);
   }, true);
 })();
+
+// ========================================
+
+// ── Video Reviews player (/about-us/video-reviews) ──
+// Ported from the live page's inline w-script embed (the page scraper
+// strips <script> tags, which left the <video> grid without play logic).
+// custom-scripts.js loads after DOMContentLoaded, so run immediately.
+(function() {
+  if (!document.querySelector('.reviews-video-wrapper')) return;
+
+  var isDragging = false;
+  document.body.addEventListener('mousedown', function() { isDragging = false; });
+  document.body.addEventListener('mousemove', function() { isDragging = true; });
+
+  document.body.addEventListener('click', function(event) {
+    if (isDragging) return;
+    var container = event.target.closest('.reviews-video-wrapper');
+    if (container) handleVideoPlay(container);
+  });
+
+  function handleVideoPlay(clickedContainer) {
+    var videoToPlay = clickedContainer.querySelector('video.reviews-video');
+    var playButton = clickedContainer.querySelector('.review-video-play-btn');
+    if (!videoToPlay || !playButton) return;
+
+    if (videoToPlay.paused) {
+      document.querySelectorAll('video.reviews-video').forEach(function(otherVideo) {
+        if (otherVideo !== videoToPlay && !otherVideo.paused) {
+          otherVideo.pause();
+          var otherContainer = otherVideo.closest('.reviews-video-wrapper');
+          var otherPlayButton = otherContainer && otherContainer.querySelector('.review-video-play-btn');
+          if (otherPlayButton) otherPlayButton.classList.remove('is-hidden');
+        }
+      });
+      videoToPlay.play();
+      playButton.classList.add('is-hidden');
+    } else {
+      videoToPlay.pause();
+      playButton.classList.remove('is-hidden');
+    }
+  }
+})();
