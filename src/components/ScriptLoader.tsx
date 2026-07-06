@@ -50,16 +50,16 @@ export default function ScriptLoader() {
         await loadScript('https://code.jquery.com/jquery-3.5.1.min.js');
 
         // ── Step 2: Webflow chunk files (must load before main bundle) ──
-        // Common chunks used by all pages
+        // Common chunks used by all pages (b2a9fed1 replaced 81d31091
+        // after the live-site services redesign; hashes match live).
         await loadScript('/webflow.schunk.f2efb3c5440a81cf.js');
-        await loadScript('/webflow.schunk.81d31091c363b462.js');
+        await loadScript('/webflow.schunk.b2a9fed12100bec1.js');
 
         // ── Step 3: Page-specific Webflow main bundle ──
         const bundle = bundleMap[path] || 'webflow.8ef64be1.fc9d6e2e8b58a7f8.js';
-        // Homepage + gallery need extra chunks
+        // Homepage needs an extra chunk
         if (bundle === 'webflow.987c289e.df925483dbcdb1a9.js') {
           await loadScript('/webflow.schunk.f919141e3448519b.js');
-          await loadScript('/webflow.schunk.9dfb96661114d3db.js');
         }
         await loadScript('/' + bundle);
 

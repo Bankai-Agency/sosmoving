@@ -57,7 +57,7 @@ export default function RootLayout({
             to kick in after React hydration. Cuts ~500-800ms off time-to-jQuery
             on slow mobile networks. Must match exact hrefs in ScriptLoader.tsx. */}
         <link rel="preload" as="script" href="/webflow.schunk.f2efb3c5440a81cf.js" />
-        <link rel="preload" as="script" href="/webflow.schunk.81d31091c363b462.js" />
+        <link rel="preload" as="script" href="/webflow.schunk.b2a9fed12100bec1.js" />
 
         {/* External scripts: preconnect opens TCP+TLS in advance, preload queues
             the fetch. NOTE: no crossOrigin here — ScriptLoader creates <script>

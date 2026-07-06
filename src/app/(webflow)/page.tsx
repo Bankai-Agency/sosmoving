@@ -13,7 +13,6 @@ export default function HomePage() {
           instead of serially after hydration. See wf-bundle-map.json. */}
       <link rel="preload" as="script" href="/webflow.987c289e.df925483dbcdb1a9.js" />
       <link rel="preload" as="script" href="/webflow.schunk.f919141e3448519b.js" />
-      <link rel="preload" as="script" href="/webflow.schunk.9dfb96661114d3db.js" />
       {renderPage('index')}
     </>
   );
