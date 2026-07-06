@@ -6,16 +6,16 @@
   "url": "https://sosmovingla.net",
   "logo": {
     "@type": "ImageObject",
-    "url": "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/661fb80f63df1e16fb9dced9_Sos-logo-min.avif"
+    "url": "https://www.sosmovingla.net/images/general/661fb80f63df1e16fb9dced9_Sos-logo-min.avif"
   },
   "image": [
     {
       "@type": "ImageObject",
-      "url": "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/645ab1d97922876aaf5bef8b_company-img-1.webp"
+      "url": "https://www.sosmovingla.net/images/general/645ab1d97922876aaf5bef8b_company-img-1.webp"
     },
     {
       "@type": "ImageObject",
-      "url": "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/645ab1d9792287bc985bef88_company-img-4.webp"
+      "url": "https://www.sosmovingla.net/images/general/645ab1d9792287bc985bef88_company-img-4.webp"
     }
   ],
   "telephone": "+19094430004",

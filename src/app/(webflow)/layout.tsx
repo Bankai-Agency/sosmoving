@@ -27,15 +27,11 @@ export const metadata: Metadata = {
   verification: {
     google: "6mIWXOA5HThwKZik5GESXAvERIKj8EXjIuaYNQXKna0",
   },
-  // Same icon assets the old Webflow site served (src/app/favicon.ico
-  // additionally covers the bare /favicon.ico request).
+  // Same icon assets the old Webflow site served, self-hosted
+  // (src/app/favicon.ico additionally covers the bare /favicon.ico request).
   icons: {
-    icon: {
-      url: "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/645ab1d97922870d825befad_favicon.svg",
-      type: "image/svg+xml",
-    },
-    apple:
-      "https://cdn.prod.website-files.com/645ab1d97922876b775bef4f/645ab1d9792287d5fd5befbd_apple-touch.svg",
+    icon: { url: "/favicon.svg", type: "image/svg+xml" },
+    apple: "/apple-touch-icon.svg",
   },
 };
 
