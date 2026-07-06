@@ -298,7 +298,7 @@ if (document.getElementById("exit-popup")) {
 // ========================================
 
 // ── Lead dual-write / takeover ──
-// Primary lead path: script.js (jsDelivr) intercepts .request-api forms
+// Primary lead path: /sos-main.js (self-hosted) intercepts .request-api forms
 // and POSTs them to MoveBoard CRM (api.sosmovingla.net). In 'dual' mode
 // every submission is ALSO beaconed to our /api/lead as a redundant
 // backup trail. 'takeover' mode BYPASSES the CRM (we preventDefault, post

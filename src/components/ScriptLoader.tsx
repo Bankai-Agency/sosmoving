@@ -80,7 +80,7 @@ export default function ScriptLoader() {
         loadStyle('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css');
         loadStyle('https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.css');
         loadStyle('https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css');
-        loadStyle('https://cdn.jsdelivr.net/gh/Evgeny2723/sos-moving@552da70/style.css');
+        loadStyle('/sos-main.css');
 
         // ── Step 6: jQuery plugins (parallel, jQuery already loaded) ──
         await Promise.all([
@@ -92,12 +92,13 @@ export default function ScriptLoader() {
           loadScript('https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js'),
         ]);
 
-        // ── Step 7: Custom main script from jsdelivr ──
+        // ── Step 7: Main custom script (self-hosted) ──
         // Handles .request-api form submission → MoveBoard CRM
-        // (POST api.sosmovingla.net/server/parser/get_lead_parsing).
-        // @adaf8ac matches the live old site: adds phone validation and
-        // the privacy-policy checkbox check (is-policy).
-        await loadScript('https://cdn.jsdelivr.net/gh/Evgeny2723/sos-moving@adaf8ac/script.js');
+        // (POST api.sosmovingla.net/server/parser/get_lead_parsing), phone
+        // validation, privacy-policy checkbox check. Vendored from the
+        // public gh/Evgeny2723/sos-moving repo (@adaf8ac) so the site no
+        // longer depends on it.
+        await loadScript('/sos-main.js');
 
         // ── Step 8: Custom scripts (exit popup, touchbar, form validation) ──
         await loadScript('/custom-scripts.js');

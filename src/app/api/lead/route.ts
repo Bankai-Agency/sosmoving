@@ -6,7 +6,7 @@ export const dynamic = 'force-dynamic';
 /**
  * Own lead intake — a redundant backup of the primary CRM path.
  *
- * Primary path: script.js (jsDelivr, gh/Evgeny2723/sos-moving) intercepts
+ * Primary path: /sos-main.js (self-hosted) intercepts
  * .request-api forms and POSTs them to MoveBoard CRM at
  * api.sosmovingla.net/server/parser/get_lead_parsing — independent of
  * Webflow. custom-scripts.js additionally beacons every submission here
