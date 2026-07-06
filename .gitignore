@@ -16,3 +16,4 @@ SESSION-LOG.md
 
 # Local content exports (Webflow CMS dumps) — backup only, not for the repo
 _exports/
+.vercel

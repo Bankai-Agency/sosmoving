@@ -294,3 +294,74 @@ if (document.getElementById("exit-popup")) {
     window.addEventListener('load', schedule);
   }
 })();
+
+// ========================================
+
+// ── Lead dual-write / takeover ──
+// Webflow forms still ajax-post to webflow.com (feeds the e-mail
+// notifications + CRM integration configured inside Webflow). In 'dual'
+// mode every submission is ALSO beaconed to our /api/lead so nothing is
+// lost when the Webflow subscription is cancelled. Switch LEAD_MODE to
+// 'takeover' to cut Webflow out: we preventDefault, post to /api/lead and
+// redirect to the form's data-redirect ourselves.
+(function() {
+  var LEAD_MODE = 'dual'; // 'dual' | 'takeover'
+  var ENDPOINT = '/api/lead';
+
+  function serialize(form) {
+    var fields = {};
+    var fd = new FormData(form);
+    fd.forEach(function(value, key) {
+      if (typeof value === 'string' && value.trim() !== '') fields[key] = value;
+    });
+    return {
+      formName: form.getAttribute('data-name') || form.getAttribute('name') || form.id || 'form',
+      page: window.location.pathname,
+      fields: fields
+    };
+  }
+
+  function track(payload) {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: 'lead_submit', formName: payload.formName, page: payload.page });
+  }
+
+  // Capture phase — runs before Webflow's bubble-phase jQuery handlers.
+  document.addEventListener('submit', function(event) {
+    var form = event.target;
+    if (!(form instanceof HTMLFormElement)) return;
+    // Only Webflow lead forms (both live inside .w-form wrappers)
+    if (!form.closest('.w-form')) return;
+    if (!form.checkValidity()) return; // let native/Webflow validation run
+
+    var payload = serialize(form);
+    if (Object.keys(payload.fields).length === 0) return;
+
+    if (LEAD_MODE === 'takeover') {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      fetch(ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+        keepalive: true
+      }).catch(function() {});
+      track(payload);
+      window.location.href = form.getAttribute('data-redirect') || '/confirmation-page';
+      return;
+    }
+
+    // dual: don't interfere with Webflow submission; sendBeacon survives
+    // the redirect to /confirmation-page.
+    var blob = new Blob([JSON.stringify(payload)], { type: 'application/json' });
+    if (!(navigator.sendBeacon && navigator.sendBeacon(ENDPOINT, blob))) {
+      fetch(ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+        keepalive: true
+      }).catch(function() {});
+    }
+    track(payload);
+  }, true);
+})();
