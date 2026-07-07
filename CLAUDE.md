@@ -7,7 +7,7 @@
 ### Единственный git-репозиторий проекта
 Мы работаем ТОЛЬКО с:
 ```
-https://github.com/Bankai-Agency/sosmovingDIMA
+https://github.com/Bankai-Agency/sosmoving
 branch: main
 ```
 
@@ -19,7 +19,7 @@ https://github.com/Bankai-Agency/sos-moving
 
 ## Prod URL
 - **Vercel**: https://sosmoving-2.vercel.app/
-- **GitHub**: https://github.com/Bankai-Agency/sosmovingDIMA
+- **GitHub**: https://github.com/Bankai-Agency/sosmoving
 
 ## Принципы работы
 1. Всегда читать `PROJECT-CONTEXT.md` до старта задачи

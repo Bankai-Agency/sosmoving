@@ -6,7 +6,7 @@
 
 ## TL;DR — state on `main` right now
 
-Cloning https://www.sosmovingla.net/ (original Webflow site) into Next.js. Live at https://sosmoving-2.vercel.app/ (Vercel auto-deploys `main`). Repo: https://github.com/Bankai-Agency/sosmovingDIMA.
+Cloning https://www.sosmovingla.net/ (original Webflow site) into Next.js. Live at https://sosmoving-2.vercel.app/ (Vercel auto-deploys `main`). Repo: https://github.com/Bankai-Agency/sosmoving.
 
 **Stacks (4 route groups):**
 
@@ -133,7 +133,7 @@ Contains on top of `main`:
 3. **I work on `main` when possible.** When forced to `feat/admin-cms` (e.g. Dmitriy has untracked files that block `git checkout main`), commit there locally and cherry-pick the hash to `main` when it's safe.
 4. **`git stash push -u` with a `claude-` prefix** before branch switches to protect Dmitriy's uncommitted work. Always stash pop after returning.
 5. **Never `git add -A`, never `--no-verify`, never `--force`, never amend.** Per `CLAUDE.md`.
-6. **`sos-moving` repo is OFF LIMITS** — that's the external reference. Ours is `sosmovingDIMA`.
+6. **`sos-moving` repo is OFF LIMITS** — that's the external reference. Ours is `sosmoving`.
 7. **Parity-reviewer before "done":** any change to `(webflow)/`, `public/pages/`, `webflow.css`, or `ScriptLoader.tsx` must go through the agent. It catches bugs a static read wouldn't.
 8. **`public/fonts/` Vercel cache is bad** — if self-hosting fonts manually, `cache-control: max-age=0`. Use `next/font/google` which handles this + auto size-adjust.
 

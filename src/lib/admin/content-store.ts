@@ -18,7 +18,7 @@ import { Octokit } from "@octokit/rest";
  */
 
 const BLOG_DIR = "src/data/blog";
-const REPO = process.env.GITHUB_REPO ?? ""; // e.g. "Bankai-Agency/sosmovingDIMA"
+const REPO = process.env.GITHUB_REPO ?? ""; // e.g. "Bankai-Agency/sosmoving"
 const BRANCH = process.env.GITHUB_BRANCH ?? "main";
 const TOKEN = process.env.GITHUB_TOKEN ?? "";
 
