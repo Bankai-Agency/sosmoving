@@ -88,3 +88,14 @@ form { display: block !important; }
   0% { transform: translateY(-33.333%); }
   100% { transform: translateY(0); }
 }
+
+/* Error highlight for the policy-consent checkbox — set by
+   custom-scripts.js when trying to advance step 1 unchecked.
+   sos-main.css only styles .is-error for select2 selects. */
+.w-checkbox.is-error .w-form-label {
+  color: #e5484d;
+}
+.w-checkbox.is-error .w-checkbox-input {
+  outline: 2px solid #e5484d;
+  outline-offset: 2px;
+}

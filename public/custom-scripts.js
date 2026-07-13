@@ -407,3 +407,36 @@ if (document.getElementById("exit-popup")) {
     }
   }
 })();
+
+// ========================================
+
+// ── Multistep form: gate step 1 on the policy checkbox ──
+// The step-1 "Next" control is an <a href="#">. sos-main.js validates the
+// .is-policy checkbox only on final submit — but by then step 1 (with the
+// checkbox) is hidden, its offset() is 0, and the "scroll to the error"
+// animation jumps to the top of the page instead. Block advancing to
+// step 2 until the checkbox is ticked and show the error next to it,
+// while it is still visible.
+(function() {
+  document.addEventListener('click', function(event) {
+    var next = event.target.closest('.form-step-1 a.is-form-button');
+    if (!next) return;
+    var form = next.closest('form');
+    if (!form) return;
+    var checkbox = form.querySelector('.form-step-1 input.is-policy');
+    if (!checkbox || checkbox.checked) return;
+
+    event.preventDefault();
+    event.stopImmediatePropagation();
+
+    var wrapper = checkbox.closest('label, .w-checkbox') || checkbox;
+    wrapper.classList.add('is-error');
+    if (wrapper.scrollIntoView) {
+      wrapper.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+    checkbox.addEventListener('change', function onFix() {
+      wrapper.classList.remove('is-error');
+      checkbox.removeEventListener('change', onFix);
+    });
+  }, true);
+})();

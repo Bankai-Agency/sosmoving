@@ -103,6 +103,14 @@ export default function ScriptLoader() {
           loadScript('https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js'),
         ]);
 
+        // ── Step 6.5: Google Maps Places — the zip/address autocomplete in
+        // the quote forms (sos-main.js select2 adapter calls
+        // google.maps.places). Same key the old Webflow site shipped in its
+        // <head>; without this the dropdown hangs on "Searching…".
+        await loadScript(
+          'https://maps.googleapis.com/maps/api/js?key=AIzaSyBpG6g21XCE6Kd9cDh6Fb433XaoQVGZP_s&libraries=places',
+        );
+
         // ── Step 7: Main custom script (self-hosted) ──
         // Handles .request-api form submission → MoveBoard CRM
         // (POST api.sosmovingla.net/server/parser/get_lead_parsing), phone
