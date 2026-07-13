@@ -1,20 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import ScriptLoader from "@/components/ScriptLoader";
 import { SharedHtmlBlock } from "@/components/shared/SharedHtmlBlock";
 
-// Inter Variable: self-hosted by Next at build time (no fonts.googleapis.com
-// request, no render-blocking external CSS). Variable font covers weights
-// 100-900 from a single WOFF2 (~50KB). Next auto-generates a size-adjust
-// fallback, so CLS stays near 0 during swap. Exposed as --font-inter and
-// force-applied in globals.css to override Lato in webflow.css.
-const inter = Inter({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-inter",
-});
+// Typography comes from webflow.css: the live-site redesign moved the
+// whole shared stylesheet to Manrope (@font-face → /fonts/*.woff2,
+// self-hosted). The earlier Inter force-override ("redesign step 1") was
+// removed for cutover parity — the clone must render exactly like
+// www.sosmovingla.net.
 
 export const metadata: Metadata = {
   title: {
@@ -48,7 +42,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} w-mod-js`}
+      className="w-mod-js"
       data-wf-site="645ab1d97922876b775bef4f"
     >
       <head>
@@ -81,9 +75,22 @@ export default function RootLayout({
 
         <link href="/webflow.css" rel="stylesheet" type="text/css" />
 
-        {/* Redesign step 1: Lato replaced with Inter Variable via
-            next/font/google (see `inter` instance declared above). Next handles
-            preload + self-host automatically, no manual <link> tags needed. */}
+        {/* Manrope (self-hosted, /fonts/) — preload the two weights used
+            above the fold so text renders without a swap flash. */}
+        <link
+          rel="preload"
+          as="font"
+          type="font/woff2"
+          href="/fonts/Manrope-Regular.woff2"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          as="font"
+          type="font/woff2"
+          href="/fonts/Manrope-Bold.woff2"
+          crossOrigin="anonymous"
+        />
       </head>
       <body>
         <noscript>

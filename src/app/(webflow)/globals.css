@@ -1,17 +1,9 @@
 /* Webflow CSS is loaded via <link> in layout.tsx */
 
-/* ── Redesign step 1: Inter Variable replaces Lato ──
-   webflow.css (154KB minified) declares `font-family: Lato` across many rules.
-   Rather than editing that file, we override every text node with Inter via
-   the CSS variable set by next/font/google in layout.tsx (inter.variable).
-   `!important` is required because webflow.css rules are class-specific and
-   would otherwise win the cascade. Next auto-generates a size-adjust fallback,
-   so CLS stays near 0 during font swap. Parity with sosmovingla.net is
-   intentionally broken here — this is step 1 of the redesign. */
-body,
-body * {
-  font-family: var(--font-inter), system-ui, -apple-system, "Segoe UI", sans-serif !important;
-}
+/* Typography: webflow.css sets Manrope everywhere (live-site parity);
+   the font files are self-hosted under /fonts/. The former Inter
+   force-override ("redesign step 1") was removed before the domain
+   cutover — the clone must render exactly like www.sosmovingla.net. */
 
 /* Inline styles from original site */
 html { font-size: 20px; }
