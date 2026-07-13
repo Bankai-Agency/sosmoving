@@ -99,3 +99,17 @@ form { display: block !important; }
   outline: 2px solid #e5484d;
   outline-offset: 2px;
 }
+
+/* A long selected address (Places autocomplete) must not blow up the
+   form grid: allow the column to shrink and ellipsize the rendered text. */
+.field-wrapper {
+  min-width: 0;
+}
+.select2-container {
+  max-width: 100%;
+}
+.select2-container .select2-selection__rendered {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
