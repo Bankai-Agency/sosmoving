@@ -80,6 +80,9 @@ export async function savePost(
       draft: draft || Boolean(publishAt),
       publishAt,
       lastUpdated: new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }),
+      // The admin's markdown is now the source of truth for this article —
+      // the public route stops serving the scraped html snapshot.
+      renderFrom: "md",
     };
 
     const body = String(formData.get("content") ?? existing.content);

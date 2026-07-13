@@ -56,6 +56,9 @@ export type PostFrontmatter = {
   author?: { name?: string; role?: string; photo?: string };
   draft?: boolean;
   publishAt?: string; // ISO datetime — if set, cron will flip draft=false at this time
+  // "md" → the public /blog/[slug] renders from markdown instead of the
+  // scraped html snapshot. Stamped by savePost on every admin save.
+  renderFrom?: 'md';
 };
 
 export type Post = {

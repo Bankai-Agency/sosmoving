@@ -56,6 +56,9 @@ export interface BlogPost {
   category: string;
   readTime: string;
   content: string;
+  // "md" → public /blog/[slug] renders the markdown instead of the scraped
+  // html snapshot (stamped by the admin's savePost)
+  renderFrom?: 'md';
 }
 
 export interface BlogPostCard {

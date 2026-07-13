@@ -4,7 +4,8 @@ import { join } from 'path';
 import type { Metadata } from 'next';
 import { renderPage } from '@/lib/render-page';
 import { metaForPath } from '@/lib/seo-meta';
-import { getBlogPost } from '@/lib/data/blog';
+import { getBlogPost, getAllBlogSlugs } from '@/lib/data/blog';
+import { MdArticle } from '@/components/blog/MdArticle';
 
 export async function generateMetadata({
   params,
@@ -34,14 +35,23 @@ export async function generateMetadata({
 
 export async function generateStaticParams() {
   const dir = join(process.cwd(), 'public/pages');
-  return readdirSync(dir)
+  const htmlSlugs = readdirSync(dir)
     .filter(f => f.startsWith('blog__') && f.endsWith('.html'))
-    .map(f => ({ slug: f.replace('blog__', '').replace('.html', '') }));
+    .map(f => f.replace('blog__', '').replace('.html', ''));
+  // md-authored posts (new articles from the admin) may have no scraped html
+  const slugs = new Set([...htmlSlugs, ...getAllBlogSlugs()]);
+  return [...slugs].map(slug => ({ slug }));
 }
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const pageSlug = `blog__${slug}`;
-  if (!existsSync(join(process.cwd(), 'public/pages', `${pageSlug}.html`))) notFound();
-  return renderPage(pageSlug);
+  const hasHtml = existsSync(join(process.cwd(), 'public/pages', `${pageSlug}.html`));
+  const post = getBlogPost(slug);
+
+  // Scraped html is pixel-perfect — it wins until the article is edited in
+  // the admin (savePost stamps renderFrom: "md", making markdown the truth).
+  if (hasHtml && post?.renderFrom !== 'md') return renderPage(pageSlug);
+  if (post) return <MdArticle fm={post} content={post.content} />;
+  notFound();
 }
