@@ -558,3 +558,171 @@ if (document.getElementById("exit-popup")) {
   if (document.readyState === 'complete') start();
   else window.addEventListener('load', start);
 })();
+
+// ========================================
+
+// ── Gallery lightbox (/about-us/gallery) ──
+// The Webflow lightbox never fires here: its per-link JSON configs
+// (<script class="w-json">) were stripped when the pages were scraped,
+// leaving the .w-lightbox anchors as dead href="#" links. (On the old
+// site the photo configs pointed at leftover TEMPLATE stock images
+// anyway — rebuilding beats restoring.) Photos open the actual displayed
+// images, video cards open their YouTube embeds; both groups get
+// prev/next arrows, a counter, keyboard (Esc/←/→) and swipe.
+(function () {
+  // The YouTube ids lived only in the stripped w-json. Keyed by slide
+  // title because slick clones the video slides — DOM index is unstable.
+  var VIDEO_IDS = {
+    'SOS Commercial': 'K8ipQ81G8lg',
+    'SOS Moving TOP-10 Moving Company in Los Angeles': 'dQriI7gJR2Y',
+    'SOS Commercial with Vivi Castrillon': 'ghzS1cCBruY',
+    'SOS Commercial with Tawny Jordan': '5m4c8EoGzT8'
+  };
+
+  var overlay, stage, counterEl, captionEl, prevBtn, nextBtn, closeBtn;
+  var items = [], index = 0, lastFocus = null, touchX = null;
+
+  function build() {
+    if (overlay) return;
+    overlay = document.createElement('div');
+    overlay.className = 'sos-lightbox';
+    overlay.setAttribute('role', 'dialog');
+    overlay.setAttribute('aria-modal', 'true');
+    overlay.setAttribute('aria-label', 'Gallery lightbox');
+    overlay.innerHTML =
+      '<button type="button" class="sos-lightbox-close" aria-label="Close gallery">✕</button>' +
+      '<button type="button" class="sos-lightbox-arrow is-prev" aria-label="Previous item">‹</button>' +
+      '<div class="sos-lightbox-stage"></div>' +
+      '<button type="button" class="sos-lightbox-arrow is-next" aria-label="Next item">›</button>' +
+      '<div class="sos-lightbox-meta"><div class="sos-lightbox-caption"></div>' +
+      '<div class="sos-lightbox-counter"></div></div>';
+    document.body.appendChild(overlay);
+
+    stage = overlay.querySelector('.sos-lightbox-stage');
+    counterEl = overlay.querySelector('.sos-lightbox-counter');
+    captionEl = overlay.querySelector('.sos-lightbox-caption');
+    prevBtn = overlay.querySelector('.is-prev');
+    nextBtn = overlay.querySelector('.is-next');
+    closeBtn = overlay.querySelector('.sos-lightbox-close');
+
+    prevBtn.addEventListener('click', function () { show(index - 1); });
+    nextBtn.addEventListener('click', function () { show(index + 1); });
+    closeBtn.addEventListener('click', close);
+    overlay.addEventListener('click', function (e) {
+      // Backdrop click closes; clicks on the media/buttons don't.
+      if (e.target === overlay || e.target === stage) close();
+    });
+    overlay.addEventListener('touchstart', function (e) {
+      touchX = e.changedTouches[0].clientX;
+    }, { passive: true });
+    overlay.addEventListener('touchend', function (e) {
+      if (touchX === null) return;
+      var dx = e.changedTouches[0].clientX - touchX;
+      touchX = null;
+      if (Math.abs(dx) < 40) return;
+      show(index + (dx < 0 ? 1 : -1));
+    }, { passive: true });
+  }
+
+  function onKeydown(e) {
+    if (e.key === 'Escape') { close(); return; }
+    if (e.key === 'ArrowLeft') { show(index - 1); return; }
+    if (e.key === 'ArrowRight') { show(index + 1); return; }
+    if (e.key === 'Tab') {
+      // Keep focus inside the dialog: cycle through its buttons.
+      var focusables = [closeBtn, prevBtn, nextBtn].filter(function (b) {
+        return b.offsetParent !== null;
+      });
+      var i = focusables.indexOf(document.activeElement);
+      e.preventDefault();
+      var next = i + (e.shiftKey ? -1 : 1);
+      focusables[(next + focusables.length) % focusables.length].focus();
+    }
+  }
+
+  function show(i) {
+    index = (i + items.length) % items.length;
+    var item = items[index];
+    stage.innerHTML = '';
+    if (item.type === 'video') {
+      var frame = document.createElement('iframe');
+      frame.className = 'sos-lightbox-frame';
+      frame.src = 'https://www.youtube.com/embed/' + item.id + '?autoplay=1&rel=0';
+      frame.allow = 'autoplay; fullscreen; encrypted-media; picture-in-picture';
+      frame.setAttribute('allowfullscreen', '');
+      frame.title = item.title;
+      stage.appendChild(frame);
+    } else {
+      var img = document.createElement('img');
+      img.className = 'sos-lightbox-img';
+      img.src = item.src;
+      img.alt = item.alt || 'Gallery photo';
+      stage.appendChild(img);
+      // Warm up the neighbours so arrows feel instant.
+      [index + 1, index - 1].forEach(function (n) {
+        var near = items[(n + items.length) % items.length];
+        if (near.type !== 'video') new Image().src = near.src;
+      });
+    }
+    captionEl.textContent = item.title || '';
+    counterEl.textContent = (index + 1) + ' / ' + items.length;
+    var single = items.length < 2;
+    prevBtn.style.display = single ? 'none' : '';
+    nextBtn.style.display = single ? 'none' : '';
+  }
+
+  function open(list, start) {
+    build();
+    items = list;
+    lastFocus = document.activeElement;
+    document.body.classList.add('sos-lightbox-lock');
+    overlay.classList.add('is-open');
+    document.addEventListener('keydown', onKeydown);
+    show(start);
+    closeBtn.focus();
+  }
+
+  function close() {
+    overlay.classList.remove('is-open');
+    stage.innerHTML = ''; // drop the iframe → stops YouTube playback
+    document.body.classList.remove('sos-lightbox-lock');
+    document.removeEventListener('keydown', onKeydown);
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+
+  document.addEventListener('click', function (e) {
+    var photo = e.target.closest('a.gallery-photo-lightbox');
+    var video = photo ? null : e.target.closest('a.gallery-video-lightbox');
+    if (!photo && !video) return;
+    e.preventDefault();
+
+    if (photo) {
+      var anchors = Array.prototype.slice.call(
+        document.querySelectorAll('a.gallery-photo-lightbox')
+      );
+      var list = anchors.map(function (a) {
+        var img = a.querySelector('img');
+        return { type: 'image', src: img.currentSrc || img.src, alt: img.alt };
+      });
+      open(list, anchors.indexOf(photo));
+      return;
+    }
+
+    // Videos: dedupe by title — slick clones every slide for the loop.
+    var seen = {};
+    var list = [];
+    document.querySelectorAll('a.gallery-video-lightbox').forEach(function (a) {
+      var titleEl = a.querySelector('.gallery-video-title');
+      var title = titleEl ? titleEl.textContent.trim() : '';
+      if (!VIDEO_IDS[title] || seen[title]) return;
+      seen[title] = true;
+      list.push({ type: 'video', id: VIDEO_IDS[title], title: title });
+    });
+    var clickedEl = video.querySelector('.gallery-video-title');
+    var clicked = clickedEl ? clickedEl.textContent.trim() : '';
+    var start = 0;
+    list.forEach(function (item, i) { if (item.title === clicked) start = i; });
+    if (!list.length) return;
+    open(list, start);
+  });
+})();
