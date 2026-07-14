@@ -45,6 +45,14 @@ const nextConfig: NextConfig = {
           { key: "Cache-Control", value: "public, max-age=2592000" },
         ],
       },
+      {
+        // Pinned third-party library versions (vendored) — content never
+        // changes for a given filename.
+        source: "/vendor/:file*",
+        headers: [
+          { key: "Cache-Control", value: "public, max-age=2592000" },
+        ],
+      },
     ];
   },
   images: {

@@ -47,7 +47,10 @@ export default function ScriptLoader() {
         // ── Step 1: jQuery (everything depends on it) ──
         // Pinned to 3.5.1 to match original Webflow site — 3.7.1 breaks IX2
         // with "t is not a function" error in the animation engine.
-        await loadScript('https://code.jquery.com/jquery-3.5.1.min.js');
+        // All third-party libs live in /vendor (self-hosted): ad-blockers
+        // routinely block cdnjs/jsdelivr, and one blocked script used to
+        // kill this whole chain — no TOC, dead forms for that visitor.
+        await loadScript('/vendor/jquery-3.5.1.min.js');
 
         // ── Step 2: Webflow chunk files (must load before main bundle) ──
         // Common chunks used by all pages (b2a9fed1 replaced 81d31091
@@ -75,10 +78,10 @@ export default function ScriptLoader() {
         await loadScript('/' + bundle);
 
         // ── Step 4: GSAP + plugins ──
-        await loadScript('https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js');
+        await loadScript('/vendor/gsap.min.js');
         await Promise.all([
-          loadScript('https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js'),
-          loadScript('https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js'),
+          loadScript('/vendor/ScrollTrigger.min.js'),
+          loadScript('/vendor/ScrollToPlugin.min.js'),
         ]);
 
         // Register GSAP plugins
@@ -87,29 +90,31 @@ export default function ScriptLoader() {
         }
 
         // ── Step 5: Extra CSS ──
-        loadStyle('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css');
-        loadStyle('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css');
-        loadStyle('https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.css');
-        loadStyle('https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css');
+        loadStyle('/vendor/slick.css');
+        loadStyle('/vendor/slick-theme.css');
+        loadStyle('/vendor/datepicker.min.css');
+        loadStyle('/vendor/select2.min.css');
         loadStyle('/sos-main.css');
 
         // ── Step 6: jQuery plugins (parallel, jQuery already loaded) ──
         await Promise.all([
-          loadScript('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js'),
-          loadScript('https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js'),
-          loadScript('https://cdn.jsdelivr.net/npm/@finsweet/attributes-scrolldisable@1/scrolldisable.js'),
-          loadScript('https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.8/jquery.inputmask.min.js'),
-          loadScript('https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.js'),
-          loadScript('https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js'),
+          loadScript('/vendor/slick.min.js'),
+          loadScript('/vendor/masonry.pkgd.min.js'),
+          loadScript('/vendor/scrolldisable.js'),
+          loadScript('/vendor/jquery.inputmask.min.js'),
+          loadScript('/vendor/datepicker.min.js'),
+          loadScript('/vendor/select2.min.js'),
         ]);
 
         // ── Step 6.5: Google Maps Places — the zip/address autocomplete in
         // the quote forms (sos-main.js select2 adapter calls
         // google.maps.places). Same key the old Webflow site shipped in its
-        // <head>; without this the dropdown hangs on "Searching…".
+        // <head>. Cannot be self-hosted (Google TOS) — non-fatal on purpose:
+        // if a blocker kills it, only the address dropdown degrades, the
+        // rest of the chain (forms → MoveBoard) must keep working.
         await loadScript(
           'https://maps.googleapis.com/maps/api/js?key=AIzaSyBpG6g21XCE6Kd9cDh6Fb433XaoQVGZP_s&libraries=places',
-        );
+        ).catch((e) => console.warn('[ScriptLoader] Maps blocked/unavailable:', e));
 
         // ── Step 7: Main custom script (self-hosted) ──
         // Handles .request-api form submission → MoveBoard CRM

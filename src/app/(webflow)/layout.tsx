@@ -53,18 +53,9 @@ export default function RootLayout({
         <link rel="preload" as="script" href="/webflow.schunk.f2efb3c5440a81cf.js" />
         <link rel="preload" as="script" href="/webflow.schunk.b2a9fed12100bec1.js" />
 
-        {/* External scripts: preconnect opens TCP+TLS in advance, preload queues
-            the fetch. NOTE: no crossOrigin here — ScriptLoader creates <script>
-            tags without crossorigin attr, so credentials modes must match
-            (both "include" by default). If crossOrigin="anonymous" is added
-            here without matching the script tag, browser fetches jQuery twice. */}
-        <link rel="preconnect" href="https://code.jquery.com" />
-        <link rel="preload" as="script" href="https://code.jquery.com/jquery-3.5.1.min.js" />
-
-        {/* dns-prefetch is cheaper than preconnect — use for origins loaded
-            later in the critical chain (GSAP, jQuery plugins, Chatbase). */}
-        <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
-        <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+        {/* jQuery is self-hosted in /vendor (like every third-party lib —
+            ad-blockers routinely kill cdnjs/jsdelivr requests). */}
+        <link rel="preload" as="script" href="/vendor/jquery-3.5.1.min.js" />
 
         {/* Vidzflow video (hero background on / and /about-us/video-reviews).
             Iframe is server-swapped to a facade in page-sections.ts and lazy-
