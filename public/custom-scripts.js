@@ -334,6 +334,11 @@ if (document.getElementById("exit-popup")) {
     if (!form.closest('.w-form')) return;
     if (!form.checkValidity()) return; // let native/Webflow validation run
 
+    // Spam trap — the dedicated honeypot handler below fakes success;
+    // don't beacon or track these.
+    var trap = form.querySelector('[name="contact_preference"]');
+    if (trap && trap.value !== '') return;
+
     var payload = serialize(form);
     if (Object.keys(payload.fields).length === 0) return;
 
@@ -438,5 +443,55 @@ if (document.getElementById("exit-popup")) {
       wrapper.classList.remove('is-error');
       checkbox.removeEventListener('change', onFix);
     });
+  }, true);
+})();
+
+// ========================================
+
+// ── Honeypot ──
+// An invisible text field is injected into every Webflow form. Humans
+// never see it; dumb bots fill everything. A submission with the trap
+// filled is silently "accepted" (redirect to the usual thank-you page)
+// but never reaches MoveBoard or the e-mail backup — only a HONEYPOT
+// log entry in /api/lead so we can monitor for false positives.
+(function() {
+  var NAME = 'contact_preference';
+
+  document.querySelectorAll('.w-form form').forEach(function(form) {
+    if (form.querySelector('[name="' + NAME + '"]')) return;
+    var input = document.createElement('input');
+    input.type = 'text';
+    input.name = NAME;
+    input.tabIndex = -1;
+    input.autocomplete = 'off';
+    input.setAttribute('aria-hidden', 'true');
+    input.style.cssText =
+      'position:absolute!important;left:-9999px!important;top:auto!important;' +
+      'width:1px;height:1px;opacity:0;pointer-events:none;';
+    form.appendChild(input);
+  });
+
+  document.addEventListener('submit', function(event) {
+    var form = event.target;
+    if (!(form instanceof HTMLFormElement)) return;
+    var trap = form.querySelector('[name="' + NAME + '"]');
+    if (!trap || trap.value === '') return;
+
+    event.preventDefault();
+    event.stopImmediatePropagation(); // sos-main/webflow handlers never run
+
+    try {
+      var blob = new Blob(
+        [JSON.stringify({
+          formName: 'HONEYPOT',
+          page: window.location.pathname,
+          fields: { trap: String(trap.value).slice(0, 200) }
+        })],
+        { type: 'application/json' }
+      );
+      navigator.sendBeacon && navigator.sendBeacon('/api/lead', blob);
+    } catch (e) { /* ignore */ }
+
+    window.location.href = form.getAttribute('data-redirect') || '/confirmation-page';
   }, true);
 })();

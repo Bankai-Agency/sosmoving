@@ -23,6 +23,21 @@ export const dynamic = 'force-dynamic';
 const MAX_FIELDS = 40;
 const MAX_VALUE = 2000;
 
+// Best-effort per-IP rate limit (in-memory, per serverless instance —
+// enough to blunt bursts; not a substitute for a real WAF).
+const RATE_WINDOW_MS = 60_000;
+const RATE_MAX = 5;
+const hits = new Map<string, number[]>();
+
+function rateLimited(ip: string): boolean {
+  const now = Date.now();
+  const list = (hits.get(ip) ?? []).filter((t) => now - t < RATE_WINDOW_MS);
+  list.push(now);
+  hits.set(ip, list);
+  if (hits.size > 10_000) hits.clear(); // memory guard
+  return list.length > RATE_MAX;
+}
+
 function esc(v: string): string {
   return v
     .replace(/&/g, '&amp;')
@@ -32,6 +47,12 @@ function esc(v: string): string {
 }
 
 export async function POST(request: Request) {
+  const ip =
+    request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ?? 'unknown';
+  if (rateLimited(ip)) {
+    return NextResponse.json({ error: 'Too many requests' }, { status: 429 });
+  }
+
   let raw: unknown;
   try {
     raw = await request.json();
@@ -58,6 +79,13 @@ export async function POST(request: Request) {
   }
   if (Object.keys(fields).length === 0) {
     return NextResponse.json({ error: 'Empty lead' }, { status: 400 });
+  }
+
+  // Bot tripped the invisible trap (custom-scripts.js) — log for
+  // false-positive monitoring, skip e-mail/CRM entirely.
+  if (formName === 'HONEYPOT' || fields.contact_preference) {
+    console.warn('[api/lead] HONEYPOT hit:', ip, page, fields.trap ?? fields.contact_preference ?? '');
+    return NextResponse.json({ ok: true, skipped: 'honeypot' });
   }
 
   const results: Record<string, string> = {};
