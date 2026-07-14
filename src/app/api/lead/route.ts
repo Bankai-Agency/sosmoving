@@ -64,8 +64,15 @@ export async function POST(request: Request) {
   }
 
   const body = raw as Record<string, unknown>;
-  const formName =
-    typeof body.formName === 'string' ? body.formName.slice(0, 120) : 'Unknown form';
+  // Webflow auto-names forms from the page heading, markup included
+  // ("Form in <strong>…</strong> Page.") — strip tags for subject/body.
+  const formName = (
+    typeof body.formName === 'string' ? body.formName.slice(0, 200) : 'Unknown form'
+  )
+    .replace(/<[^>]*>/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 120) || 'Unknown form';
   const page = typeof body.page === 'string' ? body.page.slice(0, 300) : '';
   const fieldsRaw =
     typeof body.fields === 'object' && body.fields !== null
@@ -108,7 +115,13 @@ export async function POST(request: Request) {
   // 2. E-mail notification via Resend
   const apiKey = process.env.RESEND_API_KEY;
   if (apiKey) {
-    const to = process.env.LEAD_TO ?? 'info@sosmovingla.net';
+    // Comma-separated list supported. NOTE: extra recipients beyond the
+    // Resend account owner only work once the domain is verified in
+    // Resend and LEAD_FROM uses it.
+    const to = (process.env.LEAD_TO ?? 'info@sosmovingla.net')
+      .split(',')
+      .map((s) => s.trim())
+      .filter(Boolean);
     const from = process.env.LEAD_FROM ?? 'SOS Moving Leads <onboarding@resend.dev>';
     const rows = Object.entries(fields)
       .map(([k, v]) => `<tr><td style="padding:4px 12px 4px 0"><b>${esc(k)}</b></td><td>${esc(v)}</td></tr>`)
@@ -122,7 +135,7 @@ export async function POST(request: Request) {
         },
         body: JSON.stringify({
           from,
-          to: [to],
+          to,
           subject: `New lead: ${formName}${page ? ` (${page})` : ''}`,
           html: `<h2>${esc(formName)}</h2><p>Page: ${esc(page)}</p><table>${rows}</table>`,
         }),

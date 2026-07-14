@@ -315,7 +315,7 @@ if (document.getElementById("exit-popup")) {
       if (typeof value === 'string' && value.trim() !== '') fields[key] = value;
     });
     return {
-      formName: form.getAttribute('data-name') || form.getAttribute('name') || form.id || 'form',
+      formName: (form.getAttribute('data-name') || form.getAttribute('name') || form.id || 'form').replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim(),
       page: window.location.pathname,
       fields: fields
     };
