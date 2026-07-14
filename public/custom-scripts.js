@@ -235,27 +235,48 @@ if (document.getElementById("exit-popup")) {
   // Hide touchbar below viewport initially
   gsap.set(".touchbar", { y: '100%' });
 
-  // Animate on scroll past hero section
+  // Touchbar: как в оригинале — выезжает после прохождения hero
   var heroEl = document.querySelector(".hero-section");
   if (heroEl) {
-    var tl = gsap.timeline({
+    gsap.timeline({
       scrollTrigger: {
         trigger: ".hero-section",
         start: "bottom center",
         toggleActions: "play none none reverse"
       }
-    });
+    }).to(".touchbar", { y: '0%', duration: 0.5, ease: 'power2.out' });
+  }
 
-    tl.to(".touchbar", {
-      y: '0%',
-      duration: 0.5,
-      ease: 'power2.out'
-    })
-    .to(".navbar", {
-      y: '-100%',
-      duration: 0.5,
-      ease: 'power2.out'
-    }, "<");
+  // Navbar: прячется при скролле вниз, возвращается при ЛЮБОМ скролле
+  // вверх (на старом сайте возвращался только у самого верха страницы —
+  // осознанное UX-улучшение, не паритет).
+  var navbar = document.querySelector('.navbar');
+  if (navbar) {
+    var threshold = function () {
+      return heroEl
+        ? Math.max(heroEl.offsetTop + heroEl.offsetHeight - window.innerHeight / 2, 120)
+        : 200;
+    };
+    var lastY = window.scrollY;
+    var shown = true;
+    var setShown = function (v) {
+      if (shown === v) return;
+      shown = v;
+      gsap.to(navbar, { y: v ? '0%' : '-100%', duration: 0.4, ease: 'power2.out', overwrite: 'auto' });
+    };
+    var ticking = false;
+    window.addEventListener('scroll', function () {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () {
+        var y = window.scrollY;
+        if (y <= threshold()) setShown(true);
+        else if (y < lastY - 2) setShown(true);   // скролл вверх
+        else if (y > lastY + 2) setShown(false);  // скролл вниз
+        lastY = y;
+        ticking = false;
+      });
+    }, { passive: true });
   }
 })();
 
