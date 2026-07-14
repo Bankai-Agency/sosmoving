@@ -20,7 +20,13 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
 
 export default async function EditPostPage({ params }: { params: Promise<Params> }) {
   const { slug } = await params;
-  const post = await readPost(slug);
+  let post = await readPost(slug);
+  if (!post) {
+    // A just-created post can 404 for a moment (GitHub read-after-write
+    // lag right after createPost's redirect) — retry once before giving up.
+    await new Promise((r) => setTimeout(r, 1500));
+    post = await readPost(slug);
+  }
   if (!post) notFound();
 
   const fm = post.frontmatter;

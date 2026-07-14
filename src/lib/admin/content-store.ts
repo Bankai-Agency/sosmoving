@@ -167,7 +167,35 @@ function normalizeFrontmatter(fm: PostFrontmatter): Record<string, unknown> {
   if (fm.author) out.author = fm.author;
   if (fm.draft === true) out.draft = true;
   if (fm.publishAt) out.publishAt = fm.publishAt;
+  // Fields the whitelist must NOT strip: multi-category parity data and
+  // the md-render flag the public blog route depends on.
+  if (Array.isArray((fm as { categories?: string[] }).categories)) {
+    out.categories = (fm as { categories?: string[] }).categories;
+  }
+  if (fm.renderFrom) out.renderFrom = fm.renderFrom;
   return out;
+}
+
+/**
+ * Slugs as GitHub sees them right now (one API call). The serverless
+ * filesystem only has the files from the last build, so anything created
+ * or deleted through the admin since then is invisible to fs reads —
+ * merge with this list for a fresh view. Returns null when the GitHub
+ * backend is not configured (local dev) or listing fails.
+ */
+export async function listSlugsGitHub(): Promise<string[] | null> {
+  if (!viaGitHub()) return null;
+  try {
+    const { owner, repo } = splitRepo();
+    const res = await octokit().repos.getContent({ owner, repo, path: BLOG_DIR, ref: BRANCH });
+    if (!Array.isArray(res.data)) return null;
+    return res.data
+      .filter((e) => e.type === "file" && e.name.endsWith(".md"))
+      .map((e) => e.name.replace(/\.md$/, ""));
+  } catch (err) {
+    console.warn("[content-store] listSlugsGitHub failed:", (err as Error).message);
+    return null;
+  }
 }
 
 /** Is this post currently visible on the public site? */

@@ -13,10 +13,10 @@ import {
 export const metadata = { title: "Dashboard" };
 export const dynamic = "force-dynamic";
 
-export default function DashboardPage() {
+export default async function DashboardPage() {
   const stats = getSiteStats();
   const status = getStatusCounts();
-  const scheduled = getScheduledPosts();
+  const scheduled = await getScheduledPosts();
   const commits = getRecentCommits(8);
   const categories = getTopCategories(6);
   const integrations = getIntegrations();

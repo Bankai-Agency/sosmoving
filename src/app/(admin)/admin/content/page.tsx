@@ -11,8 +11,8 @@ import { getAllPosts } from "@/lib/admin/stats";
 export const metadata = { title: "Контент" };
 export const dynamic = "force-dynamic";
 
-export default function ContentPage() {
-  const posts = getAllPosts();
+export default async function ContentPage() {
+  const posts = await getAllPosts();
   const published = posts.filter((p) => p.status === "published").length;
   const drafts = posts.filter((p) => p.status === "draft").length;
   const scheduled = posts.filter((p) => p.status === "scheduled").length;

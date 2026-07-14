@@ -1,6 +1,7 @@
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 import matter from "gray-matter";
+import { listSlugsGitHub, readPost } from "./content-store";
 
 const BLOG_DIR = join(process.cwd(), "src/data/blog");
 const PAGES_DIR = join(process.cwd(), "public/pages");
@@ -22,36 +23,65 @@ export type PostRow = {
   publishAt?: string;
 };
 
-export function getAllPosts(limit?: number): PostRow[] {
-  const slugs = readdirSync(BLOG_DIR).filter((f) => f.endsWith(".md"));
-  const rows: PostRow[] = [];
-  for (const file of slugs) {
+function rowFromFrontmatter(slug: string, data: Record<string, unknown>): PostRow {
+  const draft = data.draft === true;
+  const publishAtRaw = typeof data.publishAt === "string" ? data.publishAt : undefined;
+  const publishAt = publishAtRaw ? new Date(publishAtRaw) : null;
+  const now = new Date();
+
+  let status: PostRow["status"] = "published";
+  if (draft && publishAt && publishAt > now) status = "scheduled";
+  else if (draft) status = "draft";
+
+  return {
+    slug,
+    title: (data.title as string) || slug,
+    category: (data.category as string) || "—",
+    publishDate: (data.publishDate as string) || "",
+    lastUpdated: (data.lastUpdated as string) || (data.publishDate as string) || "",
+    status,
+    publishAt: publishAtRaw,
+  };
+}
+
+/**
+ * Post rows for the admin. Base: local fs (state of the last build).
+ * Freshness: merged with GitHub's live directory listing, because the
+ * serverless fs doesn't see posts created/deleted through the admin
+ * until the triggered rebuild finishes — without the merge a freshly
+ * created draft is missing from the list for a couple of minutes.
+ */
+export async function getAllPosts(limit?: number): Promise<PostRow[]> {
+  const rows = new Map<string, PostRow>();
+  for (const file of readdirSync(BLOG_DIR).filter((f) => f.endsWith(".md"))) {
+    const slug = file.replace(/\.md$/, "");
     try {
       const { data } = matter(readFileSync(join(BLOG_DIR, file), "utf-8"));
-      const draft = data.draft === true;
-      const publishAt = data.publishAt ? new Date(data.publishAt) : null;
-      const now = new Date();
-
-      let status: PostRow["status"] = "published";
-      if (draft && publishAt && publishAt > now) status = "scheduled";
-      else if (draft) status = "draft";
-
-      rows.push({
-        slug: file.replace(/\.md$/, ""),
-        title: data.title || file,
-        category: data.category || "—",
-        publishDate: data.publishDate || "",
-        lastUpdated: data.lastUpdated || data.publishDate || "",
-        status,
-        publishAt: data.publishAt,
-      });
+      rows.set(slug, rowFromFrontmatter(slug, data));
     } catch {
       // skip unreadable file
     }
   }
-  // newest first
-  rows.sort((a, b) => (new Date(b.publishDate).getTime() || 0) - (new Date(a.publishDate).getTime() || 0));
-  return limit ? rows.slice(0, limit) : rows;
+
+  const ghSlugs = await listSlugsGitHub();
+  if (ghSlugs) {
+    const gh = new Set(ghSlugs);
+    // deleted via the admin since the last build
+    for (const slug of [...rows.keys()]) if (!gh.has(slug)) rows.delete(slug);
+    // created via the admin since the last build
+    const fresh = ghSlugs.filter((s) => !rows.has(s));
+    const posts = await Promise.all(fresh.map((s) => readPost(s).catch(() => null)));
+    posts.forEach((post, i) => {
+      if (post) {
+        rows.set(fresh[i], rowFromFrontmatter(fresh[i], post.frontmatter as unknown as Record<string, unknown>));
+      }
+    });
+  }
+
+  const sorted = [...rows.values()].sort(
+    (a, b) => (new Date(b.publishDate).getTime() || 0) - (new Date(a.publishDate).getTime() || 0),
+  );
+  return limit ? sorted.slice(0, limit) : sorted;
 }
 
 export type SiteStats = {
@@ -118,10 +148,10 @@ export function getSiteStats(): SiteStats {
   };
 }
 
-export function getScheduledPosts(): PostRow[] {
-  return getAllPosts().filter((p) => p.status === "scheduled");
+export async function getScheduledPosts(): Promise<PostRow[]> {
+  return (await getAllPosts()).filter((p) => p.status === "scheduled");
 }
 
-export function getRecentPosts(n = 8): PostRow[] {
+export async function getRecentPosts(n = 8): Promise<PostRow[]> {
   return getAllPosts(n);
 }
