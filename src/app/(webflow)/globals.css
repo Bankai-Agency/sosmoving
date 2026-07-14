@@ -103,11 +103,36 @@ form { display: block !important; }
 }
 
 /* A long selected address (Places autocomplete) must not blow up the
-   form grid: allow the column to shrink and ellipsize the rendered text. */
+   form: form-step-2 gets an inline display:flex from the step script,
+   and flex/grid boxes default to min-width:auto — the no-wrap address
+   line then dictates the intrinsic width of the whole chain (form grew
+   to 550px in a 365px parent on mobile). Cap every hop so the
+   ellipsis on .select2-selection__rendered can actually kick in. */
+form.request-api,
+.form-steps-w,
+.form-step-1,
+.form-step-2,
+.services-hero-form-input-wrap,
+.services-hero-move-inputs {
+  min-width: 0;
+  max-width: 100%;
+}
+/* Free-quote page: pin the form to its design width (730px on the
+   reference site) so content length can never resize it. */
+.is-free-quote-page .services-hero-form-block form {
+  width: 100%;
+  max-width: 35.5rem;
+}
 .field-wrapper {
   min-width: 0;
 }
-.select2-container {
+/* width:0 removes the select2 box from intrinsic-width calculations
+   (grid tracks / flex items size themselves from the OTHER fields),
+   min-width:100% then stretches it back to the resulting track. The
+   !important beats the inline style="width:100%" select2 sets. */
+.w-form .select2-container {
+  width: 0 !important;
+  min-width: 100%;
   max-width: 100%;
 }
 .select2-container .select2-selection__rendered {
