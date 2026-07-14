@@ -58,6 +58,10 @@ export function MdArticle({ fm, content }: { fm: Frontmatter; content: string })
             </div>
           )}
 
+          {/* Left empty on purpose — sos-main.js fills the TOC from the
+              article's h2s client-side, same as on the scraped articles
+              (it also rewrites heading ids, so a server-rendered TOC
+              would end up duplicated with broken anchors). */}
           <div className="article-left-sidebar">
             <div className="article-toc-block">
               <h3 className="article-toc-h3">Table of Contents</h3>

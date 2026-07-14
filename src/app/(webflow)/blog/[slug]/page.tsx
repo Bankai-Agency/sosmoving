@@ -14,10 +14,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const meta = metaForPath(`/blog/${slug}`);
-  if (meta.title) return meta;
-  // Articles written after the migration are not in the pre-migration
-  // etalon (seo-meta.json) — their meta comes from the md frontmatter.
   const post = getBlogPost(slug);
+  // The pre-migration etalon wins only while the scraped snapshot is what
+  // we render. Once the article is edited in the admin (renderFrom: md)
+  // or when it never was in the etalon, the frontmatter is the truth —
+  // otherwise an edited title would show in the H1 but never in <title>.
+  if (meta.title && post?.renderFrom !== 'md') return meta;
   if (!post) return meta;
   return {
     ...meta,
