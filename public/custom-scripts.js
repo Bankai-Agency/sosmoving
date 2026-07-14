@@ -506,6 +506,22 @@ if (document.getElementById("exit-popup")) {
 // froze. Reproduce the exact spec with GSAP; if IX2 ever starts driving
 // the tracks itself, we detect movement and stay out of the way.
 (function () {
+  // 1. Самосборка клонов (все страницы с секцией About-C).
+  // Бесшовность ленты держится на том, что clone-top и clone-bottom —
+  // точные копии center-блока. Синхронизируем их на каждой загрузке:
+  // фото добавляются/удаляются ТОЛЬКО в .about-c-images-center, копии
+  // соберутся сами и лента не разойдётся на стыке.
+  document.querySelectorAll('.about-c-images-track').forEach(function (track) {
+    var center = track.querySelector('.about-c-images-center');
+    var top = track.querySelector('.about-c-images-clone-top');
+    var bottom = track.querySelector('.about-c-images-clone-bottom');
+    if (!center) return;
+    if (top) top.innerHTML = center.innerHTML;
+    if (bottom) bottom.innerHTML = center.innerHTML;
+  });
+
+  // 2. Маркиза главной (IX2-фолбэк) — процентная, поэтому не зависит от
+  // количества фото: один проход ленты всегда 10s, как в оригинале.
   if (window.location.pathname !== '/') return;
   function start() {
     var left = document.querySelector('.about-c-images-track.is-left-track');
