@@ -297,8 +297,39 @@
                     errorMessage = "Unable to connect to the server. Please check your internet connection and try again.";
                 }
             }
-            
-            showError(errorMessage);
+
+            // CRM недоступна (CORS без заголовков / рейт-лимит / 5xx).
+            // Лид УЖЕ ушёл почтовым бэкапом в /api/lead (dual-write в
+            // custom-scripts.js), поэтому посетителю показываем обычный
+            // успех — терять клиента из-за сбоя CRM нельзя. Дополнительно
+            // шлём в /api/lead пометку CRM FAILED: по ней офис видит, что
+            // этого лида надо занести в MoveBoard руками.
+            console.warn("[SOS Form] CRM недоступна, лид уходит бэкапом:", errorMessage);
+            try {
+                var failPayload = {
+                    formName: "CRM FAILED (" + (xhr.status || textStatus) + "): " + ($form.attr("data-name") || "form"),
+                    page: window.location.pathname,
+                    fields: formData
+                };
+                var failBlob = new Blob([JSON.stringify(failPayload)], { type: "application/json" });
+                if (!(navigator.sendBeacon && navigator.sendBeacon("/api/lead", failBlob))) {
+                    fetch("/api/lead", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify(failPayload),
+                        keepalive: true
+                    }).catch(function () {});
+                }
+            } catch (e) {}
+
+            resetButton();
+            if (redirectUrl) {
+                window.location = redirectUrl;
+            } else {
+                $successBlock.show();
+                $failBlock.hide();
+                $form.hide();
+            }
         }
     });
     
