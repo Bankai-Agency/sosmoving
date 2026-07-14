@@ -1,6 +1,5 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { Container } from '@/components/ui/Container';
 import { BlogCard } from '@/components/blog/BlogCard';
 import { Pagination } from '@/components/blog/Pagination';
 import { getBlogPosts } from '@/lib/data/blog';
@@ -54,39 +53,51 @@ export default async function CategoryPage({
   const { slug } = await params;
   const { page: pageParam } = await searchParams;
   const page = Number(pageParam) || 1;
-  const { posts, totalPages } = getBlogPosts({ page, limit: 12, category: slug });
+  const { posts, total, totalPages } = getBlogPosts({ page, limit: 12, category: slug });
 
   const title = categoryTitle(slug);
 
+  // Webflow markup throughout — the (webflow) route group ships no
+  // Tailwind, so the styles must come from webflow.css (same classes as
+  // the scraped /blog listing).
   return (
     <>
-      <section className="pt-[5rem] pb-8 bg-gradient-to-b from-card-bg to-black">
-        <Container>
-          <h1 className="text-white text-[2rem] md:text-[2.8rem] font-black leading-tight mb-3">
-            {title}
-          </h1>
-          <p className="text-white/60 text-[0.8rem]">
-            {posts.length} articles in this category
-          </p>
-        </Container>
-      </section>
+      <div className="services-hero-section is-blog-article-hero is-without-bg-image">
+        <div className="container services-hero-container w-container">
+          <div className="breadcrumbs">
+            <a href="/" className="breadcrumbs-link">Home</a>
+            <div className="text-size-14 weight-700 text-color">&gt;</div>
+            <a href="/blog" className="breadcrumbs-link">Blog</a>
+            <div className="text-size-14 weight-700 text-color">&gt;</div>
+            <span aria-current="page" className="breadcrumbs-link w--current">{title}</span>
+          </div>
+          <h1 className="services-hero-h1 is-blog-article-h1">{title}</h1>
+          <div className="section-subtitle">
+            <div>{total} articles in this category</div>
+          </div>
+        </div>
+      </div>
 
-      <section className="py-12">
-        <Container>
+      <div className="blog-section">
+        <div className="container w-container">
           {posts.length > 0 ? (
             <>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-                {posts.map((post) => (
-                  <BlogCard key={post.slug} post={post} />
-                ))}
+              <div className="blog-short-news-wrap w-dyn-list">
+                <div role="list" className="blog-short-news-list w-dyn-items">
+                  {posts.map((post) => (
+                    <BlogCard key={post.slug} post={post} />
+                  ))}
+                </div>
               </div>
               <Pagination currentPage={page} totalPages={totalPages} basePath={`/category/${slug}`} />
             </>
           ) : (
-            <p className="text-center text-[0.8rem] py-20">No articles found in this category.</p>
+            <div className="section-subtitle">
+              <div>No articles found in this category.</div>
+            </div>
           )}
-        </Container>
-      </section>
+        </div>
+      </div>
     </>
   );
 }

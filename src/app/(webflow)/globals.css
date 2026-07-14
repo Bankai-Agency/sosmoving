@@ -89,15 +89,48 @@ form { display: block !important; }
   100% { transform: translateY(0); }
 }
 
-/* Error highlight for the policy-consent checkbox — set by
-   custom-scripts.js when trying to advance step 1 unchecked.
-   sos-main.css only styles .is-error for select2 selects. */
-.w-checkbox.is-error .w-form-label {
-  color: #e5484d;
-}
+/* ── Global head styles from the old site ──
+   The scraper only captured <body> content, so this <head>-level style
+   block was lost in migration (found on sosmovingla.webflow.io). Includes
+   the original red error highlight for the policy checkbox (replaces the
+   improvised one), video-review player states, tap-highlight tweaks. */
+* {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+  input, button, select, textarea {
+    will-change: transform;
+  }
+  .reviews-review-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+  }
+  .review-video-play-btn.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .reviews-video {
+    pointer-events: none;
+  }
+  .breadcrumbs-link.w--current {
+    color: var(--accent-color);
+  }
+  /* Подсветка ошибки на чекбоксе политики */
 .w-checkbox.is-error .w-checkbox-input {
-  outline: 2px solid #e5484d;
-  outline-offset: 2px;
+    border-color: #d32f2f !important;
+    box-shadow: 0 0 0 2px rgba(211, 47, 47, 0.25);
+}
+
+.w-checkbox.is-error .w-form-label {
+    color: #d32f2f !important;
+}
+
+/* На случай, если в ссылке "privacy policy" внутри label стоит свой цвет — 
+   тоже подкрашиваем красным при ошибке */
+.w-checkbox.is-error .w-form-label a {
+    color: #d32f2f !important;
 }
 
 /* A long selected address (Places autocomplete) must not blow up the
