@@ -495,3 +495,29 @@ if (document.getElementById("exit-popup")) {
     window.location.href = form.getAttribute('data-redirect') || '/confirmation-page';
   }, true);
 })();
+
+// ========================================
+
+// ── Homepage About-C marquee (IX2 fallback) ──
+// Webflow defines this as a PAGE_FINISH loop (action list a-16 "About C
+// Animation": left track 100%→0, right track 0→100, 10s per pass,
+// linear, seamless snap-back thanks to the cloned image blocks). In our
+// hydrated setup that IX2 event never spawns instances, so the tracks
+// froze. Reproduce the exact spec with GSAP; if IX2 ever starts driving
+// the tracks itself, we detect movement and stay out of the way.
+(function () {
+  if (window.location.pathname !== '/') return;
+  function start() {
+    var left = document.querySelector('.about-c-images-track.is-left-track');
+    var right = document.querySelector('.about-c-images-track.is-right-track');
+    if (!left || !right || typeof gsap === 'undefined') return;
+    var before = getComputedStyle(left).transform;
+    setTimeout(function () {
+      if (getComputedStyle(left).transform !== before) return; // IX2 работает сам
+      gsap.fromTo(left, { yPercent: 100 }, { yPercent: 0, duration: 10, ease: 'none', repeat: -1 });
+      gsap.fromTo(right, { yPercent: 0 }, { yPercent: 100, duration: 10, ease: 'none', repeat: -1 });
+    }, 2000);
+  }
+  if (document.readyState === 'complete') start();
+  else window.addEventListener('load', start);
+})();

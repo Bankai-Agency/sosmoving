@@ -58,37 +58,6 @@ form { display: block !important; }
   touch-action: manipulation;
 }
 
-/* ── About Company: infinite photo scroll ── */
-.about-c-images-mask {
-  overflow: hidden;
-  position: relative;
-  height: 100%;
-}
-
-.about-c-images-track {
-  animation-duration: 20s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-.about-c-images-track.is-left-track {
-  animation-name: scrollUp;
-}
-
-.about-c-images-track.is-right-track {
-  animation-name: scrollDown;
-}
-
-@keyframes scrollUp {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-33.333%); }
-}
-
-@keyframes scrollDown {
-  0% { transform: translateY(-33.333%); }
-  100% { transform: translateY(0); }
-}
-
 /* ── Global head styles from the old site ──
    The scraper only captured <body> content, so this <head>-level style
    block was lost in migration (found on sosmovingla.webflow.io). Includes
