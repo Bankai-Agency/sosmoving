@@ -46,6 +46,81 @@ function esc(v: string): string {
     .replace(/"/g, '&quot;');
 }
 
+// Human labels for the known form fields; anything unknown falls back to
+// a cleaned-up raw name ("some_field" → "Some Field") in labelFor().
+const FIELD_LABELS: Record<string, string> = {
+  field_first_name: 'Name',
+  field_last_name: 'Last Name',
+  field_e_mail: 'Email',
+  field_phone: 'Phone',
+  field_date: 'Moving Date',
+  moving_from_zip: 'Moving From',
+  moving_to_zip: 'Moving To',
+  move_size: 'Move Size',
+  company_name: 'Company',
+  checkbox: 'Privacy Policy',
+  page_path: 'Page URL',
+};
+
+// The form submits the <option> value — mirror the option labels from
+// free-estimate.html so the e-mail shows what the visitor actually picked.
+const MOVE_SIZES: Record<string, string> = {
+  '0': 'Not specified',
+  '1': 'Room or less',
+  '2': 'Studio',
+  '3': 'Small 1 Bedroom condo/aprt.',
+  '4': 'Large 1 Bedroom condo/aprt.',
+  '5': 'Small 2 Bedroom condo/aprt.',
+  '6': 'Large 2 Bedroom condo/aprt.',
+  '7': '3 Bedroom condo/aprt.',
+  '8': '2 Bedroom house/townhouse',
+  '9': '3 Bedroom house/townhouse',
+  '10': '4 Bedroom house/townhouse',
+  '11': 'Commercial Move',
+};
+
+// Contact info first, move details next, technical meta last;
+// fields not listed here land between move details and meta.
+const FIELD_ORDER = [
+  'field_first_name',
+  'field_last_name',
+  'field_phone',
+  'field_e_mail',
+  'moving_from_zip',
+  'moving_to_zip',
+  'field_date',
+  'move_size',
+];
+const FIELD_ORDER_TAIL = ['company_name', 'checkbox', 'page_path'];
+
+function labelFor(key: string): string {
+  return (
+    FIELD_LABELS[key] ??
+    key
+      .replace(/^field_/, '')
+      .replace(/[_-]+/g, ' ')
+      .trim()
+      .replace(/\b\w/g, (c) => c.toUpperCase())
+  );
+}
+
+function displayValue(key: string, value: string): string {
+  if (key === 'move_size') return MOVE_SIZES[value] ?? value;
+  if (key === 'checkbox') return value === 'on' ? 'Agreed' : value;
+  return value;
+}
+
+function sortFields(entries: [string, string][]): [string, string][] {
+  const rank = (k: string) => {
+    const head = FIELD_ORDER.indexOf(k);
+    if (head !== -1) return head;
+    const tail = FIELD_ORDER_TAIL.indexOf(k);
+    if (tail !== -1) return FIELD_ORDER.length + 100 + tail;
+    return FIELD_ORDER.length + 50;
+  };
+  return [...entries].sort((a, b) => rank(a[0]) - rank(b[0]));
+}
+
 export async function POST(request: Request) {
   const ip =
     request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ?? 'unknown';
@@ -123,9 +198,20 @@ export async function POST(request: Request) {
       .map((s) => s.trim())
       .filter(Boolean);
     const from = process.env.LEAD_FROM ?? 'SOS Moving Leads <onboarding@resend.dev>';
-    const rows = Object.entries(fields)
-      .map(([k, v]) => `<tr><td style="padding:4px 12px 4px 0"><b>${esc(k)}</b></td><td>${esc(v)}</td></tr>`)
+    const rows = sortFields(Object.entries(fields))
+      .map(
+        ([k, v]) =>
+          `<tr><td style="padding:6px 16px 6px 0;color:#6b7280;white-space:nowrap;vertical-align:top">${esc(labelFor(k))}</td>` +
+          `<td style="padding:6px 0;color:#111827">${esc(displayValue(k, v))}</td></tr>`,
+      )
       .join('');
+    // The form name already lives in the subject — the body keeps only
+    // the page and the fields.
+    const html =
+      `<div style="font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.5;color:#111827;max-width:560px">` +
+      (page ? `<p style="margin:0 0 16px;color:#6b7280">Page: ${esc(page)}</p>` : '') +
+      `<table style="border-collapse:collapse">${rows}</table>` +
+      `</div>`;
     try {
       const res = await fetch('https://api.resend.com/emails', {
         method: 'POST',
@@ -137,7 +223,7 @@ export async function POST(request: Request) {
           from,
           to,
           subject: `New lead: ${formName}${page ? ` (${page})` : ''}`,
-          html: `<h2>${esc(formName)}</h2><p>Page: ${esc(page)}</p><table>${rows}</table>`,
+          html,
         }),
       });
       results.email = res.ok ? 'ok' : `http ${res.status}`;
