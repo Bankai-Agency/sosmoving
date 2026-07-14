@@ -54,15 +54,17 @@ export function metaForPath(path: string, overrides: Metadata = {}): Metadata {
       // pages (/la-movers, /local-movers, /moving-services). Keep that.
       meta.robots = { index: false, follow: e.robots.includes('follow') };
     }
-    if (Object.keys(e.og).length > 0) {
-      meta.openGraph = {
-        title: e.og['og:title'] ?? e.title,
-        description: e.og['og:description'] ?? e.description,
-        url: path,
-        type: 'website',
-        ...(e.og['og:image'] ? { images: [e.og['og:image']] } : {}),
-      };
-    }
+    // Deliberate post-migration improvement (like the description rewrites):
+    // the old site had no OG on the homepage and blog articles, so shares
+    // in messengers/socials rendered without a preview. Etalon og values
+    // win when present; otherwise synthesize from title/description.
+    meta.openGraph = {
+      title: e.og['og:title'] ?? e.title,
+      description: e.og['og:description'] ?? e.description,
+      url: path,
+      type: 'website',
+      ...(e.og['og:image'] ? { images: [e.og['og:image']] } : {}),
+    };
     if (Object.keys(e.twitter).length > 0) {
       meta.twitter = {
         card: 'summary_large_image',

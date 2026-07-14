@@ -32,6 +32,16 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
+        // The prod aliases (sosmoving.vercel.app) and the stray duplicate
+        // project (sosmoving-2.vercel.app, built from this same repo) serve
+        // the full site — keep every *.vercel.app host out of the index.
+        // Canonical already points to www; this closes the loop without
+        // breaking preview deployments the way a redirect would.
+        source: "/:path*",
+        has: [{ type: "host", value: "(?<host>.*\\.vercel\\.app)" }],
+        headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
+      },
+      {
         // Content-hashed Webflow bundles — safe to cache forever. Default
         // Vercel policy for public/ is max-age=0 + revalidate on every load.
         source: "/webflow.:hash*.js",
@@ -58,9 +68,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -80,18 +87,6 @@ const nextConfig: NextConfig = {
     "/api/cron/publish-scheduled": [
       "public/**",
       ".next/**",
-    ],
-    "/mainpage2": [
-      "node_modules/@blocknote/**",
-      "node_modules/@emotion/**",
-      "node_modules/@mantine/**",
-      "node_modules/@octokit/**",
-      "node_modules/drizzle-orm/**",
-      "node_modules/drizzle-kit/**",
-      "node_modules/@neondatabase/**",
-      "node_modules/bcryptjs/**",
-      "node_modules/next-auth/**",
-      "node_modules/cheerio/**",
     ],
     "/": [
       "node_modules/@blocknote/**",
