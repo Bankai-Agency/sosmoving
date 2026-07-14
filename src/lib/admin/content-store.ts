@@ -54,6 +54,7 @@ export type PostFrontmatter = {
   category?: string;
   readTime?: string;
   author?: { name?: string; role?: string; photo?: string };
+  categories?: string[]; // multi-category (Webflow parity); `category` is the primary
   draft?: boolean;
   publishAt?: string; // ISO datetime — if set, cron will flip draft=false at this time
   // "md" → the public /blog/[slug] renders from markdown instead of the

@@ -48,12 +48,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  // Blog posts — объединяем .md (с гейтом draft/publishAt) и HTML-only статьи
-  const mdSlugs = new Set(getAllBlogSlugs());
-  const htmlBlogSlugs = readdirSync(pagesDir)
-    .filter((f) => f.startsWith('blog__') && f.endsWith('.html'))
-    .map((f) => f.replace('blog__', '').replace('.html', ''));
-  const allBlogSlugs = new Set<string>([...mdSlugs, ...htmlBlogSlugs]);
+  // Blog posts — md is the source of truth for existence & publication
+  // (every article has an md file; drafts/unpublished/deleted are gated
+  // by getAllBlogSlugs, same rule as the /blog/[slug] route).
+  const allBlogSlugs = new Set(getAllBlogSlugs());
 
   const blogPages: MetadataRoute.Sitemap = [...allBlogSlugs].map((slug) => ({
     url: `${baseUrl}/blog/${slug}`,

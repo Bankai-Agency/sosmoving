@@ -85,6 +85,14 @@ export async function savePost(
       renderFrom: "md",
     };
 
+    // Keep the multi-category list in sync with the selected primary —
+    // otherwise a re-categorized post keeps filtering into its old
+    // /category/* listings only.
+    if (Array.isArray(frontmatter.categories) && frontmatter.category
+        && !frontmatter.categories.includes(frontmatter.category)) {
+      frontmatter.categories = [frontmatter.category, ...frontmatter.categories];
+    }
+
     const body = String(formData.get("content") ?? existing.content);
 
     const msg = publishAt
