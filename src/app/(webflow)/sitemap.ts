@@ -23,6 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/about-us/apartment-partnership`, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${baseUrl}/about-us/careers`, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${baseUrl}/about-us/company-policy`, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${baseUrl}/about-us/terms-and-conditions`, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${baseUrl}/about-us/influencer-program`, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${baseUrl}/about-us/meet-our-team`, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${baseUrl}/about-us/referral`, changeFrequency: 'monthly', priority: 0.5 },
