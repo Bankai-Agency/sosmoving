@@ -376,3 +376,136 @@ select.is-error+.select2-container--default .select2-selection--single {
         display:none
     }
 }
+
+/* ============================================================
+   Bankai Agency lightning animation - "Created by" footer link
+   (adapted from bankai-logo-animation.html; geometry in px
+   because this site scales html font-size, demo assumed 16px)
+   ============================================================ */
+.bankai-link {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.bankai-link .bankai-icon {
+    position: relative;
+    transition: filter .1s ease
+}
+
+.bankai-link .bankai-icon svg.main-bolt {
+    position: relative;
+    z-index: 2;
+    display: block;
+    transition: filter .1s ease, transform .2s ease, opacity .15s ease
+}
+
+.bankai-link .bankai-icon::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 35px;
+    height: 35px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(239, 68, 68, .9) 25%, rgba(220, 38, 38, .5) 50%, transparent 70%);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    z-index: 1;
+    pointer-events: none
+}
+
+.bankai-link .mini-bolts {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    pointer-events: none;
+    z-index: 0
+}
+
+.bankai-link .mini-bolt {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none
+}
+
+.bankai-link .mini-bolt:nth-child(1) { top: 2px; left: 50%; transform: translateX(-50%) scale(.35) rotate(-15deg) }
+.bankai-link .mini-bolt:nth-child(2) { top: 8px; right: 0; transform: scale(.3) rotate(25deg) }
+.bankai-link .mini-bolt:nth-child(3) { bottom: 5px; right: 2px; transform: scale(.28) rotate(45deg) }
+.bankai-link .mini-bolt:nth-child(4) { bottom: 2px; left: 50%; transform: translateX(-50%) scale(.32) rotate(10deg) }
+.bankai-link .mini-bolt:nth-child(5) { top: 10px; left: 0; transform: scale(.3) rotate(-30deg) }
+
+.bankai-link .bankai-text {
+    position: relative;
+    font-weight: 600;
+    color: rgba(255, 255, 255, .6);
+    background: linear-gradient(90deg, rgba(255, 255, 255, .6) 0%, rgba(255, 255, 255, .6) 35%, #fff 45%, #ff6b6b 50%, #fff 55%, rgba(255, 255, 255, .6) 65%, rgba(255, 255, 255, .6) 100%);
+    background-size: 300% 100%;
+    background-position: 100% 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.bankai-link:hover .bankai-icon::before {
+    animation: bankai-lightning-flash .5s ease-out forwards
+}
+
+.bankai-link:hover .bankai-icon svg.main-bolt {
+    animation: bankai-lightning-strike-main .4s ease-out forwards;
+    filter: drop-shadow(0 0 10px rgba(239, 68, 68, 1))
+}
+
+.bankai-link:hover .bankai-icon svg.main-bolt path {
+    fill: #fff;
+    fill-opacity: 1
+}
+
+.bankai-link:hover .mini-bolt:nth-child(1) { animation: bankai-mini-bolt-flicker .6s ease-out 0s forwards }
+.bankai-link:hover .mini-bolt:nth-child(2) { animation: bankai-mini-bolt-flicker .5s ease-out .08s forwards }
+.bankai-link:hover .mini-bolt:nth-child(3) { animation: bankai-mini-bolt-flicker .55s ease-out .15s forwards }
+.bankai-link:hover .mini-bolt:nth-child(4) { animation: bankai-mini-bolt-flicker .5s ease-out .05s forwards }
+.bankai-link:hover .mini-bolt:nth-child(5) { animation: bankai-mini-bolt-flicker .6s ease-out .12s forwards }
+
+.bankai-link:hover .bankai-text {
+    animation: bankai-text-shimmer 1s ease-out .1s forwards
+}
+
+@keyframes bankai-lightning-flash {
+    0% { transform: translate(-50%, -50%) scale(0); opacity: 0 }
+    20% { transform: translate(-50%, -50%) scale(2); opacity: 1 }
+    40% { transform: translate(-50%, -50%) scale(1.5); opacity: .7 }
+    60% { transform: translate(-50%, -50%) scale(2); opacity: .9 }
+    100% { transform: translate(-50%, -50%) scale(2.5); opacity: 0 }
+}
+
+@keyframes bankai-lightning-strike-main {
+    0% { transform: translate(15px, -15px) scale(.5) rotate(-10deg); opacity: 0 }
+    10% { transform: translate(10px, -10px) scale(.7) rotate(-5deg); opacity: .4 }
+    25% { transform: translate(3px, -3px) scale(.9) rotate(-2deg); opacity: .8 }
+    40% { transform: translate(0, 0) scale(1.15) rotate(0deg); opacity: 1 }
+    60% { transform: translate(0, 0) scale(1) rotate(0deg); opacity: 1 }
+    100% { transform: translate(0, 0) scale(1) rotate(0deg); opacity: 1 }
+}
+
+@keyframes bankai-mini-bolt-flicker {
+    0% { opacity: 0 }
+    10% { opacity: .9 }
+    20% { opacity: .3 }
+    35% { opacity: 1 }
+    50% { opacity: .4 }
+    65% { opacity: .8 }
+    80% { opacity: .2 }
+    100% { opacity: 0 }
+}
+
+@keyframes bankai-text-shimmer {
+    0% { background-position: 100% 0 }
+    100% { background-position: -150% 0 }
+}
