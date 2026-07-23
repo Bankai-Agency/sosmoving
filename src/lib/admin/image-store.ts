@@ -94,7 +94,9 @@ export async function saveImage(file: File, actor: string, dir: string = "blog")
         repo,
         path,
         branch: BRANCH,
-        message: `content: upload image ${filename}\n\nvia admin panel by ${actor}`,
+        // [skip deploy]: the bare image changes no page — the save that
+        // references it triggers the build (scripts/vercel-ignore-build.sh).
+        message: `content: upload image ${filename} [skip deploy]\n\nvia admin panel by ${actor}`,
         content: buf.toString("base64"),
       });
     }

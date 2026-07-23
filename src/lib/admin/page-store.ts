@@ -25,6 +25,17 @@ function viaGitHub() {
   return Boolean(TOKEN && REPO);
 }
 
+/** True when saves go through GitHub (prod) rather than the local fs. */
+export function isGitHubBackend(): boolean {
+  return viaGitHub();
+}
+
+/**
+ * Commit-message marker that makes scripts/vercel-ignore-build.sh skip the
+ * Vercel build for that commit ("save without publishing").
+ */
+export const SKIP_DEPLOY_MARKER = "[skip deploy]";
+
 function splitRepo(): { owner: string; repo: string } {
   const [owner, repo] = REPO.split("/");
   if (!owner || !repo) throw new Error(`Invalid GITHUB_REPO=${REPO}. Expected "owner/repo".`);
@@ -77,10 +88,12 @@ export async function writePageHtml(
   html: string,
   commitMessage: string,
   actor: string,
+  deferBuild = false,
 ): Promise<void> {
   if (!isValidPageSlug(slug)) throw new Error(`Bad page slug: ${slug}`);
   const path = `${PAGES_DIR}/${slug}.html`;
-  const msg = `${commitMessage}\n\nvia admin panel by ${actor}`;
+  const marker = deferBuild ? ` ${SKIP_DEPLOY_MARKER}` : "";
+  const msg = `${commitMessage}${marker}\n\nvia admin panel by ${actor}`;
 
   if (viaGitHub()) {
     const { owner, repo } = splitRepo();
@@ -101,4 +114,28 @@ export async function writePageHtml(
   const abs = join(process.cwd(), "public/pages", `${slug}.html`);
   if (!existsSync(abs)) throw new Error(`Page not found: ${path}`);
   writeFileSync(abs, html, "utf-8");
+}
+
+/**
+ * "Publish" — an empty commit (same tree, new message) on the branch.
+ * It carries no marker, so Vercel builds it, and the build includes every
+ * draft commit accumulated before it. GitHub's contents API can't make
+ * empty commits, hence the git-data calls.
+ */
+export async function publishPendingCommit(actor: string): Promise<void> {
+  if (!viaGitHub()) {
+    throw new Error("Публикация нужна только на проде: в dev правки применяются сразу.");
+  }
+  const { owner, repo } = splitRepo();
+  const ref = await octokit().git.getRef({ owner, repo, ref: `heads/${BRANCH}` });
+  const headSha = ref.data.object.sha;
+  const head = await octokit().git.getCommit({ owner, repo, commit_sha: headSha });
+  const commit = await octokit().git.createCommit({
+    owner,
+    repo,
+    message: `content: publish pending admin edits\n\nvia admin panel by ${actor}`,
+    tree: head.data.tree.sha,
+    parents: [headSha],
+  });
+  await octokit().git.updateRef({ owner, repo, ref: `heads/${BRANCH}`, sha: commit.data.sha });
 }

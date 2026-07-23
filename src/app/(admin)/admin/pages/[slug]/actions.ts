@@ -2,17 +2,38 @@
 
 import { revalidatePath } from "next/cache";
 import { auth } from "@/lib/auth";
-import { readPageHtml, writePageHtml, pageHash } from "@/lib/admin/page-store";
+import { readPageHtml, writePageHtml, pageHash, publishPendingCommit } from "@/lib/admin/page-store";
 import { applySlots, extractSlots, type PageEdits } from "@/lib/admin/page-slots";
 import { classifyPage } from "@/lib/admin/pages";
 
-export type SavePageState = { error?: string; ok?: boolean; changed?: string[] };
+export type SavePageState = { error?: string; ok?: boolean; changed?: string[]; deferred?: boolean };
 
 async function requireActor(): Promise<string> {
   const session = await auth();
   const username = (session?.user as { username?: string } | undefined)?.username;
   if (!username) throw new Error("Not authenticated");
   return username;
+}
+
+export type PublishState = { error?: string; ok?: boolean };
+
+/**
+ * "Опубликовать накопленное" on /admin/pages: an empty, unmarked commit —
+ * Vercel builds it and picks up every [skip deploy] draft before it.
+ */
+export async function publishPending(_prev: PublishState, _formData: FormData): Promise<PublishState> {
+  let actor: string;
+  try {
+    actor = await requireActor();
+  } catch {
+    return { error: "Сессия истекла – войдите заново." };
+  }
+  try {
+    await publishPendingCommit(actor);
+  } catch (err) {
+    return { error: err instanceof Error ? err.message : "Не удалось запустить публикацию." };
+  }
+  return { ok: true };
 }
 
 /**
@@ -83,12 +104,15 @@ export async function savePageContent(
 
   if (next.changed.length === 0) return { ok: true, changed: [] };
 
+  const deferBuild = formData.get("defer_build") === "on";
+
   try {
     await writePageHtml(
       slug,
       next.html,
       `content(page): update ${slug} (${next.changed.join(", ")})`,
       actor,
+      deferBuild,
     );
   } catch (err) {
     return { error: err instanceof Error ? err.message : "Не удалось сохранить страницу." };
@@ -96,5 +120,5 @@ export async function savePageContent(
 
   revalidatePath(`/admin/pages/${slug}`);
   revalidatePath(classifyPage(slug).url);
-  return { ok: true, changed: next.changed };
+  return { ok: true, changed: next.changed, deferred: deferBuild };
 }

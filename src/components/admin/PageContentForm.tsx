@@ -41,8 +41,10 @@ export function PageContentForm({ slug, baseHash, heroH1, heroSubtitle, faq, ima
       {state.ok && (
         <Alert>
           {state.changed && state.changed.length > 0
-            ? "Сохранено. Изменения появятся на сайте после пересборки (~2 минуты)."
-            : "Изменений нет — сохранять нечего."}
+            ? state.deferred
+              ? "Сохранено без публикации. Когда закончите все правки – нажмите «Опубликовать накопленное» на странице списка."
+              : "Сохранено. Изменения появятся на сайте после пересборки (~2 минуты)."
+            : "Изменений нет – сохранять нечего."}
         </Alert>
       )}
 
@@ -101,10 +103,14 @@ export function PageContentForm({ slug, baseHash, heroH1, heroSubtitle, faq, ima
         </Card>
       )}
 
-      <div className="sticky bottom-4 flex justify-end">
-        <Button type="submit" disabled={pending} className="shadow-lg">
+      <div className="sticky bottom-4 flex items-center justify-end gap-4 rounded-lg border bg-card p-3 shadow-lg">
+        <label className="flex cursor-pointer items-center gap-2 text-sm text-muted-foreground">
+          <input type="checkbox" name="defer_build" className="h-4 w-4 accent-primary" />
+          Сохранить без публикации (правлю ещё и другие страницы)
+        </label>
+        <Button type="submit" disabled={pending}>
           {pending && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
-          Сохранить и опубликовать
+          Сохранить
         </Button>
       </div>
     </form>

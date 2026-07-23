@@ -1,6 +1,7 @@
 import { AdminShell } from "@/components/admin/AdminShell";
 import { TopBar } from "@/components/admin/TopBar";
 import { PagesTable } from "@/components/admin/PagesTable";
+import { PublishPendingButton } from "@/components/admin/PublishPendingButton";
 import { Badge } from "@/components/admin/ui/badge";
 import { listPages } from "@/lib/admin/pages";
 
@@ -12,7 +13,15 @@ export default function PagesHealthPage() {
 
   return (
     <AdminShell>
-      <TopBar title="Страницы сайта" actions={<span className="text-xs text-muted-foreground">Всего: {rows.length}</span>} />
+      <TopBar
+        title="Страницы сайта"
+        actions={
+          <div className="flex items-center gap-3">
+            <span className="text-xs text-muted-foreground">Всего: {rows.length}</span>
+            <PublishPendingButton />
+          </div>
+        }
+      />
       <div className="flex-1 space-y-4 p-6">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
           <ComingCard title="Core Web Vitals" hint="Vercel Speed Insights → LCP/INP/CLS" />
