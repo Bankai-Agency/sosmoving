@@ -79,6 +79,10 @@ const nextConfig: NextConfig = {
   // Public routes also previously dragged in @blocknote / drizzle / @octokit /
   // next-auth via transitive traces.
   outputFileTracingExcludes: {
+    // The repo (with its 500+ MB .git pack) lives in the build cwd on
+    // Vercel; one dynamically-computed fs path is enough for the tracer to
+    // glob it into a function bundle. Never ship it.
+    "*": [".git/**"],
     "/api/upload": [
       "public/**",
       ".next/**",

@@ -65,7 +65,9 @@ export async function readPageHtml(slug: string): Promise<string | null> {
     }
   }
 
-  const abs = join(process.cwd(), path);
+  // Literal directory join — keeps Vercel's file tracer scoped to
+  // public/pages instead of falling back to bundling the whole cwd.
+  const abs = join(process.cwd(), "public/pages", `${slug}.html`);
   if (!existsSync(abs)) return null;
   return readFileSync(abs, "utf-8");
 }
@@ -96,7 +98,7 @@ export async function writePageHtml(
     return;
   }
 
-  const abs = join(process.cwd(), path);
+  const abs = join(process.cwd(), "public/pages", `${slug}.html`);
   if (!existsSync(abs)) throw new Error(`Page not found: ${path}`);
   writeFileSync(abs, html, "utf-8");
 }

@@ -44,11 +44,17 @@ export type UploadResult = { url: string; filename: string; bytes: number };
 /**
  * Upload destinations. "blog" is the BlockNote editor's target; "pages"
  * holds images uploaded through the page content editor.
+ *
+ * NOTE: resolved through literal-string branches (not a lookup table with
+ * dynamic join) — Vercel's file tracer must be able to statically resolve
+ * every fs path here, otherwise it falls back to bundling the whole cwd
+ * into the function (observed: 395 MB api/upload with .git inside).
  */
-const UPLOAD_DIRS: Record<string, string> = {
-  blog: "public/images/blog",
-  pages: "public/images/pages",
-};
+function uploadDir(dir: string): string {
+  if (dir === "blog") return "public/images/blog";
+  if (dir === "pages") return "public/images/pages";
+  throw new Error(`Недопустимая директория загрузки: ${dir}`);
+}
 
 /**
  * Save an uploaded image. Returns the public URL. The URL shape matches
@@ -64,8 +70,7 @@ export async function saveImage(file: File, actor: string, dir: string = "blog")
     throw new Error(`Формат ${ext || "?"} не поддерживается. Разрешены: ${[...ALLOWED_EXTS].join(", ")}.`);
   }
 
-  const imagesDir = UPLOAD_DIRS[dir];
-  if (!imagesDir) throw new Error(`Недопустимая директория загрузки: ${dir}`);
+  const imagesDir = uploadDir(dir);
 
   const buf = Buffer.from(await file.arrayBuffer());
   const hash = createHash("sha256").update(buf).digest("hex").slice(0, 12);
@@ -94,7 +99,11 @@ export async function saveImage(file: File, actor: string, dir: string = "blog")
       });
     }
   } else {
-    const absDir = join(process.cwd(), imagesDir);
+    // Literal-string joins per branch — see the tracer note on uploadDir().
+    const absDir =
+      dir === "pages"
+        ? join(process.cwd(), "public/images/pages")
+        : join(process.cwd(), "public/images/blog");
     if (!existsSync(absDir)) mkdirSync(absDir, { recursive: true });
     const absPath = join(absDir, filename);
     if (!existsSync(absPath)) writeFileSync(absPath, buf);
