@@ -16,7 +16,6 @@ import { createHash } from "node:crypto";
  *   uploaded twice dedupes in git history).
  */
 
-const IMAGES_DIR = "public/images/blog";
 const REPO = process.env.GITHUB_REPO ?? "";
 const BRANCH = process.env.GITHUB_BRANCH ?? "main";
 const TOKEN = process.env.GITHUB_TOKEN ?? "";
@@ -43,11 +42,20 @@ const MAX_BYTES = 8 * 1024 * 1024; // 8 MB — generous for blog content
 export type UploadResult = { url: string; filename: string; bytes: number };
 
 /**
- * Save an uploaded image to the blog images directory. Returns the public URL.
- * The URL shape matches what the rest of the site already uses:
- * `/images/blog/<hash>.<ext>` — served by Next's static handler.
+ * Upload destinations. "blog" is the BlockNote editor's target; "pages"
+ * holds images uploaded through the page content editor.
  */
-export async function saveImage(file: File, actor: string): Promise<UploadResult> {
+const UPLOAD_DIRS: Record<string, string> = {
+  blog: "public/images/blog",
+  pages: "public/images/pages",
+};
+
+/**
+ * Save an uploaded image. Returns the public URL. The URL shape matches
+ * what the rest of the site already uses: `/images/<dir>/<hash>.<ext>` —
+ * served by Next's static handler.
+ */
+export async function saveImage(file: File, actor: string, dir: string = "blog"): Promise<UploadResult> {
   if (file.size > MAX_BYTES) {
     throw new Error(`Файл слишком большой (${(file.size / 1024 / 1024).toFixed(1)} MB). Лимит 8 MB.`);
   }
@@ -56,11 +64,14 @@ export async function saveImage(file: File, actor: string): Promise<UploadResult
     throw new Error(`Формат ${ext || "?"} не поддерживается. Разрешены: ${[...ALLOWED_EXTS].join(", ")}.`);
   }
 
+  const imagesDir = UPLOAD_DIRS[dir];
+  if (!imagesDir) throw new Error(`Недопустимая директория загрузки: ${dir}`);
+
   const buf = Buffer.from(await file.arrayBuffer());
   const hash = createHash("sha256").update(buf).digest("hex").slice(0, 12);
   const filename = `${hash}.${ext}`;
-  const path = `${IMAGES_DIR}/${filename}`;
-  const url = `/images/blog/${filename}`;
+  const path = `${imagesDir}/${filename}`;
+  const url = `/${imagesDir.replace(/^public\//, "")}/${filename}`;
 
   if (viaGitHub()) {
     const { owner, repo } = splitRepo();
@@ -83,7 +94,7 @@ export async function saveImage(file: File, actor: string): Promise<UploadResult
       });
     }
   } else {
-    const absDir = join(process.cwd(), IMAGES_DIR);
+    const absDir = join(process.cwd(), imagesDir);
     if (!existsSync(absDir)) mkdirSync(absDir, { recursive: true });
     const absPath = join(absDir, filename);
     if (!existsSync(absPath)) writeFileSync(absPath, buf);

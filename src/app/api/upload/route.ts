@@ -34,8 +34,12 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "missing 'file' field" }, { status: 400 });
   }
 
+  // Optional destination: "blog" (default, BlockNote) or "pages" (page
+  // content editor). saveImage whitelists the value.
+  const dir = typeof form.get("dir") === "string" ? String(form.get("dir")) : "blog";
+
   try {
-    const result = await saveImage(file, actor);
+    const result = await saveImage(file, actor, dir);
     return NextResponse.json(result);
   } catch (err) {
     const msg = err instanceof Error ? err.message : "upload failed";

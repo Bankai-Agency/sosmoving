@@ -13,6 +13,10 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from ".
 
 type Props = { rows: PageRow[] };
 
+// Page types the slot-based content editor supports (v1: city pages —
+// they share the hero/FAQ structure the extractor understands).
+const EDITABLE_TYPES = new Set<PageType>(["city", "movers-city"]);
+
 const TYPE_ORDER: PageType[] = [
   "home",
   "city",
@@ -96,6 +100,7 @@ export function PagesTable({ rows }: Props) {
             <TableRow>
               <TableHead>Тип</TableHead>
               <TableHead>URL</TableHead>
+              <TableHead />
               <TableHead className="text-right">Размер</TableHead>
               <TableHead className="text-right">Обновлено</TableHead>
             </TableRow>
@@ -115,6 +120,13 @@ export function PagesTable({ rows }: Props) {
                     {r.url}
                     <ExternalLink className="h-3 w-3 text-muted-foreground" />
                   </Link>
+                </TableCell>
+                <TableCell>
+                  {EDITABLE_TYPES.has(r.type) && (
+                    <Button variant="outline" size="sm" asChild>
+                      <Link href={`/admin/pages/${r.slug}`}>Контент</Link>
+                    </Button>
+                  )}
                 </TableCell>
                 <TableCell className="whitespace-nowrap text-right text-xs text-muted-foreground">
                   {(r.bytes / 1024).toFixed(1)} KB
