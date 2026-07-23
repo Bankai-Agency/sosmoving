@@ -1,5 +1,9 @@
 _legacy/
-scripts/
+# scripts/* (not scripts/) so the negation below can re-include a file:
+# gitignore semantics cannot resurrect anything from a fully excluded dir.
+scripts/*
+# ignoreCommand runs this before the build - it must survive the prune
+!scripts/vercel-ignore-build.sh
 *.py
 download_report.json
 _exports/
