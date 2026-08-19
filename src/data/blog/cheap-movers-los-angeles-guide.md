@@ -1,5 +1,6 @@
 ---
 slug: "cheap-movers-los-angeles-guide"
+draft: true
 title: "Cheap Movers Los Angeles"
 metaDescription: "Find legitimate cheap movers in LA. Compare rates, avoid scams, save money safely. Budget moving from $119/hour. Free quotes!"
 featuredImage: "/images/blog/68ff62f221076a29d95ed94f_cheap-movers-los-angeles-guide-img.jpg"

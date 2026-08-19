@@ -1,5 +1,6 @@
 ---
 slug: "white-glove-moving-services-la-are-they-worth-it"
+draft: true
 title: "White-Glove Moving Services Los Angeles 2026 Guide"
 metaDescription: "Senior Move Foreman Amir Hassan breaks down white-glove moving services in Los Angeles: real costs, what's included, who needs it, and when standard moves."
 featuredImage: "https://cdn.prod.website-files.com/645ab1d97922878b6f5bef7f/6a0b34c61d3d56780b2acc8e_white-glove-moving-services-la-are-they-worth-it.jpeg"

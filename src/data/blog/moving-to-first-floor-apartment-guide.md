@@ -28,7 +28,7 @@ The physics is simple: no stairs equals less labor, faster completion, and lower
 
 - 1-bedroom, first floor in [Santa Monica](../../los-angeles-movers/santa-monica-movers/index.html): 3 hours, $387 total- Same size, third floor: 4.5 hours, $580 total- Savings: $193 just from floor difference
 
-The easier access means crews work faster, less risk of damage in stairwells, no need for extra movers for safety on stairs, and reduced chance of building damage claims. For [local moves in LA](../../local-movers/index.html), choosing ground floor can save you 20-30% on moving costs alone.
+The easier access means crews work faster, less risk of damage in stairwells, no need for extra movers for safety on stairs, and reduced chance of building damage claims. For [local moves in LA](/services/local-moving), choosing ground floor can save you 20-30% on moving costs alone.
 
 ## Pros of First Floor Living in Los Angeles
 

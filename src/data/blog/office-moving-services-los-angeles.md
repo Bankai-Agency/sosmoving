@@ -1,5 +1,6 @@
 ---
 slug: "office-moving-services-los-angeles"
+draft: true
 title: "Office Moving Services Los Angeles"
 metaDescription: "Professional office moving in LA. Minimize downtime, protect equipment, weekend moves available. Free quote for businesses. Call 909-443-0004!"
 featuredImage: "/images/blog/68e694ba8c00fb3290b5623f_office-moving-services-los-angeles-img.jpg"

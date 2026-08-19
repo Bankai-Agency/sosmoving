@@ -1,5 +1,6 @@
 ---
 slug: "apartment-movers-los-angeles"
+draft: true
 title: "Apartment Movers Los Angeles"
 metaDescription: "Professional apartment moving in LA. Elevator scheduling, stairs, tight spaces handled. From studios to penthouses. Free quotes!"
 featuredImage: "/images/blog/68ff676bda1e6698d4d1b77c_apartment-movers-los-angeles-img.jpg"

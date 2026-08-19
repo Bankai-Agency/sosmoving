@@ -1,5 +1,6 @@
 ---
 slug: "local-movers-near-me-same-day-service-options"
+draft: true
 title: "Local Movers Near Me - Same Day Service Options LA"
 metaDescription: "Need movers TODAY in LA? Same day service available: 2-hour response, emergency crews ready. Higher rates but immediate help. Call 909-443-0004 now!"
 featuredImage: "/images/blog/695291ccb44a98754976445b_local-movers-near-me-same-day-service-options.png"

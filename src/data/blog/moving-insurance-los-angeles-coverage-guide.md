@@ -104,7 +104,7 @@ Moving insurance remains the most misunderstood aspect of relocation. Most peopl
 
 ## Insurance for Different Move Types
 
-**Local moves (**[**within LA**](../../los-angeles-movers/index.html)**):**Shortest risk exposure. Basic FVP usually sufficient. Check hourly vs flat rate. Document at both ends. Claims easier to resolve.
+**Local moves (**[**within LA**](/la-movers)**):**Shortest risk exposure. Basic FVP usually sufficient. Check hourly vs flat rate. Document at both ends. Claims easier to resolve.
 
 **Long-distance moves:**Higher risk factors. Multiple handling points. Consider third-party insurance. Track shipment constantly. Know delivery window.
 
@@ -142,6 +142,6 @@ Don't assume homeowners/renters covers moving. Call your insurance company first
 
 Remember: Insurance isn't about expecting problems—it's about protecting against possibilities. Professional movers like SOS reduce risk, but accidents happen. Proper coverage ensures financial protection when they do.
 
-**Need properly insured movers?** Call SOS Moving at 909-443-0004 for transparent insurance options. We explain coverage clearly, document thoroughly, and handle claims fairly. From [basic apartments](../apartment-movers-los-angeles/index.html) to [luxury homes](../../beverly-hills-movers/index.html), we protect your belongings with appropriate coverage. [Get your free quote](../../free-estimate/index.html) with insurance options explained today!
+**Need properly insured movers?** Call SOS Moving at 909-443-0004 for transparent insurance options. We explain coverage clearly, document thoroughly, and handle claims fairly. From [basic apartments](/services/apartment-movers) to [luxury homes](../../beverly-hills-movers/index.html), we protect your belongings with appropriate coverage. [Get your free quote](../../free-estimate/index.html) with insurance options explained today!
 
 ‍

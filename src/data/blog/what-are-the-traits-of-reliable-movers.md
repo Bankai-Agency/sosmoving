@@ -32,7 +32,7 @@ Many people turn to professionals because the packing process takes a lot of you
 
 ### Free estimates
 
-Most of the companies, including [movers Downtown Los Angeles](https://sosmovingla.net/los-angeles-movers/) offer free estimates. *If your company offers free estimates, use it.* If the moving company comes up with the number without sending anyone over to your house, [you’ll know that that moving company is a bad choice](https://sosmovingla.net/blog/5-quick-ways-to-check-if-moving-company-is-legitimate/). **No one can give you a realistic estimate before checking out your particular situation first.**
+Most of the companies, including [movers Downtown Los Angeles](/la-movers) offer free estimates. *If your company offers free estimates, use it.* If the moving company comes up with the number without sending anyone over to your house, [you’ll know that that moving company is a bad choice](https://sosmovingla.net/blog/5-quick-ways-to-check-if-moving-company-is-legitimate/). **No one can give you a realistic estimate before checking out your particular situation first.**
 ![evaluation is one of the traits of reliable movers](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d9792287b01a5bf453_pexels-photo-5025661-e1605470961650.jpeg)*If a company doesn’t send someone to evaluate your situation, don’t hire it.*
 ### Answers to all questions
 

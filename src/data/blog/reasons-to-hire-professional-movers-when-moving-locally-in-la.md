@@ -18,7 +18,7 @@ Organizing a move to a new home in Los Angeles is rarely a simple task. **There 
 
 ## If you hire professional movers when moving locally in LA, your move will be much easier to handle
 
-No matter how many times you may have moved before, moving to a new home is always a big day. **Some people tend to downplay or underestimate the emotional weight** a local move can have. However, the emotional impact is there, and it can hit you when you least expect it, and it can be quite overwhelming. Having a group of quality [local movers Los Angeles](https://sosmovingla.net/los-angeles-movers/) helping you out is going to make this a much easier task.
+No matter how many times you may have moved before, moving to a new home is always a big day. **Some people tend to downplay or underestimate the emotional weight** a local move can have. However, the emotional impact is there, and it can hit you when you least expect it, and it can be quite overwhelming. Having a group of quality [local movers Los Angeles](/la-movers) helping you out is going to make this a much easier task.
 ![a man waiting for professional movers when moving locally in LA](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d979228784745bf2aa_joel-mott-kUReGwALGbs-unsplash-1-scaled-e1628034746521.jpeg)*Relocating on your own through a city as large as Los Angeles is highly advised against*
 ## Moving companies are there to handle the difficult part of the move
 

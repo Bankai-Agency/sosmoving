@@ -138,6 +138,6 @@ Choose movers based on value, not just price. Cheapest often becomes most expens
 
 Professional estimates protect both parties. Movers know their costs. Customers budget accurately. Surprises minimize dramatically. Relationships start honestly.
 
-**Need an accurate moving estimate?** Contact SOS Moving at 909-443-0004 for transparent, honest quotes. No hidden fees, no surprises, just straightforward pricing from $119/hour. Whether [local](../../services/local-movers/index.html) or [long-distance](../long-distance-movers-los-angeles-interstate/index.html), we provide detailed estimates that match final bills. [Get your free estimate](../../free-estimate/index.html) today!
+**Need an accurate moving estimate?** Contact SOS Moving at 909-443-0004 for transparent, honest quotes. No hidden fees, no surprises, just straightforward pricing from $119/hour. Whether [local](../../services/local-movers/index.html) or [long-distance](/services/long-distance-movers), we provide detailed estimates that match final bills. [Get your free estimate](../../free-estimate/index.html) today!
 
 ‍

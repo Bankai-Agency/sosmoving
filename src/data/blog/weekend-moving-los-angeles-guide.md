@@ -100,7 +100,7 @@ If you must move on weekend, minimize the premium:
 
 **Take one strategic day off:**Wednesday or Thursday moves save most money. One PTO day often costs less than weekend premium. Easier to coordinate all services. Better experience overall with less stress.
 
-**Split the move:**Move essentials after work Friday. Complete move Saturday morning only. Reduces weekend hours needed. [Local movers](../../local-movers/index.html) can handle partial moves.
+**Split the move:**Move essentials after work Friday. Complete move Saturday morning only. Reduces weekend hours needed. [Local movers](/services/local-moving) can handle partial moves.
 
 **Negotiate work flexibility:**Ask for late start after morning move. Work from home during move week. Comp time instead of weekend move. Some employers offer moving days.
 

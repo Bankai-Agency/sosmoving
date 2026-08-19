@@ -1,5 +1,6 @@
 ---
 slug: "commercial-movers-los-angeles-office-relocation"
+draft: true
 title: "Commercial Movers Los Angeles"
 metaDescription: "Professional commercial moving in LA. Offices, retail, warehouses relocated with minimal downtime. Weekend and after-hours available!"
 featuredImage: "/images/blog/6911c73dae6c034acebe4183_commercial-movers-los-angeles-office-relocation-img.jpg"

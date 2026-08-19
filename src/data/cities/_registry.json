@@ -176,15 +176,7 @@
     "parentSlug": null
   },
   {
-    "slug": "local-movers",
-    "parentSlug": null
-  },
-  {
     "slug": "long-beach-movers",
-    "parentSlug": null
-  },
-  {
-    "slug": "los-angeles-movers",
     "parentSlug": null
   },
   {
@@ -281,10 +273,6 @@
   },
   {
     "slug": "movers-pico-rivera",
-    "parentSlug": null
-  },
-  {
-    "slug": "movers-seattle",
     "parentSlug": null
   },
   {
@@ -465,10 +453,6 @@
   },
   {
     "slug": "yorba-linda-movers",
-    "parentSlug": null
-  },
-  {
-    "slug": "moving-services",
     "parentSlug": null
   }
 ]

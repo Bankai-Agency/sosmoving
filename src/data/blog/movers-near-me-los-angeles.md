@@ -1,5 +1,6 @@
 ---
 slug: "movers-near-me-los-angeles"
+draft: true
 title: "Movers Near Me Los Angeles"
 metaDescription: "Find trusted movers near your LA location. Service all neighborhoods, fast response, free quotes. Your local moving experts!"
 featuredImage: "/images/blog/68ff644d173671f42a60a6e8_movers-near-me-los-angeles-img.jpg"

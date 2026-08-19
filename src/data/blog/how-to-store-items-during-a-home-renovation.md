@@ -18,7 +18,7 @@ Are you wondering how to store items during a home renovation? [SOS Moving and S
 
 ## Where to store items during a home renovation?
 
-If you’re not sure where to store items during a home renovation** the obvious answer is in the fridge**. Here we can apply the rule “the more sensitive the food is, the lower it should be”. Sometimes though, this can be challenging. Many [moving companies West Los Angeles](https://sosmovingla.net/los-angeles-movers/) have a quite busy relocating schedule. In this way, you may end up not really having time to renovate as much as you want… Let alone think about the proper way to store your food. Still, there are some basic rules to follow.
+If you’re not sure where to store items during a home renovation** the obvious answer is in the fridge**. Here we can apply the rule “the more sensitive the food is, the lower it should be”. Sometimes though, this can be challenging. Many [moving companies West Los Angeles](/la-movers) have a quite busy relocating schedule. In this way, you may end up not really having time to renovate as much as you want… Let alone think about the proper way to store your food. Still, there are some basic rules to follow.
 ![family trying to store items during a home renovation](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d9792287046e5bf412_man-couple-love-people-4568697-e1609956219199.jpeg)*If you’re not sure where to store items during a home renovation the obvious answer is in the fridge.*
 ## How to store your food during a renovation?
 

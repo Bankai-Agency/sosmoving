@@ -20,7 +20,7 @@ Inglewood is experiencing the fastest transformation in Los Angeles. The $5 bill
 
 Two Inglewoods exist simultaneously. The new Inglewood centers on SoFi Stadium, attracting tech workers, young professionals, and investors betting on appreciation. Luxury apartments rise monthly with rents approaching [Culver City](../../culver-city-movers/index.html) levels. The Forum reopened for concerts, bringing nightlife energy. Restaurants and coffee shops multiply targeting newcomers.
 
-Historic Inglewood maintains working-class character in residential pockets. Families who've lived here generations fight displacement. Local businesses struggle with rising rents. Community organizations work preserving culture while neighborhood transforms around them. This tension defines modern Inglewood—progress for some means loss for others.
+Historic Inglewood maintains working-class character in residential pockets. Our [Inglewood movers](/inglewood-movers) work both sides of this divide every week. Families who've lived here generations fight displacement. Local businesses struggle with rising rents. Community organizations work preserving culture while neighborhood transforms around them. This tension defines modern Inglewood—progress for some means loss for others.
 
 ## Current Housing Market Reality
 
@@ -80,6 +80,6 @@ Moving to Inglewood means joining a neighborhood mid-transformation. You're not 
 
 Consider your role in this transformation. Are you contributing to community or just consuming location? Can you respect existing culture while participating in change? These questions matter more in Inglewood than most LA neighborhoods.
 
-**Planning your move to Inglewood?** [Contact SOS Moving](../../about-us/contact-us/index.html) at 909-443-0004. We serve all Inglewood areas from downtown to Morningside Park. Our teams understand the community's complexity and handle every move with professionalism. Whether you're a long-term resident relocating or newcomer arriving, we provide respectful, efficient service during Inglewood's dramatic transformation.
+**Planning your move to Inglewood?** [Contact SOS Moving](../../about-us/contact-us/index.html) at 909-443-0004. Our [Inglewood moving company](/inglewood-movers) serves all areas from downtown to Morningside Park. Our teams understand the community's complexity and handle every move with professionalism. Whether you're a long-term resident relocating or newcomer arriving, we provide respectful, efficient service during Inglewood's dramatic transformation.
 
 ‍

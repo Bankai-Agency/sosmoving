@@ -18,9 +18,9 @@ When it comes to some of the most instagrammable places in LA, you have a lot of
 
 ## Some of the most instagrammable places in LA
 
-There are some really amazing places you can find in Los Angeles. Our top recommendation is to visit the Santa Monica Pier there. **It is definitely a really amazing landmark you should not miss if you ever visit LA.** The finest [movers downtown Los Angeles](https://sosmovingla.net/los-angeles-movers/) offers can help you relocate there. Simply give them a call!
+There are some really amazing places you can find in Los Angeles. Our top recommendation is to visit the Santa Monica Pier there. **It is definitely a really amazing landmark you should not miss if you ever visit LA.** The finest [movers downtown Los Angeles](/la-movers) offers can help you relocate there. Simply give them a call!
 ![Hollywood sign](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d97922876f905bf256_P1-2-e1632078514183.jpeg)*Hollywood sign in LA*
-Another worthy mention is definitely Beverly Hills! Who wouldn’t want to live there? It is one of the most famous places in the USA, not only in LA. The finest [Beverly Hills movers](https://sosmovingla.net/los-angeles-movers/) will take you there without any issues at all. Talk to them about your relocation. **Once you visit, you will never want to go back!**
+Another worthy mention is definitely Beverly Hills! Who wouldn’t want to live there? It is one of the most famous places in the USA, not only in LA. The finest [Beverly Hills movers](/la-movers) will take you there without any issues at all. Talk to them about your relocation. **Once you visit, you will never want to go back!**
 
 Rodeo Drive is also a really worthy mention as well. It is one of the most famous landmarks in LA, and you should definitely try to snap a photo there for Instagram.** After all, it is one of the best-looking places you will ever find in Los Angeles.** Think about this one before you go there. It will be worth your time! Your [Los Angeles apartment movers](https://sosmovingla.net/services/apartment-movers/) will be more than happy to tell you all about it!
 

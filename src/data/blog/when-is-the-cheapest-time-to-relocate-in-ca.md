@@ -24,7 +24,7 @@ However, today, this is not what we are going to focus on. Today, the **time of 
 
 ## Time of the year when it is the cheapest time to relocate in CA
 
-Seasonality is something that is great for all of us who are looking for help with moving. This way, we get to choose when we are going to move. Consequently, this means that we are going to be **moving on our own terms** regardless of the conditions that [movers West Los Angeles](https://sosmovingla.net/los-angeles-movers/) are going to set. So, when is it best to move:
+Seasonality is something that is great for all of us who are looking for help with moving. This way, we get to choose when we are going to move. Consequently, this means that we are going to be **moving on our own terms** regardless of the conditions that [movers West Los Angeles](/la-movers) are going to set. So, when is it best to move:
 
 - Summer?- Spring?- Autumn?- Winter?
 

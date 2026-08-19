@@ -46,7 +46,7 @@ Before comparing companies, understand the minimum requirements for legal operat
 
 **SOS Moving** (That's us!)
 
-- Service area: All LA County, Orange County, interstate to West Coast- Specialties: [Local moves](../../local-movers/index.html), [long-distance](../../services/long-distance-movers/index.html), [white glove service](../../services/white-glove-movers/index.html)- Pricing: Transparent flat rates from $119/hour (2 movers)- Includes: All materials, professional wrapping, no hidden fees- Best for: Value-conscious families, apartment moves, last-minute relocations- [Get instant quote](../../free-estimate/index.html)
+- Service area: All LA County, Orange County, interstate to West Coast- Specialties: [Local moves](/services/local-moving), [long-distance](../../services/long-distance-movers/index.html), [white glove service](../../services/white-glove-movers/index.html)- Pricing: Transparent flat rates from $119/hour (2 movers)- Includes: All materials, professional wrapping, no hidden fees- Best for: Value-conscious families, apartment moves, last-minute relocations- [Get instant quote](../../free-estimate/index.html)
 
 **Pure Movers**
 

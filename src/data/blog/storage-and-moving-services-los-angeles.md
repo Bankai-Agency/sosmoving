@@ -1,5 +1,6 @@
 ---
 slug: "storage-and-moving-services-los-angeles"
+draft: true
 title: "Storage and Moving Los Angeles"
 metaDescription: "Combined storage and moving services in LA. Short-term, long-term, climate-controlled options. One company, complete solution. Free quotes!"
 featuredImage: "/images/blog/68ff689832efe2e47fbd8279_storage-and-moving-services-los-angeles-img.jpg"

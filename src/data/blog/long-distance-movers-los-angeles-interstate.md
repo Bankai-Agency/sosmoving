@@ -1,5 +1,6 @@
 ---
 slug: "long-distance-movers-los-angeles-interstate"
+draft: true
 title: "Long Distance Movers Los Angeles"
 metaDescription: "Professional long distance moving from LA. Cross-country relocations, guaranteed delivery dates, full insurance. Free interstate quotes!"
 featuredImage: "/images/blog/68ff683197d9c65fa21f31f4_long-distance-movers-los-angeles-interstate-img.jpg"
@@ -130,7 +131,7 @@ Sometimes storage becomes necessary:
 
 We're licensed for interstate operations with perfect safety records. Direct employees, not contractors, handle your belongings throughout. Transparent pricing without hidden surprises. Regular routes mean faster delivery. Storage options available both ends.
 
-From [Los Angeles](../../los-angeles-movers/index.html) to anywhere in America, we manage your long distance relocation professionally. No subcontracting, no surprises, just professional interstate moving services.
+From [Los Angeles](/la-movers) to anywhere in America, we manage your long distance relocation professionally. No subcontracting, no surprises, just professional interstate moving services.
 
 **Planning your long distance move from LA?** Contact SOS Moving at 909-443-0004 for detailed interstate moving consultation. We provide accurate estimates, realistic timelines, and professional service for your cross-country relocation. From [California to Florida](../california-to-florida-moving-guide/index.html) or anywhere between, trust your long distance move to experienced professionals. [Get your free long distance quote](../../free-estimate/index.html) today.
 

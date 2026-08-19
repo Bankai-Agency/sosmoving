@@ -134,6 +134,6 @@ Every move matters, regardless of size. The antique dresser from grandma deserve
 
 SOS Moving treats small moves with full professionalism because we understand their importance exceeds their size. No job too small means exactly that—professional moving services scaled appropriately, never compromised.
 
-**Need a small move?** Call SOS Moving at 909-443-0004 for professional small move services throughout Los Angeles. From single [furniture pieces](../furniture-movers-los-angeles/index.html) to [studio apartments](../apartment-movers-los-angeles/index.html), we handle small moves with big professionalism. No excessive minimums, no compromised service. [Get your small move quote](../../free-estimate/index.html) today—every move matters to us.
+**Need a small move?** Call SOS Moving at 909-443-0004 for professional small move services throughout Los Angeles. From single [furniture pieces](../furniture-movers-los-angeles/index.html) to [studio apartments](/services/apartment-movers), we handle small moves with big professionalism. No excessive minimums, no compromised service. [Get your small move quote](../../free-estimate/index.html) today—every move matters to us.
 
 ‍

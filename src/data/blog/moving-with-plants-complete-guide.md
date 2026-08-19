@@ -56,7 +56,7 @@ Professional movers handle plants differently than furniture because living thin
 
 ## DIY Transport vs Professional Moving
 
-**What SOS Moving can do:**Load properly packed plants last for first unloading. Ensure plants travel in climate-controlled cab when possible. Handle with extra care understanding their fragility. Coordinate timing to minimize transport duration. Our [local moving services](../../local-movers/index.html) include plant transport within LA County.
+**What SOS Moving can do:**Load properly packed plants last for first unloading. Ensure plants travel in climate-controlled cab when possible. Handle with extra care understanding their fragility. Coordinate timing to minimize transport duration. Our [local moving services](/services/local-moving) include plant transport within LA County.
 
 **What we cannot do:**Guarantee plant survival (living things are unpredictable). Transport plants interstate due to regulations. Provide special climate control in cargo area. Take responsibility for rare or valuable specimens. Store plants in our facilities.
 
@@ -98,7 +98,7 @@ Plants often show stress symptoms even with perfect moving. Yellowing leaves, dr
 
 ## The Bottom Line on Moving Plants
 
-Moving plants successfully requires planning, proper techniques, and realistic expectations. While SOS Moving handles plants with extra care during [local LA moves](../../los-angeles-movers/index.html), the safest option for treasured specimens remains personal transport. For interstate moves, regulations often make plant transport impossible, requiring creative solutions or difficult decisions.
+Moving plants successfully requires planning, proper techniques, and realistic expectations. While SOS Moving handles plants with extra care during [local LA moves](/la-movers), the safest option for treasured specimens remains personal transport. For interstate moves, regulations often make plant transport impossible, requiring creative solutions or difficult decisions.
 
 Most plants are surprisingly resilient and recover from moving stress with proper care. The keys are minimizing transport time, maintaining stable temperatures, and providing appropriate recovery conditions. Whether moving from [Downtown LA](../../movers-downtown-los-angeles/index.html) to the [Valley](../../san-fernando-valley-movers/index.html) or across town in [Glendale](../../los-angeles-movers/glendale-movers/index.html), your green friends can successfully make the journey with proper preparation.
 

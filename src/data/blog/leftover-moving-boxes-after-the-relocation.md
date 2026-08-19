@@ -20,7 +20,7 @@ Finally, the whole process of relocation is over. Your [SOS Moving and Storage](
 
 In case you are planning on relocating soon,* you are going to need the moving boxes.* So, instead of throwing them away, put them in your basement or in the attic. They will be in a safe place and they will not be damaged. Also, this is something you should do if you need boxes for storage.
 ![Two leftover moving boxes after the relocation](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d97922872a125bf3bf_pexels-karolina-grabowska-4498124-e1608248425558.jpeg)*What you can do with leftover boxes is to reuse them*
-They are quite useful, especially for **storing your winter or summer clothes**. Yet another reason why you should keep them is if someone close to you is planning to relocate soon. Give them your moving supplies and let them know that the most reliable [local movers Los Angeles](https://sosmovingla.net/los-angeles-movers/) can offer are at their disposal.
+They are quite useful, especially for **storing your winter or summer clothes**. Yet another reason why you should keep them is if someone close to you is planning to relocate soon. Give them your moving supplies and let them know that the most reliable [local movers Los Angeles](/la-movers) can offer are at their disposal.
 
 ## What you can also do with leftover moving boxes after the relocation is to recycle them
 

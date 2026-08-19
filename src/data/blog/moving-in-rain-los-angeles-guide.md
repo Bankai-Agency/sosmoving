@@ -98,6 +98,6 @@ Rain doesn't have to ruin your moving plans, but it requires adjustment and prep
 
 If you have flexibility, waiting for clear weather is obviously easier. But LA's housing market, leases, and life don't always accommodate weather delays. When rain is unavoidable, preparation and professional help make the difference between disaster and minor inconvenience.
 
-**Concerned about rain for your upcoming move?** [Contact SOS Moving](../../about-us/contact-us/index.html) at 909-443-0004 to discuss weather contingencies. We'll honestly assess conditions and provide options—whether that's proceeding with protection protocols or rescheduling for safety. Our experienced crews have handled everything from drizzles to downpours across [Los Angeles County](../../los-angeles-movers/index.html). Let our expertise keep your belongings dry and your move on track, whatever the weather brings.
+**Concerned about rain for your upcoming move?** [Contact SOS Moving](../../about-us/contact-us/index.html) at 909-443-0004 to discuss weather contingencies. We'll honestly assess conditions and provide options—whether that's proceeding with protection protocols or rescheduling for safety. Our experienced crews have handled everything from drizzles to downpours across [Los Angeles County](/la-movers). Let our expertise keep your belongings dry and your move on track, whatever the weather brings.
 
 ‍

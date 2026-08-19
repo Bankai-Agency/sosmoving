@@ -122,6 +122,6 @@ California to Florida represents lifestyle choice, not just geographic change. Y
 
 Success requires embracing differences rather than seeking California replicas. Florida offers its own advantages—appreciate them rather than comparing constantly.
 
-**Ready for your cross-country move?** [Contact SOS Moving](../../about-us/contact-us/index.html) at 909-443-0004 for professional interstate moving services. We handle California to Florida relocations regularly, understanding both states' requirements. From [Los Angeles](../../los-angeles-movers/index.html) to Miami or [San Francisco](../../services/long-distance-movers/index.html) to Orlando, we manage your coast-to-coast transition professionally. Let us handle logistics while you prepare for your new Florida lifestyle.
+**Ready for your cross-country move?** [Contact SOS Moving](../../about-us/contact-us/index.html) at 909-443-0004 for professional interstate moving services. We handle California to Florida relocations regularly, understanding both states' requirements. From [Los Angeles](/la-movers) to Miami or [San Francisco](../../services/long-distance-movers/index.html) to Orlando, we manage your coast-to-coast transition professionally. Let us handle logistics while you prepare for your new Florida lifestyle.
 
 ‍

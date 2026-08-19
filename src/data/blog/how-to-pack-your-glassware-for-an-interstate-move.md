@@ -32,7 +32,7 @@ When it comes to packing your items, there’s always the dilemma: should I use 
 ![pack your glassware in the box](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d97922873f295bf430_pexels-photo-4498152-e1608673756633.jpeg)*Plastic boxes are more secure – invest in them if your finances allow you.*
 ### Don’t hold out on bubble wrap when you pack your glassware
 
-Many of the [moving companies West Los Angeles](https://sosmovingla.net/los-angeles-movers/) offer packing and moving services for fragile items. If you don’t feel like you can devote yourself fully to the process, it’s better to delegate it to professionals.
+Many of the [moving companies West Los Angeles](/la-movers) offer packing and moving services for fragile items. If you don’t feel like you can devote yourself fully to the process, it’s better to delegate it to professionals.
 
 When you’ve got the boxes and the rest of the packing material ready,  you have to wrap your items.
 
