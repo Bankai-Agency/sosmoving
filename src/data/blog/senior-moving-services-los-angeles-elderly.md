@@ -62,9 +62,9 @@ Moving at any age challenges us, but senior relocations involve layers of comple
 
 **Popular transitions:**
 
-**Active senior communities:**[Leisure World Seal Beach](../../services/long-distance-movers/index.html): 9,000 residents, golf-cart community. [Panorama City](../../san-fernando-valley-movers/index.html): Valley location, full amenities. Various beach communities: Maintaining coastal lifestyle.
+**Active senior communities:**[Leisure World Seal Beach](/services/long-distance-movers): 9,000 residents, golf-cart community. [Panorama City](/san-fernando-valley-movers): Valley location, full amenities. Various beach communities: Maintaining coastal lifestyle.
 
-**Assisted living concentrations:**[Woodland Hills](../../san-fernando-valley-movers/index.html): Multiple facilities. [Pasadena](../../los-angeles-movers/pasadena-movers/index.html): Established communities. [West LA](../../west-los-angeles-movers/index.html): Near medical centers. [South Bay](../../manhattan-beach-movers/index.html): Family proximity.
+**Assisted living concentrations:**[Woodland Hills](/san-fernando-valley-movers): Multiple facilities. [Pasadena](/los-angeles-movers/pasadena-movers): Established communities. [West LA](/west-los-angeles-movers): Near medical centers. [South Bay](/manhattan-beach-movers): Family proximity.
 
 **Continuing care retirement:**Full spectrum available. Independent to skilled nursing. Expensive but comprehensive. Waiting lists common. Planning essential early.
 
@@ -136,6 +136,6 @@ Every senior deserves respect, dignity, and compassion during transitions. Forty
 
 Moving seniors requires seeing beyond boxes to humans experiencing profound change. Our role combines professional service with human understanding.
 
-**Planning a senior move?** Contact SOS Moving at 909-443-0004 for compassionate senior moving services throughout Los Angeles. We provide patience, respect, and professional care for elderly transitions. From [downsizing family homes](../../services/packing-services/index.html) to [assisted living moves](../../services/apartment-movers/index.html), we handle senior relocations with dignity. [Get your free senior moving consultation](../../free-estimate/index.html) today.
+**Planning a senior move?** Contact SOS Moving at 909-443-0004 for compassionate senior moving services throughout Los Angeles. We provide patience, respect, and professional care for elderly transitions. From [downsizing family homes](/services/packing-services) to [assisted living moves](/services/apartment-movers), we handle senior relocations with dignity. [Get your free senior moving consultation](/free-estimate) today.
 
 ‍

@@ -14,11 +14,11 @@ author:
   photo: ""
 ---
 
-Simply put, moving is not cheap. Whatever you are doing a DIY or with [moving companies in California](https://sosmovingla.net/), you will have to spend a considerable amount of money. The move requires packing supplies, manpower, fuel, and other countless things. In most cases, people don’t have an unlimited budget for moving. In other words, everyone wants to save so money if it is possible. You probably also have the same idea of saving money when you need to move. However, the problem is where you should cut moving expenses for your California move. When you start planning a move everything seems important, from packing supplies, moving trucks to professional movers. It’s not easy to decide where you should cut your expenses. For this reason, here are a few tips on how to **save money when moving**.
+Simply put, moving is not cheap. Whatever you are doing a DIY or with [moving companies in California](/), you will have to spend a considerable amount of money. The move requires packing supplies, manpower, fuel, and other countless things. In most cases, people don’t have an unlimited budget for moving. In other words, everyone wants to save so money if it is possible. You probably also have the same idea of saving money when you need to move. However, the problem is where you should cut moving expenses for your California move. When you start planning a move everything seems important, from packing supplies, moving trucks to professional movers. It’s not easy to decide where you should cut your expenses. For this reason, here are a few tips on how to **save money when moving**.
 
 ## How should you cut moving expenses for your California move?
 
-When you are planning a move, you will see that moving supplies are not cheap. In fact, if you want to buy new packing supplies from moving companies or online,* it will cost you a pretty penny*. For this reason, you should use [leftover moving boxes](https://sosmovingla.net/leftover-moving-boxes-after-the-relocation/) from the previous relocation. If it’s your first move, try getting moving boxes from the following places.
+When you are planning a move, you will see that moving supplies are not cheap. In fact, if you want to buy new packing supplies from moving companies or online,* it will cost you a pretty penny*. For this reason, you should use [leftover moving boxes](/blog/leftover-moving-boxes-after-the-relocation) from the previous relocation. If it’s your first move, try getting moving boxes from the following places.
 ![two yellow chairs](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d979228770ad5bf373_jasmijn-jansen-xhdy9C7Sf2Q-unsplash-1-1.jpeg)*Declutter your home before your relocation*
 - Various stores- Online- Community groups- Friends- Family
 
@@ -26,9 +26,9 @@ However, before you start searching for packing supplies, you should determine t
 
 ## Get help from your family and friends
 
-If you don’t want to use [packing services Los Angeles](https://sosmovingla.net/services/packing-services/) because you are on a tight budget, you can find other options. First, you should *ask your family and friends* to help you to pack your items. If you are planning to do the packing by yourself, it will take you a very long time and, in the end, you will only be stressed and tired. Even if your friends are not professional movers, their help is more than welcome.
+If you don’t want to use [packing services Los Angeles](/services/packing-services) because you are on a tight budget, you can find other options. First, you should *ask your family and friends* to help you to pack your items. If you are planning to do the packing by yourself, it will take you a very long time and, in the end, you will only be stressed and tired. Even if your friends are not professional movers, their help is more than welcome.
 
-A great way to cut expenses is to choose a [moving date in the off-peak season](https://sosmovingla.net/tips-on-moving-in-the-off-peak-season/). The peak season for movers is the summer, generally, **months from June to August**. The reason behind this popularity of these months would be people usually having time off work and kids are on school break. For this reason, you should avoid summer, weekends, and the middle of the months.
+A great way to cut expenses is to choose a [moving date in the off-peak season](/blog/tips-on-moving-in-the-off-peak-season). The peak season for movers is the summer, generally, **months from June to August**. The reason behind this popularity of these months would be people usually having time off work and kids are on school break. For this reason, you should avoid summer, weekends, and the middle of the months.
 ![friends trying to cut moving expenses for your California move](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d97922873dc85bf36e_felix-rostig-UmV2wr-Vbq8-unsplash-1-1.jpeg)*You ask your friends and family members to help you*
 ## Don’t hire the first moving company you encounter
 

@@ -58,7 +58,7 @@ Living in Los Angeles comes with a high price tag, so if you’re moving to the 
 
 The overall cost of living in the city is 43% above the usual national average, so it means that moving with no money is a big NO. To live in Los Angeles without any financial burden, you must make nearly $75,000 a year in salary, and if you have a big family, consider an even higher income bracket than this.
 
-If you’re [relocating to LA on a budget](https://sosmovingla.net/blog/tips-on-how-to-move-to-los-angeles-on-a-budget/), make sure to minimize your moving cost to use those savings to cover the initial expenses for surviving in LA.
+If you’re [relocating to LA on a budget](/blog/tips-on-how-to-move-to-los-angeles-on-a-budget), make sure to minimize your moving cost to use those savings to cover the initial expenses for surviving in LA.
 
 ## 6. Hard to Get a Job
 
@@ -68,7 +68,7 @@ Applying for jobs and being present in-person for interviews might give you an a
 
 Over 500 booming technology companies are present in LA, which means that if you have a shining resume and are willing to work extra hard in the job hunt phase, you may be able to get the job of your dreams.
 
-If you’re moving to LA while being unemployed, make sure to accurately calculate the [cost of moving in Los Angeles](https://sosmovingla.net/blog/average-cost-of-moving-in-los-angeles/) before taking the leap.
+If you’re moving to LA while being unemployed, make sure to accurately calculate the [cost of moving in Los Angeles](/blog/average-cost-of-moving-in-los-angeles) before taking the leap.
 ![Expect Lots of Traffic](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d97922877f4e5bf207_la-traffic.png)
 ## 7. Expect Lots of Traffic
 
@@ -88,13 +88,13 @@ The city has a very high vehicle density, which makes it difficult to find safe 
 
 Relocating comes with a lot of challenges, but it can be relatively easy if you have it all planned ahead of time. If you’re considering moving to LA, you must weigh the pros and cons of living in Los Angeles, from finding the right apartment and job to the cost of living and even the gruesome traffic situation of the city.
 
-The cost of moving to Los Angeles may be higher than other states in the US, but it is definitely on the lower side compared to the [cost of moving to San Francisco from LA](https://sosmovingla.net/blog/how-much-does-it-cost-to-move-from-la-to-san-francisco/). Once you’ve decided to call the city of angels your new home, we hope that this guide on how to move to LA will help you with settling in your dream home.
+The cost of moving to Los Angeles may be higher than other states in the US, but it is definitely on the lower side compared to the [cost of moving to San Francisco from LA](/blog/how-much-does-it-cost-to-move-from-la-to-san-francisco). Once you’ve decided to call the city of angels your new home, we hope that this guide on how to move to LA will help you with settling in your dream home.
 
 {separator}
 
 Relocating comes with a lot of challenges, but it can be relatively easy if you have it all planned ahead of time. If you’re considering moving to LA, you must weigh the pros and cons of living in Los Angeles, from finding the right apartment and job to the cost of living and even the gruesome traffic situation of the city.
 
-The cost of moving to Los Angeles may be higher than other states in the US, but it is definitely on the lower side compared to the [cost of moving to San Francisco from LA](https://sosmovingla.net/blog/how-much-does-it-cost-to-move-from-la-to-san-francisco/). Once you’ve decided to call the city of angels your new home, we hope that this guide on how to move to LA will help you with settling in your dream home.
+The cost of moving to Los Angeles may be higher than other states in the US, but it is definitely on the lower side compared to the [cost of moving to San Francisco from LA](/blog/how-much-does-it-cost-to-move-from-la-to-san-francisco). Once you’ve decided to call the city of angels your new home, we hope that this guide on how to move to LA will help you with settling in your dream home.
 
 ‍
 

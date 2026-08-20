@@ -14,7 +14,7 @@ author:
   photo: ""
 ---
 
-Thousands of Californians move to Texas monthly, with Los Angeles to Austin being the most popular route. As experienced [long-distance movers](../../services/long-distance-movers/index.html), SOS Moving has perfected this 1,400-mile journey. Here's what you need to know.
+Thousands of Californians move to Texas monthly, with Los Angeles to Austin being the most popular route. As experienced [long-distance movers](/services/long-distance-movers), SOS Moving has perfected this 1,400-mile journey. Here's what you need to know.
 
 ## Real Moving Costs: California to Texas
 
@@ -90,7 +90,7 @@ Ready to join the California exodus to Texas? SOS Moving specializes in this exa
 
 **Get started today:**
 
-- [Free online estimate](../../free-estimate/index.html)- Call for instant quote- [Professional packing services](../../services/packing-services/index.html) available- [Storage solutions](../../services/storage/index.html) in both states
+- [Free online estimate](/free-estimate)- Call for instant quote- [Professional packing services](/services/packing-services) available- [Storage solutions](/services/storage) in both states
 
 Moving from California to Texas is a big decision, but with proper planning and the right moving company, it's completely manageable. Let SOS Moving handle the logistics while you focus on your exciting new chapter in Texas.
 

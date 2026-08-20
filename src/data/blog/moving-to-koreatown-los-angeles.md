@@ -66,7 +66,7 @@ Strategies for survival: Get residential permit immediately. Never expect street
 
 **Building types affect moving difficulty:**High-rises require elevator reservations and certificates of insurance. Older buildings have narrow stairs and no elevators. Street parking for moving trucks extremely limited. Many buildings restrict weekend moves.
 
-**Typical moving costs to K-town:**From [Downtown LA](../../movers-downtown-los-angeles/index.html): $400-600From [West LA](../../west-los-angeles-movers/index.html): $600-900From [Valley](../../san-fernando-valley-movers/index.html): $700-1,000From [Beach cities](../../manhattan-beach-movers/index.html): $800-1,200
+**Typical moving costs to K-town:**From [Downtown LA](/movers-downtown-los-angeles): $400-600From [West LA](/west-los-angeles-movers): $600-900From [Valley](/san-fernando-valley-movers): $700-1,000From [Beach cities](/manhattan-beach-movers): $800-1,200
 
 **Peak moving times:** Avoid month-end when everyone moves simultaneously. University semester changes bring student floods. Korean holidays affect commercial availability. Lunar New Year particularly busy.
 
@@ -90,6 +90,6 @@ Koreatown offers authentic urban living at (relatively) reasonable prices. You s
 
 Success requires adjusting expectations: Your apartment will be smaller. Parking will frustrate you. Noise will surround you. But you'll eat better, spend less, and experience more than almost anywhere else in LA. The tradeoffs work for those prioritizing experience over space.
 
-**Ready to join Koreatown's energy?** [Contact SOS Moving](../../about-us/contact-us/index.html) at 909-443-0004 for your K-town relocation. We know every building's quirks, from [Wilshire](../moving-to-wilshire-district/index.html) high-rises to side-street apartments. Our experienced crews navigate K-town's parking challenges and building requirements daily. Whether you're drawn to Korean BBQ, central location, or affordable housing, we'll get you settled in LA's most dynamic neighborhood.
+**Ready to join Koreatown's energy?** [Contact SOS Moving](/about-us/contact-us) at 909-443-0004 for your K-town relocation. We know every building's quirks, from [Wilshire](/moving-to-wilshire-district) high-rises to side-street apartments. Our experienced crews navigate K-town's parking challenges and building requirements daily. Whether you're drawn to Korean BBQ, central location, or affordable housing, we'll get you settled in LA's most dynamic neighborhood.
 
 ‍

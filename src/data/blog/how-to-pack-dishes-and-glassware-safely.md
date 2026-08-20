@@ -60,7 +60,7 @@ The top layer needs another two inches of crumpled paper before you close the bo
 
 Seal the box with tape across the center seam and both edges. Write "FRAGILE — KITCHEN" on the top and at least two sides. Mark which end is up. Movers and helpful friends who carry boxes from the truck can't read labels that only appear on the top when the box is already upside down.
 ![](../../assets/cdn/645ab1d97922878b6f5bef7f/6998855f260ddf300069f57d_how-to-pack-dishes-and-glassware-safely.png)
-**Don't want to risk your grandmother's china?** SOS Moving's professional packing team wraps every dish, glass, and fragile item with the same care we'd give our own. Full packing service starts at $119/hour weekdays. Call [909-443-0004](tel:9094430004) or [get your free estimate](../../free-estimate/index.html).
+**Don't want to risk your grandmother's china?** SOS Moving's professional packing team wraps every dish, glass, and fragile item with the same care we'd give our own. Full packing service starts at $119/hour weekdays. Call [909-443-0004](tel:9094430004) or [get your free estimate](/free-estimate).
 
 ## Common Mistakes That Cause Breakage
 
@@ -72,7 +72,7 @@ Wrapping multiple items together without individual wrapping is the second bigge
 
 Laying plates flat instead of standing them on edge costs people their favorite serving platters every moving season. Flat-stacked plates concentrate impact on a single point, and the bottom plate bears the weight of everything above it. Vertical loading distributes force evenly and dramatically reduces breakage.
 
-Using old, weak boxes rounds out the top mistakes. Moving boxes that have already been used once have compromised structural integrity. The bottom of a reused box can give out when lifted, especially with heavy kitchen items inside. New or [high-quality moving boxes](../moving-boxes-complete-guide-sizes-prices-where-to-buy/index.html) are worth the investment for fragile items.
+Using old, weak boxes rounds out the top mistakes. Moving boxes that have already been used once have compromised structural integrity. The bottom of a reused box can give out when lifted, especially with heavy kitchen items inside. New or [high-quality moving boxes](/blog/moving-boxes-complete-guide-sizes-prices-where-to-buy) are worth the investment for fragile items.
 
 ## Special Items: Crystal, China, and Antique Pieces
 
@@ -82,13 +82,13 @@ For crystal, wrap each piece in two layers of bubble wrap after the initial pack
 
 Fine china with gold leaf or hand-painted details needs packing paper rather than newspaper or printed material, as ink can transfer to decorative surfaces. Place a foam sheet or thick layer of tissue between stacked china pieces with raised patterns, since patterns create pressure points that can chip adjacent pieces.
 
-For truly irreplaceable items — antique serving sets, museum-quality porcelain, items with significant appraisal value — consider [custom crating](../custom-crating-for-valuable-items/index.html). A custom-built wooden crate with foam inserts provides protection that no amount of paper wrapping can match. The cost of a custom crate is a fraction of the replacement value of items that cannot actually be replaced.
+For truly irreplaceable items — antique serving sets, museum-quality porcelain, items with significant appraisal value — consider [custom crating](/custom-crating-for-valuable-items). A custom-built wooden crate with foam inserts provides protection that no amount of paper wrapping can match. The cost of a custom crate is a fraction of the replacement value of items that cannot actually be replaced.
 
 ## Professional Packing vs DIY: When to Call In Help
 
 Packing a kitchen yourself is entirely doable if you follow the techniques above and give yourself enough time. A full kitchen with dishes, glasses, pots, and small appliances takes most people four to six hours to pack properly. Rush that timeline and quality drops — which is exactly when breakage happens.
 
-Professional packing services make sense when your kitchen contains high-value items, when your timeline is tight, or when the sheer volume of fragile items makes DIY impractical. A three-person crew from SOS Moving can professionally pack a full kitchen in under two hours with materials included — [wardrobe boxes](../wardrobe-boxes-worth-the-investment/index.html), dish packs, packing paper, and bubble wrap.
+Professional packing services make sense when your kitchen contains high-value items, when your timeline is tight, or when the sheer volume of fragile items makes DIY impractical. A three-person crew from SOS Moving can professionally pack a full kitchen in under two hours with materials included — [wardrobe boxes](/wardrobe-boxes-worth-the-investment), dish packs, packing paper, and bubble wrap.
 
 The math is straightforward. Professional packing for a kitchen runs approximately $200 to $400 depending on size and complexity. Replacing a set of broken dishes, glasses, and serving pieces after a poorly packed DIY effort can easily exceed $1,000 — plus the irreplaceable sentimental items that no insurance check can restore.
 
@@ -106,4 +106,4 @@ The math is straightforward. Professional packing for a kitchen runs approximate
 
 ## Get Started with Professional Kitchen Packing
 
-SOS Moving's crews pack kitchens every day with zero-breakage standards. We bring all materials — [packing paper](../packing-paper-vs-bubble-wrap-professional-movers-advice/index.html), bubble wrap, dish pack boxes, cell dividers, and tape — so you don't have to shop for supplies or guess quantities. Call [909-443-0004](tel:9094430004) or [request your free estimate](../../free-estimate/index.html) to get your kitchen packed safely by professionals who treat your dishes like their own.
+SOS Moving's crews pack kitchens every day with zero-breakage standards. We bring all materials — [packing paper](/blog/packing-paper-vs-bubble-wrap-professional-movers-advice), bubble wrap, dish pack boxes, cell dividers, and tape — so you don't have to shop for supplies or guess quantities. Call [909-443-0004](tel:9094430004) or [request your free estimate](/free-estimate) to get your kitchen packed safely by professionals who treat your dishes like their own.

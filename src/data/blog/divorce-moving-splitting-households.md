@@ -52,7 +52,7 @@ Alternatively, each person hires their own movers and pays independently. This e
 
 At SOS Moving, our weekday rate starts at $119 per hour for two movers, with a three-hour minimum. A typical divorce move where one person's belongings fill half a two-bedroom apartment takes three to four hours. Weekend rates start at $135 per hour. For two separate moves, you're looking at six to eight total hours versus four to five hours for a coordinated same-day move.
 
-Additional costs that often surprise people during divorce moves include storage. If your new apartment isn't ready yet, or if you're moving to temporary housing while looking for a permanent place, you'll need somewhere to keep your belongings. Short-term [storage solutions](../storage-facility-near-me-climate-controlled-vs-standard-units/index.html) range from $100 to $300 per month depending on unit size, and many people in divorce situations need storage for one to three months during the transition.
+Additional costs that often surprise people during divorce moves include storage. If your new apartment isn't ready yet, or if you're moving to temporary housing while looking for a permanent place, you'll need somewhere to keep your belongings. Short-term [storage solutions](/blog/storage-facility-near-me-climate-controlled-vs-standard-units) range from $100 to $300 per month depending on unit size, and many people in divorce situations need storage for one to three months during the transition.
 
 ## What Movers Need to Know
 
@@ -66,7 +66,7 @@ At SOS Moving, our crews approach every move with professionalism and discretion
 
 If children are involved, consider scheduling the move while they're at school or with a relative. Watching a home being physically divided is difficult for adults — for children, it can be overwhelming. Protecting them from the logistics of the move is a kindness that both parents can usually agree on.
 ![](../../assets/cdn/645ab1d97922878b6f5bef7f/699eb99c3f86e84bad76437c_divorce-moving-splitting-households.png)
-**Need a discreet, professional move?** SOS Moving handles sensitive relocations with the same care and confidentiality we bring to every job. No judgment, no drama — just professional service. Call [909-443-0004](tel:9094430004) or [get your free estimate](../../free-estimate/index.html).
+**Need a discreet, professional move?** SOS Moving handles sensitive relocations with the same care and confidentiality we bring to every job. No judgment, no drama — just professional service. Call [909-443-0004](tel:9094430004) or [get your free estimate](/free-estimate).
 
 ## Downsizing After Divorce
 
@@ -76,7 +76,7 @@ A two-bedroom house that two people shared comfortably becomes two one-bedroom a
 
 Before spending money replacing what you gave up in the split, live in your new space for two to four weeks. What you think you need on day one is different from what you actually need after settling in. The urgency to recreate a fully furnished home immediately is emotional — and the purchases you make under emotional pressure are often things you'd choose differently with a clear head.
 
-Furniture that doesn't fit your new space can be sold, donated, or [stored temporarily](../storage-places-near-me-short-term-vs-long-term-options/index.html) while you figure out what works. A professional moving crew can tell you on-site whether a piece will fit through a specific doorway or up a particular staircase — ask before you pay to ship something that won't work in your new home.
+Furniture that doesn't fit your new space can be sold, donated, or [stored temporarily](/blog/storage-places-near-me-short-term-vs-long-term-options) while you figure out what works. A professional moving crew can tell you on-site whether a piece will fit through a specific doorway or up a particular staircase — ask before you pay to ship something that won't work in your new home.
 
 ## Legal Considerations for the Move
 
@@ -104,6 +104,6 @@ For homeowners, the timing of the move relative to the property sale matters for
 
 ## Get Started with Your Move
 
-SOS Moving handles divorce relocations with professionalism, discretion, and zero judgment. Whether you need a single coordinated move or two separate relocations, our crews focus on getting your belongings to your new home safely and efficiently. Call [909-443-0004](tel:9094430004) or [request your free estimate](../../free-estimate/index.html) to discuss your situation confidentially.
+SOS Moving handles divorce relocations with professionalism, discretion, and zero judgment. Whether you need a single coordinated move or two separate relocations, our crews focus on getting your belongings to your new home safely and efficiently. Call [909-443-0004](tel:9094430004) or [request your free estimate](/free-estimate) to discuss your situation confidentially.
 
 ‍

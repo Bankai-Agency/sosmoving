@@ -22,9 +22,9 @@ At SOS Moving, customers show up with both. Some rent stacks of green plastic bi
 
 Cardboard moving boxes have been the default for a reason: they're cheap, universally available, customizable by size, and disposable when you're done. Every moving company in the country is built around handling cardboard boxes, and the entire infrastructure of loading, stacking, and securing a moving truck is optimized for rectangular cardboard containers.
 
-Cost is cardboard's strongest advantage. New moving boxes from a supply store or your moving company cost $4 to $6 each depending on size — at SOS Moving, we sell small boxes at $4, medium at $5, and large at $6. A full one-bedroom apartment requires roughly twenty to thirty boxes, putting the total investment at $100 to $150. [Free moving boxes](../where-to-get-free-moving-boxes-in-los-angeles/index.html) from liquor stores, grocery stores, and online marketplaces reduce that cost to zero if you're willing to invest the time collecting them.
+Cost is cardboard's strongest advantage. New moving boxes from a supply store or your moving company cost $4 to $6 each depending on size — at SOS Moving, we sell small boxes at $4, medium at $5, and large at $6. A full one-bedroom apartment requires roughly twenty to thirty boxes, putting the total investment at $100 to $150. [Free moving boxes](/blog/where-to-get-free-moving-boxes-in-los-angeles) from liquor stores, grocery stores, and online marketplaces reduce that cost to zero if you're willing to invest the time collecting them.
 
-Cardboard boxes come in standardized sizes designed for specific contents. Small boxes are built for heavy items like books and dishes. Medium boxes handle kitchen items, small appliances, and general household goods. Large boxes are sized for lightweight bulky items like bedding, pillows, and lampshades. Specialty boxes — [wardrobe boxes](../wardrobe-boxes-are-they-worth-the-investment/index.html), dish packs, mirror cartons, TV boxes — protect specific items better than any generic container. This size variety doesn't exist in the plastic bin world.
+Cardboard boxes come in standardized sizes designed for specific contents. Small boxes are built for heavy items like books and dishes. Medium boxes handle kitchen items, small appliances, and general household goods. Large boxes are sized for lightweight bulky items like bedding, pillows, and lampshades. Specialty boxes — [wardrobe boxes](/blog/wardrobe-boxes-are-they-worth-the-investment), dish packs, mirror cartons, TV boxes — protect specific items better than any generic container. This size variety doesn't exist in the plastic bin world.
 
 Truck loading efficiency is higher with cardboard boxes because they're rectangular with flat tops and consistent dimensions. A wall of same-size medium boxes stacks perfectly to the ceiling of a moving truck with no wasted space. Professional movers build these walls daily, and the structural predictability of cardboard boxes is a meaningful loading advantage. At SOS Moving, our crews can load a truck with uniform cardboard boxes roughly twenty percent faster than a mixed load of irregularly shaped containers.
 
@@ -36,7 +36,7 @@ Plastic moving bins address cardboard's weaknesses directly: they don't collapse
 
 Structural integrity is plastic's biggest advantage. A cardboard box packed with heavy items can have its bottom give out if the tape fails, the cardboard gets wet, or the box was previously used and structurally weakened. Plastic bins don't fail this way. A properly rated plastic bin holds its contents regardless of humidity, stacking weight, or handling roughness. For people who've had the experience of a cardboard box bottom giving out and dishes crashing onto a hardwood floor, the switch to plastic is emotional as much as practical.
 
-Waterproofing matters more in Los Angeles than people realize. Rain during the November-to-March wet season turns cardboard into a liability. A [rainy moving day](../moving-day-weather-contingency-plans/index.html) with cardboard boxes means plastic sheeting over every box, taping vulnerable seams, and still risking moisture damage if the rain is heavy enough. Plastic bins are impervious to rain — your belongings stay dry regardless of weather conditions.
+Waterproofing matters more in Los Angeles than people realize. Rain during the November-to-March wet season turns cardboard into a liability. A [rainy moving day](/blog/moving-day-weather-contingency-plans) with cardboard boxes means plastic sheeting over every box, taping vulnerable seams, and still risking moisture damage if the rain is heavy enough. Plastic bins are impervious to rain — your belongings stay dry regardless of weather conditions.
 
 Rental services deliver plastic bins to your door a few days before your move and pick them up from your new address a few days after. The bins come clean, pre-stacked, and ready to pack. After unpacking, you stack them by the door and the service retrieves them. No box shopping, no tape buying, no recycling trips, no flattening dozens of boxes. The convenience factor is significant for people whose time has a high value.
 
@@ -46,7 +46,7 @@ Environmental impact favors plastic bins for people who care about sustainabilit
 
 The cost comparison isn't as straightforward as sticker price versus rental fee. Here's how the numbers actually land for a standard one-bedroom move in Los Angeles.
 
-Cardboard boxes purchased new: twenty-five boxes at an average of $5 each costs $125. Add two rolls of packing tape at $8 each, a marker, and optional packing paper at $55 for 600 sheets. Total materials cost: $150 to $200. If you find [free boxes](../where-to-get-free-moving-boxes-in-los-angeles/index.html), the cost drops to $50 to $75 for tape and paper alone.
+Cardboard boxes purchased new: twenty-five boxes at an average of $5 each costs $125. Add two rolls of packing tape at $8 each, a marker, and optional packing paper at $55 for 600 sheets. Total materials cost: $150 to $200. If you find [free boxes](/blog/where-to-get-free-moving-boxes-in-los-angeles), the cost drops to $50 to $75 for tape and paper alone.
 
 Plastic bin rental: most LA services charge $1.50 to $3.00 per bin per week. Twenty-five bins for two weeks runs $75 to $150. No tape needed — bins have attached lids. No packing paper needed for most items since the rigid walls prevent crushing. Total rental cost: $75 to $150 with no additional supply purchases.
 
@@ -58,16 +58,16 @@ The cost gap widens for larger moves. A three-bedroom house requiring sixty to e
 
 Despite plastic's advantages, cardboard boxes are the better choice in several specific scenarios.
 
-Long-distance and interstate moves favor cardboard because rental bin services are local — they deliver and pick up within a specific metro area. If you're moving from LA to [Phoenix](../la-to-phoenix-moving-desert-relocation-tips/index.html), [Denver](../denver-to-los-angeles-moving-guide/index.html), or [San Francisco](../los-angeles-to-san-francisco-moving-costs/index.html), there's no bin rental company operating across both cities. Cardboard boxes travel with you regardless of distance.
+Long-distance and interstate moves favor cardboard because rental bin services are local — they deliver and pick up within a specific metro area. If you're moving from LA to [Phoenix](/blog/la-to-phoenix-moving-desert-relocation-tips), [Denver](/blog/denver-to-los-angeles-moving-guide), or [San Francisco](/blog/los-angeles-to-san-francisco-moving-costs), there's no bin rental company operating across both cities. Cardboard boxes travel with you regardless of distance.
 
-Moves with [storage](../storage-lockers-near-me-small-apartment-moves/index.html) requirements need containers that stay with your belongings for weeks or months. Plastic bin rentals charge ongoing weekly fees that accumulate quickly during extended storage. A month of bin rental for forty bins costs $240 to $480. The same forty cardboard boxes purchased once cost $200 total with no ongoing fees. For any storage period beyond two weeks, cardboard is more economical.
+Moves with [storage](/storage-lockers-near-me-small-apartment-moves) requirements need containers that stay with your belongings for weeks or months. Plastic bin rentals charge ongoing weekly fees that accumulate quickly during extended storage. A month of bin rental for forty bins costs $240 to $480. The same forty cardboard boxes purchased once cost $200 total with no ongoing fees. For any storage period beyond two weeks, cardboard is more economical.
 
 Specialty packing needs favor cardboard's variety. Wardrobe boxes, dish pack boxes, mirror cartons, and mattress bags don't exist in the plastic bin world. If your move includes a closet full of suits, a collection of fine china, large framed artwork, or king-size mattresses, you need specialty cardboard containers regardless of what you use for general packing.
 
 Tight truck loads work better with cardboard. Uniform rectangular boxes create a dense, stable wall inside the truck. Plastic bins — while stackable — have slightly different dimensions across brands, often have tapered sides for nesting when empty, and include lid flanges that prevent perfectly flush stacking. A truck loaded entirely with matching cardboard boxes uses space more efficiently than the same volume of plastic bins.
 ![](../../assets/cdn/645ab1d97922878b6f5bef7f/69b9335deb35aff8183ca150_plastic-bins-vs-cardboard-boxes-for-moving.jpg)
 
-**Not sure which option fits your move?** SOS Moving works with whatever containers you choose — cardboard, plastic, or a mix. We also sell boxes at $4 to $6 each and include wardrobe boxes free on every job. Call [909-443-0004](tel:9094430004) or [get your free estimate](../../free-estimate/index.html).
+**Not sure which option fits your move?** SOS Moving works with whatever containers you choose — cardboard, plastic, or a mix. We also sell boxes at $4 to $6 each and include wardrobe boxes free on every job. Call [909-443-0004](tel:9094430004) or [get your free estimate](/free-estimate).
 
 ## When Plastic Wins
 
@@ -107,4 +107,4 @@ At SOS Moving, we work with hybrid loads regularly. Our crews adapt loading stra
 
 ## Get Started with Your Move
 
-SOS Moving handles every type of container — cardboard, plastic, mixed, or the creative combination of suitcases, bins, and boxes that most real moves end up being. We sell boxes at $4 to $6 each, include wardrobe boxes free, and bring unlimited shrink wrap and blankets on every job. Call [909-443-0004](tel:9094430004) or [request your free estimate](../../free-estimate/index.html) to book a crew that works with whatever you've packed.
+SOS Moving handles every type of container — cardboard, plastic, mixed, or the creative combination of suitcases, bins, and boxes that most real moves end up being. We sell boxes at $4 to $6 each, include wardrobe boxes free, and bring unlimited shrink wrap and blankets on every job. Call [909-443-0004](tel:9094430004) or [request your free estimate](/free-estimate) to book a crew that works with whatever you've packed.

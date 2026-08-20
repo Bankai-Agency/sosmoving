@@ -68,7 +68,7 @@ Carry as many items as possible with your hands rather than sliding them across 
 
 ### 8. Don’t Drag Furniture
 
-Even if you use materials to protect your floor during a move, do not drag your furniture or any other large bulky items across the floor, no matter what type of flooring you have. It can cause scratches or dents in your hardwood or vinyl flooring, break your tiles, and damage the delicate surfaces of your floor. Be careful when moving large appliances, furniture, [pool tables](https://sosmovingla.net/blog/steps-to-moving-a-pool-table-by-yourself/), and [pianos](https://sosmovingla.net/blog/how-to-move-a-piano-the-right-way/).
+Even if you use materials to protect your floor during a move, do not drag your furniture or any other large bulky items across the floor, no matter what type of flooring you have. It can cause scratches or dents in your hardwood or vinyl flooring, break your tiles, and damage the delicate surfaces of your floor. Be careful when moving large appliances, furniture, [pool tables](/blog/steps-to-moving-a-pool-table-by-yourself), and [pianos](/blog/how-to-move-a-piano-the-right-way).
 
 ### 9. Use Dollies with Rubber Wheels
 
@@ -80,7 +80,7 @@ Furniture sliders are also good to slide and move heavy items safely such as fur
 
 {separator}
 
-Consider floor protection, and if you are going to purchase the special materials mentioned above, include the expenses in your moving budget when planning a move. Don’t risk damaging the beautiful floors in your home. Take all the necessary precautionary measures to keep the floors in a good condition and make your moving process as stress-free as possible. When you are moving into a new place, make sure to [request your movers a COI beforehand](https://sosmovingla.net/blog/certificate-of-insurance-complete-guide/), if the building management requires it.
+Consider floor protection, and if you are going to purchase the special materials mentioned above, include the expenses in your moving budget when planning a move. Don’t risk damaging the beautiful floors in your home. Take all the necessary precautionary measures to keep the floors in a good condition and make your moving process as stress-free as possible. When you are moving into a new place, make sure to [request your movers a COI beforehand](/blog/certificate-of-insurance-complete-guide), if the building management requires it.
 
 To sum up, to protect the floors in your house you should follow these simple steps below:
 

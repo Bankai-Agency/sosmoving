@@ -76,6 +76,6 @@ Whether you choose to relocate yourself, your valuables may be covered by your r
 
 ## The Bottom Line
 
-Hiring a reliable insurance company is essential to ensure the safety of your possessions and a secure move. Hence, it is important that you only select one of the [reputable companies](https://sosmovingla.net/blog/how-to-choose-a-reputable-moving-company/) for moving. To ensure the legitimacy of a moving service, you can [check their certificate of insurance and licenses](https://sosmovingla.net/blog/5-quick-ways-to-check-if-moving-company-is-legitimate/).
+Hiring a reliable insurance company is essential to ensure the safety of your possessions and a secure move. Hence, it is important that you only select one of the [reputable companies](/blog/how-to-choose-a-reputable-moving-company) for moving. To ensure the legitimacy of a moving service, you can [check their certificate of insurance and licenses](/blog/5-quick-ways-to-check-if-a-moving-company-is-legitimate).
 
 ‍

@@ -58,7 +58,7 @@ When moving the piano by yourself, it’s important to look at each aspect of th
 
 Ideally, start by measuring your piano and the skid board. Note these measurements and move onto the doorways, staircases, and hallways. Our moving experts advise you to keep all doors open (even unhinged if needed), floors covered, and all other items off the moving path to avoid damaging your prized piano.
 
-Moving companies also provide a [COI](https://sosmovingla.net/blog/certificate-of-insurance-complete-guide/), that you provide to a building management before you move in. That is helpful in case there occurs any damage to a building you are moving in during relocation.
+Moving companies also provide a [COI](/blog/certificate-of-insurance-complete-guide), that you provide to a building management before you move in. That is helpful in case there occurs any damage to a building you are moving in during relocation.
 
 ### Wear Appropriate Clothing
 
@@ -208,7 +208,7 @@ Moving a piano on the carpet can be a big hassle if the wrong moving technique i
 
 ## How to Move a Piano on Hardwood Floors?
 
-Follow the same tips as moving a piano [on a carpeted floor to move it on a hardwood floor](https://sosmovingla.net/blog/how-to-protect-the-floor-from-scratches-during-a-move/). Some additional tips you can consider:
+Follow the same tips as moving a piano [on a carpeted floor to move it on a hardwood floor](/blog/how-to-protect-the-floor-from-scratches-during-a-move). Some additional tips you can consider:
 
 - Don’t forget to close the lid of your piano and lock it into place;- If the legs of your piano are damaged, be extra cautious or, even better, seek professional help for moving it.- Try to reduce the weight of the piano by disassembling it;- Mop the hardwood floor before starting the moving process. This will provide much-needed surface friction to easily slide the plywood sheets.
 
@@ -332,7 +332,7 @@ You can also resell your piano to the music store you purchased it from. While y
 
 ### Donate It to a Church or School
 
-You can also consider finding a church or school willing to [give your piano a new home](https://sosmovingla.net/blog/complete-guide-to-charity-and-free-donation-pickups/). The only problem here might be a lack of funds on their part to get it transported.
+You can also consider finding a church or school willing to [give your piano a new home](/blog/complete-guide-to-charity-and-free-donation-pickups). The only problem here might be a lack of funds on their part to get it transported.
 
 ### List It On PianoAdoption.com
 

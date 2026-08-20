@@ -50,7 +50,7 @@ Reinforce the bottom of every book box with the H-tape method: one strip across 
 
 For maximum security, add a second layer of tape over the entire H pattern. Six strips of heavy-duty packing tape — three on the first pass, three on the reinforcement — turns a standard box bottom into a surface that holds fifty pounds without flex. The extra thirty seconds of taping per box eliminates the risk of a catastrophic bottom failure during the carry from your apartment to the truck.
 
-New boxes only. This applies to all moving boxes but is critical for book boxes. Used boxes that have been flattened, stored, or previously loaded have compromised structural integrity at the fold lines and seams. A used box that held twenty pounds of kitchen items without issue can fail under thirty-five pounds of books because the cardboard fibers are already weakened. At SOS Moving, we recommend new boxes for every book collection — the [cost of new boxes](../moving-boxes-complete-guide-sizes-prices-where-to-buy/index.html) is trivial compared to the cost of a box failure that dumps your book collection onto concrete.
+New boxes only. This applies to all moving boxes but is critical for book boxes. Used boxes that have been flattened, stored, or previously loaded have compromised structural integrity at the fold lines and seams. A used box that held twenty pounds of kitchen items without issue can fail under thirty-five pounds of books because the cardboard fibers are already weakened. At SOS Moving, we recommend new boxes for every book collection — the [cost of new boxes](/blog/moving-boxes-complete-guide-sizes-prices-where-to-buy) is trivial compared to the cost of a box failure that dumps your book collection onto concrete.
 
 ## Filling Gaps and Preventing Shifting
 
@@ -63,7 +63,7 @@ Don't use other heavy items as gap fillers in book boxes. Filling the top gap wi
 The goal when you seal a book box is zero movement. Shake the sealed box gently. If you hear or feel shifting, open it and add more paper. A properly packed book box feels solid and immovable from the outside — the contents are locked in place by compression and paper fill. This is the standard our crews at SOS Moving check for during loading: a box that rattles or shifts gets opened and repacked before it goes on the truck.
 ![](../../assets/cdn/645ab1d97922878b6f5bef7f/69cd4596311486d06fdabc01_how-to-pack-books-without-breaking-boxes.jpg)
 
-**Got a serious book collection?** SOS Moving crews know how to handle heavy book boxes safely — proper lifting technique, reinforced loading positions, and the experience to keep your library intact. Call [909-443-0004](tel:9094430004) or [get your free estimate](../../free-estimate/index.html).
+**Got a serious book collection?** SOS Moving crews know how to handle heavy book boxes safely — proper lifting technique, reinforced loading positions, and the experience to keep your library intact. Call [909-443-0004](tel:9094430004) or [get your free estimate](/free-estimate).
 
 ## How Many Book Boxes to Expect
 
@@ -93,7 +93,7 @@ The emotional component of book decluttering is real. Books carry memories, aspi
 
 Where book boxes go in the moving truck matters for both the safety of the box and the stability of the entire load.
 
-Book boxes go on the truck floor, against the walls, at the bottom of every stack. Their weight and density make them ideal anchors for lighter boxes stacked above. A wall of small book boxes across the truck floor creates a stable base that prevents the entire load from shifting during transit. Light boxes — bedding, [clothes](../how-to-pack-clothes-for-moving-best-methods/index.html), plastic kitchenware — go on top.
+Book boxes go on the truck floor, against the walls, at the bottom of every stack. Their weight and density make them ideal anchors for lighter boxes stacked above. A wall of small book boxes across the truck floor creates a stable base that prevents the entire load from shifting during transit. Light boxes — bedding, [clothes](/blog/how-to-pack-clothes-for-moving-best-methods), plastic kitchenware — go on top.
 
 Never stack book boxes more than three high unless the boxes are identical in size and reinforced. The weight of three full book boxes is roughly 100 to 120 pounds pressing down on the bottom box. Four high pushes 130 to 160 pounds — enough to crush a standard box bottom even with reinforced taping. Three high is the safe maximum.
 
@@ -113,4 +113,4 @@ At SOS Moving, our crews position book boxes strategically during loading. They 
 
 ## Get Started with a Book-Safe Move
 
-SOS Moving's crews handle book-heavy moves with reinforced loading, proper truck positioning, and safe lifting technique that protects both your collection and their backs. We sell small boxes at $4 each and include all wrapping materials at no extra cost. Call [909-443-0004](tel:9094430004) or [request your free estimate](../../free-estimate/index.html) to book a crew that knows the difference between a box of paperbacks and a box of pillows.
+SOS Moving's crews handle book-heavy moves with reinforced loading, proper truck positioning, and safe lifting technique that protects both your collection and their backs. We sell small boxes at $4 each and include all wrapping materials at no extra cost. Call [909-443-0004](tel:9094430004) or [request your free estimate](/free-estimate) to book a crew that knows the difference between a box of paperbacks and a box of pillows.

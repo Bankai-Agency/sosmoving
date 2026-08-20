@@ -114,6 +114,6 @@ Professional packing services transform moving from ordeal to experience. The co
 
 Consider partial packing for budget compromise. Kitchen and fragiles most important. You handle clothes and books. Professionals manage delicate items. Balance cost and benefit.
 
-**Need packing services?** Contact SOS Moving at 909-443-0004 for professional packing throughout Los Angeles. From [beachfront condos](../../manhattan-beach-movers/index.html) requiring delicate handling to [family homes](../../san-fernando-valley-movers/index.html) with decades of accumulation, our packing teams handle it all. Save time, prevent damage, and eliminate stress with our full-service packing solutions. [Get your free packing quote](../../free-estimate/index.html) today and discover moving without the worst part.
+**Need packing services?** Contact SOS Moving at 909-443-0004 for professional packing throughout Los Angeles. From [beachfront condos](/manhattan-beach-movers) requiring delicate handling to [family homes](/san-fernando-valley-movers) with decades of accumulation, our packing teams handle it all. Save time, prevent damage, and eliminate stress with our full-service packing solutions. [Get your free packing quote](/free-estimate) today and discover moving without the worst part.
 
 ‍

@@ -68,7 +68,7 @@ Federal law requires interstate movers to offer two types of valuation coverage:
 
 ### The "Packed by Owner" Exclusion
 
-This is huge: **if you pack a box yourself and items inside break, coverage typically doesn't apply** unless the entire box is crushed or obviously mishandled. This is why [professional packing services](../../services/packing-services/index.html) can actually save money—they ensure coverage eligibility.
+This is huge: **if you pack a box yourself and items inside break, coverage typically doesn't apply** unless the entire box is crushed or obviously mishandled. This is why [professional packing services](/services/packing-services) can actually save money—they ensure coverage eligibility.
 
 ## Third-Party Moving Insurance Options
 
@@ -102,7 +102,7 @@ Items requiring extra attention and coverage:
 
 ### Art and Antiques
 
-- Require professional appraisal- Consider separate fine arts policy- Document with photos from multiple angles- Use [white glove moving services](../../services/white-glove-movers/index.html) for handling
+- Require professional appraisal- Consider separate fine arts policy- Document with photos from multiple angles- Use [white glove moving services](/services/white-glove-movers) for handling
 
 ### Electronics and Computers
 
@@ -216,6 +216,6 @@ We encourage clients to consider additional insurance for valuable items because
 
 Protecting your belongings during a move isn't just about choosing the cheapest option or hoping for the best. It's about understanding the real differences between valuation coverage and insurance, honestly assessing your needs, and making informed decisions. Whether you're moving across Los Angeles or across the country, the right coverage turns potential disasters into minor inconveniences. Don't let confusion about insurance versus valuation leave you vulnerable—take time to understand your options and choose protection that matches your belongings' true value.
 
-**Ready to move with confidence?** [Contact our team](../../about-us/contact-us/index.html) to discuss your upcoming move and learn about our comprehensive valuation coverage options. At SOS Moving, we're not just moving your belongings—we're protecting your peace of mind.
+**Ready to move with confidence?** [Contact our team](/about-us/contact-us) to discuss your upcoming move and learn about our comprehensive valuation coverage options. At SOS Moving, we're not just moving your belongings—we're protecting your peace of mind.
 
 ‍

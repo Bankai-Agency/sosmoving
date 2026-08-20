@@ -52,7 +52,7 @@ Determine how much room you have to transport the game table through the house w
 
 It is crucial whether you’re transferring the table inside the house or outside to a different room.
 
-Before starting the shifting procedure, it is essential to open the doorways and [thoroughly cover the surfaces and flooring](https://sosmovingla.net/blog/how-to-protect-the-floor-from-scratches-during-a-move/). Before transporting a large, heavy object around your property, it is best to cushion any rough points with child mats or dense cloths.
+Before starting the shifting procedure, it is essential to open the doorways and [thoroughly cover the surfaces and flooring](/blog/how-to-protect-the-floor-from-scratches-during-a-move). Before transporting a large, heavy object around your property, it is best to cushion any rough points with child mats or dense cloths.
 
 ### 5. Disassemble Your Pool Table
 

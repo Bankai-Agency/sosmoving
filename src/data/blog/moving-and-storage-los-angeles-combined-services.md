@@ -54,7 +54,7 @@ Life rarely aligns perfectly—your lease ends May 31st, but the new place isn't
 
 ## LA Storage Facility Options
 
-**Geographic distribution:**[Downtown](../../movers-downtown-los-angeles/index.html): Limited, expensive options. [Valley](../../san-fernando-valley-movers/index.html): Abundant, affordable facilities. [Westside](../../west-los-angeles-movers/index.html): Premium pricing. [South Bay](../../manhattan-beach-movers/index.html): Good availability. [Long Beach](../../long-beach-movers/index.html): Port area options.
+**Geographic distribution:**[Downtown](/movers-downtown-los-angeles): Limited, expensive options. [Valley](/san-fernando-valley-movers): Abundant, affordable facilities. [Westside](/west-los-angeles-movers): Premium pricing. [South Bay](/manhattan-beach-movers): Good availability. [Long Beach](/long-beach-movers): Port area options.
 
 **Facility types:**Traditional self-storage. Full-service warehouses. Portable storage containers. Mobile storage units. Valet storage services. Specialty facilities.
 
@@ -150,6 +150,6 @@ Storage often extends beyond planned. Budget for longer. Maintain insurance thro
 
 Moving and storage combined services eliminate transition gaps, provide flexibility, and reduce total costs. Professional integration ensures belongings remain secure throughout entire process.
 
-**Need moving AND storage?** Contact SOS Moving at 909-443-0004 for integrated solutions throughout Los Angeles. One company, complete service, seamless transitions. From [temporary storage](../../services/storage-services/index.html) during renovations to [long-term solutions](../../services/long-distance-movers/index.html), we handle both professionally. [Get your combined quote](../../free-estimate/index.html) today!
+**Need moving AND storage?** Contact SOS Moving at 909-443-0004 for integrated solutions throughout Los Angeles. One company, complete service, seamless transitions. From [temporary storage](/services/storage) during renovations to [long-term solutions](/services/long-distance-movers), we handle both professionally. [Get your combined quote](/free-estimate) today!
 
 ‍

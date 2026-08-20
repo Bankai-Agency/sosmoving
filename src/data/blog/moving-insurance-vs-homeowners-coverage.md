@@ -64,9 +64,9 @@ For most LA moves involving furniture and electronics worth more than a few thou
 
 Start with a phone call to your homeowners or renters insurance company. Do not skim the policy summary — call an agent and ask directly: "Does my policy cover damage caused during a professional move, including loading, transit, and unloading?" Ask about exclusions. Get the answer documented in your account notes or in an email.
 
-Next, have the coverage conversation with your moving company. A reputable mover explains both released value and full value protection clearly and gives you time to decide before moving day. If a company dodges [this conversation or cannot explain their coverage](../moving-quotes-how-to-compare-apples-to-apples/index.html), treat that as a serious warning sign.
+Next, have the coverage conversation with your moving company. A reputable mover explains both released value and full value protection clearly and gives you time to decide before moving day. If a company dodges [this conversation or cannot explain their coverage](/blog/moving-quotes-how-to-compare-apples-to-apples), treat that as a serious warning sign.
 
-**Want clarity on exactly what is covered? Call SOS Moving at **[**909-443-0004**](tel:9094430004)** or **[**request your free estimate**](../../free-estimate/index.html)** — I walk every customer through their coverage options before we book anything.**
+**Want clarity on exactly what is covered? Call SOS Moving at **[**909-443-0004**](tel:9094430004)** or **[**request your free estimate**](/free-estimate)** — I walk every customer through their coverage options before we book anything.**
 ![](../../assets/cdn/645ab1d97922878b6f5bef7f/6995a2854e339372374f02d5_moving-insurance-vs-homeowners-coverage.png)
 ## Protecting High-Value and Specialty Items
 
@@ -74,7 +74,7 @@ Standard coverage — from any source — is almost never adequate for items whe
 
 For individual items worth more than $5,000, consider scheduling them on your homeowners policy as a separate rider. This type of coverage, sometimes called a floater, protects specific high-value items against a broader range of perils — often including accidental damage during a move. Premiums typically run $1 to $2 per $100 of value per year.
 
-Professional [white-glove moving service](../../services/white-glove-movers/index.html) adds another layer of protection through prevention. Custom crating for artwork, specialized wrapping for antiques, and experienced handling for pianos and pool tables reduce risk before insurance even enters the picture. At SOS Moving, our $200 piano moving fee covers a four-person crew with the training and equipment to handle instruments that most general movers will not touch.
+Professional [white-glove moving service](/services/white-glove-movers) adds another layer of protection through prevention. Custom crating for artwork, specialized wrapping for antiques, and experienced handling for pianos and pool tables reduce risk before insurance even enters the picture. At SOS Moving, our $200 piano moving fee covers a four-person crew with the training and equipment to handle instruments that most general movers will not touch.
 
 ## Filing a Claim When Damage Happens
 
@@ -92,7 +92,7 @@ The one thing that helps across all three: a detailed inventory with photos crea
 
 Every coverage option compensates you after something goes wrong. Prevention means nothing goes wrong in the first place. The question I ask customers who are debating coverage levels is simple: "Would you rather get a check for your broken dresser, or have your dresser arrive intact?"
 
-At SOS Moving, every job includes premium moving blankets, unlimited shrink wrap, heavy-duty packing tape, and wardrobe boxes — no extra charge. Our crews wrap and protect furniture before it leaves your home, [disassemble and reassemble](../moving-services-complete-list-whats-actually-needed/index.html) what needs it, and use techniques refined over thousands of [Los Angeles relocations](../../la-movers/index.html). The materials and training that prevent damage are built into our rates, not tacked on as optional extras.
+At SOS Moving, every job includes premium moving blankets, unlimited shrink wrap, heavy-duty packing tape, and wardrobe boxes — no extra charge. Our crews wrap and protect furniture before it leaves your home, [disassemble and reassemble](/blog/moving-services-complete-list-whats-actually-needed) what needs it, and use techniques refined over thousands of [Los Angeles relocations](/la-movers). The materials and training that prevent damage are built into our rates, not tacked on as optional extras.
 
 Hiring a licensed, insured company with transparent pricing and strong reviews reduces your risk more than any policy can. When you combine a quality mover with appropriate coverage, you have genuine protection — not just paperwork.
 
@@ -120,7 +120,7 @@ Every SOS Moving job includes released value protection at no extra charge, full
 
 ## Get Started with Full Transparency
 
-Every SOS Moving customer gets a clear explanation of their coverage options before booking — not after the truck is loaded. Call us at [909-443-0004](tel:9094430004) or [request your free estimate](../../free-estimate/index.html) to get a transparent quote and understand exactly how your belongings are protected throughout your entire move.
+Every SOS Moving customer gets a clear explanation of their coverage options before booking — not after the truck is loaded. Call us at [909-443-0004](tel:9094430004) or [request your free estimate](/free-estimate) to get a transparent quote and understand exactly how your belongings are protected throughout your entire move.
 
 ‍
 

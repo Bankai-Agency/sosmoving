@@ -16,7 +16,7 @@ author:
 
 Relocation is not as easy as it sounds, especially if you’re moving into a new office. While it may stir up an emotional response in business owners, it may be equally unsettling for the employees who have grown attached to a specific office location. However, you can handle the relocation well if you have an effective communication plan to make the office move announcement to employees. When it comes to office relocation, not just employees but all other stakeholders must be informed and a well-thought new office location announcement must be made.
 
-If an office move is on the charts for your business, it’s certainly the time to get ready and tick off your move checklist one by one. With that being said, the first task is always about making the office move announcement. Does this sound like a confusing part? Are you struggling to come up with a plan to share this news with your staff, business partners and customers? Well, [read these tips for a successful commercial move](https://sosmovingla.net/blog/7-tips-you-need-to-keep-in-mind-when-planning-a-commercial-move/) and make it an exciting news for everyone!
+If an office move is on the charts for your business, it’s certainly the time to get ready and tick off your move checklist one by one. With that being said, the first task is always about making the office move announcement. Does this sound like a confusing part? Are you struggling to come up with a plan to share this news with your staff, business partners and customers? Well, [read these tips for a successful commercial move](/blog/7-tips-you-need-to-keep-in-mind-when-planning-a-commercial-move) and make it an exciting news for everyone!
 
 ## Announce the Relocation Plans to your Employees
 
@@ -26,7 +26,7 @@ Your employees should be the first to know about the upcoming move because in re
 
 ## Announce Relocation Plans to your Stakeholders, Business Contacts and Clients
 
-Once you have made the office relocation announcement to employees, the next step is to share the news with other important parties – Yes, we mean your stakeholders, business contacts and clients. Instead of sending an email to them, we suggest that you send out a company moving notice letter to these parties. Why? Well, this is your chance to reconnect with your stakeholders, business contacts and clients and focus on maintaining strong business ties. Getting an official letter [before an office move](https://sosmovingla.net/blog/how-to-organize-an-office-move-office-moving-checklist/) that shares the business relocation announcement personally will definitely pique their interest.
+Once you have made the office relocation announcement to employees, the next step is to share the news with other important parties – Yes, we mean your stakeholders, business contacts and clients. Instead of sending an email to them, we suggest that you send out a company moving notice letter to these parties. Why? Well, this is your chance to reconnect with your stakeholders, business contacts and clients and focus on maintaining strong business ties. Getting an official letter [before an office move](/blog/how-to-organize-an-office-move-office-moving-checklist) that shares the business relocation announcement personally will definitely pique their interest.
 
 A good moving announcement letter will cover the following points:
 
@@ -56,6 +56,6 @@ Well, now that you have moved and settled into the new office space, it’s time
 
 {separator}
 
-Making an office relocation announcement can be overwhelming particularly if you’re managing everything on your own. Let us assist you with managing the move so you can handle the announcements without the added stress. [Move your medical practice](https://sosmovingla.net/blog/5-tips-of-moving-a-medical-practice-to-a-new-location/), photography studio today or any office space to a new location today and let Big Bear Movers provide you a seamless moving experience. Contact us at [(909) 639-5235](tel:(909)639-5235) for a free moving quote.
+Making an office relocation announcement can be overwhelming particularly if you’re managing everything on your own. Let us assist you with managing the move so you can handle the announcements without the added stress. [Move your medical practice](/blog/5-tips-of-moving-a-medical-practice-to-a-new-location), photography studio today or any office space to a new location today and let Big Bear Movers provide you a seamless moving experience. Contact us at [(909) 639-5235](tel:(909)639-5235) for a free moving quote.
 
 ‍

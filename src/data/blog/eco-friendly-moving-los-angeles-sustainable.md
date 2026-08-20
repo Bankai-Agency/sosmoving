@@ -140,6 +140,6 @@ Making your move eco-friendly requires planning but isn't complicated. Start dec
 
 Perfect isn't required—better is valuable. Every box saved, item donated, and gallon conserved contributes to sustainable future.
 
-**Ready for an eco-friendly move?** Contact SOS Moving at 909-443-0004 for sustainable moving services throughout Los Angeles. We provide reusable materials, donation coordination, and efficient practices that minimize environmental impact. From [small apartments](/services/apartment-movers) to [large homes](../../beverly-hills-movers/index.html), we move you responsibly. [Get your green moving quote](../../free-estimate/index.html) today!
+**Ready for an eco-friendly move?** Contact SOS Moving at 909-443-0004 for sustainable moving services throughout Los Angeles. We provide reusable materials, donation coordination, and efficient practices that minimize environmental impact. From [small apartments](/services/apartment-movers) to [large homes](/beverly-hills-movers), we move you responsibly. [Get your green moving quote](/free-estimate) today!
 
 ‍

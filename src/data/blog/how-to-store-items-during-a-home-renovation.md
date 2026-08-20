@@ -14,7 +14,7 @@ author:
   photo: ""
 ---
 
-Are you wondering how to store items during a home renovation? [SOS Moving and Storage LA](https://sosmovingla.net/) is here to help you out. The thing is, **people often make mistakes when storing food.** Some things should not be placed in the refrigerator, while others, which we keep in the refrigerator, should be left outside. Also,* did you know that certain foods need to be kept on certain shelves in the refrigerator?* Ok, let’s see what is the best way to store your food items.
+Are you wondering how to store items during a home renovation? [SOS Moving and Storage LA](/) is here to help you out. The thing is, **people often make mistakes when storing food.** Some things should not be placed in the refrigerator, while others, which we keep in the refrigerator, should be left outside. Also,* did you know that certain foods need to be kept on certain shelves in the refrigerator?* Ok, let’s see what is the best way to store your food items.
 
 ## Where to store items during a home renovation?
 
@@ -22,7 +22,7 @@ If you’re not sure where to store items during a home renovation** the obvious
 ![family trying to store items during a home renovation](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d9792287046e5bf412_man-couple-love-people-4568697-e1609956219199.jpeg)*If you’re not sure where to store items during a home renovation the obvious answer is in the fridge.*
 ## How to store your food during a renovation?
 
-First of all, *you should know how to pack your items for relocation.* This will give you an advantage when renovating your space. If you don’t, consider hiring [packing services Los Angeles](https://sosmovingla.net/services/packing-services/). Professionals know the best way to store your items… Plus, *your items will be safer.*
+First of all, *you should know how to pack your items for relocation.* This will give you an advantage when renovating your space. If you don’t, consider hiring [packing services Los Angeles](/services/packing-services). Professionals know the best way to store your items… Plus, *your items will be safer.*
 
 In general, no matter of you renovate inside of [LA County](https://lacounty.gov/) or further away, **food should be kept covered to protect it from dry air in the refrigerator.** After opening, canned food should be transferred to a plastic or glass container. Some things have a certain shelf life, even when you think they can last a very long time.
 
@@ -36,6 +36,6 @@ In general, no matter of you renovate inside of [LA County](https://lacounty.gov
 ![family packing items before the move](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d979228717425bf40b_man-love-people-woman-4568711-e1609956403859.jpeg)*Store leftover food in closed containers and bags and always put it cold in the refrigerator. Make sure that the food is left out of the refrigerator for a maximum of two hours.*
 ### Additional tips that can help you out
 
-If you move abroad, *you may want to consider hiring someone to renovate for you.* Also, call [Los Angeles interstate movers](https://sosmovingla.net/services/interstate-move/) and ask which types of food can you bring with you. In this way, you will know the proper way to store your item. **Good luck!**
+If you move abroad, *you may want to consider hiring someone to renovate for you.* Also, call [Los Angeles interstate movers](/services/long-distance-movers) and ask which types of food can you bring with you. In this way, you will know the proper way to store your item. **Good luck!**
 
 ‍

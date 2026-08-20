@@ -26,7 +26,7 @@ A one-bedroom apartment runs $2,200 to $4,000 for full-service professional move
 
 The DIY option is tempting at this distance. A one-way U-Haul from LA to Portland runs $1,200 to $2,800 depending on truck size and season. Add fuel — roughly $200 to $250 for the 960-mile drive in a loaded truck — plus one to two nights of hotels, meals, and the physical exhaustion of loading and unloading without professional help. Total DIY cost lands between $1,500 and $3,500, which saves money over professional movers if you have help on both ends and don't mind spending two days behind the wheel of a vehicle that handles nothing like your car.
 
-At SOS Moving, LA-to-Portland moves are quoted as flat-rate interstate jobs based on inventory weight and service level. The quote includes all protective materials — moving blankets, unlimited shrink wrap, heavy-duty tape, and [wardrobe boxes](../wardrobe-boxes-are-they-worth-the-investment/index.html) — at no extra cost. Transit time is typically five to seven business days for standard delivery, with expedited options available for time-sensitive moves.
+At SOS Moving, LA-to-Portland moves are quoted as flat-rate interstate jobs based on inventory weight and service level. The quote includes all protective materials — moving blankets, unlimited shrink wrap, heavy-duty tape, and [wardrobe boxes](/blog/wardrobe-boxes-are-they-worth-the-investment) — at no extra cost. Transit time is typically five to seven business days for standard delivery, with expedited options available for time-sensitive moves.
 
 ## The I-5 Route: 960 Miles of Pacific Coast
 
@@ -36,7 +36,7 @@ The drive breaks naturally into two days. Day one covers Los Angeles through the
 
 The Siskiyou Pass at the California-Oregon border sits at roughly 4,300 feet and is the only significant elevation change on the entire route. In winter — November through March — the pass can see snow and ice conditions that close the highway or require chains. Professional moving trucks running this route in winter carry chain sets and experienced drivers know the pass conditions. If you're driving a rental truck yourself in winter, check Caltrans and ODOT road condition reports before attempting the pass — a loaded 26-foot truck on an icy mountain road is a serious safety risk.
 
-Summer driving is straightforward but hot through the Central Valley. Temperatures between Bakersfield and Redding regularly exceed 100 degrees from June through September. The same [heat protection protocols](../la-to-phoenix-moving-desert-relocation-tips/index.html) that apply to desert moves apply here — keep heat-sensitive items in your air-conditioned car rather than the truck's cargo area.
+Summer driving is straightforward but hot through the Central Valley. Temperatures between Bakersfield and Redding regularly exceed 100 degrees from June through September. The same [heat protection protocols](/blog/la-to-phoenix-moving-desert-relocation-tips) that apply to desert moves apply here — keep heat-sensitive items in your air-conditioned car rather than the truck's cargo area.
 
 The final stretch into Portland from the south passes through Salem and the Willamette Valley — green, flat, and mild. After fourteen hours of California highway, the sudden shift to forested hills and overcast skies feels like arriving in a different country, not just a different state.
 
@@ -54,7 +54,7 @@ Property taxes in Oregon are roughly comparable to California — both states ha
 
 The critical tax planning step for your move year is determining your residency date. California taxes your income through your last day of residency. Oregon taxes your income from your first day of residency. Both states require part-year resident returns. Your moving company invoice with dates serves as documentation of when the physical transition occurred — keep it with your tax records.
 ![](../../assets/cdn/645ab1d97922878b6f5bef7f/69c65cb2135dbe9a4b4486ad_la-to-portland-moving-tax-implications.jpg)
-**Planning your move to Portland?** SOS Moving handles the LA departure logistics with flat-rate pricing, all materials included, and a crew that knows how to prep your belongings for a Pacific Coast transit. Call [909-443-0004](tel:9094430004) or [get your free estimate](../../free-estimate/index.html).
+**Planning your move to Portland?** SOS Moving handles the LA departure logistics with flat-rate pricing, all materials included, and a crew that knows how to prep your belongings for a Pacific Coast transit. Call [909-443-0004](tel:9094430004) or [get your free estimate](/free-estimate).
 
 ## Housing: Where the Real Savings Land
 
@@ -62,7 +62,7 @@ The housing cost difference between LA and Portland is where most transplants fe
 
 Portland's median home price sits around $475,000 compared to Los Angeles at over $900,000. That gap buys a fundamentally different living situation — a three-bedroom house with a yard in a Portland neighborhood like Sellwood, Hawthorne, or Alberta for the price of a small two-bedroom condo in most desirable LA areas.
 
-Rental markets show a similar gap. A two-bedroom apartment in Portland averages $1,600 to $2,000 in desirable neighborhoods like the Pearl District, Division, or Mississippi. The same apartment in comparable LA neighborhoods — [Silver Lake](../../los-angeles-movers/silver-lake-movers/index.html), [Echo Park](../../los-angeles-movers/echo-park-movers/index.html), [Culver City](../../los-angeles-movers/culver-city-movers/index.html) — runs $2,800 to $3,500. Monthly savings of $1,000 to $1,500 on rent alone amount to $12,000 to $18,000 annually.
+Rental markets show a similar gap. A two-bedroom apartment in Portland averages $1,600 to $2,000 in desirable neighborhoods like the Pearl District, Division, or Mississippi. The same apartment in comparable LA neighborhoods — [Silver Lake](/la-movers), [Echo Park](/la-movers), [Culver City](/culver-city-movers) — runs $2,800 to $3,500. Monthly savings of $1,000 to $1,500 on rent alone amount to $12,000 to $18,000 annually.
 
 The combination of housing savings and sales tax elimination creates meaningful financial breathing room that most LA transplants describe as life-changing. The money you were spending to afford a one-bedroom in LA funds a two-bedroom in Portland with money left for savings, travel, or the other lifestyle upgrades that motivated the move.
 
@@ -104,4 +104,4 @@ Car insurance rates in Oregon are generally lower than LA, though the specific s
 
 ## Get Started with Your Pacific Coast Move
 
-SOS Moving handles the Los Angeles departure for your Portland relocation — flat-rate pricing, all materials included, and transit coordination up the I-5 corridor. Call [909-443-0004](tel:9094430004) or [request your free estimate](../../free-estimate/index.html) to start planning your move from sunshine to evergreens.
+SOS Moving handles the Los Angeles departure for your Portland relocation — flat-rate pricing, all materials included, and transit coordination up the I-5 corridor. Call [909-443-0004](tel:9094430004) or [request your free estimate](/free-estimate) to start planning your move from sunshine to evergreens.

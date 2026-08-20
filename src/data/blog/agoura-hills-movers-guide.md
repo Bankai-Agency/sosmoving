@@ -14,7 +14,7 @@ author:
   photo: ""
 ---
 
-Straddling the Los Angeles-Ventura county line, Agoura Hills offers something increasingly rare in Southern California: genuine suburban tranquility with wilderness at your doorstep. This community of 20,000 residents sits 35 miles west of Downtown LA, far enough to escape urban chaos but close enough for realistic commuting. SOS Moving regularly handles relocations to Agoura Hills from families fleeing the density of [Woodland Hills](../../woodland-hills-movers/index.html), [Calabasas](../../los-angeles-movers/calabasas-movers/index.html), and the San Fernando Valley.
+Straddling the Los Angeles-Ventura county line, Agoura Hills offers something increasingly rare in Southern California: genuine suburban tranquility with wilderness at your doorstep. This community of 20,000 residents sits 35 miles west of Downtown LA, far enough to escape urban chaos but close enough for realistic commuting. SOS Moving regularly handles relocations to Agoura Hills from families fleeing the density of [Woodland Hills](/woodland-hills-movers), [Calabasas](/los-angeles-movers/calabasas-movers), and the San Fernando Valley.
 
 ## Why Agoura Hills Attracts Families
 
@@ -40,7 +40,7 @@ Agoura Hills experiences true seasons, with temperatures ranging from 40°F wint
 
 Moving to Agoura Hills from LA typically costs $1,500-2,200 for apartments, $2,200-3,200 for standard homes, and $3,200-5,000+ for larger estates. The distance from central LA adds to costs, as does navigating narrow canyon roads to some properties. Many homes sit on hillsides with long, steep driveways challenging for moving trucks. Gated communities require advance coordination and often restrict moving hours to weekdays only.
 
-Summer moves face extreme heat—temperatures in moving trucks can exceed 120°F. We recommend morning starts and extra hydration for crews. Horse properties require special consideration if you're bringing animals, and many moves involve [storage services](../../services/storage/index.html) while families search for the perfect property. The semi-rural nature means some addresses confuse GPS systems—detailed directions prevent delays.
+Summer moves face extreme heat—temperatures in moving trucks can exceed 120°F. We recommend morning starts and extra hydration for crews. Horse properties require special consideration if you're bringing animals, and many moves involve [storage services](/services/storage) while families search for the perfect property. The semi-rural nature means some addresses confuse GPS systems—detailed directions prevent delays.
 
 ## Who Should Consider Agoura Hills
 
@@ -52,6 +52,6 @@ However, Agoura Hills disappoints those seeking cultural diversity, vibrant nigh
 
 Agoura Hills represents a specific vision of Southern California living: safe, family-oriented, nature-adjacent suburban life. You trade urban conveniences for space, quiet, and community. The schools justify premium prices for many families, while outdoor access provides daily quality of life improvements. Recent fires have sobered the market somewhat, but demand remains strong from families seeking what Agoura Hills offers: a chance to raise kids in something approaching traditional suburban America, just 35 miles from one of the world's great cities.
 
-**Ready to move to Agoura Hills?** [Get your free estimate](../../free-estimate/index.html) from SOS Moving today. Our teams know the western LA County area intimately, handling moves from [Calabasas](../../los-angeles-movers/calabasas-movers/index.html) to Agoura Hills, from [Woodland Hills](../../woodland-hills-movers/index.html) to the county line. We understand the unique challenges of canyon moves and work with all major gated communities. [Contact us](../../about-us/contact-us/index.html) to start planning your move to where the city meets nature.
+**Ready to move to Agoura Hills?** [Get your free estimate](/free-estimate) from SOS Moving today. Our teams know the western LA County area intimately, handling moves from [Calabasas](/los-angeles-movers/calabasas-movers) to Agoura Hills, from [Woodland Hills](/woodland-hills-movers) to the county line. We understand the unique challenges of canyon moves and work with all major gated communities. [Contact us](/about-us/contact-us) to start planning your move to where the city meets nature.
 
 ‍

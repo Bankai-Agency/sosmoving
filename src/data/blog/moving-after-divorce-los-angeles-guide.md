@@ -20,7 +20,7 @@ Divorce brings challenging transitions, and finding your new home marks an impor
 
 **Court orders and moving restrictions:**Check divorce decree for geographical restrictions, especially with children involved. California courts may limit moves affecting custody arrangements. Notify ex-spouse of address change per legal requirements. Update custody exchange locations if applicable.
 
-**Property division timing:**Moving before final settlement risks complications. Document all items taken with photos/video. Leave disputed items until court decides. Consider [storage services](../../services/storage/index.html) for uncertain items. Get written agreement on moving date if leaving shared home.
+**Property division timing:**Moving before final settlement risks complications. Document all items taken with photos/video. Leave disputed items until court decides. Consider [storage services](/services/storage) for uncertain items. Get written agreement on moving date if leaving shared home.
 
 **Financial documentation needs:**Keep records of all moving expenses for tax/legal purposes. Divorce-related moves may be partially tax-deductible. Separate moving costs from other expenses clearly. Maintain receipts for potential reimbursement claims.
 
@@ -28,7 +28,7 @@ Divorce brings challenging transitions, and finding your new home marks an impor
 
 Divorce often means adjusting to single-income living. LA's expensive market requires realistic planning:
 
-**Affordable neighborhoods for fresh starts:**[Valley areas](../../san-fernando-valley-movers/index.html) offer more space for less money. [Glendale](../../los-angeles-movers/glendale-movers/index.html) and [Burbank](../../los-angeles-movers/burbank-movers/index.html) provide family-friendly options. Beach-adjacent like [El Segundo](../../el-segundo-movers/index.html) costs less than beach-front. [Culver City](../../culver-city-movers/index.html) balances location with affordability.
+**Affordable neighborhoods for fresh starts:**[Valley areas](/san-fernando-valley-movers) offer more space for less money. [Glendale](/los-angeles-movers/glendale-movers) and [Burbank](/los-angeles-movers/burbank-movers) provide family-friendly options. Beach-adjacent like [El Segundo](/el-segundo-movers) costs less than beach-front. [Culver City](/culver-city-movers) balances location with affordability.
 
 **Temporary vs permanent housing:**Consider short-term rental while finalizing divorce. Month-to-month leases offer flexibility during uncertainty. Furnished apartments eliminate immediate furniture needs. Extended stay hotels work for very temporary situations.
 
@@ -38,17 +38,17 @@ Divorce often means adjusting to single-income living. LA's expensive market req
 
 **Dividing belongings efficiently:**Create detailed inventory before dividing items. Use colored stickers marking his/hers/disputed. Photograph valuable items for documentation. Consider mediator for contested belongings. Pack disputed items separately for easy identification.
 
-**Managing moves from shared home:**Schedule moves on different days avoiding conflict. Use [professional movers](../../about-us/contact-us/index.html) as neutral third party. Request female crew members if preferred. Complete move in one day when possible. Change locks after move-out per agreement.
+**Managing moves from shared home:**Schedule moves on different days avoiding conflict. Use [professional movers](/about-us/contact-us) as neutral third party. Request female crew members if preferred. Complete move in one day when possible. Change locks after move-out per agreement.
 
 **Kids' belongings special handling:**Duplicate essential items for both homes. Let children pack special comfort items. Maintain familiar bedroom setup when possible. Transport kids' items personally if contentious. Keep school items accessible during transition.
 
 ## Neighborhoods for Different Situations
 
-**Single parents needing community:**[Manhattan Beach](../../manhattan-beach-movers/index.html) offers exceptional schools and family support. [Sherman Oaks](../../sherman-oaks-movers/index.html) provides affordable family housing. [Pasadena](../../los-angeles-movers/pasadena-movers/index.html) has strong single-parent networks. [Redondo Beach](../../redondo-beach-movers/index.html) balances cost with kid-friendly amenities.
+**Single parents needing community:**[Manhattan Beach](/manhattan-beach-movers) offers exceptional schools and family support. [Sherman Oaks](/sherman-oaks-movers) provides affordable family housing. [Pasadena](/los-angeles-movers/pasadena-movers) has strong single-parent networks. [Redondo Beach](/redondo-beach-movers) balances cost with kid-friendly amenities.
 
-**Young professionals starting over:**[Downtown LA](../../movers-downtown-los-angeles/index.html) offers urban reset opportunities. [Santa Monica](../../los-angeles-movers/santa-monica-movers/index.html) provides beach therapy access. [Hollywood](../../movers-hollywood/index.html) suits entertainment industry singles. [West Hollywood](../../los-angeles-movers/west-hollywood-movers/index.html) has vibrant social scene.
+**Young professionals starting over:**[Downtown LA](/movers-downtown-los-angeles) offers urban reset opportunities. [Santa Monica](/los-angeles-movers/santa-monica-movers) provides beach therapy access. [Hollywood](/movers-hollywood) suits entertainment industry singles. [West Hollywood](/los-angeles-movers/west-hollywood-movers) has vibrant social scene.
 
-**Empty nesters downsizing:**[Marina del Rey](../../marina-del-rey-movers/index.html) offers lock-and-leave condos. [Playa Vista](../playa-vista-movers-silicon-beach-guide/index.html) provides modern amenities. [Beverly Hills](../../beverly-hills-movers/index.html) adjacent areas offer elegance. Beach cities provide retirement-friendly communities.
+**Empty nesters downsizing:**[Marina del Rey](/marina-del-rey-movers) offers lock-and-leave condos. [Playa Vista](/blog/playa-vista-movers-silicon-beach-guide) provides modern amenities. [Beverly Hills](/beverly-hills-movers) adjacent areas offer elegance. Beach cities provide retirement-friendly communities.
 
 ## Moving Day Emotional Management
 
@@ -66,7 +66,7 @@ Divorce often strains finances, making moving costs significant:
 
 **SOS Moving offers:**
 
-- Weekday rates save $16-26/hour over weekends- Smaller moves perfect for apartment transitions- [Packing services](../../services/packing-services/index.html) save time during stressful period- Storage solutions for undecided items- Payment plans available for qualified customers
+- Weekday rates save $16-26/hour over weekends- Smaller moves perfect for apartment transitions- [Packing services](/services/packing-services) save time during stressful period- Storage solutions for undecided items- Payment plans available for qualified customers
 
 **Budget moving tips:**Start decluttering early, selling unnecessary items. Use divorce sale proceeds for moving costs. Share moving truck if both parties moving. Move during off-peak (October-February) for savings. Consider tax implications of moving expenses.
 
@@ -100,8 +100,8 @@ Divorce often strains finances, making moving costs significant:
 
 Moving after divorce represents both ending and beginning. While logistics feel overwhelming during emotional times, professional help simplifies the process. Los Angeles offers endless possibilities for fresh starts, from beachside healing to urban reinvention. Focus on practical steps while allowing emotional processing.
 
-Your new space becomes foundation for next chapter. Whether downsizing to [cozy apartment](../moving-to-first-floor-apartment-guide/index.html) or finally getting that [beach proximity](../../manhattan-beach-movers/index.html), this move symbolizes progress. Take pride in managing difficult transition. Many have traveled this path and found happiness ahead.
+Your new space becomes foundation for next chapter. Whether downsizing to [cozy apartment](/blog/moving-to-first-floor-apartment-guide) or finally getting that [beach proximity](/manhattan-beach-movers), this move symbolizes progress. Take pride in managing difficult transition. Many have traveled this path and found happiness ahead.
 
-**Ready to start your fresh chapter?** [Contact SOS Moving](../../about-us/contact-us/index.html) at 909-443-0004 for compassionate, professional moving services. We understand divorce moves require extra sensitivity and work to make your transition smooth. From [packing assistance](../../services/packing-services/index.html) to [storage solutions](../../services/storage/index.html), we're here to help you move forward. Your new beginning starts with single phone call.
+**Ready to start your fresh chapter?** [Contact SOS Moving](/about-us/contact-us) at 909-443-0004 for compassionate, professional moving services. We understand divorce moves require extra sensitivity and work to make your transition smooth. From [packing assistance](/services/packing-services) to [storage solutions](/services/storage), we're here to help you move forward. Your new beginning starts with single phone call.
 
 ‍

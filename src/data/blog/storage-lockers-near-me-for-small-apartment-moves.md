@@ -26,7 +26,7 @@ True storage lockers are small units — typically 4x4, 4x5, or 5x5 feet — tha
 
 Standard storage units start at 5x10 and scale up to 10x30 or larger. These are walk-in spaces where you can stack, organize, and access items from inside the unit. For a full studio or one-bedroom apartment, a 5x10 or 10x10 unit is typically what you need. These aren't lockers in the traditional sense — they're small rooms with roll-up doors.
 
-The pricing difference is significant. A true 5x5 storage locker in Los Angeles runs $50 to $90 per month depending on location and whether it's climate controlled. A 5x10 unit costs $100 to $180. A 10x10 unit — enough for a full one-bedroom apartment — runs $150 to $300. In premium areas like [Santa Monica](../../los-angeles-movers/santa-monica-movers/index.html), [Marina del Rey](../marina-del-rey-moving-waterfront-living/index.html), or [Beverly Hills](../../los-angeles-movers/beverly-hills-movers/index.html), prices push toward the higher end of every range.
+The pricing difference is significant. A true 5x5 storage locker in Los Angeles runs $50 to $90 per month depending on location and whether it's climate controlled. A 5x10 unit costs $100 to $180. A 10x10 unit — enough for a full one-bedroom apartment — runs $150 to $300. In premium areas like [Santa Monica](/los-angeles-movers/santa-monica-movers), [Marina del Rey](/blog/marina-del-rey-moving-waterfront-living), or [Beverly Hills](/beverly-hills-movers), prices push toward the higher end of every range.
 
 Understanding these categories before you search prevents the common mistake of reserving a unit that's too small — forcing you to cram belongings in unsafely — or too large, paying for space you don't use.
 
@@ -60,19 +60,19 @@ The "storage lockers near me" search assumes self-storage is your only option, b
 
 With self-storage, the sequence is: movers load your apartment, drive to the storage facility, unload into the unit, then on your move-in date, movers load the unit, drive to your new apartment, and unload again. That's four loading and unloading events — two truck trips, two labor sessions, and two sets of hourly charges.
 
-With [moving company storage](../storage-units-near-me-vs-professional-moving-storage-solutions/index.html), the sequence is: movers load your apartment, drive to the moving company's warehouse, and hold your belongings on the truck or in their facility. On move-in day, the same truck delivers directly to your new apartment. That's two loading events instead of four — one at pickup, one at delivery.
+With [moving company storage](/storage-units-near-me-vs-professional-moving-storage-solutions), the sequence is: movers load your apartment, drive to the moving company's warehouse, and hold your belongings on the truck or in their facility. On move-in day, the same truck delivers directly to your new apartment. That's two loading events instead of four — one at pickup, one at delivery.
 
 At SOS Moving, we offer short-term storage for clients with lease gaps. Your belongings stay protected in our facility, and delivery is scheduled for whenever your new apartment is ready. For a three-to-seven-day gap, this approach typically costs less than renting a self-storage unit plus paying for two separate moving sessions. The math changes for longer storage periods — anything beyond two weeks usually makes self-storage more economical.
 
 The convenience factor is significant. With moving company storage, you book one move with one company and they handle the gap. With self-storage, you coordinate two separate moving sessions, manage the storage rental yourself, and hope the timing aligns. For a small apartment move where simplicity matters, the all-in-one approach saves headaches.
 ![](../../assets/cdn/645ab1d97922878b6f5bef7f/69afee76f977e2d48fd7fafa_storage-lockers-near-me-for-small-apartment-moves.png)
-**Lease gap stressing you out?** SOS Moving offers short-term storage that eliminates double loading and unloading. One crew, one truck, one simple process. Call [909-443-0004](tel:9094430004) or [get your free estimate](../../free-estimate/index.html).
+**Lease gap stressing you out?** SOS Moving offers short-term storage that eliminates double loading and unloading. One crew, one truck, one simple process. Call [909-443-0004](tel:9094430004) or [get your free estimate](/free-estimate).
 
 ## Protecting Your Belongings in Storage
 
 A storage locker keeps your belongings contained but not automatically protected. A few steps ensure everything comes out in the same condition it went in.
 
-Climate control matters in Southern California more than people realize. Summer temperatures inside a non-climate-controlled unit can exceed 120 degrees. Vinyl records warp. Candle wax melts and stains everything nearby. Electronics with batteries can overheat. Wooden furniture expands and contracts with temperature swings, loosening joints and cracking finishes. For anything heat-sensitive, spend the extra $20 to $40 per month for a [climate-controlled unit](../storage-facility-near-me-climate-controlled-vs-standard-units/index.html).
+Climate control matters in Southern California more than people realize. Summer temperatures inside a non-climate-controlled unit can exceed 120 degrees. Vinyl records warp. Candle wax melts and stains everything nearby. Electronics with batteries can overheat. Wooden furniture expands and contracts with temperature swings, loosening joints and cracking finishes. For anything heat-sensitive, spend the extra $20 to $40 per month for a [climate-controlled unit](/blog/storage-facility-near-me-climate-controlled-vs-standard-units).
 
 Moisture protection is important even in a dry climate. Condensation forms inside sealed units when temperature shifts between day and night. Plastic mattress bags, shrink wrap on upholstered furniture, and sealed plastic bins for documents and photos prevent moisture damage during the storage period. Cardboard boxes in a humid environment soften and collapse — if you're storing for more than a week, plastic bins are worth the upgrade.
 
@@ -106,6 +106,6 @@ Leaving the rental running after you've retrieved your belongings is surprisingl
 
 ## Get Started with Stress-Free Storage
 
-SOS Moving offers both direct-to-storage moves and short-term warehouse holding for clients with lease gaps. Whether you need a crew to load a self-storage unit or want us to hold your belongings in our own facility until your new apartment is ready, we handle the logistics from pickup to final delivery. Call [909-443-0004](tel:9094430004) or [request your free estimate](../../free-estimate/index.html) to solve your storage problem before it becomes a moving day crisis.
+SOS Moving offers both direct-to-storage moves and short-term warehouse holding for clients with lease gaps. Whether you need a crew to load a self-storage unit or want us to hold your belongings in our own facility until your new apartment is ready, we handle the logistics from pickup to final delivery. Call [909-443-0004](tel:9094430004) or [request your free estimate](/free-estimate) to solve your storage problem before it becomes a moving day crisis.
 
 ‍

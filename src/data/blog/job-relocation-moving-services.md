@@ -40,7 +40,7 @@ Temporary housing for the gap between arriving in LA and moving into your perman
 
 Travel expenses for your trip to LA — flights, gas if driving, hotels during transit — are typically reimbursable. This includes a house-hunting trip before the move, where the company flies you to LA for a few days to visit neighborhoods and view apartments. Not all packages include a house-hunting trip, but it's worth asking — the cost to the company is minor, and making an informed housing decision saves both you and your employer from a failed relocation.
 
-Storage for up to thirty days is included in many packages for situations where your LA housing isn't ready when your belongings arrive. At SOS Moving, we offer [short-term storage solutions](../storage-lockers-near-me-small-apartment-moves/index.html) that coordinate directly with the moving timeline so your belongings are held safely and delivered when your apartment is ready.
+Storage for up to thirty days is included in many packages for situations where your LA housing isn't ready when your belongings arrive. At SOS Moving, we offer [short-term storage solutions](/storage-lockers-near-me-small-apartment-moves) that coordinate directly with the moving timeline so your belongings are held safely and delivered when your apartment is ready.
 
 Items frequently not covered include security deposits on new apartments, lease-break fees at your current residence, utility setup fees, and costs associated with selling a home (though executive packages sometimes include home sale assistance). Shipping vehicles is covered by some packages and excluded by others — verify this before assuming your car transport is free.
 
@@ -57,7 +57,7 @@ Understand the tax treatment of your benefit before spending. Lump sum payments 
 Negotiate your package before accepting the offer, not after. Relocation benefits are among the most negotiable components of a job offer, especially for roles that require interstate moves. If the standard package is a $5,000 lump sum and your move will cost $8,000, ask for $10,000. Companies that need you to relocate have a vested interest in making the transition smooth — and a failed relocation due to financial stress costs them far more than the incremental benefit they'd spend to prevent it.
 ![](../../assets/cdn/645ab1d97922878b6f5bef7f/69b937d6ea8429c78e9b89e6_job-relocation-moving-services.jpg)
 
-**Relocating for a new job in LA?** SOS Moving provides detailed invoices formatted for employer reimbursement, coordinates with relocation management companies, and offers the scheduling flexibility your transition timeline demands. Call [909-443-0004](tel:9094430004) or [get your free estimate](../../free-estimate/index.html).
+**Relocating for a new job in LA?** SOS Moving provides detailed invoices formatted for employer reimbursement, coordinates with relocation management companies, and offers the scheduling flexibility your transition timeline demands. Call [909-443-0004](tel:9094430004) or [get your free estimate](/free-estimate).
 
 ## Working With Your Moving Company on Corporate Moves
 
@@ -67,7 +67,7 @@ Request an invoice format that matches your employer's reimbursement requirement
 
 COI (Certificate of Insurance) documents are frequently required by both your employer and your new building. At SOS Moving, COI processing costs $50 and we generate certificates within 24 to 48 hours. Your employer's risk management department may require specific coverage amounts or additional insured designations — provide these details early so the certificate is ready before moving day.
 
-If your relocation package includes packing services, confirm what level of packing your employer covers. Full-service packing means the crew packs every item in your home. Partial packing means you handle general items and the crew packs fragile or specialty items. [Professional packing](../../services/packing-services/index.html) adds cost but saves time — especially for interstate moves where the packing quality directly affects how your belongings survive a multi-day transport.
+If your relocation package includes packing services, confirm what level of packing your employer covers. Full-service packing means the crew packs every item in your home. Partial packing means you handle general items and the crew packs fragile or specialty items. [Professional packing](/services/packing-services) adds cost but saves time — especially for interstate moves where the packing quality directly affects how your belongings survive a multi-day transport.
 
 Coordinate timing between your employer's start date, your lease timeline, and the moving company's availability. The ideal sequence is: sign your LA lease two to three weeks before your start date, schedule the move for one week before your start date, and reserve the first few days in LA for unpacking and setup before reporting to work. Starting a new job while living out of boxes in an unfamiliar apartment is doable but miserable — give yourself the transition time your schedule allows.
 
@@ -77,11 +77,11 @@ Several mistakes recur in job relocations that are entirely preventable with adv
 
 Accepting a verbal relocation commitment without written documentation is the most expensive mistake. HR tells you the company covers moving expenses. You spend $8,000 on movers. Then finance tells you the benefit caps at $5,000 and the $3,000 difference is yours. Get the package details in writing — specifically the dollar cap, covered expense categories, reimbursement timeline, and tax treatment — before spending anything.
 
-Moving before your LA housing is secured creates cascading problems. Your belongings arrive but your apartment isn't ready. Now you need emergency [storage](../storage-facility-near-me-climate-controlled-vs-standard-units/index.html), an extended hotel stay, and a crew to deliver from storage to your apartment later — none of which may be covered by your relocation package. Secure housing first, then schedule the move.
+Moving before your LA housing is secured creates cascading problems. Your belongings arrive but your apartment isn't ready. Now you need emergency [storage](/blog/storage-facility-near-me-climate-controlled-vs-standard-units), an extended hotel stay, and a crew to deliver from storage to your apartment later — none of which may be covered by your relocation package. Secure housing first, then schedule the move.
 
 Not accounting for California's cost of living when evaluating the relocation package is a budget trap. A $10,000 relocation benefit that would generously cover a move within Texas barely covers a move to LA plus first-month rent and security deposit in a decent neighborhood. Evaluate the package against LA-specific costs, not national averages.
 
-Failing to use the house-hunting trip benefit when offered means choosing your neighborhood and apartment based on internet research alone. LA neighborhoods have personalities that don't translate through photos and Google Maps. [Marina del Rey](../marina-del-rey-moving-waterfront-living/index.html) looks beautiful online but the parking situation changes your daily life. [Manhattan Beach](../manhattan-beach-moving-family-community/index.html) is perfect for families but the commute to Downtown LA might not work for your office location. Walk the neighborhoods before committing.
+Failing to use the house-hunting trip benefit when offered means choosing your neighborhood and apartment based on internet research alone. LA neighborhoods have personalities that don't translate through photos and Google Maps. [Marina del Rey](/blog/marina-del-rey-moving-waterfront-living) looks beautiful online but the parking situation changes your daily life. [Manhattan Beach](/blog/manhattan-beach-moving-family-community) is perfect for families but the commute to Downtown LA might not work for your office location. Walk the neighborhoods before committing.
 
 ## Settling Into Your New Role and City
 
@@ -107,4 +107,4 @@ Build a local network beyond your office. Coworkers are your default social circ
 
 ## Get Started with Your Corporate Relocation
 
-SOS Moving handles corporate relocations with the documentation, flexibility, and professionalism your employer expects. Detailed invoices formatted for reimbursement, COI certificates, coordination with relocation management companies, and scheduling that aligns with your start date — we make the moving side seamless so you can focus on the career opportunity that brought you to LA. Call [909-443-0004](tel:9094430004) or [request your free estimate](../../free-estimate/index.html).
+SOS Moving handles corporate relocations with the documentation, flexibility, and professionalism your employer expects. Detailed invoices formatted for reimbursement, COI certificates, coordination with relocation management companies, and scheduling that aligns with your start date — we make the moving side seamless so you can focus on the career opportunity that brought you to LA. Call [909-443-0004](tel:9094430004) or [request your free estimate](/free-estimate).

@@ -58,9 +58,9 @@ That Facebook Marketplace sectional seemed like a steal until you're standing in
 
 ## LA-Specific Furniture Challenges
 
-**Apartment obstacles (**[**Downtown**](../../movers-downtown-los-angeles/index.html)**, **[**Koreatown**](../moving-to-koreatown-los-angeles/index.html)**):**Narrow hallways in older buildings. Small elevators with weight limits. Multiple flight walk-ups. No parking nearby. Tight corners everywhere.
+**Apartment obstacles (**[**Downtown**](/movers-downtown-los-angeles)**, **[**Koreatown**](/blog/moving-to-koreatown-los-angeles)**):**Narrow hallways in older buildings. Small elevators with weight limits. Multiple flight walk-ups. No parking nearby. Tight corners everywhere.
 
-**House challenges (**[**Hills**](../../movers-hollywood/index.html)**, **[**Beach areas**](../../manhattan-beach-movers/index.html)**):**Spiral staircases impossible. Split-level complications. Through-house carries required. Deck/patio access only. Steep driveways.
+**House challenges (**[**Hills**](/movers-hollywood)**, **[**Beach areas**](/manhattan-beach-movers)**):**Spiral staircases impossible. Split-level complications. Through-house carries required. Deck/patio access only. Steep driveways.
 
 **Access issues everywhere:**Street parking requires long carries. Elevators need reservations. Stairs add complexity/cost. Weather affects everything. Time restrictions enforced.
 
@@ -134,6 +134,6 @@ Furniture represents major investments—financial and emotional. That inherited
 
 Consider weight, value, complexity, and your physical capabilities honestly. Professional furniture movers provide equipment, expertise, insurance, and peace of mind that DIY can't match.
 
-**Need furniture moved professionally?** Call SOS Moving at 909-443-0004 for expert furniture moving services throughout Los Angeles. Single pieces from $250, complete homes at competitive rates. We handle the heavy lifting while protecting your furniture, property, and health. [Get your furniture moving quote](../../free-estimate/index.html) today!
+**Need furniture moved professionally?** Call SOS Moving at 909-443-0004 for expert furniture moving services throughout Los Angeles. Single pieces from $250, complete homes at competitive rates. We handle the heavy lifting while protecting your furniture, property, and health. [Get your furniture moving quote](/free-estimate) today!
 
 ‍

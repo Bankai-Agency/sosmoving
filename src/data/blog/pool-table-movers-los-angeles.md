@@ -48,9 +48,9 @@ Pool tables aren't just heavy—they're precision gaming surfaces where quarter-
 
 ## LA-Specific Moving Challenges
 
-**Tight spaces (**[**Downtown lofts**](../../movers-downtown-los-angeles/index.html)**, **[**Venice apartments**](../../venice-movers/index.html)**):**Tables assembled in rooms originally. Doorways require full disassembly. Hallways prevent maneuvering assembled. Elevators reject weight often. Creative solutions necessary.
+**Tight spaces (**[**Downtown lofts**](/movers-downtown-los-angeles)**, **[**Venice apartments**](/venice-movers)**):**Tables assembled in rooms originally. Doorways require full disassembly. Hallways prevent maneuvering assembled. Elevators reject weight often. Creative solutions necessary.
 
-**Hillside homes (**[**Hollywood Hills**](../../movers-hollywood/index.html)**, **[**Pacific Palisades**](../../pacific-palisades-movers/index.html)**):**Driveways challenging for trucks. Multiple stairs exhaust crews. Crane services sometimes required. Additional costs $500-1,500. Weather delays possible.
+**Hillside homes (**[**Hollywood Hills**](/movers-hollywood)**, **[**Pacific Palisades**](/la-movers)**):**Driveways challenging for trucks. Multiple stairs exhaust crews. Crane services sometimes required. Additional costs $500-1,500. Weather delays possible.
 
 **Second floor placement:**Floor support verification required. Multiple crew members essential. Liability concerns increase. Some locations impossible. Structural engineer consultation recommended.
 
@@ -132,6 +132,6 @@ Pool tables represent significant investments requiring specialized handling. Th
 
 SOS Moving's pool table specialists understand billiard table intricacies. We maintain proper equipment, trained crews, and comprehensive insurance. Your table receives respect deserving its value and importance.
 
-**Need pool table movers?** Contact SOS Moving at 909-443-0004 for professional pool table relocation throughout Los Angeles. From [beachfront properties](../../manhattan-beach-movers/index.html) to [hillside homes](../../movers-hollywood/index.html), we safely move, properly disassemble, and expertly relevel your table. Protect your investment with specialists who understand precision gaming surfaces. [Get your pool table moving quote](../../free-estimate/index.html) today.
+**Need pool table movers?** Contact SOS Moving at 909-443-0004 for professional pool table relocation throughout Los Angeles. From [beachfront properties](/manhattan-beach-movers) to [hillside homes](/movers-hollywood), we safely move, properly disassemble, and expertly relevel your table. Protect your investment with specialists who understand precision gaming surfaces. [Get your pool table moving quote](/free-estimate) today.
 
 ‍

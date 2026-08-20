@@ -14,11 +14,11 @@ author:
   photo: ""
 ---
 
-So, things are **going as planned**, nice. Everything about your move from California to New York *went well with highly professional* [movers California to New York](https://sosmovingla.net/services/interstate-move/california-to-new-york/). You are finally there. The Big Apple isn’t waiting for you anymore. And you are about to organize your new office after moving to NYC. Congratulations! The first big step, *your interstate relocation was a success*. Great success in your business is yet to come but some decorating first.
+So, things are **going as planned**, nice. Everything about your move from California to New York *went well with highly professional* [movers California to New York](/services/long-distance-movers). You are finally there. The Big Apple isn’t waiting for you anymore. And you are about to organize your new office after moving to NYC. Congratulations! The first big step, *your interstate relocation was a success*. Great success in your business is yet to come but some decorating first.
 ![Organize your new office after moving to NYC](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d979228722815bf2b8_pexels-huseyn-kamaladdin-667838-e1625684740942.jpeg)*Enjoy the time after successful interstate relocation – decorate your office to your liking. Why not play with colors at your office*
 ## Organize your new office after moving to NYC
 
-Enjoy the **pleasant work of designing and organizing your office**.  You are going to spend a lot of time in your office so make it inspiring, comfortable, and organized.  [Appliance movers Los Angeles](https://sosmovingla.net/services/appliance-move) have come up with some *awesome office decorating and organizational ideas* to help you stay energized and productive during the long working hours. A neat and businesslike office space clears the way for higher productivity and less wasted time. So, take your time and plan all the details, then *strike while the iron is hot*. If you put it aside for later, it might not be done as effectively as possible. When planning
+Enjoy the **pleasant work of designing and organizing your office**.  You are going to spend a lot of time in your office so make it inspiring, comfortable, and organized.  [Appliance movers Los Angeles](/services) have come up with some *awesome office decorating and organizational ideas* to help you stay energized and productive during the long working hours. A neat and businesslike office space clears the way for higher productivity and less wasted time. So, take your time and plan all the details, then *strike while the iron is hot*. If you put it aside for later, it might not be done as effectively as possible. When planning
 
 ## Think about the following
 
@@ -28,7 +28,7 @@ Make sure to keep your desk, a phone, a computer *at the central point and the f
 
 ### Choose proper furniture
 
-Consider choosing *furniture that is curved and rounded* rather than sharp and straight-edged. Studies show that rounded furniture triggers positive emotions. It is more inviting and pleasant for the long hours in the workspace. If you need help, hire good [furniture movers LA](https://sosmovingla.net/services/furniture-move/) to give you a hand.
+Consider choosing *furniture that is curved and rounded* rather than sharp and straight-edged. Studies show that rounded furniture triggers positive emotions. It is more inviting and pleasant for the long hours in the workspace. If you need help, hire good [furniture movers LA](/services/white-glove-movers) to give you a hand.
 
 ### Hold it neat and functional
 
@@ -56,6 +56,6 @@ You always wanted nice functional accessories on your desk, didn’t you? Now is
 
 ## Contact us for your next move
 
-We, at [SOS Moving and Storage](https://sosmovingla.net/), hope we helped you how to get going and organize your office after moving to NYC. Enjoy it and do not forget to contact us for your next relocation regardless of whether you are moving your home or an office.
+We, at [SOS Moving and Storage](/), hope we helped you how to get going and organize your office after moving to NYC. Enjoy it and do not forget to contact us for your next relocation regardless of whether you are moving your home or an office.
 
 ‍

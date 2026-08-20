@@ -166,6 +166,6 @@ Balance cost, time, and protection. Free boxes save money but take time collecti
 
 Most successful moves combine strategies: free boxes for books/clothes, new boxes for fragile items, professional packing for valuables. Every dollar saved on supplies can go toward professional movers who prevent damage better than any box.
 
-**Need moving supplies or complete packing services?** Contact SOS Moving at 909-443-0004. We provide professional supplies with our packing services or can move your self-packed items. Quality materials, experienced packers, complete solutions. [Get your free quote](../../free-estimate/index.html) including supply costs today!
+**Need moving supplies or complete packing services?** Contact SOS Moving at 909-443-0004. We provide professional supplies with our packing services or can move your self-packed items. Quality materials, experienced packers, complete solutions. [Get your free quote](/free-estimate) including supply costs today!
 
 ‍

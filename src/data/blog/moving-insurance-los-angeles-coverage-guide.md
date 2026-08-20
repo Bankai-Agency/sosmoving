@@ -142,6 +142,6 @@ Don't assume homeowners/renters covers moving. Call your insurance company first
 
 Remember: Insurance isn't about expecting problems—it's about protecting against possibilities. Professional movers like SOS reduce risk, but accidents happen. Proper coverage ensures financial protection when they do.
 
-**Need properly insured movers?** Call SOS Moving at 909-443-0004 for transparent insurance options. We explain coverage clearly, document thoroughly, and handle claims fairly. From [basic apartments](/services/apartment-movers) to [luxury homes](../../beverly-hills-movers/index.html), we protect your belongings with appropriate coverage. [Get your free quote](../../free-estimate/index.html) with insurance options explained today!
+**Need properly insured movers?** Call SOS Moving at 909-443-0004 for transparent insurance options. We explain coverage clearly, document thoroughly, and handle claims fairly. From [basic apartments](/services/apartment-movers) to [luxury homes](/beverly-hills-movers), we protect your belongings with appropriate coverage. [Get your free quote](/free-estimate) with insurance options explained today!
 
 ‍

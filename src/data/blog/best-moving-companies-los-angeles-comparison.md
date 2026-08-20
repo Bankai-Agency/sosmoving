@@ -46,7 +46,7 @@ Before comparing companies, understand the minimum requirements for legal operat
 
 **SOS Moving** (That's us!)
 
-- Service area: All LA County, Orange County, interstate to West Coast- Specialties: [Local moves](/services/local-moving), [long-distance](../../services/long-distance-movers/index.html), [white glove service](../../services/white-glove-movers/index.html)- Pricing: Transparent flat rates from $119/hour (2 movers)- Includes: All materials, professional wrapping, no hidden fees- Best for: Value-conscious families, apartment moves, last-minute relocations- [Get instant quote](../../free-estimate/index.html)
+- Service area: All LA County, Orange County, interstate to West Coast- Specialties: [Local moves](/services/local-moving), [long-distance](/services/long-distance-movers), [white glove service](/services/white-glove-movers)- Pricing: Transparent flat rates from $119/hour (2 movers)- Includes: All materials, professional wrapping, no hidden fees- Best for: Value-conscious families, apartment moves, last-minute relocations- [Get instant quote](/free-estimate)
 
 **Pure Movers**
 
@@ -76,7 +76,7 @@ Before comparing companies, understand the minimum requirements for legal operat
 
 **SOS Moving** offers best value through:
 
-- Efficient crews (faster = cheaper)- All supplies included in hourly rate- No surprise fees on moving day- [Transparent pricing](../moving-costs-los-angeles-pricing-guide/index.html)
+- Efficient crews (faster = cheaper)- All supplies included in hourly rate- No surprise fees on moving day- [Transparent pricing](/moving-costs-los-angeles-pricing-guide)
 
 **Pure Movers**
 
@@ -86,11 +86,11 @@ Before comparing companies, understand the minimum requirements for legal operat
 
 **Korean/Asian Community Movers**
 
-- Korean-speaking crews available- Familiar with Koreatown, SGV areas- Understand cultural considerations- Check [Glendale](../../los-angeles-movers/glendale-movers/index.html) and [Pasadena](../../los-angeles-movers/pasadena-movers/index.html) movers
+- Korean-speaking crews available- Familiar with Koreatown, SGV areas- Understand cultural considerations- Check [Glendale](/los-angeles-movers/glendale-movers) and [Pasadena](/los-angeles-movers/pasadena-movers) movers
 
 **Student Moving Services**
 
-- Seasonal discounts (non-peak times)- Small move specialists- Flexible scheduling- Good for [UCLA, USC areas](../../west-los-angeles-movers/index.html)
+- Seasonal discounts (non-peak times)- Small move specialists- Flexible scheduling- Good for [UCLA, USC areas](/west-los-angeles-movers)
 
 ## Red Flags to Avoid
 
@@ -112,7 +112,7 @@ Watch for these warning signs when researching companies:
 
 Contact 3-4 companies for written estimates:
 
-- [SOS Moving free estimate](../../free-estimate/index.html)- In-person or video surveys for accuracy- Compare what's included, not just price- Ask about binding vs non-binding quotes
+- [SOS Moving free estimate](/free-estimate)- In-person or video surveys for accuracy- Compare what's included, not just price- Ask about binding vs non-binding quotes
 
 ### Step 2: Verify Credentials
 
@@ -150,7 +150,7 @@ Before signing examine:
 
 Choose based on your priorities:
 
-**Best Overall Value:** [SOS Moving](../../about-us/contact-us/index.html) balances professional service with transparent, fair pricing. Everything included, no games.
+**Best Overall Value:** [SOS Moving](/about-us/contact-us) balances professional service with transparent, fair pricing. Everything included, no games.
 
 **Interstate Excellence:** National van lines for cross-country, though consider SOS Moving for West Coast moves.
 
@@ -160,8 +160,8 @@ Choose based on your priorities:
 
 ## The SOS Moving Difference
 
-We built our reputation on straightforward service and honest pricing. While others play games with quotes and surprise fees, we publish our exact rates and include everything needed. Our experienced crews work efficiently, saving you money while protecting your belongings. Whether moving from a [studio in Hollywood](../../movers-hollywood/index.html) or a [house in the Valley](../../san-fernando-valley-movers/index.html), we deliver professional service at fair prices.
+We built our reputation on straightforward service and honest pricing. While others play games with quotes and surprise fees, we publish our exact rates and include everything needed. Our experienced crews work efficiently, saving you money while protecting your belongings. Whether moving from a [studio in Hollywood](/movers-hollywood) or a [house in the Valley](/san-fernando-valley-movers), we deliver professional service at fair prices.
 
-**Ready to experience stress-free moving?** [Get your free quote](../../free-estimate/index.html) or call 909-443-0004. Join thousands of satisfied customers who chose SOS Moving for their Los Angeles relocation. Check our [reviews](../../about-us/reviews/index.html) and see why we're becoming LA's most trusted moving company.
+**Ready to experience stress-free moving?** [Get your free quote](/free-estimate) or call 909-443-0004. Join thousands of satisfied customers who chose SOS Moving for their Los Angeles relocation. Check our [reviews](/about-us/reviews) and see why we're becoming LA's most trusted moving company.
 
 ‍

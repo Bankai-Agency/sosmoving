@@ -95,7 +95,7 @@ Savings come from eliminated double handling, single coordination fee, and inclu
 
 **Factors affecting choice:**Proximity to new location. Climate control availability. Security levels provided. Access requirements needed. Price variations significant.
 
-**LA storage concentrations:**[Downtown](../../movers-downtown-los-angeles/index.html): Expensive but convenient. [Valley](../../san-fernando-valley-movers/index.html): Affordable with access. [South Bay](../../manhattan-beach-movers/index.html): Beach premium pricing. [Inland areas](../moving-to-inglewood-los-angeles-guide/index.html): Best value typically.
+**LA storage concentrations:**[Downtown](/movers-downtown-los-angeles): Expensive but convenient. [Valley](/san-fernando-valley-movers): Affordable with access. [South Bay](/manhattan-beach-movers): Beach premium pricing. [Inland areas](/blog/moving-to-inglewood-los-angeles-guide): Best value typically.
 
 ## Insurance Considerations
 
@@ -121,6 +121,6 @@ Combined storage and moving services eliminate coordination headaches while ofte
 
 Consider total costs including multiple handling, insurance gaps, and coordination time. Integrated services typically provide better value, especially for complex situations requiring flexibility.
 
-**Need storage and moving services?** Contact SOS Moving at 909-443-0004 for integrated solutions throughout Los Angeles. From temporary storage during renovations to long-term solutions for military families, we handle both storage and moving professionally. One company, one contract, complete peace of mind. [Get your free storage and moving quote](../../free-estimate/index.html) today.
+**Need storage and moving services?** Contact SOS Moving at 909-443-0004 for integrated solutions throughout Los Angeles. From temporary storage during renovations to long-term solutions for military families, we handle both storage and moving professionally. One company, one contract, complete peace of mind. [Get your free storage and moving quote](/free-estimate) today.
 
 ‍

@@ -28,11 +28,11 @@ Let's start with actual numbers from SOS Moving's transparent pricing:
 
 - 2 movers: $135/hour (cash) or $145/hour (card) - **$16-26 more per hour**- 3 movers: $175/hour (cash) or $185/hour (card) - **$16-26 more per hour**- 4 movers: $215/hour (cash) or $225/hour (card) - **$16-26 more per hour**
 
-For a typical 5-hour move, weekend premiums add $80-130 to your total cost. That's real money that could go toward [packing supplies](../../services/packing-services/index.html) or settling-in expenses.
+For a typical 5-hour move, weekend premiums add $80-130 to your total cost. That's real money that could go toward [packing supplies](/services/packing-services) or settling-in expenses.
 
 ## Saturday vs Sunday: The Difference Matters
 
-**Saturday - The Chaos Day:**Saturday is peak moving day across LA. Every building's elevators are booked solid, parking is nightmare with multiple trucks competing, crews are rushed trying to fit in multiple jobs, and traffic is heavy with errands and activities. Popular areas like [Santa Monica](../../los-angeles-movers/santa-monica-movers/index.html) and [Downtown LA](../../movers-downtown-los-angeles/index.html) become moving truck parking lots.
+**Saturday - The Chaos Day:**Saturday is peak moving day across LA. Every building's elevators are booked solid, parking is nightmare with multiple trucks competing, crews are rushed trying to fit in multiple jobs, and traffic is heavy with errands and activities. Popular areas like [Santa Monica](/los-angeles-movers/santa-monica-movers) and [Downtown LA](/movers-downtown-los-angeles) become moving truck parking lots.
 
 **Sunday - The Better Weekend Option:**Sunday morning moves offer surprising advantages. Fewer moves scheduled means better crew attention, lighter traffic especially before 10 AM, easier parking in most areas, and some buildings don't count Sunday as "weekend" for moving restrictions. Religious observations mean certain neighborhoods are quieter.
 
@@ -42,11 +42,11 @@ The myth that weekend traffic is always lighter needs examination by area:
 
 **Areas with BETTER weekend traffic:**
 
-- [Downtown LA](../../movers-downtown-los-angeles/index.html): No commuter traffic- Financial District: Empty on weekends- [Burbank](../../los-angeles-movers/burbank-movers/index.html) near studios: No production traffic- Business corridors along Wilshire
+- [Downtown LA](/movers-downtown-los-angeles): No commuter traffic- Financial District: Empty on weekends- [Burbank](/los-angeles-movers/burbank-movers) near studios: No production traffic- Business corridors along Wilshire
 
 **Areas with WORSE weekend traffic:**
 
-- Beach cities ([Venice](../../venice-movers/index.html), [Manhattan Beach](../../manhattan-beach-movers/index.html)): Tourist chaos- [Hollywood](../../movers-hollywood/index.html): Nightlife and tourism- Shopping areas (Grove, Century City): Retail traffic- Near theme parks and attractions
+- Beach cities ([Venice](/venice-movers), [Manhattan Beach](/manhattan-beach-movers)): Tourist chaos- [Hollywood](/movers-hollywood): Nightlife and tourism- Shopping areas (Grove, Century City): Retail traffic- Near theme parks and attractions
 
 **Best weekend windows:**
 
@@ -56,11 +56,11 @@ The myth that weekend traffic is always lighter needs examination by area:
 
 Many LA buildings have specific weekend policies affecting your move:
 
-**Luxury buildings often prohibit weekend moves entirely:**[Beverly Hills](../../beverly-hills-movers/index.html) and [West Hollywood](../../los-angeles-movers/west-hollywood-movers/index.html) high-rises frequently ban Saturday-Sunday moves. Reserved for resident quiet enjoyment. May allow Sunday but not Saturday. Check before booking or face fines.
+**Luxury buildings often prohibit weekend moves entirely:**[Beverly Hills](/beverly-hills-movers) and [West Hollywood](/los-angeles-movers/west-hollywood-movers) high-rises frequently ban Saturday-Sunday moves. Reserved for resident quiet enjoyment. May allow Sunday but not Saturday. Check before booking or face fines.
 
 **Buildings requiring advance notice:**Most require 72-hour notice for weekend moves. Elevator reservations book weeks ahead for Saturdays. Security deposit may be higher for weekends. Some charge extra fees for weekend staff.
 
-**Apartments with weekend advantages:**Complexes with multiple entrances avoid bottlenecks. Garden-style apartments don't require elevators. Newer buildings have freight elevators reducing conflicts. [Valley properties](../../san-fernando-valley-movers/index.html) tend more weekend-friendly.
+**Apartments with weekend advantages:**Complexes with multiple entrances avoid bottlenecks. Garden-style apartments don't require elevators. Newer buildings have freight elevators reducing conflicts. [Valley properties](/san-fernando-valley-movers) tend more weekend-friendly.
 
 ## When Weekend Moving Makes Sense
 
@@ -72,7 +72,7 @@ Despite higher costs, weekend moves make sense for specific situations:
 
 **Coordination with others:**Friends more available to help on weekends. Family can assist with kids/pets. Partner's work schedule conflicts. Synchronized move-out/move-in timing.
 
-**Long-distance move logistics:**Flying family out requires weekend timing. Hotel check-in/out aligns better. More time for drive without rushing. [Interstate movers](../../services/long-distance-movers/index.html) often deliver weekends only.
+**Long-distance move logistics:**Flying family out requires weekend timing. Hotel check-in/out aligns better. More time for drive without rushing. [Interstate movers](/services/long-distance-movers) often deliver weekends only.
 
 ## Strategies to Save on Weekend Moves
 
@@ -84,7 +84,7 @@ If you must move on weekend, minimize the premium:
 
 **Start extremely early:**6 AM starts avoid traffic and heat. Crews fresher and work faster. Parking easier before residents wake. Finish before afternoon chaos.
 
-**Hybrid approach:**Move boxes yourself Friday evening. Hire [SOS Moving](../../about-us/contact-us/index.html) just for furniture. Reduces hourly needs on premium day. [Storage unit](../../services/storage/index.html) staging spreads work.
+**Hybrid approach:**Move boxes yourself Friday evening. Hire [SOS Moving](/about-us/contact-us) just for furniture. Reduces hourly needs on premium day. [Storage unit](/services/storage) staging spreads work.
 
 **Negotiate with flexibility:**Offer to be "second move" after morning job. Take "standby" rate if cancellation occurs. Accept smaller crew if available. Pay cash for best rate.
 
@@ -104,7 +104,7 @@ If you must move on weekend, minimize the premium:
 
 **Negotiate work flexibility:**Ask for late start after morning move. Work from home during move week. Comp time instead of weekend move. Some employers offer moving days.
 
-**Use professional packers:**[Packing services](../../services/packing-services/index.html) during weekday. You just supervise on weekend. Reduces total weekend hours. Often offsetts premium with efficiency.
+**Use professional packers:**[Packing services](/services/packing-services) during weekday. You just supervise on weekend. Reduces total weekend hours. Often offsetts premium with efficiency.
 
 ## Booking Weekend Moves with SOS Moving
 
@@ -122,6 +122,6 @@ Weekend moving in Los Angeles costs more and comes with logistical challenges, b
 
 The key is honest cost-benefit analysis. If one vacation day saves $150 and reduces stress, take it. If work absolutely prevents weekday moving, book early and prepare thoroughly. Weekend moving isn't inherently bad—it's just important to understand what you're paying for and how to maximize value within those constraints.
 
-**Need to move on a weekend?** [Get your free quote](../../free-estimate/index.html) from SOS Moving today. We'll be honest about costs and availability while helping you find the best solution. Our weekend crews are experienced with LA's unique challenges, from [beach community](../../manhattan-beach-movers/index.html) tourist traffic to [Hollywood](../../movers-hollywood/index.html) nightlife chaos. Call 909-443-0004 to discuss your weekend moving needs.
+**Need to move on a weekend?** [Get your free quote](/free-estimate) from SOS Moving today. We'll be honest about costs and availability while helping you find the best solution. Our weekend crews are experienced with LA's unique challenges, from [beach community](/manhattan-beach-movers) tourist traffic to [Hollywood](/movers-hollywood) nightlife chaos. Call 909-443-0004 to discuss your weekend moving needs.
 
 ‍

@@ -46,7 +46,7 @@ Credit card payments provide consumer protection through the chargeback process.
 
 Scam operations demand payment methods that can't be reversed: cash, wire transfers, Zelle, Venmo, CashApp, or cryptocurrency. Once money leaves your account through these channels, recovery is extremely difficult. A wire transfer to a fraudulent company is functionally the same as handing cash to a stranger — the money is gone the moment you send it.
 
-At SOS Moving, we accept both cash and credit card payments. Our cash price is $119 per hour for two movers; our card price is $129. The [cash vs card pricing structure](../hourly-vs-flat-rate-moving-cost-comparison/index.html) reflects the processing fee difference, not an attempt to avoid traceable payment methods. Either payment method is welcome, and your deposit of $50 can be paid by card with full chargeback protection.
+At SOS Moving, we accept both cash and credit card payments. Our cash price is $119 per hour for two movers; our card price is $129. The [cash vs card pricing structure](/blog/hourly-vs-flat-rate-moving-cost-comparison) reflects the processing fee difference, not an attempt to avoid traceable payment methods. Either payment method is welcome, and your deposit of $50 can be paid by card with full chargeback protection.
 
 A company that refuses credit card payments entirely — not one that offers a cash discount, but one that will not accept cards under any circumstances — is a company that doesn't want a paper trail. That should end the conversation.
 
@@ -70,7 +70,7 @@ Scam operations either have no license numbers, provide fake numbers that don't 
 
 The physical address check is equally simple. Google the company's listed address. Is it an office building, a warehouse, or a residential house? A legitimate moving company operates from a commercial location with space for trucks and equipment. An address that leads to a residential home, a virtual office suite, or a parking lot is a red flag. No address listed at all is a deal-breaker.
 ![](../../assets/cdn/645ab1d97922878b6f5bef7f/69c660cfb507f68aa52f6bcf_moving-company-deposit-scam-warning-signs.jpg)
-**Tired of wondering if a deposit is legitimate?** SOS Moving's $50 deposit is refundable with 48 hours' notice, applied toward your total, and payable by credit card with full consumer protection. Call [909-443-0004](tel:9094430004) or [get your free estimate](../../free-estimate/index.html) — transparency starts with the first conversation.
+**Tired of wondering if a deposit is legitimate?** SOS Moving's $50 deposit is refundable with 48 hours' notice, applied toward your total, and payable by credit card with full consumer protection. Call [909-443-0004](tel:9094430004) or [get your free estimate](/free-estimate) — transparency starts with the first conversation.
 
 ## Red Flag #5: Pressure to Book Immediately
 
@@ -78,7 +78,7 @@ Scam operators create artificial urgency because informed consumers are harder t
 
 Common pressure tactics include: "This rate is only available today." "We have one truck left for your date — if you don't book now, it'll be gone." "I can hold this price for the next thirty minutes." "Pay the deposit now and we'll lock in the quote." Legitimate companies don't operate this way because they don't need to — their service quality and reputation generate steady business without manufactured urgency.
 
-At SOS Moving, we encourage customers to [get multiple quotes](../moving-quotes-how-to-compare-apples-to-apples/index.html), compare services, and take whatever time they need to make a decision. Our pricing doesn't change based on how fast you book. The rate is the rate — $119 per hour on weekdays, $135 on weekends — regardless of whether you book today or next Tuesday. A company confident in its value doesn't need to pressure you into a commitment before you've had time to think.
+At SOS Moving, we encourage customers to [get multiple quotes](/blog/moving-quotes-how-to-compare-apples-to-apples), compare services, and take whatever time they need to make a decision. Our pricing doesn't change based on how fast you book. The rate is the rate — $119 per hour on weekdays, $135 on weekends — regardless of whether you book today or next Tuesday. A company confident in its value doesn't need to pressure you into a commitment before you've had time to think.
 
 The appropriate response to any high-pressure booking tactic is: "I need a day to compare quotes and I'll call you back." A legitimate company says "sounds good." A scam operation either increases the pressure or becomes hostile. Either reaction tells you everything you need to know.
 
@@ -120,4 +120,4 @@ Then book a legitimate moving company immediately. Your original moving date is 
 
 ## Get Started with a Company You Can Trust
 
-SOS Moving's $50 refundable deposit, transparent pricing, and verifiable credentials — CPUC license CAL-T0192140, USDOT 3398018, and over 1,000 Google reviews — mean you never have to wonder whether your money is safe. Call [909-443-0004](tel:9094430004) or [request your free estimate](../../free-estimate/index.html) to book with confidence.
+SOS Moving's $50 refundable deposit, transparent pricing, and verifiable credentials — CPUC license CAL-T0192140, USDOT 3398018, and over 1,000 Google reviews — mean you never have to wonder whether your money is safe. Call [909-443-0004](tel:9094430004) or [request your free estimate](/free-estimate) to book with confidence.

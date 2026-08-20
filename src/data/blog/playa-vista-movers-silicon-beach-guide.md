@@ -210,6 +210,6 @@ Playa Vista represents the future of Los Angeles living—walkable, sustainable,
 
 The neighborhood isn't for everyone—if you're seeking authentic LA character, artistic communities, or affordable living, look elsewhere. But if you want to live in LA's version of the future, complete with Google as your neighbor and a Whole Foods within walking distance, Playa Vista might be your perfect match.
 
-**Ready to make your move to Silicon Beach?** [Contact SOS Moving](../../about-us/contact-us/index.html) for expert relocation services to Playa Vista. We know every building's requirements, the best loading zones, and how to navigate the unique challenges of moving to LA's most modern neighborhood. From [Marina del Rey](../../marina-del-rey-movers/index.html) to Playa Vista, or from anywhere in LA, we'll get you settled in Silicon Beach efficiently and professionally.
+**Ready to make your move to Silicon Beach?** [Contact SOS Moving](/about-us/contact-us) for expert relocation services to Playa Vista. We know every building's requirements, the best loading zones, and how to navigate the unique challenges of moving to LA's most modern neighborhood. From [Marina del Rey](/marina-del-rey-movers) to Playa Vista, or from anywhere in LA, we'll get you settled in Silicon Beach efficiently and professionally.
 
 ‍

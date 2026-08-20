@@ -54,13 +54,13 @@ Moving a hot tub isn't just about strength—it's about engineering. These 400-9
 
 ## LA-Specific Hot Tub Challenges
 
-**Hillside properties (**[**Hollywood Hills**](../../movers-hollywood/index.html)**, **[**Mount Washington**](../../mount-washington-movers/index.html)**):**Steep grades prevent truck access. Cranes can't reach locations. Manual carrying impossible safely. Helicopter services occasionally ($5,000+). Some moves genuinely impossible.
+**Hillside properties (**[**Hollywood Hills**](/movers-hollywood)**, **[**Mount Washington**](/la-movers)**):**Steep grades prevent truck access. Cranes can't reach locations. Manual carrying impossible safely. Helicopter services occasionally ($5,000+). Some moves genuinely impossible.
 
-**Beach homes (**[**Manhattan Beach**](../../manhattan-beach-movers/index.html)**, **[**Venice**](../../venice-movers/index.html)**):**Narrow alleys between houses. Sand complications for equipment. Salt corrosion on older units. Tourist/parking challenges. Permits always required.
+**Beach homes (**[**Manhattan Beach**](/manhattan-beach-movers)**, **[**Venice**](/venice-movers)**):**Narrow alleys between houses. Sand complications for equipment. Salt corrosion on older units. Tourist/parking challenges. Permits always required.
 
-**Dense neighborhoods (**[**West LA**](../../west-los-angeles-movers/index.html)**, **[**Studio City**](../../studio-city-movers/index.html)**):**Zero side yard access. Over-house crane requirements. Neighbor coordination essential. Tree trimming necessary. Power line considerations.
+**Dense neighborhoods (**[**West LA**](/west-los-angeles-movers)**, **[**Studio City**](/studio-city-movers)**):**Zero side yard access. Over-house crane requirements. Neighbor coordination essential. Tree trimming necessary. Power line considerations.
 
-**Older homes (**[**Pasadena**](../../los-angeles-movers/pasadena-movers/index.html)**, **[**Hancock Park**](../../hancock-park-movers/index.html)**):**Gates too narrow for spas. Mature landscaping blocking access. Historic district restrictions. Structural concerns with decking. Creative solutions required.
+**Older homes (**[**Pasadena**](/los-angeles-movers/pasadena-movers)**, **[**Hancock Park**](/la-movers)**):**Gates too narrow for spas. Mature landscaping blocking access. Historic district restrictions. Structural concerns with decking. Creative solutions required.
 
 ## Cost Factors Breakdown
 
@@ -138,6 +138,6 @@ Hot tubs cost $3,000-15,000 typically. Moving costs seem high at $500-3,000, but
 
 SOS Moving's hot tub specialists understand spa intricacies beyond weight. We coordinate disconnections, arrange permits, provide cranes when needed, and ensure safe transport. Your relaxation investment deserves professional handling.
 
-**Need hot tub movers?** Call SOS Moving at 909-443-0004 for professional spa relocation throughout Los Angeles. From [beachfront properties](../../manhattan-beach-movers/index.html) to [hillside challenges](../../movers-hollywood/index.html), we have equipment and expertise for safe hot tub moving. Crane services, permits, disconnection coordination—we handle everything. [Get your hot tub moving quote](../../free-estimate/index.html) today.
+**Need hot tub movers?** Call SOS Moving at 909-443-0004 for professional spa relocation throughout Los Angeles. From [beachfront properties](/manhattan-beach-movers) to [hillside challenges](/movers-hollywood), we have equipment and expertise for safe hot tub moving. Crane services, permits, disconnection coordination—we handle everything. [Get your hot tub moving quote](/free-estimate) today.
 
 ‍

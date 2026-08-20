@@ -48,12 +48,12 @@ Crew size may need to be larger than a typical move. A hoarding home that's been
 
 The home itself may present physical challenges that standard homes don't. Floors damaged by years of heavy weight. Walls with marks, holes, or damage from stacked items. Doorways partially obstructed by built-in shelving that was added to create storage. Narrow pathways that were functional for daily navigation but aren't wide enough for furniture to pass through. Our crews assess these conditions during loading and adapt their approach — sometimes disassembling furniture inside the room rather than trying to carry it whole through a tight passage.
 
-At SOS Moving, our standard materials — moving blankets, unlimited shrink wrap, heavy-duty tape, and [wardrobe boxes](../wardrobe-boxes-are-they-worth-the-investment/index.html) — cover the protection needs for a hoarding move just as they do for any other job. The difference is volume: a hoarding client's keep pile typically requires more wrapping material and more boxes than a comparable apartment size. We factor this into the estimate so there are no surprises on moving day.
+At SOS Moving, our standard materials — moving blankets, unlimited shrink wrap, heavy-duty tape, and [wardrobe boxes](/blog/wardrobe-boxes-are-they-worth-the-investment) — cover the protection needs for a hoarding move just as they do for any other job. The difference is volume: a hoarding client's keep pile typically requires more wrapping material and more boxes than a comparable apartment size. We factor this into the estimate so there are no surprises on moving day.
 
 Timing coordination between the cleanup team and the moving crew is critical. The ideal sequence is: cleanup team finishes sorting and removal on a Thursday or Friday, moving crew loads on Saturday. This allows one day of buffer in case the sorting runs long without pushing the moving date. Scheduling both teams for the same day creates conflict — organizers need the home clear of movers to sort effectively, and movers need the home clear of sorting chaos to load efficiently.
 ![](../../assets/cdn/645ab1d97922878b6f5bef7f/69cd2a9c010de0c3dbbd535b_hoarding-cleanup-and-moving-services.jpg)
 
-**Coordinating a hoarding move in LA?** SOS Moving works alongside professional organizers and cleanup specialists to handle the moving phase once your home is ready. Respectful crews, flexible scheduling, and all materials included. Call [909-443-0004](tel:9094430004) or [get your free estimate](../../free-estimate/index.html).
+**Coordinating a hoarding move in LA?** SOS Moving works alongside professional organizers and cleanup specialists to handle the moving phase once your home is ready. Respectful crews, flexible scheduling, and all materials included. Call [909-443-0004](tel:9094430004) or [get your free estimate](/free-estimate).
 
 ## Finding the Right Professional Organizer
 
@@ -105,4 +105,4 @@ After the move, connect the person with ongoing support. Hoarding disorder is a 
 
 ## Get Started with a Coordinated Hoarding Move
 
-SOS Moving works alongside professional organizers and cleanup specialists to handle the moving phase of hoarding relocations in Los Angeles. Our crews bring patience, discretion, and all the materials needed to transport your sorted belongings safely to your new home. Call [909-443-0004](tel:9094430004) or [request your free estimate](../../free-estimate/index.html) to start planning a move that treats the situation — and the person — with the care they deserve.
+SOS Moving works alongside professional organizers and cleanup specialists to handle the moving phase of hoarding relocations in Los Angeles. Our crews bring patience, discretion, and all the materials needed to transport your sorted belongings safely to your new home. Call [909-443-0004](tel:9094430004) or [request your free estimate](/free-estimate) to start planning a move that treats the situation — and the person — with the care they deserve.

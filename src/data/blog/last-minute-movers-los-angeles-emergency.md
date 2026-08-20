@@ -66,7 +66,7 @@ Your landlord just gave you 24 hours' notice. The escrow closed unexpectedly ear
 
 **Building issues:**Elevators need reservations (impossible last-minute). COI requirements (we handle). Parking permits (work around). Weekend restrictions (navigate carefully). Security notifications (manage diplomatically).
 
-**Area-specific problems:**[Downtown](../../movers-downtown-los-angeles/index.html): Parking nightmares. [Beach areas](../../manhattan-beach-movers/index.html): Tourist complications. [Hills](../../movers-hollywood/index.html): Access challenges. [Valley](../../san-fernando-valley-movers/index.html): Distance factors.
+**Area-specific problems:**[Downtown](/movers-downtown-los-angeles): Parking nightmares. [Beach areas](/manhattan-beach-movers): Tourist complications. [Hills](/movers-hollywood): Access challenges. [Valley](/san-fernando-valley-movers): Distance factors.
 
 ## Cost Factors for Rush Moves
 
@@ -134,6 +134,6 @@ Emergency moves create chaos, but professionals minimize damage. Once relocated,
 
 SOS Moving transforms emergency relocations from disasters into manageable challenges. Fair pricing, professional service, and human understanding during your crisis moment.
 
-**Need emergency movers TODAY?** Call SOS Moving at 909-443-0004 immediately! Last-minute moves at standard rates, no premium charges for emergencies. Same-day and next-day availability throughout Los Angeles. From [studio apartments](../small-moves-los-angeles-delivery/index.html) to [complete houses](../../services/local-movers/index.html), we handle emergency moves professionally. Don't panic—call now for immediate assistance!
+**Need emergency movers TODAY?** Call SOS Moving at 909-443-0004 immediately! Last-minute moves at standard rates, no premium charges for emergencies. Same-day and next-day availability throughout Los Angeles. From [studio apartments](/blog/small-moves-los-angeles-delivery) to [complete houses](/services/local-moving), we handle emergency moves professionally. Don't panic—call now for immediate assistance!
 
 ‍

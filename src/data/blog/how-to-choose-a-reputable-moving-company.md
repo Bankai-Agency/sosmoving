@@ -20,11 +20,11 @@ Luckily, you are the director of your movie. And a scenario directly depends on 
 
 ## Start Early
 
-Moving is always a stressful experience, so every stage and detail should be thoroughly planned when [choosing a moving company](https://sosmovingla.net/blog/what-to-know-when-you-are-selecting-a-moving-company/). If you don’t want to convulsively google “how to find the best movers now” on the last day, **start your research beforehand** to find the best quality moving services.
+Moving is always a stressful experience, so every stage and detail should be thoroughly planned when [choosing a moving company](/blog/what-to-know-when-you-are-selecting-a-moving-company). If you don’t want to convulsively google “how to find the best movers now” on the last day, **start your research beforehand** to find the best quality moving services.
 
 ## Type of Movers You Need
 
-Every move is individual and requires personalized services. You should think about all the details and the stuff you need for [hiring reliable movers](https://sosmovingla.net/blog/what-are-the-traits-of-reliable-movers/). It’s better to sit and write down all the points that should be met by a reliable mover. Answer all the questions to get a full picture of your future move:
+Every move is individual and requires personalized services. You should think about all the details and the stuff you need for [hiring reliable movers](/blog/what-are-the-traits-of-reliable-movers). It’s better to sit and write down all the points that should be met by a reliable mover. Answer all the questions to get a full picture of your future move:
 
 - Do you need a local or long-distance move?- Do you have fragile items or special equipment that should be moved with special attention or with the help of experts? For example, musical instruments, sporting equipment, glassware, plasma TV, delicate electronic devices, etc.- Do you need packing or unpacking services?- Do you need storage services?- Do you need additional services to disassemble and reassemble furniture?
 

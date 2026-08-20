@@ -133,6 +133,6 @@ We're licensed for interstate operations with perfect safety records. Direct emp
 
 From [Los Angeles](/la-movers) to anywhere in America, we manage your long distance relocation professionally. No subcontracting, no surprises, just professional interstate moving services.
 
-**Planning your long distance move from LA?** Contact SOS Moving at 909-443-0004 for detailed interstate moving consultation. We provide accurate estimates, realistic timelines, and professional service for your cross-country relocation. From [California to Florida](../california-to-florida-moving-guide/index.html) or anywhere between, trust your long distance move to experienced professionals. [Get your free long distance quote](../../free-estimate/index.html) today.
+**Planning your long distance move from LA?** Contact SOS Moving at 909-443-0004 for detailed interstate moving consultation. We provide accurate estimates, realistic timelines, and professional service for your cross-country relocation. From [California to Florida](/blog/california-to-florida-moving-guide) or anywhere between, trust your long distance move to experienced professionals. [Get your free long distance quote](/free-estimate) today.
 
 ‍

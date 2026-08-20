@@ -14,7 +14,7 @@ author:
   photo: ""
 ---
 
-The fact of the matter is that relocations contribute to our planet’s pollution. There are many parts of a relocation that produce emissions, as well as enable business practices that are detrimental to our environment. There are several means by which you can minimize this impact, however. First, you can hire green [packing services Los Angeles](https://sosmovingla.net/services/packing-services/) for your relocation. **They will provide the best solutions when it comes to green supplies**. But even without them, by carefully choosing alternative green packing materials, you can do your part as well! In this article, we are going to go over the best supplies to use when it comes to green packing.
+The fact of the matter is that relocations contribute to our planet’s pollution. There are many parts of a relocation that produce emissions, as well as enable business practices that are detrimental to our environment. There are several means by which you can minimize this impact, however. First, you can hire green [packing services Los Angeles](/services/packing-services) for your relocation. **They will provide the best solutions when it comes to green supplies**. But even without them, by carefully choosing alternative green packing materials, you can do your part as well! In this article, we are going to go over the best supplies to use when it comes to green packing.
 
 ## The best alternative green packing materials you should use for packing?
 
@@ -22,11 +22,11 @@ Here is the list of the items that you can use for your packing, that will make 
 
 - Blankets, sheets, towels- Newspaper- Recycled paper tape- Biodegradable bubble wrap and packing peanuts- Reusable plastic bins- Corrugated paper roll- Upcycled materials
 
-We will go into more detail about these shortly. Another thing to note is that if you are moving your office, you might not have the chance to obtain these materials on your own. In those cases, it is advisable to go with green [commercial movers Los Angeles](https://sosmovingla.net/services/commercial-move/). *They will provide all the necessary supplies and will combine green moving with extreme efficiency.*
+We will go into more detail about these shortly. Another thing to note is that if you are moving your office, you might not have the chance to obtain these materials on your own. In those cases, it is advisable to go with green [commercial movers Los Angeles](/services/commercial-movers). *They will provide all the necessary supplies and will combine green moving with extreme efficiency.*
 ![book and blanket on the sofa](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d97922876e3f5bf39e_pexels-isabelle-taylor-1421176-scaled-e1615362728576.jpeg)*Your old blankets can be an ideal packing supplement.*
 ### Use what you have at home – Blankets, sheets, towels
 
-The first rule of “going green” is to use what you already have. By purchasing new materials, you are adding to their demand, which invariably leads to their further production. If everyone was to use the items they already have available, there would be less need for new materials and the production would slow down. Therefore, you can use your towels, blankets, and sheets as your packing supplies, as opposed to purchasing specialized ones. **They will do the job almost as effectively as their counterparts**, anyway. All you need is a bit of know-how. You can ask your [Los Angeles interstate movers](https://sosmovingla.net/services/interstate-move/) for advice on that matter. They will be happy to assist you and make your move even greener! It is a win-win situation so do not hesitate to ask for advice.
+The first rule of “going green” is to use what you already have. By purchasing new materials, you are adding to their demand, which invariably leads to their further production. If everyone was to use the items they already have available, there would be less need for new materials and the production would slow down. Therefore, you can use your towels, blankets, and sheets as your packing supplies, as opposed to purchasing specialized ones. **They will do the job almost as effectively as their counterparts**, anyway. All you need is a bit of know-how. You can ask your [Los Angeles interstate movers](/services/long-distance-movers) for advice on that matter. They will be happy to assist you and make your move even greener! It is a win-win situation so do not hesitate to ask for advice.
 
 ### Newspaper
 
@@ -34,7 +34,7 @@ If you have old newspaper lying around, you can utilize them in your packing eff
 
 ### Alternative green packing materials – Recycled paper tape
 
-No matter what you do, you are going to need to utilize a roll or two of tape for your packing efforts. However, you can get one that is made from recycled paper, which is a lot more green than its “standard” counterpart. **Packing tape, by its nature, is really difficult to re-use or recycle so going with a greener solution is always a better idea**. You can find this tape by asking your [movers California to New York](https://sosmovingla.net/services/interstate-move/california-to-new-york/) about it and they will point you in the right direction. More often than not, they will be able to sell it to you outright. These days, people are starting to be more eco-conscious, and these alternative materials are finding their way to the mass market. Which is great, as that shows significant improvement to our processes.
+No matter what you do, you are going to need to utilize a roll or two of tape for your packing efforts. However, you can get one that is made from recycled paper, which is a lot more green than its “standard” counterpart. **Packing tape, by its nature, is really difficult to re-use or recycle so going with a greener solution is always a better idea**. You can find this tape by asking your [movers California to New York](/services/long-distance-movers) about it and they will point you in the right direction. More often than not, they will be able to sell it to you outright. These days, people are starting to be more eco-conscious, and these alternative materials are finding their way to the mass market. Which is great, as that shows significant improvement to our processes.
 
 ### Biodegradable bubble wrap and packing peanuts
 

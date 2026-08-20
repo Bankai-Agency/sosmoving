@@ -114,6 +114,6 @@ This checklist represents hundreds of collective moves' wisdom. Customize it for
 
 Professional movers like SOS Moving handle the physical aspects, but success requires your organizational efforts. This checklist ensures nothing important gets forgotten while keeping you focused on manageable daily tasks rather than overwhelming totality.
 
-**Ready to check "Book Movers" off your list?** Contact SOS Moving at 909-443-0004 to secure professional moving services for your LA relocation. With your checklist in hand and our expertise handling the heavy lifting, your move becomes manageable. [Get your free quote](../../free-estimate/index.html) today—one important task completed!
+**Ready to check "Book Movers" off your list?** Contact SOS Moving at 909-443-0004 to secure professional moving services for your LA relocation. With your checklist in hand and our expertise handling the heavy lifting, your move becomes manageable. [Get your free quote](/free-estimate) today—one important task completed!
 
 ‍

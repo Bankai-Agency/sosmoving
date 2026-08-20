@@ -32,7 +32,7 @@ After all, there are many moving to LA with nothing each year and still making i
 
 *So, how much money do I need to move out when relocating to LA, you may ask?*
 
-Well, [if you decided to move to Los Angeles](https://sosmovingla.net/blog/what-to-know-before-moving-to-los-angeles/), there are a few things you need to think about to ensure you’re better prepared for life in the City of Angels.
+Well, [if you decided to move to Los Angeles](/blog/what-to-know-before-moving-to-los-angeles), there are a few things you need to think about to ensure you’re better prepared for life in the City of Angels.
 ![Cost of Living in LA](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d9792287035c5bf20b_cost-of-living.png)
 ### Cost of Living in LA
 
@@ -40,7 +40,7 @@ If you’re wondering how to move to Los Angeles on a budget, the best place to 
 
 That way, you’ll have better clarity on the numbers you should expect in relation to what you’re used to. This is also a good way to determine whether you’ll be maintaining the same standard of living or tightening the belt a little.
 
-Unless you’re moving from more expensive cities like NYC or nearby San Francisco or San Jose, normally you will need to make some adjustments to your lifestyle when starting over in a new city as expensive as LA. Budget Los Angeles neighborhoods and lifestyles might not be as steep as the [cost of your move to San Francisco](https://sosmovingla.net/blog/how-much-does-it-cost-to-move-from-la-to-san-francisco/), but it can come as a shock if you are not prepared for it.
+Unless you’re moving from more expensive cities like NYC or nearby San Francisco or San Jose, normally you will need to make some adjustments to your lifestyle when starting over in a new city as expensive as LA. Budget Los Angeles neighborhoods and lifestyles might not be as steep as the [cost of your move to San Francisco](/blog/how-much-does-it-cost-to-move-from-la-to-san-francisco), but it can come as a shock if you are not prepared for it.
 
 Dive deep into aspects such as rental prices, cost of transportation, food, as well as the cost of monthly utilities as these will have the biggest impact on your budget. Think about taxes, and healthcare, and don’t forget to factor in additional day-to-day expenses like dry cleaning or haircuts. The more detailed, the better you can anticipate and plan for it.
 ![Calculate Moving Costs](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d979228715af5bf200_calculate-moving-costs.png)
@@ -48,7 +48,7 @@ Dive deep into aspects such as rental prices, cost of transportation, food, as w
 
 If you’re contemplating how to move to Los Angeles on a budget, **look at ways you can trim your moving costs**.
 
-After establishing your budget, start by deciding what belongings you’ll be carrying with you and what you can leave behind. De-cluttering will save you in terms of moving costs and also provide a much-needed cash injection to help you get started. The leaner the baggage, the lower the [cost of your move to Los Angeles](https://sosmovingla.net/blog/average-cost-of-moving-in-los-angeles/).
+After establishing your budget, start by deciding what belongings you’ll be carrying with you and what you can leave behind. De-cluttering will save you in terms of moving costs and also provide a much-needed cash injection to help you get started. The leaner the baggage, the lower the [cost of your move to Los Angeles](/blog/average-cost-of-moving-in-los-angeles).
 
 It’s easier to offload items or de-clutter if you’re moving to Los Angeles alone. But even in the case of family relocation, consider selling off items like furniture to reduce your moving bill if it’s a budget Los Angeles move.
 

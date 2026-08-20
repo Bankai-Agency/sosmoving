@@ -24,7 +24,7 @@ At SOS Moving, we've moved people through every weather event Los Angeles produc
 
 Los Angeles heat waves are the most common weather disruption for moving day, and they're the one most people underestimate because sunshine feels normal until it doesn't.
 
-Summer temperatures in coastal neighborhoods like [Santa Monica](../../los-angeles-movers/santa-monica-movers/index.html) and [Marina del Rey](../marina-del-rey-moving-waterfront-living/index.html) stay manageable — mid-80s with ocean breeze. But ten miles inland, [Sherman Oaks](../../los-angeles-movers/sherman-oaks-movers/index.html), [Encino](../../los-angeles-movers/encino-movers/index.html), and [Van Nuys](../../los-angeles-movers/van-nuys-movers/index.html) regularly hit 100 to 110 degrees during summer heat waves. The difference between a coast move and a Valley move in August isn't just comfort — it's a safety issue.
+Summer temperatures in coastal neighborhoods like [Santa Monica](/los-angeles-movers/santa-monica-movers) and [Marina del Rey](/blog/marina-del-rey-moving-waterfront-living) stay manageable — mid-80s with ocean breeze. But ten miles inland, [Sherman Oaks](/sherman-oaks-movers), [Encino](/la-movers), and [Van Nuys](/van-nuys-movers) regularly hit 100 to 110 degrees during summer heat waves. The difference between a coast move and a Valley move in August isn't just comfort — it's a safety issue.
 
 Professional movers working in extreme heat need mandatory hydration breaks every thirty to forty-five minutes. At SOS Moving, our crews carry water coolers on every summer job, but heat still slows the pace. A four-hour move in 75-degree weather can take five hours in 105-degree heat. Factor that extra time into your budget and expectations.
 
@@ -32,7 +32,7 @@ Start early. A 7 AM start on a heat-wave day means your crew works through the c
 
 Keep the truck cargo door closed between loading trips. Every time the door opens, hot air floods in. Loading in rapid bursts with the door closed between them maintains a lower interior temperature. If your move involves a long drive between locations, park the truck in shade at the destination whenever possible.
 
-Items that are heat-sensitive need special handling. Candles go in your air-conditioned car, not the truck. Electronics travel in the cab if space allows. Wine bottles and anything with wax seals should be packed with ice packs or transported personally. [Packing fragile items properly](../how-to-pack-dishes-and-glassware-safely/index.html) matters even more when heat adds a second threat beyond physical impact.
+Items that are heat-sensitive need special handling. Candles go in your air-conditioned car, not the truck. Electronics travel in the cab if space allows. Wine bottles and anything with wax seals should be packed with ice packs or transported personally. [Packing fragile items properly](/blog/how-to-pack-dishes-and-glassware-safely) matters even more when heat adds a second threat beyond physical impact.
 
 ## Rain and Storms
 
@@ -40,7 +40,7 @@ Rain in LA is infrequent but high-impact when it arrives. The city averages 36 r
 
 The contingency plan for rain starts five days before your move. Check the hourly forecast — not just the daily summary. LA rainstorms often follow patterns: morning rain clearing by noon, or building through the afternoon with heavy evening downpours. If the forecast shows a narrow dry window, shift your start time to align with it. Most moving companies accommodate time changes with 24 to 48 hours' notice.
 
-If rescheduling isn't possible, preparation is everything. Plastic sheeting over every box that travels between building and truck. Shrink wrap on all upholstered furniture. Mattress bags sealed completely. [Moving blankets](../moving-blankets-rent-vs-buy-decision-guide/index.html) absorb water like sponges, so wrap items in plastic first, then blankets over the plastic for padding.
+If rescheduling isn't possible, preparation is everything. Plastic sheeting over every box that travels between building and truck. Shrink wrap on all upholstered furniture. Mattress bags sealed completely. [Moving blankets](/blog/moving-blankets-rent-vs-buy-decision-guide) absorb water like sponges, so wrap items in plastic first, then blankets over the plastic for padding.
 
 The truck cargo area must stay dry. A crew member stationed at the truck door with a tarp during loading keeps rain from entering the cargo space. Floor runners inside both the old and new homes protect against muddy boot prints — which matter when your security deposit is on the line.
 
@@ -52,11 +52,11 @@ Santa Ana winds are LA's most underestimated moving hazard. These hot, dry winds
 
 Wind doesn't stop a move the way rain can, but it changes every outdoor operation. Lightweight items — lampshades, empty bookshelves, framed artwork, decorative pieces — catch wind and become difficult or dangerous to carry. A gust that hits a mover carrying a large flat item like a mirror or painting can wrench the item out of their hands or push them off balance.
 
-The contingency plan for wind is sequence-based. Load heavy, dense items first when the wind is typically lighter in the morning. Save lightweight and flat items for calm moments or carry them in groups where multiple people provide stability. Fragile items like [mirrors and framed artwork](../mirror-and-picture-boxes-professional-packing-tips/index.html) should be packed in padded boxes before the trip between door and truck rather than carried unwrapped.
+The contingency plan for wind is sequence-based. Load heavy, dense items first when the wind is typically lighter in the morning. Save lightweight and flat items for calm moments or carry them in groups where multiple people provide stability. Fragile items like [mirrors and framed artwork](/mirror-and-picture-boxes-professional-packing-tips) should be packed in padded boxes before the trip between door and truck rather than carried unwrapped.
 
 Truck doors are a specific hazard in high winds. A cargo door caught by a gust swings with enough force to injure someone standing nearby or damage the side of a parked car. Crews working in wind should have one person managing the door at all times — holding it open during loading, securing it closed between trips.
 
-Santa Ana winds also bring extremely low humidity and elevated fire risk. During red flag warnings, some hillside neighborhoods may have active evacuations or road closures that affect your route. Check fire conditions before moving day if your origin or destination is in a canyon or hillside area like [Malibu](../../los-angeles-movers/malibu-movers/index.html), [Calabasas](../../los-angeles-movers/calabasas-movers/index.html), or the Hollywood Hills.
+Santa Ana winds also bring extremely low humidity and elevated fire risk. During red flag warnings, some hillside neighborhoods may have active evacuations or road closures that affect your route. Check fire conditions before moving day if your origin or destination is in a canyon or hillside area like [Malibu](/malibu-movers), [Calabasas](/los-angeles-movers/calabasas-movers), or the Hollywood Hills.
 
 ## Building Your Contingency Plan
 
@@ -70,7 +70,7 @@ Third: what materials do you need for each scenario? Heat requires water, shade 
 
 Fourth: who makes the call? If you're moving with a partner or roommate, decide in advance who has authority to reschedule, adjust timing, or approve weather-related changes. A crew standing at your door while two people debate whether to proceed wastes money and time.
 ![](../../assets/cdn/645ab1d97922878b6f5bef7f/69afebbdf877d53b0a47284e_moving-day-weather-contingency-plans-2.png)
-**Weather won't wait — but your plan can be ready.** SOS Moving crews arrive prepared for every LA weather condition with protective materials, flexible scheduling, and the experience to adapt on the fly. Call [909-443-0004](tel:9094430004) or [get your free estimate](../../free-estimate/index.html).
+**Weather won't wait — but your plan can be ready.** SOS Moving crews arrive prepared for every LA weather condition with protective materials, flexible scheduling, and the experience to adapt on the fly. Call [909-443-0004](tel:9094430004) or [get your free estimate](/free-estimate).
 
 ## What Your Moving Company Should Provide
 
@@ -110,4 +110,4 @@ The cost of postponing is typically limited to schedule disruption. The cost of 
 
 ## Get Started with a Weather-Ready Move
 
-SOS Moving prepares for every weather scenario Los Angeles can produce — heat, rain, wind, or all three in the same week. Our crews carry protective materials on every job, communicate proactively about weather concerns, and adjust scheduling without penalty when conditions require it. Call [909-443-0004](tel:9094430004) or [request your free estimate](../../free-estimate/index.html) to book a move that's planned for sunshine but ready for anything.
+SOS Moving prepares for every weather scenario Los Angeles can produce — heat, rain, wind, or all three in the same week. Our crews carry protective materials on every job, communicate proactively about weather concerns, and adjust scheduling without penalty when conditions require it. Call [909-443-0004](tel:9094430004) or [request your free estimate](/free-estimate) to book a move that's planned for sunshine but ready for anything.

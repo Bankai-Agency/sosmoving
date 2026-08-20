@@ -20,7 +20,7 @@ Moving, which doesn’t occur every day, is a long and arduous process. Actually
 
 - Is this company trustworthy? Make sure to check its official website and online presence.- Does this company have reviews? Check out its online platforms, such as Facebook and Yelp, to find out more about the company’s social presence.- What is the hourly rate of their services? If there are any hidden costs, and how clearly the online quote reflects the final quote.
 
-Find out [the best way to make sure a company is reputable](https://sosmovingla.net/blog/5-quick-ways-to-check-if-moving-company-is-legitimate/).
+Find out [the best way to make sure a company is reputable](/blog/5-quick-ways-to-check-if-a-moving-company-is-legitimate).
 
 ## ABOUT THE PRICE
 

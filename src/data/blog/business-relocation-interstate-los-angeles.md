@@ -26,7 +26,7 @@ Business relocations from Los Angeles increased 300% since 2020, with companies 
 
 ## Popular Business Relocation Destinations
 
-**Las Vegas, Nevada (270 miles):**No state income or corporate tax. Four-hour drive maintains LA connections. Growing tech and startup scene. Entertainment industry presence. [Moving to Vegas](../../services/long-distance-movers/index.html) costs typically $15,000-30,000 for small business.
+**Las Vegas, Nevada (270 miles):**No state income or corporate tax. Four-hour drive maintains LA connections. Growing tech and startup scene. Entertainment industry presence. [Moving to Vegas](/services/long-distance-movers) costs typically $15,000-30,000 for small business.
 
 **Phoenix, Arizona (370 miles):**Low corporate tax (4.9%). Skilled workforce from ASU. Major distribution hub location. Tech giants establishing presence. Full relocation runs $20,000-40,000.
 
@@ -108,6 +108,6 @@ Business relocation represents fundamental strategic choice, not just cost reduc
 
 Success requires meticulous planning and professional execution. The savings are real—many businesses reduce operating costs 30-40%. But transition costs and risks demand careful management.
 
-**Planning your business relocation from Los Angeles?** Contact [SOS Moving](../../about-us/contact-us/index.html) at 909-443-0004 for commercial interstate moving expertise. We handle complete business relocations including office furniture, IT equipment, and sensitive documents. Our commercial teams understand business continuity requirements and work weekends to minimize disruption. From small startups to major operations, we manage your business relocation professionally while you focus on maintaining operations.
+**Planning your business relocation from Los Angeles?** Contact [SOS Moving](/about-us/contact-us) at 909-443-0004 for commercial interstate moving expertise. We handle complete business relocations including office furniture, IT equipment, and sensitive documents. Our commercial teams understand business continuity requirements and work weekends to minimize disruption. From small startups to major operations, we manage your business relocation professionally while you focus on maintaining operations.
 
 ‍

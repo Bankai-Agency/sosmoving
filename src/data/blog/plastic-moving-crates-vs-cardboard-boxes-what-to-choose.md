@@ -26,7 +26,7 @@ The easiest way to make a decision is to put the pros and cons of both options f
 
 Packing a box may seem like an easy task, but there is a right and wrong way to pack for a successful move. It will protect all the items it contains to ensure that no valuables in transport are broken or damaged.
 
-*When packing in boxes, there is no point in filling a large box with a small one due to spending space on screws, jewelry, and even cutlery.* First and foremost, the organization is the key. Think ahead so you won’t have excess and other items under the loose furniture, so the extra screws are needed to stay connected to the right piece of furnishing. **Hiring professionals to help you is a time and money saver.** [Packing services Los Angeles](https://sosmovingla.net/services/packing-services/) offers high-quality supplies such as bubble wrap, boxes, and packing kits.
+*When packing in boxes, there is no point in filling a large box with a small one due to spending space on screws, jewelry, and even cutlery.* First and foremost, the organization is the key. Think ahead so you won’t have excess and other items under the loose furniture, so the extra screws are needed to stay connected to the right piece of furnishing. **Hiring professionals to help you is a time and money saver.** [Packing services Los Angeles](/services/packing-services) offers high-quality supplies such as bubble wrap, boxes, and packing kits.
 ![looking at a pile of boxes and thinking about plastic moving crates vs. cardboard boxes](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d97922874d895bf3f3_boris-misevic-HofOYDPOIdA-unsplash_770x350.jpeg)*You can find cardboard boxes everywhere.*
 #### Use transparent plastic packing boxes.
 
@@ -44,11 +44,11 @@ When you are planning a move, *make sure you put on paper a checklist*. If you f
 
 - Pack each item separately.- Use plastic crates or cardboard boxes intended for moving.- Put heavy things in smaller boxes and always on the bottom.- **Never overfill the box.**- Fill the gaps in the box. Gaps create a risk of the box sinking and damaging things.- Mark the boxes.- When you fill the box, immediately tape it.- Never glue boxes diagonally.
 
-Hiring professional help is a good idea. [Commercial movers Los Angeles](https://sosmovingla.net/services/commercial-movers/) can relocate your entire business both locally and long-distance. When you considering hiring a moving company, *make sure that the company has a good reputation.* That way, you will be sure that your belongings will arrive in optimal condition.
+Hiring professional help is a good idea. [Commercial movers Los Angeles](/services/commercial-movers) can relocate your entire business both locally and long-distance. When you considering hiring a moving company, *make sure that the company has a good reputation.* That way, you will be sure that your belongings will arrive in optimal condition.
 
 ### Moving cross country
 
-In case you have to move interstate, [Los Angeles interstate movers](https://sosmovingla.net/services/interstate-move/) can help big time. They can pack your belongings such as:
+In case you have to move interstate, [Los Angeles interstate movers](/services/long-distance-movers) can help big time. They can pack your belongings such as:
 
 -  Small and large household equipment- Fine china items- Furniture- Heavy items such as piano- Office furniture or common household
 ![Man in blue shirt packing items in plastic crates](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d9792287388b5bf3e3_hiveboxx-mYxzG5NwDNs-unsplash_770x350.jpeg)*Plastic moving crates are reusable and eco-friendly.*
@@ -58,7 +58,7 @@ What to choose? That depends on you. *Both plastic moving crates and cardboard b
 
 You can find cardboard boxes easily, and they are super affordable. When you finish using them, they can be easily separated and reused, or recycled. **Plastic takes a long time to degrade but can be recycled multiple times. **
 
-[Movers California to New York](https://sosmovingla.net/services/interstate-move/california-to-new-york/) offers help with packing and moving, so if you have a dilemma about which box to use, you can always ask for advice from a professional.
+[Movers California to New York](/services/long-distance-movers) offers help with packing and moving, so if you have a dilemma about which box to use, you can always ask for advice from a professional.
 
 #### Conclusion on plastic crates vs. cardboard boxes
 

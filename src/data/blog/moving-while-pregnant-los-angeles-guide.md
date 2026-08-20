@@ -44,7 +44,7 @@ Moving during pregnancy adds layers of complexity to an already stressful proces
 
 ## Delegation Strategies
 
-**Hire professionals for everything possible:**[Full packing services](../../services/packing-services/index.html) eliminate physical strain. Professional movers handle all lifting. Cleaning services for both locations. Unpacking services reduce post-move stress.
+**Hire professionals for everything possible:**[Full packing services](/services/packing-services) eliminate physical strain. Professional movers handle all lifting. Cleaning services for both locations. Unpacking services reduce post-move stress.
 
 **Partner responsibilities:**Must handle all physical tasks. Coordinate logistics and scheduling. Interface with moving crews. Manage stress-inducing negotiations.
 
@@ -60,7 +60,7 @@ Moving during pregnancy adds layers of complexity to an already stressful proces
 
 ## LA-Specific Pregnancy Moving Challenges
 
-**Heat management:**LA temperatures dangerous during pregnancy. Summer moves require dawn starts. Hydration beyond normal needs. Air conditioning essential throughout. Beach areas ([Santa Monica](../../los-angeles-movers/santa-monica-movers/index.html), [Manhattan Beach](../../manhattan-beach-movers/index.html)) offer cooler options.
+**Heat management:**LA temperatures dangerous during pregnancy. Summer moves require dawn starts. Hydration beyond normal needs. Air conditioning essential throughout. Beach areas ([Santa Monica](/los-angeles-movers/santa-monica-movers), [Manhattan Beach](/manhattan-beach-movers)) offer cooler options.
 
 **Distance from hospital:**Know nearest hospital to new home. Keep medical records accessible. Maintain OB/GYN continuity if possible. Register at new hospital early.
 
@@ -110,6 +110,6 @@ Sometimes moving while pregnant is unavoidable—job relocations, family needs, 
 
 If moving is necessary, maximum support and professional help aren't luxuries but medical necessities. Your health and baby's safety outweigh any cost savings from DIY approaches.
 
-**Need to move while pregnant?** Contact SOS Moving at 909-443-0004 for pregnancy-safe moving services. Our professional teams handle everything while you rest, ensuring your safety throughout relocation. From [full packing services](../../services/packing-services/index.html) to complete unpacking, we minimize your physical involvement. Let us handle the stress while you focus on growing your baby safely.
+**Need to move while pregnant?** Contact SOS Moving at 909-443-0004 for pregnancy-safe moving services. Our professional teams handle everything while you rest, ensuring your safety throughout relocation. From [full packing services](/services/packing-services) to complete unpacking, we minimize your physical involvement. Let us handle the stress while you focus on growing your baby safely.
 
 ‍

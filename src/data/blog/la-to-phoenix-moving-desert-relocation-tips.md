@@ -26,7 +26,7 @@ A one-bedroom apartment move runs $1,800 to $3,500 for full-service professional
 
 The DIY route is tempting at this distance. A one-way truck rental costs $150 to $400, and the drive takes five to six hours with a stop for fuel. Add gas at roughly $80 to $100, rental insurance, and a night in a motel if you're not comfortable driving a loaded truck through the desert after dark, and you're looking at $300 to $600 for truck and logistics alone. The savings are real if you have help loading and unloading — but the desert crossing in a non-air-conditioned cargo area changes the risk equation for your belongings.
 
-At SOS Moving, we handle LA-to-Phoenix as a same-day or next-day interstate move depending on loading time. Morning loads in LA typically arrive in Phoenix by evening. Our flat-rate quotes include all protective materials — moving blankets, unlimited shrink wrap, heavy-duty tape, and [wardrobe boxes](../wardrobe-boxes-are-they-worth-the-investment/index.html) — at no extra cost.
+At SOS Moving, we handle LA-to-Phoenix as a same-day or next-day interstate move depending on loading time. Morning loads in LA typically arrive in Phoenix by evening. Our flat-rate quotes include all protective materials — moving blankets, unlimited shrink wrap, heavy-duty tape, and [wardrobe boxes](/blog/wardrobe-boxes-are-they-worth-the-investment) — at no extra cost.
 
 ## The I-10 Route and What to Expect
 
@@ -50,7 +50,7 @@ Pack heat-sensitive items in insulated containers or wrap them in moving blanket
 
 Keep the truck cargo door closed as much as possible during loading and unloading. Every opening floods the interior with hot air. Load and unload in rapid bursts rather than leaving the door open continuously. If unloading at the Phoenix destination takes more than an hour, park the truck in shade — a building shadow, a covered loading area, even a large tree — to reduce interior temperatures.
 ![](../../assets/cdn/645ab1d97922878b6f5bef7f/69aff58d31c493fd47929d75_la-to-phoenix-moving-desert-relocation-tips.png)
-**Moving to Phoenix this summer?** SOS Moving's crews prep every desert crossing with heat-protection protocols, pre-trip vehicle inspections, and the experience to keep your belongings safe through 115-degree temperatures. Call [909-443-0004](tel:9094430004) or [get your free estimate](../../free-estimate/index.html).
+**Moving to Phoenix this summer?** SOS Moving's crews prep every desert crossing with heat-protection protocols, pre-trip vehicle inspections, and the experience to keep your belongings safe through 115-degree temperatures. Call [909-443-0004](tel:9094430004) or [get your free estimate](/free-estimate).
 
 ## What Changes When You Get to Arizona
 
@@ -102,4 +102,4 @@ Mesa and Surprise provide the most affordable entry points in the metro, with ne
 
 ## Get Started with Your LA to Phoenix Move
 
-SOS Moving runs the I-10 corridor between Los Angeles and Phoenix year-round with same-day delivery, heat-protection protocols, and flat-rate pricing that includes all materials. Call [909-443-0004](tel:9094430004) or [request your free estimate](../../free-estimate/index.html) to get a transparent quote for your desert crossing — we'll handle the logistics while you start planning your new life in the Valley of the Sun.
+SOS Moving runs the I-10 corridor between Los Angeles and Phoenix year-round with same-day delivery, heat-protection protocols, and flat-rate pricing that includes all materials. Call [909-443-0004](tel:9094430004) or [request your free estimate](/free-estimate) to get a transparent quote for your desert crossing — we'll handle the logistics while you start planning your new life in the Valley of the Sun.

@@ -16,9 +16,9 @@ author:
 
 Moves are always a more complex and extensive task than they seem initially. They require working, planning, managing many factors and intricacies, and dealing on time. Commercial moves are even more challenging to plan and conduct as they require handling and transporting specialized equipment.
 
-Whether it is office relocation or [relocating your medical office to a new address](https://sosmovingla.net/blog/5-tips-of-moving-a-medical-practice-to-a-new-location/), there are a lot of problems and tasks that you would have to deal with but will not know unless you have moved previously. It is always a good idea to hire seasoned professionals who have experience in the field and can guide you through your move.
+Whether it is office relocation or [relocating your medical office to a new address](/blog/5-tips-of-moving-a-medical-practice-to-a-new-location), there are a lot of problems and tasks that you would have to deal with but will not know unless you have moved previously. It is always a good idea to hire seasoned professionals who have experience in the field and can guide you through your move.
 
-However, there are a few things you need to bear in mind when planning a move. So here are our [commercial moving tips and checklist](https://sosmovingla.net/blog/how-to-organize-an-office-move-office-moving-checklist/) for you.
+However, there are a few things you need to bear in mind when planning a move. So here are our [commercial moving tips and checklist](/blog/how-to-organize-an-office-move-office-moving-checklist) for you.
 
 ## 1. Get an Early Start
 
@@ -28,7 +28,7 @@ However, there are a few things you need to bear in mind when planning a move. S
 
 If you are a business planning to relocate, you need to ensure that everyone from your staff to your customers is in the loop.
 
-- You must **inform your staff so they can start preparing for the move.** Help them identify all the necessary items that need to be moved and all items that will require specific packing. They will also play a key role in communicating with customers about the move.- If your business relies on foot traffic, you must **start informing customers as soon as the place and time of your move are finalized** so that you do not lose customers. Ideally, there should be a [formal announcement regarding the move](https://sosmovingla.net/blog/how-to-announce-your-office-relocation-6-great-tips/), and you should reach out to customers to let them know about it.
+- You must **inform your staff so they can start preparing for the move.** Help them identify all the necessary items that need to be moved and all items that will require specific packing. They will also play a key role in communicating with customers about the move.- If your business relies on foot traffic, you must **start informing customers as soon as the place and time of your move are finalized** so that you do not lose customers. Ideally, there should be a [formal announcement regarding the move](/blog/how-to-announce-your-office-relocation-6-great-tips), and you should reach out to customers to let them know about it.
 
 **Pro Tip:** make sure that all your marketing materials, business cards, social media handles, and website have the new address to avoid confusion.
 

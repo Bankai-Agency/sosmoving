@@ -18,7 +18,7 @@ Office relocation is always a pleasant and inspiring moment, but the list of tas
 
 ## Phase 1: Plan Your Move in Advance
 
-If you don’t want to panic because of another emergency during your moving day, it’s better to plan everything ahead. As a base, you can review [top quick tips for commercial moving](https://sosmovingla.net/blog/7-tips-you-need-to-keep-in-mind-when-planning-a-commercial-move/) that focus on the most important things for successful office relocation. However, make sure that regardless of the basic things, to consider all the details for your plan.
+If you don’t want to panic because of another emergency during your moving day, it’s better to plan everything ahead. As a base, you can review [top quick tips for commercial moving](/blog/7-tips-you-need-to-keep-in-mind-when-planning-a-commercial-move) that focus on the most important things for successful office relocation. However, make sure that regardless of the basic things, to consider all the details for your plan.
 
 ### Get Organized
 
@@ -40,7 +40,7 @@ Communication is the priority that has to be emphasized in the office relocation
 
 ### Relocation Announcement
 
-We recommend you pay special attention to the [office relocation announcement](https://sosmovingla.net/blog/how-to-announce-your-office-relocation-6-great-tips/) to your team members to inform and excite all the employees about future moving. Organize a meeting or send emails to all the employees stating the reason for relocation and enlisting all the positive moments waiting for them in a new office space. Include contact information, moving date, and the plan of moving day. Try to do it at least one month before moving day to give time for your employees to prepare and adjust their working routine.
+We recommend you pay special attention to the [office relocation announcement](/blog/how-to-announce-your-office-relocation-6-great-tips) to your team members to inform and excite all the employees about future moving. Organize a meeting or send emails to all the employees stating the reason for relocation and enlisting all the positive moments waiting for them in a new office space. Include contact information, moving date, and the plan of moving day. Try to do it at least one month before moving day to give time for your employees to prepare and adjust their working routine.
 
 Besides, don’t forget about your landlord, service providers, suppliers, professional organizations you belong to, Internet service providers, banks and financial institutions, insurance companies, telephone companies, food service or bottled water providers, etc. Make sure all the interested parties are informed about your office relocation to avoid unpleasant situations in the future or even extra expenses.
 
@@ -84,7 +84,7 @@ After the move, pay attention to unpacking as a final point in moving an office 
 
 During the unpacking stage, involve your employees in the process to have common areas, a lounge room, or a kitchen organized the way your team likes. Make sure a new space fits your team spirit and reflects your company atmosphere.
 
-Besides, test all the computers, IT systems, equipment, Wi-Fi, cable connections, etc., to make the transition from an old place to a new one as smooth as possible. If you have any specific professional equipment or you’re [moving to a medical office](https://sosmovingla.net/blog/5-tips-of-moving-a-medical-practice-to-a-new-location/), invite professionals to test everything.
+Besides, test all the computers, IT systems, equipment, Wi-Fi, cable connections, etc., to make the transition from an old place to a new one as smooth as possible. If you have any specific professional equipment or you’re [moving to a medical office](/blog/5-tips-of-moving-a-medical-practice-to-a-new-location), invite professionals to test everything.
 
 At the end of your move, confirm termination of your old lease and address update. Double-check that all the issues connected with the old address are taken care of, and your new office is fully associated with the new address.
 

@@ -60,9 +60,9 @@ Los Angeles moving companies typically book 2-3 weeks out. Peak season (May-Sept
 
 ## Areas with Better Last Minute Availability
 
-**Easier to accommodate:**[Valley areas](../../san-fernando-valley-movers/index.html) with multiple crews nearby. [Central LA](../../movers-downtown-los-angeles/index.html) with good access. [Koreatown](../moving-to-koreatown-los-angeles/index.html) due to density. Weekday morning slots everywhere.
+**Easier to accommodate:**[Valley areas](/san-fernando-valley-movers) with multiple crews nearby. [Central LA](/movers-downtown-los-angeles) with good access. [Koreatown](/blog/moving-to-koreatown-los-angeles) due to density. Weekday morning slots everywhere.
 
-**Harder to accommodate:**[Beach cities](../../manhattan-beach-movers/index.html) on summer weekends. [Beverly Hills](../../beverly-hills-movers/index.html) requiring special requirements. Remote areas like Malibu. Saturday afternoons anywhere. Month-end everywhere impossible.
+**Harder to accommodate:**[Beach cities](/manhattan-beach-movers) on summer weekends. [Beverly Hills](/beverly-hills-movers) requiring special requirements. Remote areas like Malibu. Saturday afternoons anywhere. Month-end everywhere impossible.
 
 ## Avoiding Last Minute Scams
 
@@ -110,6 +110,6 @@ When facing last minute moving needs, every hour matters. Professional movers bo
 
 Call immediately upon realizing need. Explain situation honestly and completely. Accept available options gratefully. Prepare maximum effort meanwhile. Hope for best, plan for challenges.
 
-**Need last minute movers?** Call SOS Moving NOW at 909-443-0004. Don't text, don't email—CALL. Our urgent response team assesses availability immediately. We maintain reserve capacity for emergencies exactly like yours. While we can't guarantee availability, we'll do everything possible to help. From [same-day service](../same-day-movers-los-angeles-emergency/index.html) to next-week scrambles, we understand urgency. Call now—every minute counts in last minute moving.
+**Need last minute movers?** Call SOS Moving NOW at 909-443-0004. Don't text, don't email—CALL. Our urgent response team assesses availability immediately. We maintain reserve capacity for emergencies exactly like yours. While we can't guarantee availability, we'll do everything possible to help. From [same-day service](/blog/same-day-movers-los-angeles-emergency) to next-week scrambles, we understand urgency. Call now—every minute counts in last minute moving.
 
 ‍

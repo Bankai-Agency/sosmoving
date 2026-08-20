@@ -24,17 +24,17 @@ Professional movers handle plants differently than furniture because living thin
 
 ## Legal Restrictions: What You Can't Move
 
-**Interstate moves have strict regulations:**California agricultural inspections prohibit many plants from entering or leaving. Each state maintains lists of banned plants to prevent pest spread. [Long-distance movers](../../services/long-distance-movers/index.html) cannot legally transport plants over 150 miles. Some states require quarantine periods or certificates.
+**Interstate moves have strict regulations:**California agricultural inspections prohibit many plants from entering or leaving. Each state maintains lists of banned plants to prevent pest spread. [Long-distance movers](/services/long-distance-movers) cannot legally transport plants over 150 miles. Some states require quarantine periods or certificates.
 
 **Within California (LA to San Francisco, San Diego):**No restrictions for personal houseplants on local moves. Commercial quantities may require inspection. Citrus plants have special restrictions due to disease concerns. Always declare plants to your moving company.
 
-**Apartment and HOA rules:**Some buildings prohibit large plants in elevators. HOAs may restrict plant types in common areas during moves. Check building policies before scheduling your move. [Beverly Hills](../../beverly-hills-movers/index.html) and [West Hollywood](../../los-angeles-movers/west-hollywood-movers/index.html) buildings often have strict rules.
+**Apartment and HOA rules:**Some buildings prohibit large plants in elevators. HOAs may restrict plant types in common areas during moves. Check building policies before scheduling your move. [Beverly Hills](/beverly-hills-movers) and [West Hollywood](/los-angeles-movers/west-hollywood-movers) buildings often have strict rules.
 
 ## Timing Your Plant Move
 
 **Best seasons for moving plants in LA:**October-November and March-April offer mild temperatures. Avoid June-September when heat stress peaks. Winter moves risk cold damage during early morning loads. Spring moves coincide with growth season, aiding recovery.
 
-**Day of week matters:**Weekend moves mean plants spend extra time in trucks. Wednesday-Thursday moves ensure quickest transport. Monday moves risk weekend storage if delays occur. [SOS Moving's weekday rates](../moving-costs-los-angeles-pricing-guide/index.html) save money while protecting plants.
+**Day of week matters:**Weekend moves mean plants spend extra time in trucks. Wednesday-Thursday moves ensure quickest transport. Monday moves risk weekend storage if delays occur. [SOS Moving's weekday rates](/moving-costs-los-angeles-pricing-guide) save money while protecting plants.
 
 ## Preparing Plants: 2-Week Timeline
 
@@ -50,7 +50,7 @@ Professional movers handle plants differently than furniture because living thin
 
 **Medium plants (12-36 inches):**Wrap pots in bubble wrap for insulation. Secure in wardrobe boxes with tops open. Stake tall plants to prevent bending. Pack moss around base for stability. Never lay plants horizontally.
 
-**Large plants (over 36 inches):**These require special handling often not covered by standard moving services. Wrap entire plant in breathable fabric or paper. Secure branches gently with twine. May need personal vehicle transport. Consider [white glove service](../../services/white-glove-movers/index.html) for valuable specimens.
+**Large plants (over 36 inches):**These require special handling often not covered by standard moving services. Wrap entire plant in breathable fabric or paper. Secure branches gently with twine. May need personal vehicle transport. Consider [white glove service](/services/white-glove-movers) for valuable specimens.
 
 **Cacti and succulents:**Wrap each in newspaper or bubble wrap. Pack upright in sturdy boxes with ample padding. Mark boxes clearly—spines can injure movers. These handle temperature extremes better than tropicals. Allow soil to dry completely before packing.
 
@@ -60,13 +60,13 @@ Professional movers handle plants differently than furniture because living thin
 
 **What we cannot do:**Guarantee plant survival (living things are unpredictable). Transport plants interstate due to regulations. Provide special climate control in cargo area. Take responsibility for rare or valuable specimens. Store plants in our facilities.
 
-**Best practice combination:**Transport extremely valuable or delicate plants yourself. Let professionals handle properly packed hardy plants. Use [storage services](../../services/storage/index.html) for items, freeing car space for plants. Schedule move timing around plant transport needs.
+**Best practice combination:**Transport extremely valuable or delicate plants yourself. Let professionals handle properly packed hardy plants. Use [storage services](/services/storage) for items, freeing car space for plants. Schedule move timing around plant transport needs.
 
 ## Climate Considerations for LA Moves
 
-**Valley to Beach moves (**[**Northridge**](../../northridge-movers/index.html)** to **[**Santa Monica**](../../los-angeles-movers/santa-monica-movers/index.html)**):**Humidity changes from 30% to 70% affect tropical plants. Temperature drops 10-15 degrees requiring adjustment period. Increased marine layer may reduce light needs. Salt air affects sensitive plants near beach.
+**Valley to Beach moves (**[**Northridge**](/northridge-movers)** to **[**Santa Monica**](/los-angeles-movers/santa-monica-movers)**):**Humidity changes from 30% to 70% affect tropical plants. Temperature drops 10-15 degrees requiring adjustment period. Increased marine layer may reduce light needs. Salt air affects sensitive plants near beach.
 
-**Beach to Inland moves (**[**Manhattan Beach**](../../manhattan-beach-movers/index.html)** to **[**Pasadena**](../../los-angeles-movers/pasadena-movers/index.html)**):**Lower humidity requires increased watering schedule. Higher temperatures need shade adaptation period. Stronger sun may burn previously shaded plants. Air conditioning creates additional dry stress.
+**Beach to Inland moves (**[**Manhattan Beach**](/manhattan-beach-movers)** to **[**Pasadena**](/los-angeles-movers/pasadena-movers)**):**Lower humidity requires increased watering schedule. Higher temperatures need shade adaptation period. Stronger sun may burn previously shaded plants. Air conditioning creates additional dry stress.
 
 ## Day of Move: Plant Protocol
 
@@ -88,7 +88,7 @@ Plants often show stress symptoms even with perfect moving. Yellowing leaves, dr
 
 **Moving plants adds to standard moving costs:**Extra packing materials: $20-50 for plant-safe supplies. Additional time: 15-30 minutes for proper loading. Special handling: May require additional mover. Personal transport: Gas and time for DIY transport.
 
-**When professional plant moving makes sense:**Large collections requiring coordinated transport. Valuable specimens needing documentation. Limited personal vehicle space. Physical inability to lift heavy planters. [Get accurate quote](../../free-estimate/index.html) including plant moving services.
+**When professional plant moving makes sense:**Large collections requiring coordinated transport. Valuable specimens needing documentation. Limited personal vehicle space. Physical inability to lift heavy planters. [Get accurate quote](/free-estimate) including plant moving services.
 
 ## Alternative Options
 
@@ -100,8 +100,8 @@ Plants often show stress symptoms even with perfect moving. Yellowing leaves, dr
 
 Moving plants successfully requires planning, proper techniques, and realistic expectations. While SOS Moving handles plants with extra care during [local LA moves](/la-movers), the safest option for treasured specimens remains personal transport. For interstate moves, regulations often make plant transport impossible, requiring creative solutions or difficult decisions.
 
-Most plants are surprisingly resilient and recover from moving stress with proper care. The keys are minimizing transport time, maintaining stable temperatures, and providing appropriate recovery conditions. Whether moving from [Downtown LA](../../movers-downtown-los-angeles/index.html) to the [Valley](../../san-fernando-valley-movers/index.html) or across town in [Glendale](../../los-angeles-movers/glendale-movers/index.html), your green friends can successfully make the journey with proper preparation.
+Most plants are surprisingly resilient and recover from moving stress with proper care. The keys are minimizing transport time, maintaining stable temperatures, and providing appropriate recovery conditions. Whether moving from [Downtown LA](/movers-downtown-los-angeles) to the [Valley](/san-fernando-valley-movers) or across town in [Glendale](/los-angeles-movers/glendale-movers), your green friends can successfully make the journey with proper preparation.
 
-**Planning a move with extensive plant collection?** [Contact SOS Moving](../../about-us/contact-us/index.html) at 909-443-0004 to discuss how we can help. While we can't guarantee your fiddle leaf fig won't drop a few leaves, our experienced crews understand that your plants are living treasures deserving extra care. Let's work together to give your plants the best chance at thriving in their new home.
+**Planning a move with extensive plant collection?** [Contact SOS Moving](/about-us/contact-us) at 909-443-0004 to discuss how we can help. While we can't guarantee your fiddle leaf fig won't drop a few leaves, our experienced crews understand that your plants are living treasures deserving extra care. Let's work together to give your plants the best chance at thriving in their new home.
 
 ‍

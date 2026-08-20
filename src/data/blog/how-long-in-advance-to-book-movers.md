@@ -14,11 +14,11 @@ author:
   photo: ""
 ---
 
-Moving spaces, whether it’s a house or a commercial space, is always an exciting but surprisingly tedious job. The literal opening of new doors and leaving behind all your memories in one place to create new ones in a new place is a bittersweet process. But to truly enjoy the process, one must have complete peace of mind, which can be difficult if you are [considering DIY or moving yourself](https://sosmovingla.net/blog/moving-yourself-vs-hiring-movers-which-is-better/).
+Moving spaces, whether it’s a house or a commercial space, is always an exciting but surprisingly tedious job. The literal opening of new doors and leaving behind all your memories in one place to create new ones in a new place is a bittersweet process. But to truly enjoy the process, one must have complete peace of mind, which can be difficult if you are [considering DIY or moving yourself](/blog/moving-yourself-vs-hiring-movers-which-is-better).
 
 While it may seem like a simple task where you pack up your belongings and move them into the new space, the logistics of it are not nearly as simple as they seem. Thus, it is important to have reliable and seasoned movers by your side who can guide you and smooth things out in the process can be an absolute lifesaver.
 
-Finding and booking good movers is a task in itself. Someone who has not moved previously might not know [how to choose a good moving company](https://sosmovingla.net/blog/how-to-choose-a-reputable-moving-company/) or how early they should start looking into moving companies and book movers.
+Finding and booking good movers is a task in itself. Someone who has not moved previously might not know [how to choose a good moving company](/blog/how-to-choose-a-reputable-moving-company) or how early they should start looking into moving companies and book movers.
 
 Ideally, you should start looking into moving companies about four months in advance to book the company of your choice at least three months before your move date.
 
@@ -68,13 +68,13 @@ Even in the off-season, long-distance moves are difficult, so it is best to book
 ![man working on a laptop](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d979228777f45bf217_man-working-on-laptop.png)
 ## Things to Look Out For
 
-With moving being so tricky, there are a lot of things you should look into. Although booking in advance can save you a lot of money, there are some [red flags you should watch out for](https://sosmovingla.net/blog/13-red-flags-to-watch-out-for-when-hiring-a-moving-company/). You do not lose money during the process or [get scammed](https://sosmovingla.net/blog/5-quick-ways-to-check-if-moving-company-is-legitimate/).
+With moving being so tricky, there are a lot of things you should look into. Although booking in advance can save you a lot of money, there are some [red flags you should watch out for](/blog/13-red-flags-to-watch-out-for-when-hiring-a-moving-company). You do not lose money during the process or [get scammed](/blog/5-quick-ways-to-check-if-a-moving-company-is-legitimate).
 
 One of the most important things to consider is whether or not the deposits are refundable. When booking in advance, you should book movers who have refundable deposits. This way, if your plans change for some reason, you can get back, if not all, your money.
 
 Another thing you should **avoid is paying a large sum upfront.** Although most companies would want a deposit ahead of the move, you should make sure that it is not a huge sum so that if there is a change of plans or things are not as promised, you can negotiate further. Most companies tend to take the final bill after the move, so if some moving company is asking for a huge sum upfront, that is a red flag.
 
-Also, consider [tipping the movers](https://sosmovingla.net/blog/how-much-do-you-tip-movers-in-2022/) before loading and the other batch once they are done unloading. Refrain from paying all the amount to the foreman; always give tips to every individual personally as per their performance. Usually, 5-10% of the total move cost is paid as tip.
+Also, consider [tipping the movers](/blog/how-much-do-you-tip-movers-in-2022) before loading and the other batch once they are done unloading. Refrain from paying all the amount to the foreman; always give tips to every individual personally as per their performance. Usually, 5-10% of the total move cost is paid as tip.
 
 You should **avoid paying your moving deposit in cash.** Paying via credit cards is also safer as you will have proof of the transaction and less room for error. Most moving companies will ask you to pay most payments via credit card rather than a huge amount of cash.
 

@@ -22,7 +22,7 @@ At SOS Moving, customers regularly ask whether they should rent a storage unit o
 
 Small storage units — typically 5x5 feet or smaller — are the entry-level option in the self-storage market. They're marketed as affordable solutions for people who need just a little extra space, but the real cost goes beyond the monthly rate.
 
-A 5x5 unit in Los Angeles rents for $50 to $100 per month depending on location and whether it's [climate controlled](../storage-facility-near-me-climate-controlled-vs-standard-units/index.html). Coastal areas like [Santa Monica](../../los-angeles-movers/santa-monica-movers/index.html) and [Marina del Rey](../marina-del-rey-moving-waterfront-living/index.html) push toward the higher end. Inland areas and the Valley offer rates at the lower end of the range.
+A 5x5 unit in Los Angeles rents for $50 to $100 per month depending on location and whether it's [climate controlled](/blog/storage-facility-near-me-climate-controlled-vs-standard-units). Coastal areas like [Santa Monica](/los-angeles-movers/santa-monica-movers) and [Marina del Rey](/blog/marina-del-rey-moving-waterfront-living) push toward the higher end. Inland areas and the Valley offer rates at the lower end of the range.
 
 But the monthly rate is just the starting point. Most facilities charge an administrative or setup fee of $15 to $30 when you open the account. Mandatory insurance through the facility — if your renter's insurance doesn't cover off-premises storage — adds $10 to $25 per month. Late payment fees, lock purchase requirements, and taxes push the effective monthly cost of a $70 unit to $85 to $110.
 
@@ -46,7 +46,7 @@ For items with resale value — furniture, electronics, sporting equipment, desi
 
 Storage units earn their rent in specific situations where consolidation doesn't solve the underlying problem.
 
-Temporary gaps between housing are the most legitimate use case. Your old lease ends on the 30th, your new apartment isn't available until the 15th, and you need somewhere to keep everything for two weeks. A [small storage locker](../storage-lockers-near-me-small-apartment-moves/index.html) or a short-term hold with your moving company bridges the gap at a fraction of the cost of alternative arrangements like extended hotel stays or temporary furnished apartments.
+Temporary gaps between housing are the most legitimate use case. Your old lease ends on the 30th, your new apartment isn't available until the 15th, and you need somewhere to keep everything for two weeks. A [small storage locker](/storage-lockers-near-me-small-apartment-moves) or a short-term hold with your moving company bridges the gap at a fraction of the cost of alternative arrangements like extended hotel stays or temporary furnished apartments.
 
 Seasonal storage for items you genuinely use cyclically makes financial sense if the alternative is a larger, more expensive apartment. Surfboards, ski equipment, holiday decorations, and off-season wardrobes take up closet space that costs $200 to $400 per month in LA rent premiums for a larger unit. If a $70 storage unit lets you comfortably live in a $2,400 one-bedroom instead of needing a $2,800 one-bedroom, the storage unit pays for itself.
 
@@ -58,7 +58,7 @@ Long-term storage of genuinely valuable items that don't fit your current lifest
 
 Consolidation replaces storage when the underlying problem isn't insufficient space — it's excess stuff.
 
-Downsizing moves are the primary use case. Moving from a two-bedroom to a one-bedroom, or from a house to an apartment, forces a reduction in belongings that a storage unit merely delays. The [divorce moving](../divorce-moving-splitting-households/index.html) scenario where a shared household splits into two smaller ones is a classic example — renting a storage unit for the overflow from a household that needs to shrink just postpones the sorting process while adding monthly cost.
+Downsizing moves are the primary use case. Moving from a two-bedroom to a one-bedroom, or from a house to an apartment, forces a reduction in belongings that a storage unit merely delays. The [divorce moving](/blog/divorce-moving-splitting-households) scenario where a shared household splits into two smaller ones is a classic example — renting a storage unit for the overflow from a household that needs to shrink just postpones the sorting process while adding monthly cost.
 
 Post-move storage that extends beyond three months is a signal that consolidation would have been better. If items have been in a storage unit for six months and you haven't needed them, the probability that you'll need them in month seven is low. The cost-effective decision is to sort, donate what you won't use, sell what has value, and close the storage account. Consolidation services facilitate this decision-making process that most people avoid because it feels overwhelming to do alone.
 
@@ -66,7 +66,7 @@ Moving to a furnished apartment or corporate housing means most of your furnitur
 
 The psychological component matters. Storage units become repositories for deferred decisions. Every item inside represents a choice that was too hard to make during the move, so you paid to postpone it. Consolidation forces those decisions in a structured, supported environment — and most people discover that making the decision feels better than indefinitely avoiding it.
 ![](../../assets/cdn/645ab1d97922878b6f5bef7f/69c6549760ba02c4dc0f7b14_small-storage-units-near-me-vs-consolidation-services.jpg)
-**Not sure if you need storage or just need to downsize?** SOS Moving helps clients sort, consolidate, and move in a single coordinated process. We'll tell you honestly whether you need a unit or whether a smarter packing strategy eliminates the need entirely. Call [909-443-0004](tel:9094430004) or [get your free estimate](../../free-estimate/index.html).
+**Not sure if you need storage or just need to downsize?** SOS Moving helps clients sort, consolidate, and move in a single coordinated process. We'll tell you honestly whether you need a unit or whether a smarter packing strategy eliminates the need entirely. Call [909-443-0004](tel:9094430004) or [get your free estimate](/free-estimate).
 
 ## Cost Comparison: Storage vs Consolidation
 
@@ -106,4 +106,4 @@ At SOS Moving, we discuss these questions with every client who mentions storage
 
 ## Get Started with the Right Storage Strategy
 
-SOS Moving helps you figure out the storage question before your move, not after. Whether you need a short-term unit, a full consolidation, or just a smarter packing plan that makes everything fit, we'll give you an honest recommendation based on your specific situation. Call [909-443-0004](tel:9094430004) or [request your free estimate](../../free-estimate/index.html) to start the conversation.
+SOS Moving helps you figure out the storage question before your move, not after. Whether you need a short-term unit, a full consolidation, or just a smarter packing plan that makes everything fit, we'll give you an honest recommendation based on your specific situation. Call [909-443-0004](tel:9094430004) or [request your free estimate](/free-estimate) to start the conversation.

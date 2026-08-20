@@ -32,7 +32,7 @@ The gap looks like $100 to $250 in savings for day laborers. That number is accu
 
 The real cost comparison requires adding every expense that the hourly rate doesn't include. Most of these only appear after the move is over, which is why people keep making the same calculation error.
 
-Damage to belongings is the biggest hidden cost. Day laborers don't carry cargo insurance. If they drop your $2,000 couch and rip the upholstery, you absorb the full replacement cost. If they scratch your $400 hardwood floor dragging an unpadded dresser, you pay for the refinishing. Licensed moving companies carry cargo liability coverage — at SOS Moving, basic released value protection is included on every move, and [full value protection](../moving-insurance-vs-homeowners-coverage/index.html) is available for an additional fee. One broken item can erase every dollar you saved on labor.
+Damage to belongings is the biggest hidden cost. Day laborers don't carry cargo insurance. If they drop your $2,000 couch and rip the upholstery, you absorb the full replacement cost. If they scratch your $400 hardwood floor dragging an unpadded dresser, you pay for the refinishing. Licensed moving companies carry cargo liability coverage — at SOS Moving, basic released value protection is included on every move, and [full value protection](/blog/moving-insurance-vs-homeowners-coverage) is available for an additional fee. One broken item can erase every dollar you saved on labor.
 
 Damage to property — your apartment, your landlord's building, the stairwell walls — carries a separate financial risk. A $1,000 security deposit deduction for wall damage caused by an unpadded refrigerator being carried down a narrow hallway is a real cost that belongs in the comparison. Licensed movers carry general liability insurance that covers property damage. Day laborers carry nothing — and they're not coming back to fix the drywall.
 
@@ -62,13 +62,13 @@ Professional crews bring accountability. At SOS Moving, if something is damaged 
 
 Professional crews bring speed that offsets the hourly rate difference. A three-person professional crew that finishes a job in four hours costs $636 at SOS Moving's weekday rate of $159 per hour. Three day laborers who take seven hours at $30 each cost $630 in labor alone — plus your truck rental, supplies, and time managing workers who need direction on every task. The total cost converges, but the professional job is done in four hours instead of seven, and your belongings arrive undamaged with full insurance coverage.
 ![](../../assets/cdn/645ab1d97922878b6f5bef7f/69aff29ab71a6cb722ce1746_professional-movers-vs-day-laborers-cost-analysis.png)
-**Don't gamble your belongings to save $100.** SOS Moving's professional crews include all materials, insurance coverage, and the experience to finish faster. Call [909-443-0004](tel:9094430004) or [get your free estimate](../../free-estimate/index.html) to see the real cost difference.
+**Don't gamble your belongings to save $100.** SOS Moving's professional crews include all materials, insurance coverage, and the experience to finish faster. Call [909-443-0004](tel:9094430004) or [get your free estimate](/free-estimate) to see the real cost difference.
 
 ## When Day Laborers Might Make Sense
 
 Honesty requires acknowledging that there are narrow situations where hiring informal labor is a reasonable choice.
 
-Moving a single heavy item — a couch, a refrigerator, a [pool table](../how-to-move-a-pool-table-yourself-vs-hiring-pros/index.html) — from one room to another within the same building doesn't justify mobilizing a full moving company with a truck. Two strong people for thirty minutes at $30 each is $60 well spent for a task that would cost a three-hour minimum with a licensed company.
+Moving a single heavy item — a couch, a refrigerator, a [pool table](/blog/how-to-move-a-pool-table-yourself-vs-hiring-pros) — from one room to another within the same building doesn't justify mobilizing a full moving company with a truck. Two strong people for thirty minutes at $30 each is $60 well spent for a task that would cost a three-hour minimum with a licensed company.
 
 Junk removal and heavy lifting for items you're discarding — hauling an old mattress to the curb, carrying broken furniture to a dumpster — is another reasonable use case. The items have no value to protect, so the lack of cargo insurance is irrelevant.
 
@@ -102,6 +102,6 @@ Anyone who can't provide a real name, a phone number that works tomorrow, and at
 
 ## Get Started with Insured, Professional Moving
 
-SOS Moving's crews come with everything — blankets, wrap, tape, trucks, insurance, and the experience to finish your move faster than you expect. Our weekday rate of $119 per hour for two movers includes all materials and full liability protection. No separate truck rental, no supply shopping, no guessing. Call [909-443-0004](tel:9094430004) or [request your free estimate](../../free-estimate/index.html)to get a transparent quote that covers everything.
+SOS Moving's crews come with everything — blankets, wrap, tape, trucks, insurance, and the experience to finish your move faster than you expect. Our weekday rate of $119 per hour for two movers includes all materials and full liability protection. No separate truck rental, no supply shopping, no guessing. Call [909-443-0004](tel:9094430004) or [request your free estimate](/free-estimate)to get a transparent quote that covers everything.
 
 ‍

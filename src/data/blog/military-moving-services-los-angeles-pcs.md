@@ -74,7 +74,7 @@ Military families face unique moving challenges that civilian movers rarely unde
 
 **Base housing variations:**Air Force Base housing modern but limited. Navy housing waiting lists extensive. Off-base BAH varies significantly. School district considerations important. Commute planning essential.
 
-**Popular military neighborhoods:**[El Segundo](../../el-segundo-movers/index.html): Near Air Force Base. [San Pedro](../../san-pedro-movers/index.html): Fort MacArthur proximity. [Torrance](../../torrance-movers/index.html): Central to bases. [Redondo Beach](../../redondo-beach-movers/index.html): Beach community popular. [Ventura County](../../services/long-distance-movers/index.html): Navy families concentrated.
+**Popular military neighborhoods:**[El Segundo](/el-segundo-movers): Near Air Force Base. [San Pedro](/san-pedro-movers): Fort MacArthur proximity. [Torrance](/torrance-movers): Central to bases. [Redondo Beach](/redondo-beach-movers): Beach community popular. [Ventura County](/services/long-distance-movers): Navy families concentrated.
 
 **Traffic considerations:**LAX proximity affects timing. 405/105 interchange nightmarish. Beach communities summer congested. Base access hours restricted. Security checks add time.
 
@@ -128,6 +128,6 @@ Military moves challenge families beyond civilian understanding. Multiple reloca
 
 SOS Moving respects military service through actions, not just words. Our military discounts, flexible policies, and understanding approach reflect genuine appreciation for sacrifice and service.
 
-**PCS orders arriving?** Contact SOS Moving at 909-443-0004 for military-friendly moving services throughout Los Angeles. From [base housing](../../services/apartment-movers/index.html) to [off-base homes](../../services/local-movers/index.html), we understand military moving requirements. PPM support, storage solutions, deployment flexibility—we serve those who serve. [Get your military moving quote](../../free-estimate/index.html) today. Military discounts always honored.
+**PCS orders arriving?** Contact SOS Moving at 909-443-0004 for military-friendly moving services throughout Los Angeles. From [base housing](/services/apartment-movers) to [off-base homes](/services/local-moving), we understand military moving requirements. PPM support, storage solutions, deployment flexibility—we serve those who serve. [Get your military moving quote](/free-estimate) today. Military discounts always honored.
 
 ‍

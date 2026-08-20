@@ -64,7 +64,7 @@ Choosing the wrong truck size ruins everything—too small means multiple trips 
 
 **Parking restrictions:**Can't park overnight many places. Street sweeping tickets $73. Permit requirements numerous. Height restrictions common. Weight limits on streets.
 
-**Driving challenges:**[Hollywood Hills](../../movers-hollywood/index.html): Narrow, winding, steep. [Downtown](../../movers-downtown-los-angeles/index.html): One-ways, traffic, confusion. [Beach areas](../../manhattan-beach-movers/index.html): Tourist traffic, limited parking. [Valley](../../san-fernando-valley-movers/index.html): Wider streets, easier generally.
+**Driving challenges:**[Hollywood Hills](/movers-hollywood): Narrow, winding, steep. [Downtown](/movers-downtown-los-angeles): One-ways, traffic, confusion. [Beach areas](/manhattan-beach-movers): Tourist traffic, limited parking. [Valley](/san-fernando-valley-movers): Wider streets, easier generally.
 
 **Common LA mistakes:**Underestimating traffic impact. Forgetting about clearances. Not checking street restrictions. Assuming GPS works everywhere. Ignoring truck route signs.
 
@@ -162,6 +162,6 @@ After seeing countless DIY disasters, we know truck rental seems cheaper until f
 
 If you do rent, size up rather than down, get maximum insurance, and consider professional labor help for loading.
 
-**Skip the truck rental hassle!** Call SOS Moving at 909-443-0004. Our complete service includes truck, driver, equipment, and professional crew from $119/hour. No hidden fees, no driving stress, comprehensive insurance included. From [small moves](../small-moves-los-angeles-delivery/index.html) to [entire homes](../../services/local-movers/index.html), we handle everything. [Get your free quote](../../free-estimate/index.html) and compare to truck rental total costs!
+**Skip the truck rental hassle!** Call SOS Moving at 909-443-0004. Our complete service includes truck, driver, equipment, and professional crew from $119/hour. No hidden fees, no driving stress, comprehensive insurance included. From [small moves](/blog/small-moves-los-angeles-delivery) to [entire homes](/services/local-moving), we handle everything. [Get your free quote](/free-estimate) and compare to truck rental total costs!
 
 ‍

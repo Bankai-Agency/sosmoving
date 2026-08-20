@@ -46,7 +46,7 @@ Color tells your movers where each box goes. Numbers tell you what's in each box
 
 Number every box sequentially as you pack it — 1 through however many boxes your household generates. Keep a master inventory list, either handwritten or on your phone, that maps each number to its contents. Box 1: kitchen plates and bowls. Box 2: kitchen glasses. Box 3: bedroom sheets and pillowcases. This takes ten seconds per box during packing and creates a searchable index of your entire household.
 
-The inventory list serves three purposes beyond organization. First, it lets you locate specific items without opening boxes. Need the box with your work laptop? Check the list, find the number, find the box. Second, it gives you a total count for accountability — if you packed forty-seven boxes and only forty-six arrive at your new apartment, you know immediately that something is missing. Third, it's documentation for [moving insurance claims](../moving-insurance-vs-homeowners-coverage/index.html) if anything is lost or damaged. A numbered inventory with descriptions is exactly what insurance companies request when processing a claim.
+The inventory list serves three purposes beyond organization. First, it lets you locate specific items without opening boxes. Need the box with your work laptop? Check the list, find the number, find the box. Second, it gives you a total count for accountability — if you packed forty-seven boxes and only forty-six arrive at your new apartment, you know immediately that something is missing. Third, it's documentation for [moving insurance claims](/blog/moving-insurance-vs-homeowners-coverage) if anything is lost or damaged. A numbered inventory with descriptions is exactly what insurance companies request when processing a claim.
 
 Write the number large and clear on at least two sides of the box, next to the color code and room label. A complete box label looks like this: the color stripe across the top, the number in large digits on two sides, the room name below the number, and a brief contents description below that. Total labeling time per box: fifteen seconds. Time saved during unpacking: incalculable.
 
@@ -63,7 +63,7 @@ At SOS Moving, we recommend packing all Priority 1 items into the fewest possibl
 A practical Priority 1 packing list for a one-bedroom apartment fits into two to three boxes: one bathroom box with toiletries, towels, toilet paper, and medications. One bedroom box with sheets, pillows, pajamas, and phone chargers. One kitchen box with a coffee maker, two mugs, paper towels, dish soap, and a few snacks. Everything else can wait until morning.
 ![](../../assets/cdn/645ab1d97922878b6f5bef7f/69aff125be1a0c0f60b520b4_moving-box-labels-system-that-actually-works.png)
 
-**Want your boxes sorted perfectly on arrival?** SOS Moving crews use your labeling system to place every box in the right room on the first carry. Color codes, numbers, priority marks — we follow them all. Call [909-443-0004](tel:9094430004) or [get your free estimate](../../free-estimate/index.html).
+**Want your boxes sorted perfectly on arrival?** SOS Moving crews use your labeling system to place every box in the right room on the first carry. Color codes, numbers, priority marks — we follow them all. Call [909-443-0004](tel:9094430004) or [get your free estimate](/free-estimate).
 
 ## Labeling Tools and Materials
 
@@ -87,7 +87,7 @@ During unloading at your new apartment, labels become the crew's GPS. A box mark
 
 At SOS Moving, our crews actively look for labeling systems and follow them. The better your labels, the faster and more accurately we can sort your boxes during unloading. A well-labeled fifty-box move can be fully sorted into the correct rooms in under thirty minutes. An unlabeled fifty-box move results in every box going to the living room floor, where it becomes your problem entirely.
 
-If you're using a [professional packing service](../../services/packing-services/index.html), communicate your labeling preferences before the packers start. Professional packers have their own systems but will adopt yours if you explain it clearly. Providing the markers, tape, and color key in advance ensures consistency between the boxes you packed and the ones the crew packs.
+If you're using a [professional packing service](/services/packing-services), communicate your labeling preferences before the packers start. Professional packers have their own systems but will adopt yours if you explain it clearly. Providing the markers, tape, and color key in advance ensures consistency between the boxes you packed and the ones the crew packs.
 
 ## Frequently Asked Questions
 
@@ -103,4 +103,4 @@ If you're using a [professional packing service](../../services/packing-services
 
 ## Get Started with an Organized Move
 
-SOS Moving crews work faster and more accurately when your boxes are labeled clearly. Whether you use color codes, numbers, priority marks, or all three, we follow your system to place every box in the right room on the first trip. Call [909-443-0004](tel:9094430004) or [request your free estimate](../../free-estimate/index.html) to book a crew that treats your organizational effort with the respect it deserves.
+SOS Moving crews work faster and more accurately when your boxes are labeled clearly. Whether you use color codes, numbers, priority marks, or all three, we follow your system to place every box in the right room on the first trip. Call [909-443-0004](tel:9094430004) or [request your free estimate](/free-estimate) to book a crew that treats your organizational effort with the respect it deserves.

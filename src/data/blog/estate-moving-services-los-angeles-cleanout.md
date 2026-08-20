@@ -54,7 +54,7 @@ Estate moves arise from life's most difficult moments—the loss of loved ones, 
 
 ## LA Estate Market Factors
 
-**High-value properties:**[Beverly Hills](../../beverly-hills-movers/index.html): Estates worth millions. [Pacific Palisades](../../pacific-palisades-movers/index.html): Luxury possessions. [Hancock Park](../../hancock-park-movers/index.html): Historic valuables. [Manhattan Beach](../../manhattan-beach-movers/index.html): Beach estates.
+**High-value properties:**[Beverly Hills](/beverly-hills-movers): Estates worth millions. [Pacific Palisades](/la-movers): Luxury possessions. [Hancock Park](/la-movers): Historic valuables. [Manhattan Beach](/manhattan-beach-movers): Beach estates.
 
 **Quick sale pressure:**LA market competitive. Empty homes sell better. Staging important. Quick clearing essential. Professional presentation. Maximum value achieved.
 
@@ -140,6 +140,6 @@ Estate moves represent life transitions deserving dignity and respect. We handle
 
 Every estate tells a story. Our role is facilitating closure while preserving what matters. Families trust us during their most difficult times.
 
-**Need estate moving services?** Contact SOS Moving at 909-443-0004 for compassionate estate moving throughout Los Angeles. We provide professional cleanouts, family distributions, and complete estate services with sensitivity and respect. From [probate deadlines](../../services/last-minute-movers/index.html) to [family coordination](../../services/senior-moving/index.html), we handle estate moves professionally. [Get your free estate consultation](../../free-estimate/index.html) today.
+**Need estate moving services?** Contact SOS Moving at 909-443-0004 for compassionate estate moving throughout Los Angeles. We provide professional cleanouts, family distributions, and complete estate services with sensitivity and respect. From [probate deadlines](/services) to [family coordination](/services), we handle estate moves professionally. [Get your free estate consultation](/free-estimate) today.
 
 ‍

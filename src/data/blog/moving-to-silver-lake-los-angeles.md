@@ -70,7 +70,7 @@ The central location makes most LA accessible, explaining partial price justific
 
 ## Moving to Silver Lake: Practical Considerations
 
-**Moving costs from other LA areas:**From [Downtown](../../movers-downtown-los-angeles/index.html): $500-800From [West Hollywood](../../los-angeles-movers/west-hollywood-movers/index.html): $600-900From [Beach cities](../../manhattan-beach-movers/index.html): $800-1,200From [Valley](../../san-fernando-valley-movers/index.html): $700-1,000
+**Moving costs from other LA areas:**From [Downtown](/movers-downtown-los-angeles): $500-800From [West Hollywood](/los-angeles-movers/west-hollywood-movers): $600-900From [Beach cities](/manhattan-beach-movers): $800-1,200From [Valley](/san-fernando-valley-movers): $700-1,000
 
 Add 20-30% for difficult access addresses requiring special equipment or extra labor.
 
@@ -92,6 +92,6 @@ Success requires embracing the challenges. Accept parking frustration. Get comfo
 
 The neighborhood rewards engagement. Attend local shows. Shop small businesses. Know your neighbors. Join community groups. Silver Lake gives back what you invest.
 
-**Ready to join Silver Lake's creative community?** [Contact SOS Moving](../../about-us/contact-us/index.html) at 909-443-0004. Our experienced crews know every steep driveway and narrow passage in Silver Lake. We handle the logistics of hillside moves while you focus on joining LA's most creative neighborhood. From [Los Feliz](../../los-feliz-movers/index.html) to Silver Lake or anywhere in LA, we navigate the challenges professionally.
+**Ready to join Silver Lake's creative community?** [Contact SOS Moving](/about-us/contact-us) at 909-443-0004. Our experienced crews know every steep driveway and narrow passage in Silver Lake. We handle the logistics of hillside moves while you focus on joining LA's most creative neighborhood. From [Los Feliz](/los-feliz-movers) to Silver Lake or anywhere in LA, we navigate the challenges professionally.
 
 ‍

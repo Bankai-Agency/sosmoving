@@ -14,9 +14,9 @@ author:
   photo: ""
 ---
 
-[Organizing a commercial move](https://sosmovingla.net/blog/how-to-organize-an-office-move-office-moving-checklist/) is a difficult, multi-phase project. However, transferring a medical practice or moving for medical reasons might be even more difficult because there are many more aspects to consider. Concerns with patient data and continuity of treatment, in particular, come to mind primarily, which can be stressful to take care of.
+[Organizing a commercial move](/blog/how-to-organize-an-office-move-office-moving-checklist) is a difficult, multi-phase project. However, transferring a medical practice or moving for medical reasons might be even more difficult because there are many more aspects to consider. Concerns with patient data and continuity of treatment, in particular, come to mind primarily, which can be stressful to take care of.
 
-With some simple takeaways from stories and experiences, one can easily manage this seemingly challenging task seamlessly. Here are [some helpful tips for commercial moving](https://sosmovingla.net/blog/7-tips-you-need-to-keep-in-mind-when-planning-a-commercial-move/) that can be of significant use when considering moving a medical practice.
+With some simple takeaways from stories and experiences, one can easily manage this seemingly challenging task seamlessly. Here are [some helpful tips for commercial moving](/blog/7-tips-you-need-to-keep-in-mind-when-planning-a-commercial-move) that can be of significant use when considering moving a medical practice.
 ![Planning Is Key](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d979228738fd5bf216_pins-on-calendar.png)
 ## 1. Planning Is Key
 
@@ -38,7 +38,7 @@ Make sure to hire experienced movers aware of the planning required to transfer 
 ![Spread the Word](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d979228737695bf221_spread-the-word.png)
 ## 4. Spread the Word
 
-[Send messages to your stakeholders](https://sosmovingla.net/blog/how-to-announce-your-office-relocation-6-great-tips/), such as your patients, via email, postal mail, a postcard, website, and social media profiles, at least one month before relocating a medical practice. Include a map of your new location as well as images.
+[Send messages to your stakeholders](/blog/how-to-announce-your-office-relocation-6-great-tips), such as your patients, via email, postal mail, a postcard, website, and social media profiles, at least one month before relocating a medical practice. Include a map of your new location as well as images.
 
 Bear in mind that some states have special rules regarding the manner and timing of patient notification. To be sure you’re abiding by all the regulations, be sure to check with your state healthcare organization. Making a relocation announcement is critical for your business since it keeps your existing patients posted and can even bring potential customers to the new area to you.
 

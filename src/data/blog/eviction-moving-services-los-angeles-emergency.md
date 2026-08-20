@@ -62,7 +62,7 @@ Eviction represents one of life's most stressful crises—the sheriff posts noti
 
 ## LA-Specific Eviction Challenges
 
-**High rent areas:**[Westside](../../west-los-angeles-movers/index.html): $3,000+ rents common. [Downtown](../../movers-downtown-los-angeles/index.html): Gentrification displacing. [Beach cities](../../manhattan-beach-movers/index.html): Impossible prices. [Hollywood](../../movers-hollywood/index.html): Tourist conversion.
+**High rent areas:**[Westside](/west-los-angeles-movers): $3,000+ rents common. [Downtown](/movers-downtown-los-angeles): Gentrification displacing. [Beach cities](/manhattan-beach-movers): Impossible prices. [Hollywood](/movers-hollywood): Tourist conversion.
 
 **Tenant protections:**LA rent control exists. Just-cause eviction required. Relocation assistance sometimes. Tenant rights strong. Legal aid available. Know your rights.
 

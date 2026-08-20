@@ -36,7 +36,7 @@ A moving Certificate of Insurance contains the relevant details for granting a p
 
 Here’s a list of what is included in a Certificate of Insurance for moving:
 
-- **Building Address** – the COI contains the address of the building you’re [moving out](https://sosmovingla.net/blog/how-to-move-out-of-your-parents-house/) from as well as the new building you’re moving into.- **Details of Building Manager** – it includes the name, office address and necessary contact details of the authorized building managers.- **Confirmation of Insurance** – the Certificate of Insurance for moving also specifies that the moving company is insured to handle the move in a particular building.- **Insurance Coverage** – the COI also states the details of what is covered in the insurance and how this certificate must be used by the moving company and building management in case of any damages.
+- **Building Address** – the COI contains the address of the building you’re [moving out](/blog/how-to-move-out-of-your-parents-house) from as well as the new building you’re moving into.- **Details of Building Manager** – it includes the name, office address and necessary contact details of the authorized building managers.- **Confirmation of Insurance** – the Certificate of Insurance for moving also specifies that the moving company is insured to handle the move in a particular building.- **Insurance Coverage** – the COI also states the details of what is covered in the insurance and how this certificate must be used by the moving company and building management in case of any damages.
 
 Some other information included in the COI is:
 
@@ -100,12 +100,12 @@ Now that you know all necessary details surrounding the COI, here are some addit
 
 As long as you have a moving Certificate of Insurance, you must not worry about any damages that may occur during the move.
 
-In case of damage, the moving company will be liable to meet the minimum insurance requirements. For example, if you were moving heavy large items [like a piano](https://sosmovingla.net/blog/how-to-move-a-piano-the-right-way/) or [a pool table](https://sosmovingla.net/blog/steps-to-moving-a-pool-table-by-yourself/), and walls or floors of the building were damaged, make sure to immediately contact the building manager and estimate the amount of property damage. The insurance company will then pay the amount from the insurance coverage of your movers.
+In case of damage, the moving company will be liable to meet the minimum insurance requirements. For example, if you were moving heavy large items [like a piano](/blog/how-to-move-a-piano-the-right-way) or [a pool table](/blog/steps-to-moving-a-pool-table-by-yourself), and walls or floors of the building were damaged, make sure to immediately contact the building manager and estimate the amount of property damage. The insurance company will then pay the amount from the insurance coverage of your movers.
 
 ### 3b. Building Restrictions
 
 When planning your move, keep in mind the restrictions imposed by building management. Before giving a quote, good moving companies always talk about building restrictions. Based on our experience, we advise you to look out for the following restrictions::
 
-- Some buildings do not allow moving over the weekend or only allow moves on weekdays during certain hours. So make sure to check this with your building manager;- Use of protective equipment such as elevator blankets is made mandatory by some buildings, particularly the luxurious ones, to cover and protect the elevator walls;- Provide details of the moving company to the building manager along with COI and indemnity form;- Tiled [floors must be protected](https://sosmovingla.net/blog/how-to-protect-the-floor-from-scratches-during-a-move/) with stiff load distribution sheeting to avoid damages.
+- Some buildings do not allow moving over the weekend or only allow moves on weekdays during certain hours. So make sure to check this with your building manager;- Use of protective equipment such as elevator blankets is made mandatory by some buildings, particularly the luxurious ones, to cover and protect the elevator walls;- Provide details of the moving company to the building manager along with COI and indemnity form;- Tiled [floors must be protected](/blog/how-to-protect-the-floor-from-scratches-during-a-move) with stiff load distribution sheeting to avoid damages.
 
 ‍

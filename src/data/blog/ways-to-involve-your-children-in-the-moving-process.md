@@ -18,17 +18,17 @@ When you are moving, there is a lot of things you need to keep track of. Therefo
 
 ## Let them help you relax!
 
-First and foremost, while there are professional [movers West Hollywood](https://sosmovingla.net/los-angeles-movers/west-hollywood-movers/) that will help with the move, you still need to do a lot of things by yourself. That is true even if you *involve the kids*. However, there is something that kids can help you with!
+First and foremost, while there are professional [movers West Hollywood](/los-angeles-movers/west-hollywood-movers) that will help with the move, you still need to do a lot of things by yourself. That is true even if you *involve the kids*. However, there is something that kids can help you with!
 ![racoon](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d9792287a0ef5bf42c_Find-distractions-e1608991329627.jpeg)*Go to the Zoo!*
 When moving, it is important to **keep high levels of mental health and care**. Therefore, go out with the kids! It will be fun for them and it will be relaxing for you! Parks, gardens, zoos! It is time for some new experiences!
 
 ## Start planning on time
 
-However, in order to have time to relax when moving with your [California movers](https://sosmovingla.net/blog/ways-to-involve-your-children-in-the-moving-process/) of choice, you need to have everything well planned. That means you need to start planning **around 10 weeks** before relocation! Therefore, if you want to make sure that there is even time to think about the ways you can* involve kids in your relocation,* make sure you got everything handled on time!
+However, in order to have time to relax when moving with your [California movers](/blog/ways-to-involve-your-children-in-the-moving-process) of choice, you need to have everything well planned. That means you need to start planning **around 10 weeks** before relocation! Therefore, if you want to make sure that there is even time to think about the ways you can* involve kids in your relocation,* make sure you got everything handled on time!
 
 ## Understand their perspective
 
-In order to best *involve your children in the moving process* with the [movers California to New York](https://sosmovingla.net/services/interstate-move/california-to-new-york) that you will need, you need to figure out exactly how kids actually perceive the moving you are about to embark on! Children, especially small children, are less likely to understand the reasoning behind the move. Therefore, you need to make sure that you **appear certain in the decision **and to keep them **informed of what is going on**. After that, they will naturally want to help!
+In order to best *involve your children in the moving process* with the [movers California to New York](/services/long-distance-movers) that you will need, you need to figure out exactly how kids actually perceive the moving you are about to embark on! Children, especially small children, are less likely to understand the reasoning behind the move. Therefore, you need to make sure that you **appear certain in the decision **and to keep them **informed of what is going on**. After that, they will naturally want to help!
 
 ## Involve your children in the moving process based on their development
 
@@ -36,7 +36,7 @@ However, each kid is different, and that is especially true when it comes to age
 ![trying to involve your children in the moving process](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d979228746fe5bf435_Involve-your-children-in-the-moving-process-based-on-their-development-e1608991283922.jpeg)*What is your kid ready for?*
 Here is a brief summary of the various things you can expect:
 
-- **From the age of 0 to 8** – When you are trying to *involve your children in the moving process* and they are this young, they will be willing but unable to do much more than play…- **From the age of 8 to 15** – Here the kids should be agreeable and willing. You can give them small tasks, including packing and doing some of their own research on their new school and town.- **From the age of** **15 – 18** – Here you can run into trouble in agreeableness, but they are very useful and can do all but the heaviest of tasks with you! They can help with [moving labor Los Angeles](https://sosmovingla.net/services/labor-only-services) with ease
+- **From the age of 0 to 8** – When you are trying to *involve your children in the moving process* and they are this young, they will be willing but unable to do much more than play…- **From the age of 8 to 15** – Here the kids should be agreeable and willing. You can give them small tasks, including packing and doing some of their own research on their new school and town.- **From the age of** **15 – 18** – Here you can run into trouble in agreeableness, but they are very useful and can do all but the heaviest of tasks with you! They can help with [moving labor Los Angeles](/services) with ease
 
 ## Let them do what they can
 

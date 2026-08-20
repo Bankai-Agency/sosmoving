@@ -48,9 +48,9 @@ These prices include the rush premium but assume relatively organized packing. C
 
 ## Neighborhoods and Same-Day Availability
 
-**Best areas for same-day service:**[Central LA](../../movers-downtown-los-angeles/index.html) and [Hollywood](../../movers-hollywood/index.html) have multiple crews nearby. [Valley areas](../../san-fernando-valley-movers/index.html) covered well from Van Nuys base. [West LA](../../west-los-angeles-movers/index.html) to [Santa Monica](../../los-angeles-movers/santa-monica-movers/index.html) corridor frequently serviced. [Glendale](../../los-angeles-movers/glendale-movers/index.html) and [Pasadena](../../los-angeles-movers/pasadena-movers/index.html) have good coverage.
+**Best areas for same-day service:**[Central LA](/movers-downtown-los-angeles) and [Hollywood](/movers-hollywood) have multiple crews nearby. [Valley areas](/san-fernando-valley-movers) covered well from Van Nuys base. [West LA](/west-los-angeles-movers) to [Santa Monica](/los-angeles-movers/santa-monica-movers) corridor frequently serviced. [Glendale](/los-angeles-movers/glendale-movers) and [Pasadena](/los-angeles-movers/pasadena-movers) have good coverage.
 
-**Challenging areas for immediate service:**Beach cities during summer (crews fully booked). [Beverly Hills](../../beverly-hills-movers/index.html) and [West Hollywood](../../los-angeles-movers/west-hollywood-movers/index.html) (parking/access issues). Canyon areas requiring special equipment. Far locations like Lancaster or Ventura County. Gated communities requiring advance clearance.
+**Challenging areas for immediate service:**Beach cities during summer (crews fully booked). [Beverly Hills](/beverly-hills-movers) and [West Hollywood](/los-angeles-movers/west-hollywood-movers) (parking/access issues). Canyon areas requiring special equipment. Far locations like Lancaster or Ventura County. Gated communities requiring advance clearance.
 
 ## Emergency Packing Strategies
 
@@ -80,7 +80,7 @@ When you have hours, not days, to pack:
 
 **Honest limitations:**All crews committed to scheduled moves. Distance too far for same-day completion. Weather or traffic making it impossible. Building restrictions on moving hours. Special equipment needed but unavailable.
 
-**Alternatives we offer:**Next-morning first priority booking. [Storage services](../../services/storage/index.html) for overnight hold. Referral to partner companies if available. Labor-only service if you have truck. Partial move of essentials today.
+**Alternatives we offer:**Next-morning first priority booking. [Storage services](/services/storage) for overnight hold. Referral to partner companies if available. Labor-only service if you have truck. Partial move of essentials today.
 
 ## Preventing Same-Day Emergency Moves
 
@@ -98,6 +98,6 @@ Same-day moving in Los Angeles is expensive, stressful, and imperfect—but some
 
 The key to successful same-day moving is accepting imperfection while demanding professionalism. Your belongings will get moved today, though perhaps not as carefully as planned moves. You'll pay more but solve your immediate problem. It won't be pretty, but it will be done.
 
-**Facing a moving emergency?** Call SOS Moving immediately at 909-443-0004. Our dispatchers will assess availability and provide honest timelines. We maintain emergency crews specifically for urgent situations. While we can't guarantee same-day service, we'll do everything possible to solve your immediate moving crisis. From [Downtown LA](../../movers-downtown-los-angeles/index.html) to the [Valley](../../san-fernando-valley-movers/index.html), when you need movers NOW, we're your best option for professional emergency relocation.
+**Facing a moving emergency?** Call SOS Moving immediately at 909-443-0004. Our dispatchers will assess availability and provide honest timelines. We maintain emergency crews specifically for urgent situations. While we can't guarantee same-day service, we'll do everything possible to solve your immediate moving crisis. From [Downtown LA](/movers-downtown-los-angeles) to the [Valley](/san-fernando-valley-movers), when you need movers NOW, we're your best option for professional emergency relocation.
 
 ‍

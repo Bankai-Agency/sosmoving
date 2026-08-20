@@ -18,11 +18,11 @@ Every move requires you to spend a lot of your time planning. You have to prepar
 
 ## Explore the neighborhood to help your kids settle after moving to Downtown LA
 
-You should do this almost immediately after [SOS Moving Los Angeles](https://sosmovingla.net/) relocates you to Downtown LA. What’s good about kids is that *they actually aren’t that hard to get used to a new environment, just as long as it’s a nice one*. So, take your kids to a playground nearby. Buy them ice cream. Take them to a toy store. All those gestures will make your kids feel like they are starting out a new in a really nice and supportive environment.
+You should do this almost immediately after [SOS Moving Los Angeles](/) relocates you to Downtown LA. What’s good about kids is that *they actually aren’t that hard to get used to a new environment, just as long as it’s a nice one*. So, take your kids to a playground nearby. Buy them ice cream. Take them to a toy store. All those gestures will make your kids feel like they are starting out a new in a really nice and supportive environment.
 ![A Disney character called Pluto is waving at the camera.](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d9792287e0355bf27b_pexels-craig-adderley-3411134.jpeg)*Help your kids settle after moving to Downtown LA by taking them to Disneyland.*
 ## Have trips to Disneyland and other places for kids to enjoy
 
-You can google some nice places kids would love to see, both entertainment places and in nature. Here are some of them you can visit after relocating with [movers downtown Los Angeles](https://sosmovingla.net/downtown-los-angeles-movers/) has to offer:
+You can google some nice places kids would love to see, both entertainment places and in nature. Here are some of them you can visit after relocating with [movers downtown Los Angeles](/movers-downtown-los-angeles) has to offer:
 
 - **Universal Studios Hollywood**- **Griffith Park and Griffith Observatory**- **Disneyland Resort**- **Hollywood**- **The Getty Center**- **Petersen Automotive Museum**
 
@@ -30,12 +30,12 @@ If your kids associate all those nice experiences with their new home, it will r
 
 ## Help your kids settle after relocating to Downtown LA by unpacking their rooms first
 
-By doing so, you will make your kids feel like the move was a good thing and it was done for them. *They will accept the new environment as something special and something they should cherish*. Less time will pass for them to adapt and you will have your peace in no time. This is something you can do [the day after the move to LA](https://sosmovingla.net/moving-house-the-day-after-the-move-to-la/).
+By doing so, you will make your kids feel like the move was a good thing and it was done for them. *They will accept the new environment as something special and something they should cherish*. Less time will pass for them to adapt and you will have your peace in no time. This is something you can do [the day after the move to LA](/blog/moving-house-the-day-after-the-move-to-la).
 
 Another important element is allowing them to help in unpacking. *If you allow your kids to unpack their own stuff, they will feel in control of the place* and they will know where everything belongs.
 ![A lot of pages in different colors.](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d979228776f65bf277_pexels-pixabay-40799.jpeg)*Let your kids choose the color their room will be. You will help them adapt much faster.*
 ### help your kids settle after moving to Downtown LA by designing the room
 
-This often isn’t an option, but if you get a chance to paint the rooms once your [appliance movers Los Angeles](https://sosmovingla.net/services/appliance-move/) moved you, **do it and do it in accordance with your child’s wish**. They will be spending most of the time in that space and that’s why the fair thing to do would be to allow them to pick their own color.
+This often isn’t an option, but if you get a chance to paint the rooms once your [appliance movers Los Angeles](/services) moved you, **do it and do it in accordance with your child’s wish**. They will be spending most of the time in that space and that’s why the fair thing to do would be to allow them to pick their own color.
 
 ‍

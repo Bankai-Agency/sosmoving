@@ -18,7 +18,7 @@ Have you been considering moving from LA to SF lately? Well, trading the sunshin
 
 The first step of this big relocation is definitely picking the right team of movers and estimating the cost of moving. At SOS Moving, our dream team champions in creating a convenient moving experience to handle your short and long distance moves.
 
-[If you are on a budget](https://sosmovingla.net/blog/tips-on-how-to-move-to-los-angeles-on-a-budget/) and not sure of the cost you would have to pay to the movers, this blog will serve as a great guide for you.
+[If you are on a budget](/blog/tips-on-how-to-move-to-los-angeles-on-a-budget) and not sure of the cost you would have to pay to the movers, this blog will serve as a great guide for you.
 
 ## Benefits of Moving from Los Angeles to San Francisco
 
@@ -48,7 +48,7 @@ Moving from LA to SF will open a world of diverse experiences for you because SF
 ![What Factors Will Affect Your Moving Cost?](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d9792287035c5bf20b_cost-of-living.png)
 ## What Factors Will Affect Your Moving Cost?
 
-Now that you’ve finalized the decision to move to San Francisco from Los Angeles, you must consider the cost of professional movers Los Angeles to San Francisco the factors that affect your final bill. Make sure to read along and make your estimate for the [cost of local move in Los Angeles](https://sosmovingla.net/blog/average-cost-of-moving-in-los-angeles/)!
+Now that you’ve finalized the decision to move to San Francisco from Los Angeles, you must consider the cost of professional movers Los Angeles to San Francisco the factors that affect your final bill. Make sure to read along and make your estimate for the [cost of local move in Los Angeles](/blog/average-cost-of-moving-in-los-angeles)!
 
 - **Distance** – it’s needless to say that distance is the primary factor affecting the moving cost. Moving from Los Angeles to San Francisco is relatively on the cheaper side than moving cross-country.- **Number of Bedrooms** – the flat rate price for a long-distance move to SF is about $5,000 for a 2 or 3 bedroom home. On an average, moving from LA to SF will cost you above $2,200. The price also varies depending on the number of items to be moved.- **Packing & Unpacking** – if you’re relying entirely upon the movers to pack and unpack your belongings, then the moving process will definitely cost you more. Our advice would be to make sure you move only the most important things because the less stuff you move, the less amount you pay!- **White-Glove Services** – if you’re considering the moving company to take your unique valuable possessions, then you’d have to pay for white-glove moving services which will definitely add subsequently to the moving cost.- **Move date** – planning to move between April and September will cost you more because these are considered as peak moving months in the US. Not only this, but the moving cost also hikes up around the start and end of the month as well as on weekends. Make sure to pick a moving date that does not fall around the above mentioned times to save some dollars.- **Insurance** – if you wish to get additional insurance for your valuables on top of the valuation coverage that your moving company of choice must provide, prepare yourself to pay an extra cost to a third party insurance company.
 

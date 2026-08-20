@@ -16,7 +16,7 @@ author:
 
 One of the best contributions one can make to humanity is to perform charitable acts & donate generously. Moreover, it’s an excellent opportunity to chuck out things that no longer serve any purpose in your life, especially when you move to a new place. But, most importantly, your donations can make a positive impact on people’s lives & also help those in need.
 
-However, sorting & packing your things is challenging when you’ve got a long to-do list to prepare before [moving to your new home](https://sosmovingla.net/blog/how-to-move-out-of-your-parents-house/). While carrying them to a charity can be a hassle as it needs effort, attention, & time. Luckily, a few donation organizations that pick up your things for free so that you can focus on your moving process. If you’re looking for such charities & a few donation tips, here’s a comprehensive charity guide to making your life easier.
+However, sorting & packing your things is challenging when you’ve got a long to-do list to prepare before [moving to your new home](/blog/how-to-move-out-of-your-parents-house). While carrying them to a charity can be a hassle as it needs effort, attention, & time. Luckily, a few donation organizations that pick up your things for free so that you can focus on your moving process. If you’re looking for such charities & a few donation tips, here’s a comprehensive charity guide to making your life easier.
 
 ## Making Donations: What You Need to Know?
 
@@ -348,7 +348,7 @@ Need help? See [this decluttering guide](https://www.mymove.com/wp-content/uploa
 
 ### How Do I Schedule a Donation Pickup?
 
-You can go through our [How to Schedule Your Donation Pickup](https://sosmovingla.net/blog/complete-guide-to-charity-and-free-donation-pickups/#f) section.
+You can go through our [How to Schedule Your Donation Pickup](/blog/complete-guide-to-charity-and-free-donation-pickups) section.
 
 ### Where Can I Donate Furniture?
 
@@ -388,7 +388,7 @@ All the charity organizations on our list will pick up your donated items for fr
 
 ### Who Will Pick Up a Donated Piano?
 
-Other non-profit organizations like Goodwill and Habitat for Humanity accept [piano](https://sosmovingla.net/blog/how-to-move-a-piano-the-right-way/) donations.
+Other non-profit organizations like Goodwill and Habitat for Humanity accept [piano](/blog/how-to-move-a-piano-the-right-way) donations.
 
 ### Who Takes Used Furniture for Free?
 

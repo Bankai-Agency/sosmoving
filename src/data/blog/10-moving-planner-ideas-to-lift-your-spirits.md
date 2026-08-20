@@ -22,7 +22,7 @@ Music is certainly something that can keep you moving. If you like listening to 
 ![gramophone needle](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d979228715f75bf3e8_vinyl-336626_1280_770x350.jpeg)*Listen to music when packing*
 ## Use different colors for labeling your items
 
-Another one of the moving planner ideas that can lift your spirits is using different colors when labeling boxes. Since you will need to find a way to label them, this is something that can be fun. However, **what you should pay attention to is knowing in advance what color represents what.** Should you need any kind of help, the most reliable [movers Los Angeles](https://sosmovingla.net/) can offer are at your disposal.
+Another one of the moving planner ideas that can lift your spirits is using different colors when labeling boxes. Since you will need to find a way to label them, this is something that can be fun. However, **what you should pay attention to is knowing in advance what color represents what.** Should you need any kind of help, the most reliable [movers Los Angeles](/) can offer are at your disposal.
 
 ## Avoid eating unhealthy food every day
 
@@ -36,7 +36,7 @@ Another thing you should remember is that you should also think about your needs
 
 ## Taking a break is necessary
 
-Even though you have planned to complete a great number of tasks, sometimes it is better to sit down and take a break. It is certainly not a good thing to put additional pressure on yourself. Do not worry, *everything will be done on time.* Your [Los Angeles apartment movers](https://sosmovingla.net/services/apartment-move/) are going to complete all of the moving-related tasks on your behalf.
+Even though you have planned to complete a great number of tasks, sometimes it is better to sit down and take a break. It is certainly not a good thing to put additional pressure on yourself. Do not worry, *everything will be done on time.* Your [Los Angeles apartment movers](/services/apartment-movers) are going to complete all of the moving-related tasks on your behalf.
 
 ## Do your best to stay positive
 
@@ -50,11 +50,11 @@ Do not think that you will get to do much more if you spend all of the time you 
 
 ## Another one of the moving planner ideas to lift your spirits is meditating
 
-In case you like meditating or doing yoga, avoid skipping your sessions because of your relocation. This will have a negative effect on you and **you will only get stressed over minor details.** Instead, continue with your routine even if you are relocating to a different state. Your [movers California to Florida](https://sosmovingla.net/services/interstate-move/california-to-florida/) are going to give you a helping hand.
+In case you like meditating or doing yoga, avoid skipping your sessions because of your relocation. This will have a negative effect on you and **you will only get stressed over minor details.** Instead, continue with your routine even if you are relocating to a different state. Your [movers California to Florida](/services/long-distance-movers) are going to give you a helping hand.
 
 ## Take care of your flowers
 
-If you have flowers, you should make sure they are well prepared for the move. Since this is something you do because you enjoy it, **it will surely lift your spirits**. When you finish with them, you will know that another task is completed and you will have more energy for when your[ residential movers](https://sosmovingla.net/services/residential-move/) arrive.
+If you have flowers, you should make sure they are well prepared for the move. Since this is something you do because you enjoy it, **it will surely lift your spirits**. When you finish with them, you will know that another task is completed and you will have more energy for when your[ residential movers](/services/local-moving) arrive.
 
 ## Prepare snacks for your movers
 

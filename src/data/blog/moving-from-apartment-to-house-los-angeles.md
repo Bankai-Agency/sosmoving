@@ -38,9 +38,9 @@ The jump often doubles housing costs. Many compromise by moving farther from cit
 
 ## Where Apartment Dwellers Buy Houses
 
-**Traditional path:**Rent in [West LA](../../west-los-angeles-movers/index.html) → Buy in [Culver City](../../culver-city-movers/index.html)Rent in [Santa Monica](../../los-angeles-movers/santa-monica-movers/index.html) → Buy in [Mar Vista](../moving-to-mar-vista-los-angeles/index.html)Rent in [Downtown](../../movers-downtown-los-angeles/index.html) → Buy in [Pasadena](../../los-angeles-movers/pasadena-movers/index.html)Rent in [Hollywood](../../movers-hollywood/index.html) → Buy in [Valley](../../san-fernando-valley-movers/index.html)
+**Traditional path:**Rent in [West LA](/west-los-angeles-movers) → Buy in [Culver City](/culver-city-movers)Rent in [Santa Monica](/los-angeles-movers/santa-monica-movers) → Buy in [Mar Vista](/moving-to-mar-vista-los-angeles)Rent in [Downtown](/movers-downtown-los-angeles) → Buy in [Pasadena](/los-angeles-movers/pasadena-movers)Rent in [Hollywood](/movers-hollywood) → Buy in [Valley](/san-fernando-valley-movers)
 
-**Extreme commute acceptance:**Some accept 60+ minute commutes for house affordability. [Lancaster](../lancaster-movers-complete-guide/index.html), Palmdale, and Riverside become options. The tradeoff—space for time—works until it doesn't.
+**Extreme commute acceptance:**Some accept 60+ minute commutes for house affordability. [Lancaster](/lancaster-movers-complete-guide), Palmdale, and Riverside become options. The tradeoff—space for time—works until it doesn't.
 
 ## Space Shock: From 900 to 2,000 Square Feet
 
@@ -118,6 +118,6 @@ Success requires adjusted expectations. Houses aren't better than apartments—t
 
 The transition typically takes a full year for comfort. First months feel overwhelming. Systems need learning. Routines need establishing. Community needs building.
 
-**Ready to upgrade from apartment to house?** [Contact SOS Moving](../../about-us/contact-us/index.html) at 909-443-0004. We understand the unique challenges of apartment-to-house transitions. Our teams handle everything from [studio apartments](../moving-to-first-floor-apartment-guide/index.html) to family homes, ensuring your upgrade goes smoothly. Let us manage logistics while you focus on enjoying your new space and freedom.
+**Ready to upgrade from apartment to house?** [Contact SOS Moving](/about-us/contact-us) at 909-443-0004. We understand the unique challenges of apartment-to-house transitions. Our teams handle everything from [studio apartments](/blog/moving-to-first-floor-apartment-guide) to family homes, ensuring your upgrade goes smoothly. Let us manage logistics while you focus on enjoying your new space and freedom.
 
 ‍

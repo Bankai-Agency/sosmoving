@@ -100,7 +100,7 @@ Sometimes a shed requires it to be dismantled before moving. In this scenario, i
 
 ### Step 2: Empty the Shed
 
-When emptying your shed, it’s a good idea to declutter the stuff you were storing in it. [Check if there are any items you can donate](https://sosmovingla.net/blog/complete-guide-to-charity-and-free-donation-pickups/) or sell.
+When emptying your shed, it’s a good idea to declutter the stuff you were storing in it. [Check if there are any items you can donate](/blog/complete-guide-to-charity-and-free-donation-pickups) or sell.
 
 Without anything inside, your playhouse can still weigh a great deal. It may not appear as hefty, but moving it will be difficult without getting rid of the stuff inside. To make the structure lightweight, you will have to empty it. Getting some hands to work on relocating can also be of great help. Make sure you put the stuff as far away as possible, so it doesn’t get in the way of moving the structure.
 

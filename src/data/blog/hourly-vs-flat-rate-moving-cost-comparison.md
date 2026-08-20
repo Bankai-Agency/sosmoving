@@ -46,7 +46,7 @@ Hourly pricing saves money in specific scenarios that share common characteristi
 
 Studio and one-bedroom apartment moves within Los Angeles are almost always cheaper on hourly billing. A two-person crew handling a furnished one-bedroom typically finishes in three to four hours. At $119 per hour, that's $357 to $476 on a weekday. A flat rate for the same move would likely be quoted at $600 to $800 because the company factors in potential complications that may never materialize.
 
-Moves between locations that are close together — same neighborhood, same building, across the street — favor hourly because drive time is minimal. A move from one apartment in [Koreatown](../../los-angeles-movers/koreatown-movers/index.html) to another unit three blocks away might involve only ten minutes of drive time. On hourly billing, that's negligible. On a flat rate, the quote still reflects the full mobilization cost.
+Moves between locations that are close together — same neighborhood, same building, across the street — favor hourly because drive time is minimal. A move from one apartment in [Koreatown](/la-movers) to another unit three blocks away might involve only ten minutes of drive time. On hourly billing, that's negligible. On a flat rate, the quote still reflects the full mobilization cost.
 
 Moves where you've done significant preparation also favor hourly. If everything is packed, furniture is disassembled, pathways are clear, and the elevator is reserved, the crew works at maximum efficiency. Every minute you saved through preparation translates directly into savings on the hourly bill. On a flat rate, your preparation saves the company time but doesn't reduce your cost.
 
@@ -56,7 +56,7 @@ The key question for hourly moves is: are there variables you can't control? If 
 
 Flat rate pricing makes sense when the move has enough variables to make the total time unpredictable.
 
-Long-distance and interstate moves are almost universally quoted as flat rates. The [LA to Phoenix route](../la-to-phoenix-moving-desert-relocation-tips/index.html), the [Denver to LA corridor](../denver-to-los-angeles-moving-guide/index.html), and any cross-country move involve too many time variables — road conditions, weather delays, delivery scheduling — for hourly billing to be fair to either party. At SOS Moving, all interstate moves are flat rate based on inventory weight and distance.
+Long-distance and interstate moves are almost universally quoted as flat rates. The [LA to Phoenix route](/blog/la-to-phoenix-moving-desert-relocation-tips), the [Denver to LA corridor](/blog/denver-to-los-angeles-moving-guide), and any cross-country move involve too many time variables — road conditions, weather delays, delivery scheduling — for hourly billing to be fair to either party. At SOS Moving, all interstate moves are flat rate based on inventory weight and distance.
 
 Large household moves — three bedrooms or more with a full garage, attic, or basement equivalent — favor flat rates because the loading complexity makes time estimates unreliable. A crew might spend forty-five minutes disassembling a bed frame that was assembled with non-standard hardware, or discover that a sectional sofa doesn't fit through the doorway and needs to go through a window. These surprises add hours on an hourly bill but don't change a flat rate.
 
@@ -65,7 +65,7 @@ Moves with known logistical challenges — no elevator in a third-floor walkup, 
 Moves during peak season also benefit from flat rate certainty. Summer weekends in Los Angeles mean traffic delays, competing building access requests, and generally slower logistics across the city. An hourly move that encounters a thirty-minute traffic jam on the 405 costs you an extra $60. A flat rate absorbs that delay without affecting your bill.
 ![](../../assets/cdn/645ab1d97922878b6f5bef7f/69b06fd09057ba1b5035675c_hourly-vs-flat-rate-moving-cost-comparison.png)
 
-**Not sure which pricing model fits your move?** SOS Moving provides honest recommendations based on your specific situation — not the model that makes us more money. Call [909-443-0004](tel:9094430004) or [get your free estimate](../../free-estimate/index.html) for a transparent quote.
+**Not sure which pricing model fits your move?** SOS Moving provides honest recommendations based on your specific situation — not the model that makes us more money. Call [909-443-0004](tel:9094430004) or [get your free estimate](/free-estimate) for a transparent quote.
 
 ## How to Get the Best Deal on Either Model
 
@@ -103,4 +103,4 @@ Ask your moving company whether a hybrid quote is available. Not all companies o
 
 ## Get Started with a Transparent Quote
 
-SOS Moving quotes every job honestly — hourly when it saves you money, flat rate when it protects you from surprises, and hybrid when the move calls for both. We explain our recommendation so you understand not just the price, but why that pricing model is right for your specific situation. Call [909-443-0004](tel:9094430004) or [request your free estimate](../../free-estimate/index.html) to get a quote that makes sense for your move.
+SOS Moving quotes every job honestly — hourly when it saves you money, flat rate when it protects you from surprises, and hybrid when the move calls for both. We explain our recommendation so you understand not just the price, but why that pricing model is right for your specific situation. Call [909-443-0004](tel:9094430004) or [request your free estimate](/free-estimate) to get a quote that makes sense for your move.

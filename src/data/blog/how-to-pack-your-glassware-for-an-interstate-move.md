@@ -14,11 +14,11 @@ author:
   photo: ""
 ---
 
-Are you moving soon, but you’re not sure how to pack your glassware? [SOS Moving and Storage LA](https://sosmovingla.net/) is an LA-based company that can tackle any kind of move with ease. We’re here to help you **to protect your fragile items in the best possible way, and ensure their safety throughout the move.** When you’re packing glassware, there is always a doubt that it will make it safely to the end destination. With our help, you won’t have to worry about that – you’ll know that you have done a good job. *To dive into the process of packing your glassware, keep on reading!*
+Are you moving soon, but you’re not sure how to pack your glassware? [SOS Moving and Storage LA](/) is an LA-based company that can tackle any kind of move with ease. We’re here to help you **to protect your fragile items in the best possible way, and ensure their safety throughout the move.** When you’re packing glassware, there is always a doubt that it will make it safely to the end destination. With our help, you won’t have to worry about that – you’ll know that you have done a good job. *To dive into the process of packing your glassware, keep on reading!*
 ![packing materials](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d97922876c015bf432_pexels-photo-4568694-e1608673780937.jpeg)*High-quality packing materials are a must when you pack your glassware.*
 ## To pack your glassware, you will need quality material
 
-When it comes to packing, you can choose to get help from [packing services Los Angeles](https://sosmovingla.net/services/packing-services/), or you can do it yourself. Whatever you choose, don’t forget that you have to **get high-quality packing materials for your glassware**.
+When it comes to packing, you can choose to get help from [packing services Los Angeles](/services/packing-services), or you can do it yourself. Whatever you choose, don’t forget that you have to **get high-quality packing materials for your glassware**.
 
 To pack your glasses, you will need:
 
@@ -28,7 +28,7 @@ Those are the materials that you should get.* Don’t cut down on bubble wrap �
 
 ### Choose between the cardboard and plastic boxes
 
-When it comes to packing your items, there’s always the dilemma: should I use cardboard or plastic boxes? If you choose to hire [Los Angeles Interstate Movers](https://sosmovingla.net/services/interstate-move/), you won’t have to worry about it – they will handle the whole process for you. If you want to have that responsibility, then make sure that you make the right choice. In the end, it’s the question of the budget and the quantity of the items.* If you have a lot of fragile items and can’t afford to get plastic boxes for all of them, then think about insuring them.* You can **get insurance at the same company whose moving services you decided to use.**
+When it comes to packing your items, there’s always the dilemma: should I use cardboard or plastic boxes? If you choose to hire [Los Angeles Interstate Movers](/services/long-distance-movers), you won’t have to worry about it – they will handle the whole process for you. If you want to have that responsibility, then make sure that you make the right choice. In the end, it’s the question of the budget and the quantity of the items.* If you have a lot of fragile items and can’t afford to get plastic boxes for all of them, then think about insuring them.* You can **get insurance at the same company whose moving services you decided to use.**
 ![pack your glassware in the box](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d97922873f295bf430_pexels-photo-4498152-e1608673756633.jpeg)*Plastic boxes are more secure – invest in them if your finances allow you.*
 ### Don’t hold out on bubble wrap when you pack your glassware
 

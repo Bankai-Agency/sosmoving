@@ -53,7 +53,7 @@ Rigging equipment—come-alongs, pulleys, and lifting straps—comes out for the
 
 I never quote a gun safe move without an in-person assessment or, at minimum, detailed photos and measurements. There are too many variables that can turn a straightforward job into a nightmare if I'm not prepared.
 ![Close-up of professional mover securing thick moving blankets around a tall gun safe with ratchet straps inside a moving truck, protective padding visible on truck walls, focused concentration on the ](../../assets/cdn/645ab1d97922878b6f5bef7f/69de02836d5b1e7ae79f0651_how-to-move-a-gun-safe-weight-and-permit-requirements-inside.jpeg)
-🔒 Need to move a gun safe or other heavy specialty item? My team at SOS Moving specializes in [white glove moving services](../../services/white-glove-movers/index.html) for items that require extra care and expertise. Call us at (909) 443-0004 or [request a consultation](../../about-us/contact-us/index.html) to discuss your safe moving needs.
+🔒 Need to move a gun safe or other heavy specialty item? My team at SOS Moving specializes in [white glove moving services](/services/white-glove-movers) for items that require extra care and expertise. Call us at (909) 443-0004 or [request a consultation](/about-us/contact-us) to discuss your safe moving needs.
 
 First, I measure the safe itself—height, width, depth, and I confirm the weight from the manufacturer's specs or the safe's documentation. Clients often underestimate weight by 200-300 pounds because they're going off memory or guessing based on size. A 36-inch-wide safe can weigh anywhere from 400 to 1,200 pounds depending on the steel gauge and fire rating.
 
@@ -87,7 +87,7 @@ Using the wrong equipment is equally common. Furniture dollies, hand trucks from
 
 Ignoring the path is another frequent issue. People focus on getting the safe out of its current location without thinking about every inch of the journey. That 90-degree turn in the hallway? The three-inch lip at the garage threshold? The narrow gate to the backyard? Any of these can stop a safe move cold if you haven't planned for them.
 
-Not securing firearms properly during transport is a legal issue, not just a practical one. I've had clients assume they can just leave loaded guns in the safe and drive across town. In California, that's potentially multiple violations depending on the firearm types and how they're stored. As I mentioned in [my colleague Sarah's piece on moving insurance versus homeowners coverage](../moving-insurance-vs-homeowners-coverage/index.html), understanding what's protected and what's your responsibility matters.
+Not securing firearms properly during transport is a legal issue, not just a practical one. I've had clients assume they can just leave loaded guns in the safe and drive across town. In California, that's potentially multiple violations depending on the firearm types and how they're stored. As I mentioned in [my colleague Sarah's piece on moving insurance versus homeowners coverage](/blog/moving-insurance-vs-homeowners-coverage), understanding what's protected and what's your responsibility matters.
 
 ## Cost Factors for Professional Gun Safe Moving in 2026
 
@@ -97,7 +97,7 @@ Weight is the baseline factor. As of 2026, most professional movers in the Los A
 
 Access difficulty multiplies the base cost. A ground-floor safe with a clear path to the truck is straightforward. Add a flight of stairs and you might add $100-$200. A tight spiral staircase, a second-floor location, or a basement with a narrow door? Those can double the price because they double or triple the time and crew size required.
 
-Distance matters for the transport portion. A local move within Los Angeles is different from taking a safe to San Diego or up to the Bay Area. For long-distance safe transport, you're looking at additional mileage charges and potentially overnight considerations. My colleague Jacob has written about [USDOT requirements for long-distance moving](../long-distance-moving-companies-usdot-requirements/index.html) that apply to any interstate move.
+Distance matters for the transport portion. A local move within Los Angeles is different from taking a safe to San Diego or up to the Bay Area. For long-distance safe transport, you're looking at additional mileage charges and potentially overnight considerations. My colleague Jacob has written about [USDOT requirements for long-distance moving](/blog/long-distance-moving-companies-usdot-requirements) that apply to any interstate move.
 
 Special equipment needs affect pricing. If your safe requires a motorized stair climber, rigging equipment, or crane service, those have rental and operation costs that get passed through. A crane for a second-story safe installation can add $500-$1,500 to the job depending on the setup required.
 
@@ -129,7 +129,7 @@ This is where I hand things over to the paperwork side, but it's important enoug
 
 Professional movers carry cargo insurance and liability coverage. At SOS Moving, we're fully insured, which means if my crew damages your safe, your walls, or your floors, our insurance covers the repair or replacement. That peace of mind is part of what you're paying for with professional service.
 
-The contents of your safe are a separate consideration. Most moving companies, including ours, don't cover firearms or ammunition in transit—these are typically excluded items. Your firearms should be transported separately according to California law, and they should be covered under your homeowner's or renter's policy or a separate firearms insurance policy. For more details on coverage options, check out [our guide to moving insurance essentials](../cross-country-moving-companies-insurance-essentials/index.html).
+The contents of your safe are a separate consideration. Most moving companies, including ours, don't cover firearms or ammunition in transit—these are typically excluded items. Your firearms should be transported separately according to California law, and they should be covered under your homeowner's or renter's policy or a separate firearms insurance policy. For more details on coverage options, check out [our guide to moving insurance essentials](/blog/cross-country-moving-companies-insurance-essentials).
 
 ## FAQ
 
@@ -157,4 +157,4 @@ We can remove floor-bolted safes, but it adds time and complexity to the job. Co
 
 If your safe has a removable door, yes—it significantly reduces weight and makes the move safer. Not all safes have easily removable doors, and some require specialized knowledge to remove without damaging the locking mechanism. I assess this during the pre-move walkthrough and handle door removal if it's beneficial and feasible.
 
-Ready to move your gun safe safely and professionally? SOS Moving serves Los Angeles, Orange County, and the San Francisco Bay Area with specialized heavy-item moving services. Call me at (909) 443-0004, email info@sosmovingla.net, or [request your free estimate online](../../about-us/contact-us/index.html). We're licensed and insured, and I'll personally assess your safe move to ensure we have the right crew and equipment for the job.
+Ready to move your gun safe safely and professionally? SOS Moving serves Los Angeles, Orange County, and the San Francisco Bay Area with specialized heavy-item moving services. Call me at (909) 443-0004, email info@sosmovingla.net, or [request your free estimate online](/about-us/contact-us). We're licensed and insured, and I'll personally assess your safe move to ensure we have the right crew and equipment for the job.

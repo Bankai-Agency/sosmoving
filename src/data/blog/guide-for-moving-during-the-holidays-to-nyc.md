@@ -14,7 +14,7 @@ author:
   photo: ""
 ---
 
-What a year 2020 has been! *Keeping yourself together and thinking about your loved ones* was surely overwhelming. With this, if you are moving during the holidays to NYC – you’re in for a ride. Of course, simply calling [SOS Moving and Storage Los Angeles](https://sosmovingla.net/) will make your relocation easier. Once you call us, sit back, get yourself a cup of some warm drink and let us help you with some tips and tricks for your upcoming move.
+What a year 2020 has been! *Keeping yourself together and thinking about your loved ones* was surely overwhelming. With this, if you are moving during the holidays to NYC – you’re in for a ride. Of course, simply calling [SOS Moving and Storage Los Angeles](/) will make your relocation easier. Once you call us, sit back, get yourself a cup of some warm drink and let us help you with some tips and tricks for your upcoming move.
 
 ## Moving during the holidays can be overwhelming
 
@@ -22,7 +22,7 @@ Relocation to NYC is an exciting event. Still, if you are moving during the holi
 ![old photo when moving during the holidays](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d97922872a1d5bf43b_old-791758_1280-e1608321359823.jpeg)*During the holidays, you can find more time to remember some moments from the past that evoke warm feelings.*
 ### Nostalgic memories are personal experiences
 
-When you start moving, you are in a special state of mind. Besides trying to find the right [movers California to New York](https://sosmovingla.net/services/interstate-move/california-to-new-york/) you may be flooded with memories. *Memories are the moments that our subconscious thought considers the most important.* During the holidays, you can find more time to remember some **moments from the past that evoke warm feelings or people who are no longer with you**, and with whom you enjoyed spending the holidays.
+When you start moving, you are in a special state of mind. Besides trying to find the right [movers California to New York](/services/long-distance-movers) you may be flooded with memories. *Memories are the moments that our subconscious thought considers the most important.* During the holidays, you can find more time to remember some **moments from the past that evoke warm feelings or people who are no longer with you**, and with whom you enjoyed spending the holidays.
 
 ### Memories are connected to social events as well as holidays
 
@@ -30,7 +30,7 @@ Almost all nostalgic moments involve other people: *romantic partners, family me
 
 ### Holidays are special events
 
-It is **unlikely that someone will be nostalgic when paying bills in a certain month,** while calling [movers Los Angeles county](https://sosmovingla.net/los-angeles-county-movers/) or when going to work. But for example, *if you communicated with someone special while paying bills or going to work – there is your piece of nostalgia.*
+It is **unlikely that someone will be nostalgic when paying bills in a certain month,** while calling [movers Los Angeles county](/la-movers) or when going to work. But for example, *if you communicated with someone special while paying bills or going to work – there is your piece of nostalgia.*
 
 ### Nostalgia gives a feeling of stability
 
@@ -42,7 +42,7 @@ It may sound strange, but **research has shown that people trapped in nostalgic 
 
 ## Holidays in a new place can be frightening
 
-Once your [Los Angeles apartment movers](https://sosmovingla.net/services/apartment-move/) unload your items and your house is quiet and somehow empty,* you may feel lonely.* Also, being in a new place can fill you with sadness, anxiety, and negative thoughts. Such an experience is intensified if you feel that everyone is happy at this time of the year. In these moments, i**t is best to seek the help of loved ones or professional help.** Of course, always remember that seeking help is a sign of strength and not a weakness so don’t be afraid to ask for help.
+Once your [Los Angeles apartment movers](/services/apartment-movers) unload your items and your house is quiet and somehow empty,* you may feel lonely.* Also, being in a new place can fill you with sadness, anxiety, and negative thoughts. Such an experience is intensified if you feel that everyone is happy at this time of the year. In these moments, i**t is best to seek the help of loved ones or professional help.** Of course, always remember that seeking help is a sign of strength and not a weakness so don’t be afraid to ask for help.
 
 ## What triggers holiday or post-move depression?
 

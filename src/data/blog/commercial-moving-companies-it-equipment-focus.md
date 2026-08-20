@@ -46,7 +46,7 @@ Cable management during the move is as important as the equipment itself. Bundle
 
 Downtime is the hidden cost of every office move, and IT equipment drives the timeline for when your business is operational again. A desk can wait a day — email cannot.
 
-The standard approach for minimizing downtime is a [weekend office relocation](../commercial-movers-weekend-office-relocation/index.html). Friday afternoon, the IT team begins powering down systems and disconnecting equipment. Friday evening and Saturday, the moving crew transports everything to the new location. Saturday afternoon and Sunday, the IT team reconnects and tests systems. Monday morning, the office is operational at the new address. Total downtime: one business day (Friday afternoon) if everything goes according to plan.
+The standard approach for minimizing downtime is a [weekend office relocation](/blog/commercial-movers-weekend-office-relocation). Friday afternoon, the IT team begins powering down systems and disconnecting equipment. Friday evening and Saturday, the moving crew transports everything to the new location. Saturday afternoon and Sunday, the IT team reconnects and tests systems. Monday morning, the office is operational at the new address. Total downtime: one business day (Friday afternoon) if everything goes according to plan.
 
 For businesses that can't afford any downtime — medical practices, financial services, operations with 24/7 client obligations — a phased move is the alternative. Critical IT systems move first and are operational at the new location before non-critical equipment and furniture follow. This requires duplicate infrastructure during the transition period — internet service active at both locations, temporary workstations at the new office while the old office is still being packed — but it keeps the business running continuously.
 
@@ -65,7 +65,7 @@ Server room or closet conditions matter for equipment longevity. Temperature sho
 Cable runs between the server location and workstation areas should be planned and — ideally — installed before moving day. Running cables after furniture is placed means crawling under desks, drilling through walls that already have artwork hanging, and working around employees who are trying to get back to business. Pre-installed cable drops at each workstation position make reconnection fast and clean.
 ![](../../assets/cdn/645ab1d97922878b6f5bef7f/69b070eca0fd3864c9c8d8b2_commercial-moving-companies-it-equipment-focus.png)
 
-**Planning an office move with sensitive IT equipment?** SOS Moving's commercial crews use server dollies, anti-vibration padding, and IT-specific handling protocols that protect your technology investment. Call [909-443-0004](tel:9094430004) or [get your free estimate](../../free-estimate/index.html) to coordinate your office relocation.
+**Planning an office move with sensitive IT equipment?** SOS Moving's commercial crews use server dollies, anti-vibration padding, and IT-specific handling protocols that protect your technology investment. Call [909-443-0004](tel:9094430004) or [get your free estimate](/free-estimate) to coordinate your office relocation.
 
 ## What Can Go Wrong and How to Prevent It
 
@@ -107,4 +107,4 @@ Ask who handles disconnection and reconnection. At SOS Moving, our crews handle 
 
 ## Get Started with Your Office IT Relocation
 
-SOS Moving's crews are the [commercial movers Los Angeles](/services/commercial-movers) businesses trust with IT equipment, handling it with the specialized care your business technology demands. Server dollies, anti-vibration transport, dedicated truck space for sensitive equipment, and coordination with your IT team ensure your office is operational at the new location as fast as possible. Call [909-443-0004](tel:9094430004) or [request your free estimate](../../free-estimate/index.html) to start planning your office move with a company that understands what's at stake.
+SOS Moving's crews are the [commercial movers Los Angeles](/services/commercial-movers) businesses trust with IT equipment, handling it with the specialized care your business technology demands. Server dollies, anti-vibration transport, dedicated truck space for sensitive equipment, and coordination with your IT team ensure your office is operational at the new location as fast as possible. Call [909-443-0004](tel:9094430004) or [request your free estimate](/free-estimate) to start planning your office move with a company that understands what's at stake.

@@ -50,13 +50,13 @@ Pianos are not furniture—they're precision instruments weighing 300-1,200 poun
 
 ## LA-Specific Piano Moving Challenges
 
-**Hillside homes (**[**Hollywood Hills**](../../movers-hollywood/index.html)**, **[**Los Feliz**](../../los-feliz-movers/index.html)**):**Driveways too steep for trucks. Hand-carrying up slopes required. Multiple rest breaks necessary. Extra crew members essential. $100-200 additional typically.
+**Hillside homes (**[**Hollywood Hills**](/movers-hollywood)**, **[**Los Feliz**](/los-feliz-movers)**):**Driveways too steep for trucks. Hand-carrying up slopes required. Multiple rest breaks necessary. Extra crew members essential. $100-200 additional typically.
 
-**Beach apartments (**[**Santa Monica**](../../los-angeles-movers/santa-monica-movers/index.html)**, **[**Venice**](../../venice-movers/index.html)**):**Sand damages mechanisms severely. Salt air affects tuning stability. Narrow staircases common. Humidity changes significant. Climate wrapping recommended.
+**Beach apartments (**[**Santa Monica**](/los-angeles-movers/santa-monica-movers)**, **[**Venice**](/venice-movers)**):**Sand damages mechanisms severely. Salt air affects tuning stability. Narrow staircases common. Humidity changes significant. Climate wrapping recommended.
 
-**High-rises (**[**Downtown**](../../movers-downtown-los-angeles/index.html)**, **[**Century City**](../../west-los-angeles-movers/index.html)**):**Freight elevator requirements absolute. Weight limits challenging grands. Building insurance mandated. Professional rigging sometimes required. $300+ additional possible.
+**High-rises (**[**Downtown**](/movers-downtown-los-angeles)**, **[**Century City**](/west-los-angeles-movers)**):**Freight elevator requirements absolute. Weight limits challenging grands. Building insurance mandated. Professional rigging sometimes required. $300+ additional possible.
 
-**Historic homes (**[**Pasadena**](../../los-angeles-movers/pasadena-movers/index.html)**, **[**Hancock Park**](../../hancock-park-movers/index.html)**):**Doorways narrower than modern standards. Floors require load distribution. Architectural preservation concerns. Multiple turning challenges. Custom solutions necessary.
+**Historic homes (**[**Pasadena**](/los-angeles-movers/pasadena-movers)**, **[**Hancock Park**](/la-movers)**):**Doorways narrower than modern standards. Floors require load distribution. Architectural preservation concerns. Multiple turning challenges. Custom solutions necessary.
 
 ## Cost Breakdown for Piano Moves
 
@@ -120,6 +120,6 @@ Attempting DIY piano moves risks destroying irreplaceable instruments, causing s
 
 The $200 flat fee SOS Moving charges for piano expertise represents fraction of potential damage costs. Combined with required four-mover crew, total investment typically $600-1,000 protects instruments worth far more, both monetarily and sentimentally.
 
-**Need professional piano movers?** Call SOS Moving at 909-443-0004 for specialized piano moving throughout Los Angeles. Our trained crews safely relocate uprights, baby grands, and concert grands using proper equipment and techniques. From [hillside homes](../../movers-hollywood/index.html) to [high-rise apartments](../../movers-downtown-los-angeles/index.html), we protect your precious instrument. [Get your piano moving quote](../../free-estimate/index.html) today—your piano deserves professional care.
+**Need professional piano movers?** Call SOS Moving at 909-443-0004 for specialized piano moving throughout Los Angeles. Our trained crews safely relocate uprights, baby grands, and concert grands using proper equipment and techniques. From [hillside homes](/movers-hollywood) to [high-rise apartments](/movers-downtown-los-angeles), we protect your precious instrument. [Get your piano moving quote](/free-estimate) today—your piano deserves professional care.
 
 ‍

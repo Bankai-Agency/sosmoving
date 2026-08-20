@@ -26,7 +26,7 @@ The California to Florida migration represents America's third-largest interstat
 
 ## Real Moving Costs: CA to FL
 
-**Professional moving services (**[**SOS Moving rates**](../moving-costs-los-angeles-pricing-guide/index.html)**):**
+**Professional moving services (**[**SOS Moving rates**](/moving-costs-los-angeles-pricing-guide)**):**
 
 - Studio/1-bedroom: $3,500-5,000- 2-bedroom: $5,000-7,500- 3-bedroom house: $7,500-10,000- 4+ bedroom: $10,000-15,000
 
@@ -122,6 +122,6 @@ California to Florida represents lifestyle choice, not just geographic change. Y
 
 Success requires embracing differences rather than seeking California replicas. Florida offers its own advantages—appreciate them rather than comparing constantly.
 
-**Ready for your cross-country move?** [Contact SOS Moving](../../about-us/contact-us/index.html) at 909-443-0004 for professional interstate moving services. We handle California to Florida relocations regularly, understanding both states' requirements. From [Los Angeles](/la-movers) to Miami or [San Francisco](../../services/long-distance-movers/index.html) to Orlando, we manage your coast-to-coast transition professionally. Let us handle logistics while you prepare for your new Florida lifestyle.
+**Ready for your cross-country move?** [Contact SOS Moving](/about-us/contact-us) at 909-443-0004 for professional interstate moving services. We handle California to Florida relocations regularly, understanding both states' requirements. From [Los Angeles](/la-movers) to Miami or [San Francisco](/services/long-distance-movers) to Orlando, we manage your coast-to-coast transition professionally. Let us handle logistics while you prepare for your new Florida lifestyle.
 
 ‍

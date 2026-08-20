@@ -50,11 +50,11 @@ Not every move requires a massive truck and six-person crew. Maybe you bought a 
 
 **Student moves:**Dorm to apartment transitions. Summer storage transfers. Semester abroad storage. Graduation relocations. Parent-assisted moves.
 
-**Real example:** UCLA student, 15 boxes plus mini-fridge and desk. Moved from dorm to [Westwood](../../west-los-angeles-movers/index.html) apartment. Total: $320, completed in 90 minutes.
+**Real example:** UCLA student, 15 boxes plus mini-fridge and desk. Moved from dorm to [Westwood](/west-los-angeles-movers) apartment. Total: $320, completed in 90 minutes.
 
 **Senior downsizing:**Moving select furniture to children. Assisted living partial moves. Favorite chair relocations. Estate distribution pieces. Memory-laden items.
 
-**Real example:** Grandmother's piano to grandson, [Pasadena](../../los-angeles-movers/pasadena-movers/index.html) to [Culver City](../../culver-city-movers/index.html). Special care required, $450 total, priceless value.
+**Real example:** Grandmother's piano to grandson, [Pasadena](/los-angeles-movers/pasadena-movers) to [Culver City](/culver-city-movers). Special care required, $450 total, priceless value.
 
 ## Small Moves That Aren't Small
 
@@ -134,6 +134,6 @@ Every move matters, regardless of size. The antique dresser from grandma deserve
 
 SOS Moving treats small moves with full professionalism because we understand their importance exceeds their size. No job too small means exactly that—professional moving services scaled appropriately, never compromised.
 
-**Need a small move?** Call SOS Moving at 909-443-0004 for professional small move services throughout Los Angeles. From single [furniture pieces](../furniture-movers-los-angeles/index.html) to [studio apartments](/services/apartment-movers), we handle small moves with big professionalism. No excessive minimums, no compromised service. [Get your small move quote](../../free-estimate/index.html) today—every move matters to us.
+**Need a small move?** Call SOS Moving at 909-443-0004 for professional small move services throughout Los Angeles. From single [furniture pieces](/blog/furniture-movers-los-angeles) to [studio apartments](/services/apartment-movers), we handle small moves with big professionalism. No excessive minimums, no compromised service. [Get your small move quote](/free-estimate) today—every move matters to us.
 
 ‍

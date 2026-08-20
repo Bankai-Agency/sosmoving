@@ -36,7 +36,7 @@ The awkward moment arrives: your movers just spent six hours carefully handling 
 
 **Going above and beyond:**Helping with last-minute packing. Reassembling furniture perfectly. Cleaning up packing materials. Accommodating change requests. Protecting floors without asking.
 
-**LA-specific challenges:**[Hollywood Hills](../../movers-hollywood/index.html) steep driveways. [Beach area](../../manhattan-beach-movers/index.html) sand and tourists. [Downtown](../../movers-downtown-los-angeles/index.html) high-rise logistics. No parking requiring long carries. Extreme heat (common in Valley).
+**LA-specific challenges:**[Hollywood Hills](/movers-hollywood) steep driveways. [Beach area](/manhattan-beach-movers) sand and tourists. [Downtown](/movers-downtown-los-angeles) high-rise logistics. No parking requiring long carries. Extreme heat (common in Valley).
 
 ## When to Tip Less (or Not at All)
 
@@ -106,7 +106,7 @@ Example: LA to Phoenix move, tip LA crew $50 each for loading, Phoenix crew $50 
 
 **LA vs other cities:**LA tips slightly higher than national average. Similar to NYC, SF. More than Phoenix, Vegas. Cost of living reflected.
 
-**Neighborhood variations:**[Beverly Hills](../../beverly-hills-movers/index.html): Higher expectations. [Valley](../../san-fernando-valley-movers/index.html): Standard amounts. [Beach areas](../../manhattan-beach-movers/index.html): Generous typically. [Downtown](../../movers-downtown-los-angeles/index.html): Depends on building.
+**Neighborhood variations:**[Beverly Hills](/beverly-hills-movers): Higher expectations. [Valley](/san-fernando-valley-movers): Standard amounts. [Beach areas](/manhattan-beach-movers): Generous typically. [Downtown](/movers-downtown-los-angeles): Depends on building.
 
 ## The SOS Moving Perspective
 
@@ -122,6 +122,6 @@ Prepare cash in advance, removing moving day stress. Budget 5-10% of moving cost
 
 Remember: professional movers handle your entire life's possessions. They protect memories, enable fresh starts, and perform exhausting physical labor. Your appreciation, whether monetary or otherwise, acknowledges their essential service.
 
-**Ready for professional movers who earn their tips?** Contact SOS Moving at 909-443-0004. Our crews deliver exceptional service whether tipped or not, but we appreciate every gesture of gratitude. From [studio apartments](../small-moves-los-angeles-delivery/index.html) to [luxury homes](../../beverly-hills-movers/index.html), we handle your belongings with care that deserves recognition. [Get your free quote](../../free-estimate/index.html) today!
+**Ready for professional movers who earn their tips?** Contact SOS Moving at 909-443-0004. Our crews deliver exceptional service whether tipped or not, but we appreciate every gesture of gratitude. From [studio apartments](/blog/small-moves-los-angeles-delivery) to [luxury homes](/beverly-hills-movers), we handle your belongings with care that deserves recognition. [Get your free quote](/free-estimate) today!
 
 ‍

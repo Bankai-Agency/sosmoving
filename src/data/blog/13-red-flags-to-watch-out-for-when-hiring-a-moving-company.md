@@ -20,11 +20,11 @@ Change is not something most of us embrace by human nature, and moving happens t
 
 It’s a little surprising then that moving is regarded as one of life’s biggest stressors. Fortunately, there are things we can do to make it less so. Hiring a moving company, for example.
 
-However, [finding the right moving company](https://sosmovingla.net/blog/how-to-choose-a-reputable-moving-company/) is key as there is no shortage of bad moving companies out there, some capable of making your move a hellish experience.
+However, [finding the right moving company](/blog/how-to-choose-a-reputable-moving-company) is key as there is no shortage of bad moving companies out there, some capable of making your move a hellish experience.
 
-Knowing the right questions to ask moving companies can help you identify a [legitimate moving company](https://sosmovingla.net/blog/5-quick-ways-to-check-if-moving-company-is-legitimate/) from a scammer. More than that, there are red flags in a company that are dead giveaways that you’re dealing with unscrupulous characters.
+Knowing the right questions to ask moving companies can help you identify a [legitimate moving company](/blog/5-quick-ways-to-check-if-a-moving-company-is-legitimate) from a scammer. More than that, there are red flags in a company that are dead giveaways that you’re dealing with unscrupulous characters.
 
-Let’s walk you through 13 moving company red flags to keep an eye out for if you don’t want to be left holding the bag. [If you are considering a DIY move](https://sosmovingla.net/blog/moving-yourself-vs-hiring-movers-which-is-better/), though, you might want to skip this one.
+Let’s walk you through 13 moving company red flags to keep an eye out for if you don’t want to be left holding the bag. [If you are considering a DIY move](/blog/moving-yourself-vs-hiring-movers-which-is-better), though, you might want to skip this one.
 
 ## 1. Their Estimate Is Too Good to Be True
 
@@ -34,7 +34,7 @@ While there are measures you can always implement to trim your moving bill, movi
 
 In an attempt to lure customers, some companies tout the lowest estimates, but it is often these types who end up charging you an arm and a leg when all is said and done, as many have discovered much to their chagrin.
 
-It’s essential to [know the average cost of your move](https://sosmovingla.net/blog/how-much-do-movers-cost-cost-of-hiring-a-moving-company-in-2022/) in advance if you want to avoid nasty surprises down the line.
+It’s essential to [know the average cost of your move](/blog/how-much-do-movers-cost-cost-of-hiring-a-moving-company-in-2022) in advance if you want to avoid nasty surprises down the line.
 ![Information Is Hard to Find Online](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d97922871d515bf23d_man-and-woman-using-laptop.png)
 ## 2. Information Is Hard to Find Online
 
@@ -60,7 +60,7 @@ Local movers must be licensed within the state, and if the company provides inte
 
 ## 5. They Don’t Offer Valuation Coverage
 
-Any reputable mover worth their salt must [offer liability options](https://sosmovingla.net/blog/what-to-know-about-moving-company-insurance-and-coverage/) for their customers which holds them responsible for part of your shipment. This should definitely be right up there on the list of what to ask a moving company before signing up with them.
+Any reputable mover worth their salt must [offer liability options](/blog/what-to-know-about-moving-company-insurance-and-coverage) for their customers which holds them responsible for part of your shipment. This should definitely be right up there on the list of what to ask a moving company before signing up with them.
 
 If the mover caters to interstate moves, the FMCSA (Federal Motor Carrier Safety Administration) requires the company to offer two types of valuation coverage: Released Value Protection and Full Value Protection.
 ![Bad or Few Recent Moving Reviews](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d979228750e35bf233_star-review-cubes.png)
@@ -102,7 +102,7 @@ A non-binding estimate means the quoted price is liable to change and is one of 
 
 Since it’s based on the estimated weight of your belongings, what movers who play this card do is low-ball on the initial estimate with the intention of slapping you with a huge invoice when the work is done. Woe unto you if you forget to confirm this from the onset.
 
-There are always legit ways to compensate the movers if you feel generous enough. [Learn about tipping etiquette for movers](https://sosmovingla.net/blog/how-much-do-you-tip-movers-in-2022/).
+There are always legit ways to compensate the movers if you feel generous enough. [Learn about tipping etiquette for movers](/blog/how-much-do-you-tip-movers-in-2022).
 
 ## 12. No Delivery Date Given
 
@@ -116,7 +116,7 @@ A professional moving company operates above board and is happy to keep you in t
 
 Ideally, you should be able to reach the driver or a representative who can communicate with the driver any time you want when your belongings are in transit.
 
-Avoid last-minute frustrations by [scheduling your move in advance](https://sosmovingla.net/blog/how-long-in-advance-to-book-movers/).
+Avoid last-minute frustrations by [scheduling your move in advance](/blog/how-long-in-advance-to-book-movers).
 
 The advantages of hiring a moving company far outweigh the disadvantages. However, it’s important to hire the right mover if you don’t want to find yourself in a situation like the Pear family in the aptly-named film, Moving.
 

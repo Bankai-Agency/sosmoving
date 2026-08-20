@@ -38,7 +38,7 @@ Standard movers treat furniture like boxes—load and go. Professional furniture
 
 **Architectural obstacles:**Spanish-style homes with arched doorways limit height. Craftsman houses feature narrow hallways. Mid-century modern has floor-to-ceiling glass. Beach houses deal with sand and stairs. Downtown lofts have freight elevator requirements.
 
-**Neighborhood-specific issues:**[Hollywood Hills](../../movers-hollywood/index.html) driveways require hand-carrying. [Venice](../../venice-movers/index.html) walk-streets prohibit truck access. [Beverly Hills](../../beverly-hills-movers/index.html) demands white-glove service. [Downtown](../../movers-downtown-los-angeles/index.html) high-rises need COI and scheduling.
+**Neighborhood-specific issues:**[Hollywood Hills](/movers-hollywood) driveways require hand-carrying. [Venice](/venice-movers) walk-streets prohibit truck access. [Beverly Hills](/beverly-hills-movers) demands white-glove service. [Downtown](/movers-downtown-los-angeles) high-rises need COI and scheduling.
 
 ## Furniture Protection Techniques
 
@@ -118,6 +118,6 @@ We invest in proper equipment: dollies, straps, blankets, and hoisting gear. Our
 
 From single-piece deliveries to full household furniture relocations, we treat each item individually while maintaining efficiency. Your grandmother's armoire receives the same care as gallery pieces we've transported.
 
-**Need professional furniture movers?** Call SOS Moving at 909-443-0004 for specialized furniture moving services. From [beachfront condos](../../manhattan-beach-movers/index.html) to [hillside homes](../../movers-hollywood/index.html), we navigate LA's challenges while protecting your valuable pieces. Our experienced crews handle everything from IKEA assembly to antique preservation. [Get your free furniture moving quote](../../free-estimate/index.html) today.
+**Need professional furniture movers?** Call SOS Moving at 909-443-0004 for specialized furniture moving services. From [beachfront condos](/manhattan-beach-movers) to [hillside homes](/movers-hollywood), we navigate LA's challenges while protecting your valuable pieces. Our experienced crews handle everything from IKEA assembly to antique preservation. [Get your free furniture moving quote](/free-estimate) today.
 
 ‍

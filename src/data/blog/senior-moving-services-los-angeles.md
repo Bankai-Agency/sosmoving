@@ -24,7 +24,7 @@ Professional senior moving services address these challenges through specialized
 
 ## Common Senior Moving Scenarios
 
-**Downsizing within LA:** Moving from family homes in [Pasadena](../../los-angeles-movers/pasadena-movers/index.html) or [Manhattan Beach](../../manhattan-beach-movers/index.html) to condos or apartments. Staying in familiar neighborhoods but reducing maintenance burden. Often prompted by mobility issues or spouse's passing.
+**Downsizing within LA:** Moving from family homes in [Pasadena](/los-angeles-movers/pasadena-movers) or [Manhattan Beach](/manhattan-beach-movers) to condos or apartments. Staying in familiar neighborhoods but reducing maintenance burden. Often prompted by mobility issues or spouse's passing.
 
 **Assisted living transitions:** Medical needs require professional care environments. Urgent moves following health events. Selecting essential belongings for limited space. Coordinating with facility requirements and schedules.
 
@@ -56,7 +56,7 @@ Many seniors qualify for moving assistance through Medicare Advantage plans, vet
 
 ## Choosing Senior-Friendly Neighborhoods
 
-**Best LA areas for aging in place:**[Pasadena](../../los-angeles-movers/pasadena-movers/index.html): Walkable downtown, excellent medical facilities, senior center programs.[Manhattan Beach](../../manhattan-beach-movers/index.html): Flat terrain near beach, strong community, quality healthcare.[Glendale](../../los-angeles-movers/glendale-movers/index.html): Large senior population, accessible services, moderate costs.[Sherman Oaks](../../sherman-oaks-movers/index.html): Medical offices concentrated, public transit available, senior housing options.
+**Best LA areas for aging in place:**[Pasadena](/los-angeles-movers/pasadena-movers): Walkable downtown, excellent medical facilities, senior center programs.[Manhattan Beach](/manhattan-beach-movers): Flat terrain near beach, strong community, quality healthcare.[Glendale](/los-angeles-movers/glendale-movers): Large senior population, accessible services, moderate costs.[Sherman Oaks](/sherman-oaks-movers): Medical offices concentrated, public transit available, senior housing options.
 
 **Factors for neighborhood selection:**Proximity to medical providers crucial. Public transportation or senior shuttle availability. Walkable services reduce driving needs. Social opportunities prevent isolation. Climate considerations for arthritis and mobility.
 

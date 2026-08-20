@@ -140,6 +140,6 @@ Labor-only services bridge the gap between expensive full-service and risky comp
 
 Consider your physical ability, available help, item value, and time constraints. If you can pack and drive but need loading help, labor services offer ideal solution.
 
-**Need professional moving labor?** Contact SOS Moving at 909-443-0004 for experienced labor-only services. Load your rental truck, PODS container, or storage unit with professional expertise. From $119/hour, no truck required, just professional help when needed. [Get your labor-only quote](../../free-estimate/index.html) today!
+**Need professional moving labor?** Contact SOS Moving at 909-443-0004 for experienced labor-only services. Load your rental truck, PODS container, or storage unit with professional expertise. From $119/hour, no truck required, just professional help when needed. [Get your labor-only quote](/free-estimate) today!
 
 ‍

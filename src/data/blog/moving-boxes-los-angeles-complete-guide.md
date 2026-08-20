@@ -152,6 +152,6 @@ Boxes protect thousands in belongings for under $300 investment. Quality boxes p
 
 SOS Moving sees daily how box quality affects moves. Cheap boxes collapse, wrong sizes cause problems, insufficient quantities create panic. Invest appropriately in protection.
 
-**Need boxes with your move?** Call SOS Moving at 909-443-0004. We provide boxes at $4-6 each, wardrobe boxes free (returnable), and professional packing services with materials included. From [studios](../small-moves-los-angeles-delivery/index.html) to [large homes](../../beverly-hills-movers/index.html), we have the right boxes and expertise. [Get your free quote](../../free-estimate/index.html) including box costs today!
+**Need boxes with your move?** Call SOS Moving at 909-443-0004. We provide boxes at $4-6 each, wardrobe boxes free (returnable), and professional packing services with materials included. From [studios](/blog/small-moves-los-angeles-delivery) to [large homes](/beverly-hills-movers), we have the right boxes and expertise. [Get your free quote](/free-estimate) including box costs today!
 
 ‍

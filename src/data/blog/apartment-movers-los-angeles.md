@@ -27,13 +27,13 @@ Apartment moves require completely different skills than house relocations. Elev
 
 ## Types of LA Apartments We Service
 
-**Luxury high-rises:**[Downtown LA](../../movers-downtown-los-angeles/index.html), [Century City](../../west-los-angeles-movers/index.html), [Westwood](../../west-los-angeles-movers/index.html). Professional building management requirements. Freight elevators and loading docks. COI always required ($50 at SOS). Strict scheduling and procedures.
+**Luxury high-rises:**[Downtown LA](/movers-downtown-los-angeles), [Century City](/west-los-angeles-movers), [Westwood](/west-los-angeles-movers). Professional building management requirements. Freight elevators and loading docks. COI always required ($50 at SOS). Strict scheduling and procedures.
 
-**Garden apartments:**Common in [Valley](../../san-fernando-valley-movers/index.html) and [Palms](../../west-los-angeles-movers/index.html). Usually 2-3 stories maximum. Exterior stairs and walkways. Parking typically easier. More relaxed requirements.
+**Garden apartments:**Common in [Valley](/san-fernando-valley-movers) and [Palms](/west-los-angeles-movers). Usually 2-3 stories maximum. Exterior stairs and walkways. Parking typically easier. More relaxed requirements.
 
-**Older buildings:**[Hollywood](../../movers-hollywood/index.html), [Koreatown](../moving-to-koreatown-los-angeles/index.html), [Silver Lake](../moving-to-silver-lake-los-angeles/index.html). No elevators in 3-4 story buildings. Narrow interior staircases. Character features blocking furniture. Fragile infrastructure concerns.
+**Older buildings:**[Hollywood](/movers-hollywood), [Koreatown](/blog/moving-to-koreatown-los-angeles), [Silver Lake](/blog/moving-to-silver-lake-los-angeles). No elevators in 3-4 story buildings. Narrow interior staircases. Character features blocking furniture. Fragile infrastructure concerns.
 
-**Beach apartments:**[Santa Monica](../../los-angeles-movers/santa-monica-movers/index.html), [Venice](../../venice-movers/index.html), [Marina del Rey](../../marina-del-rey-movers/index.html). Sand tracking major issue. Salt air corrosion considerations. Tourist parking complications. Beach regulations affecting access.
+**Beach apartments:**[Santa Monica](/los-angeles-movers/santa-monica-movers), [Venice](/venice-movers), [Marina del Rey](/marina-del-rey-movers). Sand tracking major issue. Salt air corrosion considerations. Tourist parking complications. Beach regulations affecting access.
 
 ## Floor Level Price Differences
 
@@ -113,6 +113,6 @@ General movers often struggle with apartments. They underestimate time required 
 
 SOS Moving specializes in apartment logistics. We know major buildings' requirements. Our crews master stair-carrying techniques. We bring apartment-specific equipment. Insurance covers apartment-related damages.
 
-**Need apartment moving experts?** Call SOS Moving at 909-443-0004 for specialized apartment moving services. From [downtown high-rises](../../movers-downtown-los-angeles/index.html) to [beach walk-ups](../../venice-movers/index.html), we navigate LA's apartment challenges daily. Our experienced crews handle elevators, stairs, and tight spaces professionally while protecting your security deposit. [Get your free apartment moving quote](../../free-estimate/index.html) today.
+**Need apartment moving experts?** Call SOS Moving at 909-443-0004 for specialized apartment moving services. From [downtown high-rises](/movers-downtown-los-angeles) to [beach walk-ups](/venice-movers), we navigate LA's apartment challenges daily. Our experienced crews handle elevators, stairs, and tight spaces professionally while protecting your security deposit. [Get your free apartment moving quote](/free-estimate) today.
 
 ‍

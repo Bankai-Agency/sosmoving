@@ -30,9 +30,9 @@ College moves happen on impossible timelines—everyone moving the same three da
 
 **Major universities:**
 
-**UCLA (Westwood):**35,000+ students. Hill-based campus challenging. Move-in weekend insane. Parking permits required. Storage needs huge. [Westwood](../../west-los-angeles-movers/index.html) apartments expensive.
+**UCLA (Westwood):**35,000+ students. Hill-based campus challenging. Move-in weekend insane. Parking permits required. Storage needs huge. [Westwood](/west-los-angeles-movers) apartments expensive.
 
-**USC (Downtown):**20,000+ students. Urban campus complicated. Security very strict. Limited vehicle access. Surrounding apartments varying. [Downtown](../../movers-downtown-los-angeles/index.html) traffic challenging.
+**USC (Downtown):**20,000+ students. Urban campus complicated. Security very strict. Limited vehicle access. Surrounding apartments varying. [Downtown](/movers-downtown-los-angeles) traffic challenging.
 
 **Other campuses:**
 
@@ -72,7 +72,7 @@ College moves happen on impossible timelines—everyone moving the same three da
 
 **Coordination nightmares:**Different move dates. Shared item decisions. Cost splitting arguments. Who keeps what. Cleaning responsibilities. Damage blame.
 
-**Popular student areas:**[Westwood](../../west-los-angeles-movers/index.html): UCLA proximity. [University Park](../../movers-downtown-los-angeles/index.html): USC area. [Northridge](../../san-fernando-valley-movers/index.html): CSUN students. [Palms](../../west-los-angeles-movers/index.html): Multiple schools. [Koreatown](../moving-to-koreatown-los-angeles/index.html): Affordable options.
+**Popular student areas:**[Westwood](/west-los-angeles-movers): UCLA proximity. [University Park](/movers-downtown-los-angeles): USC area. [Northridge](/san-fernando-valley-movers): CSUN students. [Palms](/west-los-angeles-movers): Multiple schools. [Koreatown](/blog/moving-to-koreatown-los-angeles): Affordable options.
 
 ## Summer Storage Solutions
 
@@ -148,6 +148,6 @@ Student moves combine logistical challenges with emotional transitions. Whether 
 
 Parents appreciate reliability and professionalism. Students need affordability and flexibility. SOS Moving balances both, understanding academic life's unique demands.
 
-**Need student moving help?** Call SOS Moving at 909-443-0004 for professional student moving services throughout Los Angeles. From [UCLA dorms](../../west-los-angeles-movers/index.html) to [USC apartments](../../movers-downtown-los-angeles/index.html), we understand college moves. Summer storage, parent coordination, budget-friendly options available. [Get your free student moving quote](../../free-estimate/index.html) today!
+**Need student moving help?** Call SOS Moving at 909-443-0004 for professional student moving services throughout Los Angeles. From [UCLA dorms](/west-los-angeles-movers) to [USC apartments](/movers-downtown-los-angeles), we understand college moves. Summer storage, parent coordination, budget-friendly options available. [Get your free student moving quote](/free-estimate) today!
 
 ‍

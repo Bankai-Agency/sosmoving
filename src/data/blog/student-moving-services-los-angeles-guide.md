@@ -34,13 +34,13 @@ During peak times, prices jump 30-50% and availability disappears. Book three we
 
 ## Campus-Specific Moving Challenges
 
-**UCLA (Westwood):**Brutal parking—permits required everywhere. Hill dormitories require long carries. Move-in day traffic backs up for miles. Strict elevator scheduling in apartments. [Westwood](../../west-los-angeles-movers/index.html) apartments charge moving fees.
+**UCLA (Westwood):**Brutal parking—permits required everywhere. Hill dormitories require long carries. Move-in day traffic backs up for miles. Strict elevator scheduling in apartments. [Westwood](/west-los-angeles-movers) apartments charge moving fees.
 
-**USC (Downtown):**Safety concerns require daylight moves. Extremely limited street parking. Old buildings with narrow stairs. Gate access requires student accompaniment. [Downtown](../../movers-downtown-los-angeles/index.html) traffic adds complexity.
+**USC (Downtown):**Safety concerns require daylight moves. Extremely limited street parking. Old buildings with narrow stairs. Gate access requires student accompaniment. [Downtown](/movers-downtown-los-angeles) traffic adds complexity.
 
 **Community Colleges:**Students often live far from campus. Diverse housing situations (family homes, shared rooms). More flexibility on timing. Budget constraints more severe. Multiple moves per year common.
 
-**Cal State Northridge:**Valley heat makes summer moves brutal. Parking slightly easier than UCLA/USC. Mix of dorms and off-campus apartments. [Northridge](../../northridge-movers/index.html) has student-friendly landlords.
+**Cal State Northridge:**Valley heat makes summer moves brutal. Parking slightly easier than UCLA/USC. Mix of dorms and off-campus apartments. [Northridge](/northridge-movers) has student-friendly landlords.
 
 **LMU/Pepperdine:**Expensive surrounding areas. Limited affordable housing nearby. Beach traffic affects timing. Smaller student populations mean less competition.
 
@@ -54,7 +54,7 @@ During peak times, prices jump 30-50% and availability disappears. Book three we
 
 ## Off-Campus Apartment Moves
 
-**Finding affordable apartments near campus:**[Koreatown](../moving-to-koreatown-los-angeles/index.html) offers cheaper options with bus access. [Palms](../../west-los-angeles-movers/index.html) popular for UCLA students. [North Hollywood](../../north-hollywood-movers/index.html) growing for Valley colleges. [Eagle Rock](../moving-to-eagle-rock-los-angeles/index.html) serves Occidental and Glendale CC.
+**Finding affordable apartments near campus:**[Koreatown](/blog/moving-to-koreatown-los-angeles) offers cheaper options with bus access. [Palms](/west-los-angeles-movers) popular for UCLA students. [North Hollywood](/north-hollywood-movers) growing for Valley colleges. [Eagle Rock](/moving-to-eagle-rock-los-angeles) serves Occidental and Glendale CC.
 
 **Roommate coordination:**Decide furniture ownership in advance. Document condition of shared items. Split moving costs fairly (by volume, not equally). Schedule moves to avoid conflicts. Create inventory of who owns what.
 
@@ -66,7 +66,7 @@ LA hosts thousands of international students facing unique challenges:
 
 **Arrival logistics:**No established credit for rentals. Temporary housing while apartment hunting. Buying furniture from scratch. Understanding American lease terms. Cultural differences in housing expectations.
 
-**Storage solutions:**Summer storage while home. Semester abroad storage needs. Post-graduation shipping decisions. Document storage requirements. [Storage services](../../services/storage/index.html) for transitions.
+**Storage solutions:**Summer storage while home. Semester abroad storage needs. Post-graduation shipping decisions. Document storage requirements. [Storage services](/services/storage) for transitions.
 
 **Departure planning:**Selling furniture to incoming students. Shipping belongings internationally (expensive). Donating to avoid disposal fees. Leaving items with continuing students.
 
@@ -108,7 +108,7 @@ Students face unique crisis moves:
 
 **Common scenarios:**Roommate conflicts requiring immediate exit. Unsafe living conditions discovered. Academic suspension or withdrawal. Family emergencies requiring return home. Lease violations or evictions.
 
-**SOS Moving emergency response:**[Same-day service](../same-day-movers-los-angeles-emergency/index.html) when available. Flexible scheduling around classes. Discrete service for sensitive situations. Storage options for sudden moves. Payment plans for qualified situations.
+**SOS Moving emergency response:**[Same-day service](/blog/same-day-movers-los-angeles-emergency) when available. Flexible scheduling around classes. Discrete service for sensitive situations. Storage options for sudden moves. Payment plans for qualified situations.
 
 ## Planning Your Student Move
 
@@ -126,6 +126,6 @@ While DIY seems cheaper, consider hidden costs: truck rental, gas, supplies, foo
 
 Our student services include flexible scheduling around academic calendars, small-move specialists, experience with college area logistics, and understanding of student budgets. We know the difference between moving a gaming setup versus grandma's china—both need care, but we understand your priorities.
 
-**Ready for your college move?** Contact SOS Moving at 909-443-0004 for student-friendly moving solutions. Whether you're heading to [UCLA](../../west-los-angeles-movers/index.html), [USC](../../movers-downtown-los-angeles/index.html), or any LA college, we understand student needs and budgets. Ask about our student discounts and flexible scheduling options. Let us handle the heavy lifting while you focus on your education.
+**Ready for your college move?** Contact SOS Moving at 909-443-0004 for student-friendly moving solutions. Whether you're heading to [UCLA](/west-los-angeles-movers), [USC](/movers-downtown-los-angeles), or any LA college, we understand student needs and budgets. Ask about our student discounts and flexible scheduling options. Let us handle the heavy lifting while you focus on your education.
 
 ‍
