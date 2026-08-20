@@ -7969,24 +7969,24 @@
   },
   {
     "url": "/services/commercial-movers",
-    "title": "Commercial Moving Company | Office Movers - SOS Moving & Storage",
-    "description": "Our commercial movers will deliver a stress-free office relocation & minimize business downtime. Request your free quote now!",
+    "title": "Office & Commercial Movers Los Angeles | SOS Moving",
+    "description": "Licensed office & commercial movers in Los Angeles from $119/hr. Weekend and after-hours moves, IT and cubicle handling, zero downtime. Free quote.",
     "canonical": "https://www.sosmovingla.net/services/commercial-movers",
     "robots": "",
-    "h1": "Top-Rated Commercial Movers",
+    "h1": "Office & Commercial Movers in Los Angeles",
     "lang": "en",
     "og": {
-      "og:title": "Commercial Moving Company | Office Movers - SOS Moving & Storage",
-      "og:description": "Our commercial movers will deliver a stress-free office relocation & minimize business downtime. Request your free quote now!",
+      "og:title": "Office & Commercial Movers Los Angeles | SOS Moving",
+      "og:description": "Licensed office & commercial movers in Los Angeles from $119/hr. Weekend and after-hours moves, IT and cubicle handling, zero downtime. Free quote.",
       "og:type": "website"
     },
     "twitter": {
-      "twitter:title": "Commercial Moving Company | Office Movers - SOS Moving & Storage",
-      "twitter:description": "Our commercial movers will deliver a stress-free office relocation & minimize business downtime. Request your free quote now!",
+      "twitter:title": "Office & Commercial Movers Los Angeles | SOS Moving",
+      "twitter:description": "Licensed office & commercial movers in Los Angeles from $119/hr. Weekend and after-hours moves, IT and cubicle handling, zero downtime. Free quote.",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/services_commercial-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/oregon-city-movers",

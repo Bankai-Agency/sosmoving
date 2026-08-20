@@ -1,0 +1,78 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How Early Do I Need to Schedule My Moving Date?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You should schedule your move date as early as you can. If you’re moving your office locally, at least 1-2 weeks in advance, for long-distance moves, we recommend getting a quote at least 2-4 weeks before your move date."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Services Are Provided for Commercial Relocation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our team can create a moving plan following your moving needs. We can help pack and unpack your items properly, label boxes, professionally disassemble and reassemble all kinds of commercial equipment, furniture, etc, and load and unload your belongings at your new place."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What to Consider When Moving Offices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We recommend starting by making an office relocation plan. Think about how you will relocate your IT and electrical equipment, computers, connections, etc.; furniture, extra items, and other belongings that need to be stored temporarily. Consider disposing of old equipment, unwanted furniture, etc.Or, you have a better option to do the most important thing: let your customers, service providers, suppliers, banks, and insurance companies know you’re moving, and let our professional team handle the whole relocation ourselves!"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can You Help Disconnect and Reconnect Our Office Equipment and Computers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, and the service is included in your moving cost. Our team can help disconnect your equipment and computers, pack the wires, etc., and reconnect them when we arrive at your new office. Ask your Moving Coordinator to add the service to your moving estimate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much do office movers cost in Los Angeles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Office moving starts from $119/hr for a crew and a truck. The final figure depends on the size of the office, floor and elevator access at both buildings, and whether you need packing, cubicle disassembly or IT disconnection and reconnection. We give a firm quote after a walkthrough of your space, so the number you approve is the number you pay."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you move our office over the weekend?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Most of our commercial jobs run on a Friday evening, a Saturday or overnight, so your business does not lose a working day. We reserve the freight elevator and the loading dock for the after-hours window with building management, and desks, cubicles and IT equipment are back in place before your team arrives on Monday."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide a certificate of insurance for our building?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We are licensed and insured under USDOT 3398018 and issue a certificate of insurance written to the requirements your building sets, with the additional insured wording and coverage limits the property manager asks for, before move day. Send us the COI request as soon as you have a date and we will handle it with building management."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Items Will Commercial Movers Not Pack?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We’ll provide you with a complete list of prohibited items we don’t move, such as toxic substances, fire extinguishers, explosives, etc. You’ll also get a consultation on why movers don’t pack those items and get recommendations on how to transport them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can You Dispose of Used Packing Supplies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes we’ll dispose of all packing supplies that our company provided."
+      }
+    }
+  ]
+}
