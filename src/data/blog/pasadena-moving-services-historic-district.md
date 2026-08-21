@@ -14,7 +14,7 @@ author:
   photo: ""
 ---
 
-Moving into Pasadena's historic districts means navigating 100-year-old Craftsman homes with doorways built for smaller humans, driveways designed for Model T Fords, and preservation rules that fine you $1,000 for scratching original woodwork. This isn't just moving—it's archaeological preservation with furniture. After handling hundreds of moves in Pasadena's historic neighborhoods, here's what makes these relocations require specialized expertise.
+Moving into Pasadena's historic districts means navigating 100-year-old Craftsman homes with doorways built for smaller humans, driveways designed for Model T Fords, and preservation rules that fine you $1,000 for scratching original woodwork. This isn't just moving—it's archaeological preservation with furniture. Our [Pasadena movers](/los-angeles-movers/pasadena-movers) pad every original doorframe. After handling hundreds of moves in Pasadena's historic neighborhoods, here's what makes these relocations require specialized expertise.
 
 ## Historic District Zones
 

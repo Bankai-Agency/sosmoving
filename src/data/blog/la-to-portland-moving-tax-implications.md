@@ -16,7 +16,7 @@ author:
 
 Portland has been pulling Angelenos north for years with a pitch that sounds almost too good: lower housing costs, no sales tax, a walkable downtown, world-class food and coffee, and enough trees to make you forget that concrete exists. The 960-mile drive up I-5 takes you from palm trees to evergreens in roughly fourteen hours, and the lifestyle shift is just as dramatic. But the financial picture of an LA-to-Portland move is more nuanced than the "everything is cheaper" narrative suggests — particularly when it comes to taxes, which is where most California transplants get surprised.
 
-At SOS Moving, the Portland route is one of our regular Pacific Coast interstate corridors. The logistics are straightforward — a single highway connects the two cities with no mountain passes or desert crossings to complicate the transit. The decisions that matter happen before and after the drive, not during it. This guide covers the real costs, the tax implications that catch people off guard, and what daily life looks like when you trade year-round sunshine for 144 days of annual rainfall.
+At SOS Moving, the Portland route is one of our regular Pacific Coast interstate corridors. Our [Portland movers](/portland-movers) handle the Oregon end of the drive. The logistics are straightforward — a single highway connects the two cities with no mountain passes or desert crossings to complicate the transit. The decisions that matter happen before and after the drive, not during it. This guide covers the real costs, the tax implications that catch people off guard, and what daily life looks like when you trade year-round sunshine for 144 days of annual rainfall.
 
 ## What the LA to Portland Move Costs
 

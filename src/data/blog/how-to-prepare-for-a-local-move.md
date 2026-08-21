@@ -20,7 +20,7 @@ Just because you're moving across town instead of across the country doesn't mea
 
 The month before your move sets the tone for everything that follows. This is when you make the big decisions and start the decluttering process.
 
-**Book Your Moving Company:** Even for local moves, the best movers book up quickly, especially on weekends and at month-end. Contact SOS Moving or your chosen company now to secure your preferred date.
+**Book Your Moving Company:** Even for local moves, the best movers book up quickly, especially on weekends and at month-end. Contact SOS Moving or your chosen company now to secure your preferred date. Our [local moving](/services/local-moving) calendar fills first at month-end.
 
 **Start the Great Declutter:** Moving across town is the perfect opportunity to finally let go of things you don't need. Go room by room and sort items into four categories: Keep, Donate, Sell, and Trash. Be ruthless—why pay to move things you don't want?
 

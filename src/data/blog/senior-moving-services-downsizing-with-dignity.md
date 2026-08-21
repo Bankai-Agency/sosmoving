@@ -14,7 +14,7 @@ author:
   photo: ""
 ---
 
-Moving after 50 years in the same home isn't just relocating—it's dismantling a lifetime. Every box contains memories, every room tells stories, every decision feels impossible. Senior moving services understand that downsizing means condensing decades into manageable space while preserving dignity and honoring the past. Here's how professional senior relocation specialists handle life's most emotional moves with compassion and expertise.
+Moving after 50 years in the same home isn't just relocating—it's dismantling a lifetime. Every box contains memories, every room tells stories, every decision feels impossible. Senior moving services understand that downsizing means condensing decades into manageable space while preserving dignity and honoring the past. Here's how professional senior relocation specialists handle life's most emotional moves with compassion and expertise. Packing and storage sit inside our standard [moving services](/services).
 
 ## Why Senior Moving Is Different
 

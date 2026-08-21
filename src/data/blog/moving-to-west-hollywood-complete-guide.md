@@ -14,7 +14,7 @@ author:
   photo: ""
 ---
 
-Welcome to West Hollywood—or WeHo, as locals call it. This 1.9-square-mile city packs more personality, culture, and excitement per block than almost anywhere else in Los Angeles. As an independent city surrounded by LA, West Hollywood has created its own identity: progressive, walkable, vibrant, and unapologetically fabulous. SOS Moving has helped hundreds of people relocate to West Hollywood, and we're sharing everything you need to know about making this unique city your home.
+Welcome to West Hollywood—or WeHo, as locals call it. This 1.9-square-mile city packs more personality, culture, and excitement per block than almost anywhere else in Los Angeles. As an independent city surrounded by LA, West Hollywood has created its own identity: progressive, walkable, vibrant, and unapologetically fabulous. SOS Moving has helped hundreds of people relocate to West Hollywood, and we're sharing everything you need to know about making this unique city your home. Rent-controlled buildings are routine for our [West Hollywood movers](/los-angeles-movers/west-hollywood-movers).
 
 ## Understanding West Hollywood's Unique Status
 

@@ -16,7 +16,7 @@ author:
 
 The mile-high city and the city of angels sit about 1,020 miles apart, but the distance between them goes far beyond highway markers. Moving from Denver to Los Angeles means trading thin mountain air for ocean breezes, predictable four-season weather for year-round sunshine, and a growing metro for one of the largest urban sprawls in the country. Whether a career opportunity pulled you west or seventy-degree January days just sound better than shoveling snow, this guide covers every practical detail of making that transition.
 
-I coordinate Denver-to-LA relocations regularly at SOS Moving, and the route has its own personality. The timing matters, the route you pick matters, and understanding what changes on the California side can save you hundreds of dollars and a lot of frustration.
+I coordinate Denver-to-LA relocations regularly at SOS Moving, and the route has its own personality. The timing matters, the route you pick matters, and understanding what changes on the California side can save you hundreds of dollars and a lot of frustration. Our [Denver movers](/denver-movers) load the Colorado end of every job.
 
 ## What the Denver to LA Move Actually Costs
 

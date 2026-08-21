@@ -14,7 +14,7 @@ author:
   photo: ""
 ---
 
-So, you wish to locally move within Los Angeles. Those are great news. We are going to help you organize a sustainable local move in LA. **This doesn’t have to be hard at all**. You will have to [hire movers Los Angeles](/la-movers) who will be able to execute your move. Apart from that, there are a couple of other things which we will recommend that you do. If you manage to follow our guide extensively, you will have a smooth moving process. That is what matters the most, at the end of the day. Moving can be difficult, stressful, and anxiety-inducing, and we would like to help you with that.
+So, you wish to locally move within Los Angeles. Those are great news. We are going to help you organize a sustainable local move in LA. **This doesn’t have to be hard at all**. You will have to [hire movers Los Angeles](/la-movers) who will be able to execute your move. A planned [local move](/services/local-moving) wastes far less packing material. Apart from that, there are a couple of other things which we will recommend that you do. If you manage to follow our guide extensively, you will have a smooth moving process. That is what matters the most, at the end of the day. Moving can be difficult, stressful, and anxiety-inducing, and we would like to help you with that.
 
 ## In order to organize a sustainable local move in LA you will need a reliable moving company
 

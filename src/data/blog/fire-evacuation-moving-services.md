@@ -14,7 +14,7 @@ author:
   photo: ""
 ---
 
-The evacuation order comes at 3am: "Mandatory evacuation, leave immediately." No time for professional movers, barely time to grab photos. But what happens when you're in the "evacuation warning" zone with 6-48 hours to prepare? That's when fire evacuation moving services become your lifeline. After helping hundreds evacuate during California's increasingly common fire seasons, here's how emergency moving works when flames threaten.
+The evacuation order comes at 3am: "Mandatory evacuation, leave immediately." No time for professional movers, barely time to grab photos. But what happens when you're in the "evacuation warning" zone with 6-48 hours to prepare? That's when fire evacuation moving services become your lifeline. After helping hundreds evacuate during California's increasingly common fire seasons, here's how emergency moving works when flames threaten. Crews draw on the same [moving services](/services) we run daily.
 
 ## Fire Evacuation Zones Explained
 
