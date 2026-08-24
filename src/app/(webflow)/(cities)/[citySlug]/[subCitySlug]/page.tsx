@@ -3,7 +3,7 @@ import { readdirSync, existsSync } from 'fs';
 import { join } from 'path';
 import type { Metadata } from 'next';
 import { renderPage } from '@/lib/render-page';
-import { metaForPath } from '@/lib/seo-meta';
+import { metaForPath, JsonLd } from '@/lib/seo-meta';
 
 /**
  * Nested city route: /los-angeles-movers/burbank-movers, /los-angeles-movers/calabasas-movers, etc.
@@ -43,5 +43,10 @@ export default async function NestedCityPage({
   if (!existsSync(join(process.cwd(), 'public/pages', `${pageSlug}.html`))) {
     notFound();
   }
-  return renderPage(pageSlug);
+  return (
+    <>
+      <JsonLd path={`/${citySlug}/${subCitySlug}`} />
+      {renderPage(pageSlug)}
+    </>
+  );
 }

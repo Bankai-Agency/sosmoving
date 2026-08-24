@@ -240,8 +240,8 @@
       "twitter:description": "Trust our Albany movers for reliable, caring service. We offer full-service packing and expert handling for moves across Oregon. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/albany-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/about-us/referral",
@@ -283,8 +283,8 @@
       "twitter:description": "Trusted movers Aliso Viejo residents rely on for stress-free moves — seamless service, zero worries. Get your free moving quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/aliso-viejo-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/alhambra-movers",
@@ -304,8 +304,8 @@
       "twitter:description": "Our Alhambra movers make your moving day easy and worry-free. We handle local moves, packing, and more with professional care. Get a detailed, free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/alhambra-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/about-us/video-reviews",
@@ -346,8 +346,8 @@
       "twitter:description": "Let our top-rated Altadena movers make your move stress-free. We offer reliable, caring service for local and long-distance moves. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/altadena-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/blog",
@@ -389,8 +389,8 @@
       "twitter:description": "Let our trusted Anaheim movers turn your moving day into a smooth, stress-free experience you’ll actually enjoy. Get your free quote now!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/anaheim-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/baldwin-park-movers",
@@ -410,8 +410,8 @@
       "twitter:description": "Our Baldwin Park movers provide a stress-free moving experience with professional, caring service. We handle local moves, packing & more. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/baldwin-park-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/beverly-hills-movers",
@@ -431,8 +431,8 @@
       "twitter:description": "Top-rated Beverly Hills movers — licensed & insured, from $119/hr. HOA-compliant, hillside navigation experts. 4.9★ Google rated. Free quote.",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/beverly-hills-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/blog/10-moving-planner-ideas-to-lift-your-spirits",
@@ -803,8 +803,8 @@
       "twitter:description": "Our Azusa movers ensure a smooth, safe, and stress-free move with excellent customer service for all your moving needs. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/azusa-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/blog/best-ways-to-start-your-moving-day",
@@ -1201,8 +1201,8 @@
       "twitter:description": "Trust our Beaverton movers for reliable, caring service. We offer full-service packing for any move across Oregon & beyond. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/beaverton-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/blog/el-segundo-vs-hawthorne-best-south-bay-neighborhood-2026",
@@ -5911,8 +5911,8 @@
       "twitter:description": "Let us handle the move. You handle the sunshine. No drama, no stress — just Canoga Park movers who get it!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/canoga-park-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/blog/what-are-the-different-types-of-moving-estimates",
@@ -5945,8 +5945,8 @@
       "twitter:description": "Your trusted Brea movers for local & interstate moves. We guarantee expert service and careful handling of all your items. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/brea-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/blog/winter-moving-in-la-rain-preparation",
@@ -6013,8 +6013,8 @@
       "twitter:description": "Let our professional Carson movers make your move easy & worry-free. We offer reliable, caring service for your home or business. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/carson-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/category/business-relocation",
@@ -6186,8 +6186,8 @@
       "twitter:description": "Let's handle the move. You handle the sunshine. No drama, no stress — just Cerritos movers who get it!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/cerritos-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/claremont-movers",
@@ -6207,8 +6207,8 @@
       "twitter:description": "Let our friendly Claremont movers take the stress off your shoulders. We’ll handle the hard part — you just enjoy the move. Get your free quote now!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/claremont-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/commerce-movers",
@@ -6228,8 +6228,8 @@
       "twitter:description": "Trust Commerce movers who treat your move like our own. We offer a seamless, caring service for your business or home. Get a free quote today!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/commerce-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/chatsworth-movers",
@@ -6249,8 +6249,8 @@
       "twitter:description": "Our hardworking Chatsworth movers strive to make your moving day easy and worry-free, offering a range of services to assist you. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/chatsworth-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/costa-mesa-movers",
@@ -6271,8 +6271,8 @@
       "twitter:description": "Moving made easy. No hidden fees, just $119/hr. Licensed pros. Book now!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/costa-mesa-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/corona-movers",
@@ -6292,8 +6292,8 @@
       "twitter:description": "No drama, no stress. Just trusted Corona Movers who get it. Let us handle the move, you handle the sunshine. Get your free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/corona-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/category/local-moving-tips",
@@ -6326,8 +6326,8 @@
       "twitter:description": "Our local Covina movers ensure a smooth, safe, and stress-free move with excellent customer service for all your moving needs. Get your quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/covina-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/culver-city-movers",
@@ -6348,8 +6348,8 @@
       "twitter:description": "Hire the Culver City Movers trusted by local pros. White-glove care, complete property protection, and honest $119/hr rates. Get a fast quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/culver-city-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/denver-movers",
@@ -6369,8 +6369,8 @@
       "twitter:description": "Discover why we're the #1 choice for Denver movers. We make your local or long-distance move feel effortless. Get your free quote today!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/denver-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/downey-movers",
@@ -6391,8 +6391,8 @@
       "twitter:description": "Let us handle the move. You handle the sunshine. No drama, no stress — just Downey movers who get it!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/downey-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/eastvale-movers",
@@ -6433,8 +6433,8 @@
       "twitter:description": "Our Fontana movers ensure a smooth, safe, and stress-free move with excellent customer service for all your moving needs. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/fontana-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/category/moving-day-preparation",
@@ -6467,8 +6467,8 @@
       "twitter:description": "El Segundo’s trusted moving experts — seamless service end to end. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/el-segundo-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/camas-movers",
@@ -6488,8 +6488,8 @@
       "twitter:description": "Trust our Camas movers for reliable, caring service across WA. We offer full-service packing and handle all items with professional care. Get your moving quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/camas-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/confirmation-page-refer-friends-get-cash",
@@ -6531,8 +6531,8 @@
       "twitter:description": "Let our professional Fountain Valley movers make your move easy and worry-free. We handle local moves, packing, and more with care. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/fountain-valley-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/free-estimate",
@@ -6573,8 +6573,8 @@
       "twitter:description": "Choose our top-rated Hawthorne movers for a truly effortless move. Our professional team handles everything with care. Get your free moving estimate!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/hawthorne-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/gardena-movers",
@@ -6594,8 +6594,8 @@
       "twitter:description": "Your trusted Gardena Movers, providing smooth, safe, and stress-free moves with professional, caring service. Get your free, detailed moving quote today!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/gardena-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/hillsboro-movers",
@@ -6615,8 +6615,8 @@
       "twitter:description": "Trust our Hillsboro movers for reliable, caring service. We offer full-service packing for moves across Oregon & beyond. Get your free moving quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/hillsboro-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/gresham-movers",
@@ -6636,8 +6636,8 @@
       "twitter:description": "Trust our Gresham movers for reliable, caring service. We offer full-service packing for any move across Oregon & beyond. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/gresham-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/hollywoodland-movers",
@@ -6658,8 +6658,8 @@
       "twitter:description": "Trusted by Hollywoodland neighbors — we move families with care and precision. Get your free estimate!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/hollywoodland-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/huntington-beach-movers",
@@ -6680,8 +6680,8 @@
       "twitter:description": "Top-rated HB movers. No hidden fees & careful handling. Get your quote!  Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/huntington-beach-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/la-habra-movers",
@@ -6702,8 +6702,8 @@
       "twitter:description": "Let us handle the move. You handle the sunshine. No drama, no stress — just  La Habra movers who get it!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/la-habra-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/inglewood-movers",
@@ -6723,8 +6723,8 @@
       "twitter:description": "Trust Inglewood local movers who care about your move as much as you do - seamless service, zero worries. Get your free moving quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/inglewood-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/la-mirada-movers",
@@ -6745,8 +6745,8 @@
       "twitter:description": "Let us handle the move. You handle the sunshine. No drama, no stress — just La Mirada movers who get it!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/la-mirada-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/irvine-movers",
@@ -6767,8 +6767,8 @@
       "twitter:description": "Trusted partners for moves in Irvine's master-planned villages, from Northwood to UCI. Get your moving quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/irvine-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/la-crescenta-movers",
@@ -6788,8 +6788,8 @@
       "twitter:description": "Our professional La Crescenta movers make your day easy & worry-free, offering full-service packing and handling all items with care. Get a free estimate!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/la-crescenta-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/la-puente-movers",
@@ -6809,8 +6809,8 @@
       "twitter:description": "SOS Moving Company in La Puente offers smooth, safe, and stress-free relocations with expert movers and exceptional customer service.",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/la-puente-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/la-movers",
@@ -6853,8 +6853,8 @@
       "twitter:description": "Professional moving service with zero hidden fees. 1,500+ 5-star reviews. We handle packing and heavy lifting safely. Get a quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/burbank-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/long-beach-movers",
@@ -6875,8 +6875,8 @@
       "twitter:description": "Let our trusted Long Beach movers turn your moving day into a smooth, stress-free experience you’ll actually enjoy. Get your free quote now!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/long-beach-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/los-angeles-movers/calabasas-movers",
@@ -6896,8 +6896,8 @@
       "twitter:description": "Looking for Calabasas Movers? Let our friendly, professional team make your move smooth and worry-free. Get your free, detailed quote today!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/calabasas-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/chino-hills-movers",
@@ -6917,8 +6917,8 @@
       "twitter:description": "Our local Chino Hills movers ensure a smooth, safe, and stress-free move with excellent customer service for all your needs. Get your moving quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/chino-hills-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/el-monte-movers",
@@ -6938,8 +6938,8 @@
       "twitter:description": "Our professional El Monte movers make your move easy & worry-free. We offer reliable, caring service for your home or business. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/el-monte-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/los-angeles-movers/glendale-movers",
@@ -6959,8 +6959,8 @@
       "twitter:description": "Our local Glendale movers ensure a smooth, safe, and stress-free move with excellent customer service for all your moving needs. Get your moving quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/glendale-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/los-angeles-movers/pasadena-movers",
@@ -6981,8 +6981,8 @@
       "twitter:description": "Stop stressing over logistics. Our movers Pasadena guarantee a flawless, fully insured move with transparent rates. Get a fast quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/pasadena-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/compton-movers",
@@ -7003,8 +7003,8 @@
       "twitter:description": "Let us handle the move. You handle the sunshine. No drama, no stress — just Compton movers who get it!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/compton-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/los-feliz-movers",
@@ -7024,8 +7024,8 @@
       "twitter:description": "Our professional Los Feliz movers make your moving day easy and worry-free. We handle local moves, apartment moving, and packing. Get a detailed, free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/los-feliz-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/malibu-movers",
@@ -7046,8 +7046,8 @@
       "twitter:description": "Trust Malibu movers who get coastal living — white-glove care for your beach or canyon home, zero worries. Get your quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/malibu-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/los-angeles-movers/santa-monica-movers",
@@ -7068,8 +7068,8 @@
       "twitter:description": "Your Santa Monica moving experts — locally owned, locally loved. Get your moving quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/santa-monica-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/marina-del-rey-movers",
@@ -7089,8 +7089,8 @@
       "twitter:description": "Expert Marina Del Rey movers for stress-free apartment and high-rise moves. Get your detailed free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/marina-del-rey-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/los-angeles-movers/west-hollywood-movers",
@@ -7110,8 +7110,8 @@
       "twitter:description": "Trust our West Hollywood movers for a truly stress-free move. We handle your belongings like our own for total peace of mind. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/west-hollywood-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/manhattan-beach-movers",
@@ -7132,8 +7132,8 @@
       "twitter:description": "Trusted by Manhattan Beach neighbors — from downtown to the Hill Section we move. Free quote now!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/manhattan-beach-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/monrovia-movers",
@@ -7153,8 +7153,8 @@
       "twitter:description": "Our Monrovia movers provide a stress-free moving experience with professional, caring service. We handle local moves, packing & more. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/monrovia-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/montebello-movers",
@@ -7174,8 +7174,8 @@
       "twitter:description": "Your trusted Montebello Movers, providing smooth, safe, and stress-free moves with professional, caring service. Get your free, detailed moving quote today!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/montebello-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/monterey-park-movers",
@@ -7195,8 +7195,8 @@
       "twitter:description": "Let our trusted Monterey Park movers turn your moving day into a smooth, stress-free experience you’ll actually enjoy. Get your free quote now!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/monterey-park-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/movers-buena-park",
@@ -7217,8 +7217,8 @@
       "twitter:description": "No drama, no stress. Just trusted Buena Park Movers who get it. Let us handle the move, you handle the sunshine. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/movers-buena-park.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/movers-downtown-los-angeles",
@@ -7238,8 +7238,8 @@
       "twitter:description": "No drama, no stress. Just trusted Downtown LA Movers who get it. Let us handle the move, you handle the sunshine. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/movers-downtown-los-angeles.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/movers-fullerton",
@@ -7260,8 +7260,8 @@
       "twitter:description": "Let us handle the move. You handle the sunshine. No drama, no stress — just  Fullerton movers who get it!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/movers-fullerton.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/movers-garden-grove",
@@ -7282,8 +7282,8 @@
       "twitter:description": "No drama, no stress. Just trusted Garden Grove Movers who get it. Let us handle the move, you handle the sunshine. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/movers-garden-grove.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/movers-glendora",
@@ -7303,8 +7303,8 @@
       "twitter:description": "Let our professional Glendora movers make your moving day easy and worry-free. We handle local moves, packing, and more with care. Get a detailed, free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/movers-glendora.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/movers-hermosa-beach",
@@ -7324,8 +7324,8 @@
       "twitter:description": "Let our professional Hermosa Beach movers make your move easy and worry-free. We handle local moves, packing, and more with care. Get a detailed, free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/movers-hermosa-beach.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/movers-hollywood",
@@ -7345,8 +7345,8 @@
       "twitter:description": "Your trusted Hollywood movers for local & interstate moves. We offer expert, discreet service for apartments, studios, and hillside homes. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/movers-hollywood.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/movers-lake-oswego",
@@ -7366,8 +7366,8 @@
       "twitter:description": "Trust our Lake Oswego movers for reliable, caring service. We handle local and long-distance moves across OR. Get a free, no-obligation quote today!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/movers-lake-oswego.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/movers-temple-city",
@@ -7387,8 +7387,8 @@
       "twitter:description": "Our Temple City movers provide a stress-free moving experience with professional, caring service. We handle local moves, packing & more. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/movers-temple-city.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/newport-beach-movers",
@@ -7409,8 +7409,8 @@
       "twitter:description": "No drama, no stress. Just trusted Newport Beach Movers who get it. Let us handle the move, you handle the sunshine. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/newport-beach-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/movers-westminster",
@@ -7431,8 +7431,8 @@
       "twitter:description": "Let us handle the move. You handle the sunshine. No drama, no stress — just  Westminster movers who get it! Get a detailed quote.",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/movers-westminster.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/north-hollywood-movers",
@@ -7452,8 +7452,8 @@
       "twitter:description": "Let our North Hollywood movers make your moving day easy and worry-free. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/north-hollywood-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/orange-county-movers",
@@ -7473,8 +7473,8 @@
       "twitter:description": "Let our trusted Orange County movers turn your moving day into a smooth, stress-free experience you’ll actually enjoy. Get your free quote now!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/orange-county-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/northridge-movers",
@@ -7494,8 +7494,8 @@
       "twitter:description": "Our local Northridge movers ensure a smooth, safe, and stress-free move with excellent customer service for all your moving needs. Get your quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/northridge-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/mcminnville-movers",
@@ -7515,8 +7515,8 @@
       "twitter:description": "Trust our McMinnville movers for reliable, caring service. We offer full-service packing for any move across Oregon & beyond. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/mcminnville-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/lakewood-movers",
@@ -7537,8 +7537,8 @@
       "twitter:description": "Let us handle the move. You handle the sunshine. No drama, no stress — just Lakewood movers who get it. Get a detailed, free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/lakewood-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/panorama-city-movers",
@@ -7558,8 +7558,8 @@
       "twitter:description": "Our Panorama City movers provide a stress-free moving experience with professional, caring service. We handle local moves, packing & more. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/panorama-city-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/placentia-movers",
@@ -7579,8 +7579,8 @@
       "twitter:description": "Your trusted Placentia Movers, providing smooth, safe, and stress-free moves with professional, caring service. Get your free, detailed moving quote today!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/placentia-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/pomona-movers",
@@ -7600,8 +7600,8 @@
       "twitter:description": "No drama, no stress. Just trusted Movers Pomona who get it. Let us handle the move, you handle the sunshine. Get your free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/pomona-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/movers-highland-park",
@@ -7621,8 +7621,8 @@
       "twitter:description": "Let our Highland Park movers make your moving day easy and worry-free. We handle local moves & packing with care. Get a free moving quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/movers-highland-park.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/portland-movers",
@@ -7642,8 +7642,8 @@
       "twitter:description": "Trust our Portland movers for reliable, caring service. We offer full-service packing for any move across Oregon & beyond. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/portland-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/rancho-palos-verdes-movers",
@@ -7663,8 +7663,8 @@
       "twitter:description": "Your reliable local & long-distance movers in Rancho Palos Verdes. We offer full-service packing and handle all items with care. Get a free quote today!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/rancho-palos-verdes-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/reseda-movers",
@@ -7684,8 +7684,8 @@
       "twitter:description": "Our professional Reseda movers make your moving day easy and worry-free. We handle local moves, packing, and more with care. Get a detailed, free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/reseda-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/redondo-beach-movers",
@@ -7705,8 +7705,8 @@
       "twitter:description": "Make moving day feel effortless with our top-rated Redondo Beach movers. Relax — we’ve got every detail covered. Get your quote today!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/redondo-beach-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/salem-movers",
@@ -7726,8 +7726,8 @@
       "twitter:description": "Trust our Salem movers for reliable, caring service. We offer full-service packing for any move across Oregon & beyond. Get a free quote today!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/salem-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/rose-city-movers",
@@ -7747,8 +7747,8 @@
       "twitter:description": "Your trusted Rose City movers for local and long-distance moves. We offer professional, caring service for your home or business. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/rose-city-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/movers-pico-rivera",
@@ -7769,8 +7769,8 @@
       "twitter:description": "Let us handle the move. You handle the sunshine. No drama, no stress — just Pico Rivera movers who get it!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/movers-pico-rivera.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/san-fernando-valley-movers",
@@ -7791,8 +7791,8 @@
       "twitter:description": "Friendly San Fernando Valley movers ready to make your move a breeze. Get your free quote now!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/san-fernando-valley-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/san-pedro-movers",
@@ -7813,8 +7813,8 @@
       "twitter:description": "Zero drama. Zero stress. Just trusted San Pedro movers who get it done. We've got the move—you've got the sunshine. Get your quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/san-pedro-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/san-gabriel-movers",
@@ -7835,8 +7835,8 @@
       "twitter:description": "Your trusted movers across the San Gabriel Valley, from Alhambra to Arcadia. Free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/san-gabriel-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/santa-ana-movers",
@@ -7857,8 +7857,8 @@
       "twitter:description": "Hire top-rated movers Santa Ana. Fully licensed and insured. Careful packing and loading. Get your free quote.",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/santa-ana-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/services/apartment-movers",
@@ -7900,8 +7900,8 @@
       "twitter:description": "#1 Seattle moving company for your seamless relocation. Hire the best local and long-distance movers operating within Seattle and nationwide.",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/seattle-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/ontario-movers",
@@ -7921,8 +7921,8 @@
       "twitter:description": "Your trusted Ontario Movers, providing smooth, safe, and stress-free moves with professional, caring service. Get your free, detailed moving quote today!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/ontario-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/norwalk-movers",
@@ -7943,8 +7943,8 @@
       "twitter:description": "Let us handle the move. You handle the sunshine. No drama, no stress — just Norwalk movers who get it. Get a free moving quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/norwalk-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/santa-clarita-movers",
@@ -7964,8 +7964,8 @@
       "twitter:description": "No drama, no stress. Just trusted Movers Santa Clarita who get it. Let us handle the move, you handle the sunshine. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/santa-clarita-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/services/commercial-movers",
@@ -8006,8 +8006,8 @@
       "twitter:description": "Trust our Oregon City movers for reliable, caring service. We offer full-service packing for any move across Oregon & beyond. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/oregon-city-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/services/compliance",
@@ -8133,8 +8133,8 @@
       "twitter:description": "Let's handle the move while you enjoy the sunshine — Sherman Oaks movers who get it.",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/sherman-oaks-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/services/long-distance-movers",
@@ -8175,8 +8175,8 @@
       "twitter:description": "Let our friendly Rancho Cucamonga movers take the stress off your shoulders. We’ll handle the hard part — you just enjoy the move. Get your free quote now!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/rancho-cucamonga-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/services/packing-services",
@@ -8261,8 +8261,8 @@
       "twitter:description": "Trust our Simi Valley movers for local & long-distance moves. We keep your belongings safe and give you peace of mind. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/simi-valley-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/sitemap",
@@ -8303,8 +8303,8 @@
       "twitter:description": "Let our trusted South Bay movers turn your moving day into a smooth, stress-free experience you’ll actually enjoy. Get your free quote now!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/south-bay-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/studio-city-movers",
@@ -8325,8 +8325,8 @@
       "twitter:description": "Let us handle the move. You handle the sunshine. No drama, no stress — just  Studio City movers who get it!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/studio-city-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/torrance-movers",
@@ -8347,8 +8347,8 @@
       "twitter:description": "Reliable movers in Torrance starting at $119/hr. Over 1,000+ 5-star reviews. Licensed, insured, and efficient. Get your free moving quote in 3 minutes!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/torrance-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/tigard-movers",
@@ -8368,8 +8368,8 @@
       "twitter:description": "Trust our Tigard movers for reliable, caring service. We offer full-service packing and handle all items with care across Oregon & beyond. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/tigard-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/upland-movers",
@@ -8389,8 +8389,8 @@
       "twitter:description": "Let our friendly Upland movers take the stress off your shoulders. We’ll handle the hard part — you just enjoy the move. Get your free quote now!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/upland-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/tualatin-movers",
@@ -8410,8 +8410,8 @@
       "twitter:description": "Trust our Tualatin movers for reliable, caring service. We offer full-service packing and handle all items with care across Oregon & beyond. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/tualatin-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/tujunga-movers",
@@ -8431,8 +8431,8 @@
       "twitter:description": "Our professional Tujunga movers make your moving day easy and worry-free. We handle local moves, packing, and more. Get a detailed, free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/tujunga-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/valencia-movers",
@@ -8452,8 +8452,8 @@
       "twitter:description": "Our local Valencia movers ensure a smooth, safe, and stress-free move with excellent customer service for all your moving needs. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/valencia-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/tustin-movers",
@@ -8474,8 +8474,8 @@
       "twitter:description": "Choose our top-rated Tustin Movers for a truly stress-free move. Our professional team handles all the details so you can relax. Get a free estimate!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/tustin-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/van-nuys-movers",
@@ -8495,8 +8495,8 @@
       "twitter:description": "Trust Van Nuys local movers who care about your move as much as you do - seamless service, zero worries. Ge t your moving quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/van-nuys-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/whittier-movers",
@@ -8517,8 +8517,8 @@
       "twitter:description": "Let our friendly Whittier movers take the stress off your shoulders. We’ll handle the hard part — you just enjoy the move. Get your free quote now!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/whittier-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/wilsonville-movers",
@@ -8538,8 +8538,8 @@
       "twitter:description": "Trust our Wilsonville movers for reliable, caring service. We offer full-service packing across Oregon & beyond. Get your free moving quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/wilsonville-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/yorba-linda-movers",
@@ -8559,8 +8559,8 @@
       "twitter:description": "Our local Yorba Linda movers ensure a smooth, safe, and stress-free move with excellent customer service for all your moving needs. Get your moving quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/yorba-linda-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/west-los-angeles-movers",
@@ -8580,8 +8580,8 @@
       "twitter:description": "Our premier West Los Angeles movers make your move seamless and worry-free. We offer full-service packing, handling all items with care. Get a detailed quote.",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/west-los-angeles-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/woodland-hills-movers",
@@ -8602,8 +8602,8 @@
       "twitter:description": "Let our trusted Woodland Hills movers turn your moving day into a smooth, stress-free experience you’ll actually enjoy. Get your free quote now!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/woodland-hills-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/west-covina-movers",
@@ -8623,8 +8623,8 @@
       "twitter:description": "Let our professional West Covina movers make your move easy & worry-free. We offer reliable, caring service for your home. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/west-covina-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/venice-movers",
@@ -8644,8 +8644,8 @@
       "twitter:description": "Your trusted Venice Movers for local & interstate moves. We're experts at navigating Venice's unique homes and streets. Get a free quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/venice-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/willamette-movers",
@@ -8665,7 +8665,7 @@
       "twitter:description": "SOS Moving, your trusted Willamette Movers, guarantees a smooth, safe, and stress-free move. Get your free moving quote today!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/willamette-movers.json",
+    "jsonldExpected": 1
   }
 ]
