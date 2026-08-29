@@ -8158,6 +8158,27 @@
     "jsonldExpected": 0
   },
   {
+    "url": "/services/shared-load-moving",
+    "title": "Shared Load Moving from LA | Long-Distance Movers - SOS Moving Company",
+    "description": "Moving from LA over 1,000 miles? Share truck space and pay only for the room your belongings need. Get your free quote today!",
+    "canonical": "https://www.sosmovingla.net/services/shared-load-moving",
+    "robots": "noindex, follow",
+    "h1": "Long-Distance Moves Made Easy Without Paying for a Full Truck",
+    "lang": "en",
+    "og": {
+      "og:title": "Shared Load Moving from LA | Long-Distance Movers - SOS Moving Company",
+      "og:description": "Moving from LA over 1,000 miles? Share truck space and pay only for the room your belongings need. Get your free quote today!",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Shared Load Moving from LA | Long-Distance Movers - SOS Moving Company",
+      "twitter:description": "Moving from LA over 1,000 miles? Share truck space and pay only for the room your belongings need. Get your free quote today!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
     "url": "/rancho-cucamonga-movers",
     "title": "Trusted 4.9-Star Movers Rancho Cucamonga (From $119/Hr)",
     "description": "Let our friendly Rancho Cucamonga movers take the stress off your shoulders. We’ll handle the hard part — you just enjoy the move. Get your free quote now!",
