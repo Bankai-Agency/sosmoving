@@ -1,0 +1,3251 @@
+{
+ "generated": "2026-08-29",
+ "source": "window.Webflow.require(\"ix2\").store.getState().ixData - идентичен во всех 3 бандлах",
+ "stats": {
+  "events": 75,
+  "actionLists": 19,
+  "byType": {
+   "MOUSE_OVER": 12,
+   "MOUSE_OUT": 12,
+   "SCROLLING_IN_VIEW": 11,
+   "DROPDOWN_OPEN": 11,
+   "DROPDOWN_CLOSE": 11,
+   "PAGE_FINISH": 8,
+   "MOUSE_CLICK": 4,
+   "NAVBAR_OPEN": 3,
+   "NAVBAR_CLOSE": 3
+  }
+ },
+ "events": [
+  {
+   "id": "e-16",
+   "type": "DROPDOWN_CLOSE",
+   "target": "element:99743d6e-9210-e481-a428-128f8403341f",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-5",
+   "actionListTitle": "Hide FAQ",
+   "actionsUsed": [
+    "STYLE_SIZE",
+    "TRANSFORM_ROTATE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-18",
+   "type": "DROPDOWN_CLOSE",
+   "target": "element:99743d6e-9210-e481-a428-128f8403341f",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-5",
+   "actionListTitle": "Hide FAQ",
+   "actionsUsed": [
+    "STYLE_SIZE",
+    "TRANSFORM_ROTATE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-31",
+   "type": "DROPDOWN_CLOSE",
+   "target": "element:e8471d84-4e63-71d8-5944-39f4f867b093",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-7",
+   "actionListTitle": "Close Nav DD",
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium"
+   ],
+   "scroll": {},
+   "usedInShared": [
+    "navbar"
+   ],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "active"
+  },
+  {
+   "id": "e-33",
+   "type": "DROPDOWN_CLOSE",
+   "target": "element:6141b963-128d-44a6-5d2d-e1b7c03dc13e",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-7",
+   "actionListTitle": "Close Nav DD",
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [
+    "navbar"
+   ],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "active"
+  },
+  {
+   "id": "e-35",
+   "type": "DROPDOWN_CLOSE",
+   "target": "element:9e65e42d-b590-e0f8-6c68-b776dc2d176c",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-9",
+   "actionListTitle": "Close Nav Inner DD",
+   "actionsUsed": [
+    "GENERAL_DISPLAY",
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-39",
+   "type": "DROPDOWN_CLOSE",
+   "target": "element:fdeae419-09f4-2d3e-6ef8-5eae74bc4042",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-7",
+   "actionListTitle": "Close Nav DD",
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-47",
+   "type": "DROPDOWN_CLOSE",
+   "target": "element:6141b963-128d-44a6-5d2d-e1b7c03dc13e",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-7",
+   "actionListTitle": "Close Nav DD",
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium"
+   ],
+   "scroll": {},
+   "usedInShared": [
+    "navbar"
+   ],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "active"
+  },
+  {
+   "id": "e-49",
+   "type": "DROPDOWN_CLOSE",
+   "target": "element:820003f5-c911-94d3-7e14-580ae8078525",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-7",
+   "actionListTitle": "Close Nav DD",
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium"
+   ],
+   "scroll": {},
+   "usedInShared": [
+    "navbar"
+   ],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "active"
+  },
+  {
+   "id": "e-234",
+   "type": "DROPDOWN_CLOSE",
+   "target": "element:3219e9b8-3e7d-0094-9a40-bb8343477711",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-7",
+   "actionListTitle": "Close Nav DD",
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-236",
+   "type": "DROPDOWN_CLOSE",
+   "target": "element:3219e9b8-3e7d-0094-9a40-bb834347772b",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-7",
+   "actionListTitle": "Close Nav DD",
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-242",
+   "type": "DROPDOWN_CLOSE",
+   "target": "element:3219e9b8-3e7d-0094-9a40-bb8343477741",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-7",
+   "actionListTitle": "Close Nav DD",
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-15",
+   "type": "DROPDOWN_OPEN",
+   "target": "element:99743d6e-9210-e481-a428-128f8403341f",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-4",
+   "actionListTitle": "Show FAQ",
+   "actionsUsed": [
+    "STYLE_SIZE",
+    "TRANSFORM_ROTATE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-17",
+   "type": "DROPDOWN_OPEN",
+   "target": "element:99743d6e-9210-e481-a428-128f8403341f",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-4",
+   "actionListTitle": "Show FAQ",
+   "actionsUsed": [
+    "STYLE_SIZE",
+    "TRANSFORM_ROTATE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-30",
+   "type": "DROPDOWN_OPEN",
+   "target": "element:e8471d84-4e63-71d8-5944-39f4f867b093",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-6",
+   "actionListTitle": "Open Nav DD",
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium"
+   ],
+   "scroll": {},
+   "usedInShared": [
+    "navbar"
+   ],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "active"
+  },
+  {
+   "id": "e-32",
+   "type": "DROPDOWN_OPEN",
+   "target": "element:6141b963-128d-44a6-5d2d-e1b7c03dc13e",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-6",
+   "actionListTitle": "Open Nav DD",
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [
+    "navbar"
+   ],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "active"
+  },
+  {
+   "id": "e-34",
+   "type": "DROPDOWN_OPEN",
+   "target": "element:9e65e42d-b590-e0f8-6c68-b776dc2d176c",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-8",
+   "actionListTitle": "Open Nav Inner DD",
+   "actionsUsed": [
+    "GENERAL_DISPLAY",
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-38",
+   "type": "DROPDOWN_OPEN",
+   "target": "element:fdeae419-09f4-2d3e-6ef8-5eae74bc4042",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-6",
+   "actionListTitle": "Open Nav DD",
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-46",
+   "type": "DROPDOWN_OPEN",
+   "target": "element:6141b963-128d-44a6-5d2d-e1b7c03dc13e",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-6",
+   "actionListTitle": "Open Nav DD",
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium"
+   ],
+   "scroll": {},
+   "usedInShared": [
+    "navbar"
+   ],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "active"
+  },
+  {
+   "id": "e-48",
+   "type": "DROPDOWN_OPEN",
+   "target": "element:820003f5-c911-94d3-7e14-580ae8078525",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-6",
+   "actionListTitle": "Open Nav DD",
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium"
+   ],
+   "scroll": {},
+   "usedInShared": [
+    "navbar"
+   ],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "active"
+  },
+  {
+   "id": "e-233",
+   "type": "DROPDOWN_OPEN",
+   "target": "element:3219e9b8-3e7d-0094-9a40-bb8343477711",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-6",
+   "actionListTitle": "Open Nav DD",
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-235",
+   "type": "DROPDOWN_OPEN",
+   "target": "element:3219e9b8-3e7d-0094-9a40-bb834347772b",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-6",
+   "actionListTitle": "Open Nav DD",
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-241",
+   "type": "DROPDOWN_OPEN",
+   "target": "element:3219e9b8-3e7d-0094-9a40-bb8343477741",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-6",
+   "actionListTitle": "Open Nav DD",
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-408",
+   "type": "MOUSE_CLICK",
+   "target": "element:e7b0d433-31ca-b5be-66fb-9e9476e81846",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-35",
+   "actionListTitle": "CtaMultistepFormAnim",
+   "actionsUsed": [
+    "GENERAL_DISPLAY",
+    "STYLE_OPACITY",
+    "TRANSFORM_MOVE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 559,
+   "examplePages": [
+    "blog",
+    "index",
+    "services"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-394",
+   "type": "MOUSE_CLICK",
+   "target": "element:46868337-ce70-8d65-42b9-1fbb24be8a09",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-34",
+   "actionListTitle": "multistepFormAnim",
+   "actionsUsed": [
+    "GENERAL_DISPLAY",
+    "STYLE_OPACITY",
+    "TRANSFORM_MOVE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 135,
+   "examplePages": [
+    "blog",
+    "la-movers",
+    "brea-movers"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-396",
+   "type": "MOUSE_CLICK",
+   "target": "element:660b7a9b-615f-f8fe-57bc-07917671f25d",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-31",
+   "actionListTitle": "modal open",
+   "actionsUsed": [
+    "GENERAL_DISPLAY",
+    "STYLE_OPACITY",
+    "TRANSFORM_MOVE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 129,
+   "examplePages": [
+    "index",
+    "la-movers",
+    "brea-movers"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-376",
+   "type": "MOUSE_CLICK",
+   "target": "element:690b9048-94ca-e2d5-da07-1d1e7e687258",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-31",
+   "actionListTitle": "modal open",
+   "actionsUsed": [
+    "GENERAL_DISPLAY",
+    "STYLE_OPACITY",
+    "TRANSFORM_MOVE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 2,
+   "examplePages": [
+    "services__shared-load-moving",
+    "services__long-distance-movers"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-3",
+   "type": "MOUSE_OUT",
+   "target": ".services-item",
+   "appliesTo": "CLASS",
+   "actionList": "a-3",
+   "actionListTitle": "Services Item Hover Out",
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 564,
+   "examplePages": [
+    "index",
+    "about-us",
+    "la-movers"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-391",
+   "type": "MOUSE_OUT",
+   "target": "element:40008a43-24f7-c536-32cb-785ab0636325",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-33",
+   "actionListTitle": "fakeVideoHoverOut",
+   "actionsUsed": [
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 134,
+   "examplePages": [
+    "index",
+    "about-us",
+    "services"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-421",
+   "type": "MOUSE_OUT",
+   "target": "element:8a2dee8e-7d4f-3d37-00ba-dfa110401a27",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-33",
+   "actionListTitle": "fakeVideoHoverOut",
+   "actionsUsed": [
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 134,
+   "examplePages": [
+    "index",
+    "about-us",
+    "services"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-423",
+   "type": "MOUSE_OUT",
+   "target": "element:598241f4-3d09-fa32-3994-cb8d60f0fb63",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-33",
+   "actionListTitle": "fakeVideoHoverOut",
+   "actionsUsed": [
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 134,
+   "examplePages": [
+    "index",
+    "about-us",
+    "services"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-425",
+   "type": "MOUSE_OUT",
+   "target": "element:14c9f897-bfd8-8829-8d47-24be77ab606f",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-33",
+   "actionListTitle": "fakeVideoHoverOut",
+   "actionsUsed": [
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 134,
+   "examplePages": [
+    "index",
+    "about-us",
+    "services"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-399",
+   "type": "MOUSE_OUT",
+   "target": "element:660b7a9b-615f-f8fe-57bc-07917671f25d",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-30",
+   "actionListTitle": "hover out yellow-button",
+   "actionsUsed": [
+    "GENERAL_DISPLAY",
+    "STYLE_BACKGROUND_COLOR",
+    "STYLE_TEXT_COLOR"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 129,
+   "examplePages": [
+    "index",
+    "la-movers",
+    "brea-movers"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-375",
+   "type": "MOUSE_OUT",
+   "target": "element:690b9048-94ca-e2d5-da07-1d1e7e687258",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-30",
+   "actionListTitle": "hover out yellow-button",
+   "actionsUsed": [
+    "GENERAL_DISPLAY",
+    "STYLE_BACKGROUND_COLOR",
+    "STYLE_TEXT_COLOR"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 2,
+   "examplePages": [
+    "services__shared-load-moving",
+    "services__long-distance-movers"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-41",
+   "type": "MOUSE_OUT",
+   "target": "element:bdf8fe4d-7564-edcf-ce34-4c38fb7d16b7",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-9",
+   "actionListTitle": "Close Nav Inner DD",
+   "actionsUsed": [
+    "GENERAL_DISPLAY",
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium"
+   ],
+   "scroll": {},
+   "usedInShared": [
+    "navbar"
+   ],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "active"
+  },
+  {
+   "id": "e-240",
+   "type": "MOUSE_OUT",
+   "target": "element:3219e9b8-3e7d-0094-9a40-bb8343477731",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-9",
+   "actionListTitle": "Close Nav Inner DD",
+   "actionsUsed": [
+    "GENERAL_DISPLAY",
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-415",
+   "type": "MOUSE_OUT",
+   "target": "element:4b50b4e2-425a-8f53-2753-e64c6440876c",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-33",
+   "actionListTitle": "fakeVideoHoverOut",
+   "actionsUsed": [
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-417",
+   "type": "MOUSE_OUT",
+   "target": "element:4127993c-e297-c87a-77e6-46b80a1ec3a3",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-33",
+   "actionListTitle": "fakeVideoHoverOut",
+   "actionsUsed": [
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-419",
+   "type": "MOUSE_OUT",
+   "target": "element:640c3378-f0c4-3fc4-78d0-f0b55b2209a5",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-33",
+   "actionListTitle": "fakeVideoHoverOut",
+   "actionsUsed": [
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-2",
+   "type": "MOUSE_OVER",
+   "target": ".services-item",
+   "appliesTo": "CLASS",
+   "actionList": "a-2",
+   "actionListTitle": "Services Item Hover On",
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 564,
+   "examplePages": [
+    "index",
+    "about-us",
+    "la-movers"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-390",
+   "type": "MOUSE_OVER",
+   "target": "element:40008a43-24f7-c536-32cb-785ab0636325",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-32",
+   "actionListTitle": "fakeVideoHover",
+   "actionsUsed": [
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 134,
+   "examplePages": [
+    "index",
+    "about-us",
+    "services"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-420",
+   "type": "MOUSE_OVER",
+   "target": "element:8a2dee8e-7d4f-3d37-00ba-dfa110401a27",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-32",
+   "actionListTitle": "fakeVideoHover",
+   "actionsUsed": [
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 134,
+   "examplePages": [
+    "index",
+    "about-us",
+    "services"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-422",
+   "type": "MOUSE_OVER",
+   "target": "element:598241f4-3d09-fa32-3994-cb8d60f0fb63",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-32",
+   "actionListTitle": "fakeVideoHover",
+   "actionsUsed": [
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 134,
+   "examplePages": [
+    "index",
+    "about-us",
+    "services"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-424",
+   "type": "MOUSE_OVER",
+   "target": "element:14c9f897-bfd8-8829-8d47-24be77ab606f",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-32",
+   "actionListTitle": "fakeVideoHover",
+   "actionsUsed": [
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 134,
+   "examplePages": [
+    "index",
+    "about-us",
+    "services"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-398",
+   "type": "MOUSE_OVER",
+   "target": "element:660b7a9b-615f-f8fe-57bc-07917671f25d",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-29",
+   "actionListTitle": "hover on yellow-button",
+   "actionsUsed": [
+    "GENERAL_DISPLAY",
+    "STYLE_BACKGROUND_COLOR",
+    "STYLE_TEXT_COLOR"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 129,
+   "examplePages": [
+    "index",
+    "la-movers",
+    "brea-movers"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-374",
+   "type": "MOUSE_OVER",
+   "target": "element:690b9048-94ca-e2d5-da07-1d1e7e687258",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-29",
+   "actionListTitle": "hover on yellow-button",
+   "actionsUsed": [
+    "GENERAL_DISPLAY",
+    "STYLE_BACKGROUND_COLOR",
+    "STYLE_TEXT_COLOR"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 2,
+   "examplePages": [
+    "services__shared-load-moving",
+    "services__long-distance-movers"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-40",
+   "type": "MOUSE_OVER",
+   "target": "element:bdf8fe4d-7564-edcf-ce34-4c38fb7d16b7",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-8",
+   "actionListTitle": "Open Nav Inner DD",
+   "actionsUsed": [
+    "GENERAL_DISPLAY",
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium"
+   ],
+   "scroll": {},
+   "usedInShared": [
+    "navbar"
+   ],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "active"
+  },
+  {
+   "id": "e-239",
+   "type": "MOUSE_OVER",
+   "target": "element:3219e9b8-3e7d-0094-9a40-bb8343477731",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-8",
+   "actionListTitle": "Open Nav Inner DD",
+   "actionsUsed": [
+    "GENERAL_DISPLAY",
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-414",
+   "type": "MOUSE_OVER",
+   "target": "element:4b50b4e2-425a-8f53-2753-e64c6440876c",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-32",
+   "actionListTitle": "fakeVideoHover",
+   "actionsUsed": [
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-416",
+   "type": "MOUSE_OVER",
+   "target": "element:4127993c-e297-c87a-77e6-46b80a1ec3a3",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-32",
+   "actionListTitle": "fakeVideoHover",
+   "actionsUsed": [
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-418",
+   "type": "MOUSE_OVER",
+   "target": "element:640c3378-f0c4-3fc4-78d0-f0b55b2209a5",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-32",
+   "actionListTitle": "fakeVideoHover",
+   "actionsUsed": [
+    "TRANSFORM_SCALE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-45",
+   "type": "NAVBAR_CLOSE",
+   "target": "element:e8471d84-4e63-71d8-5944-39f4f867b08e",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-13",
+   "actionListTitle": "Navbar Close",
+   "actionsUsed": [
+    "PLUGIN_LOTTIE",
+    "STYLE_OPACITY"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [
+    "navbar"
+   ],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "active"
+  },
+  {
+   "id": "e-216",
+   "type": "NAVBAR_CLOSE",
+   "target": "element:fe0b6c6b-14d6-9e7d-94e5-e89c05be507a",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-13",
+   "actionListTitle": "Navbar Close",
+   "actionsUsed": [
+    "PLUGIN_LOTTIE",
+    "STYLE_OPACITY"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-232",
+   "type": "NAVBAR_CLOSE",
+   "target": "element:3219e9b8-3e7d-0094-9a40-bb834347770c",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-13",
+   "actionListTitle": "Navbar Close",
+   "actionsUsed": [
+    "PLUGIN_LOTTIE",
+    "STYLE_OPACITY"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-44",
+   "type": "NAVBAR_OPEN",
+   "target": "element:e8471d84-4e63-71d8-5944-39f4f867b08e",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-12",
+   "actionListTitle": "Navbar Open",
+   "actionsUsed": [
+    "PLUGIN_LOTTIE",
+    "STYLE_OPACITY"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [
+    "navbar"
+   ],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "active"
+  },
+  {
+   "id": "e-215",
+   "type": "NAVBAR_OPEN",
+   "target": "element:fe0b6c6b-14d6-9e7d-94e5-e89c05be507a",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-12",
+   "actionListTitle": "Navbar Open",
+   "actionsUsed": [
+    "PLUGIN_LOTTIE",
+    "STYLE_OPACITY"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-231",
+   "type": "NAVBAR_OPEN",
+   "target": "element:3219e9b8-3e7d-0094-9a40-bb834347770c",
+   "appliesTo": "ELEMENT",
+   "actionList": "a-12",
+   "actionListTitle": "Navbar Open",
+   "actionsUsed": [
+    "PLUGIN_LOTTIE",
+    "STYLE_OPACITY"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-379",
+   "type": "PAGE_FINISH",
+   "target": "page:/services/long-distance-movers,/services/shared-load-moving",
+   "appliesTo": "PAGE",
+   "actionList": "a-16",
+   "actionListTitle": "About C Animation",
+   "actionsUsed": [
+    "TRANSFORM_MOVE"
+   ],
+   "loop": true,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 2,
+   "examplePages": [
+    "services__shared-load-moving",
+    "services__long-distance-movers"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-60",
+   "type": "PAGE_FINISH",
+   "target": "page:/",
+   "appliesTo": "PAGE",
+   "actionList": "a-16",
+   "actionListTitle": "About C Animation",
+   "actionsUsed": [
+    "TRANSFORM_MOVE"
+   ],
+   "loop": true,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 1,
+   "examplePages": [
+    "__home__"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-62",
+   "type": "PAGE_FINISH",
+   "target": "page:/about-us",
+   "appliesTo": "PAGE",
+   "actionList": "a-16",
+   "actionListTitle": "About C Animation",
+   "actionsUsed": [
+    "TRANSFORM_MOVE"
+   ],
+   "loop": true,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 1,
+   "examplePages": [
+    "about-us"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-66",
+   "type": "PAGE_FINISH",
+   "target": "page:/about-us/meet-our-team",
+   "appliesTo": "PAGE",
+   "actionList": "a-16",
+   "actionListTitle": "About C Animation",
+   "actionsUsed": [
+    "TRANSFORM_MOVE"
+   ],
+   "loop": true,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 1,
+   "examplePages": [
+    "about-us__meet-our-team"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-68",
+   "type": "PAGE_FINISH",
+   "target": "page:/about-us/careers",
+   "appliesTo": "PAGE",
+   "actionList": "a-16",
+   "actionListTitle": "About C Animation",
+   "actionsUsed": [
+    "TRANSFORM_MOVE"
+   ],
+   "loop": true,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 1,
+   "examplePages": [
+    "about-us__careers"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-413",
+   "type": "PAGE_FINISH",
+   "target": "page:/services/local-moving",
+   "appliesTo": "PAGE",
+   "actionList": "a-16",
+   "actionListTitle": "About C Animation",
+   "actionsUsed": [
+    "TRANSFORM_MOVE"
+   ],
+   "loop": true,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 1,
+   "examplePages": [
+    "services__local-moving"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-357",
+   "type": "PAGE_FINISH",
+   "target": "page:68b874b54e29cd213e4346a7",
+   "appliesTo": "PAGE",
+   "actionList": "a-16",
+   "actionListTitle": "About C Animation",
+   "actionsUsed": [
+    "TRANSFORM_MOVE"
+   ],
+   "loop": true,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-359",
+   "type": "PAGE_FINISH",
+   "target": "page:661ff9e7ba437991cf56f9d8",
+   "appliesTo": "PAGE",
+   "actionList": "a-16",
+   "actionListTitle": "About C Animation",
+   "actionsUsed": [
+    "TRANSFORM_MOVE"
+   ],
+   "loop": true,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {},
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  },
+  {
+   "id": "e-24",
+   "type": "SCROLLING_IN_VIEW",
+   "target": "element:a1d512e5-6551-6d4b-4dd2-500045a449ed",
+   "appliesTo": "ELEMENT",
+   "actionList": "a",
+   "actionListTitle": "About C / Scroll Animation",
+   "actionsUsed": [
+    "TRANSFORM_MOVE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {
+    "mode": "scrub",
+    "bindings": [
+     {
+      "continuousParameterGroupId": "a-p",
+      "smoothing": 90,
+      "startsEntering": true,
+      "addStartOffset": false,
+      "addOffsetValue": 50,
+      "startsExiting": false,
+      "addEndOffset": false,
+      "endOffsetValue": 50
+     }
+    ]
+   },
+   "usedInShared": [],
+   "pageCount": 100,
+   "examplePages": [
+    "la-movers",
+    "brea-movers",
+    "azusa-movers"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-22",
+   "type": "SCROLLING_IN_VIEW",
+   "target": "element:fe0b6c6b-14d6-9e7d-94e5-e89c05be50fa",
+   "appliesTo": "ELEMENT",
+   "actionList": "a",
+   "actionListTitle": "About C / Scroll Animation",
+   "actionsUsed": [
+    "TRANSFORM_MOVE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {
+    "mode": "scrub",
+    "bindings": [
+     {
+      "continuousParameterGroupId": "a-p",
+      "smoothing": 90,
+      "startsEntering": true,
+      "addStartOffset": false,
+      "addOffsetValue": 50,
+      "startsExiting": false,
+      "addEndOffset": false,
+      "endOffsetValue": 50
+     }
+    ]
+   },
+   "usedInShared": [],
+   "pageCount": 16,
+   "examplePages": [
+    "camas-movers",
+    "salem-movers",
+    "albany-movers"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-23",
+   "type": "SCROLLING_IN_VIEW",
+   "target": "element:fe0b6c6b-14d6-9e7d-94e5-e89c05be50fa",
+   "appliesTo": "ELEMENT",
+   "actionList": "a",
+   "actionListTitle": "About C / Scroll Animation",
+   "actionsUsed": [
+    "TRANSFORM_MOVE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {
+    "mode": "scrub",
+    "bindings": [
+     {
+      "continuousParameterGroupId": "a-p",
+      "smoothing": 90,
+      "startsEntering": true,
+      "addStartOffset": false,
+      "addOffsetValue": 50,
+      "startsExiting": false,
+      "addEndOffset": false,
+      "endOffsetValue": 50
+     }
+    ]
+   },
+   "usedInShared": [],
+   "pageCount": 16,
+   "examplePages": [
+    "camas-movers",
+    "salem-movers",
+    "albany-movers"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-56",
+   "type": "SCROLLING_IN_VIEW",
+   "target": "element:cf273dd6-1919-3cea-1908-84d1ce141e01",
+   "appliesTo": "ELEMENT",
+   "actionList": "a",
+   "actionListTitle": "About C / Scroll Animation",
+   "actionsUsed": [
+    "TRANSFORM_MOVE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {
+    "mode": "scrub",
+    "bindings": [
+     {
+      "continuousParameterGroupId": "a-p",
+      "smoothing": 90,
+      "startsEntering": true,
+      "addStartOffset": false,
+      "addOffsetValue": 50,
+      "startsExiting": false,
+      "addEndOffset": false,
+      "endOffsetValue": 50
+     }
+    ]
+   },
+   "usedInShared": [],
+   "pageCount": 3,
+   "examplePages": [
+    "about-us__referral",
+    "about-us__influencer-program",
+    "about-us__apartment-partnership"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-57",
+   "type": "SCROLLING_IN_VIEW",
+   "target": "element:8ca10670-02d9-1cde-6264-9118f5f09894",
+   "appliesTo": "ELEMENT",
+   "actionList": "a",
+   "actionListTitle": "About C / Scroll Animation",
+   "actionsUsed": [
+    "TRANSFORM_MOVE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {
+    "mode": "scrub",
+    "bindings": [
+     {
+      "continuousParameterGroupId": "a-p",
+      "smoothing": 90,
+      "startsEntering": true,
+      "addStartOffset": false,
+      "addOffsetValue": 50,
+      "startsExiting": false,
+      "addEndOffset": false,
+      "endOffsetValue": 50
+     }
+    ]
+   },
+   "usedInShared": [],
+   "pageCount": 3,
+   "examplePages": [
+    "about-us__referral",
+    "about-us__influencer-program",
+    "about-us__apartment-partnership"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-63",
+   "type": "SCROLLING_IN_VIEW",
+   "target": "element:cf273dd6-1919-3cea-1908-84d1ce141e01",
+   "appliesTo": "ELEMENT",
+   "actionList": "a",
+   "actionListTitle": "About C / Scroll Animation",
+   "actionsUsed": [
+    "TRANSFORM_MOVE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {
+    "mode": "scrub",
+    "bindings": [
+     {
+      "continuousParameterGroupId": "a-p",
+      "smoothing": 90,
+      "startsEntering": true,
+      "addStartOffset": false,
+      "addOffsetValue": 50,
+      "startsExiting": false,
+      "addEndOffset": false,
+      "endOffsetValue": 50
+     }
+    ]
+   },
+   "usedInShared": [],
+   "pageCount": 3,
+   "examplePages": [
+    "about-us__referral",
+    "about-us__influencer-program",
+    "about-us__apartment-partnership"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-64",
+   "type": "SCROLLING_IN_VIEW",
+   "target": "element:8ca10670-02d9-1cde-6264-9118f5f09894",
+   "appliesTo": "ELEMENT",
+   "actionList": "a",
+   "actionListTitle": "About C / Scroll Animation",
+   "actionsUsed": [
+    "TRANSFORM_MOVE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {
+    "mode": "scrub",
+    "bindings": [
+     {
+      "continuousParameterGroupId": "a-p",
+      "smoothing": 90,
+      "startsEntering": true,
+      "addStartOffset": false,
+      "addOffsetValue": 50,
+      "startsExiting": false,
+      "addEndOffset": false,
+      "endOffsetValue": 50
+     }
+    ]
+   },
+   "usedInShared": [],
+   "pageCount": 3,
+   "examplePages": [
+    "about-us__referral",
+    "about-us__influencer-program",
+    "about-us__apartment-partnership"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-69",
+   "type": "SCROLLING_IN_VIEW",
+   "target": "element:cf273dd6-1919-3cea-1908-84d1ce141e01",
+   "appliesTo": "ELEMENT",
+   "actionList": "a",
+   "actionListTitle": "About C / Scroll Animation",
+   "actionsUsed": [
+    "TRANSFORM_MOVE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {
+    "mode": "scrub",
+    "bindings": [
+     {
+      "continuousParameterGroupId": "a-p",
+      "smoothing": 90,
+      "startsEntering": true,
+      "addStartOffset": false,
+      "addOffsetValue": 50,
+      "startsExiting": false,
+      "addEndOffset": false,
+      "endOffsetValue": 50
+     }
+    ]
+   },
+   "usedInShared": [],
+   "pageCount": 3,
+   "examplePages": [
+    "about-us__referral",
+    "about-us__influencer-program",
+    "about-us__apartment-partnership"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-70",
+   "type": "SCROLLING_IN_VIEW",
+   "target": "element:8ca10670-02d9-1cde-6264-9118f5f09894",
+   "appliesTo": "ELEMENT",
+   "actionList": "a",
+   "actionListTitle": "About C / Scroll Animation",
+   "actionsUsed": [
+    "TRANSFORM_MOVE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {
+    "mode": "scrub",
+    "bindings": [
+     {
+      "continuousParameterGroupId": "a-p",
+      "smoothing": 90,
+      "startsEntering": true,
+      "addStartOffset": false,
+      "addOffsetValue": 50,
+      "startsExiting": false,
+      "addEndOffset": false,
+      "endOffsetValue": 50
+     }
+    ]
+   },
+   "usedInShared": [],
+   "pageCount": 3,
+   "examplePages": [
+    "about-us__referral",
+    "about-us__influencer-program",
+    "about-us__apartment-partnership"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-58",
+   "type": "SCROLLING_IN_VIEW",
+   "target": "element:f37462a6-d76e-0fde-d038-594d24b28712",
+   "appliesTo": "ELEMENT",
+   "actionList": "a",
+   "actionListTitle": "About C / Scroll Animation",
+   "actionsUsed": [
+    "TRANSFORM_MOVE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {
+    "mode": "scrub",
+    "bindings": [
+     {
+      "continuousParameterGroupId": "a-p",
+      "smoothing": 90,
+      "startsEntering": true,
+      "addStartOffset": false,
+      "addOffsetValue": 50,
+      "startsExiting": false,
+      "addEndOffset": false,
+      "endOffsetValue": 50
+     }
+    ]
+   },
+   "usedInShared": [],
+   "pageCount": 1,
+   "examplePages": [
+    "about-us__contact-us"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "e-19",
+   "type": "SCROLLING_IN_VIEW",
+   "target": "element:96d2a3aa-d65e-4007-8ba0-513393f4a7f4",
+   "appliesTo": "ELEMENT",
+   "actionList": "a",
+   "actionListTitle": "About C / Scroll Animation",
+   "actionsUsed": [
+    "TRANSFORM_MOVE"
+   ],
+   "loop": false,
+   "mediaQueries": [
+    "main",
+    "medium",
+    "small",
+    "tiny"
+   ],
+   "scroll": {
+    "mode": "scrub",
+    "bindings": [
+     {
+      "continuousParameterGroupId": "a-p",
+      "smoothing": 90,
+      "startsEntering": true,
+      "addStartOffset": false,
+      "addOffsetValue": 50,
+      "startsExiting": false,
+      "addEndOffset": false,
+      "endOffsetValue": 50
+     }
+    ]
+   },
+   "usedInShared": [],
+   "pageCount": 0,
+   "examplePages": [],
+   "status": "dead"
+  }
+ ],
+ "actionLists": {
+  "a-2": {
+   "id": "a-2",
+   "title": "Services Item Hover On",
+   "mode": "timeline",
+   "initialStateFromFirstGroup": true,
+   "stepCount": 8,
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "steps": [
+    {
+     "group": 0,
+     "action": "STYLE_OPACITY",
+     "target": "CHILDREN .services-item-image",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": 0
+     }
+    },
+    {
+     "group": 0,
+     "action": "TRANSFORM_SCALE",
+     "target": "CHILDREN .services-item-arrow",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "xValue": 0.8,
+      "yValue": 0.8
+     }
+    },
+    {
+     "group": 0,
+     "action": "TRANSFORM_SCALE",
+     "target": "CHILDREN .services-icon",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "xValue": 1,
+      "yValue": 1
+     }
+    },
+    {
+     "group": 0,
+     "action": "STYLE_OPACITY",
+     "target": "CHILDREN .services-icon",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": 1
+     }
+    },
+    {
+     "group": 1,
+     "action": "STYLE_OPACITY",
+     "target": "CHILDREN .services-item-image",
+     "duration_ms": 300,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "value": 1
+     }
+    },
+    {
+     "group": 1,
+     "action": "TRANSFORM_SCALE",
+     "target": "CHILDREN .services-item-arrow",
+     "duration_ms": 300,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "xValue": 1,
+      "yValue": 1
+     }
+    },
+    {
+     "group": 1,
+     "action": "TRANSFORM_SCALE",
+     "target": "CHILDREN .services-icon",
+     "duration_ms": 300,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "xValue": 0.8,
+      "yValue": 0.8
+     }
+    },
+    {
+     "group": 1,
+     "action": "STYLE_OPACITY",
+     "target": "CHILDREN .services-icon",
+     "duration_ms": 300,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "value": 0
+     }
+    }
+   ]
+  },
+  "a-3": {
+   "id": "a-3",
+   "title": "Services Item Hover Out",
+   "mode": "timeline",
+   "initialStateFromFirstGroup": false,
+   "stepCount": 4,
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "steps": [
+    {
+     "group": 0,
+     "action": "STYLE_OPACITY",
+     "target": "CHILDREN .services-item-image",
+     "duration_ms": 300,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "value": 0
+     }
+    },
+    {
+     "group": 0,
+     "action": "TRANSFORM_SCALE",
+     "target": "CHILDREN .services-item-arrow",
+     "duration_ms": 300,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "xValue": 0.8,
+      "yValue": 0.8
+     }
+    },
+    {
+     "group": 0,
+     "action": "TRANSFORM_SCALE",
+     "target": "CHILDREN .services-icon",
+     "duration_ms": 300,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "xValue": 1,
+      "yValue": 1
+     }
+    },
+    {
+     "group": 0,
+     "action": "STYLE_OPACITY",
+     "target": "CHILDREN .services-icon",
+     "duration_ms": 300,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "value": 1
+     }
+    }
+   ]
+  },
+  "a-4": {
+   "id": "a-4",
+   "title": "Show FAQ",
+   "mode": "timeline",
+   "initialStateFromFirstGroup": true,
+   "stepCount": 4,
+   "actionsUsed": [
+    "STYLE_SIZE",
+    "TRANSFORM_ROTATE"
+   ],
+   "steps": [
+    {
+     "group": 0,
+     "action": "STYLE_SIZE",
+     "target": "element:99743d6e-9210-e481-a428-128f8403342a",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "heightValue": 0,
+      "widthUnit": "PX",
+      "heightUnit": "px"
+     }
+    },
+    {
+     "group": 0,
+     "action": "TRANSFORM_ROTATE",
+     "target": "element:99743d6e-9210-e481-a428-128f84033428",
+     "duration_ms": 300,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "zValue": 0,
+      "xUnit": "DEG",
+      "yUnit": "DEG",
+      "zUnit": "deg"
+     }
+    },
+    {
+     "group": 1,
+     "action": "TRANSFORM_ROTATE",
+     "target": "element:99743d6e-9210-e481-a428-128f84033428",
+     "duration_ms": 300,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "zValue": 90,
+      "xUnit": "DEG",
+      "yUnit": "DEG",
+      "zUnit": "deg"
+     }
+    },
+    {
+     "group": 1,
+     "action": "STYLE_SIZE",
+     "target": "element:99743d6e-9210-e481-a428-128f8403342a",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "widthUnit": "PX",
+      "heightUnit": "AUTO"
+     }
+    }
+   ]
+  },
+  "a-5": {
+   "id": "a-5",
+   "title": "Hide FAQ",
+   "mode": "timeline",
+   "initialStateFromFirstGroup": false,
+   "stepCount": 2,
+   "actionsUsed": [
+    "STYLE_SIZE",
+    "TRANSFORM_ROTATE"
+   ],
+   "steps": [
+    {
+     "group": 0,
+     "action": "TRANSFORM_ROTATE",
+     "target": "CHILDREN",
+     "duration_ms": 300,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "zValue": 0,
+      "xUnit": "DEG",
+      "yUnit": "DEG",
+      "zUnit": "deg"
+     }
+    },
+    {
+     "group": 0,
+     "action": "STYLE_SIZE",
+     "target": "CHILDREN",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "heightValue": 0,
+      "widthUnit": "PX",
+      "heightUnit": "px"
+     }
+    }
+   ]
+  },
+  "a": {
+   "id": "a",
+   "title": "About C / Scroll Animation",
+   "mode": "continuous:SCROLL_PROGRESS",
+   "initialStateFromFirstGroup": false,
+   "stepCount": 4,
+   "actionsUsed": [
+    "TRANSFORM_MOVE"
+   ],
+   "steps": [
+    {
+     "keyframe_pct": 0,
+     "action": "TRANSFORM_MOVE",
+     "target": "CHILDREN .about-c-images-track",
+     "values": {
+      "yValue": 0,
+      "xUnit": "PX",
+      "yUnit": "%",
+      "zUnit": "PX"
+     }
+    },
+    {
+     "keyframe_pct": 0,
+     "action": "TRANSFORM_MOVE",
+     "target": "CHILDREN .about-c-images-track.is-right-track",
+     "values": {
+      "yValue": 100,
+      "xUnit": "PX",
+      "yUnit": "%",
+      "zUnit": "PX"
+     }
+    },
+    {
+     "keyframe_pct": 100,
+     "action": "TRANSFORM_MOVE",
+     "target": "CHILDREN .about-c-images-track",
+     "values": {
+      "yValue": 100,
+      "xUnit": "PX",
+      "yUnit": "%",
+      "zUnit": "PX"
+     }
+    },
+    {
+     "keyframe_pct": 100,
+     "action": "TRANSFORM_MOVE",
+     "target": "CHILDREN .about-c-images-track.is-right-track",
+     "values": {
+      "yValue": 0,
+      "xUnit": "PX",
+      "yUnit": "%",
+      "zUnit": "PX"
+     }
+    }
+   ]
+  },
+  "a-6": {
+   "id": "a-6",
+   "title": "Open Nav DD",
+   "mode": "timeline",
+   "initialStateFromFirstGroup": false,
+   "stepCount": 2,
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "steps": [
+    {
+     "group": 0,
+     "action": "TRANSFORM_SCALE",
+     "target": "CHILDREN .navbar-dd-list",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "xValue": 1,
+      "yValue": 1
+     }
+    },
+    {
+     "group": 0,
+     "action": "STYLE_OPACITY",
+     "target": "CHILDREN .navbar-dd-list",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "value": 1
+     }
+    }
+   ]
+  },
+  "a-7": {
+   "id": "a-7",
+   "title": "Close Nav DD",
+   "mode": "timeline",
+   "initialStateFromFirstGroup": false,
+   "stepCount": 2,
+   "actionsUsed": [
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "steps": [
+    {
+     "group": 0,
+     "action": "TRANSFORM_SCALE",
+     "target": "CHILDREN .navbar-dd-list",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "xValue": 0.8,
+      "yValue": 0.8
+     }
+    },
+    {
+     "group": 0,
+     "action": "STYLE_OPACITY",
+     "target": "CHILDREN .navbar-dd-list",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "value": 0
+     }
+    }
+   ]
+  },
+  "a-8": {
+   "id": "a-8",
+   "title": "Open Nav Inner DD",
+   "mode": "timeline",
+   "initialStateFromFirstGroup": true,
+   "stepCount": 6,
+   "actionsUsed": [
+    "GENERAL_DISPLAY",
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "steps": [
+    {
+     "group": 0,
+     "action": "TRANSFORM_SCALE",
+     "target": "self",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "xValue": 0.8,
+      "yValue": 0.8
+     }
+    },
+    {
+     "group": 0,
+     "action": "STYLE_OPACITY",
+     "target": "self",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": 0
+     }
+    },
+    {
+     "group": 0,
+     "action": "GENERAL_DISPLAY",
+     "target": "self",
+     "duration_ms": 0,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": "none"
+     }
+    },
+    {
+     "group": 1,
+     "action": "GENERAL_DISPLAY",
+     "target": "self",
+     "duration_ms": 0,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": "block"
+     }
+    },
+    {
+     "group": 2,
+     "action": "STYLE_OPACITY",
+     "target": "self",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "value": 1
+     }
+    },
+    {
+     "group": 2,
+     "action": "TRANSFORM_SCALE",
+     "target": "self",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "xValue": 1,
+      "yValue": 1
+     }
+    }
+   ]
+  },
+  "a-9": {
+   "id": "a-9",
+   "title": "Close Nav Inner DD",
+   "mode": "timeline",
+   "initialStateFromFirstGroup": false,
+   "stepCount": 3,
+   "actionsUsed": [
+    "GENERAL_DISPLAY",
+    "STYLE_OPACITY",
+    "TRANSFORM_SCALE"
+   ],
+   "steps": [
+    {
+     "group": 0,
+     "action": "TRANSFORM_SCALE",
+     "target": "self",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "xValue": 0.8,
+      "yValue": 0.8
+     }
+    },
+    {
+     "group": 0,
+     "action": "STYLE_OPACITY",
+     "target": "self",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "value": 0
+     }
+    },
+    {
+     "group": 1,
+     "action": "GENERAL_DISPLAY",
+     "target": "self",
+     "duration_ms": 0,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": "none"
+     }
+    }
+   ]
+  },
+  "a-12": {
+   "id": "a-12",
+   "title": "Navbar Open",
+   "mode": "timeline",
+   "initialStateFromFirstGroup": true,
+   "stepCount": 4,
+   "actionsUsed": [
+    "PLUGIN_LOTTIE",
+    "STYLE_OPACITY"
+   ],
+   "steps": [
+    {
+     "group": 0,
+     "action": "PLUGIN_LOTTIE",
+     "target": "CHILDREN .navbar-lottie",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": 0
+     }
+    },
+    {
+     "group": 0,
+     "action": "STYLE_OPACITY",
+     "target": "CHILDREN .navbar-menu",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": 0
+     }
+    },
+    {
+     "group": 1,
+     "action": "PLUGIN_LOTTIE",
+     "target": "CHILDREN .navbar-lottie",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": 43
+     }
+    },
+    {
+     "group": 1,
+     "action": "STYLE_OPACITY",
+     "target": "CHILDREN .navbar-menu",
+     "duration_ms": 300,
+     "delay_ms": 200,
+     "easing": "ease",
+     "values": {
+      "value": 1
+     }
+    }
+   ]
+  },
+  "a-13": {
+   "id": "a-13",
+   "title": "Navbar Close",
+   "mode": "timeline",
+   "initialStateFromFirstGroup": false,
+   "stepCount": 2,
+   "actionsUsed": [
+    "PLUGIN_LOTTIE",
+    "STYLE_OPACITY"
+   ],
+   "steps": [
+    {
+     "group": 0,
+     "action": "PLUGIN_LOTTIE",
+     "target": "CHILDREN .navbar-lottie",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": 0
+     }
+    },
+    {
+     "group": 0,
+     "action": "STYLE_OPACITY",
+     "target": "CHILDREN .navbar-menu",
+     "duration_ms": 300,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "value": 0
+     }
+    }
+   ]
+  },
+  "a-16": {
+   "id": "a-16",
+   "title": "About C Animation",
+   "mode": "timeline",
+   "initialStateFromFirstGroup": true,
+   "stepCount": 6,
+   "actionsUsed": [
+    "TRANSFORM_MOVE"
+   ],
+   "steps": [
+    {
+     "group": 0,
+     "action": "TRANSFORM_MOVE",
+     "target": ".about-c-images-track.is-right-track",
+     "duration_ms": 0,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "yValue": 0,
+      "xUnit": "PX",
+      "yUnit": "%",
+      "zUnit": "PX"
+     }
+    },
+    {
+     "group": 0,
+     "action": "TRANSFORM_MOVE",
+     "target": ".about-c-images-track.is-left-track",
+     "duration_ms": 0,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "yValue": 100,
+      "xUnit": "PX",
+      "yUnit": "%",
+      "zUnit": "PX"
+     }
+    },
+    {
+     "group": 1,
+     "action": "TRANSFORM_MOVE",
+     "target": ".about-c-images-track.is-right-track",
+     "duration_ms": 10000,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "yValue": 100,
+      "xUnit": "PX",
+      "yUnit": "%",
+      "zUnit": "PX"
+     }
+    },
+    {
+     "group": 1,
+     "action": "TRANSFORM_MOVE",
+     "target": ".about-c-images-track.is-left-track",
+     "duration_ms": 10000,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "yValue": 0,
+      "xUnit": "PX",
+      "yUnit": "%",
+      "zUnit": "PX"
+     }
+    },
+    {
+     "group": 2,
+     "action": "TRANSFORM_MOVE",
+     "target": ".about-c-images-track.is-right-track",
+     "duration_ms": 0,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "yValue": 0,
+      "xUnit": "PX",
+      "yUnit": "%",
+      "zUnit": "PX"
+     }
+    },
+    {
+     "group": 2,
+     "action": "TRANSFORM_MOVE",
+     "target": ".about-c-images-track.is-left-track",
+     "duration_ms": 0,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "yValue": 100,
+      "xUnit": "PX",
+      "yUnit": "%",
+      "zUnit": "PX"
+     }
+    }
+   ]
+  },
+  "a-29": {
+   "id": "a-29",
+   "title": "hover on yellow-button",
+   "mode": "timeline",
+   "initialStateFromFirstGroup": true,
+   "stepCount": 4,
+   "actionsUsed": [
+    "GENERAL_DISPLAY",
+    "STYLE_BACKGROUND_COLOR",
+    "STYLE_TEXT_COLOR"
+   ],
+   "steps": [
+    {
+     "group": 0,
+     "action": "GENERAL_DISPLAY",
+     "target": "CHILDREN .path.yellow",
+     "duration_ms": 0,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": "none"
+     }
+    },
+    {
+     "group": 1,
+     "action": "STYLE_BACKGROUND_COLOR",
+     "target": "True",
+     "duration_ms": 300,
+     "delay_ms": 0,
+     "easing": "easeInOut",
+     "values": {
+      "rValue": 229,
+      "bValue": 5,
+      "gValue": 217,
+      "aValue": 1
+     }
+    },
+    {
+     "group": 1,
+     "action": "STYLE_TEXT_COLOR",
+     "target": "True",
+     "duration_ms": 300,
+     "delay_ms": 0,
+     "easing": "easeInOut",
+     "values": {
+      "rValue": 255,
+      "bValue": 255,
+      "gValue": 255,
+      "aValue": 1
+     }
+    },
+    {
+     "group": 1,
+     "action": "GENERAL_DISPLAY",
+     "target": "CHILDREN .path.yellow",
+     "duration_ms": 0,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": "block"
+     }
+    }
+   ]
+  },
+  "a-30": {
+   "id": "a-30",
+   "title": "hover out yellow-button",
+   "mode": "timeline",
+   "initialStateFromFirstGroup": false,
+   "stepCount": 3,
+   "actionsUsed": [
+    "GENERAL_DISPLAY",
+    "STYLE_BACKGROUND_COLOR",
+    "STYLE_TEXT_COLOR"
+   ],
+   "steps": [
+    {
+     "group": 0,
+     "action": "STYLE_BACKGROUND_COLOR",
+     "target": "True",
+     "duration_ms": 300,
+     "delay_ms": 0,
+     "easing": "easeInOut",
+     "values": {
+      "rValue": 250,
+      "bValue": 31,
+      "gValue": 236,
+      "aValue": 1
+     }
+    },
+    {
+     "group": 0,
+     "action": "STYLE_TEXT_COLOR",
+     "target": "True",
+     "duration_ms": 300,
+     "delay_ms": 0,
+     "easing": "easeInOut",
+     "values": {
+      "rValue": 21,
+      "bValue": 20,
+      "gValue": 20,
+      "aValue": 1
+     }
+    },
+    {
+     "group": 0,
+     "action": "GENERAL_DISPLAY",
+     "target": "CHILDREN .path.yellow",
+     "duration_ms": 0,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": "none"
+     }
+    }
+   ]
+  },
+  "a-31": {
+   "id": "a-31",
+   "title": "modal open",
+   "mode": "timeline",
+   "initialStateFromFirstGroup": true,
+   "stepCount": 6,
+   "actionsUsed": [
+    "GENERAL_DISPLAY",
+    "STYLE_OPACITY",
+    "TRANSFORM_MOVE"
+   ],
+   "steps": [
+    {
+     "group": 0,
+     "action": "GENERAL_DISPLAY",
+     "target": "self",
+     "duration_ms": 0,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": "none"
+     }
+    },
+    {
+     "group": 0,
+     "action": "STYLE_OPACITY",
+     "target": "self",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": 0
+     }
+    },
+    {
+     "group": 0,
+     "action": "TRANSFORM_MOVE",
+     "target": "self",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "yValue": 100,
+      "xUnit": "PX",
+      "yUnit": "%",
+      "zUnit": "PX"
+     }
+    },
+    {
+     "group": 1,
+     "action": "TRANSFORM_MOVE",
+     "target": "self",
+     "duration_ms": 200,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "yValue": 0,
+      "xUnit": "PX",
+      "yUnit": "%",
+      "zUnit": "PX"
+     }
+    },
+    {
+     "group": 2,
+     "action": "GENERAL_DISPLAY",
+     "target": "self",
+     "duration_ms": 0,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "value": "block"
+     }
+    },
+    {
+     "group": 3,
+     "action": "STYLE_OPACITY",
+     "target": "self",
+     "duration_ms": 200,
+     "delay_ms": 0,
+     "easing": "ease",
+     "values": {
+      "value": 1
+     }
+    }
+   ]
+  },
+  "a-32": {
+   "id": "a-32",
+   "title": "fakeVideoHover",
+   "mode": "timeline",
+   "initialStateFromFirstGroup": false,
+   "stepCount": 1,
+   "actionsUsed": [
+    "TRANSFORM_SCALE"
+   ],
+   "steps": [
+    {
+     "group": 0,
+     "action": "TRANSFORM_SCALE",
+     "target": "CHILDREN .fake-video__btn",
+     "duration_ms": 1000,
+     "delay_ms": 0,
+     "easing": "outQuint",
+     "values": {
+      "xValue": 1.2,
+      "yValue": 1.2
+     }
+    }
+   ]
+  },
+  "a-33": {
+   "id": "a-33",
+   "title": "fakeVideoHoverOut",
+   "mode": "timeline",
+   "initialStateFromFirstGroup": false,
+   "stepCount": 1,
+   "actionsUsed": [
+    "TRANSFORM_SCALE"
+   ],
+   "steps": [
+    {
+     "group": 0,
+     "action": "TRANSFORM_SCALE",
+     "target": "CHILDREN .fake-video__btn",
+     "duration_ms": 1000,
+     "delay_ms": 0,
+     "easing": "outQuint",
+     "values": {
+      "xValue": 1,
+      "yValue": 1
+     }
+    }
+   ]
+  },
+  "a-34": {
+   "id": "a-34",
+   "title": "multistepFormAnim",
+   "mode": "timeline",
+   "initialStateFromFirstGroup": true,
+   "stepCount": 9,
+   "actionsUsed": [
+    "GENERAL_DISPLAY",
+    "STYLE_OPACITY",
+    "TRANSFORM_MOVE"
+   ],
+   "steps": [
+    {
+     "group": 0,
+     "action": "GENERAL_DISPLAY",
+     "target": ".form-step-2",
+     "duration_ms": 0,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": "none"
+     }
+    },
+    {
+     "group": 0,
+     "action": "STYLE_OPACITY",
+     "target": ".services-hero-move-inputs",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": 0
+     }
+    },
+    {
+     "group": 0,
+     "action": "TRANSFORM_MOVE",
+     "target": ".services-hero-move-inputs",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "xValue": 100,
+      "xUnit": "%",
+      "yUnit": "PX",
+      "zUnit": "PX"
+     }
+    },
+    {
+     "group": 1,
+     "action": "TRANSFORM_MOVE",
+     "target": ".services-hero-form-input-wrap",
+     "duration_ms": 1000,
+     "delay_ms": 0,
+     "easing": "outQuint",
+     "values": {
+      "xValue": -100,
+      "xUnit": "%",
+      "yUnit": "PX",
+      "zUnit": "PX"
+     }
+    },
+    {
+     "group": 1,
+     "action": "STYLE_OPACITY",
+     "target": ".services-hero-form-input-wrap",
+     "duration_ms": 1000,
+     "delay_ms": 0,
+     "easing": "outQuint",
+     "values": {
+      "value": 0
+     }
+    },
+    {
+     "group": 2,
+     "action": "GENERAL_DISPLAY",
+     "target": ".form-step-1",
+     "duration_ms": 0,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": "none"
+     }
+    },
+    {
+     "group": 2,
+     "action": "GENERAL_DISPLAY",
+     "target": ".form-step-2",
+     "duration_ms": 0,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": "flex"
+     }
+    },
+    {
+     "group": 3,
+     "action": "STYLE_OPACITY",
+     "target": ".services-hero-move-inputs",
+     "duration_ms": 1000,
+     "delay_ms": 0,
+     "easing": "outQuint",
+     "values": {
+      "value": 1
+     }
+    },
+    {
+     "group": 3,
+     "action": "TRANSFORM_MOVE",
+     "target": ".services-hero-move-inputs",
+     "duration_ms": 1000,
+     "delay_ms": 0,
+     "easing": "outQuint",
+     "values": {
+      "xValue": 0,
+      "xUnit": "%",
+      "yUnit": "PX",
+      "zUnit": "PX"
+     }
+    }
+   ]
+  },
+  "a-35": {
+   "id": "a-35",
+   "title": "CtaMultistepFormAnim",
+   "mode": "timeline",
+   "initialStateFromFirstGroup": true,
+   "stepCount": 9,
+   "actionsUsed": [
+    "GENERAL_DISPLAY",
+    "STYLE_OPACITY",
+    "TRANSFORM_MOVE"
+   ],
+   "steps": [
+    {
+     "group": 0,
+     "action": "GENERAL_DISPLAY",
+     "target": ".cta-form-step-2",
+     "duration_ms": 0,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": "none"
+     }
+    },
+    {
+     "group": 0,
+     "action": "STYLE_OPACITY",
+     "target": ".cta-move-inputs",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": 0
+     }
+    },
+    {
+     "group": 0,
+     "action": "TRANSFORM_MOVE",
+     "target": ".cta-move-inputs",
+     "duration_ms": 500,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "xValue": 100,
+      "xUnit": "%",
+      "yUnit": "PX",
+      "zUnit": "PX"
+     }
+    },
+    {
+     "group": 1,
+     "action": "TRANSFORM_MOVE",
+     "target": ".cta-form-input-wrap",
+     "duration_ms": 1000,
+     "delay_ms": 0,
+     "easing": "outQuint",
+     "values": {
+      "xValue": -100,
+      "xUnit": "%",
+      "yUnit": "PX",
+      "zUnit": "PX"
+     }
+    },
+    {
+     "group": 1,
+     "action": "STYLE_OPACITY",
+     "target": ".cta-form-input-wrap",
+     "duration_ms": 1000,
+     "delay_ms": 0,
+     "easing": "outQuint",
+     "values": {
+      "value": 0
+     }
+    },
+    {
+     "group": 2,
+     "action": "GENERAL_DISPLAY",
+     "target": "PARENT .cta-form-step-1",
+     "duration_ms": 0,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": "none"
+     }
+    },
+    {
+     "group": 2,
+     "action": "GENERAL_DISPLAY",
+     "target": ".cta-form-step-2",
+     "duration_ms": 0,
+     "delay_ms": 0,
+     "easing": "linear",
+     "values": {
+      "value": "flex"
+     }
+    },
+    {
+     "group": 3,
+     "action": "STYLE_OPACITY",
+     "target": ".cta-move-inputs",
+     "duration_ms": 1000,
+     "delay_ms": 0,
+     "easing": "outQuint",
+     "values": {
+      "value": 1
+     }
+    },
+    {
+     "group": 3,
+     "action": "TRANSFORM_MOVE",
+     "target": ".cta-move-inputs",
+     "duration_ms": 1000,
+     "delay_ms": 0,
+     "easing": "outQuint",
+     "values": {
+      "xValue": 0,
+      "xUnit": "%",
+      "yUnit": "PX",
+      "zUnit": "PX"
+     }
+    }
+   ]
+  }
+ },
+ "mediaQueries": [
+  {
+   "key": "main",
+   "min": 992,
+   "max": 10000
+  },
+  {
+   "key": "medium",
+   "min": 768,
+   "max": 991
+  },
+  {
+   "key": "small",
+   "min": 480,
+   "max": 767
+  },
+  {
+   "key": "tiny",
+   "min": 0,
+   "max": 479
+  }
+ ]
+}
