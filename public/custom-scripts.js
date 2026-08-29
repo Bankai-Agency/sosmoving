@@ -100,7 +100,8 @@ if (window.innerWidth > 991) {
     '/compton-movers',
     '/downey-movers',
     '/services/packing-services',
-    '/services/long-distance-movers'
+    '/services/long-distance-movers',
+    '/services/shared-load-moving'
   ];
 
   if (!excludedPages.includes(window.location.pathname)) {
@@ -541,18 +542,39 @@ if (document.getElementById("exit-popup")) {
     if (bottom) bottom.innerHTML = center.innerHTML;
   });
 
-  // 2. Маркиза главной (IX2-фолбэк) — процентная, поэтому не зависит от
+  // 2. Маркиза (IX2-фолбэк) - процентная, поэтому не зависит от
   // количества фото: один проход ленты всегда 10s, как в оригинале.
-  if (window.location.pathname !== '/') return;
+  // Не только главная: IX2 диспатчит PAGE_FINISH по window.load, а наш
+  // ScriptLoader грузит вебфлоу-бандл асинхронно после гидрации. Если
+  // load успел раньше бандла (localhost, быстрый кэшированный повтор),
+  // событие пропадает и ленты замирают на любой из ~135 страниц
+  // с секцией. Поэтому решение по каждому треку отдельно: двигается -
+  // IX2 победил гонку, не трогаем.
   function start() {
-    var left = document.querySelector('.about-c-images-track.is-left-track');
-    var right = document.querySelector('.about-c-images-track.is-right-track');
-    if (!left || !right || typeof gsap === 'undefined') return;
-    var before = getComputedStyle(left).transform;
+    if (typeof gsap === 'undefined') return;
+    // Крутим только треки с клонами (структура бесшовной ленты).
+    // Коллажи-стопки без .about-c-images-center на тех же классах
+    // is-left/right-track статичны и в оригинале - их не трогаем.
+    var tracks = [];
+    document.querySelectorAll(
+      '.about-c-images-track.is-left-track, .about-c-images-track.is-right-track'
+    ).forEach(function (t) {
+      if (t.querySelector('.about-c-images-center')) tracks.push(t);
+    });
+    if (!tracks.length) return;
+    // Детект по инлайновому transform: IX2 пишет туда каждый кадр,
+    // а догрузка фото меняет только computed-пиксели (процент от
+    // выросшей высоты) - на инлайне ложных срабатываний нет.
+    var before = tracks.map(function (t) { return t.style.transform; });
     setTimeout(function () {
-      if (getComputedStyle(left).transform !== before) return; // IX2 работает сам
-      gsap.fromTo(left, { yPercent: 100 }, { yPercent: 0, duration: 10, ease: 'none', repeat: -1 });
-      gsap.fromTo(right, { yPercent: 0 }, { yPercent: 100, duration: 10, ease: 'none', repeat: -1 });
+      tracks.forEach(function (t, i) {
+        if (t.style.transform !== before[i]) return; // IX2 работает сам
+        if (t.classList.contains('is-left-track')) {
+          gsap.fromTo(t, { yPercent: 100 }, { yPercent: 0, duration: 10, ease: 'none', repeat: -1 });
+        } else {
+          gsap.fromTo(t, { yPercent: 0 }, { yPercent: 100, duration: 10, ease: 'none', repeat: -1 });
+        }
+      });
     }, 2000);
   }
   if (document.readyState === 'complete') start();
