@@ -172,16 +172,39 @@
     
     // 3. Собираем данные формы
     var formData = formToObj($form);
-    
+
+    // 3.5. Телефон обязателен — если поле есть в форме.
+    // Раньше пустой или короткий телефон подменялся на "0000000000":
+    // форма уходила всегда, но такую заявку невозможно обработать. Они
+    // копились в CRM без источника, тянули конверсию вниз и обучали
+    // Google Ads на конверсиях, за которыми нет клиента. Маска
+    // (addInputPhoneMask) режет ввод ровно до 10 цифр, поэтому валидный
+    // номер — это всегда 10 цифр.
+    var $phoneInput = $form.find('input[name^="field_phone"]').first();
+    if ($phoneInput.length) {
+        var phoneDigits = (formData.field_phone || "").replace(/\D/g, '');
+        if (phoneDigits.length < 10) {
+            $phoneInput.addClass('is-error');
+
+            if ($phoneInput.offset()) {
+                $("html, body").animate({ scrollTop: $phoneInput.offset().top - 150 }, 300);
+            }
+
+            // Снимаем подсветку, как только человек начал исправлять
+            $phoneInput.one('input change', function () {
+                $phoneInput.removeClass('is-error');
+            });
+
+            return false;
+        }
+    }
+
     // =====================================================================
-    // 4. ЗАГЛУШКИ для всех полей — форма отправляется ВСЕГДА
+    // 4. ЗАГЛУШКИ для остальных полей — форма отправляется ВСЕГДА
     // =====================================================================
 
     if (!formData.field_first_name) formData.field_first_name = "n/a";
     if (!formData.field_e_mail) formData.field_e_mail = "callback@sosmovingla.net";
-
-    var phoneDigits = (formData.field_phone || "").replace(/\D/g, '');
-    if (!formData.field_phone || phoneDigits.length < 9) formData.field_phone = "0000000000";
 
     if (!formData.move_size) formData.move_size = 0;
     if (!formData.moving_from_zip) formData.moving_from_zip = "00000";
@@ -309,7 +332,8 @@
                 var failPayload = {
                     formName: "CRM FAILED (" + (xhr.status || textStatus) + "): " + ($form.attr("data-name") || "form"),
                     page: window.location.pathname,
-                    fields: formData
+                    fields: formData,
+                    attribution: typeof window.sosAttribution === "function" ? window.sosAttribution() : null
                 };
                 var failBlob = new Blob([JSON.stringify(failPayload)], { type: "application/json" });
                 if (!(navigator.sendBeacon && navigator.sendBeacon("/api/lead", failBlob))) {
