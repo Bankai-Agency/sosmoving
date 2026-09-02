@@ -102,14 +102,6 @@ form { display: block !important; }
     color: #d32f2f !important;
 }
 
-/* Подсветка обязательного поля формы (сейчас — телефон в sos-main.js).
-   Тот же красный, что у чекбокса политики, чтобы ошибки выглядели
-   одинаково. */
-.form-field.is-error {
-    border-color: #d32f2f !important;
-    box-shadow: 0 0 0 2px rgba(211, 47, 47, 0.25);
-}
-
 /* A long selected address (Places autocomplete) must not blow up the
    form: form-step-2 gets an inline display:flex from the step script,
    and flex/grid boxes default to min-width:auto — the no-wrap address
