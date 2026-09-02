@@ -429,17 +429,32 @@ if (document.getElementById("exit-popup")) {
     } catch {}
   }
 
-  var stored = readCookie() || {};
-  var current = readTouch();
+  // Everything below runs at load, and the blocks after this one in the file
+  // (dual-write, honeypot, multistep gate, gallery) would never execute if
+  // it threw. Attribution is never worth taking those down, so it fails
+  // silently instead.
+  var current = {};
+  try {
+    var stored = readCookie() || {};
+    current = readTouch();
 
-  if (!stored.first || isNewSource(current)) {
-    if (!stored.first) stored.first = current;
-    if (isNewSource(current)) stored.last = current;
-    writeCookie(stored);
-  }
+    if (!stored.first || isNewSource(current)) {
+      if (!stored.first) stored.first = current;
+      if (isNewSource(current)) stored.last = current;
+      writeCookie(stored);
+    }
+  } catch {}
 
   // Flat string map — easy to drop into a form payload or a CRM field.
   window.sosAttribution = function() {
+    try {
+      return build();
+    } catch {
+      return null;
+    }
+  };
+
+  function build() {
     var s = readCookie() || {};
     var first = s.first || current;
     var last = s.last || first;
@@ -468,7 +483,7 @@ if (document.getElementById("exit-popup")) {
       last_seen: last.ts || '',
       submit_page: trim(window.location.href)
     };
-  };
+  }
 })();
 
 // ========================================
