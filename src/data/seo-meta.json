@@ -7879,8 +7879,8 @@
       "twitter:description": "Stairs, elevators and tight spaces handled with precision and care. From $119/hr. No hidden fees.",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/services_apartment-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/seattle-movers",
@@ -8090,8 +8090,8 @@
       "twitter:description": "Secure moving storage in Los Angeles & SF — climate-controlled, short & long term options. Safe for furniture, documents & valuables. Get a free storage quote!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/services_storage.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/services/local-moving",
@@ -8154,8 +8154,8 @@
       "twitter:description": "Hire the highly-rated long-distance movers near you for a blissful cross-country moving experience. Get your free quote today!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/services_long-distance-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/services/shared-load-moving",
@@ -8218,8 +8218,8 @@
       "twitter:description": "Stress-free packing and moving with transparent pricing. Safe handling of your fragile items, fully insured, and no hidden fees. Get your free quote today!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/services_packing-services.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/services/our-process",
@@ -8261,8 +8261,8 @@
       "twitter:description": "White-glove moving, made human: careful packing, zero lifting, happy arrival. Request a free quote in minutes!",
       "twitter:card": "summary_large_image"
     },
-    "jsonldFile": null,
-    "jsonldExpected": 0
+    "jsonldFile": "data/jsonld/services_white-glove-movers.json",
+    "jsonldExpected": 1
   },
   {
     "url": "/simi-valley-movers",
