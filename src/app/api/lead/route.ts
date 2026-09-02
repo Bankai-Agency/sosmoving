@@ -93,6 +93,43 @@ const FIELD_ORDER = [
 ];
 const FIELD_ORDER_TAIL = ['company_name', 'checkbox', 'page_path'];
 
+// Attribution is collected client-side by custom-scripts.js
+// (window.sosAttribution) and travels alongside `fields` rather than inside
+// it — the MAX_FIELDS cap and the e-mail's field table both stay untouched.
+// Insertion order here is the order shown in the e-mail.
+const ATTR_LABELS: Record<string, string> = {
+  channel: 'Channel (reported)',
+  channel_first: 'Channel (first touch)',
+  channel_last: 'Channel (last touch)',
+  gclid: 'gclid',
+  msclkid: 'msclkid',
+  fbclid: 'fbclid',
+  utm_source: 'utm_source',
+  utm_medium: 'utm_medium',
+  utm_campaign: 'utm_campaign',
+  utm_term: 'utm_term',
+  utm_content: 'utm_content',
+  referrer: 'Referrer',
+  landing_page: 'Landing page',
+  submit_page: 'Submitted from',
+  first_seen: 'First seen',
+  last_seen: 'Last seen',
+};
+
+// Only known keys, trimmed and length-capped; empty values dropped.
+function readAttribution(value: unknown): Record<string, string> {
+  if (typeof value !== 'object' || value === null) return {};
+  const src = value as Record<string, unknown>;
+  const out: Record<string, string> = {};
+  for (const key of Object.keys(ATTR_LABELS)) {
+    const v = src[key];
+    if (typeof v !== 'string') continue;
+    const trimmed = v.trim().slice(0, MAX_VALUE);
+    if (trimmed) out[key] = trimmed;
+  }
+  return out;
+}
+
 function labelFor(key: string): string {
   return (
     FIELD_LABELS[key] ??
@@ -154,6 +191,8 @@ export async function POST(request: Request) {
       ? (body.fields as Record<string, unknown>)
       : {};
 
+  const attribution = readAttribution(body.attribution);
+
   const fields: Record<string, string> = {};
   for (const [k, v] of Object.entries(fieldsRaw).slice(0, MAX_FIELDS)) {
     if (typeof v !== 'string' || !v.trim()) continue;
@@ -179,7 +218,7 @@ export async function POST(request: Request) {
       const res = await fetch(webhook, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ source: 'sosmovingla.net', formName, page, fields }),
+        body: JSON.stringify({ source: 'sosmovingla.net', formName, page, fields, attribution }),
       });
       results.crm = res.ok ? 'ok' : `http ${res.status}`;
     } catch (e) {
@@ -207,10 +246,21 @@ export async function POST(request: Request) {
       .join('');
     // The form name already lives in the subject — the body keeps only
     // the page and the fields.
+    const attrRows = Object.entries(attribution)
+      .map(
+        ([k, v]) =>
+          `<tr><td style="padding:4px 16px 4px 0;color:#9ca3af;white-space:nowrap;vertical-align:top">${esc(ATTR_LABELS[k] ?? k)}</td>` +
+          `<td style="padding:4px 0;color:#6b7280;word-break:break-all">${esc(v)}</td></tr>`,
+      )
+      .join('');
     const html =
       `<div style="font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.5;color:#111827;max-width:560px">` +
       (page ? `<p style="margin:0 0 16px;color:#6b7280">Page: ${esc(page)}</p>` : '') +
       `<table style="border-collapse:collapse">${rows}</table>` +
+      (attrRows
+        ? `<p style="margin:24px 0 8px;font-size:13px;color:#9ca3af;text-transform:uppercase;letter-spacing:.04em">Attribution</p>` +
+          `<table style="border-collapse:collapse;font-size:13px">${attrRows}</table>`
+        : '') +
       `</div>`;
     try {
       const res = await fetch('https://api.resend.com/emails', {
@@ -222,7 +272,7 @@ export async function POST(request: Request) {
         body: JSON.stringify({
           from,
           to,
-          subject: `New lead: ${formName}${page ? ` (${page})` : ''}`,
+          subject: `New lead${attribution.channel ? ` [${attribution.channel}]` : ''}: ${formName}${page ? ` (${page})` : ''}`,
           html,
         }),
       });
@@ -239,6 +289,6 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: false, reason: 'not configured' }, { status: 202 });
   }
 
-  console.log('[api/lead]', formName, page, results);
+  console.log('[api/lead]', formName, page, attribution.channel ?? '-', results);
   return NextResponse.json({ ok: true, results });
 }

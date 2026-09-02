@@ -319,6 +319,175 @@ if (document.getElementById("exit-popup")) {
 
 // ========================================
 
+// ── Lead attribution (first touch + last touch) ──
+// The lead form sends no source at all, so every website lead reaches
+// MoveBoard with an empty "Source type" — the n/a bucket, ~200 leads a
+// month converting at 2%. This module works out where the visitor came
+// from and hands the result to the /api/lead dual-write below.
+//
+// It deliberately does NOT touch the MoveBoard payload: which extra fields
+// that endpoint accepts is still an open question with the vendor. Once
+// they answer, the CRM side reads the same window.sosAttribution().
+//
+// First touch is what matters here — a move is chosen over weeks, so
+// someone who arrives on an ad and comes back directly a fortnight later
+// must still be credited to Google Ads. Both touches are kept in a
+// first-party cookie for 90 days.
+//
+// GBP/maps traffic (the profile link is tagged utm_campaign=gmb) is folded
+// into SEO on purpose: the same people run the profile and the organic
+// side. The raw utm_campaign still travels with the lead, so the two can
+// be pulled apart in reporting whenever that becomes useful.
+(function() {
+  var COOKIE = 'sos_attr';
+  var MAX_AGE = 60 * 60 * 24 * 90; // 90 days
+  var LIMIT = 200;                 // per-value cap, keeps the cookie small
+
+  function hostOf(url) {
+    try { return new URL(url).hostname.toLowerCase(); } catch { return ''; }
+  }
+
+  function isOwn(host) {
+    return host === window.location.hostname ||
+           host === 'sosmovingla.net' ||
+           host === 'www.sosmovingla.net' ||
+           host === 'secure.sosmovingla.net';
+  }
+
+  function trim(v) {
+    return v ? String(v).slice(0, LIMIT) : '';
+  }
+
+  // Where this particular pageview came from.
+  function readTouch() {
+    var qs = null;
+    try { qs = new URLSearchParams(window.location.search); } catch {}
+    var q = function(key) { return qs ? trim(qs.get(key)) : ''; };
+
+    var touch = {
+      gclid: q('gclid') || q('gbraid') || q('wbraid'),
+      msclkid: q('msclkid'),
+      fbclid: q('fbclid'),
+      utm_source: q('utm_source'),
+      utm_medium: q('utm_medium'),
+      utm_campaign: q('utm_campaign'),
+      utm_term: q('utm_term'),
+      utm_content: q('utm_content'),
+      referrer: trim(document.referrer),
+      landing_page: trim(window.location.href),
+      ts: new Date().toISOString()
+    };
+    touch.channel = classify(touch);
+    return touch;
+  }
+
+  // Order matters: paid click ids beat utm tags, utm tags beat the referrer.
+  function classify(t) {
+    var ref = hostOf(t.referrer);
+    var src = t.utm_source.toLowerCase();
+    var med = t.utm_medium.toLowerCase();
+    var camp = t.utm_campaign.toLowerCase();
+
+    if (t.gclid || med === 'cpc' || med === 'ppc' || med === 'paid') return 'Google Ads';
+    if (t.msclkid) return 'Bing Ads';
+    // The Google Business Profile link is tagged utm_campaign=gmb.
+    if (camp === 'gmb') return 'Web SEO';
+    if (t.fbclid || ref.indexOf('facebook.') !== -1 || ref.indexOf('instagram.') !== -1) return 'Web Facebook/Instagram';
+    if (ref.indexOf('yelp.') !== -1 || src.indexOf('yelp') !== -1) return 'Web Yelp';
+    if (ref.indexOf('chatgpt.com') !== -1 || ref.indexOf('openai.com') !== -1 || src.indexOf('chatgpt') !== -1) return 'Web ChatGPT';
+    if (ref.indexOf('perplexity.') !== -1 || ref.indexOf('claude.ai') !== -1 ||
+        ref.indexOf('gemini.google') !== -1 || ref.indexOf('copilot.microsoft') !== -1) return 'Web AI assistant';
+    if (ref.indexOf('reddit.') !== -1) return 'Web Reddit';
+    if (ref.indexOf('google.') !== -1) return 'Web SEO';
+    if (ref.indexOf('bing.') !== -1 || ref.indexOf('duckduckgo.') !== -1 ||
+        ref.indexOf('search.yahoo') !== -1 || ref.indexOf('ecosia.') !== -1) return 'Web SEO';
+    if (ref && !isOwn(ref)) return 'Web Referral';
+    return 'Web Direct';
+  }
+
+  // Internal navigation carries no new information — it must not overwrite
+  // the touch that actually brought the visitor here.
+  function isNewSource(t) {
+    if (t.gclid || t.msclkid || t.fbclid) return true;
+    if (t.utm_source || t.utm_medium || t.utm_campaign) return true;
+    var ref = hostOf(t.referrer);
+    return !!ref && !isOwn(ref);
+  }
+
+  function readCookie() {
+    try {
+      var m = document.cookie.match(/(?:^|;\s*)sos_attr=([^;]*)/);
+      return m ? JSON.parse(decodeURIComponent(m[1])) : null;
+    } catch { return null; }
+  }
+
+  function writeCookie(data) {
+    try {
+      document.cookie = COOKIE + '=' + encodeURIComponent(JSON.stringify(data)) +
+        ';path=/;max-age=' + MAX_AGE + ';SameSite=Lax' +
+        (window.location.protocol === 'https:' ? ';Secure' : '');
+    } catch {}
+  }
+
+  // Everything below runs at load, and the blocks after this one in the file
+  // (dual-write, honeypot, multistep gate, gallery) would never execute if
+  // it threw. Attribution is never worth taking those down, so it fails
+  // silently instead.
+  var current = {};
+  try {
+    var stored = readCookie() || {};
+    current = readTouch();
+
+    if (!stored.first || isNewSource(current)) {
+      if (!stored.first) stored.first = current;
+      if (isNewSource(current)) stored.last = current;
+      writeCookie(stored);
+    }
+  } catch {}
+
+  // Flat string map — easy to drop into a form payload or a CRM field.
+  window.sosAttribution = function() {
+    try {
+      return build();
+    } catch {
+      return null;
+    }
+  };
+
+  function build() {
+    var s = readCookie() || {};
+    var first = s.first || current;
+    var last = s.last || first;
+    var channel = first.channel || '';
+    var gclid = first.gclid || last.gclid || '';
+
+    // An ad click anywhere in the 90-day window wins the label: that is the
+    // touch we can report a closed job back to Google Ads against.
+    if (gclid && channel !== 'Google Ads') channel = 'Google Ads';
+
+    return {
+      channel: channel,
+      channel_first: first.channel || '',
+      channel_last: last.channel || '',
+      gclid: gclid,
+      msclkid: first.msclkid || last.msclkid || '',
+      fbclid: first.fbclid || last.fbclid || '',
+      utm_source: first.utm_source || last.utm_source || '',
+      utm_medium: first.utm_medium || last.utm_medium || '',
+      utm_campaign: first.utm_campaign || last.utm_campaign || '',
+      utm_term: first.utm_term || last.utm_term || '',
+      utm_content: first.utm_content || last.utm_content || '',
+      referrer: first.referrer || '',
+      landing_page: first.landing_page || '',
+      first_seen: first.ts || '',
+      last_seen: last.ts || '',
+      submit_page: trim(window.location.href)
+    };
+  }
+})();
+
+// ========================================
+
 // ── Lead dual-write / takeover ──
 // Primary lead path: /sos-main.js (self-hosted) intercepts .request-api forms
 // and POSTs them to MoveBoard CRM (api.sosmovingla.net). In 'dual' mode
@@ -339,13 +508,19 @@ if (document.getElementById("exit-popup")) {
     return {
       formName: (form.getAttribute('data-name') || form.getAttribute('name') || form.id || 'form').replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim(),
       page: window.location.pathname,
-      fields: fields
+      fields: fields,
+      attribution: typeof window.sosAttribution === 'function' ? window.sosAttribution() : null
     };
   }
 
   function track(payload) {
     window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({ event: 'lead_submit', formName: payload.formName, page: payload.page });
+    window.dataLayer.push({
+      event: 'lead_submit',
+      formName: payload.formName,
+      page: payload.page,
+      lead_channel: payload.attribution ? payload.attribution.channel : ''
+    });
   }
 
   // Capture phase — runs before Webflow's bubble-phase jQuery handlers.

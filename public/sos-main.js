@@ -309,7 +309,8 @@
                 var failPayload = {
                     formName: "CRM FAILED (" + (xhr.status || textStatus) + "): " + ($form.attr("data-name") || "form"),
                     page: window.location.pathname,
-                    fields: formData
+                    fields: formData,
+                    attribution: typeof window.sosAttribution === "function" ? window.sosAttribution() : null
                 };
                 var failBlob = new Blob([JSON.stringify(failPayload)], { type: "application/json" });
                 if (!(navigator.sendBeacon && navigator.sendBeacon("/api/lead", failBlob))) {
