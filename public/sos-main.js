@@ -186,7 +186,18 @@
     if (!formData.move_size) formData.move_size = 0;
     if (!formData.moving_from_zip) formData.moving_from_zip = "00000";
     if (!formData.moving_to_zip) formData.moving_to_zip = "00000";
-    if (!formData.company_name) formData.company_name = "n/a";
+    // company_name — это поле, которое MoveBoard показывает как "Source type"
+    // в отчёте по источникам. Оно скрыто на всех формах (.company-name
+    // {display:none}), посетитель его не заполняет, и до сих пор мы клали
+    // туда заглушку "n/a" — отсюда и бакет "n/a" в отчёте: ~200 заявок в
+    // месяц с конверсией 2%. Чат-бот пишет туда "ChatBot-lead" и именно так
+    // появляется в отчёте отдельной строкой.
+    // Теперь туда уходит канал, вычисленный в custom-scripts.js. Если
+    // атрибуция почему-то недоступна — остаётся прежнее поведение.
+    if (!formData.company_name) {
+        var sosAttr = typeof window.sosAttribution === "function" ? window.sosAttribution() : null;
+        formData.company_name = (sosAttr && sosAttr.channel) || "n/a";
+    }
     formData.field_last_name = formData.field_last_name || "n/a";
     if (!formData.page_path) formData.page_path = window.location.href;
 
