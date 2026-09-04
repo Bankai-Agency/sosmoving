@@ -83,14 +83,22 @@ const nextConfig: NextConfig = {
     // Vercel; one dynamically-computed fs path is enough for the tracer to
     // glob it into a function bundle. Never ship it.
     "*": [".git/**"],
+    // NOT ".next/**": the function's own code lives in .next/server/chunks
+    // (its route chunk, the Turbopack runtime, the [externals] shim). Excluding
+    // the whole directory left both routes with zero chunks in their trace,
+    // and on Vercel every call died at module load with ChunkLoadError -
+    // uploads from the blog editor and the scheduled-publish cron were dead.
+    // Only the client assets and the build cache are dead weight here.
     "/api/upload": [
       "public/**",
-      ".next/**",
+      ".next/cache/**",
+      ".next/static/**",
       "src/data/blog/**",
     ],
     "/api/cron/publish-scheduled": [
       "public/**",
-      ".next/**",
+      ".next/cache/**",
+      ".next/static/**",
     ],
     "/": [
       "node_modules/@blocknote/**",
