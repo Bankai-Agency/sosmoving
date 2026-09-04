@@ -41,16 +41,30 @@ export async function countUsers(): Promise<number> {
   return all.length;
 }
 
-export async function deleteUser(id: string, callerId: string): Promise<void> {
-  if (id === callerId) throw new Error("Нельзя удалить самого себя");
+export type Caller = { id: string; role: string };
+
+export async function deleteUser(id: string, caller: Caller): Promise<void> {
+  if (id === caller.id) throw new Error("Нельзя удалить самого себя");
   const target = await db.query.users.findFirst({ where: eq(users.id, id) });
-  if (!target) throw new Error("Пользователь не найден");
+  if (!target) throw new Error("Пользователь не найден");
   if (target.role === "owner") throw new Error("Нельзя удалить владельца");
   await db.delete(users).where(eq(users.id, id));
 }
 
-export async function resetUserPassword(id: string, newPassword: string): Promise<void> {
+/**
+ * Temporary-password reset by another admin. An editor must not be able
+ * to reset the owner (that is an account takeover: the temp password comes
+ * back in the response), and nobody resets themselves this way - the
+ * change-password form asks for the current password for a reason.
+ */
+export async function resetUserPassword(id: string, newPassword: string, caller: Caller): Promise<void> {
   if (newPassword.length < 6) throw new Error("Минимум 6 символов");
+  if (id === caller.id) throw new Error("Свой пароль меняется в настройках, с вводом текущего");
+  const target = await db.query.users.findFirst({ where: eq(users.id, id) });
+  if (!target) throw new Error("Пользователь не найден");
+  if (target.role === "owner" && caller.role !== "owner") {
+    throw new Error("Пароль владельца может сбросить только владелец");
+  }
   const hash = await bcrypt.hash(newPassword, 12);
   await db
     .update(users)
@@ -77,9 +91,9 @@ export async function changeOwnPassword(
   next: string,
 ): Promise<void> {
   if (next.length < 6) throw new Error("Минимум 6 символов");
-  if (next === current) throw new Error("Новый пароль должен отличаться от текущего");
+  if (next === current) throw new Error("Новый пароль должен отличаться от текущего");
   const row = await db.query.users.findFirst({ where: eq(users.id, id) });
-  if (!row) throw new Error("Пользователь не найден");
+  if (!row) throw new Error("Пользователь не найден");
   const ok = await bcrypt.compare(current, row.passwordHash);
   if (!ok) throw new Error("Текущий пароль неверный");
   const hash = await bcrypt.hash(next, 12);
@@ -136,7 +150,7 @@ export async function issueInvite({
   const userCount = await countUsers();
   const active = await listActiveInvites();
   if (userCount + active.length >= MAX_USERS) {
-    throw new Error(`Достигнут лимит редакторов (${MAX_USERS}). Удали кого-то или отзови приглашение.`);
+    throw new Error(`Достигнут лимит редакторов (${MAX_USERS}). Удали кого-то или отзови приглашение.`);
   }
 
   const token = randomBytes(24).toString("base64url");
@@ -180,7 +194,7 @@ export async function consumeInvite({
   if (!password || password.length < 6) throw new Error("Пароль минимум 6 символов");
 
   const invite = await db.query.invites.findFirst({ where: eq(invites.token, token) });
-  if (!invite) throw new Error("Приглашение не найдено");
+  if (!invite) throw new Error("Приглашение не найдено");
   if (invite.usedAt) throw new Error("Приглашение уже использовано");
   if (invite.expiresAt < new Date()) throw new Error("Приглашение просрочено");
 

@@ -3,7 +3,7 @@
 import bcrypt from "bcryptjs";
 import { eq } from "drizzle-orm";
 import { redirect } from "next/navigation";
-import { auth, signIn } from "@/lib/auth";
+import { auth, signIn, signOut } from "@/lib/auth";
 import { db } from "@/lib/db";
 import { users } from "@/lib/db/schema";
 
@@ -37,28 +37,31 @@ export async function changePassword(
   const userId = (session.user as { id?: string }).id;
   if (!userId) return { error: "Сессия без id — перелогинься" };
 
-  const row = await db.query.users.findFirst({ where: eq(users.id, userId) });
-  if (!row) return { error: "Пользователь не найден" };
-
-  const ok = await bcrypt.compare(current, row.passwordHash);
-  if (!ok) return { error: "Текущий пароль неверный" };
-
-  const nextHash = await bcrypt.hash(next, 12);
-  await db
-    .update(users)
-    .set({ passwordHash: nextHash, mustChangePassword: false })
-    .where(eq(users.id, userId));
-
-  // Rotate the session — re-issues JWT with mustChangePassword=false.
+  let username: string;
   try {
-    await signIn("credentials", {
-      username: row.username,
-      password: next,
-      redirect: false,
-    });
+    const row = await db.query.users.findFirst({ where: eq(users.id, userId) });
+    if (!row) return { error: "Пользователь не найден" };
+
+    const ok = await bcrypt.compare(current, row.passwordHash);
+    if (!ok) return { error: "Текущий пароль неверный" };
+
+    const nextHash = await bcrypt.hash(next, 12);
+    await db
+      .update(users)
+      .set({ passwordHash: nextHash, mustChangePassword: false })
+      .where(eq(users.id, userId));
+    username = row.username;
+  } catch (err) {
+    console.error("[changePassword]", err);
+    return { error: "Не удалось сменить пароль - попробуйте ещё раз" };
+  }
+
+  // Rotate the session - re-issues JWT with mustChangePassword=false.
+  try {
+    await signIn("credentials", { username, password: next, redirect: false });
   } catch {
-    // On rare failure, just force re-login.
-    redirect("/admin/logout");
+    // On rare failure, just force re-login (signOut throws the redirect itself).
+    await signOut({ redirectTo: "/admin/login" });
   }
 
   redirect("/admin/dashboard");

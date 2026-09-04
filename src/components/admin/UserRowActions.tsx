@@ -12,11 +12,15 @@ type Props = {
   id: string;
   isSelf: boolean;
   isOwner: boolean;
+  /** The viewer is the owner: the only one allowed to reset the owner's password. */
+  viewerIsOwner: boolean;
 };
 
-export function UserRowActions({ id, isSelf, isOwner }: Props) {
+export function UserRowActions({ id, isSelf, isOwner, viewerIsOwner }: Props) {
   const [resetState, resetAction, resetPending] = useActionState(resetPasswordAction, {});
-  const deleteDisabled = isSelf || isOwner;
+  const [deleteState, deleteAction, deletePending] = useActionState(deleteUserAction, {});
+  const deleteDisabled = isSelf || isOwner || deletePending;
+  const resetDisabled = resetPending || isSelf || (isOwner && !viewerIsOwner);
 
   return (
     <div className="flex items-center justify-end gap-2">
@@ -26,8 +30,14 @@ export function UserRowActions({ id, isSelf, isOwner }: Props) {
           type="submit"
           variant="outline"
           size="sm"
-          disabled={resetPending}
-          title="Сгенерировать временный пароль"
+          disabled={resetDisabled}
+          title={
+            isSelf
+              ? "Свой пароль меняется в настройках"
+              : isOwner && !viewerIsOwner
+                ? "Пароль владельца сбрасывает только владелец"
+                : "Сгенерировать временный пароль"
+          }
         >
           <KeyRound className="h-3.5 w-3.5" />
           {resetPending ? "…" : "Сбросить"}
@@ -45,8 +55,13 @@ export function UserRowActions({ id, isSelf, isOwner }: Props) {
         </span>
       )}
 
+      {deleteState.error && (
+        <span className="rounded-md bg-destructive/15 px-2 py-1 text-xs text-destructive">
+          {deleteState.error}
+        </span>
+      )}
       <form
-        action={deleteUserAction}
+        action={deleteAction}
         onSubmit={(e) => {
           if (!confirm("Удалить пользователя? Это действие необратимо.")) e.preventDefault();
         }}
@@ -60,7 +75,7 @@ export function UserRowActions({ id, isSelf, isOwner }: Props) {
           title={isSelf ? "Нельзя удалить самого себя" : isOwner ? "Нельзя удалить владельца" : ""}
         >
           <Trash2 className="h-3.5 w-3.5" />
-          Удалить
+          {deletePending ? "…" : "Удалить"}
         </Button>
       </form>
     </div>

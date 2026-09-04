@@ -14,7 +14,7 @@ export const dynamic = "force-dynamic";
 
 export default async function SettingsPage() {
   const session = await auth();
-  const id = (session?.user as { id?: string }).id ?? "";
+  const id = (session?.user as { id?: string } | undefined)?.id ?? "";
 
   const me = id ? await db.query.users.findFirst({ where: eq(users.id, id) }) : null;
 
@@ -66,36 +66,36 @@ export default async function SettingsPage() {
                   <Integration
                     name="Postgres (Neon)"
                     status={integrations.db ? "on" : "off"}
-                    hint={integrations.db ? "Подключено" : "DATABASE_URL не задан"}
+                    hint={integrations.db ? "Подключено" : "DATABASE_URL не задан"}
                   />
                   <Integration
                     name="Git commits"
                     status={integrations.githubApi ? "on" : "pending"}
                     hint={
                       integrations.githubApi
-                        ? "Пишем в GitHub, Vercel ребилдит"
-                        : "GITHUB_TOKEN не задан — в dev пишем в FS"
+                        ? "Пишем в GitHub, Vercel ребилдит"
+                        : "GITHUB_TOKEN не задан — в dev пишем в FS"
                     }
                   />
                   <Integration
                     name="Cron (scheduled publish)"
                     status={integrations.cron ? "on" : "pending"}
-                    hint={integrations.cron ? "CRON_SECRET задан" : "CRON_SECRET не задан (прод)"}
+                    hint={integrations.cron ? "CRON_SECRET задан" : "CRON_SECRET не задан (прод)"}
                   />
                   <Integration
                     name="Vercel Analytics"
                     status={integrations.analytics ? "on" : "pending"}
-                    hint={integrations.analytics ? "" : "VERCEL_ANALYTICS_ID не задан"}
+                    hint={integrations.analytics ? "" : "VERCEL_ANALYTICS_ID не задан"}
                   />
                   <Integration
                     name="Search Console"
                     status={integrations.searchConsole ? "on" : "pending"}
-                    hint={integrations.searchConsole ? "" : "OAuth ещё не привязан"}
+                    hint={integrations.searchConsole ? "" : "OAuth ещё не привязан"}
                   />
                   <Integration
                     name="Sentry"
                     status={integrations.sentry ? "on" : "pending"}
-                    hint={integrations.sentry ? "" : "SENTRY_DSN не задан"}
+                    hint={integrations.sentry ? "" : "SENTRY_DSN не задан"}
                   />
                 </ul>
               </CardContent>

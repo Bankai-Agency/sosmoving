@@ -14,7 +14,9 @@ export const dynamic = "force-dynamic";
 
 export default async function UsersPage() {
   const session = await auth();
-  const meId = (session?.user as { id?: string }).id ?? "";
+  const me = session?.user as { id?: string; role?: string } | undefined;
+  const meId = me?.id ?? "";
+  const viewerIsOwner = me?.role === "owner";
 
   const [users, invites] = await Promise.all([listUsers(), listActiveInvites()]);
   const remaining = LIMITS.MAX_USERS - users.length - invites.length;
@@ -32,7 +34,7 @@ export default async function UsersPage() {
       <div className="flex-1 space-y-4 p-6">
         <div className="grid grid-cols-3 gap-4">
           <Stat label="Активных редакторов" value={users.length} />
-          <Stat label="Приглашений в ожидании" value={invites.length} />
+          <Stat label="Приглашений в ожидании" value={invites.length} />
           <Stat label="Лимит" value={LIMITS.MAX_USERS} />
         </div>
 
@@ -80,7 +82,7 @@ export default async function UsersPage() {
                         : "—"}
                     </TableCell>
                     <TableCell className="text-right">
-                      <UserRowActions id={u.id} isSelf={u.id === meId} isOwner={u.role === "owner"} />
+                      <UserRowActions id={u.id} isSelf={u.id === meId} isOwner={u.role === "owner"} viewerIsOwner={viewerIsOwner} />
                     </TableCell>
                   </TableRow>
                 ))}
@@ -96,7 +98,7 @@ export default async function UsersPage() {
               <CardContent>
                 {remaining <= 0 ? (
                   <div className="rounded-md bg-warning/15 p-3 text-sm text-foreground">
-                    Лимит {LIMITS.MAX_USERS} редакторов достигнут. Удали кого-то или отзови приглашение.
+                    Лимит {LIMITS.MAX_USERS} редакторов достигнут. Удали кого-то или отзови приглашение.
                   </div>
                 ) : (
                   <InviteForm />
@@ -116,9 +118,9 @@ export default async function UsersPage() {
                     {invites.map((i) => (
                       <li key={i.id} className="flex items-start justify-between gap-3 py-3 first:pt-0 last:pb-0">
                         <div className="flex-1">
-                          <div className="text-sm font-medium">{i.label ?? "без комментария"}</div>
+                          <div className="text-sm font-medium">{i.label ?? "без комментария"}</div>
                           <div className="text-xs text-muted-foreground">
-                            до {i.expiresAt.toLocaleDateString("ru-RU", { day: "numeric", month: "short" })}
+                            до {i.expiresAt.toLocaleDateString("ru-RU", { day: "numeric", month: "short" })}
                           </div>
                         </div>
                         <RevokeInviteButton id={i.id} />

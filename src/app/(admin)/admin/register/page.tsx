@@ -8,15 +8,21 @@ import { inspectInvite } from "@/lib/admin/users";
 export const metadata = { title: "Регистрация" };
 export const dynamic = "force-dynamic"; // token check hits the DB
 
-type SearchParams = { token?: string };
+type SearchParams = { token?: string | string[] };
 
 export default async function RegisterPage({
   searchParams,
 }: {
   searchParams: Promise<SearchParams>;
 }) {
-  const { token = "" } = await searchParams;
-  const invite = token ? await inspectInvite(token) : { valid: false, reason: "missing" as const };
+  const raw = (await searchParams).token;
+  const token = typeof raw === "string" ? raw : "";
+  // A DB hiccup on the public register page must not be a crash - show the
+  // "link is invalid" state and let the person retry the link.
+  type Invite = Awaited<ReturnType<typeof inspectInvite>>;
+  const invite: Invite = token
+    ? await inspectInvite(token).catch((): Invite => ({ valid: false, reason: "not-found" }))
+    : { valid: false, reason: "missing" };
 
   return (
     <div className="flex min-h-dvh items-center justify-center bg-muted/40 px-6 py-12">
@@ -27,15 +33,15 @@ export default async function RegisterPage({
           </div>
           {invite.valid ? (
             <>
-              <CardTitle className="text-2xl">Приглашение в админку</CardTitle>
+              <CardTitle className="text-2xl">Приглашение в админку</CardTitle>
               <CardDescription>
                 {invite.label ? `Для: ${invite.label}. ` : ""}
-                Придумай логин и пароль — после создания тебя залогинит автоматически.
+                Придумай логин и пароль — после создания тебя залогинит автоматически.
               </CardDescription>
             </>
           ) : (
             <>
-              <CardTitle className="text-2xl">Приглашение не активно</CardTitle>
+              <CardTitle className="text-2xl">Приглашение не активно</CardTitle>
               <CardDescription>{reasonText(invite.reason)}</CardDescription>
             </>
           )}
@@ -57,13 +63,13 @@ export default async function RegisterPage({
 function reasonText(reason?: string): string {
   switch (reason) {
     case "not-found":
-      return "Токен не найден. Возможно, ссылка была повреждена.";
+      return "Токен не найден. Возможно, ссылка была повреждена.";
     case "used":
       return "Это приглашение уже использовано. Если это ты регистрировался — просто залогинься. Если нет — попроси новую ссылку.";
     case "expired":
-      return "Срок действия приглашения истёк (7 дней). Попроси новую ссылку у администратора.";
+      return "Срок действия приглашения истёк (7 дней). Попроси новую ссылку у администратора.";
     case "missing":
     default:
-      return "В ссылке нет токена. Открой полную ссылку из приглашения.";
+      return "В ссылке нет токена. Открой полную ссылку из приглашения.";
   }
 }

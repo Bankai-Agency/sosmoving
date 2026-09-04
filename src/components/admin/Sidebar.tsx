@@ -4,9 +4,9 @@ import {
   LayoutList,
   Users,
   Settings,
-  LogOut,
 } from "lucide-react";
 import { Logo } from "./Logo";
+import { LogoutButton } from "./LogoutButton";
 import { NavLink } from "./NavLink";
 import { ThemeToggle } from "./ThemeToggle";
 import { Separator } from "./ui/separator";
@@ -31,7 +31,7 @@ export function Sidebar() {
       <div className="mt-auto flex flex-col gap-1 p-3">
         <Separator className="mb-2 bg-sidebar-border" />
         <ThemeToggle />
-        <NavLink href="/admin/logout" icon={<LogOut className="h-4 w-4" />}>Выйти</NavLink>
+        <LogoutButton />
       </div>
     </aside>
   );
