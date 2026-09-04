@@ -106,15 +106,15 @@ export function DuplicatePageDialog({ sourceSlug, sourceUrl, type }: Props) {
                   Адрес: {target.url} · тип: {pageTypeLabel(target.type)}
                   {!sameKind &&
                     (isLocation
-                      ? ". Для локации slug должен заканчиваться на -movers (например pomona-movers), иначе страница станет «Прочее»: без реестра, sitemap и редактора контента"
+                      ? `. Для локации slug должен заканчиваться на -movers или начинаться с movers- (например pomona-movers), иначе копия станет типом «${pageTypeLabel(target.type)}»: без реестра городов, sitemap и редактора контента`
                       : type === "service"
-                        ? ". Для услуги slug должен начинаться с services__ (например services__shared-load-moving)"
-                        : `. Исходная страница - ${pageTypeLabel(type)}, копия получит другой тип`)}
+                        ? ". Для услуги slug должен начинаться с services__ (например services__shared-load-moving)"
+                        : `. Исходная страница - ${pageTypeLabel(type)}, копия получит другой тип`)}
                 </p>
               ) : (
                 <p className="text-xs text-muted-foreground">
-                  Станет адресом страницы. Города - с окончанием -movers, вложенные - через двойное подчёркивание
-                  (los-angeles-movers__pomona-movers), услуги - с префиксом services__.
+                  Станет адресом страницы. Города - с окончанием -movers, вложенные - через двойное подчёркивание
+                  (los-angeles-movers__pomona-movers), услуги - с префиксом services__.
                 </p>
               )}
             </div>
