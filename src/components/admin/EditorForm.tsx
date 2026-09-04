@@ -84,8 +84,8 @@ export function EditorForm({ slug, frontmatter, content }: Props) {
                 defaultValue={publishAtLocal}
               />
               <span className="text-xs text-muted-foreground">
-                Если задано - крон опубликует статью после этого времени (расписание крона в vercel.json).
-                Дата в прошлом = опубликовать сразу.
+                Если задано - крон опубликует статью после этого времени (расписание крона в vercel.json).
+                Дата в прошлом = опубликовать сразу.
               </span>
             </div>
 

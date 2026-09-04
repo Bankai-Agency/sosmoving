@@ -69,7 +69,7 @@ export default async function EditPageContent({ params }: { params: Promise<Para
           />
         ) : (
           <Alert variant="destructive">
-            Не удалось прочитать страницу из GitHub: {loadError}. Обновите страницу через минуту.
+            Не удалось прочитать страницу из GitHub: {loadError}. Обновите страницу через минуту.
           </Alert>
         )}
       </div>

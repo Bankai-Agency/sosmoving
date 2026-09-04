@@ -1,6 +1,6 @@
 "use server";
 
-import { redirect } from "next/navigation";
+import { redirect, unstable_rethrow } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { auth } from "@/lib/auth";
 import {
@@ -70,6 +70,7 @@ export async function createPost(formData: FormData): Promise<never> {
     await writePost({ frontmatter, content: "Начни писать здесь…" }, `content: create ${slug} (draft)`, actor);
     revalidatePath("/admin/content");
   } catch (err) {
+    unstable_rethrow(err);
     console.error("[createPost]", err);
     redirect(withError("/admin/content", errorMessage(err, "Не удалось создать статью")));
   }
@@ -108,7 +109,7 @@ export async function savePost(
     if (dueNow && draft) {
       return {
         error:
-          "Дата публикации уже прошла: снимите галочку черновика, чтобы опубликовать сейчас, или очистите дату, чтобы оставить черновик.",
+          "Дата публикации уже прошла: снимите галочку черновика, чтобы опубликовать сейчас, или очистите дату, чтобы оставить черновик.",
       };
     }
     const publishAt = publishAtDate && !dueNow ? publishAtDate.toISOString() : undefined;
@@ -149,6 +150,7 @@ export async function savePost(
     revalidatePath(`/blog/${slug}`);
     return { ok: true, slug };
   } catch (err) {
+    unstable_rethrow(err);
     console.error("[savePost]", err);
     return { error: errorMessage(err, "Не удалось сохранить") };
   }
@@ -161,7 +163,7 @@ export async function publishNow(formData: FormData): Promise<never> {
   try {
     const actor = await requireActor();
     const existing = await readPost(slug);
-    if (!existing) redirect(withError("/admin/content", "Статья не найдена"));
+    if (!existing) redirect(withError("/admin/content", "Статья не найдена"));
     await writePost(
       {
         frontmatter: { ...existing.frontmatter, draft: false, publishAt: undefined, lastUpdated: today() },
@@ -174,6 +176,7 @@ export async function publishNow(formData: FormData): Promise<never> {
     revalidatePath(`/admin/content/${slug}`);
     revalidatePath(`/blog/${slug}`);
   } catch (err) {
+    unstable_rethrow(err);
     console.error("[publishNow]", err);
     redirect(withError(`/admin/content/${slug}`, errorMessage(err, "Не удалось опубликовать")));
   }
@@ -187,7 +190,7 @@ export async function unpublish(formData: FormData): Promise<never> {
   try {
     const actor = await requireActor();
     const existing = await readPost(slug);
-    if (!existing) redirect(withError("/admin/content", "Статья не найдена"));
+    if (!existing) redirect(withError("/admin/content", "Статья не найдена"));
     await writePost(
       { frontmatter: { ...existing.frontmatter, draft: true, publishAt: undefined }, content: existing.content },
       `content: unpublish ${slug}`,
@@ -197,6 +200,7 @@ export async function unpublish(formData: FormData): Promise<never> {
     revalidatePath(`/admin/content/${slug}`);
     revalidatePath(`/blog/${slug}`);
   } catch (err) {
+    unstable_rethrow(err);
     console.error("[unpublish]", err);
     redirect(withError(`/admin/content/${slug}`, errorMessage(err, "Не удалось снять с публикации")));
   }
@@ -212,6 +216,7 @@ export async function removePost(formData: FormData): Promise<never> {
     await deletePost(slug, actor);
     revalidatePath("/admin/content");
   } catch (err) {
+    unstable_rethrow(err);
     console.error("[removePost]", err);
     redirect(withError(`/admin/content/${slug}`, errorMessage(err, "Не удалось удалить статью")));
   }

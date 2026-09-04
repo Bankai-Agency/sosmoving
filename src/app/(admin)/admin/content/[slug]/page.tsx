@@ -55,7 +55,7 @@ export default async function EditPostPage({
         <TopBar title={slug} />
         <div className="p-6">
           <Alert variant="destructive">
-            Не удалось прочитать статью из GitHub: {loadError}. Обновите страницу через минуту.
+            Не удалось прочитать статью из GitHub: {loadError}. Обновите страницу через минуту.
           </Alert>
         </div>
       </AdminShell>

@@ -53,7 +53,7 @@ export async function changePassword(
     username = row.username;
   } catch (err) {
     console.error("[changePassword]", err);
-    return { error: "Не удалось сменить пароль - попробуйте ещё раз" };
+    return { error: "Не удалось сменить пароль - попробуйте ещё раз" };
   }
 
   // Rotate the session - re-issues JWT with mustChangePassword=false.
