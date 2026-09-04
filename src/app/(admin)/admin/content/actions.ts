@@ -65,6 +65,8 @@ export async function createPost(formData: FormData): Promise<never> {
       category: "general",
       author: { name: "SOS Moving", role: "", photo: "" },
       draft: true,
+      // Born in the editor: markdown is the only source this post ever has.
+      renderFrom: "md",
     };
 
     await writePost({ frontmatter, content: "Начни писать здесь…" }, `content: create ${slug} (draft)`, actor);
@@ -114,6 +116,19 @@ export async function savePost(
     }
     const publishAt = publishAtDate && !dueNow ? publishAtDate.toISOString() : undefined;
 
+    // Browsers submit form values with CRLF; the markdown files hold LF.
+    const submitted = formData.get("content");
+    const body = typeof submitted === "string" ? submitted.replace(/\r\n?/g, "\n") : existing.content;
+
+    // The scraped articles render from their pixel-perfect html snapshot
+    // until the markdown is actually edited (renderFrom: "md"). BlockNote's
+    // markdown round-trip is lossy for those bodies, so a save that only
+    // touched the title, category or SEO fields must not flip the switch and
+    // replace the snapshot with a degraded copy nobody edited.
+    const legacyBody = existing.frontmatter.renderFrom !== "md";
+    const bodyChanged = body.trim() !== existing.content.replace(/\r\n?/g, "\n").trim();
+    const keepSnapshot = legacyBody && !bodyChanged;
+
     const frontmatter: PostFrontmatter = {
       ...existing.frontmatter,
       title: String(formData.get("title") ?? existing.frontmatter.title ?? ""),
@@ -123,9 +138,9 @@ export async function savePost(
       draft: draft || Boolean(publishAt),
       publishAt,
       lastUpdated: today(),
-      // The admin's markdown is now the source of truth for this article -
-      // the public route stops serving the scraped html snapshot.
-      renderFrom: "md",
+      // Once the body is edited the admin's markdown is the source of truth
+      // for this article - the public route stops serving the html snapshot.
+      renderFrom: keepSnapshot ? existing.frontmatter.renderFrom : "md",
     };
 
     // Keep the multi-category list in sync with the selected primary -
@@ -136,15 +151,17 @@ export async function savePost(
       frontmatter.categories = [frontmatter.category, ...frontmatter.categories];
     }
 
-    const body = String(formData.get("content") ?? existing.content);
-
     const msg = publishAt
       ? `content: schedule ${slug} for ${publishAt}`
       : draft
         ? `content: save draft ${slug}`
         : `content: publish ${slug}`;
 
-    await writePost({ frontmatter, content: body } satisfies Post, msg, actor);
+    await writePost(
+      { frontmatter, content: keepSnapshot ? existing.content : body } satisfies Post,
+      msg,
+      actor,
+    );
     revalidatePath("/admin/content");
     revalidatePath(`/admin/content/${slug}`);
     revalidatePath(`/blog/${slug}`);

@@ -37,6 +37,11 @@ type Props = {
 export function EditorForm({ slug, frontmatter, content }: Props) {
   const [state, formAction, pending] = useActionState(savePost, {});
 
+  // The scraped articles keep rendering from their html snapshot until the
+  // body is edited here (savePost stamps renderFrom: "md" only then). Say so
+  // up front: BlockNote's markdown round-trip can flatten the fancy bits.
+  const legacyBody = frontmatter.renderFrom !== "md";
+
   // Hand-edited frontmatter can hold anything; an unparsable date must not
   // take the whole editor down (toISOString throws on Invalid Date).
   const publishAtParsed = frontmatter.publishAt ? new Date(frontmatter.publishAt) : null;
@@ -55,6 +60,14 @@ export function EditorForm({ slug, frontmatter, content }: Props) {
           className="h2 w-full rounded-md border border-transparent bg-transparent px-2 py-1 text-foreground outline-none transition-colors hover:border-border focus:border-ring focus:bg-card"
         />
         <input type="hidden" name="slug" value={slug} />
+        {legacyBody && (
+          <Alert className="border-warning/50 text-foreground">
+            <AlertDescription>
+              {"Статья пока показывается на\u00a0сайте в\u00a0исходной вёрстке. Заголовок, категорию и\u00a0SEO-поля можно менять свободно. "}
+              {"Если изменить текст и\u00a0сохранить, сайт начнёт показывать версию из\u00a0редактора, а\u00a0сложное форматирование (таблицы, врезки) может потеряться - проверьте превью после сохранения."}
+            </AlertDescription>
+          </Alert>
+        )}
         <Editor initialMarkdown={content} hiddenInputName="content" />
       </div>
 
