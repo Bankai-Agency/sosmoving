@@ -23,9 +23,24 @@ export type PostRow = {
   publishAt?: string;
 };
 
+/** readdirSync that degrades to an empty list when the directory is not in the function bundle. */
+function safeReaddir(dir: string): string[] {
+  try {
+    return readdirSync(dir);
+  } catch {
+    return [];
+  }
+}
+
 function rowFromFrontmatter(slug: string, data: Record<string, unknown>): PostRow {
   const draft = data.draft === true;
-  const publishAtRaw = typeof data.publishAt === "string" ? data.publishAt : undefined;
+  // gray-matter parses an unquoted YAML timestamp into a Date.
+  const publishAtRaw =
+    typeof data.publishAt === "string"
+      ? data.publishAt
+      : data.publishAt instanceof Date
+        ? data.publishAt.toISOString()
+        : undefined;
   const publishAt = publishAtRaw ? new Date(publishAtRaw) : null;
   const now = new Date();
 
@@ -53,7 +68,7 @@ function rowFromFrontmatter(slug: string, data: Record<string, unknown>): PostRo
  */
 export async function getAllPosts(limit?: number): Promise<PostRow[]> {
   const rows = new Map<string, PostRow>();
-  for (const file of readdirSync(BLOG_DIR).filter((f) => f.endsWith(".md"))) {
+  for (const file of safeReaddir(BLOG_DIR).filter((f) => f.endsWith(".md"))) {
     const slug = file.replace(/\.md$/, "");
     try {
       const { data } = matter(readFileSync(join(BLOG_DIR, file), "utf-8"));
@@ -68,8 +83,10 @@ export async function getAllPosts(limit?: number): Promise<PostRow[]> {
     const gh = new Set(ghSlugs);
     // deleted via the admin since the last build
     for (const slug of [...rows.keys()]) if (!gh.has(slug)) rows.delete(slug);
-    // created via the admin since the last build
-    const fresh = ghSlugs.filter((s) => !rows.has(s));
+    // created via the admin since the last build. Normally a handful; if the
+    // fs listing is empty (dir not bundled) this would be 400+ parallel API
+    // calls into GitHub's secondary rate limit - cap it instead.
+    const fresh = ghSlugs.filter((s) => !rows.has(s)).slice(0, 50);
     const posts = await Promise.all(fresh.map((s) => readPost(s).catch(() => null)));
     posts.forEach((post, i) => {
       if (post) {
@@ -94,10 +111,10 @@ export type SiteStats = {
 };
 
 export function getSiteStats(): SiteStats {
-  const pageFiles = readdirSync(PAGES_DIR).filter((f) => f.endsWith(".html"));
-  const blogPosts = readdirSync(BLOG_DIR).filter((f) => f.endsWith(".md")).length;
-  const cities = readdirSync(CITIES_DIR).filter((f) => f.endsWith(".json")).length;
-  const services = readdirSync(SERVICES_DIR).filter((f) => f.endsWith(".json") && !f.startsWith("_")).length;
+  const pageFiles = safeReaddir(PAGES_DIR).filter((f) => f.endsWith(".html"));
+  const blogPosts = safeReaddir(BLOG_DIR).filter((f) => f.endsWith(".md")).length;
+  const cities = safeReaddir(CITIES_DIR).filter((f) => f.endsWith(".json")).length;
+  const services = safeReaddir(SERVICES_DIR).filter((f) => f.endsWith(".json") && !f.startsWith("_")).length;
 
   // Bucket by naming convention from PROJECT-CONTEXT.md
   const buckets: Record<string, number> = {

@@ -37,7 +37,7 @@ function octokit(): Octokit {
 }
 
 const ALLOWED_EXTS = new Set(["jpg", "jpeg", "png", "webp", "avif", "gif", "svg"]);
-const MAX_BYTES = 8 * 1024 * 1024; // 8 MB — generous for blog content
+const MAX_BYTES = 4 * 1024 * 1024; // Vercel rejects request bodies over 4.5 MB before the handler runs
 
 export type UploadResult = { url: string; filename: string; bytes: number };
 

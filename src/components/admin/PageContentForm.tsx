@@ -131,7 +131,8 @@ function ImageRow({ index, src, alt }: { index: number; src: string; alt: string
       fd.append("file", file);
       fd.append("dir", "pages");
       const res = await fetch("/api/upload", { method: "POST", body: fd });
-      const data = (await res.json()) as { url?: string; error?: string };
+      // A platform 413 (body over 4.5 MB) is not JSON - do not turn it into a SyntaxError.
+      const data = (await res.json().catch(() => ({}))) as { url?: string; error?: string };
       if (!res.ok || !data.url) throw new Error(data.error ?? "Загрузка не удалась");
       setCurrent(data.url);
     } catch (err) {

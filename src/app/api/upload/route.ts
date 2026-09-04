@@ -14,6 +14,7 @@ import { saveImage } from "@/lib/admin/image-store";
  * Auth: requires a valid admin session. Unauthenticated callers get 401.
  */
 export const runtime = "nodejs"; // sharp / Buffer / fs — Node runtime only
+export const maxDuration = 60; // two GitHub calls plus the upload body
 
 export async function POST(req: Request) {
   const session = await auth();

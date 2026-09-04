@@ -17,7 +17,7 @@ export default async function DashboardPage() {
   const stats = getSiteStats();
   const status = getStatusCounts();
   const scheduled = await getScheduledPosts();
-  const commits = getRecentCommits(8);
+  const commits = await getRecentCommits(8);
   const categories = getTopCategories(6);
   const integrations = getIntegrations();
 

@@ -5,7 +5,8 @@ import { NextResponse } from "next/server";
 import { readPost, writePost } from "@/lib/admin/content-store";
 
 /**
- * Scheduled-publish cron — runs every 5 minutes via vercel.json.
+ * Scheduled-publish cron - schedule lives in vercel.json (daily at 00:00 UTC
+ * at the time of writing; the editor copy points there).
  *
  * Finds posts with `draft: true` + `publishAt <= now` and flips `draft: false`
  * (also strips `publishAt`). Each flip is committed individually so Vercel's
@@ -19,6 +20,8 @@ import { readPost, writePost } from "@/lib/admin/content-store";
  *   If CRON_SECRET isn't set (local dev) we allow unauthenticated calls.
  */
 export const dynamic = "force-dynamic";
+// Three serial GitHub calls per due post.
+export const maxDuration = 60;
 
 const BLOG_DIR = join(process.cwd(), "src/data/blog");
 
@@ -51,6 +54,11 @@ export async function GET(req: Request) {
     try {
       const post = await readPost(slug);
       if (!post) continue;
+      // "due" came from the fs snapshot of the last build; the post may have
+      // been rescheduled or unpublished through the admin since. Trust the
+      // fresh frontmatter before flipping it.
+      const fm = post.frontmatter;
+      if (fm.draft !== true || !fm.publishAt || new Date(fm.publishAt) > now) continue;
       await writePost(
         {
           frontmatter: {
