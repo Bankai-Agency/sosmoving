@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "SOS Moving - Test Page Movers",
+  "url": "https://www.sosmovingla.net/test-page",
+  "description": "Trust our Test Page movers for reliable, caring service. We offer full-service packing and expert handling for moves across Oregon. Get a free quote!",
+  "image": "https://www.sosmovingla.net/images/general/689f96a06e323e403297008c_MoversInTruck.webp",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://www.sosmovingla.net/images/general/661fb80f63df1e16fb9dced9_Sos-logo-min.avif"
+  },
+  "telephone": "+19094430004",
+  "email": "info@sosmovingla.net",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "5530 Jillson Street",
+    "addressLocality": "Los Angeles",
+    "addressRegion": "CA",
+    "postalCode": "90040",
+    "addressCountry": "US"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Test Page",
+    "containedInPlace": {
+      "@type": "State",
+      "name": "Oregon"
+    }
+  },
+  "priceRange": "From $119/Hr.",
+  "openingHours": "Mo-Su 08:00-18:00",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "1007",
+    "bestRating": "5"
+  },
+  "sameAs": [
+    "https://www.yelp.com/biz/sos-moving-los-angeles-4",
+    "https://www.google.com/maps/place/SOS+Moving/@34.001102,-118.160027,17z/data=!4m8!3m7!1s0x80c2c73054a25063:0xd9931e90628a9b15!8m2!3d34.001102!4d-118.160027!9m1!1b1!16s%2Fg%2F11j8_ff8nd?entry=ttu&g_ep=EgoyMDI1MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+    "https://www.trustpilot.com/review/sosmovingla.net",
+    "https://www.homeadvisor.com/rated.sosmovinglanet.97010293.html",
+    "https://www.bbb.org/us/ca/los-angeles/profile/moving-services/sos-moving-llc-1216-1285189"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Moving Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Local Moving Services",
+          "description": "Professional local movers in Test Page for residential and apartment moves"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Long-Distance Moving",
+          "description": "Licensed and insured long-distance movers for interstate and cross-country relocations"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Commercial Moving",
+          "description": "Office movers in Test Page for business relocations and commercial moves"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Packing Services",
+          "description": "Expert packing and unpacking services with quality materials and custom crating"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Storage Services",
+          "description": "Secure storage solutions for short-term and long-term needs"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "White Glove Moving",
+          "description": "Premium moving service with extra care for specialty and valuable items"
+        }
+      }
+    ]
+  }
+}

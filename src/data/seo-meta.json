@@ -8688,5 +8688,26 @@
     },
     "jsonldFile": "data/jsonld/willamette-movers.json",
     "jsonldExpected": 1
+  },
+  {
+    "url": "/test-page",
+    "title": "Test Page's #1 Movers from $115/Hour | We Can Handle Any Move",
+    "description": "Trust our Test Page movers for reliable, caring service. We offer full-service packing and expert handling for moves across Oregon. Get a free quote!",
+    "canonical": "https://www.sosmovingla.net/test-page",
+    "robots": "",
+    "h1": "Movers Test Page, Oregon",
+    "lang": "en",
+    "og": {
+      "og:title": "Test Page's #1 Movers from $115/Hour | We Can Handle Any Move",
+      "og:description": "Trust our Test Page movers for reliable, caring service. We offer full-service packing and expert handling for moves across Oregon. Get a free quote!",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Test Page's #1 Movers from $115/Hour | We Can Handle Any Move",
+      "twitter:description": "Trust our Test Page movers for reliable, caring service. We offer full-service packing and expert handling for moves across Oregon. Get a free quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/test-page.json",
+    "jsonldExpected": 1
   }
 ]
