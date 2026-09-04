@@ -20,6 +20,8 @@ export function DeletePageDialog({ slug, url }: Props) {
   const [open, setOpen] = useState(false);
   const [confirm, setConfirm] = useState("");
   const [state, formAction, pending] = useActionState<DeleteState, FormData>(deletePage, {});
+  // The slug or the public path both confirm - whichever the editor copies.
+  const confirmed = confirm === slug || confirm === url;
 
   return (
     <Dialog open={open} onOpenChange={setOpen}>
@@ -42,7 +44,7 @@ export function DeletePageDialog({ slug, url }: Props) {
               {state.github
                 ? state.deferred
                   ? "Сохранено без публикации - на сайте она исчезнет после «Опубликовать накопленное»."
-                  : "Сайт пересоберётся за ~2 минуты."
+                  : "Сайт пересоберётся за ~2 минуты."
                 : "Файлы удалены локально."}
             </Alert>
             {state.notes && state.notes.length > 0 && (
@@ -74,6 +76,9 @@ export function DeletePageDialog({ slug, url }: Props) {
 
             <div className="flex flex-col gap-1.5">
               <Label htmlFor="del_confirm">Введите slug для подтверждения</Label>
+              <p className="text-xs text-muted-foreground">
+                Выделите и вставьте: <span className="select-all font-mono text-foreground">&quot;{slug}&quot;</span>
+              </p>
               <Input
                 id="del_confirm"
                 name="confirm_slug"
@@ -93,7 +98,7 @@ export function DeletePageDialog({ slug, url }: Props) {
               <Button type="button" variant="outline" onClick={() => setOpen(false)} disabled={pending}>
                 Отмена
               </Button>
-              <Button type="submit" variant="destructive" disabled={pending || confirm !== slug}>
+              <Button type="submit" variant="destructive" disabled={pending || !confirmed}>
                 {pending && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
                 Удалить страницу
               </Button>

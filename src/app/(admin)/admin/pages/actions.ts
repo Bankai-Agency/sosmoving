@@ -166,8 +166,11 @@ export async function deletePage(_prev: DeleteState, formData: FormData): Promis
   const slug = String(formData.get("slug") ?? "").trim();
   const confirm = String(formData.get("confirm_slug") ?? "").trim();
   if (!isValidPageSlug(slug)) return { error: "Некорректный slug." };
-  if (confirm !== slug) return { error: "Для подтверждения введите slug страницы точно как в списке." };
-  if (NON_DELETABLE_TYPES.has(classifyPage(slug).type)) {
+  const { type, url } = classifyPage(slug);
+  if (confirm !== slug && confirm !== url) {
+    return { error: "Для подтверждения введите slug или адрес страницы точно как в списке." };
+  }
+  if (NON_DELETABLE_TYPES.has(type)) {
     return { error: "Эту страницу удалять нельзя: она структурная (главная, листинги, формы) или управляется в разделе блога." };
   }
   if (!(await pageExists(slug))) return { error: `Страница ${slug} уже отсутствует.` };
