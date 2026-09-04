@@ -231,16 +231,26 @@ export async function commitFiles(
     const o = octokit();
     const ref = await o.git.getRef({ owner, repo, ref: `heads/${BRANCH}` });
     const headSha = ref.data.object.sha;
-    const head = await o.git.getCommit({ owner, repo, commit_sha: headSha });
+    // Blobs first and in parallel. createTree with inline content makes
+    // GitHub write the blobs one by one, and a duplicate ships ~600 KB (the
+    // html plus the whole seo-meta.json): measured 9 s serial - past the
+    // 15 s Vercel function limit once cold start and auth are added.
+    const headPromise = o.git.getCommit({ owner, repo, commit_sha: headSha });
+    const blobs = await Promise.all(
+      files.map((f) =>
+        f.content === null
+          ? Promise.resolve(null)
+          : o.git
+              .createBlob({ owner, repo, content: Buffer.from(f.content, "utf-8").toString("base64"), encoding: "base64" })
+              .then((r) => r.data.sha),
+      ),
+    );
+    const head = await headPromise;
     const tree = await o.git.createTree({
       owner,
       repo,
       base_tree: head.data.tree.sha,
-      tree: files.map((f) =>
-        f.content === null
-          ? { path: f.path, mode: "100644" as const, type: "blob" as const, sha: null }
-          : { path: f.path, mode: "100644" as const, type: "blob" as const, content: f.content },
-      ),
+      tree: files.map((f, i) => ({ path: f.path, mode: "100644" as const, type: "blob" as const, sha: blobs[i] })),
     });
     const commit = await o.git.createCommit({
       owner,

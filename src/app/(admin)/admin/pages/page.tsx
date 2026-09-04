@@ -9,6 +9,10 @@ import { PageTrash } from "@/components/admin/PageTrash";
 
 export const metadata = { title: "Страницы сайта" };
 export const dynamic = "force-dynamic";
+// Duplicate / delete / restore run ~10 GitHub API calls and ship the whole
+// seo-meta.json in one commit - the default 15 s function limit killed the
+// first duplicate attempt in prod.
+export const maxDuration = 60;
 
 export default async function PagesHealthPage() {
   const rows = await listPagesFresh();
