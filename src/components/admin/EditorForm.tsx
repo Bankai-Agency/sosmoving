@@ -37,9 +37,11 @@ type Props = {
 export function EditorForm({ slug, frontmatter, content }: Props) {
   const [state, formAction, pending] = useActionState(savePost, {});
 
-  const publishAtLocal = frontmatter.publishAt
-    ? new Date(frontmatter.publishAt).toISOString().slice(0, 16)
-    : "";
+  // Hand-edited frontmatter can hold anything; an unparsable date must not
+  // take the whole editor down (toISOString throws on Invalid Date).
+  const publishAtParsed = frontmatter.publishAt ? new Date(frontmatter.publishAt) : null;
+  const publishAtLocal =
+    publishAtParsed && !Number.isNaN(publishAtParsed.getTime()) ? publishAtParsed.toISOString().slice(0, 16) : "";
 
   return (
     <form action={formAction} className="grid grid-cols-1 gap-6 lg:grid-cols-[1fr_340px]">
@@ -67,14 +69,14 @@ export function EditorForm({ slug, frontmatter, content }: Props) {
               <input
                 type="checkbox"
                 name="draft"
-                defaultChecked={frontmatter.draft === true && !frontmatter.publishAt}
+                defaultChecked={frontmatter.draft === true}
                 className="h-4 w-4 accent-primary"
               />
               <span>Оставить как черновик</span>
             </label>
 
             <div className="flex flex-col gap-2">
-              <Label htmlFor="publishAt">Запланировать публикацию</Label>
+              <Label htmlFor="publishAt">Запланировать публикацию (время UTC)</Label>
               <Input
                 id="publishAt"
                 type="datetime-local"
@@ -82,7 +84,8 @@ export function EditorForm({ slug, frontmatter, content }: Props) {
                 defaultValue={publishAtLocal}
               />
               <span className="text-xs text-muted-foreground">
-                Если задано — станет публичным в указанное время (±5 мин, cron).
+                Если задано - крон опубликует статью после этого времени (расписание крона в vercel.json).
+                Дата в прошлом = опубликовать сразу.
               </span>
             </div>
 

@@ -7,11 +7,18 @@ import { Button } from "@/components/admin/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/admin/ui/card";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/admin/ui/table";
 import { getAllPosts } from "@/lib/admin/stats";
+import { Alert } from "@/components/admin/ui/alert";
 
 export const metadata = { title: "Контент" };
 export const dynamic = "force-dynamic";
 
-export default async function ContentPage() {
+export default async function ContentPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ error?: string | string[] }>;
+}) {
+  const { error } = await searchParams;
+  const errorText = Array.isArray(error) ? error[0] : error;
   const posts = await getAllPosts();
   const published = posts.filter((p) => p.status === "published").length;
   const drafts = posts.filter((p) => p.status === "draft").length;
@@ -31,6 +38,7 @@ export default async function ContentPage() {
         }
       />
       <div className="flex-1 space-y-4 p-6">
+        {errorText && <Alert variant="destructive">{errorText}</Alert>}
         <div className="grid grid-cols-3 gap-4">
           <Stat label="Опубликовано" value={published} />
           <Stat label="Черновики" value={drafts} />
@@ -72,7 +80,7 @@ export default async function ContentPage() {
           </Table>
           {posts.length > 50 && (
             <div className="border-t p-3 text-center text-xs text-muted-foreground">
-              Показано 50 из {posts.length}. Пагинация и поиск — в следующем шаге.
+              Показано 50 из {posts.length}. Пагинация и поиск — в следующем шаге.
             </div>
           )}
         </Card>

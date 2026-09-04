@@ -67,8 +67,16 @@ export type Post = {
   content: string; // markdown body (no frontmatter)
 };
 
-/** Read a post. Returns null if the slug doesn't exist. */
+/** Post slugs are path segments: lowercase, digits, hyphens, nothing else. */
+export const POST_SLUG_RE = /^[a-z0-9][a-z0-9-]*$/;
+
+export function isValidPostSlug(slug: string): boolean {
+  return POST_SLUG_RE.test(slug);
+}
+
+/** Read a post. Returns null if the slug doesn't exist (or is not a slug at all). */
 export async function readPost(slug: string): Promise<Post | null> {
+  if (!isValidPostSlug(slug)) return null;
   const path = `${BLOG_DIR}/${slug}.md`;
 
   let raw: string | null = null;
@@ -103,6 +111,7 @@ export async function readPost(slug: string): Promise<Post | null> {
 export async function writePost(post: Post, commitMessage: string, actor: string): Promise<void> {
   const slug = post.frontmatter.slug;
   if (!slug) throw new Error("slug is required");
+  if (!isValidPostSlug(slug)) throw new Error(`Некорректный slug: ${slug}`);
   const path = `${BLOG_DIR}/${slug}.md`;
   const raw = matter.stringify(post.content, normalizeFrontmatter(post.frontmatter));
 
@@ -134,15 +143,23 @@ export async function writePost(post: Post, commitMessage: string, actor: string
   }
 }
 
-/** Delete a post. */
+/** Delete a post. Already gone (double click, another tab) is not an error. */
 export async function deletePost(slug: string, actor: string): Promise<void> {
+  if (!isValidPostSlug(slug)) throw new Error(`Некорректный slug: ${slug}`);
   const path = `${BLOG_DIR}/${slug}.md`;
   const msg = `content: delete ${slug}\n\nvia admin panel by ${actor}`;
 
   if (viaGitHub()) {
     const { owner, repo } = splitRepo();
-    const res = await octokit().repos.getContent({ owner, repo, path, ref: BRANCH });
-    const sha = (res.data as { sha: string }).sha;
+    let sha: string | undefined;
+    try {
+      const res = await octokit().repos.getContent({ owner, repo, path, ref: BRANCH });
+      sha = (res.data as { sha?: string }).sha;
+    } catch (err) {
+      if ((err as { status?: number }).status === 404) return;
+      throw err;
+    }
+    if (!sha) return;
     await octokit().repos.deleteFile({ owner, repo, path, branch: BRANCH, sha, message: msg });
   } else {
     const abs = join(process.cwd(), path);
