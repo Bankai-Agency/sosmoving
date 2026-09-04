@@ -63,7 +63,7 @@ export function DuplicatePageDialog({ sourceSlug, sourceUrl, type }: Props) {
               {state.github
                 ? state.deferred
                   ? "Сохранена без публикации - нажмите «Опубликовать накопленное», когда закончите правки."
-                  : "Сайт пересоберётся за ~2 минуты; в списке страниц она появится после сборки."
+                  : "Сайт пересоберётся за ~2 минуты; в списке страниц она уже есть."
                 : "Файлы записаны локально."}
             </Alert>
             {state.notes && state.notes.length > 0 && (
@@ -109,12 +109,12 @@ export function DuplicatePageDialog({ sourceSlug, sourceUrl, type }: Props) {
                       ? `. Для локации slug должен заканчиваться на -movers или начинаться с movers- (например pomona-movers), иначе копия станет типом «${pageTypeLabel(target.type)}»: без реестра городов, sitemap и редактора контента`
                       : type === "service"
                         ? ". Для услуги slug должен начинаться с services__ (например services__shared-load-moving)"
-                        : `. Исходная страница - ${pageTypeLabel(type)}, копия получит другой тип`)}
+                        : `. Исходная страница - ${pageTypeLabel(type)}, копия получит другой тип`)}
                 </p>
               ) : (
                 <p className="text-xs text-muted-foreground">
-                  Станет адресом страницы. Города - с окончанием -movers, вложенные - через двойное подчёркивание
-                  (los-angeles-movers__pomona-movers), услуги - с префиксом services__.
+                  Станет адресом страницы. Города - с окончанием -movers, вложенные - через двойное подчёркивание
+                  (los-angeles-movers__pomona-movers), услуги - с префиксом services__.
                 </p>
               )}
             </div>

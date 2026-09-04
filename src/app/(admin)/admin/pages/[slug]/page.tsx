@@ -8,8 +8,11 @@ import { PageContentForm } from "@/components/admin/PageContentForm";
 import { readPageHtml, pageHash } from "@/lib/admin/page-store";
 import { extractSlots } from "@/lib/admin/page-slots";
 import { classifyPage } from "@/lib/admin/pages";
+import { Alert } from "@/components/admin/ui/alert";
 
 export const dynamic = "force-dynamic";
+// savePageContent makes up to three serial GitHub calls with the page html.
+export const maxDuration = 60;
 
 type Params = { slug: string };
 
@@ -24,10 +27,16 @@ export default async function EditPageContent({ params }: { params: Promise<Para
   // v1: the slot extractor is validated against city pages only.
   if (type !== "city" && type !== "movers-city") notFound();
 
-  const html = await readPageHtml(slug);
-  if (html === null) notFound();
+  let html: string | null = null;
+  let loadError: string | null = null;
+  try {
+    html = await readPageHtml(slug);
+  } catch (err) {
+    loadError = err instanceof Error ? err.message : "GitHub недоступен";
+  }
+  if (!loadError && html === null) notFound();
 
-  const slots = extractSlots(html);
+  const slots = html ? extractSlots(html) : null;
 
   return (
     <AdminShell>
@@ -49,14 +58,20 @@ export default async function EditPageContent({ params }: { params: Promise<Para
         }
       />
       <div className="flex-1 p-6">
-        <PageContentForm
-          slug={slug}
-          baseHash={pageHash(html)}
-          heroH1={slots.heroH1 ? slots.heroH1.lines : null}
-          heroSubtitle={slots.heroSubtitle ? slots.heroSubtitle.text : null}
-          faq={slots.faq.map(({ q, a }) => ({ q, a }))}
-          images={slots.images.map(({ src, alt }) => ({ src, alt }))}
-        />
+        {html && slots ? (
+          <PageContentForm
+            slug={slug}
+            baseHash={pageHash(html)}
+            heroH1={slots.heroH1 ? slots.heroH1.lines : null}
+            heroSubtitle={slots.heroSubtitle ? slots.heroSubtitle.text : null}
+            faq={slots.faq.map(({ q, a }) => ({ q, a }))}
+            images={slots.images.map(({ src, alt }) => ({ src, alt }))}
+          />
+        ) : (
+          <Alert variant="destructive">
+            Не удалось прочитать страницу из GitHub: {loadError}. Обновите страницу через минуту.
+          </Alert>
+        )}
       </div>
     </AdminShell>
   );

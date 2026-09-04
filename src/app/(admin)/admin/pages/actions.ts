@@ -55,77 +55,80 @@ export async function duplicatePage(_prev: DuplicateState, formData: FormData): 
     return { error: "Главную и посты блога дублировать нельзя." };
   }
 
-  const sourceHtml = await readPageHtml(sourceSlug);
-  if (sourceHtml === null) return { error: `Исходная страница ${sourceSlug} не найдена.` };
-  if (await pageExists(newSlug)) return { error: `Страница ${newSlug} уже существует.` };
+  // Reads, plan and commit all talk to GitHub; a 403/5xx anywhere must
+  // come back as a message in the dialog, not as the generic error page.
+  try {
+    const sourceHtml = await readPageHtml(sourceSlug);
+    if (sourceHtml === null) return { error: `Исходная страница ${sourceSlug} не найдена.` };
+    if (await pageExists(newSlug)) return { error: `Страница ${newSlug} уже существует.` };
 
-  const [seoMetaJson, pageMapJson, bundleMapJson, citiesRegistryJson, servicesRegistryJson] = await Promise.all([
-    readRepoTextFile("src/data/seo-meta.json"),
-    readRepoTextFile("public/wf-page-map.json"),
-    readRepoTextFile("public/wf-bundle-map.json"),
-    readRepoTextFile("src/data/cities/_registry.json"),
-    readRepoTextFile("src/data/services/_registry.json"),
-  ]);
-  if (!seoMetaJson || !pageMapJson || !bundleMapJson || !citiesRegistryJson || !servicesRegistryJson) {
-    return { error: "Не удалось прочитать служебные файлы (seo-meta, карты Webflow, реестры)." };
-  }
-
-  const sourceUrl = classifyPage(sourceSlug).url;
-  const jsonldRef =
-    (JSON.parse(seoMetaJson) as { url: string; jsonldFile: string | null }[]).find((e) => e.url === sourceUrl)
-      ?.jsonldFile ?? null;
-  let sourceJsonld: string | null = null;
-  if (jsonldRef) {
-    try {
-      sourceJsonld = await readRepoTextFile(`src/${jsonldRef}`);
-    } catch (err) {
-      // Outside the allowlist (odd filename) - the copy simply goes without
-      // JSON-LD. Anything else (GitHub 401/5xx) must not silently drop it.
-      if (err instanceof Error && err.message.includes("allowlist")) sourceJsonld = null;
-      else return { error: "Не удалось прочитать JSON-LD исходной страницы - попробуйте ещё раз." };
+    const [seoMetaJson, pageMapJson, bundleMapJson, citiesRegistryJson, servicesRegistryJson] = await Promise.all([
+      readRepoTextFile("src/data/seo-meta.json"),
+      readRepoTextFile("public/wf-page-map.json"),
+      readRepoTextFile("public/wf-bundle-map.json"),
+      readRepoTextFile("src/data/cities/_registry.json"),
+      readRepoTextFile("src/data/services/_registry.json"),
+    ]);
+    if (!seoMetaJson || !pageMapJson || !bundleMapJson || !citiesRegistryJson || !servicesRegistryJson) {
+      return { error: "Не удалось прочитать служебные файлы (seo-meta, карты Webflow, реестры)." };
     }
-  }
 
-  let plan;
-  try {
-    plan = planDuplicate(
-      {
-        sourceSlug,
-        newSlug,
-        replaceFrom: String(formData.get("replace_from") ?? ""),
-        replaceTo: String(formData.get("replace_to") ?? ""),
-        title: String(formData.get("title") ?? ""),
-        description: String(formData.get("description") ?? ""),
-        indexable: formData.get("indexable") === "on",
-      },
-      { sourceHtml, seoMetaJson, pageMapJson, bundleMapJson, citiesRegistryJson, servicesRegistryJson, sourceJsonld },
-    );
+    const sourceUrl = classifyPage(sourceSlug).url;
+    const jsonldRef =
+      (JSON.parse(seoMetaJson) as { url: string; jsonldFile: string | null }[]).find((e) => e.url === sourceUrl)
+        ?.jsonldFile ?? null;
+    let sourceJsonld: string | null = null;
+    if (jsonldRef) {
+      try {
+        sourceJsonld = await readRepoTextFile(`src/${jsonldRef}`);
+      } catch (err) {
+        // Outside the allowlist (odd filename) - the copy simply goes without
+        // JSON-LD. Anything else (GitHub 401/5xx) must not silently drop it.
+        if (err instanceof Error && err.message.includes("allowlist")) sourceJsonld = null;
+        else return { error: "Не удалось прочитать JSON-LD исходной страницы - попробуйте ещё раз." };
+      }
+    }
+
+    let plan;
+    try {
+      plan = planDuplicate(
+        {
+          sourceSlug,
+          newSlug,
+          replaceFrom: String(formData.get("replace_from") ?? ""),
+          replaceTo: String(formData.get("replace_to") ?? ""),
+          title: String(formData.get("title") ?? ""),
+          description: String(formData.get("description") ?? ""),
+          indexable: formData.get("indexable") === "on",
+        },
+        { sourceHtml, seoMetaJson, pageMapJson, bundleMapJson, citiesRegistryJson, servicesRegistryJson, sourceJsonld },
+      );
+    } catch (err) {
+      return { error: err instanceof Error ? err.message : "Не удалось подготовить копию." };
+    }
+
+    const deferBuild = formData.get("defer_build") === "on";
+    try {
+      await commitFiles(plan.files, `content(page): duplicate ${sourceSlug} -> ${newSlug}`, actor, deferBuild);
+    } catch (err) {
+      return { error: err instanceof Error ? `Не удалось сохранить: ${err.message}` : "Не удалось сохранить копию." };
+    }
+
+    revalidatePath("/admin/pages");
+    return {
+      ok: true,
+      slug: newSlug,
+      url: plan.newUrl,
+      editable: plan.type === "city" || plan.type === "movers-city",
+      deferred: deferBuild,
+      github: isGitHubBackend(),
+      notes: plan.notes,
+    };
   } catch (err) {
-    return { error: err instanceof Error ? err.message : "Не удалось подготовить копию." };
+    console.error("[duplicatePage]", err);
+    return { error: err instanceof Error ? err.message : "Не удалось создать копию" };
   }
-
-  const deferBuild = formData.get("defer_build") === "on";
-  try {
-    await commitFiles(plan.files, `content(page): duplicate ${sourceSlug} -> ${newSlug}`, actor, deferBuild);
-  } catch (err) {
-    return { error: err instanceof Error ? `Не удалось сохранить: ${err.message}` : "Не удалось сохранить копию." };
-  }
-
-  revalidatePath("/admin/pages");
-  return {
-    ok: true,
-    slug: newSlug,
-    url: plan.newUrl,
-    editable: plan.type === "city" || plan.type === "movers-city",
-    deferred: deferBuild,
-    github: isGitHubBackend(),
-    notes: plan.notes,
-  };
 }
-
-// ============================================================
-// Delete + restore (git history is the trash)
-// ============================================================
 
 export type DeleteState = {
   error?: string;
@@ -175,27 +178,34 @@ export async function deletePage(_prev: DeleteState, formData: FormData): Promis
   if (NON_DELETABLE_TYPES.has(type)) {
     return { error: "Эту страницу удалять нельзя: она структурная (главная, листинги, формы) или управляется в разделе блога." };
   }
-  if (!(await pageExists(slug))) return { error: `Страница ${slug} уже отсутствует.` };
-
-  const snap = await readSupportFiles();
-  if (!snap) return { error: "Не удалось прочитать служебные файлы (seo-meta, карты Webflow, реестры, редиректы)." };
-
-  let plan;
+  // Reads, plan and commit all talk to GitHub; a 403/5xx anywhere must
+  // come back as a message in the dialog, not as the generic error page.
   try {
-    plan = planDelete({ slug, redirectTo: String(formData.get("redirect_to") ?? "") }, snap);
-  } catch (err) {
-    return { error: err instanceof Error ? err.message : "Не удалось подготовить удаление." };
-  }
+    if (!(await pageExists(slug))) return { error: `Страница ${slug} уже отсутствует.` };
 
-  const deferBuild = formData.get("defer_build") === "on";
-  try {
-    await commitFiles(plan.files, `${DELETE_MESSAGE_PREFIX}${slug}`, actor, deferBuild);
-  } catch (err) {
-    return { error: err instanceof Error ? `Не удалось сохранить: ${err.message}` : "Не удалось удалить страницу." };
-  }
+    const snap = await readSupportFiles();
+    if (!snap) return { error: "Не удалось прочитать служебные файлы (seo-meta, карты Webflow, реестры, редиректы)." };
 
-  revalidatePath("/admin/pages");
-  return { ok: true, url: plan.url, deferred: deferBuild, github: isGitHubBackend(), notes: plan.notes };
+    let plan;
+    try {
+      plan = planDelete({ slug, redirectTo: String(formData.get("redirect_to") ?? "") }, snap);
+    } catch (err) {
+      return { error: err instanceof Error ? err.message : "Не удалось подготовить удаление." };
+    }
+
+    const deferBuild = formData.get("defer_build") === "on";
+    try {
+      await commitFiles(plan.files, `${DELETE_MESSAGE_PREFIX}${slug}`, actor, deferBuild);
+    } catch (err) {
+      return { error: err instanceof Error ? `Не удалось сохранить: ${err.message}` : "Не удалось удалить страницу." };
+    }
+
+    revalidatePath("/admin/pages");
+    return { ok: true, url: plan.url, deferred: deferBuild, github: isGitHubBackend(), notes: plan.notes };
+  } catch (err) {
+    console.error("[deletePage]", err);
+    return { error: err instanceof Error ? err.message : "Не удалось удалить страницу" };
+  }
 }
 
 export type RestoreState = { error?: string; ok?: boolean; url?: string; notes?: string[] };
@@ -211,38 +221,45 @@ export async function restorePage(_prev: RestoreState, formData: FormData): Prom
   const parentSha = String(formData.get("parent_sha") ?? "").trim();
   if (!isValidPageSlug(slug)) return { error: "Некорректный slug." };
   if (!/^[0-9a-f]{40}$/.test(parentSha)) return { error: "Некорректная ссылка на коммит." };
-  if (await pageExists(slug)) return { error: `Страница ${slug} уже существует - восстанавливать нечего.` };
+  // Reads, plan and commit all talk to GitHub; a 403/5xx anywhere must
+  // come back as a message in the dialog, not as the generic error page.
+  try {
+    if (await pageExists(slug)) return { error: `Страница ${slug} уже существует - восстанавливать нечего.` };
 
-  const html = await readRepoTextFile(`public/pages/${slug}.html`, parentSha);
-  if (html === null) return { error: "В истории нет такой страницы на момент перед удалением." };
-  const [parentFiles, current] = await Promise.all([readSupportFiles(parentSha), readSupportFiles()]);
-  if (!parentFiles || !current) return { error: "Не удалось прочитать служебные файлы." };
+    const html = await readRepoTextFile(`public/pages/${slug}.html`, parentSha);
+    if (html === null) return { error: "В истории нет такой страницы на момент перед удалением." };
+    const [parentFiles, current] = await Promise.all([readSupportFiles(parentSha), readSupportFiles()]);
+    if (!parentFiles || !current) return { error: "Не удалось прочитать служебные файлы." };
 
-  const url = classifyPage(slug).url;
-  const jsonldRef =
-    (JSON.parse(parentFiles.seoMetaJson) as { url: string; jsonldFile: string | null }[]).find((e) => e.url === url)
-      ?.jsonldFile ?? null;
-  let jsonld: string | null = null;
-  if (jsonldRef) {
-    try {
-      jsonld = await readRepoTextFile(`src/${jsonldRef}`, parentSha);
-    } catch {
-      jsonld = null;
+    const url = classifyPage(slug).url;
+    const jsonldRef =
+      (JSON.parse(parentFiles.seoMetaJson) as { url: string; jsonldFile: string | null }[]).find((e) => e.url === url)
+        ?.jsonldFile ?? null;
+    let jsonld: string | null = null;
+    if (jsonldRef) {
+      try {
+        jsonld = await readRepoTextFile(`src/${jsonldRef}`, parentSha);
+      } catch {
+        jsonld = null;
+      }
     }
-  }
 
-  let plan;
-  try {
-    plan = planRestore(slug, { ...parentFiles, html, jsonld }, current);
-  } catch (err) {
-    return { error: err instanceof Error ? err.message : "Не удалось подготовить восстановление." };
-  }
-  try {
-    await commitFiles(plan.files, `${RESTORE_MESSAGE_PREFIX}${slug}`, actor, false);
-  } catch (err) {
-    return { error: err instanceof Error ? `Не удалось сохранить: ${err.message}` : "Не удалось восстановить страницу." };
-  }
+    let plan;
+    try {
+      plan = planRestore(slug, { ...parentFiles, html, jsonld }, current);
+    } catch (err) {
+      return { error: err instanceof Error ? err.message : "Не удалось подготовить восстановление." };
+    }
+    try {
+      await commitFiles(plan.files, `${RESTORE_MESSAGE_PREFIX}${slug}`, actor, false);
+    } catch (err) {
+      return { error: err instanceof Error ? `Не удалось сохранить: ${err.message}` : "Не удалось восстановить страницу." };
+    }
 
-  revalidatePath("/admin/pages");
-  return { ok: true, url: plan.url, notes: plan.notes };
+    revalidatePath("/admin/pages");
+    return { ok: true, url: plan.url, notes: plan.notes };
+  } catch (err) {
+    console.error("[restorePage]", err);
+    return { error: err instanceof Error ? err.message : "Не удалось восстановить страницу" };
+  }
 }

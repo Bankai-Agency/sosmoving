@@ -124,7 +124,7 @@ export async function writePageHtml(
  */
 export async function publishPendingCommit(actor: string): Promise<void> {
   if (!viaGitHub()) {
-    throw new Error("Публикация нужна только на проде: в dev правки применяются сразу.");
+    throw new Error("Публикация нужна только на проде: в dev правки применяются сразу.");
   }
   const { owner, repo } = splitRepo();
   const ref = await octokit().git.getRef({ owner, repo, ref: `heads/${BRANCH}` });
@@ -160,7 +160,7 @@ function localAbs(path: string): string | null {
   if (path === "src/data/broken-links-map-extra.csv") return join(cwd, "src/data", "broken-links-map-extra.csv");
   const page = /^public\/pages\/([a-z0-9][a-z0-9_-]*)\.html$/i.exec(path);
   if (page) return join(cwd, "public/pages", `${page[1]}.html`);
-  const ld = /^src\/data\/jsonld\/([a-z0-9][a-z0-9_-]*)\.json$/i.exec(path);
+  const ld = /^src\/data\/jsonld\/([a-z0-9_][a-z0-9_-]*)\.json$/i.exec(path);
   if (ld) return join(cwd, "src/data/jsonld", `${ld[1]}.json`);
   return null;
 }

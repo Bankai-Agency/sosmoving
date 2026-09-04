@@ -18,8 +18,20 @@ export default async function PagesHealthPage() {
   const github = isGitHubBackend();
   // One GitHub call: recent page commits drive both the "updated" column
   // (Vercel's fs mtimes are all the build time) and the trash below.
-  const commits = github ? await listPageCommits().catch(() => []) : [];
-  const rows = await listPagesFresh(pageActivity(commits));
+  const [commits, rowsRaw] = await Promise.all([
+    github ? listPageCommits().catch(() => []) : Promise.resolve([]),
+    listPagesFresh(),
+  ]);
+  const activity = pageActivity(commits);
+  const dateFmt = new Intl.DateTimeFormat("ru-RU", { day: "numeric", month: "short", year: "numeric", timeZone: "America/Los_Angeles" });
+  // Dates are formatted here: the table is a client component and SSR (UTC)
+  // vs the editor's browser would disagree - a hydration mismatch per row.
+  const rows = rowsRaw
+    .map((r) => {
+      const mtime = activity.get(r.slug) ?? (github ? null : r.mtime);
+      return { ...r, mtime, mtimeLabel: mtime ? dateFmt.format(mtime) : "-" };
+    })
+    .sort((a, b) => (b.mtime?.getTime() ?? 0) - (a.mtime?.getTime() ?? 0) || a.url.localeCompare(b.url));
   // Formatted here, not in the client component: SSR runs in UTC and the
   // editor's browser in their own zone - a hydration mismatch on every row.
   const fmt = new Intl.DateTimeFormat("ru-RU", { dateStyle: "medium", timeStyle: "short", timeZone: "America/Los_Angeles" });

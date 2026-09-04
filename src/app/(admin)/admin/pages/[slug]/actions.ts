@@ -31,7 +31,7 @@ export async function publishPending(_prev: PublishState, _formData: FormData): 
   try {
     await publishPendingCommit(actor);
   } catch (err) {
-    return { error: err instanceof Error ? err.message : "Не удалось запустить публикацию." };
+    return { error: err instanceof Error ? err.message : "Не удалось запустить публикацию." };
   }
   return { ok: true };
 }
@@ -57,41 +57,51 @@ export async function savePageContent(
 
   const pageType = classifyPage(slug).type;
   if (pageType !== "city" && pageType !== "movers-city") {
-    return { error: "Эта страница не поддерживается редактором (v1: только городские)." };
+    return { error: "Эта страница не поддерживается редактором (v1: только городские)." };
   }
 
-  const html = await readPageHtml(slug);
-  if (html === null) return { error: `Страница ${slug} не найдена.` };
+  let html: string | null;
+  try {
+    html = await readPageHtml(slug);
+  } catch (err) {
+    return { error: `Не удалось прочитать страницу из GitHub: ${err instanceof Error ? err.message : "ошибка"}` };
+  }
+  if (html === null) return { error: `Страница ${slug} не найдена.` };
 
   const baseHash = String(formData.get("base_hash") ?? "");
   if (baseHash !== pageHash(html)) {
-    return { error: "Страница изменилась с момента загрузки формы. Обновите редактор и повторите правки." };
+    return { error: "Страница изменилась с момента загрузки формы. Обновите редактор и повторите правки." };
   }
 
   const slots = extractSlots(html);
   const edits: PageEdits = {};
 
+  // Browsers submit textarea values with CRLF; the slots hold LF. Without
+  // normalizing, every multi-line FAQ answer counts as changed on each save
+  // and produces a commit plus a build with no real edit.
+  const text = (name: string) => String(formData.get(name) ?? "").replace(/\r\n?/g, "\n");
+
   const h1 = formData.get("hero_h1");
   if (typeof h1 === "string" && slots.heroH1) {
-    edits.heroH1 = h1.split("\n");
+    edits.heroH1 = text("hero_h1").split("\n");
   }
 
   const subtitle = formData.get("hero_subtitle");
   if (typeof subtitle === "string" && slots.heroSubtitle) {
-    edits.heroSubtitle = subtitle;
+    edits.heroSubtitle = text("hero_subtitle");
   }
 
   if (slots.faq.length > 0) {
     edits.faq = slots.faq.map((_slot, i) => ({
-      q: String(formData.get(`faq_q_${i}`) ?? ""),
-      a: String(formData.get(`faq_a_${i}`) ?? ""),
+      q: text(`faq_q_${i}`),
+      a: text(`faq_a_${i}`),
     }));
   }
 
   if (slots.images.length > 0) {
     edits.images = slots.images.map((_slot, i) => ({
-      src: String(formData.get(`img_src_${i}`) ?? ""),
-      alt: String(formData.get(`img_alt_${i}`) ?? ""),
+      src: text(`img_src_${i}`).trim(),
+      alt: text(`img_alt_${i}`),
     }));
   }
 
@@ -99,7 +109,7 @@ export async function savePageContent(
   try {
     next = applySlots(html, edits);
   } catch (err) {
-    return { error: err instanceof Error ? err.message : "Не удалось применить правки." };
+    return { error: err instanceof Error ? err.message : "Не удалось применить правки." };
   }
 
   if (next.changed.length === 0) return { ok: true, changed: [] };
@@ -115,7 +125,7 @@ export async function savePageContent(
       deferBuild,
     );
   } catch (err) {
-    return { error: err instanceof Error ? err.message : "Не удалось сохранить страницу." };
+    return { error: err instanceof Error ? err.message : "Не удалось сохранить страницу." };
   }
 
   revalidatePath(`/admin/pages/${slug}`);

@@ -73,7 +73,7 @@ export function PagesTable({ rows }: Props) {
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Поиск по slug / URL"
+            placeholder="Поиск по slug / URL"
           />
         </div>
         <select
@@ -93,7 +93,7 @@ export function PagesTable({ rows }: Props) {
           })}
         </select>
         <span className="text-xs text-muted-foreground">
-          показано {Math.min(limit, filtered.length)} из {filtered.length}
+          показано {Math.min(limit, filtered.length)} из {filtered.length}
         </span>
       </div>
 
@@ -142,7 +142,7 @@ export function PagesTable({ rows }: Props) {
                   {(r.bytes / 1024).toFixed(1)} KB
                 </TableCell>
                 <TableCell className="whitespace-nowrap text-right text-xs text-muted-foreground">
-                  {r.mtime ? r.mtime.toLocaleDateString("ru-RU", { day: "numeric", month: "short", year: "numeric" }) : "-"}
+                  {r.mtimeLabel ?? "-"}
                 </TableCell>
               </TableRow>
             ))}
