@@ -3,13 +3,25 @@ import { TopBar } from "@/components/admin/TopBar";
 import { PagesTable } from "@/components/admin/PagesTable";
 import { PublishPendingButton } from "@/components/admin/PublishPendingButton";
 import { Badge } from "@/components/admin/ui/badge";
-import { listPages } from "@/lib/admin/pages";
+import { listPagesFresh } from "@/lib/admin/pages";
+import { listPageDeletions, isGitHubBackend } from "@/lib/admin/page-store";
+import { PageTrash } from "@/components/admin/PageTrash";
 
 export const metadata = { title: "Страницы сайта" };
 export const dynamic = "force-dynamic";
 
-export default function PagesHealthPage() {
-  const rows = listPages();
+export default async function PagesHealthPage() {
+  const rows = await listPagesFresh();
+  const github = isGitHubBackend();
+  // Formatted here, not in the client component: SSR runs in UTC and the
+  // editor's browser in their own zone - a hydration mismatch on every row.
+  const fmt = new Intl.DateTimeFormat("ru-RU", { dateStyle: "medium", timeStyle: "short", timeZone: "America/Los_Angeles" });
+  const deletions = github
+    ? (await listPageDeletions().catch(() => [])).map((d) => ({
+        ...d,
+        dateLabel: d.date ? `${fmt.format(new Date(d.date))} (LA)` : "-",
+      }))
+    : [];
 
   return (
     <AdminShell>
@@ -31,6 +43,8 @@ export default function PagesHealthPage() {
         </div>
 
         <PagesTable rows={rows} />
+
+        <PageTrash entries={deletions} github={github} />
       </div>
     </AdminShell>
   );

@@ -63,3 +63,19 @@ export function guessPageName(slug: string): string {
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
     .join(" ");
 }
+
+/**
+ * Pages the admin must never delete: structural routes (home, listings,
+ * forms, confirmations) and blog posts, which live in the blog section
+ * with their own markdown-aware delete.
+ */
+export const NON_DELETABLE_TYPES = new Set<PageType>([
+  "home",
+  "services-listing",
+  "moving-services",
+  "blog-index",
+  "blog-post",
+  "sitemap",
+  "form",
+  "confirmation",
+]);

@@ -1,6 +1,7 @@
 import { readdirSync, statSync } from "node:fs";
 import { join } from "node:path";
 import type { PageRow, PageType } from "./page-types";
+import { listPageFilesGitHub } from "./page-store";
 
 const PAGES_DIR = join(process.cwd(), "public/pages");
 
@@ -62,6 +63,27 @@ export function listPages(): PageRow[] {
       rows.push({ type, slug, url, bytes: 0, mtime: new Date(0) });
     }
   }
+  rows.sort((a, b) => b.mtime.getTime() - a.mtime.getTime());
+  return rows;
+}
+
+/**
+ * listPages() as GitHub sees the branch right now. On Vercel the fs only
+ * has the last build, so a page duplicated or deleted through the admin
+ * a minute ago would be missing from (or linger in) the fs listing. Falls
+ * back to the fs listing in dev or when GitHub is unreachable.
+ */
+export async function listPagesFresh(): Promise<PageRow[]> {
+  const local = listPages();
+  const remote = await listPageFilesGitHub();
+  if (!remote) return local;
+  const byslug = new Map(local.map((r) => [r.slug, r]));
+  const rows: PageRow[] = remote.map((f) => {
+    const slug = f.name.replace(/\.html$/, "");
+    const known = byslug.get(slug);
+    const { type, url } = classifyPage(slug);
+    return { type, slug, url, bytes: f.size, mtime: known?.mtime ?? new Date() };
+  });
   rows.sort((a, b) => b.mtime.getTime() - a.mtime.getTime());
   return rows;
 }

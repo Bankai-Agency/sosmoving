@@ -4,13 +4,14 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { ExternalLink } from "lucide-react";
 import type { PageRow, PageType } from "@/lib/admin/page-types";
-import { pageTypeLabel } from "@/lib/admin/page-types";
+import { pageTypeLabel, NON_DELETABLE_TYPES } from "@/lib/admin/page-types";
 import { Input } from "./ui/input";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 import { Card } from "./ui/card";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "./ui/table";
 import { DuplicatePageDialog } from "./DuplicatePageDialog";
+import { DeletePageDialog } from "./DeletePageDialog";
 
 type Props = { rows: PageRow[] };
 
@@ -134,6 +135,7 @@ export function PagesTable({ rows }: Props) {
                     {!NON_DUPLICABLE_TYPES.has(r.type) && (
                       <DuplicatePageDialog sourceSlug={r.slug} sourceUrl={r.url} type={r.type} />
                     )}
+                    {!NON_DELETABLE_TYPES.has(r.type) && <DeletePageDialog slug={r.slug} url={r.url} />}
                   </div>
                 </TableCell>
                 <TableCell className="whitespace-nowrap text-right text-xs text-muted-foreground">

@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, unlinkSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { Octokit } from "@octokit/rest";
 import { createHash } from "node:crypto";
@@ -157,6 +157,7 @@ function localAbs(path: string): string | null {
   if (path === "public/wf-bundle-map.json") return join(cwd, "public", "wf-bundle-map.json");
   if (path === "src/data/cities/_registry.json") return join(cwd, "src/data/cities", "_registry.json");
   if (path === "src/data/services/_registry.json") return join(cwd, "src/data/services", "_registry.json");
+  if (path === "src/data/broken-links-map-extra.csv") return join(cwd, "src/data", "broken-links-map-extra.csv");
   const page = /^public\/pages\/([a-z0-9][a-z0-9_-]*)\.html$/i.exec(path);
   if (page) return join(cwd, "public/pages", `${page[1]}.html`);
   const ld = /^src\/data\/jsonld\/([a-z0-9][a-z0-9_-]*)\.json$/i.exec(path);
@@ -164,15 +165,19 @@ function localAbs(path: string): string | null {
   return null;
 }
 
-/** Read a repo text file (GitHub in prod, fs in dev). Null when absent. */
-export async function readRepoTextFile(path: string): Promise<string | null> {
+/**
+ * Read a repo text file (GitHub in prod, fs in dev). Null when absent.
+ * `ref` reads a historical version (restore from the trash); the fs
+ * backend has no history and ignores it.
+ */
+export async function readRepoTextFile(path: string, ref: string = BRANCH): Promise<string | null> {
   const abs = localAbs(path);
   if (!abs) throw new Error(`Path outside the duplication allowlist: ${path}`);
 
   if (viaGitHub()) {
     const { owner, repo } = splitRepo();
     try {
-      const res = await octokit().repos.getContent({ owner, repo, path, ref: BRANCH });
+      const res = await octokit().repos.getContent({ owner, repo, path, ref });
       const data = res.data as { content?: string; encoding?: string; sha?: string };
       if (data.content && data.encoding === "base64") {
         return Buffer.from(data.content, "base64").toString("utf-8");
@@ -198,7 +203,8 @@ export async function pageExists(slug: string): Promise<boolean> {
   return (await readPageHtml(slug)) !== null;
 }
 
-export type RepoFileChange = { path: string; content: string };
+/** content null = delete the file. */
+export type RepoFileChange = { path: string; content: string | null };
 
 /**
  * Write several files as ONE commit - a duplicated page is only consistent
@@ -230,7 +236,11 @@ export async function commitFiles(
       owner,
       repo,
       base_tree: head.data.tree.sha,
-      tree: files.map((f) => ({ path: f.path, mode: "100644" as const, type: "blob" as const, content: f.content })),
+      tree: files.map((f) =>
+        f.content === null
+          ? { path: f.path, mode: "100644" as const, type: "blob" as const, sha: null }
+          : { path: f.path, mode: "100644" as const, type: "blob" as const, content: f.content },
+      ),
     });
     const commit = await o.git.createCommit({
       owner,
@@ -244,6 +254,85 @@ export async function commitFiles(
   }
 
   for (const f of files) {
-    writeFileSync(localAbs(f.path) as string, f.content, "utf-8");
+    const abs = localAbs(f.path) as string;
+    if (f.content === null) {
+      if (existsSync(abs)) unlinkSync(abs);
+    } else {
+      writeFileSync(abs, f.content, "utf-8");
+    }
   }
+}
+
+// ============================================================
+// Fresh listing + trash (git history is the trash)
+// ============================================================
+
+/**
+ * Page files as GitHub sees them right now: name + size. The serverless
+ * fs only has the files from the last build, so pages duplicated or
+ * deleted through the admin since then are invisible to fs reads. Null
+ * when the GitHub backend is not configured or the listing fails.
+ */
+export async function listPageFilesGitHub(): Promise<{ name: string; size: number }[] | null> {
+  if (!viaGitHub()) return null;
+  try {
+    const { owner, repo } = splitRepo();
+    const res = await octokit().repos.getContent({ owner, repo, path: PAGES_DIR, ref: BRANCH });
+    if (!Array.isArray(res.data)) return null;
+    return res.data
+      .filter((e) => e.type === "file" && e.name.endsWith(".html"))
+      .map((e) => ({ name: e.name, size: e.size }));
+  } catch (err) {
+    console.warn("[page-store] listPageFilesGitHub failed:", (err as Error).message);
+    return null;
+  }
+}
+
+export const DELETE_MESSAGE_PREFIX = "content(page): delete ";
+export const RESTORE_MESSAGE_PREFIX = "content(page): restore ";
+
+export type PageDeletion = {
+  slug: string;
+  /** The deletion commit. */
+  sha: string;
+  /** Its first parent - the last commit where the page still existed. */
+  parentSha: string;
+  date: string;
+  actor: string;
+};
+
+/**
+ * Deletions that can still be restored: delete commits on public/pages
+ * that no later restore commit has consumed. Newest first. GitHub only -
+ * in dev the developer has git.
+ */
+export async function listPageDeletions(limit = 20): Promise<PageDeletion[]> {
+  if (!viaGitHub()) return [];
+  const { owner, repo } = splitRepo();
+  const res = await octokit().repos.listCommits({ owner, repo, sha: BRANCH, path: PAGES_DIR, per_page: 100 });
+  const restored = new Set<string>();
+  const out: PageDeletion[] = [];
+  for (const c of res.data) {
+    const message = c.commit.message;
+    const restore = message.startsWith(RESTORE_MESSAGE_PREFIX)
+      ? message.slice(RESTORE_MESSAGE_PREFIX.length).split(/\s/)[0]
+      : null;
+    if (restore) {
+      restored.add(restore);
+      continue;
+    }
+    if (!message.startsWith(DELETE_MESSAGE_PREFIX)) continue;
+    const slug = message.slice(DELETE_MESSAGE_PREFIX.length).split(/\s/)[0];
+    if (!isValidPageSlug(slug)) continue;
+    if (restored.has(slug)) {
+      restored.delete(slug); // that restore belonged to this deletion
+      continue;
+    }
+    const parentSha = c.parents[0]?.sha;
+    if (!parentSha) continue;
+    const actor = /via admin panel by (\S+)/.exec(message)?.[1] ?? "";
+    out.push({ slug, sha: c.sha, parentSha, date: c.commit.author?.date ?? "", actor });
+    if (out.length >= limit) break;
+  }
+  return out;
 }
