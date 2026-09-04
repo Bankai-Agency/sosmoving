@@ -26,7 +26,8 @@ export type PageRow = {
   slug: string;
   url: string;
   bytes: number;
-  mtime: Date;
+  /** Last admin change from git on Vercel, fs mtime in dev; null when unknown. */
+  mtime: Date | null;
 };
 
 export function pageTypeLabel(t: PageType): string {

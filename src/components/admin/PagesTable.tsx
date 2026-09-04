@@ -142,7 +142,7 @@ export function PagesTable({ rows }: Props) {
                   {(r.bytes / 1024).toFixed(1)} KB
                 </TableCell>
                 <TableCell className="whitespace-nowrap text-right text-xs text-muted-foreground">
-                  {r.mtime.toLocaleDateString("ru-RU", { day: "numeric", month: "short", year: "numeric" })}
+                  {r.mtime ? r.mtime.toLocaleDateString("ru-RU", { day: "numeric", month: "short", year: "numeric" }) : "-"}
                 </TableCell>
               </TableRow>
             ))}

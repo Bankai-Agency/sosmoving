@@ -4,7 +4,7 @@ import { PagesTable } from "@/components/admin/PagesTable";
 import { PublishPendingButton } from "@/components/admin/PublishPendingButton";
 import { Badge } from "@/components/admin/ui/badge";
 import { listPagesFresh } from "@/lib/admin/pages";
-import { listPageDeletions, isGitHubBackend } from "@/lib/admin/page-store";
+import { listPageCommits, pageDeletions, pageActivity, isGitHubBackend } from "@/lib/admin/page-store";
 import { PageTrash } from "@/components/admin/PageTrash";
 
 export const metadata = { title: "Страницы сайта" };
@@ -15,13 +15,16 @@ export const dynamic = "force-dynamic";
 export const maxDuration = 60;
 
 export default async function PagesHealthPage() {
-  const rows = await listPagesFresh();
   const github = isGitHubBackend();
+  // One GitHub call: recent page commits drive both the "updated" column
+  // (Vercel's fs mtimes are all the build time) and the trash below.
+  const commits = github ? await listPageCommits().catch(() => []) : [];
+  const rows = await listPagesFresh(pageActivity(commits));
   // Formatted here, not in the client component: SSR runs in UTC and the
   // editor's browser in their own zone - a hydration mismatch on every row.
   const fmt = new Intl.DateTimeFormat("ru-RU", { dateStyle: "medium", timeStyle: "short", timeZone: "America/Los_Angeles" });
   const deletions = github
-    ? (await listPageDeletions().catch(() => [])).map((d) => ({
+    ? pageDeletions(commits).map((d) => ({
         ...d,
         dateLabel: d.date ? `${fmt.format(new Date(d.date))} (LA)` : "-",
       }))

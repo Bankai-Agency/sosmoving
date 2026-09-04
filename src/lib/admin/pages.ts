@@ -63,7 +63,7 @@ export function listPages(): PageRow[] {
       rows.push({ type, slug, url, bytes: 0, mtime: new Date(0) });
     }
   }
-  rows.sort((a, b) => b.mtime.getTime() - a.mtime.getTime());
+  rows.sort((a, b) => (b.mtime?.getTime() ?? 0) - (a.mtime?.getTime() ?? 0));
   return rows;
 }
 
@@ -73,18 +73,19 @@ export function listPages(): PageRow[] {
  * a minute ago would be missing from (or linger in) the fs listing. Falls
  * back to the fs listing in dev or when GitHub is unreachable.
  */
-export async function listPagesFresh(): Promise<PageRow[]> {
+export async function listPagesFresh(activity: Map<string, Date> = new Map()): Promise<PageRow[]> {
   const local = listPages();
   const remote = await listPageFilesGitHub();
   if (!remote) return local;
-  const byslug = new Map(local.map((r) => [r.slug, r]));
+  // On Vercel every file's mtime is the build time, so it says nothing
+  // about the page; the git-derived activity map does. Pages nobody
+  // touched through the admin recently sort after, alphabetically.
   const rows: PageRow[] = remote.map((f) => {
     const slug = f.name.replace(/\.html$/, "");
-    const known = byslug.get(slug);
     const { type, url } = classifyPage(slug);
-    return { type, slug, url, bytes: f.size, mtime: known?.mtime ?? new Date() };
+    return { type, slug, url, bytes: f.size, mtime: activity.get(slug) ?? null };
   });
-  rows.sort((a, b) => b.mtime.getTime() - a.mtime.getTime());
+  rows.sort((a, b) => (b.mtime?.getTime() ?? 0) - (a.mtime?.getTime() ?? 0) || a.url.localeCompare(b.url));
   return rows;
 }
 

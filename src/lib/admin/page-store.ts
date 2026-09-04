@@ -301,6 +301,43 @@ export async function listPageFilesGitHub(): Promise<{ name: string; size: numbe
 export const DELETE_MESSAGE_PREFIX = "content(page): delete ";
 export const RESTORE_MESSAGE_PREFIX = "content(page): restore ";
 
+export type PageCommit = {
+  sha: string;
+  /** First parent - for a deletion, the last commit where the page existed. */
+  parentSha: string | null;
+  date: string;
+  actor: string;
+  /** update | duplicate | delete | restore - from the admin's commit messages. */
+  verb: string;
+  /** The page slug(s) the commit names; for duplicate: [source, copy]. */
+  slugs: string[];
+};
+
+/**
+ * Recent commits touching public/pages, parsed from the admin's own
+ * message format `content(page): <verb> <slug>[ -> <slug>] ...`. One API
+ * call feeds both the trash and the list's "updated" column: on Vercel
+ * every file carries the build time as mtime, so git is the only source
+ * of truth for what changed when. GitHub only; dev has git itself.
+ */
+export function parsePageCommitMessage(message: string): Pick<PageCommit, "verb" | "slugs" | "actor"> {
+  const m = /^content\(page\): (\w+) (\S+)(?: -> (\S+))?/.exec(message);
+  const slugs = m ? [m[2], ...(m[3] ? [m[3]] : [])].filter(isValidPageSlug) : [];
+  return { verb: m?.[1] ?? "", slugs, actor: /via admin panel by (\S+)/.exec(message)?.[1] ?? "" };
+}
+
+export async function listPageCommits(perPage = 100): Promise<PageCommit[]> {
+  if (!viaGitHub()) return [];
+  const { owner, repo } = splitRepo();
+  const res = await octokit().repos.listCommits({ owner, repo, sha: BRANCH, path: PAGES_DIR, per_page: perPage });
+  return res.data.map((c) => ({
+    sha: c.sha,
+    parentSha: c.parents[0]?.sha ?? null,
+    date: c.commit.author?.date ?? "",
+    ...parsePageCommitMessage(c.commit.message),
+  }));
+}
+
 export type PageDeletion = {
   slug: string;
   /** The deletion commit. */
@@ -312,37 +349,40 @@ export type PageDeletion = {
 };
 
 /**
- * Deletions that can still be restored: delete commits on public/pages
- * that no later restore commit has consumed. Newest first. GitHub only -
- * in dev the developer has git.
+ * Deletions that can still be restored: delete commits that no later
+ * restore commit has consumed. `commits` is newest first, so a restore
+ * seen before a delete of the same slug belongs to that delete.
  */
-export async function listPageDeletions(limit = 20): Promise<PageDeletion[]> {
-  if (!viaGitHub()) return [];
-  const { owner, repo } = splitRepo();
-  const res = await octokit().repos.listCommits({ owner, repo, sha: BRANCH, path: PAGES_DIR, per_page: 100 });
+export function pageDeletions(commits: PageCommit[], limit = 20): PageDeletion[] {
   const restored = new Set<string>();
   const out: PageDeletion[] = [];
-  for (const c of res.data) {
-    const message = c.commit.message;
-    const restore = message.startsWith(RESTORE_MESSAGE_PREFIX)
-      ? message.slice(RESTORE_MESSAGE_PREFIX.length).split(/\s/)[0]
-      : null;
-    if (restore) {
-      restored.add(restore);
+  for (const c of commits) {
+    const slug = c.slugs[0];
+    if (!slug) continue;
+    if (c.verb === "restore") {
+      restored.add(slug);
       continue;
     }
-    if (!message.startsWith(DELETE_MESSAGE_PREFIX)) continue;
-    const slug = message.slice(DELETE_MESSAGE_PREFIX.length).split(/\s/)[0];
-    if (!isValidPageSlug(slug)) continue;
+    if (c.verb !== "delete") continue;
     if (restored.has(slug)) {
-      restored.delete(slug); // that restore belonged to this deletion
+      restored.delete(slug);
       continue;
     }
-    const parentSha = c.parents[0]?.sha;
-    if (!parentSha) continue;
-    const actor = /via admin panel by (\S+)/.exec(message)?.[1] ?? "";
-    out.push({ slug, sha: c.sha, parentSha, date: c.commit.author?.date ?? "", actor });
+    if (!c.parentSha) continue;
+    out.push({ slug, sha: c.sha, parentSha: c.parentSha, date: c.date, actor: c.actor });
     if (out.length >= limit) break;
+  }
+  return out;
+}
+
+/** slug -> most recent admin change, for the list's "updated" column and its order. */
+export function pageActivity(commits: PageCommit[]): Map<string, Date> {
+  const out = new Map<string, Date>();
+  for (const c of commits) {
+    if (!c.date) continue;
+    // A duplicate changes the copy, not the source.
+    const touched = c.verb === "duplicate" ? c.slugs.slice(1) : c.slugs;
+    for (const slug of touched) if (!out.has(slug)) out.set(slug, new Date(c.date));
   }
   return out;
 }
