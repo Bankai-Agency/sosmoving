@@ -13,6 +13,9 @@ import { users, invites } from "@/lib/db/schema";
  */
 
 const MAX_USERS = 5; // user capped us at 5 total editors
+// Applies to new passwords only (register, change, admin reset); existing
+// hashes keep working. Paired with the login guard in login-guard.ts.
+export const MIN_PASSWORD = 8;
 
 // ============================================================
 // Users
@@ -58,7 +61,7 @@ export async function deleteUser(id: string, caller: Caller): Promise<void> {
  * change-password form asks for the current password for a reason.
  */
 export async function resetUserPassword(id: string, newPassword: string, caller: Caller): Promise<void> {
-  if (newPassword.length < 6) throw new Error("Минимум 6 символов");
+  if (newPassword.length < MIN_PASSWORD) throw new Error(`Минимум ${MIN_PASSWORD}\u00a0символов`);
   if (id === caller.id) throw new Error("Свой пароль меняется в настройках, с вводом текущего");
   const target = await db.query.users.findFirst({ where: eq(users.id, id) });
   if (!target) throw new Error("Пользователь не найден");
@@ -90,7 +93,7 @@ export async function changeOwnPassword(
   current: string,
   next: string,
 ): Promise<void> {
-  if (next.length < 6) throw new Error("Минимум 6 символов");
+  if (next.length < MIN_PASSWORD) throw new Error(`Минимум ${MIN_PASSWORD}\u00a0символов`);
   if (next === current) throw new Error("Новый пароль должен отличаться от текущего");
   const row = await db.query.users.findFirst({ where: eq(users.id, id) });
   if (!row) throw new Error("Пользователь не найден");
@@ -191,7 +194,7 @@ export async function consumeInvite({
   if (!/^[a-z0-9_.-]+$/i.test(username)) {
     throw new Error("Логин: только латинские буквы, цифры, _ . -");
   }
-  if (!password || password.length < 6) throw new Error("Пароль минимум 6 символов");
+  if (!password || password.length < MIN_PASSWORD) throw new Error(`Пароль минимум ${MIN_PASSWORD}\u00a0символов`);
 
   const invite = await db.query.invites.findFirst({ where: eq(invites.token, token) });
   if (!invite) throw new Error("Приглашение не найдено");
@@ -251,4 +254,4 @@ function rowToPublic(row: typeof users.$inferSelect): UserRow {
   };
 }
 
-export const LIMITS = { MAX_USERS };
+export const LIMITS = { MAX_USERS, MIN_PASSWORD };

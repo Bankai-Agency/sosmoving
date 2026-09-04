@@ -2,7 +2,7 @@
 /**
  * scripts/db-setup.mjs
  *
- * Creates the admin DB schema (users + invites) idempotently.
+ * Creates the admin DB schema (users + invites + login_attempts) idempotently.
  *
  * Run with:
  *   node --env-file=.env.local scripts/db-setup.mjs
@@ -59,6 +59,16 @@ async function main() {
       used_at timestamp with time zone,
       used_by_user_id uuid,
       CONSTRAINT invites_token_unique UNIQUE (token)
+    )
+  `;
+
+  console.log("→ creating login_attempts…");
+  await sql`
+    CREATE TABLE IF NOT EXISTS login_attempts (
+      key text PRIMARY KEY,
+      failures integer DEFAULT 0 NOT NULL,
+      window_started_at timestamp with time zone DEFAULT now() NOT NULL,
+      locked_until timestamp with time zone
     )
   `;
 

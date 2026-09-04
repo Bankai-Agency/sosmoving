@@ -1,4 +1,4 @@
-import { pgTable, text, timestamp, uuid, boolean } from "drizzle-orm/pg-core";
+import { pgTable, text, timestamp, uuid, boolean, integer } from "drizzle-orm/pg-core";
 
 /**
  * Admin users (editors + owner).
@@ -43,6 +43,21 @@ export const invites = pgTable("invites", {
   expiresAt: timestamp("expires_at", { withTimezone: true }).notNull(),
   usedAt: timestamp("used_at", { withTimezone: true }),
   usedByUserId: uuid("used_by_user_id"),
+});
+
+/**
+ * Login brute-force counters (see src/lib/admin/login-guard.ts).
+ *
+ * `key` is `u:<username>` or `ip:<address>`. `failures` counts wrong
+ * attempts inside the window that started at `windowStartedAt`; hitting the
+ * limit sets `lockedUntil`. The guard creates this table itself on first use
+ * (CREATE TABLE IF NOT EXISTS), db-setup.mjs mirrors it for fresh databases.
+ */
+export const loginAttempts = pgTable("login_attempts", {
+  key: text("key").primaryKey(),
+  failures: integer("failures").notNull().default(0),
+  windowStartedAt: timestamp("window_started_at", { withTimezone: true }).notNull().defaultNow(),
+  lockedUntil: timestamp("locked_until", { withTimezone: true }),
 });
 
 export type User = typeof users.$inferSelect;

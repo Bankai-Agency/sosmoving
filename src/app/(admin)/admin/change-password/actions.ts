@@ -6,6 +6,7 @@ import { redirect } from "next/navigation";
 import { auth, signIn, signOut } from "@/lib/auth";
 import { db } from "@/lib/db";
 import { users } from "@/lib/db/schema";
+import { MIN_PASSWORD } from "@/lib/admin/users";
 
 type State = { error?: string; ok?: boolean };
 
@@ -31,7 +32,7 @@ export async function changePassword(
 
   if (!current || !next || !repeat) return { error: "Заполните все поля" };
   if (next !== repeat) return { error: "Пароли не совпадают" };
-  if (next.length < 6) return { error: "Минимум 6 символов" };
+  if (next.length < MIN_PASSWORD) return { error: `Минимум ${MIN_PASSWORD}\u00a0символов` };
   if (next === current) return { error: "Новый пароль должен отличаться от текущего" };
 
   const userId = (session.user as { id?: string }).id;

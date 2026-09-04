@@ -38,10 +38,10 @@ export function RegisterForm({ token }: { token: string }) {
           type="password"
           autoComplete="new-password"
           required
-          minLength={6}
+          minLength={8}
           disabled={pending}
         />
-        <span className="text-xs text-muted-foreground">Минимум 6 символов</span>
+        <span className="text-xs text-muted-foreground">{"Минимум 8\u00a0символов"}</span>
       </div>
 
       <div className="flex flex-col gap-2">
@@ -52,7 +52,7 @@ export function RegisterForm({ token }: { token: string }) {
           type="password"
           autoComplete="new-password"
           required
-          minLength={6}
+          minLength={8}
           disabled={pending}
         />
       </div>
