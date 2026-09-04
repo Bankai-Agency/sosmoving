@@ -22,7 +22,7 @@ export default function AdminError({ error, reset }: { error: Error & { digest?:
       <div className="w-full max-w-md rounded-xl border bg-card p-6 shadow-sm">
         <div className="flex items-center gap-3">
           <AlertTriangle className="h-6 w-6 text-destructive" />
-          <h1 className="text-lg font-semibold">Страница админки не загрузилась</h1>
+          <h1 className="text-lg font-semibold">Страница админки не загрузилась</h1>
         </div>
         <p className="mt-3 text-sm text-muted-foreground">
           Сервер вернул ошибку. Данные не потеряны: каждое сохранение в админке - это коммит в git.
@@ -36,7 +36,7 @@ export default function AdminError({ error, reset }: { error: Error & { digest?:
             <RotateCcw className="h-4 w-4" /> Повторить
           </Button>
           <Button variant="outline" asChild>
-            <Link href="/admin/pages">К списку страниц</Link>
+            <Link href="/admin/pages">К списку страниц</Link>
           </Button>
           <Button variant="ghost" asChild>
             <Link href="/admin/dashboard">Дашборд</Link>
