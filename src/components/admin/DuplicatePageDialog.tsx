@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useActionState, useState } from "react";
 import { Copy, Loader2 } from "lucide-react";
 import { duplicatePage, type DuplicateState } from "@/app/(admin)/admin/pages/actions";
-import { guessPageName, type PageType } from "@/lib/admin/page-types";
+import { classifyPage, guessPageName, pageTypeLabel, type PageType } from "@/lib/admin/page-types";
 import { Alert } from "./ui/alert";
 import { Button } from "./ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogTitle, DialogTrigger } from "./ui/dialog";
@@ -33,6 +33,13 @@ export function DuplicatePageDialog({ sourceSlug, sourceUrl, type }: Props) {
   // The new name usually follows from the new slug - derived until the
   // editor types their own.
   const replaceTo = typedReplaceTo ?? (newSlug ? guessPageName(newSlug) : "");
+  // What the slug will become - the type follows the slug pattern, and a
+  // location duplicated under a non-city slug silently turns into "other":
+  // no registry, no sitemap, no content editor.
+  const target = newSlug ? classifyPage(newSlug) : null;
+  const sameKind = target
+    ? target.type === type || (LOCATION_TYPES.has(target.type) && LOCATION_TYPES.has(type))
+    : true;
 
   return (
     <Dialog open={open} onOpenChange={setOpen}>
@@ -94,10 +101,22 @@ export function DuplicatePageDialog({ sourceSlug, sourceUrl, type }: Props) {
                 required
                 autoFocus
               />
-              <p className="text-xs text-muted-foreground">
-                Станет адресом страницы. Вложенные города - через двойное подчёркивание:
-                los-angeles-movers__pomona-movers.
-              </p>
+              {target ? (
+                <p className={sameKind ? "text-xs text-muted-foreground" : "text-xs text-amber-600 dark:text-amber-400"}>
+                  Адрес: {target.url} · тип: {pageTypeLabel(target.type)}
+                  {!sameKind &&
+                    (isLocation
+                      ? ". Для локации slug должен заканчиваться на -movers (например pomona-movers), иначе страница станет «Прочее»: без реестра, sitemap и редактора контента"
+                      : type === "service"
+                        ? ". Для услуги slug должен начинаться с services__ (например services__shared-load-moving)"
+                        : `. Исходная страница - ${pageTypeLabel(type)}, копия получит другой тип`)}
+                </p>
+              ) : (
+                <p className="text-xs text-muted-foreground">
+                  Станет адресом страницы. Города - с окончанием -movers, вложенные - через двойное подчёркивание
+                  (los-angeles-movers__pomona-movers), услуги - с префиксом services__.
+                </p>
+              )}
             </div>
 
             <div className="grid grid-cols-2 gap-3">

@@ -30,6 +30,42 @@ export type PageRow = {
   mtime: Date | null;
 };
 
+/**
+ * Slug -> page type + public url. Pure string logic, so the duplicate dialog
+ * can preview what a slug will become before anything is written.
+ */
+export function classifyPage(slug: string): { type: PageType; url: string } {
+  if (slug === "index") return { type: "home", url: "/" };
+  if (slug === "services") return { type: "services-listing", url: "/services" };
+  if (slug === "moving-services") return { type: "moving-services", url: "/moving-services" };
+  if (slug === "blog") return { type: "blog-index", url: "/blog" };
+  if (slug === "sitemap") return { type: "sitemap", url: "/sitemap" };
+  if (slug === "free-estimate" || slug === "book-online") return { type: "form", url: `/${slug}` };
+  if (slug.startsWith("services__")) {
+    const s = slug.replace("services__", "");
+    return { type: "service", url: `/services/${s}` };
+  }
+  if (slug.startsWith("blog__")) {
+    const s = slug.replace("blog__", "");
+    return { type: "blog-post", url: `/blog/${s}` };
+  }
+  if (slug.startsWith("about-us")) {
+    const s = slug === "about-us" ? "" : `/${slug.replace("about-us__", "")}`;
+    return { type: "about", url: `/about-us${s}` };
+  }
+  if (slug.includes("__")) {
+    // Nested city pages: los-angeles-movers__burbank-movers.html -> /los-angeles-movers/burbank-movers
+    const [parent, child] = slug.split("__");
+    if (parent.endsWith("-movers") && child && child.endsWith("-movers")) {
+      return { type: "city", url: `/${parent}/${child}` };
+    }
+  }
+  if (slug.startsWith("movers-")) return { type: "movers-city", url: `/${slug}` };
+  if (slug.endsWith("-movers")) return { type: "city", url: `/${slug}` };
+  if (slug.startsWith("confirmation-page")) return { type: "confirmation", url: `/${slug}` };
+  return { type: "other", url: `/${slug}` };
+}
+
 export function pageTypeLabel(t: PageType): string {
   switch (t) {
     case "home": return "Главная";
