@@ -164,7 +164,9 @@ export async function deletePage(_prev: DeleteState, formData: FormData): Promis
   if (!actor) return { error: "Сессия истекла - войдите заново." };
 
   const slug = String(formData.get("slug") ?? "").trim();
-  const confirm = String(formData.get("confirm_slug") ?? "").trim();
+  const confirm = String(formData.get("confirm_slug") ?? "")
+    .trim()
+    .replace(/^["'«»]+|["'«»]+$/g, ""); // quotes copied from the dialog
   if (!isValidPageSlug(slug)) return { error: "Некорректный slug." };
   const { type, url } = classifyPage(slug);
   if (confirm !== slug && confirm !== url) {

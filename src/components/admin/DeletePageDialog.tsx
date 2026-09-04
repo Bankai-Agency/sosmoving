@@ -21,7 +21,9 @@ export function DeletePageDialog({ slug, url }: Props) {
   const [confirm, setConfirm] = useState("");
   const [state, formAction, pending] = useActionState<DeleteState, FormData>(deletePage, {});
   // The slug or the public path both confirm - whichever the editor copies.
-  const confirmed = confirm === slug || confirm === url;
+  // Quotes copied along with the slug must not block the confirmation.
+  const typed = confirm.replace(/^["'«»]+|["'«»]+$/g, "");
+  const confirmed = typed === slug || typed === url;
 
   return (
     <Dialog open={open} onOpenChange={setOpen}>
@@ -77,7 +79,7 @@ export function DeletePageDialog({ slug, url }: Props) {
             <div className="flex flex-col gap-1.5">
               <Label htmlFor="del_confirm">Введите slug для подтверждения</Label>
               <p className="text-xs text-muted-foreground">
-                Выделите и вставьте: <span className="select-all font-mono text-foreground">&quot;{slug}&quot;</span>
+                Выделите и вставьте: &quot;<span className="select-all font-mono text-foreground">{slug}</span>&quot;
               </p>
               <Input
                 id="del_confirm"
