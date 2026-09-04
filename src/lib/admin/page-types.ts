@@ -46,3 +46,20 @@ export function pageTypeLabel(t: PageType): string {
     case "other": return "Прочее";
   }
 }
+
+/**
+ * Human name guessed from a page slug - the default "replace from/to" pair
+ * of the duplicate dialog. "eastvale-movers" -> "Eastvale",
+ * "movers-hollywood" -> "Hollywood", "los-angeles-movers__burbank-movers"
+ * -> "Burbank", "services__packing-services" -> "Packing Services".
+ * A guess only: the editor sees and can correct it before duplicating.
+ */
+export function guessPageName(slug: string): string {
+  const last = slug.includes("__") ? slug.split("__").pop() ?? slug : slug;
+  const core = last.replace(/^movers-/, "").replace(/-movers$/, "");
+  return core
+    .split("-")
+    .filter(Boolean)
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}

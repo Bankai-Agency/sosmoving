@@ -31,6 +31,13 @@ export function classifyPage(slug: string): { type: PageType; url: string } {
     const s = slug === "about-us" ? "" : `/${slug.replace("about-us__", "")}`;
     return { type: "about", url: `/about-us${s}` };
   }
+  if (slug.includes("__")) {
+    // Nested city pages: los-angeles-movers__burbank-movers.html -> /los-angeles-movers/burbank-movers
+    const [parent, child] = slug.split("__");
+    if (parent.endsWith("-movers") && child && child.endsWith("-movers")) {
+      return { type: "city", url: `/${parent}/${child}` };
+    }
+  }
   if (slug.startsWith("movers-")) return { type: "movers-city", url: `/${slug}` };
   if (slug.endsWith("-movers")) return { type: "city", url: `/${slug}` };
   if (slug.startsWith("confirmation-page")) return { type: "confirmation", url: `/${slug}` };

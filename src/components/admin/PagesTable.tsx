@@ -10,12 +10,15 @@ import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 import { Card } from "./ui/card";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "./ui/table";
+import { DuplicatePageDialog } from "./DuplicatePageDialog";
 
 type Props = { rows: PageRow[] };
 
 // Page types the slot-based content editor supports (v1: city pages —
 // they share the hero/FAQ structure the extractor understands).
 const EDITABLE_TYPES = new Set<PageType>(["city", "movers-city"]);
+// Home (every href="/" would point at the copy) and blog posts (markdown-gated route).
+const NON_DUPLICABLE_TYPES = new Set<PageType>(["home", "blog-post"]);
 
 const TYPE_ORDER: PageType[] = [
   "home",
@@ -122,11 +125,16 @@ export function PagesTable({ rows }: Props) {
                   </Link>
                 </TableCell>
                 <TableCell>
-                  {EDITABLE_TYPES.has(r.type) && (
-                    <Button variant="outline" size="sm" asChild>
-                      <Link href={`/admin/pages/${r.slug}`}>Контент</Link>
-                    </Button>
-                  )}
+                  <div className="flex items-center gap-2">
+                    {EDITABLE_TYPES.has(r.type) && (
+                      <Button variant="outline" size="sm" asChild>
+                        <Link href={`/admin/pages/${r.slug}`}>Контент</Link>
+                      </Button>
+                    )}
+                    {!NON_DUPLICABLE_TYPES.has(r.type) && (
+                      <DuplicatePageDialog sourceSlug={r.slug} sourceUrl={r.url} type={r.type} />
+                    )}
+                  </div>
                 </TableCell>
                 <TableCell className="whitespace-nowrap text-right text-xs text-muted-foreground">
                   {(r.bytes / 1024).toFixed(1)} KB
