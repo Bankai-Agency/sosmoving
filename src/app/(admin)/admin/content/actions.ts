@@ -100,8 +100,18 @@ export async function savePost(
     if (publishAtDate && Number.isNaN(publishAtDate.getTime())) {
       return { error: "Некорректная дата публикации" };
     }
-    // A date that has already passed means "publish now", not "draft forever".
-    const publishAt = publishAtDate && publishAtDate > new Date() ? publishAtDate.toISOString() : undefined;
+    // A date that has already passed means "publish now". If the draft box is
+    // also ticked the intent is ambiguous (an overdue schedule reopened in the
+    // editor shows the box ticked) - refuse instead of silently turning the
+    // post into a plain draft or publishing something meant to stay hidden.
+    const dueNow = publishAtDate !== null && publishAtDate <= new Date();
+    if (dueNow && draft) {
+      return {
+        error:
+          "Дата публикации уже прошла: снимите галочку черновика, чтобы опубликовать сейчас, или очистите дату, чтобы оставить черновик.",
+      };
+    }
+    const publishAt = publishAtDate && !dueNow ? publishAtDate.toISOString() : undefined;
 
     const frontmatter: PostFrontmatter = {
       ...existing.frontmatter,
@@ -151,7 +161,7 @@ export async function publishNow(formData: FormData): Promise<never> {
   try {
     const actor = await requireActor();
     const existing = await readPost(slug);
-    if (!existing) throw new Error("Статья не найдена");
+    if (!existing) redirect(withError("/admin/content", "Статья не найдена"));
     await writePost(
       {
         frontmatter: { ...existing.frontmatter, draft: false, publishAt: undefined, lastUpdated: today() },
@@ -177,7 +187,7 @@ export async function unpublish(formData: FormData): Promise<never> {
   try {
     const actor = await requireActor();
     const existing = await readPost(slug);
-    if (!existing) throw new Error("Статья не найдена");
+    if (!existing) redirect(withError("/admin/content", "Статья не найдена"));
     await writePost(
       { frontmatter: { ...existing.frontmatter, draft: true, publishAt: undefined }, content: existing.content },
       `content: unpublish ${slug}`,
