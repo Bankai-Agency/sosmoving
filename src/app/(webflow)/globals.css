@@ -56,8 +56,10 @@ form { display: block !important; }
    without creating a scroll container: the TOC now sticks under the navbar
    until the article body ends (its column stretches to the body's height)
    and is released together with it. Both render paths (scraped snapshot
-   and MdArticle) use these classes. */
-.services-hero-section.is-blog-article-hero {
+   and MdArticle) use these classes.
+   The class is doubled on purpose: this file is linked BEFORE webflow.css,
+   so at equal specificity webflow's `overflow: hidden` would win. */
+.services-hero-section.is-blog-article-hero.is-blog-article-hero {
   overflow: clip;
 }
 
