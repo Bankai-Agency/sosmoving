@@ -9,6 +9,8 @@ import { DeletePostButton } from "@/components/admin/DeletePostButton";
 import { Button } from "@/components/admin/ui/button";
 import { Alert } from "@/components/admin/ui/alert";
 import { readPost, isPublic, isValidPostSlug } from "@/lib/admin/content-store";
+import { readPageHtml } from "@/lib/admin/page-store";
+import { snapshotTitle } from "@/lib/admin/blog-snapshot";
 import { publishNow, unpublish } from "../actions";
 
 type Params = { slug: string };
@@ -64,6 +66,27 @@ export default async function EditPostPage({
   if (!post) notFound();
 
   const fm = post.frontmatter;
+
+  // A scraped article renders from its html snapshot until its body is
+  // edited: the heading the site shows is the snapshot's H1 (the frontmatter
+  // title is often an old SEO string), so the editor shows that one. A
+  // snapshot read failure is not fatal - the form falls back to frontmatter.
+  const legacy = fm.renderFrom !== "md";
+  let titleBase: string | null = null;
+  if (legacy) {
+    try {
+      const html = await readPageHtml(`blog__${slug}`);
+      titleBase = html ? snapshotTitle(html) : null;
+    } catch (err) {
+      console.warn("[editor] snapshot heading unavailable:", err);
+    }
+  }
+  // 35 scraped posts carry no markdown body at all - only the excerpt. A
+  // "body edit" there would replace the whole article on the site with one
+  // sentence, so the body stays locked until those articles are migrated.
+  const bodyText = post.content.trim();
+  const bodyLocked = legacy && (bodyText === "" || bodyText === (fm.metaDescription ?? "").trim());
+
   const status: "published" | "draft" | "scheduled" = fm.draft
     ? fm.publishAt && new Date(fm.publishAt) > new Date()
       ? "scheduled"
@@ -120,7 +143,13 @@ export default async function EditPostPage({
       />
       <div className="flex-1 space-y-4 p-6">
         {actionError && <Alert variant="destructive">{actionError}</Alert>}
-        <EditorForm slug={slug} frontmatter={fm} content={post.content} />
+        <EditorForm
+          slug={slug}
+          frontmatter={fm}
+          content={post.content}
+          titleBase={titleBase ?? undefined}
+          bodyLocked={bodyLocked}
+        />
       </div>
     </AdminShell>
   );

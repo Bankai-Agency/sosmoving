@@ -9,9 +9,13 @@ import {
   deletePost,
   slugify,
   isValidPostSlug,
+  postPath,
+  serializePost,
   type Post,
   type PostFrontmatter,
 } from "@/lib/admin/content-store";
+import { commitFiles, readPageHtml, readRepoTextFile, type RepoFileChange } from "@/lib/admin/page-store";
+import { patchSeoDescription, patchSnapshotTitle } from "@/lib/admin/blog-snapshot";
 
 type SaveState = { error?: string; ok?: boolean; slug?: string };
 
@@ -129,10 +133,24 @@ export async function savePost(
     const bodyChanged = body.trim() !== existing.content.replace(/\r\n?/g, "\n").trim();
     const keepSnapshot = legacyBody && !bodyChanged;
 
+    // While the snapshot renders, the editor shows the snapshot's heading
+    // (title_base), not the frontmatter title - for most scraped posts that
+    // is an old SEO string. "Changed" therefore means changed against what
+    // the editor showed; an untouched heading leaves the frontmatter alone.
+    const submittedTitle = String(formData.get("title") ?? existing.frontmatter.title ?? "").trim();
+    const titleBase = formData.get("title_base");
+    const titleChanged =
+      typeof titleBase === "string"
+        ? submittedTitle !== titleBase.trim()
+        : submittedTitle !== (existing.frontmatter.title ?? "").trim();
+    const previousDescription = (existing.frontmatter.metaDescription ?? "").trim();
+    const metaDescription = String(formData.get("metaDescription") ?? previousDescription).trim();
+    const descriptionChanged = metaDescription !== previousDescription;
+
     const frontmatter: PostFrontmatter = {
       ...existing.frontmatter,
-      title: String(formData.get("title") ?? existing.frontmatter.title ?? ""),
-      metaDescription: String(formData.get("metaDescription") ?? existing.frontmatter.metaDescription ?? ""),
+      title: keepSnapshot && !titleChanged ? (existing.frontmatter.title ?? "") : submittedTitle,
+      metaDescription,
       featuredImage: String(formData.get("featuredImage") ?? existing.frontmatter.featuredImage ?? ""),
       category: String(formData.get("category") ?? existing.frontmatter.category ?? "general"),
       draft: draft || Boolean(publishAt),
@@ -157,11 +175,36 @@ export async function savePost(
         ? `content: save draft ${slug}`
         : `content: publish ${slug}`;
 
-    await writePost(
-      { frontmatter, content: keepSnapshot ? existing.content : body } satisfies Post,
-      msg,
-      actor,
-    );
+    const post = { frontmatter, content: keepSnapshot ? existing.content : body } satisfies Post;
+
+    // A heading or description edit on a snapshot-rendered article must reach
+    // the snapshot (H1, breadcrumb, cover alt) and seo-meta.json (the
+    // <meta description>) - otherwise the site keeps showing the old text.
+    // Everything lands in one commit so the article never half-updates.
+    if (keepSnapshot && (titleChanged || descriptionChanged)) {
+      const files: RepoFileChange[] = [{ path: postPath(slug), content: serializePost(post) }];
+      const what: string[] = [];
+      if (titleChanged) {
+        const pageSlug = `blog__${slug}`;
+        const html = await readPageHtml(pageSlug);
+        const patched = html ? patchSnapshotTitle(html, submittedTitle) : null;
+        if (patched?.changed) {
+          files.push({ path: `public/pages/${pageSlug}.html`, content: patched.html });
+          what.push("heading");
+        }
+      }
+      if (descriptionChanged) {
+        const seo = await readRepoTextFile("src/data/seo-meta.json");
+        const patched = seo ? patchSeoDescription(seo, `/blog/${slug}`, previousDescription, metaDescription) : null;
+        if (patched?.changed) {
+          files.push({ path: "src/data/seo-meta.json", content: patched.json });
+          what.push("description");
+        }
+      }
+      await commitFiles(files, `content: update ${slug} (${what.join(", ") || "meta"})`, actor);
+    } else {
+      await writePost(post, msg, actor);
+    }
     revalidatePath("/admin/content");
     revalidatePath(`/admin/content/${slug}`);
     revalidatePath(`/blog/${slug}`);

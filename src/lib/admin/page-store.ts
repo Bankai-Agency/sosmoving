@@ -162,6 +162,10 @@ function localAbs(path: string): string | null {
   if (page) return join(cwd, "public/pages", `${page[1]}.html`);
   const ld = /^src\/data\/jsonld\/([a-z0-9_][a-z0-9_-]*)\.json$/i.exec(path);
   if (ld) return join(cwd, "src/data/jsonld", `${ld[1]}.json`);
+  // A legacy article's markdown commits together with its snapshot when the
+  // admin edits its heading or description (content/actions.ts savePost).
+  const post = /^src\/data\/blog\/([a-z0-9][a-z0-9-]*)\.md$/.exec(path);
+  if (post) return join(cwd, "src/data/blog", `${post[1]}.md`);
   return null;
 }
 

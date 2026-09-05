@@ -32,15 +32,20 @@ type Props = {
   slug: string;
   frontmatter: PostFrontmatter;
   content: string;
+  /** Heading as the html snapshot shows it (legacy posts) - what the title field edits. */
+  titleBase?: string;
+  /** Legacy post without a markdown body: the text lives only in the snapshot. */
+  bodyLocked?: boolean;
 };
 
-export function EditorForm({ slug, frontmatter, content }: Props) {
+export function EditorForm({ slug, frontmatter, content, titleBase, bodyLocked = false }: Props) {
   const [state, formAction, pending] = useActionState(savePost, {});
 
   // The scraped articles keep rendering from their html snapshot until the
-  // body is edited here (savePost stamps renderFrom: "md" only then). Say so
-  // up front: BlockNote's markdown round-trip can flatten the fancy bits.
+  // body is edited here (savePost stamps renderFrom: "md" only then). A
+  // heading/description edit is patched into the snapshot by savePost.
   const legacyBody = frontmatter.renderFrom !== "md";
+  const titleShown = titleBase ?? frontmatter.title ?? "";
 
   // Hand-edited frontmatter can hold anything; an unparsable date must not
   // take the whole editor down (toISOString throws on Invalid Date).
@@ -54,21 +59,32 @@ export function EditorForm({ slug, frontmatter, content }: Props) {
       <div className="flex min-w-0 flex-col gap-4">
         <input
           name="title"
-          defaultValue={frontmatter.title ?? ""}
+          defaultValue={titleShown}
           placeholder="Заголовок статьи"
           required
           className="h2 w-full rounded-md border border-transparent bg-transparent px-2 py-1 text-foreground outline-none transition-colors hover:border-border focus:border-ring focus:bg-card"
         />
         <input type="hidden" name="slug" value={slug} />
+        {titleBase !== undefined && <input type="hidden" name="title_base" value={titleBase} />}
         {legacyBody && (
           <Alert className="border-warning/50 text-foreground">
             <AlertDescription>
-              {"Статья пока показывается на\u00a0сайте в\u00a0исходной вёрстке. Заголовок, категорию и\u00a0SEO-поля можно менять свободно. "}
-              {"Если изменить текст и\u00a0сохранить, сайт начнёт показывать версию из\u00a0редактора, а\u00a0сложное форматирование (таблицы, врезки) может потеряться - проверьте превью после сохранения."}
+              {"Статья показывается на\u00a0сайте в\u00a0исходной вёрстке. Заголовок и\u00a0описание применяются к\u00a0странице сразу: заголовок статьи и\u00a0хлебные крошки, описание для\u00a0поисковиков. В\u00a0списках и\u00a0блоках «похожие статьи» старый заголовок останется до\u00a0миграции блога. "}
+              {bodyLocked
+                ? "Текст этой статьи есть только в\u00a0исходной вёрстке, поэтому здесь он не\u00a0редактируется."
+                : "Если изменить текст ниже и\u00a0сохранить, сайт начнёт показывать версию из\u00a0редактора, а\u00a0сложное форматирование (таблицы, врезки) может потеряться - проверьте превью после сохранения."}
             </AlertDescription>
           </Alert>
         )}
-        <Editor initialMarkdown={content} hiddenInputName="content" />
+        {bodyLocked ? (
+          <Card>
+            <CardContent className="flex h-[200px] items-center justify-center p-6 text-center text-sm text-muted-foreground">
+              {"Текст статьи хранится в\u00a0исходной вёрстке и\u00a0в\u00a0редакторе пока недоступен."}
+            </CardContent>
+          </Card>
+        ) : (
+          <Editor initialMarkdown={content} hiddenInputName="content" />
+        )}
       </div>
 
       {/* Right — frontmatter sidebar */}

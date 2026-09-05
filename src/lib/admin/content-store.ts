@@ -107,13 +107,23 @@ export async function readPost(slug: string): Promise<Post | null> {
   };
 }
 
+/** Repo path of a post's markdown file. */
+export function postPath(slug: string): string {
+  return `${BLOG_DIR}/${slug}.md`;
+}
+
+/** The exact file contents writePost commits - for callers committing the post alongside other files. */
+export function serializePost(post: Post): string {
+  return matter.stringify(post.content, normalizeFrontmatter(post.frontmatter));
+}
+
 /** Write (create or update) a post. `commitMessage` labels the git commit. */
 export async function writePost(post: Post, commitMessage: string, actor: string): Promise<void> {
   const slug = post.frontmatter.slug;
   if (!slug) throw new Error("slug is required");
   if (!isValidPostSlug(slug)) throw new Error(`Некорректный slug: ${slug}`);
-  const path = `${BLOG_DIR}/${slug}.md`;
-  const raw = matter.stringify(post.content, normalizeFrontmatter(post.frontmatter));
+  const path = postPath(slug);
+  const raw = serializePost(post);
 
   const msg = `${commitMessage}\n\nvia admin panel by ${actor}`;
 
