@@ -10,6 +10,7 @@ export type PageType =
   | "home"
   | "city"
   | "movers-city"
+  | "ads"
   | "service"
   | "services-listing"
   | "moving-services"
@@ -51,6 +52,13 @@ export function classifyPage(slug: string): { type: PageType; url: string } {
     const s = slug.replace("blog__", "");
     return { type: "blog-post", url: `/blog/${s}` };
   }
+  if (slug.startsWith("ads__")) {
+    // Ad landing copies: ads__la-movers.html -> /ads/la-movers. Never indexed
+    // (meta + X-Robots-Tag + robots.txt), never linked from the site, never in
+    // a registry or the sitemap - see page-duplicate.ts and app/(webflow)/ads.
+    const s = slug.replace("ads__", "");
+    return { type: "ads", url: `/ads/${s}` };
+  }
   if (slug.startsWith("about-us")) {
     const s = slug === "about-us" ? "" : `/${slug.replace("about-us__", "")}`;
     return { type: "about", url: `/about-us${s}` };
@@ -73,6 +81,7 @@ export function pageTypeLabel(t: PageType): string {
     case "home": return "Главная";
     case "city": return "Город";
     case "movers-city": return "Movers-* (alt)";
+    case "ads": return "Реклама (noindex)";
     case "service": return "Услуга";
     case "services-listing": return "Услуги (листинг)";
     case "moving-services": return "Moving Services";
@@ -85,6 +94,13 @@ export function pageTypeLabel(t: PageType): string {
     case "other": return "Прочее";
   }
 }
+
+/**
+ * Page types the slot-based content editor supports: city pages (they share
+ * the hero/FAQ structure the extractor understands) and the ad landing
+ * copies, which are city pages under another url.
+ */
+export const EDITABLE_TYPES = new Set<PageType>(["city", "movers-city", "ads"]);
 
 /**
  * Human name guessed from a page slug - the default "replace from/to" pair

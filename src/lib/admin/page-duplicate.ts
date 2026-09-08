@@ -143,9 +143,16 @@ export function planDuplicate(input: DuplicateInput, snap: RepoSnapshot): Duplic
   const notes: string[] = [];
   const pairs = replacementPairs(input.replaceFrom, input.replaceTo);
   const swap = (s: string) => replacePageUrl(replaceOutsideUrls(s, pairs), src.url, dst.url);
+  // An ad landing (ads__<slug>) is never indexable, whatever the checkbox
+  // said: noindex,nofollow, no registry/sitemap, no JSON-LD, and its
+  // self-links keep pointing at the source so the site holds no link to it.
+  const adLanding = dst.type === "ads";
+  const indexable = input.indexable && !adLanding;
 
   // 1. The page html: text swap outside identifiers/paths, then self-links.
-  const html = replacePageUrl(replaceOutsideAttrs(snap.sourceHtml, pairs), src.url, dst.url);
+  const html = adLanding
+    ? replaceOutsideAttrs(snap.sourceHtml, pairs)
+    : replacePageUrl(replaceOutsideAttrs(snap.sourceHtml, pairs), src.url, dst.url);
   files.push({ path: `public/pages/${newSlug}.html`, content: html });
   if (pairs.length > 0) {
     notes.push(`Текст «${pairs[0][0]}» → «${pairs[0][1]}» заменён в разметке (вне ссылок и путей к файлам)`);
@@ -195,10 +202,12 @@ export function planDuplicate(input: DuplicateInput, snap: RepoSnapshot): Duplic
     if ("og:description" in entry.og) entry.og["og:description"] = description;
     if ("twitter:description" in entry.twitter) entry.twitter["twitter:description"] = description;
   }
-  entry.robots = input.indexable ? "" : "noindex, follow";
+  entry.robots = indexable ? "" : adLanding ? "noindex, nofollow" : "noindex, follow";
 
-  // 3. Structured data, when the source carries some.
-  if (snap.sourceJsonld) {
+  // 3. Structured data, when the source carries some (not for ad landings:
+  // structured data on a noindex page is noise, and it would carry the
+  // source url).
+  if (snap.sourceJsonld && !adLanding) {
     const name = newSlug.replace(/__/g, "_");
     const content = swap(snap.sourceJsonld);
     try {
@@ -232,8 +241,10 @@ export function planDuplicate(input: DuplicateInput, snap: RepoSnapshot): Duplic
   }
 
   // 5. Registries feed the sitemap (and the services listing).
-  if (!input.indexable) {
-    notes.push("noindex, follow - в sitemap и реестры не добавлена (рекламный лендинг)");
+  if (adLanding) {
+    notes.push("Рекламная копия: noindex, nofollow; без sitemap, реестров и\u00a0JSON-LD; ссылки на\u00a0странице ведут на\u00a0оригинал");
+  } else if (!indexable) {
+    notes.push("noindex, follow - в\u00a0sitemap и\u00a0реестры не\u00a0добавлена (рекламный лендинг)");
   } else if (dst.type === "city" || dst.type === "movers-city") {
     const reg = JSON.parse(snap.citiesRegistryJson) as { slug: string; parentSlug: string | null }[];
     const [parent, child] = newSlug.includes("__") ? newSlug.split("__") : [null, newSlug];

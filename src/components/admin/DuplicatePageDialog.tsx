@@ -40,6 +40,8 @@ export function DuplicatePageDialog({ sourceSlug, sourceUrl, type }: Props) {
   const sameKind = target
     ? target.type === type || (LOCATION_TYPES.has(target.type) && LOCATION_TYPES.has(type))
     : true;
+  // ads__<slug>: a deliberate ad landing copy - noindex, unlinked, editable.
+  const adCopy = target?.type === "ads";
 
   return (
     <Dialog open={open} onOpenChange={setOpen}>
@@ -102,9 +104,10 @@ export function DuplicatePageDialog({ sourceSlug, sourceUrl, type }: Props) {
                 autoFocus
               />
               {target ? (
-                <p className={sameKind ? "text-xs text-muted-foreground" : "text-xs text-amber-600 dark:text-amber-400"}>
+                <p className={sameKind || adCopy ? "text-xs text-muted-foreground" : "text-xs text-amber-600 dark:text-amber-400"}>
                   Адрес: {target.url} · тип: {pageTypeLabel(target.type)}
-                  {!sameKind &&
+                  {adCopy && ". Рекламная копия: noindex, nofollow, без\u00a0sitemap и\u00a0реестра, ссылок на\u00a0неё на\u00a0сайте нет; редактор контента доступен"}
+                  {!sameKind && !adCopy &&
                     (isLocation
                       ? `. Для локации slug должен заканчиваться на -movers или начинаться с movers- (например pomona-movers), иначе копия станет типом «${pageTypeLabel(target.type)}»: без реестра городов, sitemap и редактора контента`
                       : type === "service"
@@ -114,7 +117,8 @@ export function DuplicatePageDialog({ sourceSlug, sourceUrl, type }: Props) {
               ) : (
                 <p className="text-xs text-muted-foreground">
                   Станет адресом страницы. Города - с окончанием -movers, вложенные - через двойное подчёркивание
-                  (los-angeles-movers__pomona-movers), услуги - с префиксом services__.
+                  (los-angeles-movers__pomona-movers), услуги - с\u00a0префиксом services__, рекламные копии
+                  (noindex, без\u00a0ссылок) - с\u00a0префиксом ads__ (ads__pomona-movers → /ads/pomona-movers).
                 </p>
               )}
             </div>

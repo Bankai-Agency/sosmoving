@@ -5,6 +5,7 @@ import { auth } from "@/lib/auth";
 import { readPageHtml, writePageHtml, pageHash, publishPendingCommit } from "@/lib/admin/page-store";
 import { applySlots, extractSlots, type PageEdits } from "@/lib/admin/page-slots";
 import { classifyPage } from "@/lib/admin/pages";
+import { EDITABLE_TYPES } from "@/lib/admin/page-types";
 
 export type SavePageState = { error?: string; ok?: boolean; changed?: string[]; deferred?: boolean };
 
@@ -56,8 +57,8 @@ export async function savePageContent(
   }
 
   const pageType = classifyPage(slug).type;
-  if (pageType !== "city" && pageType !== "movers-city") {
-    return { error: "Эта страница не поддерживается редактором (v1: только городские)." };
+  if (!EDITABLE_TYPES.has(pageType)) {
+    return { error: "Эта страница не\u00a0поддерживается редактором (только городские и\u00a0их рекламные копии)." };
   }
 
   let html: string | null;

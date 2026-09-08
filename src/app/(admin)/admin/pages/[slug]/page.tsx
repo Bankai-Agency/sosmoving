@@ -8,6 +8,7 @@ import { PageContentForm } from "@/components/admin/PageContentForm";
 import { readPageHtml, pageHash } from "@/lib/admin/page-store";
 import { extractSlots } from "@/lib/admin/page-slots";
 import { classifyPage } from "@/lib/admin/pages";
+import { EDITABLE_TYPES } from "@/lib/admin/page-types";
 import { Alert } from "@/components/admin/ui/alert";
 
 export const dynamic = "force-dynamic";
@@ -24,8 +25,8 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
 export default async function EditPageContent({ params }: { params: Promise<Params> }) {
   const { slug } = await params;
   const { type, url } = classifyPage(slug);
-  // v1: the slot extractor is validated against city pages only.
-  if (type !== "city" && type !== "movers-city") notFound();
+  // The slot extractor is validated against city pages (and their ad copies).
+  if (!EDITABLE_TYPES.has(type)) notFound();
 
   let html: string | null = null;
   let loadError: string | null = null;

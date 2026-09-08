@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { ExternalLink } from "lucide-react";
 import type { PageRow, PageType } from "@/lib/admin/page-types";
-import { pageTypeLabel, NON_DELETABLE_TYPES } from "@/lib/admin/page-types";
+import { pageTypeLabel, NON_DELETABLE_TYPES, EDITABLE_TYPES } from "@/lib/admin/page-types";
 import { Input } from "./ui/input";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
@@ -15,9 +15,6 @@ import { DeletePageDialog } from "./DeletePageDialog";
 
 type Props = { rows: PageRow[] };
 
-// Page types the slot-based content editor supports (v1: city pages —
-// they share the hero/FAQ structure the extractor understands).
-const EDITABLE_TYPES = new Set<PageType>(["city", "movers-city"]);
 // Home (every href="/" would point at the copy) and blog posts (markdown-gated route).
 const NON_DUPLICABLE_TYPES = new Set<PageType>(["home", "blog-post"]);
 
@@ -25,6 +22,7 @@ const TYPE_ORDER: PageType[] = [
   "home",
   "city",
   "movers-city",
+  "ads",
   "service",
   "services-listing",
   "moving-services",

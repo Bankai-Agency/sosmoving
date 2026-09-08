@@ -15,7 +15,7 @@ import {
 import { planDuplicate } from "@/lib/admin/page-duplicate";
 import { planDelete, planRestore, type SupportFiles } from "@/lib/admin/page-delete";
 import { classifyPage } from "@/lib/admin/pages";
-import { NON_DELETABLE_TYPES } from "@/lib/admin/page-types";
+import { NON_DELETABLE_TYPES, EDITABLE_TYPES } from "@/lib/admin/page-types";
 
 export type DuplicateState = {
   error?: string;
@@ -119,7 +119,7 @@ export async function duplicatePage(_prev: DuplicateState, formData: FormData): 
       ok: true,
       slug: newSlug,
       url: plan.newUrl,
-      editable: plan.type === "city" || plan.type === "movers-city",
+      editable: EDITABLE_TYPES.has(plan.type),
       deferred: deferBuild,
       github: isGitHubBackend(),
       notes: plan.notes,

@@ -52,7 +52,8 @@ export function metaForPath(path: string, overrides: Metadata = {}): Metadata {
     if (e.robots.includes('noindex')) {
       // Parity: the old site deliberately noindexed a few near-duplicate
       // pages (/la-movers, /local-movers, /moving-services). Keep that.
-      meta.robots = { index: false, follow: e.robots.includes('follow') };
+      // "nofollow" contains "follow" - test the directive, not the substring.
+      meta.robots = { index: false, follow: !/\bnofollow\b/.test(e.robots) };
     }
     // Deliberate post-migration improvement (like the description rewrites):
     // the old site had no OG on the homepage and blog articles, so shares
