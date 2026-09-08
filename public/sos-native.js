@@ -10,7 +10,7 @@
        toggle on touch, w--open classes, aria, z-index while open,
        outside click / Escape close, IX2 a-6/a-7 scale+fade via CSS
      - mobile menu: overlay + slide from above (400ms), body scroll lock,
-       menu fade (IX2 a-12/a-13), burger to X (replaces the Lottie)
+       menu fade (IX2 a-12/a-13); the burger itself is CSS in sos-native.css
      - current-page highlighting of nav links (w--current)
      - yellow button "stays yellow after hover" quirk (IX2 a-30)
      - multistep quote forms step 1 -> step 2 (IX2 a-34/a-35)
@@ -156,10 +156,6 @@
     nav.appendChild(overlay);
     var parent = menu.parentNode, nextSibling = menu.nextSibling;
     var open = false, animating = false;
-    var lottie = nav.querySelector('.navbar-lottie');
-    if (lottie && !lottie.querySelector('.sos-burger')) {
-      lottie.innerHTML = '<span class="sos-burger" aria-hidden="true"><i></i><i></i><i></i></span>';
-    }
     button.setAttribute('role', 'button');
     button.setAttribute('tabindex', '0');
     if (!button.getAttribute('aria-label')) button.setAttribute('aria-label', 'menu');

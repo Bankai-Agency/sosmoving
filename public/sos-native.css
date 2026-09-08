@@ -101,37 +101,46 @@ html.sos-native .w-nav-overlay .navbar-menu[data-nav-menu-open].sos-menu-in {
   transition: opacity .3s ease .2s;
 }
 
-/* ---- Burger (replaces the Webflow Lottie player).
+/* ---- Burger (both modes - not scoped to html.sos-native on purpose).
+   The Webflow Lottie player never played on this site: the menu opened
+   and the three bars just stayed. The bars are drawn here with the
+   button's pseudo-elements (top bar + its box-shadow as the middle bar,
+   bottom bar) and the Lottie box is hidden, so the burger looks the same
+   whichever runtime drives the menu and morphs into the X on .w--open,
+   which both the Webflow navbar module and sos-native.js set.
    Geometry from hamburger-yellow.json (375x667 canvas fitted into the
-   7rem .navbar-lottie box): three 161-unit strokes 16 units thick, 50
-   units apart, colour rgb(255,229,51). The Lottie plays frames 0-43 in
-   500ms: the outer bars slide to the centre (frames 0-15) while the
-   middle one fades (13-15), then they rotate to the X (15-30). */
-html.sos-native .navbar-lottie .sos-burger {
+   7rem .navbar-lottie box): 161-unit strokes 16 units thick, 50 units
+   apart, colour rgb(255,229,51); the Lottie's 500ms move-then-rotate
+   becomes one 350ms transition. */
+.navbar-menu-button .navbar-lottie { display: none !important; }
+.navbar-menu-button::before,
+.navbar-menu-button::after {
+  content: "";
   position: absolute;
-  inset: 50% auto auto 50%;
+  left: 50%;
+  top: 50%;
   width: 1.69rem;
-  height: 1.22rem;
-  transform: translate(-50%, -50%);
-}
-html.sos-native .navbar-lottie .sos-burger i {
-  position: absolute;
-  left: 0;
-  width: 100%;
   height: .168rem;
+  margin-left: -.845rem;
+  margin-top: -.084rem;
   border-radius: .084rem;
   background: rgb(255, 229, 51);
-  transition: transform .175s linear, top .175s linear .175s, opacity .025s linear .3s;
+  transition: transform .35s ease, box-shadow .35s ease;
 }
-html.sos-native .navbar-lottie .sos-burger i:nth-child(1) { top: 0; }
-html.sos-native .navbar-lottie .sos-burger i:nth-child(2) { top: .525rem; }
-html.sos-native .navbar-lottie .sos-burger i:nth-child(3) { top: 1.05rem; }
-html.sos-native .w-nav-button.w--open .sos-burger i {
-  transition: top .175s linear, transform .175s linear .175s, opacity .025s linear .15s;
+.navbar-menu-button::before {
+  transform: translateY(-.525rem);
+  box-shadow: 0 .525rem 0 0 rgb(255, 229, 51);
 }
-html.sos-native .w-nav-button.w--open .sos-burger i:nth-child(1) { top: .525rem; transform: rotate(45deg); }
-html.sos-native .w-nav-button.w--open .sos-burger i:nth-child(2) { opacity: 0; }
-html.sos-native .w-nav-button.w--open .sos-burger i:nth-child(3) { top: .525rem; transform: rotate(-45deg); }
+.navbar-menu-button::after {
+  transform: translateY(.525rem);
+}
+.navbar-menu-button.w--open::before {
+  transform: rotate(45deg);
+  box-shadow: 0 0 0 0 rgba(255, 229, 51, 0);
+}
+.navbar-menu-button.w--open::after {
+  transform: rotate(-45deg);
+}
 
 /* ---- Multistep quote forms (IX2 a-34 hero / a-35 CTA).
    Step 1 fields slide out to the left (1000ms outQuint), the display
@@ -170,7 +179,8 @@ html.sos-native .cta-form-step-1.sos-step-hidden {
   html.sos-native .fake-video__btn,
   html.sos-native .navbar-dd-list,
   html.sos-native .navbar-menu,
-  html.sos-native .sos-burger i,
+  .navbar-menu-button::before,
+  .navbar-menu-button::after,
   html.sos-native .services-hero-form-input-wrap,
   html.sos-native .cta-form-input-wrap,
   html.sos-native .services-hero-move-inputs,
