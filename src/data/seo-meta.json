@@ -8688,5 +8688,958 @@
     },
     "jsonldFile": "data/jsonld/willamette-movers.json",
     "jsonldExpected": 1
+  },
+  {
+    "url": "/ads/la-movers",
+    "title": "4.9-Star Los Angeles Movers From $119/hr | SOS Moving",
+    "description": "Choose our 4.9-star Los Angeles movers for a truly stress-free move. Our professional team handles every detail so you can relax. Get your free estimate!",
+    "canonical": "https://www.sosmovingla.net/ads/la-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Top-Rated Los Angeles Movers",
+    "lang": "en",
+    "og": {
+      "og:title": "4.9-Star Los Angeles Movers From $119/hr | SOS Moving",
+      "og:description": "Choose our 4.9-star Los Angeles movers for a truly stress-free move. Our professional team handles every detail so you can relax. Get your free estimate!",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "4.9-Star Los Angeles Movers From $119/hr | SOS Moving",
+      "twitter:description": "Choose our 4.9-star Los Angeles movers for a truly stress-free move. Our professional team handles every detail so you can relax. Get your free estimate!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/movers-westminster",
+    "title": "Trusted 4.9-Star Movers in Westminster, OC (From $119/Hr.)",
+    "description": "Let us handle the move. You handle the sunshine. No drama, no stress — just  Westminster movers who get it! Get a detailed quote.",
+    "canonical": "https://www.sosmovingla.net/ads/movers-westminster",
+    "robots": "noindex, nofollow",
+    "h1": "Top-Rated Movers in Westminster",
+    "lang": "en",
+    "og": {
+      "og:title": "Trusted 4.9-Star Movers in Westminster, OC  (From $119/Hr.)",
+      "og:description": "Let us handle the move. You handle the sunshine. No drama, no stress — just  Westminster movers who get it! Get a detailed quote.",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Trusted 4.9-Star Movers in Westminster, OC  (From $119/Hr.)",
+      "twitter:description": "Let us handle the move. You handle the sunshine. No drama, no stress — just  Westminster movers who get it! Get a detailed quote.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/huntington-beach-movers",
+    "title": "4.9-Star Movers Huntington Beach (from $119/hr)",
+    "description": "Top-rated HB movers. No hidden fees & careful handling. Get your quote!  Get a free quote!",
+    "canonical": "https://www.sosmovingla.net/ads/huntington-beach-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Top-Rated Movers Huntington Beach",
+    "lang": "en",
+    "og": {
+      "og:title": "4.9-Star Movers Huntington Beach (from $119/hr)",
+      "og:description": "Top-rated HB movers. No hidden fees & careful handling. Get your quote!  Get a free quote!",
+      "og:image": "/images/og/69a6b66f991bd74ea6b2dd51_HB-Movers2.png",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "4.9-Star Movers Huntington Beach (from $119/hr)",
+      "twitter:description": "Top-rated HB movers. No hidden fees & careful handling. Get your quote!  Get a free quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/tustin-movers",
+    "title": "4.9-Star Movers Tustin That Make Moving Easy (From $119/Hr.)",
+    "description": "Choose our top-rated Tustin Movers for a truly stress-free move. Our professional team handles all the details so you can relax. Get a free estimate!",
+    "canonical": "https://www.sosmovingla.net/ads/tustin-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Top-Rated Tustin Movers",
+    "lang": "en",
+    "og": {
+      "og:title": "4.9-Star Movers Tustin That Make Moving Easy (From $119/Hr.)",
+      "og:description": "Choose our top-rated Tustin Movers for a truly stress-free move. Our professional team handles all the details so you can relax. Get a free estimate!",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "4.9-Star Movers Tustin That Make Moving Easy (From $119/Hr.)",
+      "twitter:description": "Choose our top-rated Tustin Movers for a truly stress-free move. Our professional team handles all the details so you can relax. Get a free estimate!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/costa-mesa-movers",
+    "title": "Top-Rated Movers in Costa Mesa & OC | Fast & Careful",
+    "description": "Moving made easy. No hidden fees, just $119/hr. Licensed pros. Book now!",
+    "canonical": "https://www.sosmovingla.net/ads/costa-mesa-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Top-Rated Movers in Costa Mesa, CA",
+    "lang": "en",
+    "og": {
+      "og:title": "Top-Rated Movers in Costa Mesa & OC | Fast & Careful",
+      "og:description": "Moving made easy. No hidden fees, just $119/hr. Licensed pros. Book now!",
+      "og:image": "/images/og/698c46c44b876f27f955dddc_Costa-Mesa-Movers.png",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Top-Rated Movers in Costa Mesa & OC | Fast & Careful",
+      "twitter:description": "Moving made easy. No hidden fees, just $119/hr. Licensed pros. Book now!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/orange-county-movers",
+    "title": "Trusted 4.9-star Orange County movers (from $119/hr)",
+    "description": "Let our trusted Orange County movers turn your moving day into a smooth, stress-free experience you’ll actually enjoy. Get your free quote now!",
+    "canonical": "https://www.sosmovingla.net/ads/orange-county-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Licensed Movers in Orange County",
+    "lang": "en",
+    "og": {
+      "og:title": "Trusted 4.9-star Orange County movers (from $119/hr)",
+      "og:description": "Let our trusted Orange County movers turn your moving day into a smooth, stress-free experience you’ll actually enjoy. Get your free quote now!",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Trusted 4.9-star Orange County movers (from $119/hr)",
+      "twitter:description": "Let our trusted Orange County movers turn your moving day into a smooth, stress-free experience you’ll actually enjoy. Get your free quote now!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/anaheim-movers",
+    "title": "4.9-star movers Anaheim you can count on (from $119/hr)",
+    "description": "Let our trusted Anaheim movers turn your moving day into a smooth, stress-free experience you’ll actually enjoy. Get your free quote now!",
+    "canonical": "https://www.sosmovingla.net/ads/anaheim-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Top-Rated Anaheim Movers",
+    "lang": "en",
+    "og": {
+      "og:title": "4.9-star movers Anaheim you can count on (from $119/hr)",
+      "og:description": "Let our trusted Anaheim movers turn your moving day into a smooth, stress-free experience you’ll actually enjoy. Get your free quote now!",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "4.9-star movers Anaheim you can count on (from $119/hr)",
+      "twitter:description": "Let our trusted Anaheim movers turn your moving day into a smooth, stress-free experience you’ll actually enjoy. Get your free quote now!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/fountain-valley-movers",
+    "title": "Trusted 4.9-Star Movers Fountain Valley (From $119/Hr.)",
+    "description": "Let our professional Fountain Valley movers make your move easy and worry-free. We handle local moves, packing, and more with care. Get a free quote!",
+    "canonical": "https://www.sosmovingla.net/ads/fountain-valley-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Licensed Movers in Fountain Valley",
+    "lang": "en",
+    "og": {
+      "og:title": "Trusted 4.9-Star Movers Fountain Valley (From $119/Hr.)",
+      "og:description": "Let our professional Fountain Valley movers make your move easy and worry-free. We handle local moves, packing, and more with care. Get a free quote!",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Trusted 4.9-Star Movers Fountain Valley (From $119/Hr.)",
+      "twitter:description": "Let our professional Fountain Valley movers make your move easy and worry-free. We handle local moves, packing, and more with care. Get a free quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/aliso-viejo-movers",
+    "title": "4.9-star Aliso Viejo movers you can count on — from $119/hr",
+    "description": "Trusted movers Aliso Viejo residents rely on for stress-free moves — seamless service, zero worries. Get your free moving quote!",
+    "canonical": "https://www.sosmovingla.net/ads/aliso-viejo-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Licensed Movers in Aliso Viejo, CA",
+    "lang": "en",
+    "og": {
+      "og:title": "4.9-star Aliso Viejo movers you can count on — from $119/hr",
+      "og:description": "Trusted movers Aliso Viejo residents rely on for stress-free moves — seamless service, zero worries. Get your free moving quote!",
+      "og:image": "/images/og/69a74d46599442655004fd8d_Santa-Ana-Movers2.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "4.9-star Aliso Viejo movers you can count on — from $119/hr",
+      "twitter:description": "Trusted movers Aliso Viejo residents rely on for stress-free moves — seamless service, zero worries. Get your free moving quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/la-habra-movers",
+    "title": "4.9-Star Movers La Habra You Can Count On (From $119/Hr.)",
+    "description": "Let us handle the move. You handle the sunshine. No drama, no stress — just  La Habra movers who get it!",
+    "canonical": "https://www.sosmovingla.net/ads/la-habra-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Top-Rated La Habra Movers",
+    "lang": "en",
+    "og": {
+      "og:title": "4.9-Star Movers  La Habra You Can Count On (From $119/Hr.)",
+      "og:description": "Let us handle the move. You handle the sunshine. No drama, no stress — just  La Habra movers who get it!",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "4.9-Star Movers  La Habra You Can Count On (From $119/Hr.)",
+      "twitter:description": "Let us handle the move. You handle the sunshine. No drama, no stress — just  La Habra movers who get it!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/santa-ana-movers",
+    "title": "Movers Santa Ana with 4.9‑star rating from $119/hr",
+    "description": "Hire top-rated movers Santa Ana. Fully licensed and insured. Careful packing and loading. Get your free quote.",
+    "canonical": "https://www.sosmovingla.net/ads/santa-ana-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Licensed Moversin Santa Ana, CA",
+    "lang": "en",
+    "og": {
+      "og:title": "Movers Santa Ana with 4.9‑star rating from $119/hr",
+      "og:description": "Hire top-rated movers Santa Ana. Fully licensed and insured. Careful packing and loading. Get your free quote.",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Movers Santa Ana with 4.9‑star rating from $119/hr",
+      "twitter:description": "Hire top-rated movers Santa Ana. Fully licensed and insured. Careful packing and loading. Get your free quote.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/movers-fullerton",
+    "title": "4.9-Star Movers Fullerton You Can Count On (From $119/Hr.)",
+    "description": "Let us handle the move. You handle the sunshine. No drama, no stress — just  Fullerton movers who get it!",
+    "canonical": "https://www.sosmovingla.net/ads/movers-fullerton",
+    "robots": "noindex, nofollow",
+    "h1": "Top-Rated Fullerton Movers",
+    "lang": "en",
+    "og": {
+      "og:title": "4.9-Star Movers Fullerton You Can Count On (From $119/Hr.)",
+      "og:description": "Let us handle the move. You handle the sunshine. No drama, no stress — just  Fullerton movers who get it!",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "4.9-Star Movers Fullerton You Can Count On (From $119/Hr.)",
+      "twitter:description": "Let us handle the move. You handle the sunshine. No drama, no stress — just  Fullerton movers who get it!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/newport-beach-movers",
+    "title": "Trusted 4.9-Star Movers Newport Beach (From $119/Hr.)",
+    "description": "No drama, no stress. Just trusted Newport Beach Movers who get it. Let us handle the move, you handle the sunshine. Get a free quote!",
+    "canonical": "https://www.sosmovingla.net/ads/newport-beach-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Top-Rated Movers Newport Beach",
+    "lang": "en",
+    "og": {
+      "og:title": "Trusted 4.9-Star Movers Newport Beach (From $119/Hr.)",
+      "og:description": "No drama, no stress. Just trusted Newport Beach Movers who get it. Let us handle the move, you handle the sunshine. Get a free quote!",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Trusted 4.9-Star Movers Newport Beach (From $119/Hr.)",
+      "twitter:description": "No drama, no stress. Just trusted Newport Beach Movers who get it. Let us handle the move, you handle the sunshine. Get a free quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/movers-garden-grove",
+    "title": "Trusted 4.9-star movers Garden Grove (from $119/hr)",
+    "description": "No drama, no stress. Just trusted Garden Grove Movers who get it. Let us handle the move, you handle the sunshine. Get a free quote!",
+    "canonical": "https://www.sosmovingla.net/ads/movers-garden-grove",
+    "robots": "noindex, nofollow",
+    "h1": "Top-Rated Movers in Garden Grove",
+    "lang": "en",
+    "og": {
+      "og:title": "Trusted 4.9-star movers Garden Grove (from $119/hr)",
+      "og:description": "No drama, no stress. Just trusted Garden Grove Movers who get it. Let us handle the move, you handle the sunshine. Get a free quote!",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Trusted 4.9-star movers Garden Grove (from $119/hr)",
+      "twitter:description": "No drama, no stress. Just trusted Garden Grove Movers who get it. Let us handle the move, you handle the sunshine. Get a free quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/irvine-movers",
+    "title": "Irvine's 4.9-star movers making moving easy (from $119/hr)",
+    "description": "Trusted partners for moves in Irvine's master-planned villages, from Northwood to UCI. Get your moving quote!",
+    "canonical": "https://www.sosmovingla.net/ads/irvine-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Top-Rated Movers in Irvine",
+    "lang": "en",
+    "og": {
+      "og:title": "Irvine's 4.9-star movers making moving easy (from $119/hr)",
+      "og:description": "Trusted partners for moves in Irvine's master-planned villages, from Northwood to UCI. Get your moving quote!",
+      "og:image": "/images/og/68cae6a93eb41e4b5015c6c6_Irvine_Open-Graph-Image_1200x630.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Irvine's 4.9-star movers making moving easy (from $119/hr)",
+      "twitter:description": "Trusted partners for moves in Irvine's master-planned villages, from Northwood to UCI. Get your moving quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/movers-buena-park",
+    "title": "Trusted 4.9-Star Movers Buena Park (From $119/Hr.)",
+    "description": "No drama, no stress. Just trusted Buena Park Movers who get it. Let us handle the move, you handle the sunshine. Get a free quote!",
+    "canonical": "https://www.sosmovingla.net/ads/movers-buena-park",
+    "robots": "noindex, nofollow",
+    "h1": "Movers Buena Park",
+    "lang": "en",
+    "og": {
+      "og:title": "Trusted 4.9-Star Movers Buena Park (From $119/Hr.)",
+      "og:description": "No drama, no stress. Just trusted Buena Park Movers who get it. Let us handle the move, you handle the sunshine. Get a free quote!",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Trusted 4.9-Star Movers Buena Park (From $119/Hr.)",
+      "twitter:description": "No drama, no stress. Just trusted Buena Park Movers who get it. Let us handle the move, you handle the sunshine. Get a free quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/northridge-movers",
+    "title": "4.9 Star Rated Northridge Movers from $115/Hr. | We Handle It All",
+    "description": "Our local Northridge movers ensure a smooth, safe, and stress-free move with excellent customer service for all your moving needs. Get your quote!",
+    "canonical": "https://www.sosmovingla.net/ads/northridge-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Movers Northridge",
+    "lang": "en",
+    "og": {
+      "og:title": "4.9 Star Rated Northridge Movers from $115/Hr. | We Handle It All",
+      "og:description": "Our local Northridge movers ensure a smooth, safe, and stress-free move with excellent customer service for all your moving needs. Get your quote!",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "4.9 Star Rated Northridge Movers from $115/Hr. | We Handle It All",
+      "twitter:description": "Our local Northridge movers ensure a smooth, safe, and stress-free move with excellent customer service for all your moving needs. Get your quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/san-fernando-valley-movers",
+    "title": "Trusted 4.9-Star San Fernando Valley Movers (From $119/hr)",
+    "description": "Friendly San Fernando Valley movers ready to make your move a breeze. Get your free quote now!",
+    "canonical": "https://www.sosmovingla.net/ads/san-fernando-valley-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Top-Rated Movers San Fernando Valley",
+    "lang": "en",
+    "og": {
+      "og:title": "Trusted 4.9-Star San Fernando Valley Movers (From $119/hr)",
+      "og:description": "Friendly San Fernando Valley movers ready to make your move a breeze. Get your free quote now!",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Trusted 4.9-Star San Fernando Valley Movers (From $119/hr)",
+      "twitter:description": "Friendly San Fernando Valley movers ready to make your move a breeze. Get your free quote now!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/beverly-hills-movers",
+    "title": "Top Rated Beverly Hills Movers from $119/Hr. | We Can Handle Any Move",
+    "description": "Top-rated Beverly Hills movers — licensed & insured, from $119/hr. HOA-compliant, hillside navigation experts. 4.9★ Google rated. Free quote.",
+    "canonical": "https://www.sosmovingla.net/ads/beverly-hills-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Top-Rated Moversin Beverly Hills",
+    "lang": "en",
+    "og": {
+      "og:title": "Top Rated Beverly Hills Movers from $119/Hr. | We Can Handle Any Move",
+      "og:description": "Top-rated Beverly Hills movers — licensed & insured, from $119/hr. HOA-compliant, hillside navigation experts. 4.9★ Google rated. Free quote.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Top Rated Beverly Hills Movers from $119/Hr. | We Can Handle Any Move",
+      "twitter:description": "Top-rated Beverly Hills movers — licensed & insured, from $119/hr. HOA-compliant, hillside navigation experts. 4.9★ Google rated. Free quote.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/san-gabriel-movers",
+    "title": "4.9-Star San Gabriel Movers — Stress-Free Moves from $119/hr",
+    "description": "Your trusted movers across the San Gabriel Valley, from Alhambra to Arcadia. Free quote!",
+    "canonical": "https://www.sosmovingla.net/ads/san-gabriel-movers",
+    "robots": "noindex, nofollow",
+    "h1": "San Gabriel Top-Rated Movers",
+    "lang": "en",
+    "og": {
+      "og:title": "4.9-Star San Gabriel Movers — Stress-Free Moves from $119/hr",
+      "og:description": "Your trusted movers across the San Gabriel Valley, from Alhambra to Arcadia. Free quote!",
+      "og:image": "/images/og/68c9805005b2cae7fbdb1187_San-Gabriel_Open-Graph-Image_1200x630.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "4.9-Star San Gabriel Movers — Stress-Free Moves from $119/hr",
+      "twitter:description": "Your trusted movers across the San Gabriel Valley, from Alhambra to Arcadia. Free quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/south-bay-movers",
+    "title": "4.9-Star South Bay Movers You Can Count On (From $119/Hr)",
+    "description": "Let our trusted South Bay movers turn your moving day into a smooth, stress-free experience you’ll actually enjoy. Get your free quote now!",
+    "canonical": "https://www.sosmovingla.net/ads/south-bay-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Top-Rated South Bay Movers",
+    "lang": "en",
+    "og": {
+      "og:title": "4.9-Star South Bay Movers You Can Count On (From $119/Hr)",
+      "og:description": "Let our trusted South Bay movers turn your moving day into a smooth, stress-free experience you’ll actually enjoy. Get your free quote now!",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "4.9-Star South Bay Movers You Can Count On (From $119/Hr)",
+      "twitter:description": "Let our trusted South Bay movers turn your moving day into a smooth, stress-free experience you’ll actually enjoy. Get your free quote now!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/santa-monica-movers",
+    "title": "Trusted 4.9-Star Movers Santa Monica (From $119/hr)",
+    "description": "Your Santa Monica moving experts — locally owned, locally loved. Get your moving quote!",
+    "canonical": "https://www.sosmovingla.net/ads/santa-monica-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Licensed Movers in Santa Monica",
+    "lang": "en",
+    "og": {
+      "og:title": "Trusted 4.9-Star Movers Santa Monica (From $119/hr)",
+      "og:description": "Your Santa Monica moving experts — locally owned, locally loved. Get your moving quote!",
+      "og:image": "/images/og/69a96839d9cf3d0717801934_Movers-Santa-Monica5.png",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Trusted 4.9-Star Movers Santa Monica (From $119/hr)",
+      "twitter:description": "Your Santa Monica moving experts — locally owned, locally loved. Get your moving quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/glendale-movers",
+    "title": "Glendale's #1 Movers from $119/Hour | We Handle It All",
+    "description": "Our local Glendale movers ensure a smooth, safe, and stress-free move with excellent customer service for all your moving needs. Get your moving quote!",
+    "canonical": "https://www.sosmovingla.net/ads/glendale-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Top-Rated Glendale Movers",
+    "lang": "en",
+    "og": {
+      "og:title": "Glendale's #1 Movers from $119/Hour | We Handle It All",
+      "og:description": "Our local Glendale movers ensure a smooth, safe, and stress-free move with excellent customer service for all your moving needs. Get your moving quote!",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Glendale's #1 Movers from $119/Hour | We Handle It All",
+      "twitter:description": "Our local Glendale movers ensure a smooth, safe, and stress-free move with excellent customer service for all your moving needs. Get your moving quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/north-hollywood-movers",
+    "title": "4.9-Star Trusted North Hollywood Movers (From $119/hr)",
+    "description": "Let our North Hollywood movers make your moving day easy and worry-free. Get a free quote!",
+    "canonical": "https://www.sosmovingla.net/ads/north-hollywood-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Licensed Movers North Hollywood",
+    "lang": "en",
+    "og": {
+      "og:title": "4.9-Star Trusted North Hollywood Movers (From $119/hr)",
+      "og:description": "Let our North Hollywood movers make your moving day easy and worry-free. Get a free quote!",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "4.9-Star Trusted North Hollywood Movers (From $119/hr)",
+      "twitter:description": "Let our North Hollywood movers make your moving day easy and worry-free. Get a free quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/movers-hollywood",
+    "title": "4.9 Star Rated Hollywood Movers ($119/hr) | We Handle It All",
+    "description": "Your trusted Hollywood movers for local & interstate moves. We offer expert, discreet service for apartments, studios, and hillside homes. Get a free quote!",
+    "canonical": "https://www.sosmovingla.net/ads/movers-hollywood",
+    "robots": "noindex, nofollow",
+    "h1": "Hollywood Movers",
+    "lang": "en",
+    "og": {
+      "og:title": "4.9 Star Rated Hollywood Movers ($119/hr) | We Handle It All",
+      "og:description": "Your trusted Hollywood movers for local & interstate moves. We offer expert, discreet service for apartments, studios, and hillside homes. Get a free quote!",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "4.9 Star Rated Hollywood Movers ($119/hr) | We Handle It All",
+      "twitter:description": "Your trusted Hollywood movers for local & interstate moves. We offer expert, discreet service for apartments, studios, and hillside homes. Get a free quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/sherman-oaks-movers",
+    "title": "Reliable 4.9-Star Movers | Sherman Oaks | From $119/hr",
+    "description": "Let's handle the move while you enjoy the sunshine — Sherman Oaks movers who get it.",
+    "canonical": "https://www.sosmovingla.net/ads/sherman-oaks-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Sherman Oaks Top-Rated Movers",
+    "lang": "en",
+    "og": {
+      "og:title": "Reliable 4.9-Star Movers | Sherman Oaks | From $119/hr",
+      "og:description": "Let's handle the move while you enjoy the sunshine — Sherman Oaks movers who get it.",
+      "og:image": "/images/og/68caf5df0b3abba4a0bbc6eb_Sherman-Oaks_Open-Graph-Image_1200x630.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Reliable 4.9-Star Movers | Sherman Oaks | From $119/hr",
+      "twitter:description": "Let's handle the move while you enjoy the sunshine — Sherman Oaks movers who get it.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/marina-del-rey-movers",
+    "title": "4.9-star rated Marina del Rey movers from $119/hr",
+    "description": "Expert Marina Del Rey movers for stress-free apartment and high-rise moves. Get your detailed free quote!",
+    "canonical": "https://www.sosmovingla.net/ads/marina-del-rey-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Licensed Movers in Marina del Rey",
+    "lang": "en",
+    "og": {
+      "og:title": "4.9-star rated Marina del Rey movers from $119/hr",
+      "og:description": "Expert Marina Del Rey movers for stress-free apartment and high-rise moves. Get your detailed free quote!",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "4.9-star rated Marina del Rey movers from $119/hr",
+      "twitter:description": "Expert Marina Del Rey movers for stress-free apartment and high-rise moves. Get your detailed free quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/culver-city-movers",
+    "title": "Expert Culver City Movers | 4.9* Rated | From $119/hr",
+    "description": "Hire the Culver City Movers trusted by local pros. White-glove care, complete property protection, and honest $119/hr rates. Get a fast quote!",
+    "canonical": "https://www.sosmovingla.net/ads/culver-city-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Top-Rated Movers in Culver City",
+    "lang": "en",
+    "og": {
+      "og:title": "Expert Culver City Movers | 4.9* Rated | From $119/hr",
+      "og:description": "Hire the Culver City Movers trusted by local pros. White-glove care, complete property protection, and honest $119/hr rates. Get a fast quote!",
+      "og:image": "/images/og/69a98cd6e95e455bfab8bc09_Culver-City5.png",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Expert Culver City Movers | 4.9* Rated | From $119/hr",
+      "twitter:description": "Hire the Culver City Movers trusted by local pros. White-glove care, complete property protection, and honest $119/hr rates. Get a fast quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/burbank-movers",
+    "title": "Top-Rated Burbank Movers $119/hr | Licensed & Insured",
+    "description": "Professional moving service with zero hidden fees. 1,500+ 5-star reviews. We handle packing and heavy lifting safely. Get a quote!",
+    "canonical": "https://www.sosmovingla.net/ads/burbank-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Top-Rated Burbank Movers",
+    "lang": "en",
+    "og": {
+      "og:title": "Top-Rated Burbank Movers $119/hr | Licensed & Insured",
+      "og:description": "Professional moving service with zero hidden fees. 1,500+ 5-star reviews. We handle packing and heavy lifting safely. Get a quote!",
+      "og:image": "/images/og/698c65cae72fb7b630cbe44f_Burbank-Movers-1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Top-Rated Burbank Movers $119/hr | Licensed & Insured",
+      "twitter:description": "Professional moving service with zero hidden fees. 1,500+ 5-star reviews. We handle packing and heavy lifting safely. Get a quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/studio-city-movers",
+    "title": "Trusted 4.9-Star Studio City Movers (From $119/hr)",
+    "description": "Let us handle the move. You handle the sunshine. No drama, no stress — just  Studio City movers who get it!",
+    "canonical": "https://www.sosmovingla.net/ads/studio-city-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Top-Rated Studio City Movers",
+    "lang": "en",
+    "og": {
+      "og:title": "Trusted 4.9-Star Studio City Movers (From $119/hr)",
+      "og:description": "Let us handle the move. You handle the sunshine. No drama, no stress — just  Studio City movers who get it!",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Trusted 4.9-Star Studio City Movers (From $119/hr)",
+      "twitter:description": "Let us handle the move. You handle the sunshine. No drama, no stress — just  Studio City movers who get it!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/torrance-movers",
+    "title": "Torrance Movers $119/hr | Top Rated 4.9 | SOS Moving",
+    "description": "Reliable movers in Torrance starting at $119/hr. Over 1,000+ 5-star reviews. Licensed, insured, and efficient. Get your free moving quote in 3 minutes!",
+    "canonical": "https://www.sosmovingla.net/ads/torrance-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Your Trusted Torrance Movers",
+    "lang": "en",
+    "og": {
+      "og:title": "Torrance Movers $119/hr | Top Rated 4.9 | SOS Moving",
+      "og:description": "Reliable movers in Torrance starting at $119/hr. Over 1,000+ 5-star reviews. Licensed, insured, and efficient. Get your free moving quote in 3 minutes!",
+      "og:image": "/images/og/698b7b2401af7874485e0a4a_torrence.png",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Torrance Movers $119/hr | Top Rated 4.9 | SOS Moving",
+      "twitter:description": "Reliable movers in Torrance starting at $119/hr. Over 1,000+ 5-star reviews. Licensed, insured, and efficient. Get your free moving quote in 3 minutes!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/van-nuys-movers",
+    "title": "4.9-Star Movers Van Nuys You Can Count On (From $119/Hr)",
+    "description": "Trust Van Nuys local movers who care about your move as much as you do - seamless service, zero worries. Ge t your moving quote!",
+    "canonical": "https://www.sosmovingla.net/ads/van-nuys-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Movers Van Nuys",
+    "lang": "en",
+    "og": {
+      "og:title": "4.9-Star Movers Van Nuys You Can Count On (From $119/Hr)",
+      "og:description": "Trust Van Nuys local movers who care about your move as much as you do - seamless service, zero worries. Ge t your moving quote!",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "4.9-Star Movers Van Nuys You Can Count On (From $119/Hr)",
+      "twitter:description": "Trust Van Nuys local movers who care about your move as much as you do - seamless service, zero worries. Ge t your moving quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/movers-hermosa-beach",
+    "title": "4.9-Star Rated Hermosa Beach Movers from $115/Hr | We Handle It All",
+    "description": "Let our professional Hermosa Beach movers make your move easy and worry-free. We handle local moves, packing, and more with care. Get a detailed, free quote!",
+    "canonical": "https://www.sosmovingla.net/ads/movers-hermosa-beach",
+    "robots": "noindex, nofollow",
+    "h1": "Movers Hermosa Beach",
+    "lang": "en",
+    "og": {
+      "og:title": "4.9-Star Rated Hermosa Beach Movers from $115/Hr | We Handle It All",
+      "og:description": "Let our professional Hermosa Beach movers make your move easy and worry-free. We handle local moves, packing, and more with care. Get a detailed, free quote!",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "4.9-Star Rated Hermosa Beach Movers from $115/Hr | We Handle It All",
+      "twitter:description": "Let our professional Hermosa Beach movers make your move easy and worry-free. We handle local moves, packing, and more with care. Get a detailed, free quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/hollywoodland-movers",
+    "title": "4.9-Star Hollywoodland Movers You Can Trust (From $115/hr)",
+    "description": "Trusted by Hollywoodland neighbors — we move families with care and precision. Get your free estimate!",
+    "canonical": "https://www.sosmovingla.net/ads/hollywoodland-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Hollywoodland Movers",
+    "lang": "en",
+    "og": {
+      "og:title": "4.9-Star Hollywoodland Movers You Can Trust (From $115/hr)",
+      "og:description": "Trusted by Hollywoodland neighbors — we move families with care and precision. Get your free estimate!",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "4.9-Star Hollywoodland Movers You Can Trust (From $115/hr)",
+      "twitter:description": "Trusted by Hollywoodland neighbors — we move families with care and precision. Get your free estimate!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/los-feliz-movers",
+    "title": "4.9-Star Rated Los Feliz Movers from $115/Hr | We Can Handle Any Move",
+    "description": "Our professional Los Feliz movers make your moving day easy and worry-free. We handle local moves, apartment moving, and packing. Get a detailed, free quote!",
+    "canonical": "https://www.sosmovingla.net/ads/los-feliz-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Los Feliz Movers",
+    "lang": "en",
+    "og": {
+      "og:title": "4.9-Star Rated Los Feliz Movers from $115/Hr | We Can Handle Any Move",
+      "og:description": "Our professional Los Feliz movers make your moving day easy and worry-free. We handle local moves, apartment moving, and packing. Get a detailed, free quote!",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "4.9-Star Rated Los Feliz Movers from $115/Hr | We Can Handle Any Move",
+      "twitter:description": "Our professional Los Feliz movers make your moving day easy and worry-free. We handle local moves, apartment moving, and packing. Get a detailed, free quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/redondo-beach-movers",
+    "title": "Trusted 4.9-Star Redondo Beach Movers (from $119/hr)",
+    "description": "Make moving day feel effortless with our top-rated Redondo Beach movers. Relax — we’ve got every detail covered. Get your quote today!",
+    "canonical": "https://www.sosmovingla.net/ads/redondo-beach-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Redondo Beach Top-Rated Movers",
+    "lang": "en",
+    "og": {
+      "og:title": "Trusted 4.9-Star Redondo Beach Movers (from $119/hr)",
+      "og:description": "Make moving day feel effortless with our top-rated Redondo Beach movers. Relax — we’ve got every detail covered. Get your quote today!",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Trusted 4.9-Star Redondo Beach Movers (from $119/hr)",
+      "twitter:description": "Make moving day feel effortless with our top-rated Redondo Beach movers. Relax — we’ve got every detail covered. Get your quote today!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/san-pedro-movers",
+    "title": "San Pedro's 4.9-Star Affordable Movers (From $119/Hr.)",
+    "description": "Zero drama. Zero stress. Just trusted San Pedro movers who get it done. We've got the move—you've got the sunshine. Get your quote!",
+    "canonical": "https://www.sosmovingla.net/ads/san-pedro-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Licensed Movers in San Pedro, CA",
+    "lang": "en",
+    "og": {
+      "og:title": "San Pedro's 4.9-Star Affordable Movers (From $119/Hr.)",
+      "og:description": "Zero drama. Zero stress. Just trusted San Pedro movers who get it done. We've got the move—you've got the sunshine. Get your quote!",
+      "og:image": "/images/og/68cefc0a80b02ad31518c7c6_San-Pedro_Open-Graph-Image_1200x630.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "San Pedro's 4.9-Star Affordable Movers (From $119/Hr.)",
+      "twitter:description": "Zero drama. Zero stress. Just trusted San Pedro movers who get it done. We've got the move—you've got the sunshine. Get your quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/movers-downtown-los-angeles",
+    "title": "Trusted 4.9-Star Downtown LA Movers (From $119/Hr.)",
+    "description": "No drama, no stress. Just trusted Downtown LA Movers who get it. Let us handle the move, you handle the sunshine. Get a free quote!",
+    "canonical": "https://www.sosmovingla.net/ads/movers-downtown-los-angeles",
+    "robots": "noindex, nofollow",
+    "h1": "Downtown LA Movers",
+    "lang": "en",
+    "og": {
+      "og:title": "Trusted 4.9-Star Downtown LA Movers (From $119/Hr.)",
+      "og:description": "No drama, no stress. Just trusted Downtown LA Movers who get it. Let us handle the move, you handle the sunshine. Get a free quote!",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Trusted 4.9-Star Downtown LA Movers (From $119/Hr.)",
+      "twitter:description": "No drama, no stress. Just trusted Downtown LA Movers who get it. Let us handle the move, you handle the sunshine. Get a free quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/canoga-park-movers",
+    "title": "Trusted 4.9-Star Movers Canoga Park (From $119/hr)",
+    "description": "Let us handle the move. You handle the sunshine. No drama, no stress — just Canoga Park movers who get it!",
+    "canonical": "https://www.sosmovingla.net/ads/canoga-park-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Movers Canoga Park",
+    "lang": "en",
+    "og": {
+      "og:title": "Trusted 4.9-Star Movers Canoga Park (From $119/hr)",
+      "og:description": "Let us handle the move. You handle the sunshine. No drama, no stress — just Canoga Park movers who get it!",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Trusted 4.9-Star Movers Canoga Park (From $119/hr)",
+      "twitter:description": "Let us handle the move. You handle the sunshine. No drama, no stress — just Canoga Park movers who get it!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/west-hollywood-movers",
+    "title": "Trusted 4.9-Star West Hollywood Movers (From $119/hr)",
+    "description": "Trust our West Hollywood movers for a truly stress-free move. We handle your belongings like our own for total peace of mind. Get a free quote!",
+    "canonical": "https://www.sosmovingla.net/ads/west-hollywood-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Top-Rated Movers West Hollywood",
+    "lang": "en",
+    "og": {
+      "og:title": "Trusted 4.9-Star West Hollywood Movers (From $119/hr)",
+      "og:description": "Trust our West Hollywood movers for a truly stress-free move. We handle your belongings like our own for total peace of mind. Get a free quote!",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Trusted 4.9-Star West Hollywood Movers (From $119/hr)",
+      "twitter:description": "Trust our West Hollywood movers for a truly stress-free move. We handle your belongings like our own for total peace of mind. Get a free quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/pasadena-movers",
+    "title": "4.9-Rated Movers Pasadena | Honest Pricing: $119/hr",
+    "description": "Stop stressing over logistics. Our movers Pasadena guarantee a flawless, fully insured move with transparent rates. Get a fast quote!",
+    "canonical": "https://www.sosmovingla.net/ads/pasadena-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Top-Rated Pasadena Movers",
+    "lang": "en",
+    "og": {
+      "og:title": "4.9-Rated Movers Pasadena | Honest Pricing: $119/hr",
+      "og:description": "Stop stressing over logistics. Our movers Pasadena guarantee a flawless, fully insured move with transparent rates. Get a fast quote!",
+      "og:image": "/images/og/69a93dc28aa5da4a15ec6460_Pasadena6.png",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "4.9-Rated Movers Pasadena | Honest Pricing: $119/hr",
+      "twitter:description": "Stop stressing over logistics. Our movers Pasadena guarantee a flawless, fully insured move with transparent rates. Get a fast quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/malibu-movers",
+    "title": "4.9-Star Malibu Movers That Rock Your Move (from $119/hr)",
+    "description": "Trust Malibu movers who get coastal living — white-glove care for your beach or canyon home, zero worries. Get your quote!",
+    "canonical": "https://www.sosmovingla.net/ads/malibu-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Malibu Movers",
+    "lang": "en",
+    "og": {
+      "og:title": "4.9-Star Malibu Movers That Rock Your Move (from $119/hr)",
+      "og:description": "Trust Malibu movers who get coastal living — white-glove care for your beach or canyon home, zero worries. Get your quote!",
+      "og:image": "/images/og/69075924fa0fb651175bf60d_SOS_Open-Graph-Image_Malibu_1200x630.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "4.9-Star Malibu Movers That Rock Your Move (from $119/hr)",
+      "twitter:description": "Trust Malibu movers who get coastal living — white-glove care for your beach or canyon home, zero worries. Get your quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/manhattan-beach-movers",
+    "title": "4.9-rated Manhattan Beach movers (from $119/hr)",
+    "description": "Trusted by Manhattan Beach neighbors — from downtown to the Hill Section we move. Free quote now!",
+    "canonical": "https://www.sosmovingla.net/ads/manhattan-beach-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Top-Rated Movers Manhattan Beach",
+    "lang": "en",
+    "og": {
+      "og:title": "4.9-rated Manhattan Beach movers (from $119/hr)",
+      "og:description": "Trusted by Manhattan Beach neighbors — from downtown to the Hill Section we move. Free quote now!",
+      "og:image": "/images/og/68dbeb0450b1277104feae32_Manhattan-Beach_Open-Graph-Image_1200x630.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "4.9-rated Manhattan Beach movers (from $119/hr)",
+      "twitter:description": "Trusted by Manhattan Beach neighbors — from downtown to the Hill Section we move. Free quote now!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
+  },
+  {
+    "url": "/ads/el-segundo-movers",
+    "title": "4.9-Star El Segundo Movers You Can Trust (from $119/hr)",
+    "description": "El Segundo’s trusted moving experts — seamless service end to end. Get a free quote!",
+    "canonical": "https://www.sosmovingla.net/ads/el-segundo-movers",
+    "robots": "noindex, nofollow",
+    "h1": "Movers El Segundo",
+    "lang": "en",
+    "og": {
+      "og:title": "4.9-Star El Segundo Movers You Can Trust (from $119/hr)",
+      "og:description": "El Segundo’s trusted moving experts — seamless service end to end. Get a free quote!",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "4.9-Star El Segundo Movers You Can Trust (from $119/hr)",
+      "twitter:description": "El Segundo’s trusted moving experts — seamless service end to end. Get a free quote!",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": null,
+    "jsonldExpected": 0
   }
 ]
