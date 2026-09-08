@@ -1,0 +1,181 @@
+/* ============================================================
+   sos-native.css - the site's interactions without the Webflow runtime.
+
+   Every rule is scoped to html.sos-native, the flag set by the inline
+   script in app/(webflow)/layout.tsx (?sosnative=1 / localStorage). With
+   the flag off nothing here applies and Webflow IX2 keeps driving the
+   page, so both modes can be compared side by side on the same build.
+
+   Specs come from docs/animations/ (ixData dump) and from measuring the
+   live runtime: durations, easings and the rest states IX2 used to write
+   as inline styles. Loaded after webflow.css, so equal specificity wins.
+   ============================================================ */
+
+/* ---- Services cards (IX2 a-2 hover in 500ms linear / a-3 out 300ms ease).
+   IX2 wrote the rest state inline on load: image hidden, arrow at .8,
+   icon visible. Hover shows the photo, grows the arrow, fades the icon. */
+html.sos-native .services-item .services-item-image {
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+html.sos-native .services-item .services-item-arrow {
+  transform: scale(.8);
+  transition: transform .3s ease;
+}
+html.sos-native .services-item .services-icon {
+  opacity: 1;
+  transform: scale(1);
+  transition: transform .3s ease, opacity .3s ease;
+}
+html.sos-native .services-item:hover .services-item-image {
+  opacity: 1;
+  transition: opacity .5s linear;
+}
+html.sos-native .services-item:hover .services-item-arrow {
+  transform: scale(1);
+  transition: transform .5s linear;
+}
+html.sos-native .services-item:hover .services-icon {
+  opacity: 0;
+  transform: scale(.8);
+  transition: transform .5s linear, opacity .5s linear;
+}
+
+/* ---- Yellow button (IX2 a-29 hover / a-30 out, 300ms ease-in-out).
+   Quirk kept on purpose: the button starts black (webflow.css) and the
+   mouse-out step paints it yellow with dark text, so after the first
+   hover it stays yellow - that is what the live site does. sos-native.js
+   adds .sos-hovered on mouseleave. */
+html.sos-native a.button.reviews {
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+html.sos-native a.button.reviews.sos-hovered {
+  background-color: rgb(250, 236, 31);
+  color: rgb(21, 20, 20);
+}
+html.sos-native a.button.reviews:hover {
+  background-color: rgb(229, 217, 5);
+  color: #fff;
+}
+html.sos-native a.button.reviews .path.yellow { display: none; }
+html.sos-native a.button.reviews:hover .path.yellow { display: block; }
+
+/* ---- Fake video card (IX2 a-32 / a-33: scale 1 <-> 1.2, 1000ms outQuint). */
+html.sos-native .fake-video-w .fake-video__btn {
+  transition: transform 1s cubic-bezier(.23, 1, .32, 1);
+}
+html.sos-native .fake-video-w:hover .fake-video__btn {
+  transform: scale(1.2);
+}
+
+/* ---- Navbar dropdowns (Webflow dropdown module + IX2 a-6 / a-7).
+   Desktop only: on mobile every list is expanded inside the menu and
+   IX2 never wrote a closed state there. Open: sos-native.js adds w--open
+   (display:block from webflow.css) and, a frame later, .sos-dd-in so the
+   list can animate from scale .8 / opacity 0 to 1 / 1 in 500ms ease.
+   Close removes .sos-dd-in first and w--open after the transition. */
+@media (min-width: 768px) {
+  html.sos-native .w-dropdown-list .navbar-dd-list {
+    opacity: 0;
+    transform: scale(.8);
+    transition: transform .5s ease, opacity .5s ease;
+    will-change: transform, opacity;
+  }
+  html.sos-native .w-dropdown-list.sos-dd-in .navbar-dd-list {
+    opacity: 1;
+    transform: none;
+  }
+}
+html.sos-native .navbar-dd.sos-dd-open { z-index: 901; }
+
+/* ---- Mobile menu (Webflow navbar module + IX2 a-12 / a-13).
+   The slide (400ms, from above the viewport) is inline-styled by
+   sos-native.js exactly like the runtime did; the fade is IX2's:
+   opacity 0 -> 1 in 300ms after a 200ms delay on open, 300ms on close. */
+html.sos-native .w-nav-overlay .navbar-menu[data-nav-menu-open] {
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+html.sos-native .w-nav-overlay .navbar-menu[data-nav-menu-open].sos-menu-in {
+  opacity: 1;
+  transition: opacity .3s ease .2s;
+}
+
+/* ---- Burger (replaces the Webflow Lottie player).
+   Geometry from hamburger-yellow.json (375x667 canvas fitted into the
+   7rem .navbar-lottie box): three 161-unit strokes 16 units thick, 50
+   units apart, colour rgb(255,229,51). The Lottie plays frames 0-43 in
+   500ms: the outer bars slide to the centre (frames 0-15) while the
+   middle one fades (13-15), then they rotate to the X (15-30). */
+html.sos-native .navbar-lottie .sos-burger {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: 1.69rem;
+  height: 1.22rem;
+  transform: translate(-50%, -50%);
+}
+html.sos-native .navbar-lottie .sos-burger i {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: .168rem;
+  border-radius: .084rem;
+  background: rgb(255, 229, 51);
+  transition: transform .175s linear, top .175s linear .175s, opacity .025s linear .3s;
+}
+html.sos-native .navbar-lottie .sos-burger i:nth-child(1) { top: 0; }
+html.sos-native .navbar-lottie .sos-burger i:nth-child(2) { top: .525rem; }
+html.sos-native .navbar-lottie .sos-burger i:nth-child(3) { top: 1.05rem; }
+html.sos-native .w-nav-button.w--open .sos-burger i {
+  transition: top .175s linear, transform .175s linear .175s, opacity .025s linear .15s;
+}
+html.sos-native .w-nav-button.w--open .sos-burger i:nth-child(1) { top: .525rem; transform: rotate(45deg); }
+html.sos-native .w-nav-button.w--open .sos-burger i:nth-child(2) { opacity: 0; }
+html.sos-native .w-nav-button.w--open .sos-burger i:nth-child(3) { top: .525rem; transform: rotate(-45deg); }
+
+/* ---- Multistep quote forms (IX2 a-34 hero / a-35 CTA).
+   Step 1 fields slide out to the left (1000ms outQuint), the display
+   switch happens, step 2 fields slide in from the right (1000ms outQuint).
+   sos-native.js drives the classes; step-2 containers stay display:none
+   in webflow.css until then. */
+html.sos-native .services-hero-form-input-wrap,
+html.sos-native .cta-form-input-wrap,
+html.sos-native .services-hero-move-inputs,
+html.sos-native .cta-move-inputs {
+  transition: transform 1s cubic-bezier(.23, 1, .32, 1), opacity 1s cubic-bezier(.23, 1, .32, 1);
+}
+html.sos-native .sos-step-out {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+html.sos-native .sos-step-pre {
+  transform: translateX(100%);
+  opacity: 0;
+  transition: none;
+}
+html.sos-native .form-step-2.sos-step-shown,
+html.sos-native .cta-form-step-2.sos-step-shown {
+  display: flex;
+}
+html.sos-native .form-step-1.sos-step-hidden,
+html.sos-native .cta-form-step-1.sos-step-hidden {
+  display: none;
+}
+
+/* Respect the OS motion setting - the runtime never did, this is a
+   deliberate improvement, not a parity loss. */
+@media (prefers-reduced-motion: reduce) {
+  html.sos-native .services-item *,
+  html.sos-native a.button.reviews,
+  html.sos-native .fake-video__btn,
+  html.sos-native .navbar-dd-list,
+  html.sos-native .navbar-menu,
+  html.sos-native .sos-burger i,
+  html.sos-native .services-hero-form-input-wrap,
+  html.sos-native .cta-form-input-wrap,
+  html.sos-native .services-hero-move-inputs,
+  html.sos-native .cta-move-inputs {
+    transition-duration: .01ms !important;
+    transition-delay: 0s !important;
+  }
+}

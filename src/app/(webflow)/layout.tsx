@@ -64,7 +64,18 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://app.vidzflow.com" />
         <link rel="dns-prefetch" href="https://r2.vidzflow.com" />
 
+        {/* Native-interactions flag. ?sosnative=1 turns the Webflow runtime
+            off for this browser (ScriptLoader skips the chunks, sos-native.js
+            takes over), ?sosnative=0 turns it back on. Inline and before the
+            stylesheets so the flag's CSS applies from the first paint. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "(function(){try{var q=location.search;var on=/[?&]sosnative=1(?:&|$)/.test(q);var off=/[?&]sosnative=0(?:&|$)/.test(q);if(on)localStorage.setItem('sosnative','1');if(off)localStorage.removeItem('sosnative');if(on||(!off&&localStorage.getItem('sosnative')==='1'))document.documentElement.classList.add('sos-native');}catch(e){}})();",
+          }}
+        />
         <link href="/webflow.css" rel="stylesheet" type="text/css" />
+        <link href="/sos-native.css" rel="stylesheet" type="text/css" />
 
         {/* Manrope (self-hosted, /fonts/) — preload the two weights used
             above the fold so text renders without a swap flash. */}

@@ -27,21 +27,33 @@ function loadStyle(href: string): void {
 
 export default function ScriptLoader() {
   useEffect(() => {
+    let bundleMapForPath: string | undefined;
     async function init() {
       try {
-        // ── Step 0: Load page config (wf-page ID + correct bundle) ──
-        const [pageRes, bundleRes] = await Promise.all([
-          fetch('/wf-page-map.json'),
-          fetch('/wf-bundle-map.json'),
-        ]);
-        const pageMap: Record<string, string> = await pageRes.json();
-        const bundleMap: Record<string, string> = await bundleRes.json();
-        const path = window.location.pathname.replace(/\/$/, '') || '/';
+        // Native mode (html.sos-native, set by the inline flag script in the
+        // layout): the Webflow runtime is not loaded at all - no page/bundle
+        // maps, no chunks, no IX2. sos-native.js + sos-native.css provide
+        // the dropdowns, mobile menu, hovers and multistep forms instead.
+        // jQuery and the plugins still load: sos-main.js (forms -> CRM),
+        // slick, select2, inputmask and the datepicker sit on them.
+        const native = document.documentElement.classList.contains('sos-native');
+        if (native) {
+          await loadScript('/sos-native.js');
+        } else {
+          // ── Step 0: Load page config (wf-page ID + correct bundle) ──
+          const [pageRes, bundleRes] = await Promise.all([
+            fetch('/wf-page-map.json'),
+            fetch('/wf-bundle-map.json'),
+          ]);
+          const pageMap: Record<string, string> = await pageRes.json();
+          const path = window.location.pathname.replace(/\/$/, '') || '/';
+          bundleMapForPath = (await bundleRes.json())[path];
 
-        // Set data-wf-page BEFORE loading Webflow JS (IX2 reads it on init)
-        const wfPageId = pageMap[path];
-        if (wfPageId) {
-          document.documentElement.setAttribute('data-wf-page', wfPageId);
+          // Set data-wf-page BEFORE loading Webflow JS (IX2 reads it on init)
+          const wfPageId = pageMap[path];
+          if (wfPageId) {
+            document.documentElement.setAttribute('data-wf-page', wfPageId);
+          }
         }
 
         // ── Step 1: jQuery (everything depends on it) ──
@@ -52,30 +64,32 @@ export default function ScriptLoader() {
         // kill this whole chain — no TOC, dead forms for that visitor.
         await loadScript('/vendor/jquery-3.5.1.min.js');
 
-        // ── Step 2: Webflow chunk files (must load before main bundle) ──
-        // Common chunks used by all pages (b2a9fed1 replaced 81d31091
-        // after the live-site services redesign; hashes match live).
-        await loadScript('/webflow.schunk.f2efb3c5440a81cf.js');
-        await loadScript('/webflow.schunk.b2a9fed12100bec1.js');
+        if (!native) {
+          // ── Step 2: Webflow chunk files (must load before main bundle) ──
+          // Common chunks used by all pages (b2a9fed1 replaced 81d31091
+          // after the live-site services redesign; hashes match live).
+          await loadScript('/webflow.schunk.f2efb3c5440a81cf.js');
+          await loadScript('/webflow.schunk.b2a9fed12100bec1.js');
 
-        // ── Step 3: Page-specific Webflow main bundle ──
-        const bundle = bundleMap[path] || 'webflow.8ef64be1.fc9d6e2e8b58a7f8.js';
-        // Extra chunks each main bundle needs BEFORE it runs — taken from
-        // the live site's <script> lists per page type. Missing chunks fail
-        // silently but break bundle modules (e.g. navbar hover dropdowns
-        // were dead on /free-estimate while 9dfb9666 wasn't loaded).
-        const extraChunks: Record<string, string[]> = {
-          'webflow.987c289e.df925483dbcdb1a9.js': ['/webflow.schunk.f919141e3448519b.js'],
-          'webflow.4c1b5164.e6782c011d2684fd.js': ['/webflow.schunk.9dfb96661114d3db.js'],
-          'webflow.cf90aa9a.d07593ecc8d89ceb.js': [
-            '/webflow.schunk.9dfb96661114d3db.js',
-            '/webflow.schunk.f919141e3448519b.js',
-          ],
-        };
-        for (const chunk of extraChunks[bundle] ?? []) {
-          await loadScript(chunk);
+          // ── Step 3: Page-specific Webflow main bundle ──
+          const bundle = bundleMapForPath || 'webflow.8ef64be1.fc9d6e2e8b58a7f8.js';
+          // Extra chunks each main bundle needs BEFORE it runs — taken from
+          // the live site's <script> lists per page type. Missing chunks fail
+          // silently but break bundle modules (e.g. navbar hover dropdowns
+          // were dead on /free-estimate while 9dfb9666 wasn't loaded).
+          const extraChunks: Record<string, string[]> = {
+            'webflow.987c289e.df925483dbcdb1a9.js': ['/webflow.schunk.f919141e3448519b.js'],
+            'webflow.4c1b5164.e6782c011d2684fd.js': ['/webflow.schunk.9dfb96661114d3db.js'],
+            'webflow.cf90aa9a.d07593ecc8d89ceb.js': [
+              '/webflow.schunk.9dfb96661114d3db.js',
+              '/webflow.schunk.f919141e3448519b.js',
+            ],
+          };
+          for (const chunk of extraChunks[bundle] ?? []) {
+            await loadScript(chunk);
+          }
+          await loadScript('/' + bundle);
         }
-        await loadScript('/' + bundle);
 
         // ── Step 4: GSAP + plugins ──
         await loadScript('/vendor/gsap.min.js');
