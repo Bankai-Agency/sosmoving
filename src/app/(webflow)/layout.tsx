@@ -42,19 +42,20 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className="w-mod-js"
+      // sos-native: the site's own interactions (public/sos-native.js + .css)
+      // drive the page; the Webflow runtime is the fallback, see the flag
+      // script below. Rendered on the server so the first paint already has
+      // the native rest states (no flash of IX2-less cards).
+      className="w-mod-js sos-native"
       data-wf-site="645ab1d97922876b775bef4f"
     >
       <head>
         {/* Preload critical same-origin scripts so browser fetches them
             in parallel with HTML parsing, instead of waiting for ScriptLoader
             to kick in after React hydration. Cuts ~500-800ms off time-to-jQuery
-            on slow mobile networks. Must match exact hrefs in ScriptLoader.tsx. */}
-        <link rel="preload" as="script" href="/webflow.schunk.f2efb3c5440a81cf.js" />
-        <link rel="preload" as="script" href="/webflow.schunk.b2a9fed12100bec1.js" />
-
-        {/* jQuery is self-hosted in /vendor (like every third-party lib —
-            ad-blockers routinely kill cdnjs/jsdelivr requests). */}
+            on slow mobile networks. Must match exact hrefs in ScriptLoader.tsx.
+            The Webflow chunks are no longer preloaded: the fallback mode
+            fetches them itself, the default never needs them. */}
         <link rel="preload" as="script" href="/vendor/jquery-3.5.1.min.js" />
 
         {/* Vidzflow video (hero background on / and /about-us/video-reviews).
@@ -64,14 +65,15 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://app.vidzflow.com" />
         <link rel="dns-prefetch" href="https://r2.vidzflow.com" />
 
-        {/* Native-interactions flag. ?sosnative=1 turns the Webflow runtime
-            off for this browser (ScriptLoader skips the chunks, sos-native.js
-            takes over), ?sosnative=0 turns it back on. Inline and before the
-            stylesheets so the flag's CSS applies from the first paint. */}
+        {/* Kill switch for the native interactions. ?sosnative=0 puts this
+            browser back on the Webflow runtime (ScriptLoader loads the chunks
+            and the page bundle instead of sos-native.js) until ?sosnative=1
+            clears it. Inline and before the stylesheets so the class is
+            settled by the first paint. */}
         <script
           dangerouslySetInnerHTML={{
             __html:
-              "(function(){try{var q=location.search;var on=/[?&]sosnative=1(?:&|$)/.test(q);var off=/[?&]sosnative=0(?:&|$)/.test(q);if(on)localStorage.setItem('sosnative','1');if(off)localStorage.removeItem('sosnative');if(on||(!off&&localStorage.getItem('sosnative')==='1'))document.documentElement.classList.add('sos-native');}catch(e){}})();",
+              "(function(){try{var q=location.search;var off=/[?&]sosnative=0(?:&|$)/.test(q);var on=/[?&]sosnative=1(?:&|$)/.test(q);if(off)localStorage.setItem('sosnative','0');if(on)localStorage.removeItem('sosnative');if(off||(!on&&localStorage.getItem('sosnative')==='0'))document.documentElement.classList.remove('sos-native');}catch(e){}})();",
           }}
         />
         <link href="/webflow.css" rel="stylesheet" type="text/css" />

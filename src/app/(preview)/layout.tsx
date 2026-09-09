@@ -26,7 +26,7 @@ export default function PreviewRootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className="w-mod-js" data-wf-site="645ab1d97922876b775bef4f">
+    <html lang="en" className="w-mod-js sos-native" data-wf-site="645ab1d97922876b775bef4f">
       <head>
         {/* Same chrome as (webflow)/layout.tsx — a raw <link> to webflow.css
             and Lato webfont. next/link is no good here (stylesheet, not nav)
@@ -34,6 +34,7 @@ export default function PreviewRootLayout({
             for preview. Suppressing the lint that flags both. */}
         {/* eslint-disable-next-line @next/next/no-css-tags */}
         <link href="/webflow.css" rel="stylesheet" type="text/css" />
+        <link href="/sos-native.css" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com" rel="preconnect" />
         <link href="https://fonts.gstatic.com" rel="preconnect" crossOrigin="anonymous" />
         {/* eslint-disable-next-line @next/next/no-page-custom-font */}

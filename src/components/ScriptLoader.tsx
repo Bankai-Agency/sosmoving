@@ -30,12 +30,14 @@ export default function ScriptLoader() {
     let bundleMapForPath: string | undefined;
     async function init() {
       try {
-        // Native mode (html.sos-native, set by the inline flag script in the
-        // layout): the Webflow runtime is not loaded at all - no page/bundle
-        // maps, no chunks, no IX2. sos-native.js + sos-native.css provide
-        // the dropdowns, mobile menu, hovers and multistep forms instead.
-        // jQuery and the plugins still load: sos-main.js (forms -> CRM),
-        // slick, select2, inputmask and the datepicker sit on them.
+        // Default: html.sos-native (rendered by the layout) - the Webflow
+        // runtime is not loaded at all: no page/bundle maps, no chunks, no
+        // IX2. sos-native.js + sos-native.css provide the dropdowns, mobile
+        // menu, hovers, anchors and multistep forms. The class is removed
+        // only by the ?sosnative=0 kill switch, which brings the runtime
+        // back for that browser. jQuery and the plugins still load either
+        // way: sos-main.js (forms -> CRM), slick, select2, inputmask and
+        // the datepicker sit on them.
         const native = document.documentElement.classList.contains('sos-native');
         if (native) {
           await loadScript('/sos-native.js');

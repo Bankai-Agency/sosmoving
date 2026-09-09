@@ -12,6 +12,7 @@
      - mobile menu: overlay + slide from above (400ms), body scroll lock,
        menu fade (IX2 a-12/a-13); the burger itself is CSS in sos-native.css
      - current-page highlighting of nav links (w--current)
+     - anchor links: smooth scroll with the fixed-navbar offset, "#" swallowed
      - yellow button "stays yellow after hover" quirk (IX2 a-30)
      - multistep quote forms step 1 -> step 2 (IX2 a-34/a-35)
    Not ported on purpose: IX2 a-8/a-9 (target is an empty div), a-31
@@ -231,6 +232,72 @@
     window.addEventListener('resize', function () {
       if (open && isDesktop()) closeMenu();
       else if (open) overlay.style.height = docHeight() + 'px';
+    });
+  })();
+
+  // ── Background videos (Webflow "bgvideo" module) ──
+  // The <video> tags carry autoplay/loop/muted/playsinline themselves; the
+  // runtime only added one thing worth keeping: no autoplay when the OS
+  // asks for reduced motion.
+  if (reduced) {
+    document.querySelectorAll('.w-background-video video').forEach(function (v) { v.pause(); v.removeAttribute('autoplay'); });
+  }
+
+  // ── Anchor links (Webflow "scroll" module) ──
+  // Same maths as the runtime: fixed-navbar offset, duration
+  // 472.143 * ln(distance + 125) - 2000 ms scaled by data-scroll-time,
+  // cubic in-out easing, pushState of the hash, focus on the target.
+  // Empty "#" links are swallowed instead of jumping to the top.
+  (function anchors() {
+    var HASH = /^#[a-zA-Z0-9][\w:.-]*$/;
+    var ease = function (d) { return d < 0.5 ? 4 * d * d * d : (d - 1) * (2 * d - 2) * (2 * d - 2) + 1; };
+    function targetTop(el) {
+      // The runtime's exact selector: only a header that is a direct child
+      // of <body> counts. Ours sits inside the React tree, so the offset is
+      // 0 here just like on the live site - fine, the navbar hides itself
+      // on scroll-down (custom-scripts.js) and the target ends up on top.
+      var nav = document.querySelector('header, body > .header, body > .w-nav:not([data-no-scroll])');
+      var offset = nav && getComputedStyle(nav).position === 'fixed' ? nav.offsetHeight : 0;
+      var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
+      if (el.getAttribute('data-scroll') === 'mid') {
+        var avail = window.innerHeight - offset, h = el.offsetHeight;
+        if (h < avail) top -= Math.round((avail - h) / 2);
+      }
+      return top;
+    }
+    function scrollTo(el, link) {
+      var start = window.pageYOffset, end = targetTop(el);
+      if (start === end) return focusTarget(el);
+      var factor = 1;
+      [document.body, link].forEach(function (n) { var v = parseFloat(n && n.getAttribute('data-scroll-time')); if (!isNaN(v) && v >= 0) factor = v; });
+      var duration = reduced || document.body.getAttribute('data-wf-scroll-motion') === 'none' ? 0 : (472.143 * Math.log(Math.abs(start - end) + 125) - 2000) * factor;
+      var t0 = Date.now();
+      (function step() {
+        var t = Date.now() - t0;
+        window.scroll(0, t > duration ? end : start + (end - start) * ease(t / duration));
+        if (t <= duration) requestAnimationFrame(step); else focusTarget(el);
+      })();
+    }
+    function focusTarget(el) {
+      var had = el.getAttribute('tabindex');
+      if (had === null) el.setAttribute('tabindex', '-1');
+      el.classList.add('wf-force-outline-none');
+      el.focus({ preventScroll: true });
+      if (had === null) el.removeAttribute('tabindex');
+      el.classList.remove('wf-force-outline-none');
+    }
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a[href^="#"]');
+      if (!a || a.classList.contains('w-tab-link')) return;
+      var hash = a.getAttribute('href');
+      if (hash === '#') { e.preventDefault(); return; }
+      if (!HASH.test(hash) || a.host !== location.host || a.pathname !== location.pathname) return;
+      var el = document.getElementById(hash.slice(1)) || document.querySelector('a[name="' + hash.slice(1) + '"]');
+      if (!el) return;
+      e.preventDefault();
+      e.stopPropagation();
+      if (location.hash !== hash && history.pushState) history.pushState({ hash: hash }, '', hash);
+      scrollTo(el, a);
     });
   })();
 
