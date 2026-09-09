@@ -4,6 +4,7 @@ import { join } from 'path';
 import type { Metadata } from 'next';
 import { renderPage } from '@/lib/render-page';
 import { metaForPath } from '@/lib/seo-meta';
+import { getAllCitySlugs } from '@/lib/data/cities';
 
 /**
  * Ad landing copies: /ads/<slug> -> public/pages/ads__<slug>.html.
@@ -23,10 +24,26 @@ export async function generateStaticParams() {
     .map((f) => ({ slug: f.replace(/^ads__/, '').replace(/\.html$/, '') }));
 }
 
+/**
+ * Path of the page this copy was taken from. Five of the 44 originals live one
+ * level down (/los-angeles-movers/burbank-movers and friends) while their copies
+ * are flat, and the flat original is a 308 - so the parent has to come from the
+ * registry, not from the slug.
+ */
+function originalPath(slug: string): string {
+  const entry = getAllCitySlugs().find((c) => c.slug === slug);
+  return entry?.parentSlug ? `/${entry.parentSlug}/${slug}` : `/${slug}`;
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const noindex = { index: false, follow: false, nocache: true };
-  return metaForPath(`/ads/${slug}`, { robots: { ...noindex, googleBot: noindex } });
+  // Canonical points at the original: metaForPath() builds it from the path it
+  // is given, so a copy would otherwise self-canonicalise.
+  return metaForPath(`/ads/${slug}`, {
+    robots: { ...noindex, googleBot: noindex },
+    alternates: { canonical: originalPath(slug) },
+  });
 }
 
 export default async function AdLandingPage({ params }: { params: Promise<{ slug: string }> }) {
