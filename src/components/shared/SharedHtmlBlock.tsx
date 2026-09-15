@@ -17,9 +17,21 @@ function read(name: string): string {
  * Server Component — reads file at build time, renders via dangerouslySetInnerHTML.
  * The HTML is from Webflow and includes absolute paths + className hooks that
  * webflow.css and ScriptLoader/IX2 depend on.
+ *
+ * The footer's <!--footer-areas--> placeholder takes the links to every city
+ * page (footer-areas.html). The ad landing copies render the footer without
+ * them: the copies stay out of the site graph, so no links go there at all -
+ * not even hidden ones.
  */
-export function SharedHtmlBlock({ name }: { name: 'navbar' | 'footer' | 'exit-popup' }) {
-  const html = read(name);
+export function SharedHtmlBlock({
+  name,
+  footerAreas = true,
+}: {
+  name: 'navbar' | 'footer' | 'exit-popup';
+  footerAreas?: boolean;
+}) {
+  let html = read(name);
   if (!html) return null;
+  if (name === 'footer') html = html.replace('<!--footer-areas-->', footerAreas ? read('footer-areas') : '');
   return <div data-shared-block={name} dangerouslySetInnerHTML={{ __html: html }} />;
 }

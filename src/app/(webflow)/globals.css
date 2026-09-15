@@ -282,3 +282,31 @@ body.sos-lightbox-lock #chatbase-message-bubbles {
     max-width: 96vw;
   }
 }
+
+/* Service areas: links to every city page under the footer columns (tz/16).
+   The links keep .footer-link from webflow.css. The ad landing copies render
+   the footer without this block, see app/(ads)/layout.tsx. */
+.footer-areas {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ffffff1a;
+}
+.footer-areas-group + .footer-areas-group {
+  margin-top: 1rem;
+}
+.footer-areas-title {
+  margin-bottom: 0.25rem;
+  color: #a9a9a9;
+  font-size: 0.7rem;
+}
+.footer-areas-links {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.4rem;
+  margin-left: -0.31rem;
+}
+@media screen and (max-width: 767px) {
+  .footer-areas-title {
+    font-size: 0.93rem;
+  }
+}

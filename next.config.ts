@@ -42,7 +42,7 @@ const nextConfig: NextConfig = {
         headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
       },
       {
-        // Ad landing copies (app/(webflow)/ads): closed to indexing at every
+        // Ad landing copies (app/(ads)/ads): closed to indexing at every
         // layer - this header, the meta robots tag and robots.txt. AdsBot
         // ignores the `*` robots.txt rule, so campaigns still get audited.
         source: "/ads/:path*",

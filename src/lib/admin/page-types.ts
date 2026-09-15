@@ -55,7 +55,7 @@ export function classifyPage(slug: string): { type: PageType; url: string } {
   if (slug.startsWith("ads__")) {
     // Ad landing copies: ads__la-movers.html -> /ads/la-movers. Never indexed
     // (meta + X-Robots-Tag + robots.txt), never linked from the site, never in
-    // a registry or the sitemap - see page-duplicate.ts and app/(webflow)/ads.
+    // a registry or the sitemap - see page-duplicate.ts and app/(ads)/ads.
     const s = slug.replace("ads__", "");
     return { type: "ads", url: `/ads/${s}` };
   }
