@@ -22,7 +22,7 @@ Silver Lake wraps around its namesake reservoir, creating dramatic topography th
 
 The neighborhood divides into distinct zones: Sunset Junction serves as commercial heart with restaurants, bars, and shops. The reservoir area offers joggers and dog walkers their daily circuits. Hillside streets contain hidden architectural gems and spectacular views. The flats near Hyperion provide easier parking but less character.
 
-This geography creates moving challenges requiring experienced crews. Large trucks can't navigate many streets. Furniture might need carrying up 50+ stairs. Parking for moving vehicles often requires creativity and local knowledge.
+This geography creates moving challenges requiring [experienced crews](/silver-lake-movers). Large trucks can't navigate many streets. Furniture might need carrying up 50+ stairs. Parking for moving vehicles often requires creativity and local knowledge.
 
 ## Housing Market: Expensive and Competitive
 

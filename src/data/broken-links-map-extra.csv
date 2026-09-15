@@ -36,13 +36,12 @@ wrong_url,correct_url,kind,linked_from_pages
 /white-glove,/services/white-glove-movers,legacy-alias,0
 /services/local-movers,/services/local-moving,legacy-alias,0
 /services/storage-services,/services/storage,legacy-alias,0
-/los-angeles-movers/echo-park-movers,/la-movers,no-page->hub,0
-/los-angeles-movers/encino-movers,/la-movers,no-page->hub,0
-/los-angeles-movers/koreatown-movers,/la-movers,no-page->hub,0
-/los-angeles-movers/silver-lake-movers,/la-movers,no-page->hub,0
+/los-angeles-movers/echo-park-movers,/echo-park-movers,no-page->hub->city-page,0
+/los-angeles-movers/encino-movers,/encino-movers,no-page->hub->city-page,0
+/los-angeles-movers/koreatown-movers,/koreatown-movers,no-page->hub->city-page,0
+/los-angeles-movers/silver-lake-movers,/silver-lake-movers,no-page->hub->city-page,0
 /hancock-park-movers,/la-movers,no-page->hub,0
 /mount-washington-movers,/la-movers,no-page->hub,0
-/pacific-palisades-movers,/la-movers,no-page->hub,0
 /sylmar-movers,/la-movers,no-page->hub,0
 /services/last-minute-movers,/services,no-page->hub,0
 /services/senior-moving,/services,no-page->hub,0
@@ -64,7 +63,6 @@ wrong_url,correct_url,kind,linked_from_pages
 /downtown-los-angeles-movers,/movers-downtown-los-angeles,legacy-absolute-link,0
 /lancaster-movers,/la-movers,legacy-absolute-link,0
 /palmdale-movers,/la-movers,legacy-absolute-link,0
-/westwood-movers,/west-los-angeles-movers,legacy-absolute-link,0
 /los-angeles-county-movers,/la-movers,legacy-absolute-link,0
 /san-bernardino-movers,/la-movers,legacy-absolute-link,0
 /blog/5-quick-ways-to-check-if-moving-company-is-legitimate,/blog/5-quick-ways-to-check-if-a-moving-company-is-legitimate,legacy-absolute-link,0

@@ -40,7 +40,7 @@ The evacuation order comes at 3am: "Mandatory evacuation, leave immediately." No
 
 **High-risk areas:**
 
-- Hollywood Hills- Malibu/Pacific Palisades- Bel Air- Griffith Park adjacent- Angeles National Forest borders- Altadena/La Cañada
+- Hollywood Hills- Malibu/[Pacific Palisades](/pacific-palisades-movers)- Bel Air- Griffith Park adjacent- Angeles National Forest borders- Altadena/La Cañada
 
 **Fire moves 60mph in Santa Anas. Preparation saves everything.**
 

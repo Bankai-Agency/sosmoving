@@ -30,7 +30,7 @@ College moves happen on impossible timelines—everyone moving the same three da
 
 **Major universities:**
 
-**UCLA (Westwood):**35,000+ students. Hill-based campus challenging. Move-in weekend insane. Parking permits required. Storage needs huge. [Westwood](/west-los-angeles-movers) apartments expensive.
+**UCLA (Westwood):**35,000+ students. Hill-based campus challenging. Our [Westwood movers](/westwood-movers) handle UCLA dorm and apartment moves. Move-in weekend insane. Parking permits required. Storage needs huge. [Westwood](/west-los-angeles-movers) apartments expensive.
 
 **USC (Downtown):**20,000+ students. Urban campus complicated. Security very strict. Limited vehicle access. Surrounding apartments varying. [Downtown](/movers-downtown-los-angeles) traffic challenging.
 

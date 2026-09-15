@@ -34,7 +34,7 @@ During peak times, prices jump 30-50% and availability disappears. Book three we
 
 ## Campus-Specific Moving Challenges
 
-**UCLA (Westwood):**Brutal parking—permits required everywhere. Hill dormitories require long carries. Move-in day traffic backs up for miles. Strict elevator scheduling in apartments. [Westwood](/west-los-angeles-movers) apartments charge moving fees.
+**[UCLA (Westwood)](/westwood-movers):**Brutal parking—permits required everywhere. Hill dormitories require long carries. Move-in day traffic backs up for miles. Strict elevator scheduling in apartments. [Westwood](/west-los-angeles-movers) apartments charge moving fees.
 
 **USC (Downtown):**Safety concerns require daylight moves. Extremely limited street parking. Old buildings with narrow stairs. Gate access requires student accompaniment. [Downtown](/movers-downtown-los-angeles) traffic adds complexity.
 

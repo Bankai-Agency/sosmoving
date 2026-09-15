@@ -14,7 +14,7 @@ author:
   photo: ""
 ---
 
-Koreatown packs more people, restaurants, and energy per square mile than anywhere else in Los Angeles. This 2.7-square-mile neighborhood hosts over 120,000 residents speaking dozens of languages, creating LA's most international community outside of downtown. While Korean businesses dominate the commercial landscape, K-town's residential population is surprisingly diverse: 53% Latino, 32% Asian, with growing numbers of young professionals drawn to central location and nightlife. SOS Moving handles more moves to and from Koreatown than almost any other LA neighborhood, giving us unique insight into this dynamic community.
+Koreatown packs more people, restaurants, and energy per square mile than anywhere else in Los Angeles. This 2.7-square-mile neighborhood hosts over 120,000 residents speaking dozens of languages, creating LA's most international community outside of downtown. While Korean businesses dominate the commercial landscape, K-town's residential population is surprisingly diverse: 53% Latino, 32% Asian, with growing numbers of young professionals drawn to central location and nightlife. SOS Moving handles more [moves to and from Koreatown](/koreatown-movers) than almost any other LA neighborhood, giving us unique insight into this dynamic community.
 
 ## Understanding Koreatown's Geography
 

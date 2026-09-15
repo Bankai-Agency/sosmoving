@@ -33,20 +33,6 @@
         },
         "telephone": "+1-909-443-0004",
         "email": "info@sosmovingla.net"
-      },
-      {
-        "@type": "Place",
-        "name": "San Francisco Office",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "625 San Mateo Ave",
-          "addressLocality": "San Bruno",
-          "addressRegion": "CA",
-          "postalCode": "94066",
-          "addressCountry": "US"
-        },
-        "telephone": "+1-909-443-0004",
-        "email": "info@sosmovingla.net"
       }
     ],
     "openingHours": "Mo-Su 08:00-18:00",

@@ -16,7 +16,7 @@ author:
 
 Have you been considering moving from LA to SF lately? Well, trading the sunshine and beautiful sceneries of Southern California for the Golden Gate City located in the Northern region might just be the best choice for you if you are looking to settle down in a city with a thriving economy. After all, San Francisco is a beautiful city to call home.
 
-The first step of this big relocation is definitely picking the right team of movers and estimating the cost of moving. At SOS Moving, our dream team champions in creating a convenient moving experience to handle your short and long distance moves.
+The first step of this big relocation is definitely picking [the right team of movers](/san-francisco-movers) and estimating the cost of moving. At SOS Moving, our dream team champions in creating a convenient moving experience to handle your short and long distance moves.
 
 [If you are on a budget](/blog/tips-on-how-to-move-to-los-angeles-on-a-budget) and not sure of the cost you would have to pay to the movers, this blog will serve as a great guide for you.
 

@@ -14,7 +14,7 @@ author:
   photo: ""
 ---
 
-Moving from San Francisco to Los Angeles isn't just driving 380 miles south—it's trading fog for sun, tech for entertainment, hills for sprawl, and $4,500 studio apartments for actual space. This Bay Area to SoCal transition is California's most common intrastate move, yet the culture shock surprises everyone. Here's what actually matters for your NorCal to LA relocation.
+Moving from San Francisco to Los Angeles isn't just driving 380 miles south—it's trading fog for sun, tech for entertainment, hills for sprawl, and $4,500 studio apartments for actual space. This Bay Area to SoCal transition is California's most common intrastate move, yet the culture shock surprises everyone. Here's what actually matters for your NorCal to LA relocation. It starts with [San Francisco movers](/san-francisco-movers) who can handle the hills.
 
 ## The Real Distance and Routes
 

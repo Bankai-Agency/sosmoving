@@ -15,19 +15,19 @@
   {
     "url": "/about-us/contact-us",
     "title": "Contact SOS Moving LA | 909-443-0004 | Free Moving Quote",
-    "description": "Contact SOS Moving & Storage: call 909-443-0004 or fill out the form. LA office: 5530 Jillson St, 90040. SF office: 625 San Mateo Ave, San Bruno. Free quotes!",
+    "description": "Contact SOS Moving & Storage: call 909-443-0004 or fill out the form. LA office: 5530 Jillson St, 90040. Free quotes!",
     "canonical": "https://www.sosmovingla.net/about-us/contact-us",
     "robots": "",
     "h1": "Contact SOS Moving & Storage",
     "lang": "en",
     "og": {
       "og:title": "Contact SOS Moving LA | 909-443-0004 | Free Moving Quote",
-      "og:description": "Contact SOS Moving & Storage: call 909-443-0004 or fill out the form. LA office: 5530 Jillson St, 90040. SF office: 625 San Mateo Ave, San Bruno. Free quotes!",
+      "og:description": "Contact SOS Moving & Storage: call 909-443-0004 or fill out the form. LA office: 5530 Jillson St, 90040. Free quotes!",
       "og:type": "website"
     },
     "twitter": {
       "twitter:title": "Contact SOS Moving LA | 909-443-0004 | Free Moving Quote",
-      "twitter:description": "Contact SOS Moving & Storage: call 909-443-0004 or fill out the form. LA office: 5530 Jillson St, 90040. SF office: 625 San Mateo Ave, San Bruno. Free quotes!",
+      "twitter:description": "Contact SOS Moving & Storage: call 909-443-0004 or fill out the form. LA office: 5530 Jillson St, 90040. Free quotes!",
       "twitter:card": "summary_large_image"
     },
     "jsonldFile": "data/jsonld/about-us_contact-us.json",
@@ -9641,5 +9641,357 @@
     },
     "jsonldFile": null,
     "jsonldExpected": 0
+  },
+  {
+    "url": "/brentwood-movers",
+    "title": "Brentwood Movers in Los Angeles — White Glove | SOS Moving",
+    "description": "Brentwood movers on LA's Westside: white glove care for art, antiques, gated estates and condos. From $119/hr Monday–Thursday. Call 909-443-0004.",
+    "canonical": "https://www.sosmovingla.net/brentwood-movers",
+    "robots": "",
+    "h1": "Brentwood Movers With White Glove Care",
+    "lang": "en",
+    "og": {
+      "og:title": "Brentwood Movers in Los Angeles — White Glove | SOS Moving",
+      "og:description": "Brentwood movers on LA's Westside: white glove care for art, antiques, gated estates and condos. From $119/hr Monday–Thursday. Call 909-443-0004.",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Brentwood Movers in Los Angeles — White Glove | SOS Moving",
+      "twitter:description": "Brentwood movers on LA's Westside: white glove care for art, antiques, gated estates and condos. From $119/hr Monday–Thursday. Call 909-443-0004.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/brentwood-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/dana-point-movers",
+    "title": "Dana Point Movers from $119/hr | SOS Moving",
+    "description": "Licensed Dana Point movers for gated communities, bluff-top homes and beach cottages. From $119/hr for 2 movers and a truck Monday–Thursday. 909-443-0004.",
+    "canonical": "https://www.sosmovingla.net/dana-point-movers",
+    "robots": "",
+    "h1": "Dana Point Movers From the Harbor to the Headlands",
+    "lang": "en",
+    "og": {
+      "og:title": "Dana Point Movers from $119/hr | SOS Moving",
+      "og:description": "Licensed Dana Point movers for gated communities, bluff-top homes and beach cottages. From $119/hr for 2 movers and a truck Monday–Thursday. 909-443-0004.",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Dana Point Movers from $119/hr | SOS Moving",
+      "twitter:description": "Licensed Dana Point movers for gated communities, bluff-top homes and beach cottages. From $119/hr for 2 movers and a truck Monday–Thursday. 909-443-0004.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/dana-point-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/eagle-rock-movers",
+    "title": "Eagle Rock Movers, Los Angeles CA | SOS Moving",
+    "description": "Eagle Rock movers for Craftsman homes, hillside streets and Occidental student moves. 2 movers + truck from $119/hr Monday–Thursday. Free estimate.",
+    "canonical": "https://www.sosmovingla.net/eagle-rock-movers",
+    "robots": "",
+    "h1": "Eagle Rock Movers From the Hills to Colorado Boulevard",
+    "lang": "en",
+    "og": {
+      "og:title": "Eagle Rock Movers, Los Angeles CA | SOS Moving",
+      "og:description": "Eagle Rock movers for Craftsman homes, hillside streets and Occidental student moves. 2 movers + truck from $119/hr Monday–Thursday. Free estimate.",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Eagle Rock Movers, Los Angeles CA | SOS Moving",
+      "twitter:description": "Eagle Rock movers for Craftsman homes, hillside streets and Occidental student moves. 2 movers + truck from $119/hr Monday–Thursday. Free estimate.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/eagle-rock-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/echo-park-movers",
+    "title": "Echo Park Movers | Hillside & Stair Moves | SOS Moving",
+    "description": "Echo Park movers for stair-street homes and steep hillside lots. 2 movers + truck from $119/hr Monday–Thursday. Stairs included. Call 909-443-0004.",
+    "canonical": "https://www.sosmovingla.net/echo-park-movers",
+    "robots": "",
+    "h1": "Echo Park Movers Built for Hills and Stair Streets",
+    "lang": "en",
+    "og": {
+      "og:title": "Echo Park Movers | Hillside & Stair Moves | SOS Moving",
+      "og:description": "Echo Park movers for stair-street homes and steep hillside lots. 2 movers + truck from $119/hr Monday–Thursday. Stairs included. Call 909-443-0004.",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Echo Park Movers | Hillside & Stair Moves | SOS Moving",
+      "twitter:description": "Echo Park movers for stair-street homes and steep hillside lots. 2 movers + truck from $119/hr Monday–Thursday. Stairs included. Call 909-443-0004.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/echo-park-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/encino-movers",
+    "title": "Encino Movers | Top-Rated, From $119/hr | SOS Moving",
+    "description": "Encino movers for hillside homes, gated enclaves and condos. 2 movers + truck from $119/hr Monday–Thursday, $135/hr Friday–Sunday. Call 909-443-0004.",
+    "canonical": "https://www.sosmovingla.net/encino-movers",
+    "robots": "",
+    "h1": "Encino Movers North and South of Ventura",
+    "lang": "en",
+    "og": {
+      "og:title": "Encino Movers | Top-Rated, From $119/hr | SOS Moving",
+      "og:description": "Encino movers for hillside homes, gated enclaves and condos. 2 movers + truck from $119/hr Monday–Thursday, $135/hr Friday–Sunday. Call 909-443-0004.",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Encino Movers | Top-Rated, From $119/hr | SOS Moving",
+      "twitter:description": "Encino movers for hillside homes, gated enclaves and condos. 2 movers + truck from $119/hr Monday–Thursday, $135/hr Friday–Sunday. Call 909-443-0004.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/encino-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/koreatown-movers",
+    "title": "Koreatown Movers for Apartments & High-Rises | SOS Moving",
+    "description": "Koreatown movers for Wilshire high-rises and apartments. From $119/hr for 2 movers + truck, Monday–Thursday; stairs included. Call 909-443-0004.",
+    "canonical": "https://www.sosmovingla.net/koreatown-movers",
+    "robots": "",
+    "h1": "Koreatown Movers From Wilshire Towers to Side Streets",
+    "lang": "en",
+    "og": {
+      "og:title": "Koreatown Movers for Apartments & High-Rises | SOS Moving",
+      "og:description": "Koreatown movers for Wilshire high-rises and apartments. From $119/hr for 2 movers + truck, Monday–Thursday; stairs included. Call 909-443-0004.",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Koreatown Movers for Apartments & High-Rises | SOS Moving",
+      "twitter:description": "Koreatown movers for Wilshire high-rises and apartments. From $119/hr for 2 movers + truck, Monday–Thursday; stairs included. Call 909-443-0004.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/koreatown-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/laguna-beach-movers",
+    "title": "Laguna Beach Movers for Hillside & Coast Homes | SOS Moving",
+    "description": "Laguna Beach movers from $119/hr Monday–Thursday: 2 movers + truck, stairs and long carries included. CPUC licensed, Google 4.9. Call 909-443-0004.",
+    "canonical": "https://www.sosmovingla.net/laguna-beach-movers",
+    "robots": "",
+    "h1": "Laguna Beach Movers From the Hilltops to the Coast",
+    "lang": "en",
+    "og": {
+      "og:title": "Laguna Beach Movers for Hillside & Coast Homes | SOS Moving",
+      "og:description": "Laguna Beach movers from $119/hr Monday–Thursday: 2 movers + truck, stairs and long carries included. CPUC licensed, Google 4.9. Call 909-443-0004.",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Laguna Beach Movers for Hillside & Coast Homes | SOS Moving",
+      "twitter:description": "Laguna Beach movers from $119/hr Monday–Thursday: 2 movers + truck, stairs and long carries included. CPUC licensed, Google 4.9. Call 909-443-0004.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/laguna-beach-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/laguna-niguel-movers",
+    "title": "Laguna Niguel Movers & Piano Moving | SOS Moving",
+    "description": "Laguna Niguel movers for gated and hillside homes: 2 movers + truck from $119/hr Monday–Thursday (cash rate), piano moving $200 extra. Call 909-443-0004.",
+    "canonical": "https://www.sosmovingla.net/laguna-niguel-movers",
+    "robots": "",
+    "h1": "Laguna Niguel Movers for Gated & Hillside Homes",
+    "lang": "en",
+    "og": {
+      "og:title": "Laguna Niguel Movers & Piano Moving | SOS Moving",
+      "og:description": "Laguna Niguel movers for gated and hillside homes: 2 movers + truck from $119/hr Monday–Thursday (cash rate), piano moving $200 extra. Call 909-443-0004.",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Laguna Niguel Movers & Piano Moving | SOS Moving",
+      "twitter:description": "Laguna Niguel movers for gated and hillside homes: 2 movers + truck from $119/hr Monday–Thursday (cash rate), piano moving $200 extra. Call 909-443-0004.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/laguna-niguel-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/mar-vista-movers",
+    "title": "Mar Vista Movers from $119/hr | SOS Moving",
+    "description": "Mar Vista movers for houses north of Venice Blvd and apartments south of it. 2 movers + truck from $119/hr Monday–Thursday, stairs included. 909-443-0004",
+    "canonical": "https://www.sosmovingla.net/mar-vista-movers",
+    "robots": "",
+    "h1": "Mar Vista Movers for Westside Family Moves",
+    "lang": "en",
+    "og": {
+      "og:title": "Mar Vista Movers from $119/hr | SOS Moving",
+      "og:description": "Mar Vista movers for houses north of Venice Blvd and apartments south of it. 2 movers + truck from $119/hr Monday–Thursday, stairs included. 909-443-0004",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Mar Vista Movers from $119/hr | SOS Moving",
+      "twitter:description": "Mar Vista movers for houses north of Venice Blvd and apartments south of it. 2 movers + truck from $119/hr Monday–Thursday, stairs included. 909-443-0004",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/mar-vista-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/mid-wilshire-movers",
+    "title": "Mid-Wilshire & Miracle Mile Movers in LA | SOS Moving",
+    "description": "Mid-Wilshire & Miracle Mile movers for 90036 high-rises, pre-war apartments and Wilshire offices. 2 movers + truck from $119/hr Monday–Thursday, cash rate.",
+    "canonical": "https://www.sosmovingla.net/mid-wilshire-movers",
+    "robots": "",
+    "h1": "Mid-Wilshire & Miracle Mile Movers for Apartments, High-Rises and Offices",
+    "lang": "en",
+    "og": {
+      "og:title": "Mid-Wilshire & Miracle Mile Movers in LA | SOS Moving",
+      "og:description": "Mid-Wilshire & Miracle Mile movers for 90036 high-rises, pre-war apartments and Wilshire offices. 2 movers + truck from $119/hr Monday–Thursday, cash rate.",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Mid-Wilshire & Miracle Mile Movers in LA | SOS Moving",
+      "twitter:description": "Mid-Wilshire & Miracle Mile movers for 90036 high-rises, pre-war apartments and Wilshire offices. 2 movers + truck from $119/hr Monday–Thursday, cash rate.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/mid-wilshire-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/mission-viejo-movers",
+    "title": "Mission Viejo Movers from $119/hr | SOS Moving",
+    "description": "Moving services in Mission Viejo, CA from $119/hr for 2 movers and a truck Monday–Thursday. Stairs included. Packing, storage, long-distance. 909-443-0004.",
+    "canonical": "https://www.sosmovingla.net/mission-viejo-movers",
+    "robots": "",
+    "h1": "Mission Viejo Movers for Hillside Homes and Gated Communities",
+    "lang": "en",
+    "og": {
+      "og:title": "Mission Viejo Movers from $119/hr | SOS Moving",
+      "og:description": "Moving services in Mission Viejo, CA from $119/hr for 2 movers and a truck Monday–Thursday. Stairs included. Packing, storage, long-distance. 909-443-0004.",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Mission Viejo Movers from $119/hr | SOS Moving",
+      "twitter:description": "Moving services in Mission Viejo, CA from $119/hr for 2 movers and a truck Monday–Thursday. Stairs included. Packing, storage, long-distance. 909-443-0004.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/mission-viejo-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/pacific-palisades-movers",
+    "title": "Pacific Palisades Local & Long-Distance Movers | SOS Moving",
+    "description": "Pacific Palisades movers for rental moves, storage during rebuilds and the move home. 2 movers + truck from $119/hr Monday–Thursday. Call 909-443-0004.",
+    "canonical": "https://www.sosmovingla.net/pacific-palisades-movers",
+    "robots": "",
+    "h1": "Pacific Palisades Movers for Rentals, Storage and the Move Home",
+    "lang": "en",
+    "og": {
+      "og:title": "Pacific Palisades Local & Long-Distance Movers | SOS Moving",
+      "og:description": "Pacific Palisades movers for rental moves, storage during rebuilds and the move home. 2 movers + truck from $119/hr Monday–Thursday. Call 909-443-0004.",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Pacific Palisades Local & Long-Distance Movers | SOS Moving",
+      "twitter:description": "Pacific Palisades movers for rental moves, storage during rebuilds and the move home. 2 movers + truck from $119/hr Monday–Thursday. Call 909-443-0004.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/pacific-palisades-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/playa-vista-movers",
+    "title": "Playa Vista Movers for Condos & Offices | SOS Moving",
+    "description": "Playa Vista movers for condos, lofts and Silicon Beach offices. From $119/hr Monday–Thursday for 2 movers + truck. Call 909-443-0004.",
+    "canonical": "https://www.sosmovingla.net/playa-vista-movers",
+    "robots": "",
+    "h1": "Playa Vista Movers for Condos, Lofts & Offices",
+    "lang": "en",
+    "og": {
+      "og:title": "Playa Vista Movers for Condos & Offices | SOS Moving",
+      "og:description": "Playa Vista movers for condos, lofts and Silicon Beach offices. From $119/hr Monday–Thursday for 2 movers + truck. Call 909-443-0004.",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Playa Vista Movers for Condos & Offices | SOS Moving",
+      "twitter:description": "Playa Vista movers for condos, lofts and Silicon Beach offices. From $119/hr Monday–Thursday for 2 movers + truck. Call 909-443-0004.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/playa-vista-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/san-francisco-movers",
+    "title": "San Francisco Movers | Moves To & From LA | SOS Moving",
+    "description": "San Francisco movers for moves to and from Los Angeles: flat-rate quotes, one crew door to door. CPUC licensed, 4.9 on Google. Call 909-443-0004.",
+    "canonical": "https://www.sosmovingla.net/san-francisco-movers",
+    "robots": "",
+    "h1": "San Francisco Movers for Moves To and From LA",
+    "lang": "en",
+    "og": {
+      "og:title": "San Francisco Movers | Moves To & From LA | SOS Moving",
+      "og:description": "San Francisco movers for moves to and from Los Angeles: flat-rate quotes, one crew door to door. CPUC licensed, 4.9 on Google. Call 909-443-0004.",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "San Francisco Movers | Moves To & From LA | SOS Moving",
+      "twitter:description": "San Francisco movers for moves to and from Los Angeles: flat-rate quotes, one crew door to door. CPUC licensed, 4.9 on Google. Call 909-443-0004.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/san-francisco-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/silver-lake-movers",
+    "title": "Silver Lake Movers in Los Angeles | SOS Moving",
+    "description": "Silver Lake movers in Los Angeles for hillside homes, stair streets and bungalow courts. From $119/hr Monday–Thursday, 2 movers + truck. CPUC licensed.",
+    "canonical": "https://www.sosmovingla.net/silver-lake-movers",
+    "robots": "",
+    "h1": "Silver Lake Movers for Hillside Homes and Stair Streets",
+    "lang": "en",
+    "og": {
+      "og:title": "Silver Lake Movers in Los Angeles | SOS Moving",
+      "og:description": "Silver Lake movers in Los Angeles for hillside homes, stair streets and bungalow courts. From $119/hr Monday–Thursday, 2 movers + truck. CPUC licensed.",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Silver Lake Movers in Los Angeles | SOS Moving",
+      "twitter:description": "Silver Lake movers in Los Angeles for hillside homes, stair streets and bungalow courts. From $119/hr Monday–Thursday, 2 movers + truck. CPUC licensed.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/silver-lake-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/westwood-movers",
+    "title": "Westwood Movers in Los Angeles, CA | SOS Moving",
+    "description": "Westwood movers for UCLA-area apartments, Wilshire Corridor condos and houses in Los Angeles. 2 movers + truck from $119/hr Monday–Thursday. 909-443-0004",
+    "canonical": "https://www.sosmovingla.net/westwood-movers",
+    "robots": "",
+    "h1": "Westwood Movers From the North Village to Wilshire",
+    "lang": "en",
+    "og": {
+      "og:title": "Westwood Movers in Los Angeles, CA | SOS Moving",
+      "og:description": "Westwood movers for UCLA-area apartments, Wilshire Corridor condos and houses in Los Angeles. 2 movers + truck from $119/hr Monday–Thursday. 909-443-0004",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Westwood Movers in Los Angeles, CA | SOS Moving",
+      "twitter:description": "Westwood movers for UCLA-area apartments, Wilshire Corridor condos and houses in Los Angeles. 2 movers + truck from $119/hr Monday–Thursday. 909-443-0004",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/westwood-movers.json",
+    "jsonldExpected": 1
   }
 ]

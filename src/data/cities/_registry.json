@@ -40,6 +40,10 @@
     "parentSlug": null
   },
   {
+    "slug": "brentwood-movers",
+    "parentSlug": null
+  },
+  {
     "slug": "camas-movers",
     "parentSlug": null
   },
@@ -92,6 +96,10 @@
     "parentSlug": null
   },
   {
+    "slug": "dana-point-movers",
+    "parentSlug": null
+  },
+  {
     "slug": "denver-movers",
     "parentSlug": null
   },
@@ -100,7 +108,15 @@
     "parentSlug": null
   },
   {
+    "slug": "eagle-rock-movers",
+    "parentSlug": null
+  },
+  {
     "slug": "eastvale-movers",
+    "parentSlug": null
+  },
+  {
+    "slug": "echo-park-movers",
     "parentSlug": null
   },
   {
@@ -109,6 +125,10 @@
   },
   {
     "slug": "el-segundo-movers",
+    "parentSlug": null
+  },
+  {
+    "slug": "encino-movers",
     "parentSlug": null
   },
   {
@@ -152,6 +172,10 @@
     "parentSlug": null
   },
   {
+    "slug": "koreatown-movers",
+    "parentSlug": null
+  },
+  {
     "slug": "la-crescenta-movers",
     "parentSlug": null
   },
@@ -169,6 +193,14 @@
   },
   {
     "slug": "la-puente-movers",
+    "parentSlug": null
+  },
+  {
+    "slug": "laguna-beach-movers",
+    "parentSlug": null
+  },
+  {
+    "slug": "laguna-niguel-movers",
     "parentSlug": null
   },
   {
@@ -192,12 +224,40 @@
     "parentSlug": "los-angeles-movers"
   },
   {
+    "slug": "mar-vista-movers",
+    "parentSlug": null
+  },
+  {
+    "slug": "mid-wilshire-movers",
+    "parentSlug": null
+  },
+  {
+    "slug": "mission-viejo-movers",
+    "parentSlug": null
+  },
+  {
+    "slug": "pacific-palisades-movers",
+    "parentSlug": null
+  },
+  {
     "slug": "pasadena-movers",
     "parentSlug": "los-angeles-movers"
   },
   {
+    "slug": "playa-vista-movers",
+    "parentSlug": null
+  },
+  {
+    "slug": "san-francisco-movers",
+    "parentSlug": null
+  },
+  {
     "slug": "santa-monica-movers",
     "parentSlug": "los-angeles-movers"
+  },
+  {
+    "slug": "silver-lake-movers",
+    "parentSlug": null
   },
   {
     "slug": "west-hollywood-movers",
@@ -433,6 +493,10 @@
   },
   {
     "slug": "west-los-angeles-movers",
+    "parentSlug": null
+  },
+  {
+    "slug": "westwood-movers",
     "parentSlug": null
   },
   {

@@ -30,7 +30,7 @@ August in Los Angeles transforms from summer calm to moving chaos as 400,000 stu
 
 ## University Impact Zones
 
-**Westwood/UCLA area:**
+**[Westwood/UCLA area](/westwood-movers):**
 
 - August 20-30: Move-in weeks- Every truck within 5 miles booked- Streets gridlocked- Parking impossible- Rates double
 
