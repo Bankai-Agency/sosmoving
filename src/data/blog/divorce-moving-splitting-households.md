@@ -50,7 +50,7 @@ The simplest approach is to split the moving cost equally. One truck, one crew, 
 
 Alternatively, each person hires their own movers and pays independently. This eliminates the need for cost-sharing negotiations but usually costs more total because you're paying for two separate truck deployments, two travel charges, and two minimum booking periods. For a household that could be moved in one full day with a single crew, splitting into two separate moves can nearly double the total cost.
 
-At SOS Moving, our weekday rate starts at $119 per hour for two movers, with a three-hour minimum. A typical divorce move where one person's belongings fill half a two-bedroom apartment takes three to four hours. Weekend rates start at $135 per hour. For two separate moves, you're looking at six to eight total hours versus four to five hours for a coordinated same-day move.
+At SOS Moving, our Monday–Thursday rate starts at $119 per hour for two movers, with a three-hour minimum. A typical divorce move where one person's belongings fill half a two-bedroom apartment takes three to four hours. Friday–Sunday rates start at $135 per hour. For two separate moves, you're looking at six to eight total hours versus four to five hours for a coordinated same-day move.
 
 Additional costs that often surprise people during divorce moves include storage. If your new apartment isn't ready yet, or if you're moving to temporary housing while looking for a permanent place, you'll need somewhere to keep your belongings. Short-term [storage solutions](/blog/storage-facility-near-me-climate-controlled-vs-standard-units) range from $100 to $300 per month depending on unit size, and many people in divorce situations need storage for one to three months during the transition.
 
