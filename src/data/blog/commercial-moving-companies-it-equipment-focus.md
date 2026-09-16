@@ -1,7 +1,7 @@
 ---
 slug: "commercial-moving-companies-it-equipment-focus"
-title: "Commercial Moving Companies: IT Equipment Moving Guide 2026"
-metaDescription: "Moving office IT equipment in LA? Servers, workstations, and network gear need specialized handling. Get it right the first time. Call 909-443-0004."
+title: "Moving IT Equipment During an Office Relocation: 2026 Guide"
+metaDescription: "Moving IT equipment: how to power down and pack servers, racks, drives and monitors, label cables and bring the network back up without data loss."
 featuredImage: "/images/blog/69b070a4153a7756c8a3b823_commercial-moving-companies-it-equipment-focus.png"
 publishDate: "March 14, 2026"
 lastUpdated: "March 14, 2026"
@@ -20,15 +20,7 @@ At SOS Moving, I've led commercial relocations for offices ranging from ten-pers
 
 ## Inventory and Documentation Before the Move
 
-The most important IT work happens before anyone touches a cable. A thorough inventory and documentation process is the difference between a smooth reconnection at the new office and a week of troubleshooting.
-
-Start with a complete hardware inventory. Every server, switch, router, firewall, UPS unit, workstation, monitor, printer, and peripheral device needs to be catalogued with its location, function, and connection map. This sounds tedious, but a single undocumented switch hidden under a desk can take down an entire floor's network connectivity if it gets disconnected without noting where it was plugged in.
-
-Photograph every cable connection before disconnecting anything. Front and back of every server, every switch port, every patch panel. Close-up shots that show which cable goes into which numbered port. These photos become your reassembly guide at the new location. Professional IT teams use a combination of photos and labeled cable tags — a strip of tape on each cable end with the device name and port number written on it.
-
-Back up everything. Full system backups completed and verified before any equipment is powered down. Cloud backups, local backups, and ideally an offsite backup copy that doesn't travel with the moving truck. The backup isn't just protection against physical damage during the move — it's protection against the power surge that happens when you plug equipment into a new building's electrical system for the first time.
-
-Document your network configuration. IP addresses, subnet masks, DNS settings, DHCP scopes, VPN configurations, firewall rules, and any custom routing. If your server needs to be rebuilt from scratch, this documentation cuts the recovery time from days to hours. Export configurations from switches and routers to portable media before disconnecting them.
+The most important IT work happens before anyone touches a cable: every server, switch, router, UPS, workstation and printer catalogued with its location, function and connection map, and every cable run photographed before it comes apart. Building that inventory, the labelling scheme and the backup schedule are laid out step by step in [the IT equipment relocation checklist](/blog/it-equipment-office-relocation-checklist-for-la-businesses) — this guide picks up where the hardware starts moving.
 
 ## How Professional Movers Handle IT Equipment
 

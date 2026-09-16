@@ -1,7 +1,7 @@
 ---
 slug: "long-distance-moving-companies-usdot-requirements"
-title: "Long Distance Moving Companies USDOT Requirements LA"
-metaDescription: "USDOT requirements for long distance movers from LA. Verify licenses, insurance minimums, federal protections. Avoid unlicensed interstate scams!"
+title: "USDOT Number Check: Verify an Interstate Mover in 4 Steps"
+metaDescription: "How to verify a mover's USDOT number in four steps, tell a carrier from a broker and read the FMCSA safety record before you sign."
 featuredImage: "/images/blog/69344f89c9ec48264e93abfe_long-distance-moving-companies-usdot-requirements-img.jpg"
 publishDate: "December 5, 2025"
 lastUpdated: "December 5, 2025"
@@ -14,7 +14,7 @@ author:
   photo: ""
 ---
 
-Any company moving your belongings across state lines needs a USDOT number—no exceptions. This federal requirement separates legitimate long distance moving companies from criminals who disappear with your life's possessions. Yet 40% of interstate moving scams involve companies with fake or borrowed USDOT numbers. Here's exactly what federal law requires and how to verify compliance before trusting any long distance mover.
+Any company moving your belongings across state lines needs a USDOT number—no exceptions. This federal requirement separates legitimate long distance moving companies from criminals who disappear with your life's possessions. Yet 40% of interstate moving scams involve companies with fake or borrowed USDOT numbers. Here's exactly what federal law requires and how to verify compliance before trusting any long distance mover. The check takes two minutes and applies to everyone, including [verified interstate movers from Los Angeles](/services/long-distance-movers).
 
 ## What USDOT Numbers Actually Mean
 

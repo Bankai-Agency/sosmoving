@@ -1,7 +1,7 @@
 ---
 slug: "commercial-movers-weekend-office-relocation"
-title: "Commercial Movers - Weekend Office Relocation LA"
-metaDescription: "LA weekend office moving: Friday 6pm start, Monday operational. Commercial rates $159-299/hour. IT coordination, building access. Professional business movers!"
+title: "How to Move an Office Over a Weekend: 53-Hour Timeline & Costs"
+metaDescription: "How to move an office over a weekend: the 53-hour Friday-to-Monday timeline, crew size, what it costs and what to test before Monday morning."
 featuredImage: "/images/blog/696752c3b0d316d5370ee440_commercial-movers-weekend-office-relocation.png"
 publishDate: "January 15, 2026"
 lastUpdated: "January 15, 2026"
@@ -20,11 +20,17 @@ Friday 6pm: employees leave. Monday 8am: they return to a completely different a
 
 **Downtime cost calculation:**
 
-- 50-employee company- $40K daily revenue average- Each hour closed = $5,000 lost- Tuesday move = $40,000 minimum loss
+- 50-employee company
+- Average revenue: $500K/month
+- Daily revenue: $25K, hourly $3,125
+- Tuesday move = $25,000 minimum loss
 
 **Weekend move:**
 
-- Zero revenue loss- No employee disruption- Client services maintained- Momentum preserved
+- Zero revenue loss
+- No employee disruption
+- Client services maintained
+- Momentum preserved
 
 **The math is obvious. Execution is complex.**
 
@@ -120,19 +126,26 @@ Friday 6pm: employees leave. Monday 8am: they return to a completely different a
 
 ## Cost Structure
 
-**Weekend commercial rates:**
+**Hourly rates (cash / card):**
 
-**Standard rates (Monday-Friday):**
+**Monday–Thursday:**
 
-- 2 movers: $119-145/hour- 3 movers: $159-185/hour- 4 movers: $199-225/hour
+- 2 movers: $119 / $129
+- 3 movers: $159 / $169
+- 4 movers: $199 / $209
 
-**Weekend commercial rates:**
+**Friday–Sunday:**
 
-- Add 25-50% premium- Minimum 8-hour days- Multiple crews typical- Equipment surcharges
+- 2 movers: $135 / $145
+- 3 movers: $175 / $185
+- 4 movers: $215 / $225
+
+Each additional mover adds $40/hour, so a six-person crew runs $295/hour cash in a Friday-to-Sunday window. A $30 fuel fee applies; large offices are usually split across two crews working in parallel.
 
 **Example 5,000 sq ft office:**
 
-- 6 movers × 20 hours = $7,000-10,000- Cheaper than one day closure
+- 6 movers × 20 hours at the Friday–Sunday rate ≈ $5,900
+- Still cheaper than one day of closure
 
 ## Common Weekend Challenges
 

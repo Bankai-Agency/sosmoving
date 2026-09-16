@@ -1,7 +1,7 @@
 ---
 slug: "pasadena-moving-services-historic-district"
-title: "Pasadena Moving Services - Historic District"
-metaDescription: "Pasadena moving: Historic homes, narrow driveways, preservation rules, $2M+ Craftsmans. Rose Bowl traffic, CalTech area. Heritage property experts!"
+title: "Pasadena Historic Districts: Moving Permits, Rules & Craftsman Access"
+metaDescription: "Moving into a Pasadena historic district: preservation rules, street and permit limits, narrow driveways and Craftsman homes on moving day."
 featuredImage: "/images/blog/6968ceace0128ad53c8eb81d_pasadena-moving-services-historic-district.png"
 publishDate: "January 17, 2026"
 lastUpdated: "January 17, 2026"
@@ -96,28 +96,6 @@ Each district has different rules, challenges, character.
 
 **Rose Bowl event days: Impossible**
 
-## CalTech Area Specifics
-
-**Moving around CalTech:**
-
-- Student rentals (September rush)- Professor homes (June exodus)- International relocations common- High-value equipment- Parking non-existent
-
-**Best times:**
-
-- Avoid semester starts- Summer break easier- Weekdays only- Early morning essential
-
-## Climate Considerations
-
-**Pasadena weather extremes:**
-
-- Summer: 100°F+ common- Santa Ana winds: 60mph- Winter: Actually exists- June gloom: Real
-
-**Moving impacts:**
-
-- Start earlier in summer (6am)- Wind delays possible- Rain preparations needed- Heat protection critical
-
-**Different from coastal LA completely**
-
 ## Architectural Periods
 
 **Spanish Colonial (1920s-1930s):**
@@ -141,28 +119,6 @@ Each district has different rules, challenges, character.
 - Security clearance required- Staff coordination- Art/antique handling- Perfect execution expected- Discretion mandatory
 
 **Mistakes not tolerated in $5M+ homes**
-
-## Rose Bowl Impact
-
-**Game/event days:**
-
-- Avoid completely- Streets closed- Parking impossible- Traffic nightmare- Residents trapped
-
-**Check schedule before booking move**
-
-**Major events:**
-
-- Rose Bowl Game (January 1)- UCLA games (Fall Saturdays)- Flea market (Second Sunday)- Concerts (Random)
-
-## Local Moving Patterns
-
-**Pasadena moving seasons:**
-
-- June: Professors relocating- September: Student rush- January: Post-Rose Bowl- Spring: Family upgrades
-
-**Demographic patterns:**
-
-- Young families incoming- Empty nesters downsizing- Professors rotating- Tech workers arriving
 
 ## Specific Challenges
 

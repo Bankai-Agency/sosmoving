@@ -1,8 +1,8 @@
 ---
 slug: "beverly-hills-moving-luxury-relocation"
-title: "Beverly Hills Moving - Luxury Relocation Services LA"
-metaDescription: "Beverly Hills moving requires discretion, white glove service, estate logistics. Celebrities, security, $10M homes. Professional luxury relocation experts!"
-featuredImage: "/images/blog/69528554ed740cbb9f9a7883_beverly-hills-moving-luxury-relocation.png"
+title: "DIY Moving vs Hiring Movers: The Real Cost Calculator"
+metaDescription: "DIY move or professional movers? Truck rental, fuel, gear and time compared, with the break-even point and the costs people forget."
+featuredImage: "/images/blog/692d6d9f3a8b98e2457785cc_moving-truck-rental-vs-professional-movers-cost-img.jpg"
 publishDate: "December 22, 2025"
 lastUpdated: "December 22, 2025"
 category: "local-moving-tips"
@@ -32,7 +32,7 @@ Everyone "knows" DIY moving saves money until they calculate the real costs. Tha
 
 ## Professional Mover Calculator
 
-**SOS Moving Formula:**Crew size: _____ moversHours needed: _____ hoursHourly rate: $_____ (see rate card)**Base cost: $_____**
+**SOS Moving Formula:**Crew size: _____ moversHours needed: _____ hoursHourly rate: $_____ (see [local moving rates in Los Angeles](/services/local-moving))**Base cost: $_____**
 
 **Fixed additions:**Fuel fee: $30Special items: $_____ (if any)**Professional subtotal: $_____**
 

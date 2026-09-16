@@ -1,7 +1,7 @@
 ---
 slug: "cross-country-movers-coast-to-coast-planning"
-title: "Cross Country Movers - Coast to Coast Planning Guide LA"
-metaDescription: "Cross country moving from LA: 7-21 day delivery, $3,000-10,000 cost, weight-based pricing. Complete coast to coast planning guide. Know before you go!"
+title: "Cross-Country Moving from LA: Cost, Timeline, Checklist"
+metaDescription: "What a cross-country move from Los Angeles really costs, how long delivery takes and a week-by-week checklist to get it done."
 featuredImage: "/images/blog/69527c565274ffb6de3d62ca_cross-country-movers-coast-to-coast-planning.jpg"
 publishDate: "December 18, 2025"
 lastUpdated: "December 18, 2025"
@@ -14,7 +14,7 @@ author:
   photo: ""
 ---
 
-Cross country moving from Los Angeles means your belongings travel 2,000-3,000 miles through deserts, mountains, and weather you're not experiencing. This isn't just a longer local move—it's a complex logistics operation where timing, communication, and planning determine whether you're reunited with your stuff in a week or wondering where it went. Here's your complete coast-to-coast moving guide from LA to anywhere.
+Cross country moving from Los Angeles means your belongings travel 2,000-3,000 miles through deserts, mountains, and weather you're not experiencing. This isn't just a longer local move—it's a complex logistics operation where timing, communication, and planning determine whether you're reunited with your stuff in a week or wondering where it went. Here's your complete coast-to-coast moving guide from LA to anywhere. Rates and delivery windows for [long distance movers from Los Angeles](/services/long-distance-movers) start on our service page.
 
 ## Cross Country Moving Timeline
 
@@ -146,11 +146,7 @@ Cross country moving from Los Angeles means your belongings travel 2,000-3,000 m
 
 ## Insurance Decisions
 
-**Basic coverage (included):**$0.60 per pound per itemYour $2,000 TV weighs 50 lbs = $30 coverageWorthless.
-
-**Full Value Protection:**Costs 1% of declared value$50,000 shipment = $500Actually useful.
-
-**Third-party insurance:**Sometimes cheaperMore comprehensiveCheck your homeowners first
+Basic coverage is included at $0.60 per pound per item — about $30 for a 50-pound television — while Full Value Protection costs roughly 1% of the declared value. Which one is worth buying, what is never covered and how claims actually go is in [cross-country moving insurance explained](/blog/cross-country-moving-companies-insurance-essentials).
 
 ## Car Transportation
 

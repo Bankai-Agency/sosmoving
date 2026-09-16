@@ -1,7 +1,7 @@
 ---
 slug: "apartment-movers-high-rise-challenges"
-title: "Apartment Movers - High Rise Building Challenges LA"
-metaDescription: "High rise moving: elevator reservations, COI requirements, loading dock chaos, long carries. Professional solutions for LA apartment towers. Call today!"
+title: "LA High-Rise Move Guide: Elevator, COI and Loading Dock Rules"
+metaDescription: "Moving into an LA high-rise: how to book the service elevator, get a certificate of insurance approved and follow loading dock rules."
 featuredImage: "/images/blog/695281340b2f8edf1291d5e6_apartment-movers-high-rise-challenges.png"
 publishDate: "December 20, 2025"
 lastUpdated: "December 20, 2025"
@@ -14,7 +14,7 @@ author:
   photo: ""
 ---
 
-Moving into a high rise apartment isn't just about elevation—it's navigating a maze of building rules, competing for freight elevators, and discovering your couch won't fit around that hallway corner on the 23rd floor. Every LA high rise has different requirements, and showing up unprepared adds hours and hundreds to your move. Here's what apartment movers know that residents learn the hard way.
+Moving into a high rise apartment isn't just about elevation—it's navigating a maze of building rules, competing for freight elevators, and discovering your couch won't fit around that hallway corner on the 23rd floor. Every LA high rise has different requirements, and showing up unprepared adds hours and hundreds to your move. Here's what apartment movers know that residents learn the hard way. Buildings like these are routine for [apartment movers in Los Angeles](/services/apartment-movers) who book the elevator and file the COI for you.
 
 ## The Elevator Reservation Game
 
