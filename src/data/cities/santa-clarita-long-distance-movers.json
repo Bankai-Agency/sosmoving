@@ -1,0 +1,47 @@
+{
+  "slug": "santa-clarita-long-distance-movers",
+  "parentSlug": null,
+  "title": "Long-Distance Movers in Santa Clarita | SOS Moving",
+  "metaDescription": "Long distance moving companies in Santa Clarita, CA compared: one flat price for a dedicated truck, with loading planned around HOA rules and the Grapevine.",
+  "canonicalUrl": "/santa-clarita-long-distance-movers",
+  "heroTitle": "Long-Distance Movers in Santa Clarita",
+  "heroSubtitle": "Leaving the SCV for another state? One flat price, a truck reserved for your things alone, and a route planned around the Grapevine",
+  "heroImage": "",
+  "phone": "(909) 443-0004",
+  "sections": [],
+  "sectionOrder": [
+    "services-hero",
+    "service-content",
+    "services-grid",
+    "why-sos",
+    "reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": [
+    {
+      "question": "Where will the moving truck park at my Santa Clarita house?",
+      "answer": "The truck stands on the street or in the driveway only while the crew is loading. City code keeps commercial vehicles off residential streets unless they are actively loading or unloading, so the truck arrives when we are ready to start and leaves as soon as the load is secured. Please keep the curb and driveway clear that morning."
+    },
+    {
+      "question": "Do you charge extra for driving up from Los Angeles?",
+      "answer": "No separate charge applies. A long-distance move is quoted as one flat price that already includes fuel, mileage and taxes, so the drive north from our Los Angeles headquarters is built in and nothing is billed by the hour."
+    },
+    {
+      "question": "What if I-5 over the Grapevine is closed when my truck leaves?",
+      "answer": "Winter storms have fully closed I-5 between Parker Road in Castaic and Grapevine Road, with Caltrans pointing traffic to US-101. In that case the truck can leave the valley on SR-126 toward Ventura and continue north on 101. We check conditions on departure morning and update your delivery window if the detour changes it."
+    },
+    {
+      "question": "Can you move me out of a condo with strict HOA truck rules?",
+      "answer": "Yes. Send us the association's rules when you ask for a quote. At communities such as Valencia Lakeshore, trucks may use the private streets only for loading, so we plan the truck position and the walk to your unit around that. If management asks for insurance paperwork, the COI costs $50."
+    },
+    {
+      "question": "How far ahead should I book a move out of state?",
+      "answer": "Two to four weeks before your date is a sensible minimum for a long-distance move, and asking earlier gives you more dates to choose from. A 5% deposit holds the loading day once you pick it."
+    },
+    {
+      "question": "My new home is not ready yet. Can you hold my things?",
+      "answer": "Yes, through in-transit storage. After loading, your belongings go into secure, climate-controlled storage and come out when the new place is ready. The storage period can be extended without penalties, and the crew delivers on the date you give us."
+    }
+  ]
+}

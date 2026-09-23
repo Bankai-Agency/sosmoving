@@ -14,7 +14,7 @@ author:
   photo: ""
 ---
 
-"$200 just to move a piano? It's on wheels!" Every piano owner experiences sticker shock when quoted moving costs. That $200 SOS Moving piano fee seems high until you understand what's involved. Pianos aren't furniture—they're precision instruments where 1mm misalignment ruins everything. Here's the real breakdown of piano moving costs and why cutting corners costs thousands in repairs.
+"$200 just to move a piano? It's on wheels!" Every piano owner experiences sticker shock when quoted moving costs. That $200 [SOS Moving piano fee](/services/piano-movers) seems high until you understand what's involved. Pianos aren't furniture—they're precision instruments where 1mm misalignment ruins everything. Here's the real breakdown of piano moving costs and why cutting corners costs thousands in repairs.
 
 ## The Hidden Weight Problem
 

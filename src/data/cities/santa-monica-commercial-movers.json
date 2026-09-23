@@ -1,0 +1,47 @@
+{
+  "slug": "santa-monica-commercial-movers",
+  "parentSlug": null,
+  "title": "Office & Commercial Movers in Santa Monica | SOS Moving",
+  "metaDescription": "Commercial movers in Santa Monica for office, campus and warehouse suites: staged relocations, curb space planned ahead, a $50 COI, crews 8AM – 6PM.",
+  "canonicalUrl": "/santa-monica-commercial-movers",
+  "heroTitle": "Office & Commercial Movers in Santa Monica",
+  "heroSubtitle": "Suites, creative campuses and flex units relocated on the schedule your building approves, seven days a week between 8AM and 6PM",
+  "heroImage": "/images/services/69cac080dd26735dd5b67326_Commercial Movers.avif",
+  "phone": "(909) 443-0004",
+  "sections": [],
+  "sectionOrder": [
+    "services-hero",
+    "service-content",
+    "services-grid",
+    "why-sos",
+    "reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": [
+    {
+      "question": "Can You Move Our Office on a Saturday or Sunday?",
+      "answer": "Yes. Crews run Monday to Sunday between 8AM and 6PM, so a weekend stage is an ordinary booking rather than a special arrangement. Weekend hours cost more than midweek ones: two movers with a truck are $135 an hour in cash Friday to Sunday, against $119 Monday to Thursday."
+    },
+    {
+      "question": "Does the Certificate of Insurance for Our Building Cost Extra?",
+      "answer": "A COI is $50 and we write it in the wording your management office supplies, naming the entities they list. Send the sample certificate or the requirements page from the building handbook as early as you can, and we will have it back with them before the date is confirmed."
+    },
+    {
+      "question": "Our Suite Has No Loading Dock. What Happens on the Street?",
+      "answer": "Curb space is held with Temporary No Parking signs, which have to be requested and inspected at least 24 hours before the start time to be enforceable. After inspection the reserved curb is a tow-away zone, non-metered space is booked in 30-foot increments, and the reservation can stand for up to 72 hours."
+    },
+    {
+      "question": "Can the Move Run in Stages So We Keep Working?",
+      "answer": "That is how most business relocations on the Westside are run. Each stage is sized to finish inside the 8AM to 6PM working day, and every booking carries the standard three-hour minimum. If a loaded truck has to hold between two stages, overnight storage is $200."
+    },
+    {
+      "question": "How Do You Price a Business Move?",
+      "answer": "By the hour, by crew size and by the day of the week. Two movers with a truck are $119 cash or $129 card Monday to Thursday, three movers $159 or $169, four movers $199 or $209, with higher Friday to Sunday rates. Fuel is a flat $30, the $50 deposit comes off the total, and double drive time applies past 10 miles."
+    },
+    {
+      "question": "Do You Handle Small Warehouse and Flex-Space Units?",
+      "answer": "The same crews move stock, shelving, benches and archives out of flex units and small warehouse suites. Single items over 300 lbs are $150 with a crew of three, and a second truck running alongside the first is $200 when one load will not hold the volume."
+    }
+  ]
+}

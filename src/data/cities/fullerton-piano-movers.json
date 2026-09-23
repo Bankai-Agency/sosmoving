@@ -1,0 +1,47 @@
+{
+  "slug": "fullerton-piano-movers",
+  "parentSlug": null,
+  "title": "Piano Movers in Fullerton | SOS Moving",
+  "metaDescription": "Piano movers in Fullerton work on an hourly clock: a crew of four, a flat $200 for the instrument, and the stairs, slope and gate checked in advance.",
+  "canonicalUrl": "/fullerton-piano-movers",
+  "heroTitle": "Piano Movers in Fullerton",
+  "heroSubtitle": "Your upright or grand leaves the room on a padded board with a crew of four, then travels braced and strapped against the truck wall.",
+  "heroImage": "/images/services/68de1a44e51337130e6f79d9_white glove moving service.avif",
+  "phone": "(909) 443-0004",
+  "sections": [],
+  "sectionOrder": [
+    "services-hero",
+    "service-content",
+    "services-grid",
+    "why-sos",
+    "reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": [
+    {
+      "question": "Do I have to book a whole move, or can it be only the piano?",
+      "answer": "Either works. The instrument is handled inside a normal hourly booking with four movers and a flat $200 piano charge on top of the hours. The three-hour minimum applies the same way whether the piano is the only item in the truck or one of two hundred."
+    },
+    {
+      "question": "What does the $200 piano charge actually cover?",
+      "answer": "It covers the instrument itself — the board, the ratchet straps, the pads that go around the case and the fourth pair of hands that makes the crew a crew of four. Hours are billed separately at the four-mover rate, so a short carry costs less than a long one even though the flat charge is identical."
+    },
+    {
+      "question": "Can the truck wait on my street overnight before an early start?",
+      "answer": "No. City code bans parking on any street between 2:00 and 5:00 a.m. unless your block has been exempted by the City Council and posted with a sign saying so, and a Resident Only Parking Permit runs only from 7:00 a.m. to 7:00 p.m. We schedule the arrival inside the working day instead."
+    },
+    {
+      "question": "My address is in Amerige Heights. What do you need from me?",
+      "answer": "Tell us whether the street outside your door is public or private. The city ordinance covers the public streets there, while the private ones fall under parking regulations the association adopted in 2018, and that is whose permission we need. A gate contact and a reminder that the limit inside is 25 mph or slower handle the rest."
+    },
+    {
+      "question": "Do you tune or appraise the instrument afterwards?",
+      "answer": "No. We carry it, place it where you want it and leave the room clear; tuning, valuation and disposal are separate trades and we do not offer any of them. Book your own technician for a visit once the piano has settled into its new room."
+    },
+    {
+      "question": "There are stairs and a slope at my house. Does that change the crew?",
+      "answer": "It changes the hours, not the method. Four movers, the board and the straps handle a flight of stairs or a graded approach; what grows is time on the clock. That is why the carry route is measured and walked before anyone commits to a plan for the day."
+    }
+  ]
+}

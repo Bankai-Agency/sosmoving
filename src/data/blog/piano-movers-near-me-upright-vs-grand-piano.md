@@ -1,5 +1,6 @@
 ---
 slug: "piano-movers-near-me-upright-vs-grand-piano"
+draft: true
 title: "Piano Movers Near Me LA"
 metaDescription: "Piano moving in LA: uprights vs grands require different techniques. Professional piano movers, $200 flat fee, proper equipment. Protect your instrument!"
 featuredImage: "/images/blog/692d6a98dea7ae957dc4a346_piano-movers-near-me-upright-vs-grand-piano-img.jpg"

@@ -1,0 +1,47 @@
+{
+  "slug": "santa-monica-moving-and-storage",
+  "parentSlug": null,
+  "title": "Moving & Storage in Santa Monica | SOS Moving",
+  "metaDescription": "When a retrofit, a permit queue or a cross-country move splits the dates, moving and storage in Santa Monica comes from one SOS crew: pickup, hold, return.",
+  "canonicalUrl": "/santa-monica-moving-and-storage",
+  "heroTitle": "Moving & Storage in Santa Monica",
+  "heroSubtitle": "A lease gap, a retrofit or a long-haul move: our crew wraps the load, holds it in a climate-controlled facility and brings it back on the date you name.",
+  "heroImage": "/images/services/645ab1d979228712795bf01d_storage-bg.webp",
+  "phone": "(909) 443-0004",
+  "sections": [],
+  "sectionOrder": [
+    "services-hero",
+    "service-content",
+    "services-grid",
+    "why-sos",
+    "reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": [
+    {
+      "question": "Do I need a city permit to stand a truck or a container on my street?",
+      "answer": "For public property — a street, parkway, sidewalk or alley — the city requires a Use of Public Property Permit, and its list of temporary uses names a moving container, pod or truck. The city adds Temporary No Parking signs to the permit where the curb has to be cleared. Requests go to Public Works and are processed in the order received, so we raise it while the estimate is still being written."
+    },
+    {
+      "question": "Will my visitor parking permit cover your truck for the day?",
+      "answer": "No. A preferential parking permit exempts a vehicle only inside its own zone and only under the 2-Block Rule, and the city states that permit holders remain subject to curb markings, meters, street sweeping and oversize vehicle regulations. A One-Day Temporary permit runs until 9:00am the next morning and is written for a visitor car, not for a loaded truck."
+    },
+    {
+      "question": "Could I clear out my garage stall instead of booking storage?",
+      "answer": "A standard garage stall leaves little room once the car is in, so plan on the overflow leaving the building rather than stacking into the stall."
+    },
+    {
+      "question": "How long can you hold my belongings?",
+      "answer": "A short-term hold starts at a few days with nothing to commit to up front. A long-term hold runs from a month and is extended with no penalty, which matters when a retrofit or a repair overruns. Let us know before the current period ends and we simply move the return date."
+    },
+    {
+      "question": "What does the storage itself cost?",
+      "answer": "Crew time is the published part: two movers with a truck are $119 an hour in cash or $129 by card Monday through Thursday, with a three-hour minimum on each leg. The hold is quoted at the estimate, because it depends on how much of the truck the load fills and how long it sits. One fixed figure worth knowing is the $200 overnight hold on a loaded truck."
+    },
+    {
+      "question": "Can you store part of a load and deliver the rest?",
+      "answer": "Yes. The inventory is written at pickup, so the crew can set down the pieces you need at the new address and take the remainder to the facility on the same run, billed as crew time at the hourly rates above. If you want a single box or one piece back before the main return, name it and we will schedule the trip. Full details sit on our storage service page."
+    }
+  ]
+}

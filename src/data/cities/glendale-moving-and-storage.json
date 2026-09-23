@@ -1,0 +1,47 @@
+{
+  "slug": "glendale-moving-and-storage",
+  "parentSlug": null,
+  "title": "Moving & Storage in Glendale | SOS Moving",
+  "metaDescription": "Moving and storage in Glendale, CA for lease gaps, remodels and interstate moves: one crew packs rooms, holds the load in climate control and brings it back.",
+  "canonicalUrl": "/glendale-moving-and-storage",
+  "heroTitle": "Moving & Storage in Glendale",
+  "heroSubtitle": "Rooms have to be empty on a date somebody else picked. We pack them, hold the load in climate-controlled storage and bring it back when you are ready.",
+  "heroImage": "/images/services/645ab1d979228712795bf01d_storage-bg.webp",
+  "phone": "(909) 443-0004",
+  "sections": [],
+  "sectionOrder": [
+    "services-hero",
+    "service-content",
+    "services-grid",
+    "why-sos",
+    "reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": [
+    {
+      "question": "Can you pick up in Glendale if I only know the pickup date?",
+      "answer": "Yes. We book the pickup, the load goes into climate-controlled storage, and the return date is set later by a call. Terms extend with no penalty, so an open-ended wait is ordinary here rather than a problem."
+    },
+    {
+      "question": "My building downtown wants a certificate of insurance. Can you provide one?",
+      "answer": "We issue a COI for $50 and send it to the management office ahead of the date. Tell us the building’s requirements when you book, so the paperwork is filed before the elevator window is held."
+    },
+    {
+      "question": "How long can a load stay in storage?",
+      "answer": "From a few days to as long as you need. Short-term covers days and weeks, long-term starts at a month, and either one rolls forward whenever you call. Nothing has to be decided on day one."
+    },
+    {
+      "question": "Can the crew pick up and deliver on the same day?",
+      "answer": "Sometimes. On blocks where the city’s ADA curb ramp crews hold the street until 4pm, we usually split the two visits instead: the load stays overnight for a flat $200 and the return runs the next morning."
+    },
+    {
+      "question": "What does a Glendale storage job actually cost?",
+      "answer": "Crew time is billed by the hour for the team you book — two movers with a truck are $119 an hour in cash Monday through Thursday — plus $30 fuel and a $50 deposit that comes off the bill. Call 909-443-0004 with a room count for a figure on your own inventory."
+    },
+    {
+      "question": "We are leaving Glendale for another state. Will you hold everything until the new place is ready?",
+      "answer": "That is in-transit storage. Your things stay with us after the pickup and go out with the long-distance crew on your destination date, so nothing needs a second arrangement at the other end."
+    }
+  ]
+}

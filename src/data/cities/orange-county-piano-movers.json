@@ -1,0 +1,43 @@
+{
+  "slug": "orange-county-piano-movers",
+  "parentSlug": null,
+  "title": "Piano Movers in Orange County | SOS Moving",
+  "metaDescription": "Piano movers in Orange County, booked with SOS: a crew of 4 and a $200 add-on to an hourly move, with gate clearance and hillside routes planned in advance.",
+  "canonicalUrl": "/orange-county-piano-movers",
+  "heroTitle": "Piano Movers in Orange County",
+  "heroSubtitle": "An upright or a grand carried by four movers on a padded board as part of your hourly move, planned around Laguna Beach slopes, Laguna Woods gates and Irvine condo rules.",
+  "heroImage": "/images/services/68de1a44e51337130e6f79d9_white glove moving service.avif",
+  "phone": "(909) 443-0004",
+  "sections": [],
+  "sectionOrder": [
+    "services-hero",
+    "service-content",
+    "services-grid",
+    "why-sos",
+    "reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": [
+    {
+      "question": "Will your crew get through the Laguna Woods Village gate?",
+      "answer": "Only once the resident has cleared it: the Village requires every nonresident to be cleared before entering its gates. You can do that online through dwellingLIVE or through the Gate Clearance phone line. We send you the crew lead's name and the truck details the day before, so it is done in time."
+    },
+    {
+      "question": "How does the drive from Los Angeles affect my piano bill?",
+      "answer": "Our base is in Los Angeles, so many Orange County addresses fall under the distance rules. Once either address is 30+ miles from the base, the minimum is 4 hours rather than 3, and driving time past the first 10 miles counts double. The dispatcher applies both rules to your real addresses when quoting."
+    },
+    {
+      "question": "Can the piano and the rest of my household share one truck?",
+      "answer": "Yes, that is how SOS books it: the instrument costs a flat $200 on top of an hourly four-mover job, so furniture, boxes and piano share one truck and one clock. When a four-mover crew is open, this can happen the same day you call."
+    },
+    {
+      "question": "My Irvine condo association has move rules. What do you need from me?",
+      "answer": "Forward the rules the association gives you, along with any reserved move window. An HOA that wants a Certificate of Insurance gets one from us, with the association named, for $50. We then time the crew's arrival to the window you booked."
+    },
+    {
+      "question": "Do you tune, store or haul away pianos?",
+      "answer": "No. Our work ends once the piano stands in its new room: tuning, appraisal, repair, storage and disposal are outside what SOS offers. Call your tuner a little while after moving day, when the instrument has settled into the house."
+    }
+  ]
+}

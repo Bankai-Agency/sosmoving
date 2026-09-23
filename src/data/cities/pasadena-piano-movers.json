@@ -1,0 +1,43 @@
+{
+  "slug": "pasadena-piano-movers",
+  "parentSlug": null,
+  "title": "Piano Movers in Pasadena | SOS Moving",
+  "metaDescription": "Piano movers in Pasadena: a crew of 4 on an hourly move, a $200 add-on and a 3-hour minimum, with porch steps, slopes and gated condos planned ahead.",
+  "canonicalUrl": "/pasadena-piano-movers",
+  "heroTitle": "Piano Movers in Pasadena",
+  "heroSubtitle": "Four movers, a $200 add-on to your hourly move, and a plan made ahead for porch steps, hillside driveways and gated condo entries.",
+  "heroImage": "/images/services/68de1a44e51337130e6f79d9_white glove moving service.avif",
+  "phone": "(909) 443-0004",
+  "sections": [],
+  "sectionOrder": [
+    "services-hero",
+    "service-content",
+    "services-grid",
+    "why-sos",
+    "reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": [
+    {
+      "question": "Do I need a city permit for the piano truck at my Pasadena home?",
+      "answer": "Only if the truck is 26 feet or longer; then a Moving Vehicle Permit must be filed with the city 10 days before the move. For a shorter truck, Temporary No Parking signs from the Parking Office hold the curb. They must be posted at least 24 hours ahead and registered by phone, or they cannot be enforced."
+    },
+    {
+      "question": "How is the piano billed if the rest of my house moves the same day?",
+      "answer": "Everything runs on one hourly clock with a four-person crew, at $199 to $225 an hour depending on the day and how you pay. The piano adds a flat $200 and the minimum is 3 hours. There is no second meter for the instrument."
+    },
+    {
+      "question": "Will the crew get a piano out of a gated Pasadena condo?",
+      "answer": "Yes, once the building's rules are covered before the date. Some associations, such as Cordova East, forbid propping gates open even during a move, so a resident has to buzz the crew through each time. We work between 8AM and 6PM, which keeps the job clear of the 10 pm to 8 am quiet hours such buildings set."
+    },
+    {
+      "question": "Can my piano be moved the same day I call?",
+      "answer": "It can, when a crew of four is free within our 8AM to 6PM hours. On short notice, parking is the weak point, because the city's signs need 24 hours on the post before they can be enforced. Call 909-443-0004 early in the day and we will tell you what is realistic."
+    },
+    {
+      "question": "Do you tune the piano after moving it?",
+      "answer": "No. SOS moves and places the instrument; tuning, appraisal and repairs are work for a piano technician. Book your tuner separately once the piano has settled in its new room."
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import { join } from 'path';
 import type { Metadata } from 'next';
 import { renderPage } from '@/lib/render-page';
 import { metaForPath, JsonLd } from '@/lib/seo-meta';
+import { getAllCitySlugs } from '@/lib/data/cities';
 
 // Per-city meta descriptions. Only cities with custom copy are listed —
 // anything not here falls back to the site-wide default from (webflow)/layout.tsx.
@@ -20,7 +21,7 @@ const CITY_META: Record<string, string> = {
 
 export async function generateStaticParams() {
   const dir = join(process.cwd(), 'public/pages');
-  return readdirSync(dir)
+  const fromFiles = readdirSync(dir)
     .filter(f =>
       f.endsWith('.html') &&
       !f.includes('__') &&
@@ -29,7 +30,12 @@ export async function generateStaticParams() {
       //   movers-{city}.html  (e.g. movers-hollywood.html)     — 13 pages
       (f.includes('-movers') || f.startsWith('movers-'))
     )
-    .map(f => ({ citySlug: f.replace('.html', '') }));
+    .map(f => f.replace('.html', ''));
+  // Flat "city × service" pages such as /burbank-packing-services match neither convention.
+  const fromRegistry = getAllCitySlugs()
+    .filter(c => c.parentSlug === null)
+    .map(c => c.slug);
+  return [...new Set([...fromFiles, ...fromRegistry])].map(citySlug => ({ citySlug }));
 }
 
 export async function generateMetadata(

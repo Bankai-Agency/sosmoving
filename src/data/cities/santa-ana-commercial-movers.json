@@ -1,0 +1,47 @@
+{
+  "slug": "santa-ana-commercial-movers",
+  "parentSlug": null,
+  "title": "Office & Commercial Movers in Santa Ana | SOS Moving",
+  "metaDescription": "Office movers in Santa Ana for Civic Center parking rules, freight-lift bookings and a floor moved in stages without shutting the business down.",
+  "canonicalUrl": "/santa-ana-commercial-movers",
+  "heroTitle": "Office & Commercial Movers in Santa Ana",
+  "heroSubtitle": "Planned office and commercial moves across Orange County, quoted by the hour and booked around your building’s access rules",
+  "heroImage": "/images/services/69cac080dd26735dd5b67326_Commercial Movers.avif",
+  "phone": "(909) 443-0004",
+  "sections": [],
+  "sectionOrder": [
+    "services-hero",
+    "service-content",
+    "services-grid",
+    "why-sos",
+    "reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": [
+    {
+      "question": "How much does an office move in Santa Ana cost?",
+      "answer": "Business moves are billed by the hour and the crew size sets the rate: two movers with a truck are $119 cash or $129 card Monday to Thursday, $135 or $145 Friday to Sunday. Three movers cost $159 or $169 and $175 or $185; four movers $199 or $209 and $215 or $225. Three hours is the standard minimum, and four hours applies once the address sits 30 miles or more from base. Beyond 10 miles the drive time counts double, and the $50 booking deposit is credited against the invoice."
+    },
+    {
+      "question": "Our building management wants a certificate of insurance — do you provide one?",
+      "answer": "Yes. Ours costs $50 and reaches the management office ahead of move day, naming whoever they tell us to name. Send the requirements sheet over as soon as you have it, because the same exchange usually settles the lift and the dock window too."
+    },
+    {
+      "question": "Can we move the office over a weekend?",
+      "answer": "Weekend work is ordinary here, because our week has no closed days: 8AM to 6PM, Monday to Sunday, with Friday to Sunday priced at the weekend rate. Downtown the thing to plan for is parking, since county lots P3, P4 and P7 close on weekends and major holidays, which can move the loading point."
+    },
+    {
+      "question": "Can the move be split into stages?",
+      "answer": "It usually should be. We move departments in waves so part of the company keeps working while the rest is being carried out, and the inventory from the walkthrough decides how the waves are drawn. If a stage has to wait overnight, a loaded truck held until the next morning is $200."
+    },
+    {
+      "question": "Do you move server racks and IT equipment?",
+      "answer": "We move and place the hardware: screens, docks, printers and rack gear travel cable-tagged and padded, and every piece lands on the desk or rack position your IT contact has marked. Powering systems down, and bringing them back up, belongs to your own IT people, which keeps responsibility where the passwords are."
+    },
+    {
+      "question": "What if our new suite is far from the old one?",
+      "answer": "The rate card does not change with distance, but two rules do. Once the address is 30 miles or more from base the minimum becomes four hours rather than three, and beyond 10 miles the drive time counts double. Both are quoted before any deposit is taken."
+    }
+  ]
+}

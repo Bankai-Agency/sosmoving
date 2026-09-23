@@ -1,0 +1,47 @@
+{
+  "slug": "costa-mesa-moving-and-storage",
+  "parentSlug": null,
+  "title": "Moving & Storage in Costa Mesa | SOS Moving",
+  "metaDescription": "Lease gap, remodel or a move out of state? Moving and storage in Costa Mesa, CA, from SOS Moving: pickup, a climate-controlled hold and the return.",
+  "canonicalUrl": "/costa-mesa-moving-and-storage",
+  "heroTitle": "Moving & Storage in Costa Mesa",
+  "heroSubtitle": "One crew empties the rooms, holds everything in a climate-controlled facility and brings it back on the date you name.",
+  "heroImage": "/images/services/645ab1d979228712795bf01d_storage-bg.webp",
+  "phone": "(909) 443-0004",
+  "sections": [],
+  "sectionOrder": [
+    "services-hero",
+    "service-content",
+    "services-grid",
+    "why-sos",
+    "reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": [
+    {
+      "question": "Where do my things actually go once the truck pulls away?",
+      "answer": "Straight to our monitored, climate-controlled facility, where temperature and humidity are held steady all year. Nothing is dropped in a container on your street, and every piece stays on the inventory written at pickup until you set a return date."
+    },
+    {
+      "question": "Can a moving truck stand on my street while the crew loads?",
+      "answer": "City code keeps commercial vehicles off streets that are not designated truck routes, with an exception for temporary parking while a delivery or a service is being performed, which is what a pickup is. We still ask at booking where the truck can stand, because even on a truck route nothing may stand longer than three hours or park between 2 a.m. and 6 a.m."
+    },
+    {
+      "question": "What do the pickup and the return cost?",
+      "answer": "Both legs are hourly. Monday through Thursday two movers with a truck are $119 in cash or $129 by card; Friday through Sunday the same pair is $135 or $145, and larger crews are listed above with the gas, deposit and certificate fees. The storage term is priced from your inventory and arrives with the estimate."
+    },
+    {
+      "question": "We are building an ADU. How long can the furniture stay?",
+      "answer": "As long as the build takes. Long-term storage starts at a month and extends without a penalty, so a permit delay or a longer legalization under the Safe ADU program changes the length of the term and nothing else. You call when the rooms are ready."
+    },
+    {
+      "question": "Do you store for people who are not moving house at all?",
+      "answer": "Yes. A booking can be storage alone, and plenty of bookings across Costa Mesa are a pickup now and a return to the same address after a remodel, a repair or an inspection. No change of address is required anywhere in the process."
+    },
+    {
+      "question": "How much notice does the return trip need?",
+      "answer": "A few days is comfortable, since the crew pulls your inventory from the facility before the truck sets out. Pickups can sometimes happen the same day when a crew is open, so call 909-443-0004 in the morning and we will check the board."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "orange-county-moving-and-storage",
+  "parentSlug": null,
+  "title": "Moving & Storage in Orange County | SOS Moving",
+  "metaDescription": "Moving and storage in Orange County, booked as one job: our crew loads your home, stores everything climate-controlled and returns it on your date.",
+  "canonicalUrl": "/orange-county-moving-and-storage",
+  "heroTitle": "Moving & Storage in Orange County",
+  "heroSubtitle": "When the move-out and move-in dates refuse to line up, our crew collects your things, keeps them in a climate-controlled facility and brings them back on the day you pick.",
+  "heroImage": "/images/services/645ab1d979228712795bf01d_storage-bg.webp",
+  "phone": "(909) 443-0004",
+  "sections": [],
+  "sectionOrder": [
+    "services-hero",
+    "service-content",
+    "services-grid",
+    "why-sos",
+    "reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": [
+    {
+      "question": "Do I need a pod or a rented unit for storage in Orange County?",
+      "answer": "No. Our crew loads your things at the door and takes them to our climate-controlled facility, so nothing stays on the driveway or at the curb. That also keeps you clear of city limits on street containers, such as the seven-day cap on a pod parked on a Huntington Beach street."
+    },
+    {
+      "question": "How is moving and storage priced for an Orange County address?",
+      "answer": "Crew time for pickup and return follows the hourly rate card, and at this distance the drive beyond 10 miles is charged twice over, with the minimum raised to 4 hours once the job sits at least 30 miles away from our base. The storage term depends on unit size and availability, so we quote it after reviewing your inventory."
+    },
+    {
+      "question": "Can you collect my things the same day I call?",
+      "answer": "Yes, when a crew is free that day. Pickups run Monday – Sunday between 8AM and 6PM, so an early call gives the best chance of loading the same afternoon."
+    },
+    {
+      "question": "My remodel may run longer than planned. What happens to the storage term?",
+      "answer": "Tell us before the current term ends and we extend it without a penalty. For a project that still needs city review, as most exterior changes in Old Towne Orange do, long-term storage from a month up is the safer booking."
+    },
+    {
+      "question": "Can you hold my belongings while I move from Orange County to another state?",
+      "answer": "Yes, that is in-transit storage: we keep the load at our facility until the new home is ready, then deliver it to the destination. The interstate leg is priced as a flat rate and runs under USDOT 3398018 and MC 1153871."
+    }
+  ]
+}

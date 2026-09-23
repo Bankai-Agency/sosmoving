@@ -1,0 +1,47 @@
+{
+  "slug": "long-beach-moving-and-storage",
+  "parentSlug": null,
+  "title": "Moving & Storage in Long Beach | SOS Moving",
+  "metaDescription": "SOS Moving covers moving and storage in Long Beach for restorations, lease gaps and interstate moves: one crew for pickup, storage and the return trip.",
+  "canonicalUrl": "/long-beach-moving-and-storage",
+  "heroTitle": "Moving & Storage in Long Beach",
+  "heroSubtitle": "A restoration, a gap between leases or a job in another state: we wrap and load at your Long Beach door, keep everything in climate-controlled storage and deliver it on your date.",
+  "heroImage": "/images/services/645ab1d979228712795bf01d_storage-bg.webp",
+  "phone": "(909) 443-0004",
+  "sections": [],
+  "sectionOrder": [
+    "services-hero",
+    "service-content",
+    "services-grid",
+    "why-sos",
+    "reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": [
+    {
+      "question": "Where do my things go after the crew loads them in Long Beach?",
+      "answer": "Onto our truck and straight to our climate-controlled, monitored facility; no container is left on your street. They stay there, listed on your inventory, until you call with a delivery date."
+    },
+    {
+      "question": "My house is in a Long Beach historic district. Can storage cover a restoration that is waiting for approval?",
+      "answer": "Yes. Exterior work in a historic district needs a Certificate of Appropriateness before it begins, so start dates can slide. We pick up when the rooms really have to be empty, and you can extend the term without penalty if the approval or the work takes longer."
+    },
+    {
+      "question": "What will the pickup and the return cost for a Long Beach address?",
+      "answer": "Crew time on both trips is hourly: Monday to Thursday, the rate for two movers with a truck begins at $119 an hour in cash, with a 3-hour minimum and a $30 gas fee. Drive time counts double for an address beyond 10 miles of our Los Angeles base, and at 30 miles or more the minimum becomes 4 hours. The storage term itself is quoted at the estimate, once we know how much you are storing."
+    },
+    {
+      "question": "Can I get one item back before the full delivery?",
+      "answer": "Yes. Call us and we will either arrange a visit to the facility or bring that item out to you. Name it from your inventory list so the crew can find it quickly."
+    },
+    {
+      "question": "Can you hold my things if I am leaving Long Beach for another state?",
+      "answer": "Yes. In-transit storage exists for exactly that: we load in Long Beach, hold everything until the house in the new state can take it, and deliver on the date you give us. The interstate part is priced as a flat rate under USDOT 3398018 and MC 1153871."
+    },
+    {
+      "question": "Do you pick up on weekends or on the day I call?",
+      "answer": "Pickups can be booked on any of the seven days, 8AM to 6PM, and a Saturday or Sunday date is billed at the Friday to Sunday rates. A same-day pickup works when a crew is free; call 909-443-0004 in the morning to check."
+    }
+  ]
+}

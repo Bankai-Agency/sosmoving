@@ -4351,19 +4351,6 @@
     "jsonldExpected": 0
   },
   {
-    "url": "/blog/piano-movers-los-angeles-specialists",
-    "title": "Piano Movers Los Angeles | Upright & Grand Piano Experts | SOS Moving",
-    "description": "Professional piano moving in LA. Uprights, baby grands, concert grands safely relocated. Insured specialists, proper equipment. $200 flat rate!",
-    "canonical": "https://www.sosmovingla.net/blog/piano-movers-los-angeles-specialists",
-    "robots": "",
-    "h1": "Professional Piano Movers in Los Angeles: Specialized Expertise",
-    "lang": "en",
-    "og": {},
-    "twitter": {},
-    "jsonldFile": null,
-    "jsonldExpected": 0
-  },
-  {
     "url": "/blog/piano-moving-cost-why-its-expensive",
     "title": "Piano Moving Cost LA - Why It's $200-500 Expensive | SOS Moving",
     "description": "Piano moving costs $200-500 in LA. Understand why: specialized equipment, 4+ movers, insurance risks, expertise required. See cost breakdown!",
@@ -4669,19 +4656,6 @@
     "canonical": "https://www.sosmovingla.net/blog/reasons-why-foreigners-enjoy-la-so-much",
     "robots": "",
     "h1": "Reasons Why Foreigners Enjoy LA So Much",
-    "lang": "en",
-    "og": {},
-    "twitter": {},
-    "jsonldFile": null,
-    "jsonldExpected": 0
-  },
-  {
-    "url": "/blog/piano-movers-near-me-upright-vs-grand-piano",
-    "title": "Piano Movers Near Me LA | Upright vs Grand Piano Moving | SOS Moving",
-    "description": "Piano moving in LA: uprights vs grands require different techniques. Professional piano movers, $200 flat fee, proper equipment. Protect your instrument!",
-    "canonical": "https://www.sosmovingla.net/blog/piano-movers-near-me-upright-vs-grand-piano",
-    "robots": "",
-    "h1": "Piano Movers Near Me - Upright vs Grand Piano",
     "lang": "en",
     "og": {},
     "twitter": {},
@@ -9992,6 +9966,1098 @@
       "twitter:card": "summary_large_image"
     },
     "jsonldFile": "data/jsonld/westwood-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/services/piano-movers",
+    "title": "Piano Movers in Los Angeles | SOS Moving",
+    "description": "Piano movers in Los Angeles: a crew of 4 with a padded board and straps, a $200 add-on to your hourly move, a 3-hour minimum and same-day moves possible.",
+    "canonical": "https://www.sosmovingla.net/services/piano-movers",
+    "robots": "",
+    "h1": "Piano Movers in Los Angeles",
+    "lang": "en",
+    "og": {
+      "og:title": "Piano Movers in Los Angeles | SOS Moving",
+      "og:description": "Piano movers in Los Angeles: a crew of 4 with a padded board and straps, a $200 add-on to your hourly move, a 3-hour minimum and same-day moves possible.",
+      "og:image": "/images/og/68de2cc9e56f6c18c48e50d3_White-glove_Open-Graph-Image_1200x630.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Piano Movers in Los Angeles | SOS Moving",
+      "twitter:description": "Piano movers in Los Angeles: a crew of 4 with a padded board and straps, a $200 add-on to your hourly move, a 3-hour minimum and same-day moves possible.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/services_piano-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/orange-county-long-distance-movers",
+    "title": "Long-Distance Movers in Orange County | SOS Moving",
+    "description": "Comparing long-distance moving companies in Orange County? SOS offers one flat rate, a dedicated truck, and a plan for gates, HOAs and Laguna Beach curb limits.",
+    "canonical": "https://www.sosmovingla.net/orange-county-long-distance-movers",
+    "robots": "",
+    "h1": "Long-Distance Movers in Orange County",
+    "lang": "en",
+    "og": {
+      "og:title": "Long-Distance Movers in Orange County | SOS Moving",
+      "og:description": "Comparing long-distance moving companies in Orange County? SOS offers one flat rate, a dedicated truck, and a plan for gates, HOAs and Laguna Beach curb limits.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Long-Distance Movers in Orange County | SOS Moving",
+      "twitter:description": "Comparing long-distance moving companies in Orange County? SOS offers one flat rate, a dedicated truck, and a plan for gates, HOAs and Laguna Beach curb limits.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/orange-county-long-distance-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/orange-county-commercial-movers",
+    "title": "Office & Commercial Movers in Orange County | SOS Moving",
+    "description": "Office movers in Orange County for the IBC, Irvine Spectrum or South Coast Metro: a COI sent to your building, phased daytime moves, 8AM – 6PM.",
+    "canonical": "https://www.sosmovingla.net/orange-county-commercial-movers",
+    "robots": "",
+    "h1": "Office & Commercial Movers in Orange County",
+    "lang": "en",
+    "og": {
+      "og:title": "Office & Commercial Movers in Orange County | SOS Moving",
+      "og:description": "Office movers in Orange County for the IBC, Irvine Spectrum or South Coast Metro: a COI sent to your building, phased daytime moves, 8AM – 6PM.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Office & Commercial Movers in Orange County | SOS Moving",
+      "twitter:description": "Office movers in Orange County for the IBC, Irvine Spectrum or South Coast Metro: a COI sent to your building, phased daytime moves, 8AM – 6PM.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/orange-county-commercial-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/orange-county-piano-movers",
+    "title": "Piano Movers in Orange County | SOS Moving",
+    "description": "Piano movers in Orange County, booked with SOS: a crew of 4 and a $200 add-on to an hourly move, with gate clearance and hillside routes planned in advance.",
+    "canonical": "https://www.sosmovingla.net/orange-county-piano-movers",
+    "robots": "",
+    "h1": "Piano Movers in Orange County",
+    "lang": "en",
+    "og": {
+      "og:title": "Piano Movers in Orange County | SOS Moving",
+      "og:description": "Piano movers in Orange County, booked with SOS: a crew of 4 and a $200 add-on to an hourly move, with gate clearance and hillside routes planned in advance.",
+      "og:image": "/images/og/68de2cc9e56f6c18c48e50d3_White-glove_Open-Graph-Image_1200x630.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Piano Movers in Orange County | SOS Moving",
+      "twitter:description": "Piano movers in Orange County, booked with SOS: a crew of 4 and a $200 add-on to an hourly move, with gate clearance and hillside routes planned in advance.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/orange-county-piano-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/orange-county-packing-services",
+    "title": "Packing Services in Orange County | SOS Moving",
+    "description": "Movers and packers in Orange County from SOS Moving: hourly crews pack room by room, boxes billed only when used, free tape and wrap, unpacking on request.",
+    "canonical": "https://www.sosmovingla.net/orange-county-packing-services",
+    "robots": "",
+    "h1": "Packing Services in Orange County",
+    "lang": "en",
+    "og": {
+      "og:title": "Packing Services in Orange County | SOS Moving",
+      "og:description": "Movers and packers in Orange County from SOS Moving: hourly crews pack room by room, boxes billed only when used, free tape and wrap, unpacking on request.",
+      "og:image": "/images/og/69ce384abc0deddedeba19d1_Packers.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Packing Services in Orange County | SOS Moving",
+      "twitter:description": "Movers and packers in Orange County from SOS Moving: hourly crews pack room by room, boxes billed only when used, free tape and wrap, unpacking on request.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/orange-county-packing-services.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/orange-county-moving-and-storage",
+    "title": "Moving & Storage in Orange County | SOS Moving",
+    "description": "Moving and storage in Orange County, booked as one job: our crew loads your home, stores everything climate-controlled and returns it on your date.",
+    "canonical": "https://www.sosmovingla.net/orange-county-moving-and-storage",
+    "robots": "",
+    "h1": "Moving & Storage in Orange County",
+    "lang": "en",
+    "og": {
+      "og:title": "Moving & Storage in Orange County | SOS Moving",
+      "og:description": "Moving and storage in Orange County, booked as one job: our crew loads your home, stores everything climate-controlled and returns it on your date.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Moving & Storage in Orange County | SOS Moving",
+      "twitter:description": "Moving and storage in Orange County, booked as one job: our crew loads your home, stores everything climate-controlled and returns it on your date.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/orange-county-moving-and-storage.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/orange-county-white-glove-movers",
+    "title": "White-Glove Movers in Orange County | SOS Moving",
+    "description": "Gun safe movers in Orange County from SOS Moving: safes, slate pool tables, fine art and antiques wrapped, crated and carried by a crew that plans each lift.",
+    "canonical": "https://www.sosmovingla.net/orange-county-white-glove-movers",
+    "robots": "",
+    "h1": "White-Glove Movers in Orange County",
+    "lang": "en",
+    "og": {
+      "og:title": "White-Glove Movers in Orange County | SOS Moving",
+      "og:description": "Gun safe movers in Orange County from SOS Moving: safes, slate pool tables, fine art and antiques wrapped, crated and carried by a crew that plans each lift.",
+      "og:image": "/images/og/68de2cc9e56f6c18c48e50d3_White-glove_Open-Graph-Image_1200x630.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "White-Glove Movers in Orange County | SOS Moving",
+      "twitter:description": "Gun safe movers in Orange County from SOS Moving: safes, slate pool tables, fine art and antiques wrapped, crated and carried by a crew that plans each lift.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/orange-county-white-glove-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/newport-beach-commercial-movers",
+    "title": "Office & Commercial Movers in Newport Beach | SOS Moving",
+    "description": "Commercial movers in Newport Beach, CA, for Airport Area suites and Newport Center towers: a $50 COI, freight elevator booked, crews 8AM – 6PM daily.",
+    "canonical": "https://www.sosmovingla.net/newport-beach-commercial-movers",
+    "robots": "",
+    "h1": "Office & Commercial Movers in Newport Beach",
+    "lang": "en",
+    "og": {
+      "og:title": "Office & Commercial Movers in Newport Beach | SOS Moving",
+      "og:description": "Commercial movers in Newport Beach, CA, for Airport Area suites and Newport Center towers: a $50 COI, freight elevator booked, crews 8AM – 6PM daily.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Office & Commercial Movers in Newport Beach | SOS Moving",
+      "twitter:description": "Commercial movers in Newport Beach, CA, for Airport Area suites and Newport Center towers: a $50 COI, freight elevator booked, crews 8AM – 6PM daily.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/newport-beach-commercial-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/newport-beach-long-distance-movers",
+    "title": "Long-Distance Movers in Newport Beach | SOS Moving",
+    "description": "Long distance movers in Newport Beach: one flat rate, a truck only for you, and loading days planned around street permits and Newport Coast gates.",
+    "canonical": "https://www.sosmovingla.net/newport-beach-long-distance-movers",
+    "robots": "",
+    "h1": "Long-Distance Movers in Newport Beach",
+    "lang": "en",
+    "og": {
+      "og:title": "Long-Distance Movers in Newport Beach | SOS Moving",
+      "og:description": "Long distance movers in Newport Beach: one flat rate, a truck only for you, and loading days planned around street permits and Newport Coast gates.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Long-Distance Movers in Newport Beach | SOS Moving",
+      "twitter:description": "Long distance movers in Newport Beach: one flat rate, a truck only for you, and loading days planned around street permits and Newport Coast gates.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/newport-beach-long-distance-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/newport-beach-piano-movers",
+    "title": "Piano Movers in Newport Beach | SOS Moving",
+    "description": "Piano moving services in Newport Beach, CA: a crew of 4 on an hourly move, a $200 add-on, and gate, truck and bay-route plans made before move day.",
+    "canonical": "https://www.sosmovingla.net/newport-beach-piano-movers",
+    "robots": "",
+    "h1": "Piano Movers in Newport Beach",
+    "lang": "en",
+    "og": {
+      "og:title": "Piano Movers in Newport Beach | SOS Moving",
+      "og:description": "Piano moving services in Newport Beach, CA: a crew of 4 on an hourly move, a $200 add-on, and gate, truck and bay-route plans made before move day.",
+      "og:image": "/images/og/68de2cc9e56f6c18c48e50d3_White-glove_Open-Graph-Image_1200x630.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Piano Movers in Newport Beach | SOS Moving",
+      "twitter:description": "Piano moving services in Newport Beach, CA: a crew of 4 on an hourly move, a $200 add-on, and gate, truck and bay-route plans made before move day.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/newport-beach-piano-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/newport-beach-apartment-movers",
+    "title": "Apartment Movers in Newport Beach | SOS Moving",
+    "description": "Apartment movers in Newport Beach, CA: hourly crews, a COI for your leasing office, alley loading by city rules and Balboa Peninsula timing advice.",
+    "canonical": "https://www.sosmovingla.net/newport-beach-apartment-movers",
+    "robots": "",
+    "h1": "Apartment Movers in Newport Beach",
+    "lang": "en",
+    "og": {
+      "og:title": "Apartment Movers in Newport Beach | SOS Moving",
+      "og:description": "Apartment movers in Newport Beach, CA: hourly crews, a COI for your leasing office, alley loading by city rules and Balboa Peninsula timing advice.",
+      "og:image": "/images/og/698cb0b5d20d11d67a614b57_apartment-movers-new-1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Apartment Movers in Newport Beach | SOS Moving",
+      "twitter:description": "Apartment movers in Newport Beach, CA: hourly crews, a COI for your leasing office, alley loading by city rules and Balboa Peninsula timing advice.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/newport-beach-apartment-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/burbank-packing-services",
+    "title": "Packing Services in Burbank | SOS Moving",
+    "description": "Packing services in Burbank, CA for older houses and new condos: room-by-room packing, boxes billed only when used, free tape and stretch wrap, and unpacking.",
+    "canonical": "https://www.sosmovingla.net/burbank-packing-services",
+    "robots": "",
+    "h1": "Packing Services in Burbank",
+    "lang": "en",
+    "og": {
+      "og:title": "Packing Services in Burbank | SOS Moving",
+      "og:description": "Packing services in Burbank, CA for older houses and new condos: room-by-room packing, boxes billed only when used, free tape and stretch wrap, and unpacking.",
+      "og:image": "/images/og/69ce384abc0deddedeba19d1_Packers.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Packing Services in Burbank | SOS Moving",
+      "twitter:description": "Packing services in Burbank, CA for older houses and new condos: room-by-room packing, boxes billed only when used, free tape and stretch wrap, and unpacking.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/burbank-packing-services.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/burbank-commercial-movers",
+    "title": "Office & Commercial Movers in Burbank | SOS Moving",
+    "description": "Commercial movers in Burbank for landlord COIs, loading-dock slots and staged weekend moves, with hourly crews working Monday – Sunday, 8AM – 6PM.",
+    "canonical": "https://www.sosmovingla.net/burbank-commercial-movers",
+    "robots": "",
+    "h1": "Office & Commercial Movers in Burbank",
+    "lang": "en",
+    "og": {
+      "og:title": "Office & Commercial Movers in Burbank | SOS Moving",
+      "og:description": "Commercial movers in Burbank for landlord COIs, loading-dock slots and staged weekend moves, with hourly crews working Monday – Sunday, 8AM – 6PM.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Office & Commercial Movers in Burbank | SOS Moving",
+      "twitter:description": "Commercial movers in Burbank for landlord COIs, loading-dock slots and staged weekend moves, with hourly crews working Monday – Sunday, 8AM – 6PM.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/burbank-commercial-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/burbank-apartment-movers",
+    "title": "Apartment Movers in Burbank | SOS Moving",
+    "description": "Apartment movers in Burbank: hourly crews, a $50 COI for your manager, loading-only curb rules and a plan for dingbats and courtyard buildings.",
+    "canonical": "https://www.sosmovingla.net/burbank-apartment-movers",
+    "robots": "",
+    "h1": "Apartment Movers in Burbank",
+    "lang": "en",
+    "og": {
+      "og:title": "Apartment Movers in Burbank | SOS Moving",
+      "og:description": "Apartment movers in Burbank: hourly crews, a $50 COI for your manager, loading-only curb rules and a plan for dingbats and courtyard buildings.",
+      "og:image": "/images/og/698cb0b5d20d11d67a614b57_apartment-movers-new-1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Apartment Movers in Burbank | SOS Moving",
+      "twitter:description": "Apartment movers in Burbank: hourly crews, a $50 COI for your manager, loading-only curb rules and a plan for dingbats and courtyard buildings.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/burbank-apartment-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/burbank-piano-movers",
+    "title": "Piano Movers in Burbank | SOS Moving",
+    "description": "Piano movers in Burbank for foothill steps north of Glenoaks and the rest of the house: four movers on one hourly job and a $200 piano add-on.",
+    "canonical": "https://www.sosmovingla.net/burbank-piano-movers",
+    "robots": "",
+    "h1": "Piano Movers in Burbank",
+    "lang": "en",
+    "og": {
+      "og:title": "Piano Movers in Burbank | SOS Moving",
+      "og:description": "Piano movers in Burbank for foothill steps north of Glenoaks and the rest of the house: four movers on one hourly job and a $200 piano add-on.",
+      "og:image": "/images/og/68de2cc9e56f6c18c48e50d3_White-glove_Open-Graph-Image_1200x630.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Piano Movers in Burbank | SOS Moving",
+      "twitter:description": "Piano movers in Burbank for foothill steps north of Glenoaks and the rest of the house: four movers on one hourly job and a $200 piano add-on.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/burbank-piano-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/burbank-long-distance-movers",
+    "title": "Long-Distance Movers in Burbank | SOS Moving",
+    "description": "Cross-country movers in Burbank, CA: flat-rate interstate moves in a dedicated truck, federal licenses, and move-out planning for permits, alleys and HOAs.",
+    "canonical": "https://www.sosmovingla.net/burbank-long-distance-movers",
+    "robots": "",
+    "h1": "Long-Distance Movers in Burbank",
+    "lang": "en",
+    "og": {
+      "og:title": "Long-Distance Movers in Burbank | SOS Moving",
+      "og:description": "Cross-country movers in Burbank, CA: flat-rate interstate moves in a dedicated truck, federal licenses, and move-out planning for permits, alleys and HOAs.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Long-Distance Movers in Burbank | SOS Moving",
+      "twitter:description": "Cross-country movers in Burbank, CA: flat-rate interstate moves in a dedicated truck, federal licenses, and move-out planning for permits, alleys and HOAs.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/burbank-long-distance-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/santa-clarita-commercial-movers",
+    "title": "Office & Commercial Movers in Santa Clarita | SOS Moving",
+    "description": "Office movers in Santa Clarita, CA for Valencia and Centre Pointe business parks: landlord COI, phased weekend moves, freeway ramp closures checked ahead.",
+    "canonical": "https://www.sosmovingla.net/santa-clarita-commercial-movers",
+    "robots": "",
+    "h1": "Office & Commercial Movers in Santa Clarita",
+    "lang": "en",
+    "og": {
+      "og:title": "Office & Commercial Movers in Santa Clarita | SOS Moving",
+      "og:description": "Office movers in Santa Clarita, CA for Valencia and Centre Pointe business parks: landlord COI, phased weekend moves, freeway ramp closures checked ahead.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Office & Commercial Movers in Santa Clarita | SOS Moving",
+      "twitter:description": "Office movers in Santa Clarita, CA for Valencia and Centre Pointe business parks: landlord COI, phased weekend moves, freeway ramp closures checked ahead.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/santa-clarita-commercial-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/santa-clarita-long-distance-movers",
+    "title": "Long-Distance Movers in Santa Clarita | SOS Moving",
+    "description": "Long distance moving companies in Santa Clarita, CA compared: one flat price for a dedicated truck, with loading planned around HOA rules and the Grapevine.",
+    "canonical": "https://www.sosmovingla.net/santa-clarita-long-distance-movers",
+    "robots": "",
+    "h1": "Long-Distance Movers in Santa Clarita",
+    "lang": "en",
+    "og": {
+      "og:title": "Long-Distance Movers in Santa Clarita | SOS Moving",
+      "og:description": "Long distance moving companies in Santa Clarita, CA compared: one flat price for a dedicated truck, with loading planned around HOA rules and the Grapevine.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Long-Distance Movers in Santa Clarita | SOS Moving",
+      "twitter:description": "Long distance moving companies in Santa Clarita, CA compared: one flat price for a dedicated truck, with loading planned around HOA rules and the Grapevine.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/santa-clarita-long-distance-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/santa-clarita-piano-movers",
+    "title": "Piano Movers in Santa Clarita | SOS Moving",
+    "description": "Piano movers in Santa Clarita, booked with the whole move: a crew of four, a $200 add-on and a plan for gated tracts, hillside lots and the curb.",
+    "canonical": "https://www.sosmovingla.net/santa-clarita-piano-movers",
+    "robots": "",
+    "h1": "Piano Movers in Santa Clarita",
+    "lang": "en",
+    "og": {
+      "og:title": "Piano Movers in Santa Clarita | SOS Moving",
+      "og:description": "Piano movers in Santa Clarita, booked with the whole move: a crew of four, a $200 add-on and a plan for gated tracts, hillside lots and the curb.",
+      "og:image": "/images/og/68de2cc9e56f6c18c48e50d3_White-glove_Open-Graph-Image_1200x630.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Piano Movers in Santa Clarita | SOS Moving",
+      "twitter:description": "Piano movers in Santa Clarita, booked with the whole move: a crew of four, a $200 add-on and a plan for gated tracts, hillside lots and the curb.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/santa-clarita-piano-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/santa-clarita-packing-services",
+    "title": "Packing Services in Santa Clarita | SOS Moving",
+    "description": "Packing services in Santa Clarita, CA: hourly SOS crews for Newhall, Canyon Country and Valencia homes, boxes from $4 billed by use, free tape and wrap.",
+    "canonical": "https://www.sosmovingla.net/santa-clarita-packing-services",
+    "robots": "",
+    "h1": "Packing Services in Santa Clarita",
+    "lang": "en",
+    "og": {
+      "og:title": "Packing Services in Santa Clarita | SOS Moving",
+      "og:description": "Packing services in Santa Clarita, CA: hourly SOS crews for Newhall, Canyon Country and Valencia homes, boxes from $4 billed by use, free tape and wrap.",
+      "og:image": "/images/og/69ce384abc0deddedeba19d1_Packers.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Packing Services in Santa Clarita | SOS Moving",
+      "twitter:description": "Packing services in Santa Clarita, CA: hourly SOS crews for Newhall, Canyon Country and Valencia homes, boxes from $4 billed by use, free tape and wrap.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/santa-clarita-packing-services.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/long-beach-commercial-movers",
+    "title": "Office & Commercial Movers in Long Beach | SOS Moving",
+    "description": "Commercial movers in Long Beach for Ocean Boulevard towers, Towne Center shops and airport campuses: a $50 COI and crews 8AM – 6PM, seven days a week.",
+    "canonical": "https://www.sosmovingla.net/long-beach-commercial-movers",
+    "robots": "",
+    "h1": "Office & Commercial Movers in Long Beach",
+    "lang": "en",
+    "og": {
+      "og:title": "Office & Commercial Movers in Long Beach | SOS Moving",
+      "og:description": "Commercial movers in Long Beach for Ocean Boulevard towers, Towne Center shops and airport campuses: a $50 COI and crews 8AM – 6PM, seven days a week.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Office & Commercial Movers in Long Beach | SOS Moving",
+      "twitter:description": "Commercial movers in Long Beach for Ocean Boulevard towers, Towne Center shops and airport campuses: a $50 COI and crews 8AM – 6PM, seven days a week.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/long-beach-commercial-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/long-beach-long-distance-movers",
+    "title": "Long-Distance Movers in Long Beach | SOS Moving",
+    "description": "Comparing the best long-distance moving companies in Long Beach? SOS offers a flat rate, a truck for your household only and a plan for curbs and condo rules.",
+    "canonical": "https://www.sosmovingla.net/long-beach-long-distance-movers",
+    "robots": "",
+    "h1": "Long-Distance Movers in Long Beach",
+    "lang": "en",
+    "og": {
+      "og:title": "Long-Distance Movers in Long Beach | SOS Moving",
+      "og:description": "Comparing the best long-distance moving companies in Long Beach? SOS offers a flat rate, a truck for your household only and a plan for curbs and condo rules.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Long-Distance Movers in Long Beach | SOS Moving",
+      "twitter:description": "Comparing the best long-distance moving companies in Long Beach? SOS offers a flat rate, a truck for your household only and a plan for curbs and condo rules.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/long-beach-long-distance-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/long-beach-moving-and-storage",
+    "title": "Moving & Storage in Long Beach | SOS Moving",
+    "description": "SOS Moving covers moving and storage in Long Beach for restorations, lease gaps and interstate moves: one crew for pickup, storage and the return trip.",
+    "canonical": "https://www.sosmovingla.net/long-beach-moving-and-storage",
+    "robots": "",
+    "h1": "Moving & Storage in Long Beach",
+    "lang": "en",
+    "og": {
+      "og:title": "Moving & Storage in Long Beach | SOS Moving",
+      "og:description": "SOS Moving covers moving and storage in Long Beach for restorations, lease gaps and interstate moves: one crew for pickup, storage and the return trip.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Moving & Storage in Long Beach | SOS Moving",
+      "twitter:description": "SOS Moving covers moving and storage in Long Beach for restorations, lease gaps and interstate moves: one crew for pickup, storage and the return trip.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/long-beach-moving-and-storage.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/long-beach-piano-movers",
+    "title": "Piano Movers in Long Beach | SOS Moving",
+    "description": "Piano movers in Long Beach for Bluff Park stairs and the Bixby Hill gate: four movers on your hourly move and a $200 piano add-on, planned in advance.",
+    "canonical": "https://www.sosmovingla.net/long-beach-piano-movers",
+    "robots": "",
+    "h1": "Piano Movers in Long Beach",
+    "lang": "en",
+    "og": {
+      "og:title": "Piano Movers in Long Beach | SOS Moving",
+      "og:description": "Piano movers in Long Beach for Bluff Park stairs and the Bixby Hill gate: four movers on your hourly move and a $200 piano add-on, planned in advance.",
+      "og:image": "/images/og/68de2cc9e56f6c18c48e50d3_White-glove_Open-Graph-Image_1200x630.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Piano Movers in Long Beach | SOS Moving",
+      "twitter:description": "Piano movers in Long Beach for Bluff Park stairs and the Bixby Hill gate: four movers on your hourly move and a $200 piano add-on, planned in advance.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/long-beach-piano-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/long-beach-packing-services",
+    "title": "Packing Services in Long Beach | SOS Moving",
+    "description": "Movers and packers in Long Beach for Craftsman bungalows, revival homes and downtown condos: kitchen-first packing, labeled cartons, sweeping-day planning.",
+    "canonical": "https://www.sosmovingla.net/long-beach-packing-services",
+    "robots": "",
+    "h1": "Packing Services in Long Beach",
+    "lang": "en",
+    "og": {
+      "og:title": "Packing Services in Long Beach | SOS Moving",
+      "og:description": "Movers and packers in Long Beach for Craftsman bungalows, revival homes and downtown condos: kitchen-first packing, labeled cartons, sweeping-day planning.",
+      "og:image": "/images/og/69ce384abc0deddedeba19d1_Packers.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Packing Services in Long Beach | SOS Moving",
+      "twitter:description": "Movers and packers in Long Beach for Craftsman bungalows, revival homes and downtown condos: kitchen-first packing, labeled cartons, sweeping-day planning.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/long-beach-packing-services.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/pasadena-piano-movers",
+    "title": "Piano Movers in Pasadena | SOS Moving",
+    "description": "Piano movers in Pasadena: a crew of 4 on an hourly move, a $200 add-on and a 3-hour minimum, with porch steps, slopes and gated condos planned ahead.",
+    "canonical": "https://www.sosmovingla.net/pasadena-piano-movers",
+    "robots": "",
+    "h1": "Piano Movers in Pasadena",
+    "lang": "en",
+    "og": {
+      "og:title": "Piano Movers in Pasadena | SOS Moving",
+      "og:description": "Piano movers in Pasadena: a crew of 4 on an hourly move, a $200 add-on and a 3-hour minimum, with porch steps, slopes and gated condos planned ahead.",
+      "og:image": "/images/og/68de2cc9e56f6c18c48e50d3_White-glove_Open-Graph-Image_1200x630.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Piano Movers in Pasadena | SOS Moving",
+      "twitter:description": "Piano movers in Pasadena: a crew of 4 on an hourly move, a $200 add-on and a 3-hour minimum, with porch steps, slopes and gated condos planned ahead.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/pasadena-piano-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/pasadena-commercial-movers",
+    "title": "Office & Commercial Movers in Pasadena | SOS Moving",
+    "description": "Office movers in Pasadena for suites, storefronts and stockrooms: a COI for your building, curb permits planned, crews Monday – Sunday 8AM – 6PM.",
+    "canonical": "https://www.sosmovingla.net/pasadena-commercial-movers",
+    "robots": "",
+    "h1": "Office & Commercial Movers in Pasadena",
+    "lang": "en",
+    "og": {
+      "og:title": "Office & Commercial Movers in Pasadena | SOS Moving",
+      "og:description": "Office movers in Pasadena for suites, storefronts and stockrooms: a COI for your building, curb permits planned, crews Monday – Sunday 8AM – 6PM.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Office & Commercial Movers in Pasadena | SOS Moving",
+      "twitter:description": "Office movers in Pasadena for suites, storefronts and stockrooms: a COI for your building, curb permits planned, crews Monday – Sunday 8AM – 6PM.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/pasadena-commercial-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/laguna-niguel-piano-movers",
+    "title": "Piano Movers in Laguna Niguel | SOS Moving",
+    "description": "Piano moving company in Laguna Niguel: four movers on one hourly clock, a $200 instrument add-on, and HOA gate and curb rules settled before the day.",
+    "canonical": "https://www.sosmovingla.net/laguna-niguel-piano-movers",
+    "robots": "",
+    "h1": "Piano Movers in Laguna Niguel",
+    "lang": "en",
+    "og": {
+      "og:title": "Piano Movers in Laguna Niguel | SOS Moving",
+      "og:description": "Piano moving company in Laguna Niguel: four movers on one hourly clock, a $200 instrument add-on, and HOA gate and curb rules settled before the day.",
+      "og:image": "/images/og/68de2cc9e56f6c18c48e50d3_White-glove_Open-Graph-Image_1200x630.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Piano Movers in Laguna Niguel | SOS Moving",
+      "twitter:description": "Piano moving company in Laguna Niguel: four movers on one hourly clock, a $200 instrument add-on, and HOA gate and curb rules settled before the day.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/laguna-niguel-piano-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/aliso-viejo-piano-movers",
+    "title": "Piano Movers in Aliso Viejo | SOS Moving",
+    "description": "Comparing piano moving companies in Aliso Viejo, CA? SOS moves an upright or grand with four movers, a padded board and belts, on one hourly clock.",
+    "canonical": "https://www.sosmovingla.net/aliso-viejo-piano-movers",
+    "robots": "",
+    "h1": "Piano Movers in Aliso Viejo",
+    "lang": "en",
+    "og": {
+      "og:title": "Piano Movers in Aliso Viejo | SOS Moving",
+      "og:description": "Comparing piano moving companies in Aliso Viejo, CA? SOS moves an upright or grand with four movers, a padded board and belts, on one hourly clock.",
+      "og:image": "/images/og/68de2cc9e56f6c18c48e50d3_White-glove_Open-Graph-Image_1200x630.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Piano Movers in Aliso Viejo | SOS Moving",
+      "twitter:description": "Comparing piano moving companies in Aliso Viejo, CA? SOS moves an upright or grand with four movers, a padded board and belts, on one hourly clock.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/aliso-viejo-piano-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/anaheim-piano-movers",
+    "title": "Piano Movers in Anaheim | SOS Moving",
+    "description": "Piano movers in Anaheim, billed by the hour: four movers, a padded board and straps, with the curb, the gate and the auto court checked before move day.",
+    "canonical": "https://www.sosmovingla.net/anaheim-piano-movers",
+    "robots": "",
+    "h1": "Piano Movers in Anaheim",
+    "lang": "en",
+    "og": {
+      "og:title": "Piano Movers in Anaheim | SOS Moving",
+      "og:description": "Piano movers in Anaheim, billed by the hour: four movers, a padded board and straps, with the curb, the gate and the auto court checked before move day.",
+      "og:image": "/images/og/68de2cc9e56f6c18c48e50d3_White-glove_Open-Graph-Image_1200x630.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Piano Movers in Anaheim | SOS Moving",
+      "twitter:description": "Piano movers in Anaheim, billed by the hour: four movers, a padded board and straps, with the curb, the gate and the auto court checked before move day.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/anaheim-piano-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/anaheim-long-distance-movers",
+    "title": "Long-Distance Movers in Anaheim | SOS Moving",
+    "description": "Anaheim long distance movers for out-of-state households: one dedicated truck, one flat rate and a loading plan built around your street and your building.",
+    "canonical": "https://www.sosmovingla.net/anaheim-long-distance-movers",
+    "robots": "",
+    "h1": "Long-Distance Movers in Anaheim",
+    "lang": "en",
+    "og": {
+      "og:title": "Long-Distance Movers in Anaheim | SOS Moving",
+      "og:description": "Anaheim long distance movers for out-of-state households: one dedicated truck, one flat rate and a loading plan built around your street and your building.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Long-Distance Movers in Anaheim | SOS Moving",
+      "twitter:description": "Anaheim long distance movers for out-of-state households: one dedicated truck, one flat rate and a loading plan built around your street and your building.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/anaheim-long-distance-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/anaheim-commercial-movers",
+    "title": "Office & Commercial Movers in Anaheim | SOS Moving",
+    "description": "Anaheim Canyon units, Resort-area suites and warehouse offices: office movers in Anaheim for staged moves, with lift and dock hours booked ahead.",
+    "canonical": "https://www.sosmovingla.net/anaheim-commercial-movers",
+    "robots": "",
+    "h1": "Office & Commercial Movers in Anaheim",
+    "lang": "en",
+    "og": {
+      "og:title": "Office & Commercial Movers in Anaheim | SOS Moving",
+      "og:description": "Anaheim Canyon units, Resort-area suites and warehouse offices: office movers in Anaheim for staged moves, with lift and dock hours booked ahead.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Office & Commercial Movers in Anaheim | SOS Moving",
+      "twitter:description": "Anaheim Canyon units, Resort-area suites and warehouse offices: office movers in Anaheim for staged moves, with lift and dock hours booked ahead.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/anaheim-commercial-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/tustin-commercial-movers",
+    "title": "Office & Commercial Movers in Tustin | SOS Moving",
+    "description": "Commercial movers in Tustin, CA for staged office relocations: crews Monday through Sunday, 8AM to 6PM, a certificate of insurance for your building.",
+    "canonical": "https://www.sosmovingla.net/tustin-commercial-movers",
+    "robots": "",
+    "h1": "Office & Commercial Movers in Tustin",
+    "lang": "en",
+    "og": {
+      "og:title": "Office & Commercial Movers in Tustin | SOS Moving",
+      "og:description": "Commercial movers in Tustin, CA for staged office relocations: crews Monday through Sunday, 8AM to 6PM, a certificate of insurance for your building.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Office & Commercial Movers in Tustin | SOS Moving",
+      "twitter:description": "Commercial movers in Tustin, CA for staged office relocations: crews Monday through Sunday, 8AM to 6PM, a certificate of insurance for your building.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/tustin-commercial-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/garden-grove-commercial-movers",
+    "title": "Office & Commercial Movers in Garden Grove | SOS Moving",
+    "description": "Office movers in Garden Grove, booked by the hour: staged relocations, a certificate of insurance for your building and crews seven days a week.",
+    "canonical": "https://www.sosmovingla.net/garden-grove-commercial-movers",
+    "robots": "",
+    "h1": "Office & Commercial Movers in Garden Grove",
+    "lang": "en",
+    "og": {
+      "og:title": "Office & Commercial Movers in Garden Grove | SOS Moving",
+      "og:description": "Office movers in Garden Grove, booked by the hour: staged relocations, a certificate of insurance for your building and crews seven days a week.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Office & Commercial Movers in Garden Grove | SOS Moving",
+      "twitter:description": "Office movers in Garden Grove, booked by the hour: staged relocations, a certificate of insurance for your building and crews seven days a week.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/garden-grove-commercial-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/garden-grove-long-distance-movers",
+    "title": "Long-Distance Movers in Garden Grove | SOS Moving",
+    "description": "Garden Grove long distance movers on one flat rate, with a truck for your household alone and street and HOA rules checked before loading day.",
+    "canonical": "https://www.sosmovingla.net/garden-grove-long-distance-movers",
+    "robots": "",
+    "h1": "Long-Distance Movers in Garden Grove",
+    "lang": "en",
+    "og": {
+      "og:title": "Long-Distance Movers in Garden Grove | SOS Moving",
+      "og:description": "Garden Grove long distance movers on one flat rate, with a truck for your household alone and street and HOA rules checked before loading day.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Long-Distance Movers in Garden Grove | SOS Moving",
+      "twitter:description": "Garden Grove long distance movers on one flat rate, with a truck for your household alone and street and HOA rules checked before loading day.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/garden-grove-long-distance-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/santa-ana-commercial-movers",
+    "title": "Office & Commercial Movers in Santa Ana | SOS Moving",
+    "description": "Office movers in Santa Ana for Civic Center parking rules, freight-lift bookings and a floor moved in stages without shutting the business down.",
+    "canonical": "https://www.sosmovingla.net/santa-ana-commercial-movers",
+    "robots": "",
+    "h1": "Office & Commercial Movers in Santa Ana",
+    "lang": "en",
+    "og": {
+      "og:title": "Office & Commercial Movers in Santa Ana | SOS Moving",
+      "og:description": "Office movers in Santa Ana for Civic Center parking rules, freight-lift bookings and a floor moved in stages without shutting the business down.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Office & Commercial Movers in Santa Ana | SOS Moving",
+      "twitter:description": "Office movers in Santa Ana for Civic Center parking rules, freight-lift bookings and a floor moved in stages without shutting the business down.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/santa-ana-commercial-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/santa-ana-piano-movers",
+    "title": "Piano Movers in Santa Ana | SOS Moving",
+    "description": "Piano movers in Santa Ana: four movers, blankets, straps and a padded board on one hourly job, with permit-district curbs and porch steps planned first.",
+    "canonical": "https://www.sosmovingla.net/santa-ana-piano-movers",
+    "robots": "",
+    "h1": "Piano Movers in Santa Ana",
+    "lang": "en",
+    "og": {
+      "og:title": "Piano Movers in Santa Ana | SOS Moving",
+      "og:description": "Piano movers in Santa Ana: four movers, blankets, straps and a padded board on one hourly job, with permit-district curbs and porch steps planned first.",
+      "og:image": "/images/og/68de2cc9e56f6c18c48e50d3_White-glove_Open-Graph-Image_1200x630.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Piano Movers in Santa Ana | SOS Moving",
+      "twitter:description": "Piano movers in Santa Ana: four movers, blankets, straps and a padded board on one hourly job, with permit-district curbs and porch steps planned first.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/santa-ana-piano-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/costa-mesa-moving-and-storage",
+    "title": "Moving & Storage in Costa Mesa | SOS Moving",
+    "description": "Lease gap, remodel or a move out of state? Moving and storage in Costa Mesa, CA, from SOS Moving: pickup, a climate-controlled hold and the return.",
+    "canonical": "https://www.sosmovingla.net/costa-mesa-moving-and-storage",
+    "robots": "",
+    "h1": "Moving & Storage in Costa Mesa",
+    "lang": "en",
+    "og": {
+      "og:title": "Moving & Storage in Costa Mesa | SOS Moving",
+      "og:description": "Lease gap, remodel or a move out of state? Moving and storage in Costa Mesa, CA, from SOS Moving: pickup, a climate-controlled hold and the return.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Moving & Storage in Costa Mesa | SOS Moving",
+      "twitter:description": "Lease gap, remodel or a move out of state? Moving and storage in Costa Mesa, CA, from SOS Moving: pickup, a climate-controlled hold and the return.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/costa-mesa-moving-and-storage.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/fullerton-piano-movers",
+    "title": "Piano Movers in Fullerton | SOS Moving",
+    "description": "Piano movers in Fullerton work on an hourly clock: a crew of four, a flat $200 for the instrument, and the stairs, slope and gate checked in advance.",
+    "canonical": "https://www.sosmovingla.net/fullerton-piano-movers",
+    "robots": "",
+    "h1": "Piano Movers in Fullerton",
+    "lang": "en",
+    "og": {
+      "og:title": "Piano Movers in Fullerton | SOS Moving",
+      "og:description": "Piano movers in Fullerton work on an hourly clock: a crew of four, a flat $200 for the instrument, and the stairs, slope and gate checked in advance.",
+      "og:image": "/images/og/68de2cc9e56f6c18c48e50d3_White-glove_Open-Graph-Image_1200x630.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Piano Movers in Fullerton | SOS Moving",
+      "twitter:description": "Piano movers in Fullerton work on an hourly clock: a crew of four, a flat $200 for the instrument, and the stairs, slope and gate checked in advance.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/fullerton-piano-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/glendale-moving-and-storage",
+    "title": "Moving & Storage in Glendale | SOS Moving",
+    "description": "Moving and storage in Glendale, CA for lease gaps, remodels and interstate moves: one crew packs rooms, holds the load in climate control and brings it back.",
+    "canonical": "https://www.sosmovingla.net/glendale-moving-and-storage",
+    "robots": "",
+    "h1": "Moving & Storage in Glendale",
+    "lang": "en",
+    "og": {
+      "og:title": "Moving & Storage in Glendale | SOS Moving",
+      "og:description": "Moving and storage in Glendale, CA for lease gaps, remodels and interstate moves: one crew packs rooms, holds the load in climate control and brings it back.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Moving & Storage in Glendale | SOS Moving",
+      "twitter:description": "Moving and storage in Glendale, CA for lease gaps, remodels and interstate moves: one crew packs rooms, holds the load in climate control and brings it back.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/glendale-moving-and-storage.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/glendale-long-distance-movers",
+    "title": "Long-Distance Movers in Glendale | SOS Moving",
+    "description": "Comparing the best long distance moving companies in Glendale? SOS Moving quotes interstate moves flat, with one licensed crew from loading day to delivery.",
+    "canonical": "https://www.sosmovingla.net/glendale-long-distance-movers",
+    "robots": "",
+    "h1": "Long-Distance Movers in Glendale",
+    "lang": "en",
+    "og": {
+      "og:title": "Long-Distance Movers in Glendale | SOS Moving",
+      "og:description": "Comparing the best long distance moving companies in Glendale? SOS Moving quotes interstate moves flat, with one licensed crew from loading day to delivery.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Long-Distance Movers in Glendale | SOS Moving",
+      "twitter:description": "Comparing the best long distance moving companies in Glendale? SOS Moving quotes interstate moves flat, with one licensed crew from loading day to delivery.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/glendale-long-distance-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/glendale-piano-movers",
+    "title": "Piano Movers in Glendale | SOS Moving",
+    "description": "Glendale piano movers from SOS: an hourly crew of four, a $200 instrument add-on, piano board, straps and door padding. Booking daily, 8AM to 6PM.",
+    "canonical": "https://www.sosmovingla.net/glendale-piano-movers",
+    "robots": "",
+    "h1": "Piano Movers in Glendale",
+    "lang": "en",
+    "og": {
+      "og:title": "Piano Movers in Glendale | SOS Moving",
+      "og:description": "Glendale piano movers from SOS: an hourly crew of four, a $200 instrument add-on, piano board, straps and door padding. Booking daily, 8AM to 6PM.",
+      "og:image": "/images/og/68de2cc9e56f6c18c48e50d3_White-glove_Open-Graph-Image_1200x630.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Piano Movers in Glendale | SOS Moving",
+      "twitter:description": "Glendale piano movers from SOS: an hourly crew of four, a $200 instrument add-on, piano board, straps and door padding. Booking daily, 8AM to 6PM.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/glendale-piano-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/glendale-commercial-movers",
+    "title": "Office & Commercial Movers in Glendale | SOS Moving",
+    "description": "Commercial movers in Glendale: SOS Moving plans office relocations and IT relocation services in Glendale, CA around your building access window.",
+    "canonical": "https://www.sosmovingla.net/glendale-commercial-movers",
+    "robots": "",
+    "h1": "Office & Commercial Movers in Glendale",
+    "lang": "en",
+    "og": {
+      "og:title": "Office & Commercial Movers in Glendale | SOS Moving",
+      "og:description": "Commercial movers in Glendale: SOS Moving plans office relocations and IT relocation services in Glendale, CA around your building access window.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Office & Commercial Movers in Glendale | SOS Moving",
+      "twitter:description": "Commercial movers in Glendale: SOS Moving plans office relocations and IT relocation services in Glendale, CA around your building access window.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/glendale-commercial-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/torrance-piano-movers",
+    "title": "Piano Movers in Torrance | SOS Moving",
+    "description": "Hillside steps, condo lifts and truck-parking rules: piano movers in Torrance arrive as a crew of four, on an hourly clock with a flat $200 add-on.",
+    "canonical": "https://www.sosmovingla.net/torrance-piano-movers",
+    "robots": "",
+    "h1": "Piano Movers in Torrance",
+    "lang": "en",
+    "og": {
+      "og:title": "Piano Movers in Torrance | SOS Moving",
+      "og:description": "Hillside steps, condo lifts and truck-parking rules: piano movers in Torrance arrive as a crew of four, on an hourly clock with a flat $200 add-on.",
+      "og:image": "/images/og/68de2cc9e56f6c18c48e50d3_White-glove_Open-Graph-Image_1200x630.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Piano Movers in Torrance | SOS Moving",
+      "twitter:description": "Hillside steps, condo lifts and truck-parking rules: piano movers in Torrance arrive as a crew of four, on an hourly clock with a flat $200 add-on.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/torrance-piano-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/torrance-moving-and-storage",
+    "title": "Moving & Storage in Torrance | SOS Moving",
+    "description": "Need moving storage in Torrance, CA? SOS Moving wraps and loads at your door, holds the load in climate-controlled storage and returns it on your date.",
+    "canonical": "https://www.sosmovingla.net/torrance-moving-and-storage",
+    "robots": "",
+    "h1": "Moving & Storage in Torrance",
+    "lang": "en",
+    "og": {
+      "og:title": "Moving & Storage in Torrance | SOS Moving",
+      "og:description": "Need moving storage in Torrance, CA? SOS Moving wraps and loads at your door, holds the load in climate-controlled storage and returns it on your date.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Moving & Storage in Torrance | SOS Moving",
+      "twitter:description": "Need moving storage in Torrance, CA? SOS Moving wraps and loads at your door, holds the load in climate-controlled storage and returns it on your date.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/torrance-moving-and-storage.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/santa-monica-commercial-movers",
+    "title": "Office & Commercial Movers in Santa Monica | SOS Moving",
+    "description": "Commercial movers in Santa Monica for office, campus and warehouse suites: staged relocations, curb space planned ahead, a $50 COI, crews 8AM – 6PM.",
+    "canonical": "https://www.sosmovingla.net/santa-monica-commercial-movers",
+    "robots": "",
+    "h1": "Office & Commercial Movers in Santa Monica",
+    "lang": "en",
+    "og": {
+      "og:title": "Office & Commercial Movers in Santa Monica | SOS Moving",
+      "og:description": "Commercial movers in Santa Monica for office, campus and warehouse suites: staged relocations, curb space planned ahead, a $50 COI, crews 8AM – 6PM.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Office & Commercial Movers in Santa Monica | SOS Moving",
+      "twitter:description": "Commercial movers in Santa Monica for office, campus and warehouse suites: staged relocations, curb space planned ahead, a $50 COI, crews 8AM – 6PM.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/santa-monica-commercial-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/santa-monica-moving-and-storage",
+    "title": "Moving & Storage in Santa Monica | SOS Moving",
+    "description": "When a retrofit, a permit queue or a cross-country move splits the dates, moving and storage in Santa Monica comes from one SOS crew: pickup, hold, return.",
+    "canonical": "https://www.sosmovingla.net/santa-monica-moving-and-storage",
+    "robots": "",
+    "h1": "Moving & Storage in Santa Monica",
+    "lang": "en",
+    "og": {
+      "og:title": "Moving & Storage in Santa Monica | SOS Moving",
+      "og:description": "When a retrofit, a permit queue or a cross-country move splits the dates, moving and storage in Santa Monica comes from one SOS crew: pickup, hold, return.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Moving & Storage in Santa Monica | SOS Moving",
+      "twitter:description": "When a retrofit, a permit queue or a cross-country move splits the dates, moving and storage in Santa Monica comes from one SOS crew: pickup, hold, return.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/santa-monica-moving-and-storage.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/altadena-commercial-movers",
+    "title": "Office & Commercial Movers in Altadena | SOS Moving",
+    "description": "Commercial movers in Altadena: office relocations staged around county curb permits, building COI and freight-lift windows, with clear hourly crew rates.",
+    "canonical": "https://www.sosmovingla.net/altadena-commercial-movers",
+    "robots": "",
+    "h1": "Office & Commercial Movers in Altadena",
+    "lang": "en",
+    "og": {
+      "og:title": "Office & Commercial Movers in Altadena | SOS Moving",
+      "og:description": "Commercial movers in Altadena: office relocations staged around county curb permits, building COI and freight-lift windows, with clear hourly crew rates.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Office & Commercial Movers in Altadena | SOS Moving",
+      "twitter:description": "Commercial movers in Altadena: office relocations staged around county curb permits, building COI and freight-lift windows, with clear hourly crew rates.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/altadena-commercial-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/azusa-commercial-movers",
+    "title": "Office & Commercial Movers in Azusa | SOS Moving",
+    "description": "Azusa commercial movers for office suites, storefronts and business parks: building COIs, elevator windows and staged weekend jobs inside an 8AM to 6PM day.",
+    "canonical": "https://www.sosmovingla.net/azusa-commercial-movers",
+    "robots": "",
+    "h1": "Office & Commercial Movers in Azusa",
+    "lang": "en",
+    "og": {
+      "og:title": "Office & Commercial Movers in Azusa | SOS Moving",
+      "og:description": "Azusa commercial movers for office suites, storefronts and business parks: building COIs, elevator windows and staged weekend jobs inside an 8AM to 6PM day.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Office & Commercial Movers in Azusa | SOS Moving",
+      "twitter:description": "Azusa commercial movers for office suites, storefronts and business parks: building COIs, elevator windows and staged weekend jobs inside an 8AM to 6PM day.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/azusa-commercial-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/glendora-commercial-movers",
+    "title": "Office & Commercial Movers in Glendora | SOS Moving",
+    "description": "Need commercial movers in Glendora you can book by the hour? Staged office relocation, a COI for your landlord, crews every day between 8AM and 6PM.",
+    "canonical": "https://www.sosmovingla.net/glendora-commercial-movers",
+    "robots": "",
+    "h1": "Office & Commercial Movers in Glendora",
+    "lang": "en",
+    "og": {
+      "og:title": "Office & Commercial Movers in Glendora | SOS Moving",
+      "og:description": "Need commercial movers in Glendora you can book by the hour? Staged office relocation, a COI for your landlord, crews every day between 8AM and 6PM.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Office & Commercial Movers in Glendora | SOS Moving",
+      "twitter:description": "Need commercial movers in Glendora you can book by the hour? Staged office relocation, a COI for your landlord, crews every day between 8AM and 6PM.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/glendora-commercial-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/pomona-commercial-movers",
+    "title": "Office & Commercial Movers in Pomona | SOS Moving",
+    "description": "Commercial movers in Pomona for staged office relocations: a certificate of insurance for your building, truck routes planned and crews 8AM to 6PM.",
+    "canonical": "https://www.sosmovingla.net/pomona-commercial-movers",
+    "robots": "",
+    "h1": "Office & Commercial Movers in Pomona",
+    "lang": "en",
+    "og": {
+      "og:title": "Office & Commercial Movers in Pomona | SOS Moving",
+      "og:description": "Commercial movers in Pomona for staged office relocations: a certificate of insurance for your building, truck routes planned and crews 8AM to 6PM.",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Office & Commercial Movers in Pomona | SOS Moving",
+      "twitter:description": "Commercial movers in Pomona for staged office relocations: a certificate of insurance for your building, truck routes planned and crews 8AM to 6PM.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/pomona-commercial-movers.json",
     "jsonldExpected": 1
   }
 ]

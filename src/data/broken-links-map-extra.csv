@@ -55,7 +55,7 @@ wrong_url,correct_url,kind,linked_from_pages
 /services/residential-move,/services/local-moving,legacy-absolute-link,0
 /services/local-move,/services/local-moving,legacy-absolute-link,0
 /services/furniture-move,/services/white-glove-movers,legacy-absolute-link,0
-/services/piano-move,/services/white-glove-movers,legacy-absolute-link,0
+/services/piano-move,/services/piano-movers,legacy-absolute-link,0
 /services/appliance-move,/services,legacy-absolute-link,0
 /services/labor-only-services,/services,legacy-absolute-link,0
 /los-angeles-movers/santa-clarita-movers,/santa-clarita-movers,legacy-absolute-link,0
@@ -108,3 +108,5 @@ wrong_url,correct_url,kind,linked_from_pages
 /movers-seattle,/seattle-movers,money-dupe,0
 /local-movers,/services/local-moving,money-dupe,4
 /moving-services,/services,money-dupe,0
+/blog/piano-movers-los-angeles-specialists,/services/piano-movers,blog->money-page,0
+/blog/piano-movers-near-me-upright-vs-grand-piano,/services/piano-movers,blog->money-page,0

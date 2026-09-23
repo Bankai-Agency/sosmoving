@@ -1,0 +1,47 @@
+{
+  "slug": "torrance-moving-and-storage",
+  "parentSlug": null,
+  "title": "Moving & Storage in Torrance | SOS Moving",
+  "metaDescription": "Need moving storage in Torrance, CA? SOS Moving wraps and loads at your door, holds the load in climate-controlled storage and returns it on your date.",
+  "canonicalUrl": "/torrance-moving-and-storage",
+  "heroTitle": "Moving & Storage in Torrance",
+  "heroSubtitle": "A lease gap, a remodel or a move out of state: we load at your door in Torrance, hold everything in climate-controlled storage and bring it back on your date.",
+  "heroImage": "/images/services/645ab1d979228712795bf01d_storage-bg.webp",
+  "phone": "(909) 443-0004",
+  "sections": [],
+  "sectionOrder": [
+    "services-hero",
+    "service-content",
+    "services-grid",
+    "why-sos",
+    "reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": [
+    {
+      "question": "Where do my things go once the crew has loaded them?",
+      "answer": "Straight from your door onto the truck, and from the truck into our climate-controlled facility in one run. Each item is checked onto an inventory as it is loaded and stays on that list until you set a return date. Nothing is parked at your curb in the meantime."
+    },
+    {
+      "question": "My street is posted for sweeping on the morning of the pickup. What happens?",
+      "answer": "Tell us the sweeping day when you book. The posted restriction runs three hours, so the crew either arrives outside that window or loads from the side of the street that is not posted that day. Sweeping and enforcement are off on the thirteen listed holidays, and on rainy days sweeping may be cancelled with no citations issued."
+    },
+    {
+      "question": "Can you leave a trailer or a container at the house between the pack-out and the move-in?",
+      "answer": "No, and it is not a preference of ours. The municipal code bars parking or leaving standing any trailer on a public street in Torrance, regardless of length or width, and extends the same rule to City-owned parking lots. Your load goes to the facility and comes back on a truck on the delivery date."
+    },
+    {
+      "question": "What does a pickup and a return cost?",
+      "answer": "Crew time is hourly: two movers with a truck are $119 cash or $129 card Monday to Thursday and $135 or $145 Friday to Sunday, with three- and four-mover crews priced above that. A three-hour minimum applies to each visit, and it becomes four hours when the address is 30+ miles from our base. The storage term is quoted after we have seen the inventory."
+    },
+    {
+      "question": "I need one box back, not the whole load. Is that possible?",
+      "answer": "Yes. Name the item from your inventory and we will arrange either a visit to the facility or a delivery of that piece alone. A couple of days of notice helps, because the crew locates it before anyone drives out."
+    },
+    {
+      "question": "Can storage cover a move that leaves California?",
+      "answer": "That is exactly what in-transit storage is for. We hold the load while the new home is finished and send it out on the date you confirm, under USDOT 3398018 and MC 1153871, so you are not arranging storage twice."
+    }
+  ]
+}

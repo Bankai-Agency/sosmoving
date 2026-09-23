@@ -1,5 +1,6 @@
 ---
 slug: "piano-movers-los-angeles-specialists"
+draft: true
 title: "Piano Movers Los Angeles"
 metaDescription: "Professional piano moving in LA. Uprights, baby grands, concert grands safely relocated. Insured specialists, proper equipment. $200 flat rate!"
 featuredImage: "/images/blog/68ff6959e6754210810d53ac_piano-movers-los-angeles-specialists-img.jpg"

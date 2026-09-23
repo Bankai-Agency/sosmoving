@@ -1,0 +1,43 @@
+{
+  "slug": "burbank-long-distance-movers",
+  "parentSlug": null,
+  "title": "Long-Distance Movers in Burbank | SOS Moving",
+  "metaDescription": "Cross-country movers in Burbank, CA: flat-rate interstate moves in a dedicated truck, federal licenses, and move-out planning for permits, alleys and HOAs.",
+  "canonicalUrl": "/burbank-long-distance-movers",
+  "heroTitle": "Long-Distance Movers in Burbank",
+  "heroSubtitle": "Flat-rate moves from Burbank to any state, in a truck that carries only your household",
+  "heroImage": "",
+  "phone": "(909) 443-0004",
+  "sections": [],
+  "sectionOrder": [
+    "services-hero",
+    "service-content",
+    "services-grid",
+    "why-sos",
+    "reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": [
+    {
+      "question": "Do I need a city permit to park the moving truck at my Burbank home?",
+      "answer": "If you want curb space held, the document is a Street Use Permit from Burbank Public Works. It is issued only after insurance papers are on file, and never for an alley. If you decide to apply, ask us for our certificate of insurance early; it costs $50."
+    },
+    {
+      "question": "How do you price a cross-country move from Burbank?",
+      "answer": "With one flat rate for a dedicated truck, not by the hour. The figure depends on your inventory, the route, whether we pack, and access at both homes. Fuel, mileage and taxes are already inside it."
+    },
+    {
+      "question": "How long does delivery take from Burbank to another state?",
+      "answer": "It depends on the route. Delivery takes from a few days upward, and we quote a range for your destination before you book. Then we aim for the early end of that range."
+    },
+    {
+      "question": "Can you pick up the same day I call?",
+      "answer": "Same-day moves are possible when a crew and truck are free, within our Monday – Sunday 8AM – 6PM hours. For an interstate haul, booking earlier gives you more dates to choose from."
+    },
+    {
+      "question": "My new place is not ready yet. Can you hold my things?",
+      "answer": "Yes. In-transit storage keeps your household in climate-controlled storage until the new home is ready, and the term can be extended without penalties. The crew brings everything out again on the date you give us."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "orange-county-long-distance-movers",
+  "parentSlug": null,
+  "title": "Long-Distance Movers in Orange County | SOS Moving",
+  "metaDescription": "Comparing long-distance moving companies in Orange County? SOS offers one flat rate, a dedicated truck, and a plan for gates, HOAs and Laguna Beach curb limits.",
+  "canonicalUrl": "/orange-county-long-distance-movers",
+  "heroTitle": "Long-Distance Movers in Orange County",
+  "heroSubtitle": "One flat price and a truck reserved for your household, from an Orange County driveway to your next state",
+  "heroImage": "",
+  "phone": "(909) 443-0004",
+  "sections": [],
+  "sectionOrder": [
+    "services-hero",
+    "service-content",
+    "services-grid",
+    "why-sos",
+    "reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": [
+    {
+      "question": "Can the moving truck wait on my Laguna Beach street while you load?",
+      "answer": "Only while it is actively loading. Laguna Beach allows commercial vehicles five cumulative hours on public streets, alleys, lots and parking structures within any 24-hour period, and it exempts a truck that is picking up goods from a building. We send the truck when the crew is ready to start and move it out once the load is strapped, instead of parking it ahead of time."
+    },
+    {
+      "question": "What do you need from me to get through the Coto de Caza gates?",
+      "answer": "Register the crew and our truck through the CZ Master Association guest system before moving day. We give you the company name, the crew lead's name and a phone number to enter. Tell us whether the main gate or the Oso gate is closer, so the driver comes in at the right end of Coto de Caza Drive."
+    },
+    {
+      "question": "Is a move from Orange County to another state billed by the hour?",
+      "answer": "No. Long-distance jobs are priced as one flat rate for a dedicated truck, with fuel, mileage and taxes inside the number. Hourly rates apply only to local moves."
+    },
+    {
+      "question": "How long until my furniture reaches the new home?",
+      "answer": "It depends on the distance. Up to 400 miles, delivery can happen the same day; for 500–1,500 miles plan on 1–3 days, and for 2,000–3,000 miles on 3–7 days. We try to arrive near the start of that range and phone before we pull up."
+    },
+    {
+      "question": "Will the truck use a toll road on the way out of the county?",
+      "answer": "Sometimes. SR-73, 133, 241 and 261 are toll roads, and the charge depends on time of day, distance and the number of axles. We settle the route, toll road or free freeway, while preparing your quote, so it is not a judgment call made on moving day."
+    },
+    {
+      "question": "My new place won't be ready when the truck arrives. What then?",
+      "answer": "Ask for in-transit storage. Your load goes into a secured, climate-controlled facility and is delivered once you have the keys, and if your closing slips, the storage period can be lengthened with no penalty."
+    }
+  ]
+}

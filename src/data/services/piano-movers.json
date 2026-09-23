@@ -1,0 +1,46 @@
+{
+  "slug": "piano-movers",
+  "title": "Piano Movers in Los Angeles | SOS Moving",
+  "metaDescription": "Piano movers in Los Angeles: a crew of 4 with a padded board and straps, a $200 add-on to your hourly move, a 3-hour minimum and same-day moves possible.",
+  "canonicalUrl": "/services/piano-movers",
+  "heroTitle": "Piano Movers in Los Angeles",
+  "heroSubtitle": "A four-person crew with a padded piano board and straps, booked together with your hourly move — from hillside stairs to condo elevators.",
+  "heroImage": "/images/services/68de1a44e51337130e6f79d9_white glove moving service.avif",
+  "phone": "(909) 443-0004",
+  "sections": [],
+  "sectionOrder": [
+    "services-hero",
+    "service-content",
+    "services-grid",
+    "why-sos",
+    "reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": [
+    {
+      "question": "Do I need a separate piano mover if my whole apartment is moving?",
+      "answer": "No. The piano rides with the rest of your household on one hourly move: you book a four-person crew, and the $200 piano add-on is added to that job. The 3-hour minimum applies to the whole move, not to the piano on its own."
+    },
+    {
+      "question": "Can you take a piano out of a Los Angeles high-rise or condo?",
+      "answer": "Yes, as long as the building releases a service or freight elevator for the move. Book the elevator window with management, send us the building’s insurance requirements, and we issue the COI for $50 ahead of time. We also check that the piano fits the elevator car before the crew arrives."
+    },
+    {
+      "question": "My house sits on a hillside with outdoor steps. Is that a problem?",
+      "answer": "It is common in this city and the reason we send four movers with a piano board. Tell us how many steps there are and send a photo of the path when you book. That helps us estimate the time and plan where the truck can stand on a narrow street."
+    },
+    {
+      "question": "Do you tune, store or dispose of pianos?",
+      "answer": "No. SOS moves pianos but does not tune, appraise, store or dispose of them. Book a tuner once the instrument has settled into its new room."
+    },
+    {
+      "question": "Can you move my piano today?",
+      "answer": "Often, yes: a same-day job is on the table if a crew of four has room in its schedule, so call 909-443-0004 as early as you can. We work Monday through Sunday, 8AM – 6PM, and the piano has to fit inside that window."
+    },
+    {
+      "question": "How is a piano move priced outside the city, for example in Orange County?",
+      "answer": "The model does not change: the hourly rate for four movers with a truck, the $200 piano add-on and the $30 gas fee. For addresses 30+ miles from our base the minimum is 4 hours instead of 3, and drive time beyond 10 miles is counted double."
+    }
+  ]
+}
