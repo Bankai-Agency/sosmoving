@@ -1,16 +1,29 @@
 import Link from 'next/link';
 import type { BlogPostCard } from '@/lib/types';
 
+// Webflow-era posts carry "April 15, 2026". Posts saved from the admin panel
+// carry Date.toString() output ("Mon May 18 2026 16:07:00 GMT+0000 (...)"),
+// and a bare YAML date arrives as a Date object; both print the Webflow way.
+function displayDate(value: unknown): string {
+  if (typeof value === 'string' && !/GMT[+-]\d{4}|^\d{4}-\d{2}-\d{2}/.test(value)) return value;
+  const date = new Date(value as string);
+  return Number.isNaN(date.getTime())
+    ? String(value)
+    : date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+}
+
 /**
  * Article card in the site's Webflow markup (classes from the scraped
  * /blog listing — blog-short-item / ln-slide-*). The (webflow) route
  * group has no Tailwind, so only webflow.css classes render here.
+ * prefetch is off for the same reason as in Pagination.
  */
 export function BlogCard({ post }: { post: BlogPostCard }) {
   return (
     <div role="listitem" className="blog-short-item w-dyn-item">
       <Link
         href={`/blog/${post.slug}`}
+        prefetch={false}
         className="ln-slide-item is-blog-short-news-link w-inline-block"
       >
         <div className="ln-slide-image">
@@ -25,7 +38,7 @@ export function BlogCard({ post }: { post: BlogPostCard }) {
           ) : null}
         </div>
         <div className="blog-short-news-info">
-          {post.publishDate && <div>{post.publishDate}</div>}
+          {post.publishDate && <div>{displayDate(post.publishDate)}</div>}
           {post.readTime && (
             <>
               <div className="blog-short-news-info-delimetr"></div>

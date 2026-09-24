@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { BlogCard } from '@/components/blog/BlogCard';
-import { Pagination } from '@/components/blog/Pagination';
+import { Pagination, paginatedMetadata, resolvePage } from '@/components/blog/Pagination';
 import { getBlogPosts } from '@/lib/data/blog';
 import { getCategories } from '@/lib/data/shared';
 import { metaForPath } from '@/lib/seo-meta';
@@ -28,19 +28,26 @@ function categoryTitle(slug: string): string {
 
 export async function generateMetadata({
   params,
+  searchParams,
 }: {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<{ page?: string | string[] }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+  const { page } = await searchParams;
   const title = categoryTitle(slug);
   // Pre-migration meta wins when the category existed on the old site;
   // the generated title/description only covers categories added since.
   const meta = metaForPath(`/category/${slug}`);
-  return {
-    title: `${title} — Blog`,
-    description: `Articles about ${title.toLowerCase()} from SOS Moving & Storage.`,
-    ...Object.fromEntries(Object.entries(meta).filter(([, v]) => v !== undefined)),
-  };
+  return paginatedMetadata(
+    {
+      title: `${title} — Blog`,
+      description: `Articles about ${title.toLowerCase()} from SOS Moving & Storage.`,
+      ...Object.fromEntries(Object.entries(meta).filter(([, v]) => v !== undefined)),
+    },
+    `/category/${slug}`,
+    page,
+  );
 }
 
 export default async function CategoryPage({
@@ -48,12 +55,13 @@ export default async function CategoryPage({
   searchParams,
 }: {
   params: Promise<{ slug: string }>;
-  searchParams: Promise<{ page?: string }>;
+  searchParams: Promise<{ page?: string | string[] }>;
 }) {
   const { slug } = await params;
   const { page: pageParam } = await searchParams;
-  const page = Number(pageParam) || 1;
+  const page = resolvePage(pageParam, `/category/${slug}`);
   const { posts, total, totalPages } = getBlogPosts({ page, limit: 12, category: slug });
+  if (page > 1 && page > totalPages) notFound();
 
   const title = categoryTitle(slug);
 

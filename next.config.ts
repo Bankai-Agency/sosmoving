@@ -26,8 +26,16 @@ function brokenLinkRedirects() {
 }
 
 const nextConfig: NextConfig = {
+  // Next's own "/x/ → /x" redirect is matched before every rule below, so an
+  // old "/x/" took two hops (slash, then the CSV rule). Without it the CSV
+  // rules, which accept the path with or without the slash, win first, and
+  // the same slash rule runs last for everything else.
+  skipTrailingSlashRedirect: true,
   async redirects() {
-    return brokenLinkRedirects();
+    return [
+      ...brokenLinkRedirects(),
+      { source: "/:path+/", destination: "/:path+", permanent: true },
+    ];
   },
   async headers() {
     return [
