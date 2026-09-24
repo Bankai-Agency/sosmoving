@@ -168,6 +168,20 @@ body.sos-lightbox-lock #chatbase-bubble-window,
 body.sos-lightbox-lock #chatbase-message-bubbles {
   visibility: hidden;
 }
+
+/* Chatbase loads only when the page opens wider than 991px (custom-scripts.js),
+   but it stays when the window narrows afterwards — a tablet turned to
+   portrait, a resized window. Its bubble (inline bottom: 16px) then sits on
+   the mobile touchbar (≤767px, ~45–60px tall). Lift the bubble and its
+   greeting above the bar; the open chat is full-screen there and untouched. */
+@media screen and (max-width: 767px) {
+  body:has(.touchbar) #chatbase-bubble-button {
+    bottom: calc(4rem + 16px) !important;
+  }
+  body:has(.touchbar) #chatbase-message-bubbles {
+    bottom: calc(4rem + 85px) !important;
+  }
+}
 .sos-lightbox {
   position: fixed;
   inset: 0;
