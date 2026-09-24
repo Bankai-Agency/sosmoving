@@ -204,8 +204,10 @@ for (const p of pagesAll) geoDemand.set(p.geo_key, (geoDemand.get(p.geo_key) || 
 const geoCity = new Map(pagesAll.map((p) => [p.geo_key, { url: p.city_page, county: p.county, name: p.geo }]));
 
 // Card photos: the city itself, not the crew. City heroes are mostly two movers in front of a
-// truck, so a slider of heroes shows the same two people on every card. These are the city
-// photos the site's own «… Near You» sliders use; a city without one falls back to its hero.
+// truck, so a slider of heroes shows the same two people on every card. The /images/general/
+// photos are the ones the site's own «… Near You» sliders use; the /images/cities/ ones are
+// free-licence photos (Unsplash, Pexels, CC0 — sources in tz/17-city-service-pages.md), cut to
+// the 7:8 card. A city without a photo falls back to its hero.
 const CITY_PHOTO = {
   '/la-movers': '/images/general/645ab1d97922870a915bef8e_la-img.webp',
   '/orange-county-movers': '/images/general/645ab1d97922871b295bef92_oc-img.webp',
@@ -215,6 +217,13 @@ const CITY_PHOTO = {
   '/los-angeles-movers/santa-monica-movers': '/images/general/645ab1d979228746325bf053_santa-movers-bg.webp',
   '/los-angeles-movers/west-hollywood-movers': '/images/general/64757841d104ff4644137b0c_West-Hollywood.webp',
   '/los-angeles-movers/calabasas-movers': '/images/general/6475785e591b8cffd5342bec_Calabasas.webp',
+  '/long-beach-movers': '/images/cities/long-beach-rainbow-harbor.webp',
+  '/newport-beach-movers': '/images/cities/newport-beach-corona-del-mar.webp',
+  '/tustin-movers': '/images/cities/tustin-blimp-hangar.webp',
+  '/santa-ana-movers': '/images/cities/santa-ana-downtown.webp',
+  '/santa-clarita-movers': '/images/cities/santa-clarita-aerial.webp',
+  '/anaheim-movers': '/images/cities/anaheim-artic.webp',
+  '/movers-garden-grove': '/images/cities/garden-grove-christ-cathedral.webp',
 };
 for (const [u, img] of Object.entries(CITY_PHOTO)) {
   if (!fs.existsSync(path.join(SITE, 'public', decodeURI(img)))) throw new Error(`CITY_PHOTO ${u}: ${img} not in public/`);
