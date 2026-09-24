@@ -203,6 +203,24 @@ const geoDemand = new Map();
 for (const p of pagesAll) geoDemand.set(p.geo_key, (geoDemand.get(p.geo_key) || 0) + p.demand);
 const geoCity = new Map(pagesAll.map((p) => [p.geo_key, { url: p.city_page, county: p.county, name: p.geo }]));
 
+// Card photos: the city itself, not the crew. City heroes are mostly two movers in front of a
+// truck, so a slider of heroes shows the same two people on every card. These are the city
+// photos the site's own «… Near You» sliders use; a city without one falls back to its hero.
+const CITY_PHOTO = {
+  '/la-movers': '/images/general/645ab1d97922870a915bef8e_la-img.webp',
+  '/orange-county-movers': '/images/general/645ab1d97922871b295bef92_oc-img.webp',
+  '/los-angeles-movers/burbank-movers': '/images/general/6475781d3cebe5e9b23f35e0_Burbank.webp',
+  '/los-angeles-movers/glendale-movers': '/images/general/645ab1d97922870a535bf017_locations-la-glend-bg.webp',
+  '/los-angeles-movers/pasadena-movers': '/images/general/645ab1d979228706f15bf066_locations-la-pasadena-bg.webp',
+  '/los-angeles-movers/santa-monica-movers': '/images/general/645ab1d979228746325bf053_santa-movers-bg.webp',
+  '/los-angeles-movers/west-hollywood-movers': '/images/general/64757841d104ff4644137b0c_West-Hollywood.webp',
+  '/los-angeles-movers/calabasas-movers': '/images/general/6475785e591b8cffd5342bec_Calabasas.webp',
+};
+for (const [u, img] of Object.entries(CITY_PHOTO)) {
+  if (!fs.existsSync(path.join(SITE, 'public', decodeURI(img)))) throw new Error(`CITY_PHOTO ${u}: ${img} not in public/`);
+}
+const cardImage = (cityUrl) => CITY_PHOTO[cityUrl] || heroOf(cityUrl);
+
 const heroCache = new Map();
 function heroOf(cityUrl) {
   if (!heroCache.has(cityUrl)) heroCache.set(cityUrl, heroLookup(cityUrl));
@@ -271,8 +289,8 @@ function sliderCards(p, count) {
   const used = new Set([p.url, p.city_page]);
   const push = (href, cityUrl, name) => {
     if (cards.length >= count || used.has(href)) return;
-    const img = heroOf(cityUrl);
-    if (!img) { warn(`${p.slug}: no heroImage for ${cityUrl}, card ${href} skipped`); return; }
+    const img = cardImage(cityUrl);
+    if (!img) { warn(`${p.slug}: no photo for ${cityUrl}, card ${href} skipped`); return; }
     used.add(href);
     used.add(cityUrl);
     cards.push({ href, img, name });
@@ -354,17 +372,14 @@ function reviewCard(tpl, r) {
 
 function otherServices(p, html, sp) {
   const links = [];
-  if (p.siblings_same_geo.length) {
-    for (const u of p.siblings_same_geo) {
-      const q = byUrl.get(u);
-      if (isDone(q)) links.push([u, SERVICE[q.service].label]);
-    }
-  }
-  links.push([p.city_page, `${p.geo} Movers`]);
-  if (!p.siblings_same_geo.length) {
-    // One page in the geo: the city page and the parent service page (page 0: the services hub).
-    links.push(p.parent_service ? [p.parent_service, SERVICE[p.service].label] : ['/services', 'All Moving Services']);
-  }
+  const add = (u, t) => { if (u !== p.url && !links.some(([x]) => x === u)) links.push([u, t]); };
+  const siblings = p.siblings_same_geo.map((u) => byUrl.get(u)).filter(isDone);
+  for (const q of siblings) add(q.url, SERVICE[q.service].label);
+  add(p.city_page, `${p.geo} Movers`);
+  // Every other service the geo has no page for goes to its site-wide page: a geo with one or two
+  // pages used to show a whole heading over two links.
+  const covered = new Set([p.service, ...siblings.map((q) => q.service)]);
+  for (const [svc, s] of Object.entries(SERVICE)) if (!covered.has(svc)) add(s.url, s.label);
   const before = html.slice(0, sp.s);
   const h2 = [...before.matchAll(/<h2 class="([^"]*)"/g)].pop();
   const h2cls = h2 ? h2[1].split(/\s+/).filter((c) => c !== 'is-with-subtitle').join(' ') : 'section-h2 is-dark';
@@ -459,30 +474,35 @@ for (const p of live) {
 // ---------- D. service pages ----------
 
 console.log('\nD. страницы услуг');
+// Plain text on the white slider section: one line per county, links separated by commas.
+// (Footer classes looked like a stray piece of the dark footer here.)
 function byCityBlock(service) {
-  const groups = ['Los Angeles County', 'Orange County'].map((county) => {
-    const items = live.filter((q) => q.service === service && isCityService(q) && q.county === county && isDone(q))
-      .sort((a, b) => a.geo.localeCompare(b.geo));
-    if (!items.length) return '';
-    const links = items.map((q) => `<a href="${q.url}" class="footer-link" style="color:var(--black)">${esc(q.geo)}</a>`).join('');
-    return `<div class="footer-areas-group"><div class="footer-areas-title" style="color:var(--black);opacity:.6">${county}</div><div class="footer-areas-links">${links}</div></div>`;
-  }).join('');
-  if (!groups) return '';
-  return `<div class="footer-areas" style="padding-bottom:0;border-bottom:0"><h3 class="footer-h4" style="color:var(--black);font-weight:600">${esc(SERVICE[service].label)} by City</h3>${groups}</div>`;
+  const link = (q) => `<a href="${q.url}" style="color:var(--black);text-decoration:underline;display:inline-block;padding:2px 0">${esc(q.geo)}</a>`;
+  const counties = ['Los Angeles County', 'Orange County'].map((county) => [county,
+    live.filter((q) => q.service === service && isCityService(q) && q.county === county && isDone(q)).sort((a, b) => a.geo.localeCompare(b.geo))]);
+  const all = counties.flatMap(([, items]) => items);
+  if (!all.length) return '';
+  const label = esc(SERVICE[service].label);
+  // One or two cities do not carry a heading and county lines: a single line reads better.
+  if (all.length < 3) {
+    return `<div class="tz17-by-city" style="padding-top:2.4rem;color:var(--black)"><p style="margin:0;line-height:1.7"><strong>${label} by city:</strong> ${all.map(link).join(', ')}</p></div>`;
+  }
+  const lines = counties.filter(([, items]) => items.length)
+    .map(([county, items]) => `<p style="margin:0 0 .6rem;line-height:1.7"><strong>${county}:</strong> ${items.map(link).join(', ')}</p>`).join('');
+  return `<div class="tz17-by-city" style="padding-top:2.4rem;color:var(--black)"><h3 style="margin:0 0 .8rem;font-size:1.4rem;line-height:1.3;font-weight:700;color:var(--black)">${label} by City</h3>${lines}</div>`;
 }
 
+// After .locations-wrapper, not inside it: the wrapper is a flex row, and a block inside became a
+// third column squeezed to ~76px at the right edge of the slider on desktop.
 function putByCity(html, file, service) {
   const content = byCityBlock(service);
   const sp = markerSpan(html, 'by-city');
-  if (sp) return replaceSpan(html, sp, content);
+  if (sp) html = html.slice(0, sp.s - MARK('start', 'by-city').length) + html.slice(sp.e + MARK('end', 'by-city').length);
   const slider = findAll(html, (c) => /^locations-slider(-\d+)?$/.test(c[0]) && c.includes('slider'))[0];
   if (!slider) throw new Error(`${rel(file)}: no locations slider for the by-city block`);
-  let pos = html.indexOf('</div>', slider.end);
-  // slider → its wrapper div → the dots right after the wrapper (if present)
-  const wrapperEnd = pos + '</div>'.length;
-  const dots = html.slice(wrapperEnd).match(/^<div class="reviews-slider-dots slider-dots is-locations-slider-dots"><\/div>/);
-  pos = dots ? wrapperEnd + dots[0].length : wrapperEnd;
-  return html.slice(0, pos) + wrapMarkers('by-city', content) + html.slice(pos);
+  const wrap = findAll(html, (c) => c.includes('locations-wrapper')).find((w) => w.start < slider.start && w.end > slider.end);
+  if (!wrap) throw new Error(`${rel(file)}: no .locations-wrapper around the slider`);
+  return html.slice(0, wrap.end) + wrapMarkers('by-city', content) + html.slice(wrap.end);
 }
 
 for (const [service, s] of Object.entries(SERVICE)) {
