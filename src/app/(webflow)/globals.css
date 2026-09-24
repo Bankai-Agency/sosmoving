@@ -290,6 +290,8 @@ body.sos-lightbox-lock #chatbase-message-bubbles {
   padding-top: 2rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid #ffffff1a;
+  /* #service-areas target of the «all areas» slider card: clear the fixed navbar. */
+  scroll-margin-top: 5rem;
 }
 .footer-areas-group + .footer-areas-group {
   margin-top: 1rem;
@@ -309,6 +311,16 @@ body.sos-lightbox-lock #chatbase-message-bubbles {
   .footer-areas-title {
     font-size: 0.93rem;
   }
+}
+
+/* Unique longreads of the city × service pages (tz/17) and /inland-empire-movers
+   (tz/18) sit on white sections, where webflow.css paints plain h2/h3 white
+   and body text the light grey meant for the dark sections. */
+:is(.locations-section, .faq-section, .delivery-section:not(.is-black)) [data-unique-block] {
+  color: var(--dim-grey);
+}
+:is(.locations-section, .faq-section, .delivery-section:not(.is-black)) [data-unique-block] :is(h2, h3, h4, strong, b, th, a) {
+  color: var(--black);
 }
 
 /* City slider on the city × service pages, last slide: every service area

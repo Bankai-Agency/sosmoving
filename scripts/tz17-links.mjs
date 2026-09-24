@@ -253,14 +253,13 @@ function sliderSlides(html, file) {
   if (!sp) return null;
   const first = firstElement(sp.inner);
   if (!first) throw new Error(`${file}: empty slider block, no card to model on`);
-  const slides = (sp.inner.match(/class="locations-slide(?:-\d+)? slide"/g) || []).length;
-  return { sp, tpl: sp.inner.slice(first.start, first.end), count: slides - (sp.inner.includes(ALL_AREAS_CLASS) ? 1 : 0) };
+  return { sp, tpl: sp.inner.slice(first.start, first.end) };
 }
 
-// Last slide: a way out for a visitor whose city is not among the cards — every service area,
-// grouped by region, in the «SOS Moving Services Area» block of /sitemap. Styles: app/(webflow)/globals.css.
+// Last slide: a way out for a visitor whose city is not among the cards — the Service Areas block
+// of the footer on the same page (id in src/data/shared/footer-areas.html). Styles: app/(webflow)/globals.css.
 const ALL_AREAS_CLASS = 'tz17-all-areas';
-const ALL_AREAS_URL = '/sitemap#service-areas';
+const ALL_AREAS_URL = '#service-areas';
 const areaCount = (footer.match(/class="footer-link"/g) || []).length;
 function allAreasSlide(tpl) {
   const wrap = tpl.match(/^<div class="([^"]*)">/);
@@ -287,15 +286,10 @@ function slideCard(tpl, { href, img, name }) {
   return out.replace(/(<h3\b[^>]*>)[\s\S]*?(<\/h3>)/, (_, a, b) => a + esc(name) + b);
 }
 
-const templateCardCount = new Map();
-function templateCount(tplFile) {
-  if (!templateCardCount.has(tplFile)) {
-    const html = fs.readFileSync(path.join(SITE, tplFile), 'utf8');
-    const slider = findAll(html, (c) => /^locations-slider(-\d+)?$/.test(c[0]) && c.includes('slider'))[0];
-    templateCardCount.set(tplFile, slider ? (html.slice(slider.openEnd, slider.closeStart).match(/class="locations-slide(?:-\d+)? slide"/g) || []).length : 0);
-  }
-  return templateCardCount.get(tplFile);
-}
+// City cards per city × service slider: as many as the service page template had in its Webflow
+// slider (4 on long-distance, 5 elsewhere). Fixed here because that slider is now generated (D).
+const TEMPLATE_CARDS = { 'public/pages/services__long-distance-movers.html': 4 };
+const templateCount = (tplFile) => TEMPLATE_CARDS[tplFile] || 5;
 
 // City pages to top up a county: geos of same_service_same_county without a done page, then the
 // other geos of this ТЗ in that county by demand, then the footer list of the county.
@@ -313,6 +307,10 @@ function topUpCities(p, exclude) {
   return out;
 }
 
+// Cards with a city photo first, hero fallbacks (the crew again) at the end; order within each
+// group stays as picked. Stable sort, so a rerun gives the same slider.
+const photoFirst = (cards) => cards.sort((a, b) => b.photo - a.photo);
+
 function sliderCards(p, count) {
   const cards = [];
   const used = new Set([p.url, p.city_page]);
@@ -322,7 +320,7 @@ function sliderCards(p, count) {
     if (!img) { warn(`${p.slug}: no photo for ${cityUrl}, card ${href} skipped`); return; }
     used.add(href);
     used.add(cityUrl);
-    cards.push({ href, img, name });
+    cards.push({ href, img, name, photo: cityUrl in CITY_PHOTO });
   };
   if (p === PAGE0) {
     // Table «1. Страницы услуг — родители»: Los Angeles, then the done piano pages with top demand.
@@ -337,9 +335,33 @@ function sliderCards(p, count) {
       if (isDone(q)) push(q.url, q.city_page, q.geo);
     }
   }
-  for (const u of topUpCities(p, used)) push(u, u, placeName.get(u) || u);
-  if (cards.length < count) warn(`${p.slug}: slider has ${cards.length} of ${count} cards`);
-  return cards;
+  if (p !== PAGE0) for (const u of topUpCities(p, used)) push(u, u, placeName.get(u) || u);
+  if (Number.isFinite(count) && cards.length < count) warn(`${p.slug}: slider has ${cards.length} of ${count} cards`);
+  return photoFirst(cards);
+}
+
+// Service page slider: every done city × service page of that service, so each card leads to the
+// service in that city. Fewer than HUB_MIN pages → topped up with LA County city pages.
+const HUB_MIN = 5;
+function hubCards(service) {
+  const cards = [];
+  const used = new Set(['/la-movers']);
+  const push = (href, cityUrl, name) => {
+    if (used.has(href)) return;
+    const img = cardImage(cityUrl);
+    if (!img) { warn(`${SERVICE[service].file}: no photo for ${cityUrl}, card ${href} skipped`); return; }
+    used.add(href);
+    used.add(cityUrl);
+    cards.push({ href, img, name, photo: cityUrl in CITY_PHOTO });
+  };
+  live.filter((q) => q.service === service && isCityService(q) && isDone(q))
+    .sort((a, b) => b.demand - a.demand || a.n - b.n)
+    .forEach((q) => push(q.url, q.city_page, q.geo));
+  for (const u of topUpCities({ county: 'Los Angeles County' }, used)) {
+    if (cards.length >= HUB_MIN) break;
+    push(u, u, placeName.get(u) || u);
+  }
+  return photoFirst(cards);
 }
 
 // ---------- A2. review cards (ТЗ 15 markup) ----------
@@ -431,7 +453,8 @@ for (const p of live) {
   const sl = sliderSlides(html, rel(file));
   if (!sl) warn(`${p.slug}: no slider markers`);
   else if (done) {
-    const cards = sliderCards(p, templateCount(p.template) || sl.count);
+    // Page 0 is the piano service page: all piano pages, like the other service pages (D).
+    const cards = sliderCards(p, p === PAGE0 ? Infinity : templateCount(p.template));
     html = replaceSpan(html, sl.sp, cards.map((c) => slideCard(sl.tpl, c)).join('') + allAreasSlide(sl.tpl));
   }
 
@@ -503,61 +526,30 @@ for (const p of live) {
 // ---------- D. service pages ----------
 
 console.log('\nD. страницы услуг');
-// Plain text on the white slider section: one line per county, links separated by commas.
-// (Footer classes looked like a stray piece of the dark footer here.)
-function byCityBlock(service) {
-  const link = (q) => `<a href="${q.url}" style="color:var(--black);text-decoration:underline;display:inline-block;padding:2px 0">${esc(q.geo)}</a>`;
-  const counties = ['Los Angeles County', 'Orange County'].map((county) => [county,
-    live.filter((q) => q.service === service && isCityService(q) && q.county === county && isDone(q)).sort((a, b) => a.geo.localeCompare(b.geo))]);
-  const all = counties.flatMap(([, items]) => items);
-  if (!all.length) return '';
-  const label = esc(SERVICE[service].label);
-  // One or two cities do not carry a heading and county lines: a single line reads better.
-  if (all.length < 3) {
-    return `<div class="tz17-by-city" style="padding-top:2.4rem;color:var(--black)"><p style="margin:0;line-height:1.7"><strong>${label} by city:</strong> ${all.map(link).join(', ')}</p></div>`;
-  }
-  const lines = counties.filter(([, items]) => items.length)
-    .map(([county, items]) => `<p style="margin:0 0 .6rem;line-height:1.7"><strong>${county}:</strong> ${items.map(link).join(', ')}</p>`).join('');
-  return `<div class="tz17-by-city" style="padding-top:2.4rem;color:var(--black)"><h3 style="margin:0 0 .8rem;font-size:1.4rem;line-height:1.3;font-weight:700;color:var(--black)">${label} by City</h3>${lines}</div>`;
-}
-
-// After .locations-wrapper, not inside it: the wrapper is a flex row, and a block inside became a
-// third column squeezed to ~76px at the right edge of the slider on desktop.
-function putByCity(html, file, service) {
-  const content = byCityBlock(service);
-  const sp = markerSpan(html, 'by-city');
-  if (sp) html = html.slice(0, sp.s - MARK('start', 'by-city').length) + html.slice(sp.e + MARK('end', 'by-city').length);
-  const slider = findAll(html, (c) => /^locations-slider(-\d+)?$/.test(c[0]) && c.includes('slider'))[0];
-  if (!slider) throw new Error(`${rel(file)}: no locations slider for the by-city block`);
-  const wrap = findAll(html, (c) => c.includes('locations-wrapper')).find((w) => w.start < slider.start && w.end > slider.end);
-  if (!wrap) throw new Error(`${rel(file)}: no .locations-wrapper around the slider`);
-  return html.slice(0, wrap.end) + wrapMarkers('by-city', content) + html.slice(wrap.end);
-}
-
+// «… Near You» slider: the original cards (Los Angeles, Portland, Seattle…) led to general city
+// pages; now every card is a city × service page (hubCards), then the «all areas» card. The
+// «<Service> by City» list under the slider is gone: it read as if the service stopped at those
+// cities. Page 0 (piano) gets its slider in A, here only the old list goes.
 for (const [service, s] of Object.entries(SERVICE)) {
   const file = path.join(PAGES_DIR, `${s.file}.html`);
-  if (service === 'piano') {
-    if (!page0Done) continue;
-  }
+  if (service === 'piano' && !page0Done) continue;
   let html = text(file);
+  const old = markerSpan(html, 'by-city');
+  if (old) html = html.slice(0, old.s - MARK('start', 'by-city').length) + html.slice(old.e + MARK('end', 'by-city').length);
   if (service !== 'piano') {
-    // «… Near You» cards: Orange County → OC × service page when done; Calabasas «#» → city page.
     const slider = findAll(html, (c) => /^locations-slider(-\d+)?$/.test(c[0]) && c.includes('slider'))[0];
     if (!slider) throw new Error(`${rel(file)}: no locations slider`);
-    const oc = live.find((q) => q.service === service && q.geo_key === 'orange county');
-    const ocTarget = oc && isDone(oc) ? oc.url : '/orange-county-movers';
-    const inner = html.slice(slider.openEnd, slider.closeStart).replace(
-      /(<a href=")([^"]*)(" class="locations-slide-item(?:-\d+)?[^"]*"[^>]*>)([\s\S]*?<h3 class="locations-h3">)([^<]*)(<\/h3>)/g,
-      (m, a, href, b, mid, h3, c) => {
-        let to = href;
-        if (h3.trim() === 'Orange County') to = ocTarget;
-        if (h3.trim() === 'Calabasas' && href === '#') to = '/los-angeles-movers/calabasas-movers';
-        return a + to + b + mid + h3 + c;
-      });
-    html = html.slice(0, slider.openEnd) + inner + html.slice(slider.closeStart);
+    let sp = markerSpan(html, 'slider');
+    if (!sp) {
+      html = html.slice(0, slider.openEnd) + wrapMarkers('slider', html.slice(slider.openEnd, slider.closeStart)) + html.slice(slider.closeStart);
+      sp = markerSpan(html, 'slider');
+    }
+    const first = firstElement(sp.inner);
+    if (!first) throw new Error(`${rel(file)}: empty slider, no card to model on`);
+    const tpl = sp.inner.slice(first.start, first.end);
+    html = replaceSpan(html, sp, hubCards(service).map((c) => slideCard(tpl, c)).join('') + allAreasSlide(tpl));
   }
-  html = putByCity(html, file, service);
-  setText(file, html, `slider cards, «${s.label} by City»`);
+  setText(file, html, service === 'piano' ? 'no «by City» list' : 'slider of city × service pages, no «by City» list');
 }
 
 // Contextual links to page 0.
