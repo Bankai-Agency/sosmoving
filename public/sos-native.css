@@ -189,3 +189,65 @@ html.sos-native .cta-form-step-1.sos-step-hidden {
     transition-delay: 0s !important;
   }
 }
+
+/* No text under 11px on phones. Up to 468px the root font-size is 3.1578vw
+   (globals.css), so rem-based text shrinks with the screen: .8rem is 9.5px
+   at 375px and 8px at 320px. Each rule repeats a font-size declaration of
+   webflow.css / globals.css inside max(): text that is already 11px or more
+   keeps its size. Same selectors and the same relative order as the
+   originals, so the cascade between them does not change. Found by
+   measuring text at 320, 375, 414 and 600px (TZ 19, 2026-09-24). */
+@media screen and (max-width: 767px) {
+  .footer-areas-title { font-size: max(11px, 0.93rem); }
+  .why-s-subtitle { font-size: max(11px, 1rem); }
+  .section-subtitle { font-size: max(11px, 1rem); }
+  .faq-dd-content { font-size: max(11px, .8rem); }
+  .about-us-mission-content { font-size: max(11px, 1rem); }
+  .sitemap-link { font-size: max(11px, 1rem); }
+  .hero-video-link { font-size: max(11px, 1rem); }
+  .reviews-review-quantity { font-size: max(11px, .75em); }
+  .advantage-text { font-size: max(11px, .875rem); }
+  .cta-text { font-size: max(11px, 1rem); }
+  .lable { font-size: max(11px, 1rem); }
+  .form-label { font-size: max(11px, .8rem); }
+  .hero-rating-label__small-text { font-size: max(11px, .7rem); }
+  .text-size-16 { font-size: max(11px, 1rem); }
+  .text-size-14 { font-size: max(11px, .88rem); }
+  .breadcrumbs-link { font-size: max(11px, .88rem); }
+  .pricing-body-text { font-size: max(11px, .8rem); }
+  .pricing-price-text { font-size: max(11px, .88rem); }
+  body { font-size: max(11px, .93333rem); }
+  .navbar-dd-toggle.is-inner-dd-toggle { font-size: max(11px, .93333rem); }
+  .navbar-phone-link { font-size: max(11px, 1.06667rem); }
+  .section-subtitle.is-blog-article { font-size: max(11px, 1.066rem); }
+  .reviews-item { font-size: max(11px, 1.066rem); }
+  .reviews-store-rating-title { font-size: max(11px, .93rem); }
+  .ln-slide-read-more-wrap { font-size: max(11px, .93rem); }
+  .faq-dd-content.is-light { font-size: max(11px, 1rem); }
+  .footer-contact-link { font-size: max(11px, .933rem); }
+  .footer-copyright { font-size: max(11px, .93333rem); }
+  .form-field { font-size: max(11px, 1.06667rem); }
+  .services-hero-form-submit-wrap { font-size: max(11px, 1rem); }
+  .blog-category-link { font-size: max(11px, .933rem); }
+  .blog-short-text { font-size: max(11px, 1rem); }
+  .blog-short-news-info { font-size: max(11px, .93333rem); }
+  .article-content-area { font-size: max(11px, 1rem); }
+  .article-toc-list { font-size: max(11px, 1rem); }
+  .contact-info-block { font-size: max(11px, 1rem); }
+  .navbar-dd-link { font-size: max(11px, .93333rem); }
+  .navbar-services-link { font-size: max(11px, 1.06667rem); }
+  .sitemap-link.is-inner-link { font-size: max(11px, .933rem); }
+  .description-1 { font-size: max(11px, .6875rem); }
+  .touchbar-button { font-size: max(11px, .88rem); }
+  .services-area-label { font-size: max(11px, .75rem); }
+  .hero-rating-label { font-size: max(11px, .88rem); }
+  .hero-stats__column-title { font-size: max(11px, 1rem); }
+  .locations-navigation__link { font-size: max(11px, 1rem); }
+  /* At 11px the rate rows no longer fit the pricing cards on one line
+     (/services/local-moving): let them wrap instead of scrolling sideways. */
+  .pricing-card__item { white-space: normal; }
+}
+@media screen and (max-width: 479px) {
+  .faq-dd-content.is-light { font-size: max(11px, 1rem); }
+  .description-1 { font-size: max(11px, 2.821vw); }
+}
