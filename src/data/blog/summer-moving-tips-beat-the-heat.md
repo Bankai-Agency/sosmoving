@@ -24,7 +24,7 @@ Moving in Los Angeles summer means 95°F by 10am, 105°F in the Valley, and your
 
 **Worst areas:**
 
-- Valley: Add 10°F to everything- Downtown: Concrete radiates heat- Inland Empire: Desert conditions- East LA: No ocean breeze
+- Valley: Add 10°F to everything- Downtown: Concrete radiates heat- [Inland Empire](/inland-empire-movers): Desert conditions- East LA: No ocean breeze
 
 Only salvation: Beach cities stay 80°F.
 

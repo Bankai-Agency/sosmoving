@@ -11059,5 +11059,27 @@
     },
     "jsonldFile": "data/jsonld/pomona-commercial-movers.json",
     "jsonldExpected": 1
+  },
+  {
+    "url": "/inland-empire-movers",
+    "title": "Inland Empire Movers | SOS Moving",
+    "description": "Inland Empire movers from Los Angeles for Chino Hills, Corona, Eastvale, Fontana, Ontario, Rancho Cucamonga and Upland. From $119/hr. Call 909-443-0004.",
+    "canonical": "https://www.sosmovingla.net/inland-empire-movers",
+    "robots": "",
+    "h1": "Inland Empire Movers",
+    "lang": "en",
+    "og": {
+      "og:title": "Inland Empire Movers | SOS Moving",
+      "og:description": "Inland Empire movers from Los Angeles for Chino Hills, Corona, Eastvale, Fontana, Ontario, Rancho Cucamonga and Upland. From $119/hr. Call 909-443-0004.",
+      "og:image": "/images/og/68a890daf2c618301ff19c7b_SOS_Open-Graph-Image_1200x630_1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Inland Empire Movers | SOS Moving",
+      "twitter:description": "Inland Empire movers from Los Angeles for Chino Hills, Corona, Eastvale, Fontana, Ontario, Rancho Cucamonga and Upland. From $119/hr. Call 909-443-0004.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/inland-empire-movers.json",
+    "jsonldExpected": 1
   }
 ]
