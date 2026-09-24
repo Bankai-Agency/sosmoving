@@ -260,7 +260,7 @@ function sliderSlides(html, file) {
 // of the footer on the same page (id in src/data/shared/footer-areas.html). Styles: app/(webflow)/globals.css.
 const ALL_AREAS_CLASS = 'tz17-all-areas';
 const ALL_AREAS_URL = '#service-areas';
-const areaCount = (footer.match(/class="footer-link"/g) || []).length;
+const areaCount = (footer.match(/class="footer-(?:link|area-text)"/g) || []).length;
 function allAreasSlide(tpl) {
   const wrap = tpl.match(/^<div class="([^"]*)">/);
   const link = tpl.match(/<a\b[^>]*\bclass="([^"]*)"/);

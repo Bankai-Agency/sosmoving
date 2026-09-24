@@ -297,7 +297,8 @@ body.sos-lightbox-lock #chatbase-message-bubbles {
   }
 }
 
-/* Service areas: links to every city page under the footer columns (tz/16).
+/* Service areas: every place we serve under the footer columns (tz/16), a link
+   where the place has a page.
    The links keep .footer-link from webflow.css. The ad landing copies render
    the footer without this block, see app/(ads)/layout.tsx. */
 .footer-areas {
@@ -320,6 +321,12 @@ body.sos-lightbox-lock #chatbase-message-bubbles {
   flex-wrap: wrap;
   column-gap: 0.4rem;
   margin-left: -0.31rem;
+}
+/* A place we serve that has no page yet: the name, no link (the .footer-link
+   look without the hover). */
+.footer-area-text {
+  color: var(--text-color);
+  padding: 0.31rem;
 }
 @media screen and (max-width: 767px) {
   .footer-areas-title {
