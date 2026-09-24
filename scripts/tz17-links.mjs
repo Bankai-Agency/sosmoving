@@ -219,7 +219,6 @@ const CITY_PHOTO = {
   '/los-angeles-movers/calabasas-movers': '/images/general/6475785e591b8cffd5342bec_Calabasas.webp',
   '/long-beach-movers': '/images/cities/long-beach-rainbow-harbor.webp',
   '/newport-beach-movers': '/images/cities/newport-beach-corona-del-mar.webp',
-  '/tustin-movers': '/images/cities/tustin-blimp-hangar.webp',
   '/santa-ana-movers': '/images/cities/santa-ana-downtown.webp',
   '/santa-clarita-movers': '/images/cities/santa-clarita-aerial.webp',
   '/anaheim-movers': '/images/cities/anaheim-artic.webp',
@@ -254,7 +253,28 @@ function sliderSlides(html, file) {
   if (!sp) return null;
   const first = firstElement(sp.inner);
   if (!first) throw new Error(`${file}: empty slider block, no card to model on`);
-  return { sp, tpl: sp.inner.slice(first.start, first.end), count: (sp.inner.match(/class="locations-slide(?:-\d+)? slide"/g) || []).length };
+  const slides = (sp.inner.match(/class="locations-slide(?:-\d+)? slide"/g) || []).length;
+  return { sp, tpl: sp.inner.slice(first.start, first.end), count: slides - (sp.inner.includes(ALL_AREAS_CLASS) ? 1 : 0) };
+}
+
+// Last slide: a way out for a visitor whose city is not among the cards — every service area,
+// grouped by region, in the «SOS Moving Services Area» block of /sitemap. Styles: app/(webflow)/globals.css.
+const ALL_AREAS_CLASS = 'tz17-all-areas';
+const ALL_AREAS_URL = '/sitemap#service-areas';
+const areaCount = (footer.match(/class="footer-link"/g) || []).length;
+function allAreasSlide(tpl) {
+  const wrap = tpl.match(/^<div class="([^"]*)">/);
+  const link = tpl.match(/<a\b[^>]*\bclass="([^"]*)"/);
+  if (!wrap || !link) throw new Error('slider card template: no slide wrapper or link class');
+  const count = `${Math.floor(areaCount / 10) * 10}+`;
+  const pin = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6.5-5.7-6.5-11a6.5 6.5 0 0 1 13 0c0 5.3-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.4"></circle></svg>';
+  const arrow = '<svg viewBox="0 0 19 19" fill="none"><path d="M15.4358 9.38154L2.73001 9.38158" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M11.0162 14.3536L15.7986 9.57122C15.9106 9.45921 15.9105 9.2776 15.7986 9.16562L11.0295 4.3966" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>';
+  return `<div class="${wrap[1]}"><a href="${ALL_AREAS_URL}" class="${link[1]} ${ALL_AREAS_CLASS}" aria-label="See all ${count} areas we serve">`
+    + `<span class="${ALL_AREAS_CLASS}__pin" aria-hidden="true">${pin}</span>`
+    + `<span class="${ALL_AREAS_CLASS}__body"><span class="${ALL_AREAS_CLASS}__kicker">Don’t see your city?</span>`
+    + `<span class="${ALL_AREAS_CLASS}__num">${count}</span>`
+    + `<span class="${ALL_AREAS_CLASS}__text">cities and neighborhoods we serve</span>`
+    + `<span class="${ALL_AREAS_CLASS}__btn">See all areas${arrow}</span></span></a></div>`;
 }
 
 function slideCard(tpl, { href, img, name }) {
@@ -412,7 +432,7 @@ for (const p of live) {
   if (!sl) warn(`${p.slug}: no slider markers`);
   else if (done) {
     const cards = sliderCards(p, templateCount(p.template) || sl.count);
-    html = replaceSpan(html, sl.sp, cards.map((c) => slideCard(sl.tpl, c)).join(''));
+    html = replaceSpan(html, sl.sp, cards.map((c) => slideCard(sl.tpl, c)).join('') + allAreasSlide(sl.tpl));
   }
 
   const rsp = markerSpan(html, 'reviews');
