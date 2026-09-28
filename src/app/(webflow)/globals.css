@@ -442,6 +442,31 @@ body.sos-lightbox-lock #chatbase-message-bubbles {
   .tz20-table tr td:first-child { color: var(--white); font-size: 16px !important; }
 }
 
+/* Longreads (the long text at the bottom of city × service and service pages, [data-longread]):
+   custom-scripts.js shows the start and a "Show full text" button. The text stays in the HTML;
+   without the script the class is never set and the whole text is shown. */
+[data-longread].sos-longread-collapsed {
+  max-height: max(22rem, 340px);
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to bottom, #000 55%, transparent);
+  mask-image: linear-gradient(to bottom, #000 55%, transparent);
+}
+.button.sos-longread-toggle {
+  display: inline-block;
+  margin: 1.5rem 0 3rem;
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+}
+/* On phones the site's buttons are full width: no side offset, or the page scrolls sideways. */
+@media screen and (max-width: 767px) {
+  .button.sos-longread-toggle { margin-left: 0 !important; }
+}
+@media print {
+  [data-longread].sos-longread-collapsed { max-height: none; -webkit-mask-image: none; mask-image: none; }
+  .sos-longread-toggle { display: none !important; }
+}
+
 /* /services: the sticky service cards rise over the ones still stacked below, so every card
    needs a higher z-index than all cards after it. The Webflow classes repeat a value once cards
    are added (piano, tz/17; same day, tz/20), and then the stacked card covers the rising one. */

@@ -923,3 +923,43 @@ if (document.getElementById("exit-popup")) {
     open(list, start);
   });
 })();
+
+// ========================================
+
+// ── Longreads: the start of the text and a "Show full text" button ──
+// [data-longread] marks the long text at the bottom of city × service and service pages
+// (tz/17, tz/18, tz/20). The text stays in the HTML in full; this only limits its height
+// (styles in app/(webflow)/globals.css). Without the script the whole text is shown.
+(function () {
+  document.querySelectorAll('[data-longread]').forEach(function (el, i) {
+    if (el.getAttribute('data-longread-ready')) return;
+    el.setAttribute('data-longread-ready', '1');
+    el.classList.add('sos-longread-collapsed');
+    // Not worth a button when little is hidden.
+    if (el.scrollHeight - el.clientHeight < 200) { el.classList.remove('sos-longread-collapsed'); return; }
+    if (!el.id) el.id = 'longread-' + (i + 1);
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'button is-fill-button sos-longread-toggle';
+    btn.setAttribute('aria-controls', el.id);
+    var set = function (open) {
+      el.classList.toggle('sos-longread-collapsed', !open);
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.textContent = open ? 'Show less' : 'Show full text';
+    };
+    set(false);
+    // Line the button up with the text when the block is padded (the FAQ-style longreads are).
+    var pad = parseFloat(getComputedStyle(el).paddingLeft) || 0;
+    if (pad) btn.style.marginLeft = pad + 'px';
+    btn.addEventListener('click', function () {
+      var open = btn.getAttribute('aria-expanded') !== 'true';
+      set(open);
+      // Collapsing from far below: bring the start of the text back into view.
+      if (!open) {
+        var top = el.getBoundingClientRect().top + window.pageYOffset - 120;
+        if (top < window.pageYOffset) window.scrollTo({ top: top, behavior: 'smooth' });
+      }
+    });
+    el.insertAdjacentElement('afterend', btn);
+  });
+})();
