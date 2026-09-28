@@ -1,5 +1,6 @@
 ---
 slug: "emergency-moving-services-same-day"
+draft: true
 title: "Emergency Moving Services Same Day LA"
 metaDescription: "Need emergency movers today in LA? Same-day service for evictions, floods, domestic situations. Available now. Call 909-443-0004 immediate help!"
 featuredImage: "/images/blog/692d6fce445b6f76f1f97b1f_emergency-moving-services-same-day-img.jpg"

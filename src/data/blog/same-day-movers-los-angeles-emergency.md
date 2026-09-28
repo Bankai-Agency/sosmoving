@@ -1,5 +1,6 @@
 ---
 slug: "same-day-movers-los-angeles-emergency"
+draft: true
 title: "Same Day Movers Los Angeles"
 metaDescription: "Need same day movers in LA? Emergency moving services available 24/7. Professional crews ready now. Call 909-443-0004 for immediate help!"
 featuredImage: "/images/blog/68e6939629152fe6a915434e_same-day-movers-los-angeles-emergency-img.jpg"

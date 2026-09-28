@@ -24,7 +24,7 @@ One of the best things you can do about this is to search online. Of course, the
 
 ### What else can you do?
 
-It really does not matter if you are in Los Angeles, or [Houston, TX](http://www.houstontx.gov/) – you will need to find good furniture movers. So, what can you do? One of the best things you can do, no matter where you are from, is to look for local movers in your area.** That way, you will run across some good movers and some bad movers.** Make a clear distinction between them and focus only on the good ones. Then, make your decision about picking some really good movers.
+It really does not matter if you are in Los Angeles, or [Houston, TX](http://www.houstontx.gov/) – you will need to find good furniture movers. So, what can you do? One of the best things you can do, no matter where you are from, is to look for local movers in your area.** That way, you will run across some good movers and some bad movers.** Make a clear distinction between them and focus only on the good ones. Then, make your decision about picking some really good movers. If you are in Los Angeles, see how [hourly furniture moving in LA](/services/local-moving#furniture-movers) works for a few pieces or a single item.
 ![A man dialing a number on his phone](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d9792287593a5bf358_Pic2Call-e1618796129341.jpeg)*Give your movers of choice a call*
 All in all, there are plenty of qualified [residential movers LA](/services/local-moving). **All you need to do is to find some really good qualified furniture movers in LA.** It might seem like this is hard, but if you spend a few hours thinking about this, you will find a good company for sure. Good luck!
 

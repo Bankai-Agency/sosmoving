@@ -1,0 +1,54 @@
+{
+  "slug": "same-day-movers",
+  "title": "Same Day & Last Minute Movers in Los Angeles | SOS Moving",
+  "metaDescription": "Same day movers in Los Angeles for moves that can’t wait: if a crew is free, we move you today. Hourly rates, a 3-hour minimum, crews 8AM – 6PM daily.",
+  "canonicalUrl": "/services/same-day-movers",
+  "heroTitle": "Same Day & Last Minute Movers in Los Angeles",
+  "heroSubtitle": "Moving today? When one of our crews is free, it can take your move the same day. Call 909-443-0004 — we take requests for today Monday – Sunday, 8AM – 6PM.",
+  "heroImage": "/images/services/6977393a9aca3422861bb3aa_Apartment Movers.avif",
+  "phone": "(909) 443-0004",
+  "sections": [],
+  "sectionOrder": [
+    "services-hero",
+    "service-content",
+    "services-grid",
+    "why-sos",
+    "reviews",
+    "faq",
+    "cta"
+  ],
+  "faq": [
+    {
+      "question": "Can you move me today?",
+      "answer": "Often, yes — if a crew is free when you call. Call 909-443-0004 with both addresses and a rough idea of the volume, and you will know on the same call whether today works or when the next opening is."
+    },
+    {
+      "question": "Until what time can I call for a move today?",
+      "answer": "Any time during our working hours, Monday – Sunday, 8AM – 6PM, as long as a crew is still free; there is no separate cutoff. The job itself also has to fit into the working day, so a call late in the afternoon may turn into a booking for the next morning."
+    },
+    {
+      "question": "Do you move at night or on weekends?",
+      "answer": "Not at night: our crews work from 8AM to 6PM. Weekends are regular working days for us, billed at the Friday – Sunday rates from the table above."
+    },
+    {
+      "question": "Is a same-day move more expensive?",
+      "answer": "No. A move booked for today is billed at the same hourly rates, minimums and fees as any other local move — there is no surcharge for short notice."
+    },
+    {
+      "question": "Can you do a long-distance move on short notice?",
+      "answer": "Yes, when a crew and a truck are free. The price is a flat rate, worked out the same way as for any long-distance move, and the transit time depends on the route."
+    },
+    {
+      "question": "My new place is not ready yet. What happens to my things?",
+      "answer": "An overnight hold costs $200 and lets us deliver the next day. For a longer gap between two addresses, your things can go into storage until you have the keys. Tell us on the first call, because it changes the plan for the day."
+    },
+    {
+      "question": "Does my building need a certificate of insurance?",
+      "answer": "Many managed buildings ask for one. Get their exact requirements from management — the name to list, the coverage and the allowed hours — and send them to us; we prepare the COI for $50. On a move today, the building’s answer often sets the start time."
+    },
+    {
+      "question": "How many movers do I need?",
+      "answer": "It depends on the volume, the stairs and the heaviest pieces. Anything over 300 lbs needs a crew of at least three, and a piano needs four; for everything else the office suggests a crew size on the call, and you confirm it before we dispatch."
+    }
+  ]
+}

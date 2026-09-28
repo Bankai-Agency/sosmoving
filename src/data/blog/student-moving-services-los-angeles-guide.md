@@ -108,7 +108,7 @@ Students face unique crisis moves:
 
 **Common scenarios:**Roommate conflicts requiring immediate exit. Unsafe living conditions discovered. Academic suspension or withdrawal. Family emergencies requiring return home. Lease violations or evictions.
 
-**SOS Moving emergency response:**[Same-day service](/blog/same-day-movers-los-angeles-emergency) when available. Flexible scheduling around classes. Discrete service for sensitive situations. Storage options for sudden moves. Payment plans for qualified situations.
+**SOS Moving emergency response:**[Same-day service](/services/same-day-movers) when available. Flexible scheduling around classes. Discrete service for sensitive situations. Storage options for sudden moves. Payment plans for qualified situations.
 
 ## Planning Your Student Move
 

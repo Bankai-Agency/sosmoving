@@ -43,7 +43,7 @@ wrong_url,correct_url,kind,linked_from_pages
 /hancock-park-movers,/la-movers,no-page->hub,0
 /mount-washington-movers,/la-movers,no-page->hub,0
 /sylmar-movers,/la-movers,no-page->hub,0
-/services/last-minute-movers,/services,no-page->hub,0
+/services/last-minute-movers,/services/same-day-movers,no-page->hub,0
 /services/senior-moving,/services,no-page->hub,0
 /services/interstate-move/california-to-colorado,/services/long-distance-movers,legacy-absolute-link,0
 /services/interstate-move/california-to-florida,/services/long-distance-movers,legacy-absolute-link,0
@@ -100,7 +100,7 @@ wrong_url,correct_url,kind,linked_from_pages
 /blog/apartment-movers-los-angeles,/services/apartment-movers,blog->money-page,3
 /blog/commercial-movers-los-angeles-office-relocation,/services/commercial-movers,blog->money-page,3
 /blog/office-moving-services-los-angeles,/services/commercial-movers,blog->money-page,0
-/blog/local-movers-near-me-same-day-service-options,/services/local-moving,blog->money-page,0
+/blog/local-movers-near-me-same-day-service-options,/services/same-day-movers,blog->money-page,0
 /blog/long-distance-movers-los-angeles-interstate,/services/long-distance-movers,blog->money-page,1
 /blog/white-glove-moving-services-la-are-they-worth-it,/services/white-glove-movers,blog->money-page,6
 /blog/cheap-movers-los-angeles-guide,/la-movers,blog->money-page,0
@@ -110,3 +110,9 @@ wrong_url,correct_url,kind,linked_from_pages
 /moving-services,/services,money-dupe,0
 /blog/piano-movers-los-angeles-specialists,/services/piano-movers,blog->money-page,0
 /blog/piano-movers-near-me-upright-vs-grand-piano,/services/piano-movers,blog->money-page,0
+/blog/same-day-movers-los-angeles-emergency,/services/same-day-movers,blog->money-page,0
+/blog/last-minute-movers-los-angeles-emergency,/services/same-day-movers,blog->money-page,0
+/blog/last-minute-movers-los-angeles,/services/same-day-movers,blog->money-page,0
+/blog/emergency-moving-services-same-day,/services/same-day-movers,blog->money-page,0
+/blog/furniture-movers-los-angeles-heavy-items,/services/local-moving,blog->money-page,0
+/blog/furniture-movers-los-angeles,/services/local-moving,blog->money-page,0

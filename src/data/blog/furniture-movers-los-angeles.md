@@ -1,5 +1,6 @@
 ---
 slug: "furniture-movers-los-angeles"
+draft: true
 title: "Furniture Movers Los Angeles"
 metaDescription: "Expert furniture moving in LA. Pianos, antiques, heavy pieces safely relocated. Professional equipment and trained crews. Free quotes!"
 featuredImage: "/images/blog/68ff64daf03ddc4fefd50b17_furniture-movers-los-angeles-img.jpg"

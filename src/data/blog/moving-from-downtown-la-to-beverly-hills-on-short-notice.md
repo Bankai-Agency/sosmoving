@@ -40,7 +40,7 @@ After you organize the rest of the moving process, packing could be the trickies
 
 Moving from Downtown LA to Beverly Hills doesn’t have to be a complication. However, finding reliable movers can. If you are moving during the summer months, movers usually have more clients than the rest of the year. This makes them less available and more expensive. This does not apply to all moving companies, but it’s still better to look for them as soon as you know the date of your move.
 ![yearly planner](../../assets/cdn/645ab1d97922878b6f5bef7f/645ab1d979228785ac5bf279_jess-bailey-5xjw079i6Q4-unsplash-e1630523013363.jpeg)*Hiring professional movers can save you a lot of time when planning a short-notice move.*
-The best way to find a reliable moving company on short notice is to look for them online. **Online comments and customer reviews can be the best recommendation for a good moving company. **If you don’t have much experience with movers, make sure to hire ones with a license and experience. This way you will lower the chances of moving fraud.
+The best way to find a reliable moving company on short notice is to look for them online. **Online comments and customer reviews can be the best recommendation for a good moving company. **If you don’t have much experience with movers, make sure to hire ones with a license and experience. This way you will lower the chances of moving fraud. For a move within a day or two, here is how we book [movers for today or tomorrow](/services/same-day-movers).
 
 ## Tips for planning a DIY move to Beverly Hills
 

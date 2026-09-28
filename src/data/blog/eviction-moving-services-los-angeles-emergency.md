@@ -36,7 +36,7 @@ Eviction represents one of life's most stressful crises—the sheriff posts noti
 
 ## SOS Moving Eviction Services
 
-**Emergency response:**Same-day service possible. Rapid crew deployment. No judgment ever. Flexible scheduling. Storage coordination. Payment plans available.
+**Emergency response:**Same-day service possible. Rapid crew deployment. No judgment ever. Flexible scheduling. Storage coordination. Payment plans available. How a booking for the same day works, step by step, is on our page for [movers who can come today](/services/same-day-movers).
 
 **Our rates unchanged:**$119-145/hour standard. No eviction premium. No exploitation. Fair treatment always. Dignity maintained. Professional service.
 

@@ -1,5 +1,6 @@
 ---
 slug: "last-minute-movers-los-angeles-emergency"
+draft: true
 title: "Last Minute Movers Los Angeles"
 metaDescription: "Emergency moving in LA today! Last-minute movers available for same-day service. No premium charges for urgent moves. Call now!"
 featuredImage: "/images/blog/691b11e252125c36245616aa_last-minute-movers-los-angeles-emergency-img.jpg"

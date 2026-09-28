@@ -1,5 +1,6 @@
 ---
 slug: "furniture-movers-los-angeles-heavy-items"
+draft: true
 title: "Furniture Movers Los Angeles"
 metaDescription: "Professional furniture moving in LA. Single pieces or full homes. Heavy items, stairs, assembly included. Same-day available from $250!"
 featuredImage: "/images/blog/691b115ac64707dd24435307_furniture-movers-los-angeles-heavy-items-img.jpg"

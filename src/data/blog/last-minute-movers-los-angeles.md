@@ -1,5 +1,6 @@
 ---
 slug: "last-minute-movers-los-angeles"
+draft: true
 title: "Last Minute Movers Los Angeles"
 metaDescription: "Need last minute movers in LA? Available today, tomorrow, this weekend. No panic pricing. Professional service on short notice. Call now!"
 featuredImage: "/images/blog/68ff656c1fc280004643d8c1_last-minute-movers-los-angeles-img.jpg"

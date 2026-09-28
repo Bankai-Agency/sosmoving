@@ -1283,19 +1283,6 @@
     "jsonldExpected": 0
   },
   {
-    "url": "/blog/emergency-moving-services-same-day",
-    "title": "Emergency Moving Services Same Day LA | 24 Hour Notice | SOS Moving",
-    "description": "Need emergency movers today in LA? Same-day service for evictions, floods, domestic situations. Available now. Call 909-443-0004 immediate help!",
-    "canonical": "https://www.sosmovingla.net/blog/emergency-moving-services-same-day",
-    "robots": "",
-    "h1": "Emergency Moving Services - Same Day",
-    "lang": "en",
-    "og": {},
-    "twitter": {},
-    "jsonldFile": null,
-    "jsonldExpected": 0
-  },
-  {
     "url": "/blog/estate-moving-services-los-angeles-cleanout",
     "title": "Estate Moving Services Los Angeles | Estate Cleanouts | SOS Moving",
     "description": "Professional estate moving in LA. Sensitive handling of estate cleanouts, family distributions, probate moves. Compassionate service.",
@@ -1465,19 +1452,6 @@
     "jsonldExpected": 0
   },
   {
-    "url": "/blog/furniture-movers-los-angeles-heavy-items",
-    "title": "Furniture Movers Los Angeles | Couch, Bed & Heavy Items | SOS Moving",
-    "description": "Professional furniture moving in LA. Single pieces or full homes. Heavy items, stairs, assembly included. Same-day available from $250!",
-    "canonical": "https://www.sosmovingla.net/blog/furniture-movers-los-angeles-heavy-items",
-    "robots": "",
-    "h1": "Furniture Movers Los Angeles: Professional Heavy Furniture Moving Services",
-    "lang": "en",
-    "og": {},
-    "twitter": {},
-    "jsonldFile": null,
-    "jsonldExpected": 0
-  },
-  {
     "url": "/blog/glendale-movers-armenian-community-hub",
     "title": "Moving to Glendale, CA: Neighborhoods, Culture & Costs 2026",
     "description": "Moving to Glendale, CA: neighborhoods, the Armenian community, cost of living, schools and commutes — what to expect before and after the move.",
@@ -1627,19 +1601,6 @@
     "canonical": "https://www.sosmovingla.net/blog/homebuyers-guide-to-ca-real-estate-market",
     "robots": "",
     "h1": "Homebuyers’ Guide to CA Real Estate Market",
-    "lang": "en",
-    "og": {},
-    "twitter": {},
-    "jsonldFile": null,
-    "jsonldExpected": 0
-  },
-  {
-    "url": "/blog/furniture-movers-los-angeles",
-    "title": "Furniture Movers Los Angeles | Heavy Items & Antiques | SOS Moving",
-    "description": "Expert furniture moving in LA. Pianos, antiques, heavy pieces safely relocated. Professional equipment and trained crews. Free quotes!",
-    "canonical": "https://www.sosmovingla.net/blog/furniture-movers-los-angeles",
-    "robots": "",
-    "h1": "Professional Furniture Movers in Los Angeles: Heavy Item Specialists",
     "lang": "en",
     "og": {},
     "twitter": {},
@@ -3070,32 +3031,6 @@
     "canonical": "https://www.sosmovingla.net/blog/las-vegas-to-los-angeles-moving",
     "robots": "",
     "h1": "Las Vegas to Los Angeles Moving",
-    "lang": "en",
-    "og": {},
-    "twitter": {},
-    "jsonldFile": null,
-    "jsonldExpected": 0
-  },
-  {
-    "url": "/blog/last-minute-movers-los-angeles-emergency",
-    "title": "Last Minute Movers Los Angeles | Same-Day Emergency Moves | SOS Moving",
-    "description": "Emergency moving in LA today! Last-minute movers available for same-day service. No premium charges for urgent moves. Call now!",
-    "canonical": "https://www.sosmovingla.net/blog/last-minute-movers-los-angeles-emergency",
-    "robots": "",
-    "h1": "Last Minute Movers Los Angeles: Emergency Same-Day Moving Services",
-    "lang": "en",
-    "og": {},
-    "twitter": {},
-    "jsonldFile": null,
-    "jsonldExpected": 0
-  },
-  {
-    "url": "/blog/last-minute-movers-los-angeles",
-    "title": "Last Minute Movers Los Angeles | Today & Tomorrow | SOS Moving",
-    "description": "Need last minute movers in LA? Available today, tomorrow, this weekend. No panic pricing. Professional service on short notice. Call now!",
-    "canonical": "https://www.sosmovingla.net/blog/last-minute-movers-los-angeles",
-    "robots": "",
-    "h1": "Last Minute Movers in Los Angeles: When You Need Help NOW",
     "lang": "en",
     "og": {},
     "twitter": {},
@@ -4708,19 +4643,6 @@
     "canonical": "https://www.sosmovingla.net/blog/sacramento-to-los-angeles-moving-cost-breakdown-2026",
     "robots": "",
     "h1": "Sacramento to Los Angeles Moving Cost Breakdown for 2026",
-    "lang": "en",
-    "og": {},
-    "twitter": {},
-    "jsonldFile": null,
-    "jsonldExpected": 0
-  },
-  {
-    "url": "/blog/same-day-movers-los-angeles-emergency",
-    "title": "Same Day Movers Los Angeles | Emergency Moving Services | SOS Moving",
-    "description": "Need same day movers in LA? Emergency moving services available 24/7. Professional crews ready now. Call 909-443-0004 for immediate help!",
-    "canonical": "https://www.sosmovingla.net/blog/same-day-movers-los-angeles-emergency",
-    "robots": "",
-    "h1": "Same Day Moving in Los Angeles: When You Need to Move TODAY",
     "lang": "en",
     "og": {},
     "twitter": {},
@@ -9988,6 +9910,28 @@
       "twitter:card": "summary_large_image"
     },
     "jsonldFile": "data/jsonld/services_piano-movers.json",
+    "jsonldExpected": 1
+  },
+  {
+    "url": "/services/same-day-movers",
+    "title": "Same Day & Last Minute Movers in Los Angeles | SOS Moving",
+    "description": "Same day movers in Los Angeles for moves that can’t wait: if a crew is free, we move you today. Hourly rates, a 3-hour minimum, crews 8AM – 6PM daily.",
+    "canonical": "https://www.sosmovingla.net/services/same-day-movers",
+    "robots": "",
+    "h1": "Same Day & Last Minute Movers in Los Angeles",
+    "lang": "en",
+    "og": {
+      "og:title": "Same Day & Last Minute Movers in Los Angeles | SOS Moving",
+      "og:description": "Same day movers in Los Angeles for moves that can’t wait: if a crew is free, we move you today. Hourly rates, a 3-hour minimum, crews 8AM – 6PM daily.",
+      "og:image": "/images/og/698cb0b5d20d11d67a614b57_apartment-movers-new-1.jpg",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:title": "Same Day & Last Minute Movers in Los Angeles | SOS Moving",
+      "twitter:description": "Same day movers in Los Angeles for moves that can’t wait: if a crew is free, we move you today. Hourly rates, a 3-hour minimum, crews 8AM – 6PM daily.",
+      "twitter:card": "summary_large_image"
+    },
+    "jsonldFile": "data/jsonld/services_same-day-movers.json",
     "jsonldExpected": 1
   },
   {
