@@ -14,7 +14,7 @@ author:
   photo: ""
 ---
 
-Hermosa Beach is 1.3 square miles of the most concentrated beach-town energy in Southern California. The entire city fits inside a space smaller than most LA neighborhood parks, but those 1.3 square miles pack in a pier, a downtown strip famous for its bar scene, the Strand bike path, volleyball courts that host professional tournaments, and roughly 20,000 residents who chose this place specifically because it doesn't feel like Los Angeles at all. Moving to Hermosa means joining a community that lives outdoors, walks to dinner, and considers a five-minute commute to the sand a non-negotiable lifestyle requirement.
+Hermosa Beach is 1.4 square miles of the most concentrated beach-town energy in Southern California. The entire city fits inside a space smaller than most LA neighborhood parks, but those 1.4 square miles pack in a pier, a downtown strip famous for its bar scene, the Strand bike path, volleyball courts that host professional tournaments, and roughly 20,000 residents who chose this place specifically because it doesn't feel like Los Angeles at all. Moving to Hermosa means joining a community that lives outdoors, walks to dinner, and considers a five-minute commute to the sand a non-negotiable lifestyle requirement.
 
 At SOS Moving, I've led crews through Hermosa's streets enough times to know that the city's small-town charm creates real logistical challenges on moving day. The streets are narrower than they look on Google Maps. The parking is worse than anywhere in the South Bay except peak-season [Manhattan Beach](/blog/manhattan-beach-moving-family-community). And the layout — a grid of tight residential blocks stacked between Pacific Coast Highway and the ocean — means your moving truck is always closer to a pedestrian, a cyclist, or a parked car than you'd like. But the logistics are manageable with the right planning, and the payoff is living in a place where the beach is your backyard. What a move inside the city actually involves is laid out on our [Hermosa Beach movers](/movers-hermosa-beach) page.
 
@@ -34,7 +34,7 @@ The Strand — the beachfront path running through Hermosa connecting [Manhattan
 
 Hermosa Beach is an independent city with its own parking regulations, separate from Los Angeles and the LADOT system. If you've dealt with [LA moving permits](/blog/moving-permits-in-los-angeles) before, the process here is different.
 
-Temporary no-parking permits for moving trucks are issued through the Hermosa Beach Community Development Department. Apply at least five business days before your move. The permit reserves curb space in front of your address and authorizes the city to post temporary no-parking signs. Without the permit, your truck competes for street parking against residents who know every open spot and visitors heading to the beach — particularly problematic on summer weekends when parking enforcement is at its most aggressive.
+Temporary no-parking permits for moving trucks are issued by the Hermosa Beach Public Works Department as a one-day Moving Van Permit. The city requires 72 hours' notice and asks for the application one to two weeks before the move. The permit reserves curb space in front of your address and authorizes the city to post temporary no-parking signs. Without the permit, your truck competes for street parking against residents who know every open spot and visitors heading to the beach — particularly problematic on summer weekends when parking enforcement is at its most aggressive.
 
 Residential permit zones cover most of Hermosa Beach. Visitors — including your moving crew's personal vehicles — can receive tickets for exceeding posted time limits in permit zones. Let your crew know about parking restrictions so they can plan accordingly. At SOS Moving, our crew vehicles park at the truck staging location rather than occupying residential spots in the neighborhood.
 
@@ -93,7 +93,7 @@ The decision framework: Manhattan Beach for families and schools, Hermosa Beach 
 
 **How much does it cost to move to Hermosa Beach?** A local move from within the South Bay costs $400 to $1,200 depending on apartment size. Moves from central LA or the Valley run $700 to $1,800 due to distance and traffic. Long-distance interstate moves to Hermosa range from $3,000 to $8,000 depending on origin city.
 
-**Do I need a moving permit in Hermosa Beach?** Yes. Hermosa Beach requires a temporary no-parking permit from the Community Development Department for moving trucks occupying street space. Apply at least five business days in advance. This is separate from the LA DOT system since Hermosa is an independent city.
+**Do I need a moving permit in Hermosa Beach?** Yes. Hermosa Beach requires a one-day Moving Van Permit from the Public Works Department for moving trucks occupying street space. The city requires 72 hours' notice and asks for the application one to two weeks in advance. This is separate from the LA DOT system since Hermosa is an independent city.
 
 **Can a full-size moving truck fit on Hermosa Beach streets?** Most main residential streets accommodate a 26-foot truck, but many alleys and west-side streets do not. Your moving company should verify access for your specific address. SOS Moving checks every Hermosa address against our truck fleet dimensions before confirming the booking.
 
@@ -103,4 +103,4 @@ The decision framework: Manhattan Beach for families and schools, Hermosa Beach 
 
 ## Get Started with Your Hermosa Beach Move
 
-SOS Moving handles Hermosa Beach relocations weekly with crews who know every alley, every permit requirement, and every narrow street in the city's 1.3 square miles. We bring the right truck for your address, coordinate permits, and finish the job so you can walk to the beach before sunset. Call [909-443-0004](tel:9094430004) or [request your free estimate](/free-estimate).
+SOS Moving handles Hermosa Beach relocations weekly with crews who know every alley, every permit requirement, and every narrow street in the city's 1.4 square miles. We bring the right truck for your address, coordinate permits, and finish the job so you can walk to the beach before sunset. Call [909-443-0004](tel:9094430004) or [request your free estimate](/free-estimate).
