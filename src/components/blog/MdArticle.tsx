@@ -16,8 +16,16 @@ type Frontmatter = {
  * from the admin, or old ones re-saved there — renderFrom: "md") and by
  * /preview/blog/[slug] for drafts.
  */
+// Links to other sites go out nofollow; the site itself and our own profiles
+// (Yelp, Google Maps, HomeAdvisor, Trustpilot, BBB, socials, messengers) stay followed.
+const OWN_LINK =
+  /^https?:\/\/(?:[\w-]+\.)*sosmovingla\.net|yelp\.com\/biz\/sos-moving|google\.[a-z.]+\/maps|maps\.app\.goo\.gl|goo\.gl\/maps|g\.page\/|search\.google\.com\/local|homeadvisor\.com\/rated\.sosmoving|trustpilot\.com\/review\/sosmovingla|bbb\.org\/.*sos-moving|instagram\.com\/sosmovingla|tiktok\.com\/@sosmovingla|wa\.me\/|t\.me\//i;
+
 export function MdArticle({ fm, content }: { fm: Frontmatter; content: string }) {
-  const html = marked.parse(content, { async: false }) as string;
+  const html = (marked.parse(content, { async: false }) as string).replace(
+    /<a href="(https?:\/\/[^"]+)"/g,
+    (tag, url: string) => (OWN_LINK.test(url) ? tag : `${tag} rel="nofollow"`),
+  );
 
   return (
     <div className="services-hero-section is-blog-article-hero is-without-bg-image">
