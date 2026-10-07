@@ -46,6 +46,31 @@ export function paginatedMetadata(
 }
 
 /**
+ * Which page numbers a pager shows: the first and the last page, the two
+ * neighbours on each side of the current one, and a milestone every
+ * `step` pages (5, 10, 15 ... for a 35-page blog), with "gap" between
+ * non-adjacent numbers. The milestones are what make the whole listing
+ * crawlable: with a plain five-page window the last pages of /blog sat
+ * 16 clicks deep and Search Console listed 180+ posts as discovered but
+ * never crawled; with milestones every page is at most three clicks from
+ * /blog. Pure and exported so the depth can be checked without a browser.
+ */
+export function pageItems(currentPage: number, totalPages: number): (number | 'gap')[] {
+  if (totalPages <= 7) return Array.from({ length: totalPages }, (_, i) => i + 1);
+  const step = totalPages <= 20 ? 5 : totalPages <= 60 ? 5 : 10;
+  const set = new Set<number>([1, totalPages]);
+  for (let p = currentPage - 2; p <= currentPage + 2; p++) if (p >= 1 && p <= totalPages) set.add(p);
+  for (let p = step; p < totalPages; p += step) set.add(p);
+  const sorted = [...set].sort((a, b) => a - b);
+  const items: (number | 'gap')[] = [];
+  sorted.forEach((p, i) => {
+    if (i > 0 && p - sorted[i - 1] > 1) items.push('gap');
+    items.push(p);
+  });
+  return items;
+}
+
+/**
  * Pager in webflow.css vocabulary (no Tailwind in the (webflow) group):
  * .breadcrumbs is the site's flex row, .breadcrumbs-link the quiet link,
  * .w--current gets the accent color (global head styles).
@@ -55,39 +80,39 @@ export function paginatedMetadata(
 export function Pagination({ currentPage, totalPages, basePath }: PaginationProps) {
   if (totalPages <= 1) return null;
 
-  const pages = [];
-  const showMax = 5;
-  let start = Math.max(1, currentPage - Math.floor(showMax / 2));
-  const end = Math.min(totalPages, start + showMax - 1);
-  if (end - start + 1 < showMax) start = Math.max(1, end - showMax + 1);
-  for (let i = start; i <= end; i++) pages.push(i);
-
   const href = (page: number) => (page === 1 ? basePath : `${basePath}?page=${page}`);
 
   return (
     <nav
       aria-label="Pagination"
       className="breadcrumbs"
-      style={{ justifyContent: 'center', paddingTop: '2rem', paddingBottom: '1rem' }}
+      style={{ justifyContent: 'center', flexWrap: 'wrap', rowGap: '0.6rem', paddingTop: '2rem', paddingBottom: '1rem' }}
     >
       {currentPage > 1 && (
-        <Link href={href(currentPage - 1)} prefetch={false} className="breadcrumbs-link">
+        <Link href={href(currentPage - 1)} prefetch={false} rel="prev" className="breadcrumbs-link">
           &larr; Prev
         </Link>
       )}
-      {pages.map((page) => (
-        <Link
-          key={page}
-          href={href(page)}
-          prefetch={false}
-          aria-current={page === currentPage ? 'page' : undefined}
-          className={`breadcrumbs-link${page === currentPage ? ' w--current' : ''}`}
-        >
-          {page}
-        </Link>
-      ))}
+      {pageItems(currentPage, totalPages).map((item, i) =>
+        item === 'gap' ? (
+          <span key={`gap-${i}`} aria-hidden="true" className="breadcrumbs-link">
+            &hellip;
+          </span>
+        ) : (
+          <Link
+            key={item}
+            href={href(item)}
+            prefetch={false}
+            aria-current={item === currentPage ? 'page' : undefined}
+            aria-label={`Page ${item}`}
+            className={`breadcrumbs-link${item === currentPage ? ' w--current' : ''}`}
+          >
+            {item}
+          </Link>
+        ),
+      )}
       {currentPage < totalPages && (
-        <Link href={href(currentPage + 1)} prefetch={false} className="breadcrumbs-link">
+        <Link href={href(currentPage + 1)} prefetch={false} rel="next" className="breadcrumbs-link">
           Next &rarr;
         </Link>
       )}
