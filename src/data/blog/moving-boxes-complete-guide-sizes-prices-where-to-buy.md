@@ -1,10 +1,10 @@
 ---
 slug: "moving-boxes-complete-guide-sizes-prices-where-to-buy"
-title: "Moving Boxes Complete Guide LA"
-metaDescription: "Everything about moving boxes in LA: sizes guide, prices ($4-6 at SOS), where to get free boxes, how many you need. Save money on packing supplies!"
+title: "Where to Get Cheap Moving Boxes (and What They Cost)"
+metaDescription: "Where to get cheap moving boxes: Walmart, Home Depot, Lowe's and U-Haul prices by size, what a full move costs, and when free or mover boxes make sense."
 featuredImage: "/images/blog/69219371ce17890b34c0878d_moving-boxes-complete-guide-sizes-prices-where-to-buy-img.jpg"
 publishDate: "November 20, 2025"
-lastUpdated: "November 20, 2025"
+lastUpdated: "October 29, 2026"
 category: "packing-tips"
 categories: ["packing-tips"]
 readTime: ""
@@ -14,138 +14,158 @@ author:
   photo: ""
 ---
 
-Moving boxes seem simple until you're standing in Home Depot's aisle wondering whether you need medium or large, why some cost $5 while others are $2, and if those free liquor store boxes will actually work. After supplying thousands of moves across Los Angeles, SOS Moving knows exactly what boxes you need, where to find them, and how to avoid overspending on cardboard.
+Where to get cheap moving boxes? Free ones come first: liquor stores, grocery stores, neighbors who just moved, the U-Haul Box Exchange. If you need new boxes, a big-box store is the cheapest place to buy them. Walmart, Home Depot, Lowe's and U-Haul all sell a standard small box for around $1–$2 and a large one for under $3. Shipping stores charge more per box, and online stores mostly sell in bundles. Below: what each store charges, what a full move's worth of boxes adds up to, and when buying boxes from your mover makes sense, even at a higher price per box.
 
-## Standard Moving Box Sizes and Uses
+## Where to get cheap moving boxes: the short answer
 
-**Small boxes (16"×12"×12"):**Best for: Books, tools, canned goods, small appliancesWeight limit: 50 lbsSOS Moving price: $4Retail price: $2-3
+- **Free:** liquor and grocery stores, bookstores, your office, Facebook Marketplace, Nextdoor, Buy Nothing groups, Craigslist and the U-Haul Box Exchange.
 
-**Medium boxes (18"×18"×16"):**Best for: Kitchen items, toys, electronics, shoesWeight limit: 65 lbsSOS Moving price: $5Retail price: $3-4
+- **Cheapest new boxes:** Walmart, then Home Depot, Lowe's and U-Haul, which all charge about the same.
 
-**Large boxes (18"×18"×24"):**Best for: Lampshades, pillows, blankets, bulky itemsWeight limit: 70 lbsSOS Moving price: $6Retail price: $4-5
+- **Cheapest in volume:** bundles from U-Haul or Home Depot, or a bulk supplier like Uline for a big household.
 
-**Extra-large boxes (24"×18"×24"):**Best for: Comforters, coats, large lightweight itemsWeight limit: 70 lbsRetail price: $5-7
+- **Costs more per box:** shipping stores like The UPS Store, and boxes bought from a moving company.
 
-**Wardrobe boxes (24"×24"×48"):**Best for: Hanging clothes, suits, dressesSOS Moving: Free loan (return after move)Retail price: $15-20 each
+That covers price. But price per box is only part of what you pay. The other parts are how many boxes you end up buying, how many store runs it takes, and whether you're the one packing them.
 
-## How Many Boxes You Actually Need
+## How much do moving boxes cost?
 
-**Studio apartment:** 20-30 boxes
+A new standard moving box costs about $1 to $4, depending on size and store. In MovingPlace's January 2026 check of Walmart, Home Depot, Lowe's, U-Haul, Amazon and Target, small boxes ran $1.08–$1.99, medium $1.73–$2.99 and large $2.26–$3.99. Wardrobe boxes with a hanging bar cost far more: $12 to $20 each, according to 1-800-GOT-JUNK's guide (updated July 2026). Dish packs, TV boxes and mirror boxes cost more than standard boxes too.
 
-- 10 small- 10 medium- 5 large- 5 specialty
+### Moving box prices by store
 
-**1-bedroom:** 40-60 boxes
+| Store | Small | Medium | Large | Worth knowing |
+|---|---|---|---|---|
+| Walmart | $1.08 | $1.73 | $2.26 | Lowest prices in the comparison; free shipping on orders over $35 |
+| Home Depot | $1.78 | $2.28 | $2.78 | Bundles usually lower the per-box price; kits cost more than loose boxes |
+| Lowe's | $1.78 | $2.28 | $2.78 | Often a few cents below Home Depot; some bundles cost more per box |
+| U-Haul | $1.77 | $2.27 | $2.87 | Bundles of 25 small or 15 medium or large cost less per box |
+| Amazon | $1.95 | $1.95 | $2.95 | Sold only in bundles of 10 |
+| Target | $1.99 | $2.99 | $3.99 | Highest prices in the comparison; free in-store pickup |
 
-- 15 small- 20 medium- 10 large- 5 specialty
+*Source: MovingPlace, "Cheapest Place to Buy Moving Boxes," based on publicly available prices as of January 2026. Amazon prices are per box within a bundle. Prices change with sales and pack size, and they can differ by store and location. Check before you buy.*
 
-**2-bedroom:** 60-80 boxes
+### Where to buy cheap moving boxes, store by store
 
-- 20 small- 30 medium- 15 large- 5 specialty
+**Walmart** had the lowest prices for plain boxes in the comparison above, about $1.69 per box on average. It's the easy choice for a studio or a small top-up order, and orders over $35 ship free.
 
-**3-bedroom house:** 100-120 boxes
+**Home Depot and Lowe's** differ by a few cents at most. Their real advantage is range: extra-large boxes, dish packs, wardrobe boxes, TV boxes, all in one trip, with tape and paper on the next shelf. At Home Depot a bundle usually beats single boxes on price. At Lowe's, do the math first: there, the per-box price can go up in a bundle.
 
-- 30 small- 40 medium- 20 large- 10 specialty
+**U-Haul** is about the same price for single boxes and cheaper per box in bundles of 25 small or 15 medium or large. Two other things make it worth a look. It has a strong selection of specialty boxes, and MovingPlace and Born to Move both describe a buy-back for unused, undamaged boxes (MovingPlace adds that you need the receipt). That's the closest thing to a no-risk overbuy. Ask about the terms at your location before you count on it.
 
-Pro tip: Everyone underestimates by 30%. Buy extra—unused boxes can be returned at most stores.
+**Uline and Amazon** make sense for volume or delivery. Uline is a bulk supplier, and Born to Move notes that its per-box price drops sharply from about 25 boxes, which suits a big household. Amazon sells boxes only in bundles of 10, at $1.95–$2.95 per box in the table above. You may end up with more than you need, but they come to your door.
 
-## Where to Buy Moving Boxes in LA
+**The UPS Store** and similar shipping shops sell sturdy, heavy-duty boxes, and 1-800-GOT-JUNK calls them a bit pricier. They're fine for a last-minute handful of boxes. For a whole apartment, the difference adds up fast.
 
-**SOS Moving:**
+## What a whole move's worth of boxes costs
 
-- Small: $4- Medium: $5- Large: $6- Delivered with your move- No separate trip needed
+Here's where the per-box price stops mattering as much as people think. Box count drives the total. MovingPlace estimates about 30 boxes for a one-bedroom (10 small, 10 medium, 10 large) and about 53 for a two-bedroom house (20 small, 20 medium, 13 large). At its January 2026 prices, that comes to:
 
-**Home Depot:**
+| Home | Walmart | Home Depot | U-Haul |
+|---|---|---|---|
+| 1 bedroom, ~30 boxes | ~$51 | ~$68 | ~$69 |
+| 2 bedrooms, ~53 boxes | ~$86 | ~$117 | ~$118 |
 
-- Small: $1.48- Medium: $2.35- Large: $2.97- Must transport yourself
+*Our math: box count × the store's price for each size. Example for a one-bedroom at Home Depot: 10 × $1.78 + 10 × $2.28 + 10 × $2.78 = $68.40. Bundles can bring these totals down; tape, paper and specialty boxes are extra.*
 
-**U-Haul:**
+So switching from Home Depot to Walmart saves about $18 on a one-bedroom and about $32 on a two-bedroom. Ten medium boxes you never unfold cost about $23 at Home Depot prices, which wipes out the one-bedroom saving. And a second trip across town because you ran out on Thursday night costs you an evening. If you want to cut the bill, getting the count right matters as much as picking the store. Our guide on [how many boxes you really need](/blog/boxes-for-moving-how-many-do-you-really-need) walks through it room by room.
 
-- Small: $1.98- Medium: $2.98- Large: $3.98- Buy-back program available
+## Free boxes: worth it if your time is free too
 
-**Lowe's:**
+Free boxes really do work. Liquor store boxes come with dividers for glasses. Book boxes are small and strong. Produce boxes from grocery stores are often double-walled. Most guides agree on the same short list: liquor stores, grocery stores, bookstores, offices, apartment complexes, recycling centers, plus Facebook Marketplace, Nextdoor, Buy Nothing, Craigslist and the U-Haul Box Exchange. We keep a separate list of [where to get free moving boxes in Los Angeles](/blog/where-to-get-free-moving-boxes-in-los-angeles), store by store.
 
-- Similar to Home Depot- 10% off for bulk purchases- Free delivery over $45
+The catch is what free boxes cost you in other ways:
 
-## Free Moving Boxes in Los Angeles
+- **Time.** Three or four pickups across LA can take a whole weekend. If you'd otherwise be working, those free boxes aren't free.
 
-**Best sources for quality free boxes:**
+- **Mixed sizes.** Odd sizes stack badly in a truck, and a crushed bottom row is how dishes break.
 
-**Liquor stores:** Wine boxes are strongest. Call Total Wine & More early morning. Boxes have dividers perfect for glassware.
+- **Condition.** Skip anything damp, stained, soft at the corners or smelling of food. Pests travel in cardboard.
 
-**Costco/Sam's Club:** Apple and banana boxes incredibly strong. Go mid-week mornings. Ask produce department directly.
+Our take: use free boxes for soft, light things like linens, pillows and clothes, and buy new ones for heavy and fragile items. You get most of the savings without trusting your plates to a box that held lettuce.
 
-**Bookstores:** Small, sturdy boxes. Barnes & Noble receives shipments Tuesdays/Thursdays.
+## Kits, bundles and buy-backs: other ways to pay less
 
-**Starbucks:** Call ahead for egg carton boxes—perfect for dishes.
+- **Compare bundles per box.** U-Haul and Home Depot bundles usually cost less per box than single boxes. But at some stores a bundle or kit costs the same or more than buying the boxes one by one. Do the division before you trust the word "kit."
 
-**McDonald's:** Fry boxes are perfect small size. Morning manager usually approves.
+- **Buy small and medium, not large.** A large box packed with books is too heavy to lift and likely to fail at the bottom. Most of a home packs into small and medium boxes. Large boxes are for bedding and lampshades.
 
-**Facebook Marketplace:** Search "moving boxes free." People who just moved give away everything.
+- **Keep the receipt.** Returns and buy-backs only help if you can prove the purchase. Leave unused boxes flat so they still count as unused.
 
-**Nextdoor app:** Post requesting boxes. Neighbors love helping and decluttering.
+- **Mix new and used.** New boxes for the kitchen and anything heavy, free ones for the closet.
 
-## Specialty Boxes Worth the Investment
+- **Declutter first.** Every bag you donate before packing is a box you don't buy.
 
-**Dish pack boxes ($7-10):** Double-walled for fragile items. Cheaper than replacing grandmother's china.
+## Should you rent plastic bins instead?
 
-**Mirror/picture boxes ($5-15):** Telescoping design fits any size. One scratch costs more than box.
+For a local move it's worth pricing. Rental companies drop off stackable plastic crates and pick them up afterward, so there's no tape, no assembling and no stack of cardboard to get rid of at the end. Born to Move puts rental at about $60–$150 a week for a one-bedroom and calls that comparable to buying new cardboard for the same move. Bins also need a fixed delivery and pickup date, and they're less practical for long-distance moves. We compare the two in [plastic bins vs. cardboard boxes](/blog/plastic-bins-vs-cardboard-boxes-for-moving).
 
-**TV boxes ($15-30):** Flat screens need proper protection. Original packaging ideal if saved.
+## Should you buy boxes from your moving company?
 
-**Mattress bags ($15-20):** Protects from dirt, moisture, bed bugs during move.
+Many movers sell boxes, and per box they're rarely the cheapest option. We'll say it plainly about our own boxes too. At SOS Moving, boxes come in S, M and L sizes and start at $4, more than twice what Home Depot charges for a small box. So if you're packing yourself over the next few weeks, a big-box store is the cheaper route.
 
-## Boxes to Avoid
+The math changes when the crew does the packing:
 
-**Damaged grocery boxes:** Spills weaken cardboard, attracts pests.
+- You pay only for the supplies you actually use. No pile of extras, no return trip, no guessing at the count.
 
-**Old moving boxes:** Previous use compromises strength.
+- Unlimited shrink wrap and tape are included in every quote at no charge. On a store-bought move, that's a separate line in your budget.
 
-**Oversized boxes:** Anything over 3 cubic feet becomes too heavy.
+- Wardrobe boxes come with every move at no extra charge, so the $12–$20 per wardrobe box drops out of the budget.
 
-**Paper ream boxes:** Too small, waste packing time.
+- Premium packing paper and bubble wrap are available for dishes, glass and art.
 
-**Wet produce boxes:** Moisture destroys bottom during move.
+- Packing is done by the hour, like the move itself, so you're paying for crew time and supplies, not a flat package.
 
-## Professional Packing Supplies
+If you need boxes and packing materials from us, the movers can bring them. Just mention it to our operators in advance.
 
-Beyond boxes, SOS Moving offers:
+Packing can also be full or partial. You might pack books, clothes and closets yourself in cheap store boxes and leave the kitchen and fragile items to the crew. One thing to know before you split the job: items you pack yourself aren't covered by our moving insurance, so breakables and valuables are better left to the crew.
 
-- Packing paper: $55 per 600 sheets- Bubble wrap: $55 per roll- Free shrink wrap (included with service)- Free tape (included with service)- Free wardrobe boxes (return after move)
+## Which box sizes to buy
 
-Compare to retail:
+- **Small (about 1.5 cu ft):** books, files, tools, canned food. Anything dense.
 
-- Packing paper elsewhere: $80-100- Bubble wrap elsewhere: $70-90- Tape: $5-10 per roll- Shrink wrap: $20-30
+- **Medium (about 3 cu ft):** kitchen items, toys, small appliances, folded clothes. This is the size you'll buy most of.
 
-## Money-Saving Box Strategy
+- **Large (about 4.5 cu ft):** pillows, towels, bedding, lampshades. Light and bulky only.
 
-**Week 4 before move:** Start collecting free boxes from stores.
+- **Specialty:** a dish pack for glassware, a wardrobe box for clothes on hangers, a TV box if you no longer have the original packaging.
 
-**Week 2 before move:** Assess what you have, buy additional boxes needed.
+Sizes vary a little from store to store, so a "medium" at one shop may be a bit bigger than at another. For what goes where, see [how to choose the right size of moving boxes](/blog/how-to-choose-the-right-size-of-moving-boxes), and decide whether you need [wardrobe boxes](/blog/wardrobe-boxes-are-they-worth-the-investment) before paying $12–$20 apiece for them. On an SOS move, they're included at no extra charge.
 
-**Week 1 before move:** Get specialty boxes for valuables.
+## Rather not deal with boxes at all?
 
-**Moving day:** Use wardrobe boxes from movers for clothes.
+If the box hunt is the part of the move you dread, our crews can bring the boxes and do the packing for you, fully or partially. You pay by the hour for the crew and only for the supplies you actually use. Boxes start at $4, and shrink wrap, tape and wardrobe boxes cost nothing extra. Tell our operators in advance that you need boxes. See what's included in our [packing services in Los Angeles](/services/packing-services), or call 909-443-0004 for an estimate.
 
-This hybrid approach typically saves $100-200 on packing supplies.
+## Moving boxes: frequently asked questions
 
-## Box Assembly Tips
+### Where is the cheapest place to buy moving boxes?
 
-- Tape bottom with 'H' pattern—across seam plus perpendicular strips- Don't overfill—tops should close without forcing- Heavy items in small boxes only- Fill gaps with paper to prevent shifting- Label on sides, not tops (boxes get stacked)
+For new boxes, Walmart had the lowest prices in MovingPlace's January 2026 comparison: $1.08 small, $1.73 medium and $2.26 large. Home Depot, Lowe's and U-Haul charge roughly 50–70 cents more per box. Bundles at U-Haul and Home Depot bring the per-box price down.
 
-## Environmental Considerations
+### Who has the cheapest moving boxes: Home Depot, Lowe's or U-Haul?
 
-Americans use 100 billion cardboard boxes annually. After your move:
+They're nearly tied. In MovingPlace's January 2026 check, a small box cost $1.77 at U-Haul and $1.78 at Lowe's and Home Depot, and Lowe's is often a few cents cheaper than Home Depot. The bigger differences are bundles and return policies, so compare those instead of the shelf price.
 
-- Offer boxes on Craigslist/Nextdoor- Recycle at any LA Sanitation center- Some U-Haul locations buy back unused boxes- SOS Moving's wardrobe boxes are reusable—we handle that
+### How much do moving boxes cost for a whole move?
 
-## The Hidden Cost of Cheap Boxes
+Roughly $50–$70 for a one-bedroom (about 30 boxes) and $85–$120 for a two-bedroom (about 53 boxes) at big-box store prices from January 2026. Tape, paper and specialty boxes are extra. Your total depends far more on the number of boxes than on the store.
 
-Saved $50 on flimsy boxes? One collapsed box destroying your electronics costs far more. Professional boxes with professional movers ensure safe transport.
+### What's the cheapest way to get boxes for moving?
 
-## Get Your Moving Supplies Sorted
+Collect free boxes for soft and light items, buy new small and medium boxes for heavy and fragile things, and get the count right before you shop. Overbuying wastes about as much money as picking the wrong store.
 
-Stop driving around town collecting boxes. SOS Moving delivers everything with your move—boxes at $4-6, professional packing materials, and free wardrobe boxes for hanging clothes.
+### Can I return unused moving boxes?
 
-Call 909-443-0004 to add box delivery to your move. One truck, one delivery, one simple solution. Focus on organizing while we handle the supplies.
+Often, yes. MovingPlace says U-Haul buys back unused boxes if you have the receipt, and Walmart and Home Depot take boxes back within their standard return windows. Keep the receipt and leave the boxes flat.
 
-‍
+### Are free moving boxes strong enough?
+
+Clean, dry, uncrushed ones are, especially boxes from liquor stores and bookstores. Avoid produce boxes that got wet and anything with soft corners. For dishes and electronics, new boxes are the safer bet.
+
+### Do moving companies provide boxes?
+
+Many sell them. SOS Moving's movers can bring boxes in S, M and L sizes, from $4, if you mention it to our operators in advance. You pay only for the supplies you actually use, and shrink wrap, tape and wardrobe boxes come with every move at no extra charge.
+
+### What should I do with moving boxes after the move?
+
+Pass them on through Nextdoor, Buy Nothing or Facebook Marketplace, or flatten and recycle them. We've collected more options in [what to do with moving boxes after moving](/blog/what-to-do-with-moving-boxes-after-moving).
