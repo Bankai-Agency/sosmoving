@@ -34,7 +34,10 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       ...brokenLinkRedirects(),
-      { source: "/:path+/", destination: "/:path+", permanent: true },
+      // /k7rq/ is the Google tag gateway path (app/k7rq): Google's snippet
+      // requests "/k7rq/?id=…" with the slash, a redirect there would add a
+      // hop to every tag load and break its health check.
+      { source: "/:path((?!k7rq(?:/|$)).+)/", destination: "/:path", permanent: true },
     ];
   },
   async headers() {
