@@ -63,6 +63,14 @@ form { display: block !important; }
   overflow: clip;
 }
 
+/* Ad landing copies (html.sos-ads, see SiteShell): with the menu and the
+   social icons cut out, the header's flex row has one child left - the
+   phone and the quote button - which space-between would park next to the
+   logo. Keep it on the right, where it sits on every other page. */
+html.sos-ads .navbar-menu {
+  justify-content: flex-end;
+}
+
 .breadcrumbs-link.w--current {
   color: var(--accent-color);
 }

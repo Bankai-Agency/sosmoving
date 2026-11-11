@@ -41,10 +41,20 @@ const GTM_ID = "GTM-5QSS53C9";
 export function SiteShell({
   children,
   footerAreas = true,
+  variant = "site",
 }: Readonly<{
   children: React.ReactNode;
   footerAreas?: boolean;
+  /**
+   * "ads": the ad landing copies. No way off the page except the phone and
+   * the quote button - the header loses its menu, Login, social icons, the
+   * burger and the call-back tab, the exit popup is not rendered, and
+   * custom-scripts.js leaves the chat widget out on /ads/ paths. The html
+   * class lets the stylesheet right-align what is left of the header.
+   */
+  variant?: "site" | "ads";
 }>) {
+  const ads = variant === "ads";
   return (
     <html
       lang="en"
@@ -52,7 +62,7 @@ export function SiteShell({
       // drive the page; the Webflow runtime is the fallback, see the flag
       // script below. Rendered on the server so the first paint already has
       // the native rest states (no flash of IX2-less cards).
-      className="w-mod-js sos-native"
+      className={ads ? "w-mod-js sos-native sos-ads" : "w-mod-js sos-native"}
       data-wf-site="645ab1d97922876b775bef4f"
     >
       <head>
@@ -118,8 +128,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','${GTM_ID}');`}
         </Script>
-        <SharedHtmlBlock name="exit-popup" />
-        <SharedHtmlBlock name="navbar" />
+        {!ads && <SharedHtmlBlock name="exit-popup" />}
+        <SharedHtmlBlock name="navbar" variant={variant} />
         {children}
         <SharedHtmlBlock name="footer" footerAreas={footerAreas} />
         <ScriptLoader />

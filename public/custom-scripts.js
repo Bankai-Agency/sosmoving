@@ -104,7 +104,9 @@ if (window.innerWidth > 991) {
     '/services/shared-load-moving'
   ];
 
-  if (!excludedPages.includes(window.location.pathname)) {
+  // The ad landing copies (/ads/*) never get the chat: nothing on them
+  // should pull the visitor away from the quote form.
+  if (!excludedPages.includes(window.location.pathname) && !window.location.pathname.startsWith('/ads/')) {
     let chatbotLoaded = false;
 
     function loadChatbot() {
