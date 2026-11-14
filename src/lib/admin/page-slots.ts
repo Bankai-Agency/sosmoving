@@ -7,7 +7,7 @@
  *
  * Slots v1 (the content that actually varies between city pages):
  *   - hero H1        (lines; <br> is the line separator, wrapper tag kept)
- *   - hero subtitle  (plain text; $NNN/hr tokens re-wrapped in the yellow
+ *   - hero subtitle  (lines like the H1, <br> is the separator; $NNN/hr tokens re-wrapped in the yellow
  *                     `.text-span` highlight, rest in <strong> — the exact
  *                     markup pattern the pages already use)
  *   - FAQ            (question/answer pairs; only "simple" items are
@@ -107,7 +107,13 @@ function extractHeroSubtitle(html: string, afterH1: HeroH1Slot | null): HeroSubt
   const m = /<div class="section-subtitle[^"]*">([\s\S]*?)<\/div>/.exec(html.slice(from));
   if (!m) return null;
   if (m[1].includes("<div")) return null; // unexpected nesting — don't touch
-  const text = decodeEntities(stripTags(m[1])).trim();
+  // One text line per <br>, like the H1: the editor shows them as lines of
+  // the textarea and a forced break survives a save instead of collapsing.
+  const text = m[1]
+    .split(/<br\s*\/?>/)
+    .map((part) => decodeEntities(stripTags(part)).trim())
+    .filter((l) => l !== "")
+    .join("\n");
   if (!text) return null;
   // Some pages wrap the subtitle in <strong>, some don't — keep whichever
   // weight the page had.
@@ -184,22 +190,30 @@ const PRICE_RE = /\$\d+(?:\.\d{1,2})?\/hr/g;
 
 function rebuildSubtitle(slot: HeroSubtitleSlot, text: string): string {
   const openTag = /^<div[^>]*>/.exec(slot.original)![0];
-  const trimmed = text.trim();
   const seg = (s: string) => (slot.bold ? `<strong>${encodeText(s)}</strong>` : encodeText(s));
   const price = (s: string) =>
     slot.bold
       ? `<span class="text-span"><strong>${encodeText(s)}</strong></span>`
       : `<span class="text-span">${encodeText(s)}</span>`;
-  let inner = "";
-  let last = 0;
-  for (const m of trimmed.matchAll(PRICE_RE)) {
-    const before = trimmed.slice(last, m.index);
-    if (before) inner += seg(before);
-    inner += price(m[0]);
-    last = m.index! + m[0].length;
-  }
-  const tail = trimmed.slice(last);
-  if (tail) inner += seg(tail);
+  const line = (trimmed: string) => {
+    let inner = "";
+    let last = 0;
+    for (const m of trimmed.matchAll(PRICE_RE)) {
+      const before = trimmed.slice(last, m.index);
+      if (before) inner += seg(before);
+      inner += price(m[0]);
+      last = m.index! + m[0].length;
+    }
+    const tail = trimmed.slice(last);
+    if (tail) inner += seg(tail);
+    return inner;
+  };
+  const inner = text
+    .split("\n")
+    .map((l) => l.trim())
+    .filter(Boolean)
+    .map(line)
+    .join("<br>");
   return `${openTag}${inner}</div>`;
 }
 

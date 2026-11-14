@@ -66,9 +66,9 @@ export function PageContentForm({ slug, baseHash, heroH1, heroSubtitle, faq, ima
           {heroSubtitle && (
             <div className="flex flex-col gap-1.5">
               <Label htmlFor="hero_subtitle">
-                Подзаголовок · цена вида $119/hr автоматически подсветится жёлтым
+                Подзаголовок · цена вида $119/hr автоматически подсветится жёлтым · Enter = новая строка
               </Label>
-              <Input id="hero_subtitle" name="hero_subtitle" defaultValue={heroSubtitle} />
+              <Textarea id="hero_subtitle" name="hero_subtitle" defaultValue={heroSubtitle} rows={2} />
             </div>
           )}
         </Card>
