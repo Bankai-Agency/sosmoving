@@ -259,6 +259,9 @@
       var nav = document.querySelector('header, body > .header, body > .w-nav:not([data-no-scroll])');
       var offset = nav && getComputedStyle(nav).position === 'fixed' ? nav.offsetHeight : 0;
       var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
+      // The runtime ignored it; a target that asks for room (a fixed header
+      // over #quote on the ad landing) gets it here.
+      top -= parseFloat(getComputedStyle(el).scrollMarginTop) || 0;
       if (el.getAttribute('data-scroll') === 'mid') {
         var avail = window.innerHeight - offset, h = el.offsetHeight;
         if (h < avail) top -= Math.round((avail - h) / 2);

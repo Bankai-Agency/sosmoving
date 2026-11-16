@@ -492,6 +492,12 @@
     });
 
 // --- ОБЪЯВЛЕНИЯ ВСЕХ ФУНКЦИЙ ---
+// State shared between the beforeinput and input handlers of the phone
+// mask. They used to be implicit globals created on first beforeinput; an
+// input event that arrived without one (autofill, some paste paths) read
+// them before they existed and threw "prevNumberCaretPosition is not
+// defined" (Clarity: ~10% of sessions).
+var prevNumberCaretPosition = 0, prevRawNumber = "", selectedNumberCount = 0;
 function addInputPhoneMask() {
     let e = document.querySelectorAll("input.is-phone"), t = /\D/g, s = (e) => e.value.replace(t, ""),
         a = (e) => {
