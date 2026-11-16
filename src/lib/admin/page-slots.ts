@@ -6,7 +6,9 @@
  * hand edit (matters for the 1:1 Webflow parity of everything else).
  *
  * Slots v1 (the content that actually varies between city pages):
- *   - hero H1        (lines; <br> is the line separator, wrapper tag kept)
+ *   - hero H1        (lines; <br> is the line separator and each original
+ *                     <br …> tag is kept as it was - a <br class="m-br"> that
+ *                     breaks on phones only survives an edit - wrapper tag kept)
  *   - hero subtitle  (lines like the H1, <br> is the separator; $NNN/hr tokens re-wrapped in the yellow
  *                     `.text-span` highlight, rest in <strong> — the exact
  *                     markup pattern the pages already use)
@@ -19,8 +21,9 @@
  * unit-testable against the real page files.
  */
 
-export type HeroH1Slot = { lines: string[]; original: string };
-export type HeroSubtitleSlot = { text: string; original: string; bold: boolean };
+export type HeroH1Slot = { lines: string[]; breaks: string[]; original: string };
+export type HeroSubtitleSlot = { text: string; breaks: string[];
+  original: string; bold: boolean };
 export type FaqSlot = {
   q: string;
   a: string; // plain text, paragraphs separated by a blank line
@@ -91,15 +94,43 @@ function extractHeroH1(html: string): HeroH1Slot | null {
   let m: RegExpExecArray | null;
   while ((m = re.exec(html)) !== null) {
     if (stripTags(m[1]).trim() !== "") {
-      const lines = m[1]
-        .split(/<br\s*\/?>/)
-        .map((part) => decodeEntities(stripTags(part)).trim())
-        .filter((l) => l !== "");
+      const { lines, breaks } = splitLines(m[1]);
       if (lines.length === 0) return null;
-      return { lines, original: m[0] };
+      return { lines, breaks, original: m[0] };
     }
   }
   return null;
+}
+
+/**
+ * Text lines of an inline fragment and the exact <br …> tokens between them
+ * (tag plus the whitespace around it). Rebuilding with the same tokens keeps
+ * a page byte-identical and keeps mobile-only breaks (<br class="m-br"> plus
+ * the space that separates the words when it is hidden on desktop).
+ */
+function splitLines(inner: string): { lines: string[]; breaks: string[] } {
+  const lines: string[] = [];
+  const breaks: string[] = [];
+  const tokens = inner.split(/(\s*<br\b[^>]*>\s*)/i);
+  tokens.forEach((tok, i) => {
+    if (i % 2 === 1) {
+      // A break right after a line; breaks before any text or doubled breaks are dropped.
+      if (lines.length > breaks.length) breaks.push(tok);
+      return;
+    }
+    const text = decodeEntities(stripTags(tok)).trim();
+    if (text !== "") lines.push(text);
+  });
+  if (breaks.length >= lines.length) breaks.length = Math.max(0, lines.length - 1);
+  return { lines, breaks };
+}
+
+function joinLines(lines: string[], breaks: string[], render: (line: string) => string): string {
+  return lines
+    .map((l) => l.trim())
+    .filter(Boolean)
+    .map((l, i, arr) => render(l) + (i < arr.length - 1 ? (breaks[i] ?? "<br>") : ""))
+    .join("");
 }
 
 function extractHeroSubtitle(html: string, afterH1: HeroH1Slot | null): HeroSubtitleSlot | null {
@@ -109,15 +140,12 @@ function extractHeroSubtitle(html: string, afterH1: HeroH1Slot | null): HeroSubt
   if (m[1].includes("<div")) return null; // unexpected nesting — don't touch
   // One text line per <br>, like the H1: the editor shows them as lines of
   // the textarea and a forced break survives a save instead of collapsing.
-  const text = m[1]
-    .split(/<br\s*\/?>/)
-    .map((part) => decodeEntities(stripTags(part)).trim())
-    .filter((l) => l !== "")
-    .join("\n");
+  const { lines, breaks } = splitLines(m[1]);
+  const text = lines.join("\n");
   if (!text) return null;
   // Some pages wrap the subtitle in <strong>, some don't — keep whichever
   // weight the page had.
-  return { text, original: m[0], bold: /<strong>/.test(m[1]) };
+  return { text, breaks, original: m[0], bold: /<strong>/.test(m[1]) };
 }
 
 function extractFaq(html: string): FaqSlot[] {
@@ -178,7 +206,7 @@ export function extractSlots(html: string): PageSlots {
 function rebuildH1(slot: HeroH1Slot, lines: string[]): string {
   const openTag = /^<h1[^>]*>/.exec(slot.original)![0];
   const inner = slot.original.slice(openTag.length, -"</h1>".length);
-  const newInner = lines.map((l) => encodeText(l.trim())).filter(Boolean).join("<br>");
+  const newInner = joinLines(lines, slot.breaks, encodeText);
   // Keep a single full-width wrapper (<strong>/<span ...>) when present so
   // the page's typography classes survive the edit.
   const w = /^\s*<(strong|span)([^>]*)>([\s\S]*)<\/\1>\s*$/.exec(inner);
@@ -208,12 +236,7 @@ function rebuildSubtitle(slot: HeroSubtitleSlot, text: string): string {
     if (tail) inner += seg(tail);
     return inner;
   };
-  const inner = text
-    .split("\n")
-    .map((l) => l.trim())
-    .filter(Boolean)
-    .map(line)
-    .join("<br>");
+  const inner = joinLines(text.split("\n"), slot.breaks, line);
   return `${openTag}${inner}</div>`;
 }
 
