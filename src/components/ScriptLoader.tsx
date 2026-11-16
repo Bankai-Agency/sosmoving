@@ -113,10 +113,15 @@ export default function ScriptLoader() {
         loadStyle('/sos-main.css');
 
         // ── Step 6: jQuery plugins (parallel, jQuery already loaded) ──
+        // No Finsweet scrolldisable any more: it only locked body scroll under
+        // the open mobile menu, which both the native navbar (sos-native.js)
+        // and the Webflow fallback do themselves. Its iOS branch read the
+        // non-existent window.top.body and threw on every menu open on iPhones
+        // (Clarity's top mobile error), and on other browsers it raced our lock
+        // and left body overflow:hidden after the menu closed.
         await Promise.all([
           loadScript('/vendor/slick.min.js'),
           loadScript('/vendor/masonry.pkgd.min.js'),
-          loadScript('/vendor/scrolldisable.js'),
           loadScript('/vendor/jquery.inputmask.min.js'),
           loadScript('/vendor/datepicker.min.js'),
           loadScript('/vendor/select2.min.js'),
