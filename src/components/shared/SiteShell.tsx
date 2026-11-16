@@ -42,9 +42,17 @@ export function SiteShell({
   children,
   footerAreas = true,
   variant = "site",
+  chrome = true,
 }: Readonly<{
   children: React.ReactNode;
   footerAreas?: boolean;
+  /**
+   * false: no shared navbar/footer here - the page renders them itself. The
+   * (ads) group does that so one landing can carry its own footer and point
+   * the header's quote button at its form while the other copies keep the
+   * shared chrome.
+   */
+  chrome?: boolean;
   /**
    * "ads": the ad landing copies. No way off the page except the phone and
    * the quote button - the header loses its menu, Login, social icons, the
@@ -129,9 +137,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','${GTM_ID}');`}
         </Script>
         {!ads && <SharedHtmlBlock name="exit-popup" />}
-        <SharedHtmlBlock name="navbar" variant={variant} />
+        {chrome && <SharedHtmlBlock name="navbar" variant={variant} />}
         {children}
-        <SharedHtmlBlock name="footer" footerAreas={footerAreas} />
+        {chrome && <SharedHtmlBlock name="footer" footerAreas={footerAreas} />}
         <ScriptLoader />
       </body>
     </html>

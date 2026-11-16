@@ -22,9 +22,12 @@ function read(name: string): string {
  */
 const ADS_NAVBAR_REMOVE = '.navbar-dropdowns, .navbar-socials-box, .navbar-menu-button, .callback-widget';
 
-function adsNavbar(html: string): string {
+function adsNavbar(html: string, quoteHref?: string): string {
   const $ = cheerio.load(html, null, false);
   $(ADS_NAVBAR_REMOVE).remove();
+  // The v2 landing keeps the visitor on its own quote form: the header
+  // button scrolls to it instead of leaving for /free-estimate.
+  if (quoteHref) $('a.is-navbar-button').attr('href', quoteHref);
   return $.html();
 }
 
@@ -43,15 +46,18 @@ export function SharedHtmlBlock({
   name,
   footerAreas = true,
   variant = 'site',
+  quoteHref,
 }: {
   name: 'navbar' | 'footer' | 'exit-popup';
   footerAreas?: boolean;
   /** "ads": the stripped-down header of the ad landing copies. */
   variant?: 'site' | 'ads';
+  /** ads navbar only: where the header's quote button points (default: the shared markup's /free-estimate). */
+  quoteHref?: string;
 }) {
   let html = read(name);
   if (!html) return null;
   if (name === 'footer') html = html.replace('<!--footer-areas-->', footerAreas ? read('footer-areas') : '');
-  if (name === 'navbar' && variant === 'ads') html = adsNavbar(html);
+  if (name === 'navbar' && variant === 'ads') html = adsNavbar(html, quoteHref);
   return <div data-shared-block={name} dangerouslySetInnerHTML={{ __html: html }} />;
 }

@@ -15,8 +15,11 @@ export default function AdsRootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Header and footer are rendered by the page (see ads/[slug]/page.tsx):
+  // the v2 landing carries its own footer and a header button that scrolls
+  // to its form, the other copies get the shared chrome there.
   return (
-    <SiteShell variant="ads" footerAreas={false}>
+    <SiteShell variant="ads" chrome={false}>
       {children}
     </SiteShell>
   );
