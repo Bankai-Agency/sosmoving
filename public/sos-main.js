@@ -200,6 +200,13 @@
     }
     formData.field_last_name = formData.field_last_name || "n/a";
     if (!formData.page_path) formData.page_path = window.location.href;
+    // The click id and UTM tags reach the CRM inside page_path (there are no
+    // separate fields on the MoveBoard side). The submit URL only carries
+    // them when the lead is sent on the landing page itself; a visitor who
+    // came back later gets the first-touch values custom-scripts.js keeps
+    // in the attribution cookie appended here, so the lead still names its
+    // campaign. Values already in the URL are never overwritten.
+    formData.page_path = withAttributionParams(formData.page_path);
 
     if (!formData.field_date) {
         var now = new Date();
@@ -492,6 +499,25 @@
     });
 
 // --- ОБЪЯВЛЕНИЯ ВСЕХ ФУНКЦИЙ ---
+// page_path + the first-touch click id / UTM tags that are not in it yet.
+// `gclid` in the attribution also holds a gbraid/wbraid when that is what
+// the landing URL had; it is appended under the gclid name - the CRM side
+// searches page_path for that word.
+function withAttributionParams(url) {
+    try {
+        var attr = typeof window.sosAttribution === "function" ? window.sosAttribution() : null;
+        if (!attr) return url;
+        var u = new URL(url, window.location.origin);
+        var hasClickId = u.searchParams.has("gclid") || u.searchParams.has("gbraid") || u.searchParams.has("wbraid");
+        if (attr.gclid && !hasClickId) u.searchParams.set("gclid", attr.gclid);
+        ["msclkid", "fbclid", "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content"].forEach(function (k) {
+            if (attr[k] && !u.searchParams.has(k)) u.searchParams.set(k, attr[k]);
+        });
+        return u.toString();
+    } catch (e) {
+        return url;
+    }
+}
 // State shared between the beforeinput and input handlers of the phone
 // mask. They used to be implicit globals created on first beforeinput; an
 // input event that arrived without one (autofill, some paste paths) read
